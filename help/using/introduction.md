@@ -10,7 +10,7 @@ topic-tags: 概要
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: c44bb0d7-5d91-4659-878e- a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * [フォームボタン](form-button.md)
 * [カルーセル](carousel.md)
 * [フォームコンテナ](form-container.md)
-* [Content Fragment](content-fragment-component.md)
+* [コンテンツフラグメント](content-fragment-component.md)
 * [コンテンツフラグメントリスト](content-fragment-list.md)
 * [フォーム非表示](form-hidden.md)
 * [フォームオプション](form-options.md)
@@ -116,11 +116,3 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 Foundationコンポーネントは多数のバージョンにわたるプロジェクト開発の基盤として提供されているため、今後も今後も引き続きサポートされます。
 
 ただし、アドビの開発の強調はコアコンポーネントに変更され、新機能が追加されます。これは、Foundationコンポーネントに対するバグ修正のみです。
-
-<!-- 
-Comment Type: annotation
-Last Modified By: pid90611
-Last Modified Date: 2018-03-27T09:06:05.428-0400
-
-Same comment as above, need to check with Gabriel if this needs some note about what will happen with the deprecated components after the next cycle.
--->
