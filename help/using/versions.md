@@ -10,7 +10,7 @@ topic-tags: 概要
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdsc
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -65,21 +65,21 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
 
 | リリース | 説明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | このリリースは、コンテンツフラグメントリストコンポーネントを導入しました | 6.3.3.0 | 6.4.2.0 | 6.5.0.0 | 1.8 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | このリリースはコンポーネントライブラリの調整に重点を置いていますが、セパレータコンポーネントの機能強化も含まれています | 6.3.3.0 | 6.4.2.0 | 6.5.0.0 | 1.8 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | このリリースはコンポーネントライブラリに加え、新しいセパレータコンポーネントを導入していますが、画像コンポーネントの機能強化も含まれています | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | このリリースは主にバグ修正に重点を置いていますが、カルーセルコンポーネントの機能強化も含まれています | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 追加されたタブおよびカルーセルコンポーネント、画像、ページ、タイトルコンポーネント、拡張トラッキングの機能強化 | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Teaserコンポーネントの導入、画像コンポーネントの改善、多数のバグ修正 | 6.3.3.0 | 6.4.2.0 | 1.8 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | バグ修正リリース | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | その他のサポートされている機能強化、バグ修正、および画像のフリップのサポートなどの小さな改善点です。 | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | ほとんどの機能強化、バグ修正、画像、ページ、コンテンツフラグメントコンポーネントの一部のマイナーな改善点があります | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | ナビゲーション、言語ナビゲーション、クイック検索のコンポーネントが導入されました。すべてのコンポーネントに対して実装されるスタイルシステム。 | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | すべてのコンポーネントに対するJSONエクスポートの実装、コンテンツフラグメントコンポーネントの導入 | 6.3.1.0 | 6.4.0.0 | 1.8 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 画像コンポーネントに関するいくつかの修正点 | 6.3.0.0 | 6.4.0.0 | - | 1.8 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | ページコンポーネント、画像コンポーネント、さまざまなグローバル修正および改善点 | 6.3.0.0 | 6.4.0.0 | - | 1.8 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 画像コンポーネントのアニメーションGIF画像の修正点 | 6.3.0.0 | 6.4.0.0 | - | 1.7 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | コアコンポーネントの初回リリース | 6.3.0.0 | 6.4.0.0 | - | 1.7 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | このリリースは、コンテンツフラグメントリストコンポーネントを導入しました | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | このリリースはコンポーネントライブラリの調整に重点を置いていますが、セパレータコンポーネントの機能強化も含まれています | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | このリリースはコンポーネントライブラリに加え、新しいセパレータコンポーネントを導入していますが、画像コンポーネントの機能強化も含まれています | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | このリリースは主にバグ修正に重点を置いていますが、カルーセルコンポーネントの機能強化も含まれています | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 追加されたタブおよびカルーセルコンポーネント、画像、ページ、タイトルコンポーネント、拡張トラッキングの機能強化 | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Teaserコンポーネントの導入、画像コンポーネントの改善、多数のバグ修正 | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | バグ修正リリース | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | その他のサポートされている機能強化、バグ修正、および画像のフリップのサポートなどの小さな改善点です。 | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | ほとんどの機能強化、バグ修正、画像、ページ、コンテンツフラグメントコンポーネントの一部のマイナーな改善点があります | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | ナビゲーション、言語ナビゲーション、クイック検索のコンポーネントが導入されました。すべてのコンポーネントに対して実装されるスタイルシステム。 | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | すべてのコンポーネントに対するJSONエクスポートの実装、コンテンツフラグメントコンポーネントの導入 | 6.3.1.0 | 6.4.0.0+ | - | 8 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 画像コンポーネントに関するいくつかの修正点 | 6.3.0.0+ | 6.4.0.0+ | - | 8 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | ページコンポーネント、画像コンポーネント、さまざまなグローバル修正および改善点 | 6.3.0.0+ | 6.4.0.0+ | - | 8 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 画像コンポーネントのアニメーションGIF画像の修正点 | 6.3.0.0+ | 6.4.0.0+ | - | 7 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | コアコンポーネントの初回リリース | 6.3.0.0+ | 6.4.0.0+ | - | 7 |
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
 | **[フォームオプション](form-options.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
 | **[フォーム非表示](form-hidden.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
 | **[フォームボタン](form-button.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[Content Fragment](content-fragment-component.md)** | サンドボックス | v1 | v1 | v1 | v1 |
+| **[コンテンツフラグメント](content-fragment-component.md)** | サンドボックス | v1 | v1 | v1 | v1 |
 | **[ナビゲーション](navigation.md)** | v1 | v1 | v1 | v1 |
 | **[言語ナビゲーション](language-navigation.md)** | v1 | v1 | v1 | v1 |
 | **[クイック検索](quick-search.md)** | v1 | v1 | v1 | v1 |
