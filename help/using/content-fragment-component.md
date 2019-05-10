@@ -10,7 +10,7 @@ topic-tags: オーサリング
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: f093f58e-9755-4a4f-803a- ab93a50e6870
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
 
 ## 技術的詳細 {#technical-details}
 
-コンテンツフラグメントコンポーネント [に関する最新の技術ドキュメントは、GitHubで入手](https://github.com/adobe/aem-core-wcm-components/blob/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)できます。
+コンテンツフラグメントコンポーネント [に関する最新の技術ドキュメントは、GitHubで入手](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment)できます。
 
 コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -59,7 +59,7 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
 
 ![](assets/chlimage_1-87.png)
 
-* **Content Fragment**
+* **コンテンツフラグメント**
 
    * 目的のコンテンツフラグメントへのパス
    * **選択ダイアログ** を使用してフラグメントを検索できます
