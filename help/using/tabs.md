@@ -8,7 +8,7 @@ content-type: リファレンス
 topic-tags: コアコンポーネント
 discoiquuid: 966d47fb- d35d-4103- b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 

@@ -8,7 +8,7 @@ content-type: リファレンス
 topic-tags: オーサリング
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: d683f8110b514860bba11e08e6923be49e92652f
 
 ---
 

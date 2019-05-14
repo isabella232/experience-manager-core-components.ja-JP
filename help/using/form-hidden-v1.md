@@ -9,7 +9,7 @@ products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: d35f4e71- ec7f-4128-9123- b997dbb5f0cf
 index: n
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
