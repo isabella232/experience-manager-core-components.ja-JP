@@ -10,7 +10,7 @@ topic-tags: オーサリング
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: f093f58e-9755-4a4f-803a- ab93a50e6870
 translation-type: tm+mt
-source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
+source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
 
 ---
 
@@ -40,6 +40,18 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 | コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
 | v1 | 互換性 | 互換性 | 互換性 |
+
+>[!NOTE]
+>
+>リリース2.4.0より前のバージョンでは、コンテンツフラグメントコンポーネントは拡張子フォルダー内にありました。
+>
+> `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
+> 
+>2.4.0から、次の場所に移動しました。
+>
+>`apps/core/wcm/components/contentfragment/v1/contentfragment`
+>
+>v1はどちらもv1ですが、拡張機能フォルダーから使用されたコンテンツフラグメントコンポーネントは、それに関連するプロキシコンポーネントの移行に必要となります。これにより、リリース2.4.0以降のコアコンポーネントにアップグレードするときに、新しいリソースタイプを使用する必要があります。
 
 コアコンポーネントバージョンとリリースについて詳しくは、ドキュメント [コアコンポーネントバージョン](versions.md)を参照してください。
 
