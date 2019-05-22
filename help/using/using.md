@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -132,13 +132,13 @@ Load the Core Client Libraries sounds way better
 
 ## コンポーネントの許可 {#allow-the-components}
 
-通常、次の手順は [テンプレートエディターで実行され](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)ます。ただし、既存の設定では、これはデザインモードで実行されます。
+[テンプレートエディターでは、次の手順が実行](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)されます。
 
-1. テンプレートエディター（またはデザインモード）で、レイアウトコンテナ（またはparsys）を選択し、そのポリシー（またはデザイン設定）を開きます。
+1. テンプレートエディターで、レイアウトコンテナを選択し、そのポリシーを開きます。
 1. 許可されているコンポーネントのリストで、以前に作成したプロキシコンポーネントを選択します。これは、割り当てられているコンポーネントグループの下に表示されます。完了したら、変更を適用します。
 1. オプションとして、デザインダイアログを持つコンポーネントの場合は、事前に設定できます。
 
-そのため、編集したテンプレートから作成されたページで、新しく作成したコンポーネントを使用できるようになります。
+これで問題ありません。編集したテンプレートから作成されたページで、新しく作成したコンポーネントを使用できるようになります。
 
 **関連項目：**
 
