@@ -10,7 +10,7 @@ topic-tags: 概要
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: c44bb0d7-5d91-4659-878e- a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -94,7 +94,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 ## WKNDデベロッパーチュートリアル {#wknd-developer-tutorial}
 
-[この手順に従って、コアコンポーネントを使用してAEMサイトの開発を開始します。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+この手順に [従って、コアコンポーネントを使用してAEMサイトの開発を開始します。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## コアコンポーネントのサポート {#core-components-support}
 
@@ -115,4 +115,4 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 Foundationコンポーネントは多数のバージョンにわたるプロジェクト開発の基盤として提供されているため、今後も今後も引き続きサポートされます。
 
-ただし、アドビの開発の強調はコアコンポーネントに変更され、新機能が追加されます。これは、Foundationコンポーネントに対するバグ修正のみです。
+ただし、アドビの開発の強調はコアコンポーネントに移動し、新機能が追加されます。ほとんど [すべてのFoundationコンポーネントは、AEM6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) では廃止されており、Foundationコンポーネントについては今後のバグ修正のみが行われます。
