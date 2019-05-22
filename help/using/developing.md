@@ -10,7 +10,7 @@ topic-tags: 開発中
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: 157a2ec3-9fca-4fad-977a- d93013eeb218
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -45,9 +45,9 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 >[!CAUTION]
 >
->コアコンポーネントにはAEM6.3以降およびJava8が必要です。
+>コアコンポーネントにはAEM6.3以降およびJava8が必要で、編集可能なテンプレートの [使用が必要](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
->コアコンポーネントは、クラシック UI では動作しません。
+>コアコンポーネントは、クラシックUIと静的テンプレートでは機能しません。
 
 ## Gems Session Overview {#gems-session-overview}
 
@@ -57,7 +57,7 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 ## WKNDデベロッパーチュートリアル {#wknd-developer-tutorial}
 
-[この手順に従って、コアコンポーネントを使用してAEMサイトの開発を開始します。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+このチュートリアルで [は、コアコンポーネントを使用したAEMサイトの開発を開始します。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## GitHub経由で配信 {#delivered-over-github}
 
@@ -168,7 +168,22 @@ GitHubにコアコンポーネントを配置すると、頻繁な更新を行�
 * **既存のカスタムコンポーネント**コンポーネントが期待どおりに動作する場合は、それらのコンポーネントをそのまま維持します。\
    そうでない場合は、上記の「新しいカスタムコンポーネント」を参照してください。
 
-### コアコンポーネントのサポート {#core-component-support}
+## コアコンポーネントへの移行
+
+新しいプロジェクトは、コアコンポーネントで実装する必要があります。ただし、既存のプロジェクトは通常、Foundationコンポーネントを広範に導入します。
+
+既存プロジェクトの大きな作業（リブランディングや全体的なリファクタリングなど）は、多くの場合、コアコンポーネントへの移行のチャンスとなります。この移行を容易にするために、アドビでは、コアコンポーネントと最新のAEMテクノロジーの採用を奨励するために、多数の移行ツールを提供しています。
+
+[AEM最新化ツールスイート](https://github.com/adobe/aem-modernize-tools) を使用すると、次のように簡単に変換できます。
+
+* 編集可能なテンプレートへの静的テンプレート
+* ポリシーへのデザイン設定
+* Foundationコンポーネントからコアコンポーネント
+* クラシックUIからタッチ対応UIへのUI
+
+これらのツールの使用について詳しくは、そのマニュアル [](https://www.adobe.com/go/aem_modernize_tools_en)を参照してください。
+
+## コアコンポーネントのサポート {#core-component-support}
 
 コアコンポーネントは、AEMの不可欠な構成要素であり、同じ条件と条件の中で、クイックスタートの一部として配信されたかのように条件を満たしています。
 
@@ -178,11 +193,11 @@ GitHubにコアコンポーネントを配置すると、頻繁な更新を行�
 
 コンポーネントのカスタマイズのサポートについて詳しくは、コアコンポーネントの [カスタマイズ](customizing.md) ページを参照してください。
 
-### Foundationコンポーネントのサポート {#foundation-component-support}
+## Foundationコンポーネントのサポート {#foundation-component-support}
 
-基盤コンポーネントは多数のバージョンにわたるプロジェクト開発の基盤として提供されているので、今後も今後も引き続きサポートされます。
+基盤コンポーネントは多数のAEMバージョンにわたるプロジェクト開発の基盤として提供されているため、今後も今後も引き続きサポートされます。
 
-ただし、アドビの開発の強調はコアコンポーネントに変更され、基本コンポーネントにバグ修正のみが行われるので、新機能が追加されます
+ただし、アドビの開発の強調はコアコンポーネントに移動し、新機能が追加されます。ほとんど [すべてのFoundationコンポーネントは、AEM6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) では廃止されており、Foundationコンポーネントについては今後のバグ修正のみが行われます。
 
 **関連項目：**
 
