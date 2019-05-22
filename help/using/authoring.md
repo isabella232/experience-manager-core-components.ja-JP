@@ -8,7 +8,7 @@ content-type: リファレンス
 topic-tags: オーサリング
 discoiquuid: 8751e490- d427-44f2- b767-51935afda988
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -19,25 +19,25 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 コアコンポーネントを使用すると、柔軟で機能豊富なオーサリング機能を提供できます。[We. Retailリファレンスサイト](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) では、コアコンポーネントの使用方法を紹介しています。
 
+コアコンポーネントを体験し、設定オプションの例とHTMLおよびJSON出力の例については [、コンポーネントライブラリを参照](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)してください。
+
 >[!NOTE]
 >
->コアコンポーネントは、作成者がすぐに使用できないので、 [開発チームはまず環境に統合する必要](using.md)があります。統合が統合されると [、テンプレートエディター](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) または [デザインモードで使用可能になり、事前設定](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)されることがあります。
+>コアコンポーネントは、作成者がすぐに使用できないので、 [開発チームはまず環境に統合する必要](using.md)があります。統合が統合されると、 [テンプレートエディターを使用して事前設定され、事前設定](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)されることがあります。
 
 >[!CAUTION]
 >
->コアコンポーネント [にはAEM6.3以降が必要](versions.md) で、クラシックUIは使用できません。
+>コアコンポーネント [にはAEM6.3以降が必要で、](versions.md)[編集可能なテンプレート](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)を使用する必要があります。クラシックUIや静的テンプレートでは機能しません。
 
 ## コアコンポーネントを使用したオーサリング {#authoring-with-core-components}
-
-コアコンポーネントを理解するには [、コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)を調べて、コアコンポーネントを表示し、使用例を提供します。
 
 作成者として、以下のようなコアコンポーネントの利点がいくつかあります。
 
 * [ページエディターと簡単に連携して統合する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
-* We. Retailに示されている [多くのユースケースに対応する機能豊富な機能](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)
-* [ページ作成者が使用できる機能を定義](#pre-configuring-core-components) するために事前設定
-   * テンプレート [エディター](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) を使用 [した編集可能なテンプレート](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html)
-   * 静的 [テンプレート](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html) の [デザインモードを使用](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html)
+
+* We. Retailに加え、コンポーネントライブラリに [表示される多数のユース](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) ケースに対応する [機能豊富な機能](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+
+* [テンプレートエディターを使用してページ作成者が使用できる機能を定義](#pre-configuring-core-components) する [ために事前設定が可能](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * [アクセシビリティガイドラインに基づいて構築](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
@@ -55,7 +55,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 ## コアコンポーネントの事前設定 {#pre-configuring-core-components}
 
-Foundationコンポーネントの設定は、開発者のジョブでした。ただし、コアコンポーネントのテンプレート作成者は、テンプレートエディターまたはデザインモードで多数の機能を設定できるようになりました。
+Foundationコンポーネントの設定は、開発者のジョブでした。ただし、コアコンポーネントを使用すると、テンプレートエディターでテンプレートエディターを使用して多数の機能を設定できるようになりました。
 
 例えば、画像コンポーネントでファイルシステムからの画像アップロードを許可しない場合や、テキストコンポーネントで特定の段落フォーマットのみを許可する場合は、単純なクリックでこれらの機能を有効または無効にすることができます。
 
@@ -93,7 +93,7 @@ Foundationコンポーネントの設定は、開発者のジョブでした。�
 * [フォームボタン](form-button.md)
 * [カルーセル](carousel.md)
 * [フォームコンテナ](form-container.md)
-* [Content Fragment](content-fragment-component.md)
+* [コンテンツフラグメント](content-fragment-component.md)
 * [コンテンツフラグメントリスト](content-fragment-list.md)
 * [フォーム非表示](form-hidden.md)
 * [フォームオプション](form-options.md)
