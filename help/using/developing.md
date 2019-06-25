@@ -4,18 +4,18 @@ seo-title: コアコンポーネントの開発
 description: コアコンポーネントは、機能豊富な機能、継続的な配信、コンポーネントのバージョン管理、最新の実装、冗長なマークアップおよびJSONの書き出しを提供する拡張可能なベースコンポーネントを提供します。
 seo-description: コアコンポーネントは、機能豊富な機能、継続的な配信、コンポーネントのバージョン管理、最新の実装、冗長なマークアップおよびJSONの書き出しを提供する拡張可能なベースコンポーネントを提供します。
 uuid: 68569da2-9bc8-4e20-9a71- e5816ace51ce
-contentOwner: ユーザーは、
-content-type: リファレンス
+contentOwner: User
+content-type: reference
 topic-tags: 開発中
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: 157a2ec3-9fca-4fad-977a- d93013eeb218
 translation-type: tm+mt
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+source-git-commit: bea783936100abe899f9b60e4a09522514755db2
 
 ---
 
 
-# コアコンポーネントの開発{#developing-core-components}
+# Developing Core Components{#developing-core-components}
 
 ## 概要 {#overview}
 
@@ -26,17 +26,17 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
    * [ページ作成者が使用できる機能を定義](authoring.md#pre-configuring-core-components) するための事前設定機能
 * 連続配信
    * 頻繁な増分機能の強化
-   * 開発 [者コミュニティ](https://github.com/adobe/aem-core-wcm-components) がフィードバックを提供し、
-   * コンポーネントのアップグレード用 [に個別にリリースされたコンテンツパッケージ](https://github.com/adobe/aem-core-wcm-components/releases) によってインストールが、AEMアップグレードから独立して実行されるようになりました
+   * Availability of the [source code on GitHub](https://github.com/adobe/aem-core-wcm-components) to allow the developer community to give feedback and contribute
+   * Installation through a [separately released content package](https://github.com/adobe/aem-core-wcm-components/releases) for component upgrades to be done independently from AEM upgrades
 * [コンポーネントのバージョン管理](guidelines.md#component-versioning)
    * [バージョン内の互換性を確認](#upgrade-of-core-components)して、コンポーネントを
    * 1つのコンポーネントの複数バージョンが同じ環境で共存できるようにする
 * 最新の実装
    * [HTMLテンプレート言語](https://helpx.adobe.com/experience-manager/htl/using/overview.html) （HTL）で定義されているマークアップ
-   * Slingモデルで [実装されたコンテンツモデルロジック](https://sling.apache.org/documentation/bundles/models.html)
+   * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
 * 効率的なマークアップ
-   * リリース2.0.0以降 [のブロック要素修飾子](https://getbem.com/) （BEM）表記
-      * 以前のリリースは [ブートストラップ](https://getbootstrap.com/css/) の命名規則に従いました
+   * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
+      * Prior release follow [Bootstrap](https://getbootstrap.com/css/) naming conventions
    * [アクセシビリティガイドラインに基づいて構築](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
    * レスポンシブサイトおよびモバイルサイトに使用可能
 * ヘッドレスCMS使用事例のコンテンツモデルでJSONとしてシリアライズする機能
@@ -45,21 +45,21 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 >[!CAUTION]
 >
->コアコンポーネントにはAEM6.3以降およびJava8が必要で、編集可能なテンプレートの [使用が必要](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+>Core Components require AEM 6.3 or later and Java 8 and and require the use of [editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
 >コアコンポーネントは、クラシックUIと静的テンプレートでは機能しません。
 
 ## Gems Session Overview {#gems-session-overview}
 
-コアコンポーネント、提供する機能、AEMでの利用方法の概要については、AEM Gemsセッション [AEMコアコンポーネントを参照してください。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
 [Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) は、アドビのエキスパートによる技術的な詳細な解説シリーズです。このシリーズは、製品ドキュメントとその他の技術的なチャネルを補完し、開発者が特定のトピックを詳細に調べ、詳細に調べます。
 
-## WKNDデベロッパーチュートリアル {#wknd-developer-tutorial}
+## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-このチュートリアルで [は、コアコンポーネントを使用したAEMサイトの開発を開始します。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-## GitHub経由で配信 {#delivered-over-github}
+## Delivered over GitHub {#delivered-over-github}
 
 コアコンポーネントはGitHubによって開発され、配信されます。
 
@@ -68,33 +68,33 @@ GitHub のコード
 このページのコードは GitHub にあります
 
 * [gitHub上でaem- core- wcm- componentsプロジェクトを開く](https://github.com/adobe/aem-core-wcm-components)
-* プロジェクトをZIPファイルとし [てダウンロード](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
+* Download the project as [a ZIP file](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
 
-プロジェクトで使用を開始する方法については、コアコンポーネント [](using.md) の使用ドキュメントページを参照してください。
+See the [Using Core Components](using.md) documentation page to learn how to get started using them in your project.
 
 GitHubにコアコンポーネントを配置すると、頻繁な更新を行えるようになり、AEM開発者コミュニティからのフィードバックを聞くことができます。また、これは、カスタムコンポーネントを作成する際に、顧客およびパートナーが類似のパターンを従うのに役立ちます。
 
 >[!NOTE]
 >
->コアコンポーネントの最新の変更を最新の状態に保つには、GitHub上の [コアコンポーネントリポジトリ](https://github.com/adobe/aem-core-wcm-components) をご覧ください。
+>To keep up-to-date on the latest changes to the core components, you can watch the [Core Components repository](https://github.com/adobe/aem-core-wcm-components) on GitHub.
 
 ## コンポーネントライブラリ
 
 [コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)を確認して、コアコンポーネントの現在のリリースを表示し、使用例を提供します。
 
-### サンプルコンテンツの実行モード {#sample-content-run-mode}
+### Sample Content Run-Mode {#sample-content-run-mode}
 
-コアコンポーネントは、サンプルコンテンツが存在するときにQuickstartに表示されます。 [We. Retailリファレンスサイトで](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 使用されているからです。ただし、（サンプルコンテンツを有効にしない `nosamplecontent` で実行モードで実行する）実稼働環境では、コアコンポーネントは現在存在しなくなり、開発チームや/または運用チームによってAEMインスタンスにインストールする必要があります。
+The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won&#39;t be present anymore and must be installed on the AEM instances by the development and/or operations team.
 
 >[!NOTE]
 >
->実稼働環境では、必ずQuickstartをrunmodeで `nosamplecontent` 実行してください。実行モードで `nosamplecontent` コアコンポーネントを使用するには、コアコンポーネント [の使用](using.md) ドキュメントの説明に従ってください。
+>In production environments, always run the Quickstart in `nosamplecontent` runmode. To use the Core Components in `nosamplecontent` runmode, follow the instructions of the [Using Core Components](using.md) documentation page.
 
-## 技術機能 {#technical-capabilities}
+## Technical Capabilities {#technical-capabilities}
 
 次の表に、コアコンポーネントと基盤コンポーネントの違いを示します。
 
-オーサリング機能とオプションの詳細については、オーサリングページを [参照](authoring.md)してください。
+For details about their authoring capabilities and options to pre-configurable them, [refer to the authoring page about them](authoring.md).
 
 | **機能** | **コアコンポーネント** | **Foundation Component** |
 |-----|---|---|
@@ -138,34 +138,38 @@ GitHubにコアコンポーネントを配置すると、頻繁な更新を行�
 | [コンテンツフラグメント](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | コンテンツフラグメントの表示を許可 | `-` |
 | [コンテンツフラグメントリスト](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | コンテンツフラグメントのリストを表示できます | `-` |
 | [区切り文字](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | ページ上のコンテンツの分離 | `-` |
+| [アコーディオン](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | 折りたたみ可能なアコーディオンのコンテンツパネルを整理する | `-` |
+| [コンテナ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | コンテナ内のコンポーネントの整理 | `-` |
+| [ボタン](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | ページ上のボタンの作成 | `-` |
+| [ダウンロード](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | ページへのダウンロード可能なアセットの追加 | `-` |
 
-### 今後のコンポーネント {#upcoming-components}
+### Upcoming components {#upcoming-components}
 
-以下のコアコンポーネントは、積極的に機能しています。まだリリースされていませんが [、開発ブランチでプレビュー](https://github.com/adobe/aem-core-wcm-components/tree/development)できます。
+以下のコアコンポーネントは、積極的に機能しています。They haven&#39;t been released yet, but can be previewed in the [development branch](https://github.com/adobe/aem-core-wcm-components/tree/development):
 
-* ビデオ
-* ダウンロード
+* 埋め込み
+* モーダル
 
-## コアコンポーネントのアップグレード {#upgrade-of-core-components}
+## Upgrade of Core Components {#upgrade-of-core-components}
 
 バージョン管理されたコンポーネントの利点の1つは、新しいコンポーネントバージョンへの移行から新しいAEMバージョンへの移行を分離できることです。また、新しいコンポーネントバージョンが使用可能な場合は、各コンポーネントの個別の移行が可能になります。
 
-バージョンのバージョンが移行先の新しいAEMバージョンをサポートしている場合、新しいAEMバージョンへの移行は、コアコンポーネントの動作に影響しません。非推奨または削除され [たAPIを使用しない限り、コアコンポーネントに対するカスタマイズは影響を受けません](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html)。
+バージョンのバージョンが移行先の新しいAEMバージョンをサポートしている場合、新しいAEMバージョンへの移行は、コアコンポーネントの動作に影響しません。Customizations made to the Core Components should not be affected either, as long as they don&#39;t use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
-新しいバージョンのコアコンポーネントへの移行は、コンポーネントがどのように機能するかに影響しませんが、新しい機能がページ作成者に導入されることはありません。これは、デフォルトの動作が望ましくない場合に備えて、テンプレートエディターによって一部の設定が必要になる可能性があります。カスタマイズは、変更が必要な場合がありますが、詳細についてはコアコンポーネントの [カスタマイズ](customizing.md#upgrade-compatibility-of-customizations) ページを参照してください。
+新しいバージョンのコアコンポーネントへの移行は、コンポーネントがどのように機能するかに影響しませんが、新しい機能がページ作成者に導入されることはありません。これは、デフォルトの動作が望ましくない場合に備えて、テンプレートエディターによって一部の設定が必要になる可能性があります。Customizations however might need to be adapted, for more details see the [Customizing Core Components](customizing.md#upgrade-compatibility-of-customizations) page.
 
-## コアコンポーネントの使用方法 {#when-to-use-the-core-components}
+## When to Use the Core Components? {#when-to-use-the-core-components}
 
 コアコンポーネントはまったく新規であり、複数のメリットがあるので、新しいAEMプロジェクトで使用することをお勧めします。既存のプロジェクトでは、リブランディングや全体的なリファクタリングなど、より大きなプロジェクト作業の一環として移行を行う必要があります。
 
 したがって、アドビでは次の推奨事項を提供しています。
 
-* **新しいプロジェクト**新しいプロジェクトでは、常にコアコンポーネントを使用しようとします。コアコンポーネントを直接使用したり [、プロジェクト要件を満たす](customizing.md) ために拡張したりできない場合は、コアコンポーネントで設定されたコンポーネントアーキテクチャに従ってカスタムコンポーネントを作成します。そうでない場合は、 [基盤コンポーネント](developing.md)を使用しないでください。
-* **既存のプロジェクト**のレコメンデーションは [、サイトまたはコンポーネントのリファクタリングが計画されていない限り、基盤コンポーネント](developing.md)を使用し続けることができます。\
-   既存のプロジェクトで非常によく使用されるため、基盤コンポーネント [は引き続きサポートされます。](developing.md)
+* **新しいプロジェクト** 新しいプロジェクトでは、常にコアコンポーネントを使用しようとします。If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](developing.md).
+* **既存のプロジェクト** のレコメンデーションは [、サイトまたはコンポーネントのリファクタリングが計画されていない限り、基盤コンポーネント](developing.md)を使用し続けることができます。\
+   As they are very widely used by most existing projects, the foundation components [will continue to be supported.](developing.md)
 * **新しいカスタムコンポーネント**[の評価](customizing.md)を参照してください。\
-   そうでない場合は、コンポーネントガイドラインに [従って新しいカスタムコンポーネントを作成](guidelines.md)します。
-* **既存のカスタムコンポーネント**コンポーネントが期待どおりに動作する場合は、それらのコンポーネントをそのまま維持します。\
+   If not, recommendation is to build a new custom component following the [Component Guidelines](guidelines.md).
+* **既存のカスタムコンポーネント** コンポーネントが期待どおりに動作する場合は、それらのコンポーネントをそのまま維持します。\
    そうでない場合は、上記の「新しいカスタムコンポーネント」を参照してください。
 
 ## コアコンポーネントへの移行
@@ -174,16 +178,20 @@ GitHubにコアコンポーネントを配置すると、頻繁な更新を行�
 
 既存プロジェクトの大きな作業（リブランディングや全体的なリファクタリングなど）は、多くの場合、コアコンポーネントへの移行のチャンスとなります。この移行を容易にするために、アドビでは、コアコンポーネントと最新のAEMテクノロジーの採用を奨励するために、多数の移行ツールを提供しています。
 
-[AEM最新化ツールスイート](https://github.com/adobe/aem-modernize-tools) を使用すると、次のように簡単に変換できます。
+[AEM Enhancedツール](http://opensource.adobe.com/aem-modernize-tools/) を使用すると、次のような簡単な変換が可能になります。
 
 * 編集可能なテンプレートへの静的テンプレート
 * ポリシーへのデザイン設定
 * Foundationコンポーネントからコアコンポーネント
 * クラシックUIからタッチ対応UIへのUI
 
-これらのツールの使用について詳しくは、そのマニュアル [](https://www.adobe.com/go/aem_modernize_tools_en)を参照してください。
+For further information about the usage of these tools, [see their documentation](http://opensource.adobe.com/aem-modernize-tools/).
 
-## コアコンポーネントのサポート {#core-component-support}
+>[!NOTE]
+>
+>AEMの最新化ツールはコミュニティの作業であり、アドビによってサポートまたは課金されません。
+
+## Core Component Support {#core-component-support}
 
 コアコンポーネントは、AEMの不可欠な構成要素であり、同じ条件と条件の中で、クイックスタートの一部として配信されたかのように条件を満たしています。
 
@@ -191,13 +199,13 @@ GitHubにコアコンポーネントを配置すると、頻繁な更新を行�
 
 各コンポーネントのバージョンは、サポートされているAEMバージョンを明確に状態させます。サポートがAEMのバージョンで停止すると、そのバージョンのAEMのコアコンポーネントのサポートが実行されます。
 
-コンポーネントのカスタマイズのサポートについて詳しくは、コアコンポーネントの [カスタマイズ](customizing.md) ページを参照してください。
+For details about the support of component customizations, see the [Customizing Core Components](customizing.md) page.
 
-## Foundationコンポーネントのサポート {#foundation-component-support}
+## Foundation Component Support {#foundation-component-support}
 
 基盤コンポーネントは多数のAEMバージョンにわたるプロジェクト開発の基盤として提供されているため、今後も今後も引き続きサポートされます。
 
-ただし、アドビの開発の強調はコアコンポーネントに移動し、新機能が追加されます。ほとんど [すべてのFoundationコンポーネントは、AEM6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) では廃止されており、Foundationコンポーネントについては今後のバグ修正のみが行われます。
+However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
 
 **関連項目：**
 
