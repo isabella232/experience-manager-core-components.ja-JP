@@ -4,26 +4,26 @@ seo-title: コアコンポーネントのバージョン
 description: コアコンポーネントは、同じコアコンポーネントの複数のバージョンを含むことができるリリースとして発行されます。このドキュメントでは、リリースとバージョンと、コアコンポーネントおよびAEMとの互換性を理解する方法について説明します。
 seo-description: コアコンポーネントは、同じコアコンポーネントの複数のバージョンを含むことができるリリースとして発行されます。このドキュメントでは、リリースとバージョンと、コアコンポーネントおよびAEMとの互換性を理解する方法について説明します。
 uuid: a916a923-8c5e-456a-84b5- b52228e21434
-contentOwner: ユーザーは、
+contentOwner: User
 content-type: リファレンス
 topic-tags: 概要
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdsc
 translation-type: tm+mt
-source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
+source-git-commit: 144494c03ffed068b403d80f62fdfddc73a53748
 
 ---
 
 
-# コアコンポーネントのバージョン{#core-components-versions}
+# Core Components Versions{#core-components-versions}
 
 コアコンポーネントの現在のリリースは2.4.0で、AEM6.5と互換性があります。2019年5月にリリース2.0.0のマイナーアップデートとしてリリースされました。リリース2.0.0では、既存コンポーネントのv2アップデートとともに新しいコンポーネントが導入されました。
 
-詳しくは、この [ドキュメントの「リリース履歴」と「互換性](#versions-and-releases) 」を参照してください。
+See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
 
 [また、コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)をチェックアウトして、コアコンポーネントの現在のリリースを表示し、使用例を提示することもできます。
 
-## バージョンとリリース {#versions-and-releases}
+## Versions and Releases {#versions-and-releases}
 
 コアコンポーネントはGitHubを使用して配布されます。これにより、アドビはより迅速にコンポーネントに機能を追加し、AEMリリースサイクル外でコミュニティ入力を可能にすることができます。
 
@@ -31,15 +31,15 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 
 ### バージョン {#versions}
 
-コアコンポーネントの主要な反復は **バージョン**です。各コンポーネントにはバージョンがあります。バージョンは **v** 1やv2などの正の正の整数を持つvで示されます。バージョンは、後方互換性のない変更にのみ増加します。これは、通常、新機能と機能の導入のために使用されます。
+The major iteration of the Core Components are the **versions**. 各コンポーネントにはバージョンがあります。Versions are denoted with **v** appended with a nonzero, positive integer such as v1 and v2. バージョンは、後方互換性のない変更にのみ増加します。これは、通常、新機能と機能の導入のために使用されます。
 
-開発者および管理者は、コアコンポーネントのバージョンを、リソースタイプパスの数字、およびその実装の完全修飾Javaクラス名によって認識できます。このバージョン番号は、セマンティックのバージョン設定ガイドラインによって [定義されたメジャーバージョンを表し](https://semver.org/)ます。
+開発者および管理者は、コアコンポーネントのバージョンを、リソースタイプパスの数字、およびその実装の完全修飾Javaクラス名によって認識できます。This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/).
 
-コアコンポーネントバージョンについて詳しくは、コアコンポーネントの [開発者向けドキュメント](guidelines.md)を参照してください。
+For more details about core component versions, see the [developer documentation of the Core Components](guidelines.md).
 
-### リリース {#releases}
+### Releases {#releases}
 
-コアコンポーネントは **リリース** から利用できるようになり、GitHubで使用可能な実際の公開アーティファクト [を表し](https://github.com/adobe/aem-core-wcm-components/releases)ます。リリースは、X.Y.Z形式の10進数で示され、すべてのコアコンポーネントを配信先パッケージとして収集します。
+The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). リリースは、X.Y.Z形式の10進数で示され、すべてのコアコンポーネントを配信先パッケージとして収集します。
 
 * **メジャーリリース** では、既存のコンポーネントの新しいバージョンとまったく新しいコンポーネントと、標準的なバグ修正を導入できます。これは、リリース番号のXコンポーネントのインクリメントで表されます。
 
@@ -53,15 +53,15 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 >
 >同じバージョンのコンポーネントを複数のリリースに表示できます。
 
-## リリース履歴と互換性 {#release-history-and-compatibility}
+## Release History and Compatibility {#release-history-and-compatibility}
 
 コアコンポーネントはAEM6.3で最初にリリースされ、サポートされているすべてのAEMバージョンと柔軟で互換性があるように設計されています。このため、コンポーネントのリリースには同じコンポーネントの複数のバージョンを含めることができます。
 
 次の表に、コアコンポーネントのリリースと、そのリリースに含まれるコンポーネントバージョンの互換性を示します。
 
-### リリース履歴とサポートされているAEMバージョン {#release-history-supported-aem-versions}
+### Release History &amp; Supported AEM Versions {#release-history-supported-aem-versions}
 
-次の表は、全リリース詳細を含むGitHub上で [利用可能なコンテンツであり、コア](https://github.com/adobe/aem-core-wcm-components/releases)コンポーネントのリリースとAEMリリースおよびJavaバージョンとの互換性について説明しています。
+The following table, the contents of which are [available on GitHub with full release details](https://github.com/adobe/aem-core-wcm-components/releases), gives an overview of the releases of the Core Components and their compatibility with AEM releases and Java versions.
 
 | リリース | 説明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
@@ -83,13 +83,13 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 
 >[!NOTE]
 >
->AEMと同様、最新の修正および機能を活用 [するために、実行中のバージョンの](https://github.com/adobe/aem-core-wcm-components/releases/latest) コアコンポーネントと互換性がある最新のリリースおよびバージョンを使用することをお勧めします。
+>As with AEM, Adobe recommends that developers use the [latest release and versions of the Core Components](https://github.com/adobe/aem-core-wcm-components/releases/latest) available that is compatible with the version of AEM that they are running in order to benefit from the most up-to-date fixes and features.
 
-### コンポーネントバージョンとリリース{component- versions- and- release}
+### Component Versions &amp; Releases {#component-versions-and-releases}
 
 次の表に、コアコンポーネントのリリースに含まれるコンポーネントのバージョンを示します。
 
-|  | リリース1.0.0-1.0.6 | リリース1.1.0 | リリース2.0.0-2.0.8 | リリース2.1.0 | リリース2.2.-2.2.0 | 2.3.0 |
+|  | リリース1.0.0-1.0.6 | リリース 1.1.0 | リリース2.0.0-2.0.8 | リリース 2.1.0 | リリース 2.2.-2.2.0 | 2.3.0 |
 |---|---|---|---|---|---|---|
 | **[ページ](page.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
 | **[タイトル](title.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
@@ -102,14 +102,14 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 | **[フォームオプション](form-options.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
 | **[フォーム非表示](form-hidden.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
 | **[フォームボタン](form-button.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[コンテンツフラグメント](content-fragment-component.md)** | サンドボックス | v1 | v1 | v1 | v1 |
-| **[ナビゲーション](navigation.md)** | v1 | v1 | v1 | v1 |
-| **[言語ナビゲーション](language-navigation.md)** | v1 | v1 | v1 | v1 |
-| **[クイック検索](quick-search.md)** | v1 | v1 | v1 | v1 |
-| **[ティーザー](teaser.md)** | v1 | v1 | v1 |
-| **[タブ](tabs.md)** | v1 | v1 |
-| **[カルーセル](carousel.md)** | v1 | v1 |
-| **[区切り文字](separator.md)** | v1 |
+| **[コンテンツフラグメント](content-fragment-component.md)** |  | サンドボックス | v1 | v1 | v1 | v1 |
+| **[ナビゲーション](navigation.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[言語ナビゲーション](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[クイック検索](quick-search.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[ティーザー](teaser.md)** |  |  |  | v1 | v1 | v1 |
+| **[タブ](tabs.md)** |  |  |  |  | v1 | v1 |
+| **[カルーセル](carousel.md)** |  |  |  |  | v1 | v1 |
+| **[区切り文字](separator.md)** |  |  |  |  |  | v1 |
 
 ## ドキュメント {#documentation}
 
