@@ -4,12 +4,12 @@ seo-title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集と構成コンポーネントです。
 seo-description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集と構成コンポーネントです。
 uuid: 5f8eee8f-7317-4712- a77f- e34e8a024187
-contentOwner: ユーザーは、
+contentOwner: User
 content-type: リファレンス
 topic-tags: コアコンポーネント
 discoiquuid: 9a290584-565e-4392-999c-999ee4a93da1
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -18,13 +18,13 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 コアコンポーネントテキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集と構成コンポーネントです。
 
-## 使用方法 {#usage}
+## 使用 {#usage}
 
 テキストコンポーネントには堅牢なリッチテキストエディターが用意されています。これにより、シンプルなインラインエディターやフルスクリーン形式で簡単にテキスト編集を行うことができます。
 
 [編集ダイアログ](#edit-dialog) 機能の編集ダイアログ機能には、フルスクリーン編集ダイアログで利用できる機能が制限されています。[デザインダイアログ](#design-dialog)を使用すると、コンテンツ作成者のテンプレート用に、見出し、特殊文字、段落スタイルなどのテキスト書式オプションを設定できます。
 
-## バージョンと互換性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 テキストコンポーネントの現在のバージョンはv2であり、2018年1月のコアコンポーネントのリリース2.0.0で導入されています。このドキュメントで説明しています。
 
@@ -35,37 +35,29 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 | v2 | 互換性 | 互換性 | 互換性 |
 | [v1](text-v1.md) | 互換性 | 互換性 | 互換性 |
 
-コアコンポーネントバージョンとリリースについて詳しくは、ドキュメント [コアコンポーネントバージョン](versions.md)を参照してください。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)です。
+To experience the Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/text.html).
 
-### スクリーンショット {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/chlimage_1-27.png)
+The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
 
-### コンポーネントライブラリ
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-テキストコンポーネントのエクスペリエンスと、HTMLおよびJSON出力の設定の例については [、コンポーネントライブラリを参照](http://opensource.adobe.com/aem-core-wcm-components/library/text.html)してください。
+## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-### 技術的詳細 {#technical-details}
-
-テキストコンポーネント [に関する最新の技術ドキュメントは、GitHubで入手](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)できます。
-
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
-
-## テキストコンポーネントとリッチテキストエディター {#the-text-component-and-the-rich-text-editor}
-
-コアコンポーネントテキストコンポーネントでは、AEMリッチテキストエディター（RTE）を利用します。RTEは、テキストコンテンツを編集するために幅広い機能を備えたコンテンツ作成者を提供します。RTEは設定で非常に柔軟性があり、数多くのオプションを提供しています。RTEの構成方法について詳しくは、「リッチテキストエディターの [設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) 」および「リッチテキストエディタプラグインの [設定」を参照](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)してください。
+コアコンポーネントテキストコンポーネントでは、AEMリッチテキストエディター（RTE）を利用します。RTEは、テキストコンテンツを編集するために幅広い機能を備えたコンテンツ作成者を提供します。RTEは設定で非常に柔軟性があり、数多くのオプションを提供しています。Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 この記事の残りの部分では、標準コンポーネントテキストコンポーネントの標準設定を標準のRTE設定で示しています。
 
 >[!NOTE]
 >
->テキストコンポーネントでは、RTEの [UI設定で有効になっ](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) ているオプションのみが使用できます。
+>Only options enabled by [UI configurations of the RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) are available by in the Text Component.
 
-## ダイアログを編集 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 編集ダイアログには、ユーザーがテキストを構成することが予想される標準のリッチテキスト書式ツールが用意されています。
 
@@ -159,9 +151,9 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ![](assets/screen_shot_2018-01-11at130107.png)
 
-検索するテキストを入力し、「 **検索** 」をクリックして検索を開始します。&quot;x&quot;をタップまたはクリックしてキャンセルします。
-大文字と小文字を完全に一致させる場合は、「大文字と小文字 **** を区別」オプションを選択してから検索を開始します。
-一致が見つかった場合、ハイライト表示され、検索ダイアログが淡色表示になります。次のオカレンスを検索するには、グレー表示のダイアログで **「検索」** ボタンをもう一度クリックするか、ボタンをクリックします。
+Enter the text for which you want to search and tap or click **Find** to begin the search. &quot;x&quot;をタップまたはクリックしてキャンセルします。
+If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
+一致が見つかった場合、ハイライト表示され、検索ダイアログが淡色表示になります。Tap or click the **Find** button again in the dimmed dialog to search for the next occurrence.
 
 ![](assets/screen_shot_2018-01-11at130145.png)
 
@@ -179,13 +171,13 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 検索するテキストと、置換するテキストを入力します。
 
-検索を開始するには、「 **検索」** をタップまたはクリックします。&quot;x&quot;をクリックまたはタップしてキャンセルします。
+Tap or click **Find** to begin the search. &quot;x&quot;をクリックまたはタップしてキャンセルします。
 
-大文字と小文字を完全に一致させる場合は、「大文字と小文字 **** を区別」オプションを選択してから検索を開始します。
+If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
 
-一致が見つかった場合、ハイライト表示され、検索ダイアログが淡色表示になります。灰色表示のダイアログで **「検索」** ボタンを再度クリックすると、次のオカレンスが検索されます。 **または、置換** ボタンを選択すると、ハイライトされている一致したテキストが置換されます。**「置換** 」ボタンは、一致が作成されるとアクティブになります。
+一致が見つかった場合、ハイライト表示され、検索ダイアログが淡色表示になります。Click the **Find** button again in the dimmed dialog to search for the next occurrence or select the **Replace** button to replace the highlighted, matched text. **「置換** 」ボタンは、一致が作成されるとアクティブになります。
 
-「すべて **** 置換」を選択すると、すべてのテキストが一度に置換されます。
+Select **Replace all** to replace all occurrences of the text at once.
 
 ### テキストを左揃え
 
@@ -211,7 +203,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 選択したテキストをバレットリストとしてフォーマットするか、カーソルの後にバレットリストを挿入するために使用します。
 
-バレットリストを終了するには **、「ブレット** 」ボタンをタップまたはクリックするか、2つのキャリッジリターンを入力します。
+To end a bulleted list, tap or click the **Bullet** button again or enter two carriage returns.
 
 ### 番号付き
 
@@ -219,7 +211,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 選択したテキストを番号付きリストとして書式設定するか、カーソルの後に番号付きリストを挿入するために使用します。
 
-番号付きリストを終了するには、「 **番号付き** 」ボタンをタップまたはクリックするか、2つのキャリッジリターンを入力します。
+To end a numbered list, tap or click the **Numbered** button again or enter two carriage returns.
 
 ### アウトデント
 
@@ -243,19 +235,19 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ![](assets/screen_shot_2018-01-11at142405.png)
 
-* **列**テーブルの列数（必須）
-* **行**テーブルの行数（必須）
-* **幅**テーブルの幅
-* **高さ**テーブルの高さ
-* **セルパディング**セルコンテンツの周囲のスペース
-* **セル間隔**セル間のスペース
-* **テーブル**の境界線線の太さ
+* **列** テーブルの列数（必須）
+* **行** テーブルの行数（必須）
+* **幅** テーブルの幅
+* **高さ** テーブルの高さ
+* **セルパディング** セルコンテンツの周囲のスペース
+* **セル間隔** セル間のスペース
+* **テーブル** の境界線線の太さ
 * テーブルのヘッダーの場合:
    * 最初の行は、
    * 最初の列は、
    * 最初の行と最初の列は、
    * または、ヘッダーを使用しないでください。
-* **キャプション**テーブルのキャプション
+* **キャプション** テーブルのキャプション
 
 ### スペルチェック
 
@@ -263,7 +255,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスのあるスペルには、改行された赤い線が引かれています。
 
-スペルチェック辞書のスペルチェックおよびカスタマイズについて詳しくは、ドキュメントの「リッチテキストエディタプラグインの [設定」を参照](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)してください。
+Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 ### Special Characters {#special-characters}
 
@@ -285,13 +277,13 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 >[!CAUTION]
 >
->生のHTMLにアクセスする場合は常に、 **ソース編集** オプションを使用するときに注意する必要があります。
+>As always the case with access to raw HTML, care must be exercised when using the **Source Edit** option!
 >
->ソース編集で **入力したHTMLがXSSのリスクをスキャン** し、挿入されるスクリプトは削除され、結果のページには表示されません。**ただし、ソース編集** で入力されたHTMLの形式が正しくない場合、ページのテンプレートが破損し、予期しない書式設定や結果ページのレンダリングができなくなります。
+>HTML entered via **Source Edit** is scanned for XSS risks and any scripts that are inserted are removed and will not appear on the resulting page. **ただし、ソース編集** で入力されたHTMLの形式が正しくない場合、ページのテンプレートが破損し、予期しない書式設定や結果ページのレンダリングができなくなります。
 
 >[!NOTE]
 >
->**ソース編集** によって入力されたHTMLはXSSのリスクとスクリプトをスキャンして自動的に削除されるので、実際に保存されたコンテンツは、ソース編集に **入力された内容と異なる可能**性があります。このため **、ソース編集**を使用して行った変更を保存するには、まず **ソース編集** を終了してから保存する前に、通常のエディターでテキストを表示する必要があります。
+>**ソース編集** によって入力されたHTMLはXSSのリスクとスクリプトをスキャンして自動的に削除されるので、実際に保存されたコンテンツは、ソース編集に **入力された内容と異なる可能** 性があります。For this reason, in order to save changes made using **Source Edit**, you must first exit **Source Edit** to view the text in the normal editor before saving.
 
 ### 段落書式
 
@@ -305,11 +297,11 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ![](assets/screen_shot_2018-01-11at142921.png)
 
-## デザインダイアログ {#design-dialog}
+## Design Dialog {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者がコンテンツ作成者が使用できるテキスト書式オプションを定義できます。
 
-### プラグインタブ {#plugins-tab}
+### Plugins Tab {#plugins-tab}
 
 「プラグイン」タブを使用して、コンテンツ作成者が使用できる様々なテキスト書式オプションを有効または無効にします。
 
@@ -344,22 +336,22 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 コンポーネントの段落スタイルをアクティブ化または非アクティブ化できます。アクティベートすると、許可されている形式を定義できます。
 
-* 「 **追加」** ボタンをタップまたはクリックして、新しいスタイルを挿入します。
+* Tap or click the **Add** button to insert a new style.
 * 編集ダイアログに表示するスタイルと説明のコードを入力します。
-* スタイルを削除するには、タップするか **、削除** ボタンをクリックします。
+* To remove a style tap or click the **Delete** button.
 * 形式の順序を並べ替えるには、をタップまたはクリックしてハンドルをドラッグします。
 
-### 特殊文字の設定 {#configuring-special-characters}
+### Configuring Special Characters {#configuring-special-characters}
 
 ![](assets/chlimage_1-31.png)
 
 特殊文字を挿入するオプションは、コンポーネントのアクティブ化または非アクティブ化できます。アクティブ化すると、許可されている文字を定義できます。
 
-* 「 **追加」** ボタンをタップまたはクリックして、新しい文字を挿入します。
+* Tap or click the **Add** button to insert a new character.
 * 編集ダイアログに表示する文字のHTMLコードと説明を入力します。
-* 文字をタップするか **、削除** ボタンをクリックします。
+* To remove a character tap or click the **Delete** button.
 * 文字の順序を並べ替えるには、タップまたはクリックしてハンドルをドラッグします。
 
-## 「スタイル」タブ {#styles-tab}
+## Styles Tab {#styles-tab}
 
-テキストコンポーネントは、AEM [スタイルシステムをサポート](authoring.md#component-styling)しています。
+The Text Component supports the AEM [style system](authoring.md#component-styling).
