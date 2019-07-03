@@ -8,7 +8,7 @@ content-type: リファレンス
 topic-tags: コアコンポーネント
 discoiquuid: 966d47fb- d35d-4103- b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -17,19 +17,19 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 コアコンポーネントタブコンポーネントを使用すると、複数のタブにコンテンツを編成できます。
 
-## 使用方法 {#usage}
+## 使用 {#usage}
 
 タブコンポーネントを使用すると、コンテンツ作成者は複数のタブ内でページコンテンツを整理できます。
 
-[編集ダイアログ](#edit-dialog) では、コンテンツ作成者が複数のタブを定義し、アクティブなタブを設定することができます。テンプレート作成者は [、デザインダイアログ](#design-dialog)を使用して、タブに追加できるコンポーネントを定義したり、スタイルをカスタマイズしたりできます。
+[編集ダイアログ](#edit-dialog) では、コンテンツ作成者が複数のタブを定義し、アクティブなタブを設定することができます。Using the [design dialog](#design-dialog), the template author can define which components can be added to tabs and customize the styles.
 
 >[!NOTE]
 >
 >ネストされたタブコンポーネント（タブ内のタブ）はサポートされています。
 >
->コンテンツツリーを使用して、単純（ネストされていない）タブコンポーネントを配置または選択 [できます](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)が、ネストされたタブは使用できません。
+>Simple (non-nested) tab components can be located/selected using the [content tree](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), however nested tabs can not be.
 
-## バージョンと互換性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 現在のバージョンのタブコンポーネントはv1であり、2018年10月のコアコンポーネントのリリース2.2.0で導入されています。このドキュメントで説明しています。
 
@@ -39,31 +39,23 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 |--- |--- |--- |--- |
 | v1 | 互換性 | 互換性 | 互換性 |
 
-コアコンポーネントバージョンとリリースについて詳しくは、ドキュメント [コアコンポーネントバージョン](versions.md)を参照してください。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)です。
+To experience the Tabs Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
 
-### スクリーンショット {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/screenshot_2018-11-28at142504.png)
+The latest technical documentation about the Tabs Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
 
-### コンポーネントライブラリ
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-タブコンポーネントを体験するには、およびHTMLおよびJSON出力の設定オプションと、 [HTMLおよびJSON出力の例を参照](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html)してください。
-
-### 技術的詳細 {#technical-details}
-
-タブコンポーネント [に関する最新の技術ドキュメントは、GitHubで確認](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs)できます。
-
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
-
-## ダイアログを編集 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者がタブを作成、名前変更および並べ替え、アクティブなタブを定義することができます。
 
-### 「アイテム」タブ {#items-tab}
+### Items Tab {#items-tab}
 
 ![](assets/screenshot_2018-10-11at153557.png)
 
@@ -74,19 +66,19 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 * **削除** -タブコンポーネントからタブをタップまたはクリックして削除します。
 * **整列** -タップまたはクリックしてドラッグし、タブの順序を並べ替えます。
 
-### 「プロパティ」タブ {#properties-tab}
+### Properties Tab {#properties-tab}
 
 ![](assets/screenshot_2018-10-19at140646.png)
 
 **「プロパティ** 」タブでは、コンテンツ作成者はページの読み込み時にアクティブなタブを定義できます。**「デフォルト」** オプションでは、最初のタブが選択されます。
 
-## パネルを選択 {#select-panel}
+## Select Panel {#select-panel}
 
-コンテンツ作成者は、コンポーネントツールバーの **「パネル** を選択」オプションを使用して、編集用に別のパネルに変更したり、タブの順序を簡単に並べ替えることができます。
+The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the tabs.
 
 ![](assets/screenshot_2018-10-11at165417.png)
 
-コンポーネントツールバーの **「パネル** を選択」オプションを選択すると、設定済みのタブがドロップダウンとして表示されます。
+Once selecting the **Select Panel** option in the component toolbar, the configured tabs are displayed as a drop-down.
 
 * リストは、割り当てられたタブの割り当て順に並べ替えられ、番号付けに反映されます。
 * タブのコンポーネントタイプが最初に表示され、その後に薄いフォントでタブの説明が表示されます。
@@ -98,18 +90,18 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 >[!NOTE]
 >
->**編集** モードでは、作成者がタブを選択できません。公開済みコンテンツの読者としてタブを操作するには [**、プレビュー** モード](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) または「公開済みとして **[表示」](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** オプションを使用します。
+>**編集** モードでは、作成者がタブを選択できません。Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the tabs as a reader of the published content would.
 
-## デザインダイアログ {#design-dialog}
+## Design Dialog {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者がタブコンポーネントにアイテムとして追加できるコンポーネントを定義したり、コンテンツ作成者が使用できるカスタムスタイルを定義したりできます。
 
-### 許可されているコンポーネントタブ {#allowed-components-tab}
+### Allowed Components Tab {#allowed-components-tab}
 
 **「許可されているコンポーネント** 」タブを使用して、コンテンツ作成者がタブコンポーネントにアイテムとして追加できるコンポーネントを定義します。
 
-「許可されているコンポーネント」タブの機能は、テンプレートエディターでレイアウトコンテナのポリシーとプロパティ [を定義するときに、同じ名前のタブと同じ方法で機能します。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-### 「スタイル」タブ {#styles-tab}
+### Styles Tab {#styles-tab}
 
-タブコンポーネントは、AEM [スタイルシステムをサポート](authoring.md#component-styling)しています。
+The Tabs Component supports the AEM [Style System](authoring.md#component-styling).
