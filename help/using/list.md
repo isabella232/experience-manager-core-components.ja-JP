@@ -4,7 +4,7 @@ seo-title: リストコンポーネント
 description: 'null'
 seo-description: コアコンポーネントリストコンポーネントを使用すると、静的リストと静的リストを簡単に作成できます。
 uuid: 50a572e8- b444-4f7d-82bc-5a93ebb4be95
-contentOwner: ユーザーは、
+contentOwner: User
 content-type: リファレンス
 topic-tags: オーサリング
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
@@ -19,7 +19,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 コアコンポーネントリストコンポーネントを使用すると、静的リストと静的リストを簡単に作成できます。
 
-## 使用方法 {#usage}
+## 使用 {#usage}
 
-リストコンポーネントは、子ページの動的リストや、恣意的に定義された項目の静的リストなどの作成に使用できます。使用可能なリストの種類とフォーマットオプションは [、デザインダイアログのテンプレート作成者によって定義](#design-dialog)できます。コンテンツエディターでは、利用可能なリストタイプから選択したり、 [編集ダイアログでリスト要素の書式を設定](#edit-dialog)したりできます。
+リストコンポーネントは、子ページの動的リストや、恣意的に定義された項目の静的リストなどの作成に使用できます。The type of lists available and formatting options can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available list types and how to format the list elements in the [edit dialog](#edit-dialog).
 
-## バージョンと互換性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 List Componentの現在のバージョンはv2であり、2018年1月のコアコンポーネントのリリース2.0.0で導入されています。このドキュメントで説明しています。
 
@@ -43,31 +43,23 @@ List Componentの現在のバージョンはv2であり、2018年1月のコア�
 | v2 | 互換性 | 互換性 | 互換性 |
 | [v1](list-v1.md) | 互換性 | 互換性 | 互換性 |
 
-コアコンポーネントバージョンとリリースについて詳しくは、ドキュメント [コアコンポーネントバージョン](versions.md)を参照してください。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)です。
+To experience the List Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/list.html).
 
-### スクリーンショット {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/screen_shot_2018-01-12at105924.png)
+The latest technical documentation about the List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list).
 
-### コンポーネントライブラリ
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-List Componentを体験したり、HTMLやJSON出力の設定オプションの例を確認するには [、コンポーネントライブラリを参照](http://opensource.adobe.com/aem-core-wcm-components/library/list.html)してください。
-
-### 技術的詳細 {#technical-details}
-
-リストコンポーネント [に関する最新の技術ドキュメントは、GitHubで確認](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)できます。
-
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
-
-## ダイアログを編集 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者がリストとリスト項目を設定できます。
 
-### 「リスト設定」タブ {#list-settings-tab}
+### List Settings Tab {#list-settings-tab}
 
 リストは様々な方法で作成できます。
 
@@ -76,7 +68,7 @@ List Componentを体験したり、HTMLやJSON出力の設定オプションの�
 * [検索](#search-options)
 * [タグ](#tags)
 
-リストのビルド方法に関係なく、常に設定できる [並べ替えオプション](#sort-options) があります。
+Regardless of how the list is built, there are [Sort Options](#sort-options) that can always be configured.
 
 ![](assets/chlimage_1-38.png)
 
@@ -92,7 +84,7 @@ List Componentを体験したり、HTMLやJSON出力の設定オプションの�
    * 子ページがリストを作成する必要があるページ
    * 現在のページを使用するには空白のままにします
 
-* **Child- Depth**階層内の下位レベルのレベルを使用する
+* **Child- Depth** 階層内の下位レベルのレベルを使用する
 
 #### 固定リスト {#fixed-list}
 
@@ -100,9 +92,9 @@ List Componentを体験したり、HTMLやJSON出力の設定オプションの�
 
 ![](assets/chlimage_1-40.png)
 
-「 **追加」** ボタンをタップまたはクリックして、新しい項目をリストに挿入します。
+Tap or click the **Add** button to inset a new item to the list.
 
-* リスト内のアイテムのテキストを入力するか **、選択ダイアログ** を使用してAEMからアイテムを選択します。
+* Enter text for the item in the list or use the **Selection Dialog** to choose an item from AEM.
 * ドラッグハンドルを使用して、リスト内の項目を再配置します。
 * ごみ箱アイコンを使用してリスト内の項目を削除します。
 
@@ -112,9 +104,8 @@ List Componentを体験したり、HTMLやJSON出力の設定オプションの�
 
 ![](assets/chlimage_1-41.png)
 
-* **Search query**
-The string for which a full-text search will be run to generate the list elements
-* **検索の実行**場所の検索
+* **検索クエリ**
+* **検索の実行** 場所の検索
    * **選択ダイアログ** を使用したAEMの場所の選択
    * 空白の場合は現在のページを使用
 
@@ -124,68 +115,66 @@ The string for which a full-text search will be run to generate the list element
 
 ![](assets/chlimage_1-42.png)
 
-* **Parent page**
-Where the tag matching should start
+* **タグマッチングが開始する親ページ**
    * **選択ダイアログ** を使用したAEMの場所の選択
    * 空白の場合は現在のページを使用
-* **タグ**どのタグを照合するか
+* **タグ** どのタグを照合するか
    * **参照** ダイアログを使用したタグの選択
-* **一致**の種類を定義して、リストに含めるページを指定する
+* **一致** の種類を定義して、リストに含めるページを指定する
    * **いずれかのタグ**
    * **すべてのタグ**
 
-#### 並べ替えオプション {#sort-options}
+#### Sort Options {#sort-options}
 
 リストの作成方法にかかわらず、いつでも定義できる並べ替えオプションがあります。
 
 ![](assets/chlimage_1-43.png)
 
-* **要素の順序付けによる**順序
+* **要素の順序付けによる** 順序
    * **タイトル**
    * **最終変更日**
-* **Sort Order**
-The order in which the items should be ordered
+* **並べ替え順序**
    * **昇順**
    * **降順**
-* **最大項目**数リストに表示される項目の最大数。
+* **最大項目** 数リストに表示される項目の最大数。
    * すべての項目を返すには、空のままにします。
 
-### 「アイテム設定」タブ {#item-settings-tab}
+### Item Settings Tab {#item-settings-tab}
 
 「アイテムの設定」タブを使用すると、リスト要素の書式設定を設定できます。
 
 ![](assets/chlimage_1-44.png)
 
-* **項目**リンク項目を対応するページにリンクする
-* **リンク項目の説明**を表示の説明
-* **リンク項目の日付**表示日を表示
+* **項目** リンク項目を対応するページにリンクする
+* **リンク項目の説明** を表示の説明
+* **リンク項目の日付** 表示日を表示
 
-## デザインダイアログ {#design-dialog}
+## Design Dialog {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者がコンテンツ作成者に許可するリストの種類と使用可能な項目設定を定義できます。
 
 ### リスト設定 {#list-settings}
 
-「リスト設定 **」** タブでは、日付形式を定義したり、コンテンツ作成者に対してコンポーネントで使用できるリストの種類を定義したりできます。
+On the **List Settings** tab, the date format can be defined as well as what type of lists should be available in the component to the content authors.
 
 ![](assets/chlimage_1-45.png)
 
-* **最終変更日の表示に使用する日付形式**形式
-* **子**を無効にするコンポーネント内の子リストの種類を無効にする
-* **スタティック**リストの種類を無効にするには、コンポーネントの静的リストの種類を無効にする
-* **検索**を無効にするコンポーネント内の検索リストのタイプを無効にする
-* **タグ**無効化タグのリストタイプをコンポーネント内で無効にします
+* **最終変更日の表示に使用する日付形式** 形式
+* **子** を無効にするコンポーネント内の子リストの種類を無効にする
+* **スタティック** リストの種類を無効にするには、コンポーネントの静的リストの種類を無効にする
+* **検索** を無効にするコンポーネント内の検索リストのタイプを無効にする
+* **タグ** 無効化タグのリストタイプをコンポーネント内で無効にします
 
 ### 項目設定 {#item-settings}
 
-「 **アイテムの設定** 」タブでは、コンテンツ作成者用にコンポーネントで使用できる個々のリスト要素の書式設定オプションを定義できます。
+On the **Item Settings** tab, the formatting options for the individual list elements that should be available in the component for the content authors can be defined.
 
 ![](assets/chlimage_1-46.png)
 
-* **編集ダイアログで「項目**をリンク」オプションを [有効にする](#edit-dialog)
-* **編集ダイアログで「**説明を表示を有効にする」オプション [を表示](#edit-dialog)
-* **編集ダイアログで日付**を有効にする [オプションを表示](#edit-dialog)
+* **編集ダイアログで「項目** をリンク」オプションを [有効にする](#edit-dialog)
+* **編集ダイアログで「** 説明を表示を有効にする」オプション [を表示](#edit-dialog)
+* **編集ダイアログで日付** を有効にする [オプションを表示](#edit-dialog)
 
-### 「スタイル」タブ {#styles-tab}
+### Styles Tab {#styles-tab}
 
-Image Componentでは、AEM [スタイルシステム](authoring.md#component-styling)がサポートされています。
+The Image Component supports the AEM [Style System](authoring.md#component-styling).
