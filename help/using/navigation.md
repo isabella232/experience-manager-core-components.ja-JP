@@ -4,7 +4,7 @@ seo-title: ナビゲーションコンポーネント
 description: 'null'
 seo-description: ナビゲーションコンポーネントを使用すると、グローバル化されたサイト構造を容易にナビゲートできます。
 uuid: 616c03fb-39b3-402a- b990- f56c87bc6df4
-content-type: reference
+content-type: リファレンス
 topic-tags: オーサリング
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: da8d67d7- b65e-4041- bc0e- e998f24a68f9
@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c58826c133eb112b305fa4facbe2a81e577eb896
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -54,7 +54,7 @@ To experience the Navigation Component as well as see examples of its configurat
 
 The latest technical documentation about the Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md.
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 >[!NOTE]
 >
