@@ -7,7 +7,7 @@ contentOwner: behnert
 content-type: リファレンス
 topic-tags: コアコンポーネント
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 コアコンポーネントセパレータコンポーネントには、コンテンツを分割するための水平方向のルールが表示されます。
 
-## 使用方法 {#usage}
+## 使用 {#usage}
 
 セパレータコンポーネントを使用すると、コンテンツの作成者はコンテンツ間の区切りとして簡単に区切りを作成し、ページ上の情報をより適切に整理できます。
 
-## バージョンと互換性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 現在のバージョンのセパレータコンポーネントはv1であり、2019年2月のコアコンポーネントのリリース2.3.0で導入されています。このドキュメントで説明しています。
 
@@ -30,32 +30,24 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 |---|---|---|---|
 | v1 | 互換性 | 互換性 | 互換性 |
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)です。
+To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
 
-### スクリーンショット {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/screen_shot_2019-02-07at09.38.58.png)
+The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
 
-### コンポーネントライブラリ
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-セパレータコンポーネントを体験するには、その設定オプションの例およびHTMLおよびJSON出力の例に加えて [、コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html)を参照してください。
-
-### 技術的詳細 {#technical-details}
-
-セパレータコンポーネントに関する最新の技術ドキュメントはGitHubにあり [ます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)。
-
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
-
-## ダイアログの設定 {#configure-dialog}
+## Configure Dialog {#configure-dialog}
 
 セパレータコンポーネントには設定ダイアログがありません。
 
-## デザインダイアログ {#design-dialog}
+## Design Dialog {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者がセパレータコンポーネントに適用するスタイルを定義できます。
 
-### 「スタイル」タブ {#styles-tab}
+### Styles Tab {#styles-tab}
 
-セパレータコンポーネントは、AEM [スタイルシステムをサポート](authoring.md#component-styling)しています。
+The Separator Component supports the AEM [Style System](authoring.md#component-styling).
