@@ -4,7 +4,7 @@ seo-title: 言語ナビゲーションコンポーネント
 description: 'null'
 seo-description: 言語ナビゲーションコンポーネントは、サイトの言語/国ナビゲーションを提供し、訪問者が異なるロケールの同じページに移動できるようにします。
 uuid: ce736458-9cdf-4bc2- b90f-9c5a62fe1ca0
-content-type: reference
+content-type: リファレンス
 topic-tags: オーサリング
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
 discoiquuid: 8f232eb0-65d5-4075-8668-75f1366882c8
@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c58826c133eb112b305fa4facbe2a81e577eb896
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -48,7 +48,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Language Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/languagenavigation.html).
+To experience the Language Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html).
 
 ## Technical Details {#technical-details}
 
