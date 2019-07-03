@@ -4,7 +4,7 @@ seo-title: タイトルコンポーネント
 description: 'null'
 seo-description: コアコンポーネントタイトルコンポーネントは、インプレース編集機能のセクション見出しコンポーネントです。
 uuid: cf190861- e5cd-42b8-9193-842b8df8c5c6
-contentOwner: ユーザーは、
+contentOwner: User
 content-type: リファレンス
 topic-tags: オーサリング
 products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -22,11 +22,11 @@ source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
 
 コアコンポーネントタイトルコンポーネントは、インプレース編集機能のセクション見出しコンポーネントです。
 
-## 使用方法 {#usage}
+## 使用 {#usage}
 
-タイトルコンポーネントは、コンテンツのセクションのタイトルまたは見出しとして使用することを目的としています。使用可能な見出しレベルは [、デザインダイアログのテンプレート作成者によって定義](#design-dialog)できます。コンテンツエディターで [は、編集ダイアログで使用可能な見出しレベルから選択](#edit-dialog)できます。便宜上、見出しテキストの単純なインプレース編集も可能です。
+タイトルコンポーネントは、コンテンツのセクションのタイトルまたは見出しとして使用することを目的としています。The available heading levels can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available headings levels in the [edit dialog](#edit-dialog). 便宜上、見出しテキストの単純なインプレース編集も可能です。
 
-## バージョンと互換性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 現在のバージョンのタイトルコンポーネントはv2であり、2018年1月のコアコンポーネントのリリース2.0.0で導入されています。このドキュメントで説明しています。
 
@@ -37,27 +37,19 @@ source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
 | v2 | 互換性 | 互換性 | 互換性 |
 | [v1](title-v1.md) | 互換性 | 互換性 | 互換性 |
 
-コアコンポーネントバージョンとリリースについて詳しくは、ドキュメント [コアコンポーネントバージョン](versions.md)を参照してください。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)です。
+To experience the Title Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/title.html).
 
-### スクリーンショット {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/chlimage_1-36.png)
+The latest technical documentation about the Title Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title).
 
-### コンポーネントライブラリ
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-タイトルコンポーネントのエクスペリエンスと、HTMLおよびJSON出力の設定オプションの例については [、コンポーネントライブラリを参照](http://opensource.adobe.com/aem-core-wcm-components/library/title.html)してください。
-
-### 技術的詳細 {#technical-details}
-
-タイトルコンポーネント [に関する最新の技術ドキュメントは、GitHubで確認](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title)できます。
-
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
-
-## ダイアログを編集 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者がタイトルテキストを定義したり、見出しレベルを選択したりできます。
 
@@ -75,22 +67,22 @@ source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
 
 ![](assets/chlimage_1-37.png)
 
-## デザインダイアログ {#design-dialog}
+## Design Dialog {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者がコンテンツ作成者によって作成されるときにタイトルコンポーネントにデフォルトの見出しレベルを定義できます。
 
-### 「サイズ」タブ {#sizes-tab}
+### Sizes Tab {#sizes-tab}
 
 ![](assets/screenshot_2018-10-19at110120.png)
 
 * **作成者の許可されたタイプ/サイズ** -タイトルコンポーネントを使用するときにコンテンツ作成者が使用できる見出しタイプを有効または無効にします。
 * **デフォルトのタイプ/サイズ**-コンテンツ作成者がページにタイトルコンポーネントを追加したときに自動的に割り当てられる見出しタイプを定義します。
-* **リンクを無効にする-**タイトルコンポーネント内のリンクのサポートを無効にして、コンテンツ作成者がタイトルからリンクできないようにします。
+* **リンクを無効にする-** タイトルコンポーネント内のリンクのサポートを無効にして、コンテンツ作成者がタイトルからリンクできないようにします。
 
 >[!CAUTION]
 >
 >タイトルのリンクを定義する機能は、コアコンポーネントのリリース2.2.0で導入されました。
 
-### 「スタイル」タブ {#styles-tab}
+### Styles Tab {#styles-tab}
 
-タイトルコンポーネントは、AEM [スタイルシステムをサポート](authoring.md#component-styling)しています。
+The Title Component supports the AEM [Style System](authoring.md#component-styling).
