@@ -1,53 +1,53 @@
 ---
-title: Form Text Component
-seo-title: Form Text Component
+title: フォームテキストコンポーネント
+seo-title: フォームテキストコンポーネント
 description: 'null'
-seo-description: Core Component Form Textコンポーネントを使用すると、フォームテキストのエントリを送信できます。
-uuid: f2418d55-0b59-4c7c- a541- d12dda4db4cf
-contentOwner: ユーザーは、
-content-type: リファレンス
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: 3a970c4b-806b-4a0a- b6b8- b3creca4e9f136
+seo-description: コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
+uuid: f2418d55-0b59-4c7c-a541-d12dda4db4cf
+contentOwner: ユーザー
+content-type: reference
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 3a970c4b-806b-4a0a-b6b8-b3dca4e9f136
 disttype: dist5
 gnavtheme: light
-groupsectionnavitems: ' '
+groupsectionnavitems: ' no'
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Form Text Component{#form-text-component}
+# フォームテキストコンポーネント{#form-text-component}
 
-Core Component Form Textコンポーネントを使用すると、フォームテキストのエントリを送信できます。
+コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
 
 ## 使用方法 {#usage}
 
-フォームテキストコンポーネントでは、様々なタイプのテキストを送信でき、 [フォームコンテナコンポーネントとともに使用することができ](form-container.md)ます。テキスト検証、ラベルおよびヘルプメッセージのタイプは [、設定ダイアログのコンテンツエディターで定義](#configure-dialog)できます。
+フォームテキストコンポーネントを使用すれば、各種テキストを送信できます。このコンポーネントは、[フォームコンテナコンポーネント](form-container.md)と共に使用するためのものです。テキスト検証のタイプ、ラベル、ヘルプメッセージは、コンテンツ編集者が[設定ダイアログ](#configure-dialog)で定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-フォームテキストコンポーネントの現在のバージョンはv2であり、2018年1月のコアコンポーネントのリリース2.0.0で導入されています。このドキュメントで説明しています。
+このドキュメントでは、フォームテキストコンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v2 | 互換性 | 互換性 | 互換性 |
-| [v1](form-text-v1.md) | 互換性 | 互換性 | 互換性 |
+| v2 | 互換性あり | 互換性あり | 互換性あり |
+| [v1](form-text-v1.md) | 互換性あり | 互換性あり | 互換性あり |
 
-コアコンポーネントバージョンとリリースについて詳しくは、ドキュメント [コアコンポーネントバージョン](versions.md)を参照してください。
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)です。
+以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html) から引用したサンプルです。
 
 ### スクリーンショット {#screenshot}
 
@@ -88,40 +88,38 @@ Core Component Form Textコンポーネントを使用すると、フォーム�
 
 ### 技術的詳細 {#technical-details}
 
-フォームテキストコンポーネント [に関する最新の技術ドキュメントは、GitHubで入手](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text)できます。
+フォームテキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text) を参照してください。
 
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## ダイアログの設定 {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログでは、コンテンツ作成者が入力するテキストの種類とデフォルト値およびラベルを定義できます。
+設定ダイアログでは、入力するテキストの種類とデフォルト値およびラベルをコンテンツ作成者が定義できます。
 
-### メインタブ {#main-tab}
+### 「メイン」タブ {#main-tab}
 
 ![](assets/chlimage_1-23.png)
 
-* **制約**入力するテキストの種類
+* **制約** - 入力するテキストの種類で、これを基準にテキストが検証されます
    * **テキスト**
    * **テキスト領域**
    * **電子メール**
    * **電話番号**
-   * 日付****
+   * **日付**
    * **番号**
    * **パスワード**
-* **テキスト行**テキスト領域に表示する行数（ **制約** がテキスト領域に **設定されている場合のみ表示**）
-* **ラベル**:フィールドに表示するラベル
-* **ラベルが表示**されないようにラベルを非表示にする必要があります。ラベルがアクセシビリティの目的でのみ必要で、フィールドに関する追加情報を表示しない場合
-* **要素名**フォームデータと共に送信されるフィールドの名前
-* **フィールドに事前入力されている値**デフォルト値
+* **テキスト行数** - テキスト領域に表示する行数（「**制約**」が **テキスト領域** に設定されている場合にのみ表示）
+* **ラベル** - フィールドに表示するラベル
+* **ラベルを非表示** - ラベルがアクセシビリティのためにのみ必要で、フィールドに関するその他の視覚的情報には影響しない場合に必要です
+* **要素名** - フォームデータと共に送信されるフィールドの名前
+* **値** - フィールドに事前入力されるデフォルト値
 
-### タブについて {#about-tab}
+### 「情報」タブ {#about-tab}
 
 ![](assets/chlimage_1-24.png)
 
-* **Help Message**
-A hint to the user of what can be entered in the field
-* **Display help message as placeholder**
-To display the help message inside the form input when it is empty and not focused
+* **ヘルプメッセージ** - フィールドに入力できる内容をユーザーに伝えるヒント
+* **ヘルプメッセージをプレースホルダーとして表示** - フォーム入力が空でフォーカスされていない場合、フォーム入力内にヘルプメッセージを表示する
 
 ### 「制約」タブ{#constraints-tab}
 
@@ -129,10 +127,10 @@ To display the help message inside the form input when it is empty and not focus
 
 * **制約メッセージ**
    * 値が適切な型でない場合に、フォーム送信時にツールチップとして表示されるメッセージ
-   * **テキスト** および **テキスト領域** 制約タイプに対しては表示されません
-* **選択した**場合、ユーザーがフォームを送信する前に値に入力する必要がある
-* **選択した**場合にのみ読み取り専用にする
+   * 制約タイプが **テキスト** および **テキスト領域** の場合は表示されません
+* **必須** - 選択した場合、ユーザーはフォームを送信する前に値に入力する必要があります
+* **読み取り専用にする** - 選択した場合、ユーザーはフィールドの値を変更できません
 
-## デザインダイアログ {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-フォームテキストコンポーネントのデザインダイアログはありません。
+フォームテキストコンポーネントにはデザインダイアログはありません。
