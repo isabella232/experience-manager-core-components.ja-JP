@@ -2,54 +2,54 @@
 title: フォームボタンコンポーネント（v1）
 seo-title: フォームボタンコンポーネント（v1）
 description: 'null'
-seo-description: コアコンポーネントフォーム非表示コンポーネントを使用すると、フォームに非表示フィールドを含めることができます。
-uuid: 0525e70f-294f-4d35- ff96- fc0e4ec225e9
-content-type: リファレンス
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: ea06ACC0-38e2-4252- ac29-07332835b7c4
+seo-description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、フォームに非表示フィールドを含めることができます。
+uuid: 0525e70f-294f-4d35-bf96-fc0e4ec225e9
+content-type: reference
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: ea06acc0-38e2-4252-ac29-07332835b7c4
 disttype: dist5
 gnavtheme: light
-groupsectionnavitems: ' '
+groupsectionnavitems: ' no'
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
 index: n
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
 # フォームボタンコンポーネント（v1）{#form-button-component-v}
 
-Core Component Form Buttonコンポーネントを使用すると、アクションをトリガーするためのボタンフィールドをフォームに含めることができます。
+コアコンポーネントのフォームボタンコンポーネントを使用すれば、アクションをトリガーするボタンフィールドをフォームに含めることができます。
 
 ## 使用方法 {#usage}
 
-Core Component Form Buttonコンポーネントを使用すると、ボタンフィールドを作成できます。これにより、フォームの送信をトリガーしたり [、フォームコンテナコンポーネントとともに使用することができ](form-container.md)ます。
+コアコンポーネントのフォームボタンコンポーネントを使用すれば、フォームの送信をトリガーすることが多いボタンフィールドを作成できます。このコンポーネントは、[フォームコンテナコンポーネント](form-container.md)と共に使用するためのものです。
 
-ボタンのプロパティは [、設定ダイアログのコンテンツエディターで定義](form-button-v1.md#main-pars_title)できます。
+ボタンのプロパティは、コンテンツ編集者が[設定ダイアログ](form-button-v1.md#main-pars_title)で定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-本書では、元々、コアコンポーネントのリリース1.0.0とAEM6.3で導入された、フォームボタンコンポーネントのv1について説明します。
+このドキュメントでは、AEM 6.3 に付属しているコアコンポーネントのリリース 1.0.0 で最初に導入されたフォームボタンコンポーネント v1 について説明します。
 
-次の表に、フォームボタンコンポーネントのv1の互換性を示します。
+フォームボタンコンポーネント v1 の互換性を次の表に示します。
 
-| AEM のバージョン | フォームボタンコンポーネントv1 |
+| AEM のバージョン | フォームボタンコンポーネント v1 |
 |--- |--- |
-| 6.3 | 互換性 |
-| 6.4 | 互換性 |
+| 6.3 | 互換性あり |
+| 6.4 | 互換性あり |
 
 >[!CAUTION]
 >
->本書では、フォームボタンコンポーネントのv1について説明します。
+>このドキュメントでは、フォームボタンコンポーネント v1 について説明します。
 >
->フォームボタンコンポーネントの現在のバージョンについて詳しくは [、フォームボタンコンポーネント](form-button.md) ドキュメントを参照してください。
+>フォームボタンコンポーネントの現在のバージョンについて詳しくは、[フォームボタンコンポーネント](form-button.md)のドキュメントを参照してください。
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)です。
+以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html) から引用したサンプルです。
 
 ### スクリーンショット {#screenshot}
 
@@ -93,9 +93,9 @@ Core Component Form Buttonコンポーネントを使用すると、ボタンフ
 
 >[!NOTE]
 >
->コアコンポーネントからのJSONエクスポートには、コアコンポーネントのリリース1.1.0が必要です。詳しくは [、コアコンポーネントv1](versions.md#main-pars_title_236368006) の互換性情報を参照してください。
+>コアコンポーネントからの JSON エクスポートには、コアコンポーネントのリリース 1.1.0 が必要です。詳しくは、[コアコンポーネント v1 の互換性情報](versions.md#main-pars_title_236368006)を参照してください。
 
-## ダイアログの設定 {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
 設定ダイアログでは、コンテンツ作成者がボタンのパラメーターを定義できます。
 
@@ -105,20 +105,20 @@ Core Component Form Buttonコンポーネントを使用すると、ボタンフ
    * **ボタン**
    * **送信**
 
-* **タイトル** -ボタンに表示されるテキスト
-   * 何も指定しなかった場合、ボタンの種類がデフォルトに設定されます
+* **タイトル** - ボタンに表示されるテキスト
+   * 指定しない場合は、デフォルトでボタンの種類が表示されます
 
-* **名前** -フォームデータとともに送信されるボタンの名前
-* **値** -フォームデータと共に送信されるボタンの値
+* **名前** - ボタンの名前（フォームデータと共に送信されます）
+* **値** - ボタンの値（フォームデータと共に送信されます）
 
-## デザインダイアログ {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-フォームボタンコンポーネントのデザインダイアログはありません。
+フォームボタンコンポーネントにはデザインダイアログはありません。
 
 ## 技術的詳細 {#technical-details}
 
-フォームボタンコンポーネント [に関する最新の技術ドキュメントは、GitHubで確認](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)できます。
+フォームボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button) を参照してください。
 
-コアコンポーネントプロジェクト全体をGitHubからダウンロードできます。
+コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
