@@ -1,49 +1,49 @@
 ---
 title: フォーム非表示コンポーネント（v1）
 seo-title: フォーム非表示コンポーネント（v1）
-description: コアコンポーネントフォーム非表示コンポーネントでは、非表示フィールドを表示できます。
-seo-description: コアコンポーネントフォーム非表示コンポーネントでは、非表示フィールドを表示できます。
-uuid: f5005346- def5-4e1f-8f93- e4cfc67a9329
-content-type: リファレンス
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: d35f4e71- ec7f-4128-9123- b997dbb5f0cf
+description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
+seo-description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
+uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
+content-type: reference
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
 # フォーム非表示コンポーネント（v1）{#form-hidden-component-v}
 
-コアコンポーネントフォーム非表示コンポーネントでは、非表示フィールドを表示できます。
+コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
 
 ## 使用方法 {#usage}
 
-コアコンポーネントフォーム非表示コンポーネントでは、現在のページに関する情報をAEMに渡すための非表示フィールドを作成できます。また [、フォームコンテナコンポーネントとともに使用することを意図](form-container.md)しています。
+コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを作成して、現在のページに関する情報を AEM に返すことができます。このコンポーネントは、[フォームコンテナコンポーネント](form-container.md)と共に使用するためのものです。
 
-フィールドプロパティは [、設定ダイアログのコンテンツエディターで定義](#configure-dialog)できます。
+フィールドのプロパティは、コンテンツ編集者が[設定ダイアログ](#configure-dialog)で定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、フォーム非表示コンポーネントのv1について説明します。これには、元々、コアコンポーネントのリリース1.0.0とAEM6.3とのリリースが導入されています。
+このドキュメントでは、AEM 6.3 に付属しているコアコンポーネントのリリース 1.0.0 で最初に導入されたフォーム非表示コンポーネント v1 について説明します。
 
-次の表に、Form Hidden Componentのv1との互換性を示します。
+フォーム非表示コンポーネント v1 の互換性を次の表に示します。
 
-| AEM のバージョン | フォーム非表示コンポーネントv1 |
+| AEM のバージョン | フォーム非表示コンポーネント v1 |
 |--- |--- |
-| 6.3 | 互換性 |
-| 6.4 | 互換性 |
+| 6.3 | 互換性あり |
+| 6.4 | 互換性あり |
 
 >[!CAUTION]
 >
->このドキュメントでは、フォーム非表示コンポーネントのv1について説明します。
+>このドキュメントでは、フォーム非表示コンポーネント v1 について説明します。
 >
->フォーム非表示コンポーネントの現在のバージョンの詳細については [、「フォーム非表示コンポーネント](form-hidden.md) 」ドキュメントを参照してください。
+>フォーム非表示コンポーネントの現在のバージョンについて詳しくは、[フォーム非表示コンポーネント](form-hidden.md)のドキュメントを参照してください。
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)です。
+以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html) から引用したサンプルです。
 
 ### HTML {#html}
 
@@ -83,26 +83,26 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!NOTE]
 >
->コアコンポーネントからのJSONエクスポートには、コアコンポーネントのリリース1.1.0が必要です。詳しくは [、コアコンポーネントv1](versions.md#release-history-and-compatibility) の互換性情報を参照してください。
+>コアコンポーネントからの JSON エクスポートには、コアコンポーネントのリリース 1.1.0 が必要です。詳しくは、[コアコンポーネント v1 の互換性情報](versions.md#release-history-and-compatibility)を参照してください。
 
-## ダイアログの設定 {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
 設定ダイアログでは、コンテンツ作成者が非表示フィールドのパラメーターを定義できます。
 
 ![](assets/chlimage_1-26.png)
 
-* **名前** -フォームデータと共に送信されるフィールドの名前
-* **Value** -フォームデータと共に送信されるフィールドの値
-* **識別子** -識別子はページ上で一意である必要があり、スクリプトをこのフォームフィールドに連結するために使用できます
+* **名前** - フィールドの名前（フォームデータと共に送信されます）
+* **値** - フィールドの値（フォームデータと共に送信されます）
+* **識別子** - 識別子は、ページ上で一意である必要があり、スクリプトをこのフォームフィールドにバインドするために使用できます
 
-## デザインダイアログ {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-フォーム非表示コンポーネントのデザインダイアログはありません。
+フォーム非表示コンポーネントにはデザインダイアログはありません。
 
 ## 技術的詳細 {#technical-details}
 
-フォーム非表示コンポーネントに関する最新の技術ドキュメントは、GitHubにあり [ます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden)。
+フォーム非表示コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden) を参照してください。
 
-コアコンポーネントプロジェクト全体をGitHubからダウンロードできます。
+コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
