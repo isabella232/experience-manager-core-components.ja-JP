@@ -2,52 +2,52 @@
 title: クイック検索コンポーネント
 seo-title: クイック検索コンポーネント
 description: 'null'
-seo-description: クイック検索コンポーネントは、Webサイトに検索機能を提供し、訪問者がサイトを検索して結果をフィルタできるように検索結果を表示します。
-uuid: 1ba69be3-537e-4f20-9f17- b4b7174a8e88
-content-type: リファレンス
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: 906a684d-5663-4497- bef3-37f13d5b46c7
+seo-description: クイック検索コンポーネントは、Web サイトに検索機能を提供し、訪問者がサイト内を検索して結果を絞り込めるように検索結果を表示します。
+uuid: 1ba69be3-537e-4f20-9f17-b4b7174a8e88
+content-type: reference
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 906a684d-5663-4497-bef3-37f13d5b46c7
 disttype: dist5
 gnavtheme: light
-groupsectionnavitems: ' '
+groupsectionnavitems: ' no'
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
 # クイック検索コンポーネント{#quick-search-component}
 
-クイック検索コンポーネントは、Webサイトに検索機能を提供し、訪問者が一致するコンテンツを簡単に見つけて結果を表示できるように検索結果を表示します。
+クイック検索コンポーネントは、Web サイトに検索機能を提供し、一致するコンテンツを訪問者が容易に見つけて結果を表示できるように検索結果を表示します。
 
 ## 使用方法 {#usage}
 
-クイック検索コンポーネントでは、サイト訪問者がコンテンツを検索し、その結果をインプレースで表示し、一致するページに簡単に移動できます。ユーザーが検索結果をスクロールすると、新しい結果が動的に取得されます。
+クイック検索コンポーネントを使用すれば、サイト訪問者がコンテンツを検索し、その結果をインプレースで表示し、一致するページに容易に移動できるようになります。ユーザーが検索結果をスクロールすると、それに合わせて新しい結果が動的に取得されます。
 
-[編集ダイアログ](#edit-dialog) では、コンテンツ作成者がコンテンツツリー内のどこで検索を開始するかを定義できます。[デザインダイアログ](#design-dialog)を使用すると、テンプレート作成者は、コンテンツツリー内のどこに検索を開始するか、最大結果セットサイズおよび最小検索語句の長さを設定することができます。
+[編集ダイアログ](#edit-dialog)では、コンテンツツリー内の検索の開始位置をコンテンツ作成者が定義できます。[デザインダイアログ](#design-dialog)を使用すれば、コンテンツツリーにおける検索の開始位置のデフォルト値、結果セットサイズの上限、検索語句の長さの下限をテンプレート作成者が設定できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-クイック検索コンポーネントの現在のバージョンは、2018年1月のコアコンポーネントのリリース2.0.0で導入されたv1であり、このドキュメントで説明しています。
+このドキュメントでは、クイック検索コンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.2.0 で導入された v1）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v1 | 互換性 | 互換性 | 互換性 |
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
-コアコンポーネントバージョンとリリースについて詳しくは、ドキュメント [コアコンポーネントバージョン](versions.md)を参照してください。
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)です。
+以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html) から引用したサンプルです。
 
 ### スクリーンショット {#screenshot}
 
@@ -93,39 +93,39 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 >[!NOTE]
 >
->検索コンポーネントまたはAEMベースのアプリケーションのDOS攻撃に対する保護は、例えばディスパッチャーで使用 `mod_security` すると、より高いレベルで実装する必要があります。
+>DOS 攻撃からの検索コンポーネントや AEM ベースアプリケーションの保護は、ディスパッチャーで `mod_security` を使用すればいった、より高いレベルで実装する必要があります。
 
-クイック検索コンポーネント [に関する最新の技術ドキュメントは、GitHubで入手](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search)できます。
+クイック検索コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search) を参照してください。
 
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## ダイアログを編集 {#edit-dialog}
+## 編集ダイアログ{#edit-dialog}
 
-編集ダイアログでは、コンテンツ作成者がコンテンツツリー内のどこで検索を開始するかを定義できます。
+編集ダイアログでは、コンテンツツリー内の検索の開始位置をコンテンツ作成者が定義できます。
 
 ![](assets/screen_shot_2018-04-03at120132.png)
 
-**検索ルート** -検索を開始する場所のルートページ。検索ルートは、blueprintマスター、言語マスターまたは通常のページにすることができます。
+**検索ルート** - 検索の開始位置となるルートページ。検索ルートは、ブループリントマスター、言語マスター、通常のページのいずれでもかまいません。
 
-## デザインダイアログ {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-デザインダイアログを使用すると、テンプレート作成者はコンテンツツリー内のどこに検索開始するか、最大結果セットサイズおよび最小検索語句の長さを設定できます。デザインダイアログでは、テンプレート作成者がコンテンツ作成者に使用できるテキスト書式オプションを定義できます。
+デザインダイアログを使用すれば、コンテンツツリーにおける検索の開始位置のデフォルト値、結果セットサイズの上限、検索語句の長さの下限をテンプレート作成者が設定できます。デザインダイアログでは、コンテンツ作成者が使用できるテキスト書式設定オプションをテンプレート作成者が定義できます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
 ![](assets/screen_shot_2018-04-03at120028.png)
 
-* **コンテンツ作成者がコンテンツページにクイック検索コンポーネントを配置したときに、検索**ルートのデフォルト値を検索する
-* **結果のサイズ**検索リクエストによって取得された結果の最大数
-* **検索を開始する検索用語の検索用語の最小長**の最小長
+* **検索ルート** - コンテンツ作成者がクイック検索コンポーネントをコンテンツページに配置したときの検索ルートのデフォルト値
+* **結果のサイズ** - 検索リクエストで取得される結果の最大数
+* **検索語句の最小の長さ** - 検索を開始するために使用される検索語句の長さの下限
 
 >[!NOTE]
 >
->**Results Size** and **Search Term Minimum Length** can only be set in design mode and therefore only at the template level, meaning content authors are not able to modify these values.
+>「**結果のサイズ**」と「**検索語句の最小の長さ**」は、デザインモード（テンプレートレベル）でしか設定できません。つまり、コンテンツ作成者はこれらの値を変更できません。
 
 >[!CAUTION]
 >
->**Results Size** and **Search Term Minimum Length** can have performance impacts if they are set too high or too low, respectively.
+>「**結果のサイズ**」が大きすぎる場合や、「**検索語句の最小の長さ**」が小さすぎる場合は、パフォーマンスに影響が出る可能性があります。
 
 ### 「スタイル」タブ {#styles-tab}
 
