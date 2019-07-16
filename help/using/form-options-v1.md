@@ -2,14 +2,14 @@
 title: フォームオプションコンポーネント（v1）
 seo-title: フォームオプションコンポーネント（v1）
 description: 'null'
-seo-description: コアコンポーネントフォームのオプションコンポーネントを使用すると、様々な形式の事前定義済みオプションから選択できます。
-uuid: a22ed77c- c9f3-46f4-8afe- e478383c1251
-content-type: リファレンス
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
+seo-description: コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式の事前定義済みオプションから選択できます。
+uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
+content-type: reference
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
 disttype: dist5
 gnavtheme: light
-groupsectionnavitems: ' '
+groupsectionnavitems: ' no'
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
@@ -17,42 +17,42 @@ noindex: 'true'
 index: n
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
 # フォームオプションコンポーネント（v1）{#form-options-component-v}
 
-コアコンポーネントフォームのオプションコンポーネントを使用すると、様々な形式の事前定義済みオプションから選択できます。
+コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式の事前定義済みオプションから選択できます。
 
 ## 使用方法 {#usage}
 
-Core Component Form Options Componentを使用すると、様々な種類のオプションを様々な方法で送信でき、 [フォームコンテナコンポーネントとともに使用することができ](form-container.md)ます。
+コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式で提供される各種オプションを送信できます。このコンポーネントは、[フォームコンテナコンポーネント](form-container.md)と共に使用するためのものです。
 
-オプション、ラベル、個々のオプションのプレゼンテーションは [、設定ダイアログのコンテンツエディターで定義](form-options-v1.md#main-pars_title)できます。
+オプションの表示形式、ラベル、個々のオプションは、コンテンツ編集者が[設定ダイアログ](form-options-v1.md#main-pars_title)で定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-本書では、元々、コアコンポーネントのリリース1.0.0とAEM6.3で導入されたフォームオプションコンポーネントのv1について説明します。
+このドキュメントでは、AEM 6.3 に付属しているコアコンポーネントのリリース 1.0.0 で最初に導入されたフォームオプションコンポーネント v1 について説明します。
 
-次の表に、Form Options Componentのv1との互換性を示します。
+フォームオプションコンポーネント v1 の互換性を次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 |
 |--- |--- |--- |
-| v2 | 互換性 | 互換性 |
-| v1 | 互換性 | 互換性 |
+| v2 | 互換性あり | 互換性あり |
+| v1 | 互換性あり | 互換性あり |
 
 >[!CAUTION]
 >
->本書では、フォームオプションコンポーネントのv1について説明します。
+>このドキュメントでは、フォームオプションコンポーネント v1 について説明します。
 >
->フォームオプションコンポーネントの現在のバージョンの詳細については [、&quot;Form Options Component](form-options.md) 」ドキュメントを参照してください。
+>フォームオプションコンポーネントの現在のバージョンについて詳しくは、[フォームオプションコンポーネント](form-options.md)のドキュメントを参照してください。
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)です。
+以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html) から引用したサンプルです。
 
 ### スクリーンショット {#screenshot}
 
@@ -122,46 +122,46 @@ Core Component Form Options Componentを使用すると、様々な種類のオ�
 
 >[!NOTE]
 >
->コアコンポーネントからのJSONエクスポートには、コアコンポーネントのリリース1.1.0が必要です。詳しくは [、コアコンポーネントv1](versions.md#main-pars_title_236368006) の互換性情報を参照してください。
+>コアコンポーネントからの JSON エクスポートには、コアコンポーネントのリリース 1.1.0 が必要です。詳しくは、[コアコンポーネント v1 の互換性情報](versions.md#main-pars_title_236368006)を参照してください。
 
-## ダイアログの設定 {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログでは、コンテンツ作成者が表示するオプションの種類、ラベル、使用可能なオプションを定義できます。
+設定ダイアログでは、表示するオプションのタイプ、ラベル、使用可能なオプションをコンテンツ作成者が定義できます。
 
 ![](assets/chlimage_1-90.png)
 
-* **オプションの表示**方法
+* **タイプ** - オプションの表示方法
 
    * **チェックボックス**
    * **ラジオボタン**
    * **ドロップダウン**
    * **複数選択ドロップダウン**
 
-* **タイトル** -オプションのラベルとして表示されるタイトル
-* **名前** -フォームデータと共に送信されたフィールドの名前
-* **ソース** -オプションの定義場所
+* **タイトル** - オプションのラベルとして表示されるタイトル
+* **名前** - フィールドの名前（フォームデータと共に送信されます）
+* **ソース** - オプションの定義場所
 
-   * **ローカル** -コンポーネント内で定義
-      * Tap or click the **Add** button to add a value, **Delete** to remove a value
-      * **値** -フォームの送信時にそのオプションが選択されたときに保存される値
-      * **テキスト** -フォームに表示されるオプションのラベル
-      * **アクティブ** -フォームの読み込み時に選択したオプションが選択されている
-      * **無効** -オプションは選択できませんが、表示されます
-      * **リスト** - AEMの任意の場所で定義されている静的リストがオプションに使用されます
-         * **List** - AEMの静的リストのパス
-            * 参照ボタンを使用したリストリソースの検索
-      * **データソース** -オプションにデータソースを使用
-         * **データソース** -データソースのリソースタイプ
-* **ヘルプメッセージ** -フィールドに入力できるユーザーのヒント
+   * **ローカル** - コンポーネント内に定義
+      * 値を追加するには「**追加**」ボタンを、値を削除するには「**削除**」を、それぞれタップまたはクリックします。
+      * **値** - フォームの送信時にそのオプションが選択されている場合に保存された値
+      * **テキスト** - フォームに表示されるオプションのラベル
+      * **アクティブ** - フォームの読み込み時にオプションが選択済みとしてマークされます
+      * **無効** - オプションは選択できませんが、表示されます
+      * **リスト** - AEM の他の場所で定義されている静的リストがオプションに使用されます
+         * **リスト** - AEM 内の静的リストのパス
+            * 参照ボタンを使用してリストリソースを特定します
+      * **データソース** - オプションにデータソースが使用されます
+         * **データソース** - データソースのリソースタイプ
+* **ヘルプメッセージ** - フィールドに入力できる内容をユーザーに伝えるヒント
 
-## デザインダイアログ {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-Form Optionsコンポーネントのデザインダイアログはありません。
+フォームオプションコンポーネントにはデザインダイアログはありません。
 
 ## 技術的詳細 {#technical-details}
 
-フォームオプションコンポーネント [に関する最新の技術ドキュメントは、GitHubで確認](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options)できます。
+フォームオプションコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options) を参照してください。
 
-コアコンポーネントプロジェクト全体をGitHubからダウンロードできます。
+コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
