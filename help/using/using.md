@@ -2,19 +2,19 @@
 title: コアコンポーネントの使用
 seo-title: コアコンポーネントの使用
 description: 'null'
-seo-description: 「独自のプロジェクトでコアコンポーネントを取得および実行するには、次の3つの手順があります。ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートのコンポーネントの許可」を参照してください。
-uuid: a1ef2ACF-8226-4510-838b- f5fae196f9f1
-contentOwner: ユーザーは、
-content-type: リファレンス
-topic-tags: 開発中
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: 1703a171-830c-477e- a34f-99caba841ec4
+seo-description: '"独自のプロジェクトにコアコンポーネントを導入するには、4 つの手順（ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートでのコンポーネントの有効化）に従います。"'
+uuid: a1ef2acf-8226-4510-838b-f5fae196f9f1
+contentOwner: ユーザー
+content-type: reference
+topic-tags: developing
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 1703a171-830c-477e-a34f-99caba841ec4
 disttype: dist5
 gnavtheme: light
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 # コアコンポーネントの使用{#using-core-components}
 
-基本的なプロジェクトの [コアコンポーネント](developing.md) を習得するには、以下の4つの手順を個別に説明します。
+独自のプロジェクトに[コアコンポーネント](developing.md)を導入するには、次の 4 つの手順に従います。以下では、それぞれの手順について詳しく説明します。
 
 1. [ダウンロードとインストール](#download-and-install)
 1. [プロキシコンポーネントの作成](#create-proxy-components)
@@ -31,16 +31,16 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 >[!NOTE]
 >
->また、プロジェクト設定、編集可能なテンプレート、クライアントライブラリおよびコンポーネントの開発を使用して最初から開始する方法についての大まかな手順については、次のマルチパートチュートリアルを参照してください。\
+>また、プロジェクト設定、コアコンポーネント、編集可能テンプレート、クライアントライブラリおよびコンポーネント開発にゼロから取り組む方法についての広範な手順については、複数パートから成る次のチュートリアルを参照してください。\
 >[AEM Sites の概要 - WKND チュートリアル](wknd-tutorial.md)
 
 ## ダウンロードとインストール {#download-and-install}
 
-中核となるコンポーネントの背後にあるアイデアは柔軟性があります。新しいバージョンのコアコンポーネントをリリースすることで、アドビは新しい機能をより柔軟に配信できるようになります。開発者は、プロジェクトに統合することを選択するコンポーネントと、それらを更新する頻度を柔軟に設定できます。
+コアコンポーネントの背後にある基本的な考え方は柔軟性です。新しいバージョンのコアコンポーネントを頻繁にリリースすることで、アドビは新しい機能をより柔軟に配信できるようになります。一方、開発者は、プロジェクトに統合するコンポーネントとそれらの更新頻度を柔軟に設定できます。
 
-このため、コアコンポーネントは、実稼働モード（サンプルコンテンツなし）で開始する場合、クイックスタートには含まれません。そのため、最初の手順は、GitHubから最新のコンテンツパッケージを [ダウンロードし、](https://github.com/adobe/aem-core-wcm-components/releases/latest) AEM環境にインストールすることです。
+このため、実稼働モード（サンプルコンテンツなし）で開始する場合、コアコンポーネントはクイックスタートには含まれません。したがって、[リリースされた最新のコンテンツパッケージを GitHub からダウンロード](https://github.com/adobe/aem-core-wcm-components/releases/latest)して AEM 環境にインストールすることが最初の手順になります。
 
-これを自動化する方法はいくつかありますが、インスタンスにコンテンツパッケージをすばやくインストールするには、Package Managerを使用することが必要です。パッケージ [のインストールを参照](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)してください。また、発行インスタンスも実行すると、そのパッケージを発行者に複製する必要があります。パッケージ [の複製を参照](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)してください。
+これを自動化する方法はいくつかありますが、コンテンツパッケージをインスタンスにすぐにインストールするには、パッケージマネージャーを使用する方法が最も簡単です。詳しくは、[パッケージのインストール](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html)を参照してください。また、パブリッシュインスタンスも実行する場合は、そのパブリッシュインスタンスにパッケージをレプリケートする必要があります。詳しくは、[パッケージのレプリケーション](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html)を参照してください。
 
 <!-- 
 
@@ -54,24 +54,24 @@ Should we be promoting embedding the core-component package as an artifact in a 
 
 ## プロキシコンポーネントの作成 {#create-proxy-components}
 
-[「プロキシコンポーネントパターン](guidelines.md#proxy-component-pattern) 」セクションで説明している理由により、コアコンポーネントをコンテンツから直接参照することはできません。そうしないと、すべてが非表示のコンポーネントグループ（ `.core-wcm``.core-wcm-form`または）に属しているので、直接エディターに表示されなくなります。
+[プロキシコンポーネントパターン](guidelines.md#proxy-component-pattern)で説明している理由により、コアコンポーネントをコンテンツから直接参照することは禁止されています。直接参照を避けるために、すべてのコアコンポーネントは非表示コンポーネントグループ（`.core-wcm` または `.core-wcm-form`）に属しているので、エディターには直接表示されません。
 
-代わりに、サイト固有のコンポーネントを作成して、ページ作成者に表示するコンポーネントの名前とグループを定義し、それぞれのスーパータイプとしてコアコンポーネントを参照する必要があります。これらのサイト固有のコンポーネントは、「プロキシコンポーネント」と呼ばれることもあります。これらのコンポーネントは、何も含まれなくても、サイトに使用するコンポーネントのバージョンを定義するためにほぼ必要となります。[ただし、コアコンポーネント](customizing.md)をカスタマイズする場合、これらのプロキシコンポーネントは、マークアップと論理のカスタマイズに不可欠な役割を果たします。
+代わりに、サイト固有のコンポーネントを作成する必要があります。そのコンポーネントで、ページ作成者に表示する適切なコンポーネントの名前とグループを定義し、それぞれのスーパータイプとしてコアコンポーネントを参照します。これらのサイト固有のコンポーネントは、「プロキシコンポーネント」と呼ばれることもあります。これらのコンポーネントは、コンテンツが不要で、主に、サイトに使用するコンポーネントのバージョンを定義する役目を果たすからです。ただし、[コアコンポーネント](customizing.md)をカスタマイズする場合、これらのプロキシコンポーネントはマークアップとロジックのカスタマイズに不可欠です。
 
-したがって、サイトで使用する必要があるコアコンポーネントごとに、以下のことが必要です。
+そのため、サイトに使用する必要があるコアコンポーネントごとに、以下が必要になります。
 
-1. サイトのcomponentsフォルダー内に対応するプロキシコンポーネントを作成します。
+1. 対応するプロキシコンポーネントをサイトの components フォルダー内に作成します。
 
-   **「タイプのタイトルノードを作成**する」の下 `/apps/my-site/components` の例 `cq:Component`
+   **例** - `/apps/my-site/components` 内に `cq:Component` タイプのタイトルノードを作成します
 
-1. スーパータイプを持つ対応するコアコンポーネントバージョンをポイントします。
+1. 対応するコアコンポーネントバージョンをスーパータイプで参照します。
 
-   **例**次のプロパティを追加します。\
+   **例** - 次のプロパティを追加します。\
    `sling:resourceSuperType="core/wcm/components/title/v1/title"`
 
-1. コンポーネントのグループ、タイトル、およびオプションの説明を定義します。これらの値はプロジェクト固有で、コンポーネントが作成者に与える公開方法を示します。
+1. コンポーネントのグループ、タイトルのほか、オプションで説明を定義します。これらの値はプロジェクト固有で、作成者に対するコンポーネントの表示を指定します。
 
-   **例**次のプロパティを追加します。
+   **例** - 次のプロパティを追加します。
 
    ```shell
    componentGroup="My Site"
@@ -79,7 +79,7 @@ Should we be promoting embedding the core-component package as an artifact in a 
    jcr:description="Section Heading"
    ```
 
-例えば、We. Retailリファレンスサイトの [タイトルコンポーネントを見てみましょう。](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml)これは、その方法を構築したプロキシコンポーネントの好例です。
+例えば、[We.Retail 参照サイトのタイトルコンポーネント](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml)をご覧ください。これは、このような方法で作成されるプロキシコンポーネントの好例です。
 
 ## コアスタイルの読み込み {#load-the-core-styles}
 
@@ -113,10 +113,10 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. まだ実行していない場合は、サイトに必要なCSSおよびJSファイルをすべて含む [クライアントライブラリ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) を作成します。
-1. サイトのクライアントライブラリで、必要なコアコンポーネントに依存性を追加します。これは `embed` 、プロパティを追加することで行います。
+1. サイトに必要な CSS および JS ファイルをすべて含んだ[クライアントライブラリ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html)を作成します（まだ作成していない場合）。
+1. サイトのクライアントライブラリで、必要なコアコンポーネントへの依存関係を追加します。これをおこなうには、`embed` プロパティを追加します。
 
-   例えば、すべてのv1Core Componentsのクライアントライブラリを含めるには、追加するプロパティは次のようになります。
+   例えば、すべての v1 コアコンポーネントのクライアントライブラリを組み込むには、追加するプロパティは次のようになります。
 
    ```shell
    embed="[  
@@ -128,19 +128,19 @@ Load the Core Client Libraries sounds way better
    ]"
    ```
 
-次のセクションに移動する前に、プロキシコンポーネントとクライアントライブラリがAEM環境にデプロイされていることを確認してください。
+次の手順に進む前に、プロキシコンポーネントとクライアントライブラリが AEM 環境にデプロイされていることを確認してください。
 
-## コンポーネントの許可 {#allow-the-components}
+## コンポーネントの有効化 {#allow-the-components}
 
-[テンプレートエディターでは、次の手順が実行](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)されます。
+[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)で以下をおこないます。
 
 1. テンプレートエディターで、レイアウトコンテナを選択し、そのポリシーを開きます。
-1. 許可されているコンポーネントのリストで、以前に作成したプロキシコンポーネントを選択します。これは、割り当てられているコンポーネントグループの下に表示されます。完了したら、変更を適用します。
+1. 「許可されるコンポーネント」のリストで、作成済みのプロキシコンポーネントを選択します。これは、プロキシコンポーネントに割り当てられているコンポーネントグループの下に表示されます。操作が完了したら、変更を適用します。
 1. オプションとして、デザインダイアログを持つコンポーネントの場合は、事前に設定できます。
 
-これで問題ありません。編集したテンプレートから作成されたページで、新しく作成したコンポーネントを使用できるようになります。
+これで作業は完了です。編集したテンプレートから作成したページで、新しく作成したコンポーネントを使用できるようになります。
 
 **関連項目：**
 
-* [コアコンポーネントのカスタマイズ](customizing.md) -コアコンポーネントのスタイル設定とカスタマイズ方法について説明します。
-* [コンポーネントガイドライン](guidelines.md) -コアコンポーネントの実装パターンを学習します。
+* [コアコンポーネントのカスタマイズ](customizing.md) - コアコンポーネントのスタイル設定とカスタマイズの方法について説明します。
+* [コンポーネントのガイドライン](guidelines.md) - コアコンポーネントの実装パターンについて説明します。
