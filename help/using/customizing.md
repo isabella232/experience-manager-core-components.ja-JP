@@ -1,50 +1,50 @@
 ---
 title: コアコンポーネントのカスタマイズ
 seo-title: コアコンポーネントのカスタマイズ
-description: コアコンポーネントは、シンプルなスタイリングから高度な機能再利用まで、簡単なカスタマイズを可能にするいくつかのパターンを実装しています。
-seo-description: AEM Coreコンポーネントは、シンプルなスタイリングから高度な機能再利用まで、簡単なカスタマイズを可能にするいくつかのパターンを実装しています。
+description: コアコンポーネントは、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実施できるパターンをいくつか実装しています。
+seo-description: AEM コアコンポーネントは、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実施できるパターンをいくつか実装しています。
 uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
-contentOwner: ユーザーは、
-content-type: リファレンス
-topic-tags: 開発中
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: 3c9e0ade-1ce0-4e34- ae04-8da63f9b6c4f
-translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+contentOwner: ユーザー
+content-type: reference
+topic-tags: developing
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
 # コアコンポーネントのカスタマイズ{#customizing-core-components}
 
-[コアコンポーネント](developing.md) は、シンプルなスタイリングから高度な機能再利用まで、簡単なカスタマイズを可能にするいくつかのパターンを実装しています。
+[コアコンポーネント](developing.md)は、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実施できるパターンをいくつか実装しています。
 
 ## 柔軟なアーキテクチャ {#flexible-architecture}
 
-コアコンポーネントは、最初から柔軟性と拡張性を備えていました。アーキテクチャの概要を見て、カスタマイズの場所を示します。
+コアコンポーネントは、柔軟性と拡張性を兼ね備えるように一から設計されました。アーキテクチャの概要を見れば、カスタマイズが可能な場所がわかります。
 
-![コアコンポーネントアーキテクチャ](assets/screen_shot_2018-12-07at093742.png)
+![コアコンポーネントのアーキテクチャ](assets/screen_shot_2018-12-07at093742.png)
 
-* [デザインダイアログ](authoring.md#edit-and-design-dialogs) では、編集ダイアログで作成者が実行できる操作と実行できないものを定義します。
-* [編集ダイアログ](authoring.md#edit-and-design-dialogs) には、使用できるオプションのみが表示されます。
-* [Slingモデルは](#customizing-the-logic-of-a-core-component) 、ビュー（テンプレート）のコンテンツを検証して準備します。
-* [Slingモデル](#customizing-the-logic-of-a-core-component) の結果は、SPAユースケースのためにJSONにシリアライズできます。
-* [HTLは、従来のサーバー側レンダリング用にHTML](#customizing-the-markup) サーバー側をレンダリングします。
-* [HTML出力](#customizing-the-markup) はセマンティック、アクセシブル、検索エンジン、およびスタイルが容易です。
+* [デザインダイアログ](authoring.md#edit-and-design-dialogs)では、編集ダイアログで作成者が実行できる操作や実行できない操作を定義します。
+* [編集ダイアログ](authoring.md#edit-and-design-dialogs)では、使用可能なオプションのみを作成者に表示します。
+* [Sling モデル](#customizing-the-logic-of-a-core-component)は、ビューのコンテンツ（テンプレート）を検証して準備します。
+* [Sling モデルの結果](#customizing-the-logic-of-a-core-component)は、SPA ユースケース用として JSON 形式にシリアライズできます。
+* [HTL は HTML のレンダリング](#customizing-the-markup)を、従来のサーバー側レンダリング用にサーバー側でおこないます。
+* [HTML 出力](#customizing-the-markup)は、セマンティックかつアクセシブルで、検索エンジンに最適化されており、容易にスタイルを設定できます。
 
-また、すべてのコアコンポーネントは [スタイルシステムを実装](customizing.md)します。
+また、すべてのコアコンポーネントが[スタイルシステム](customizing.md)を実装しています。
 
 ## カスタマイズパターン {#customization-patterns}
 
 ### ダイアログのカスタマイズ {#customizing-dialogs}
 
-コアコンポーネントダイアログで使用できる設定オプションをカスタマイズして、デザインダイアログまたは編集ダイアログで [カスタマイズ](authoring.md)することができます。
+コアコンポーネントのダイアログ（[デザインダイアログ、編集ダイアログ](authoring.md)のいずれか）で利用可能な設定オプションのカスタマイズが必要になることがあります。
 
-各ダイアログには一貫したノード構造があります。この構造を継承コンポーネントで複製して [、Sling Resource Merge](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) および [Hide条件](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) を使用して、元のダイアログのセクションの非表示、置き換え、並べ替えを行うことができるようにすることをお勧めします。複製する構造は、タブ項目のノードレベルまで定義されます。
+各ダイアログには一貫したノード構造があります。継承する側のコンポーネントでこの構造を複製することをお勧めします。そうすれば、[Sling Resource Merger](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) や[非表示条件](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/hide-conditions.html)を使用して元のダイアログのセクションの非表示、置換または並べ替えをおこなうことができます。複製する構造は、タブ項目ノードレベルまでのすべて、と定義されます。
 
-現在のバージョンのダイアログに対して行われた変更と完全に互換性を持たせるには、タブ項目レベルの下の構造（非表示、追加、置換、並べ替えなど）は非常に重要です。代わりに、親のタブ項目は `sling:hideResource` 、プロパティ（ [Sling Resource Mergeプロパティ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)を参照）によって非表示にする必要があります。また、新しく追加されたタブ項目には、bospoke設定フィールドが含まれています。`sling:orderBefore` を使用して、必要に応じてタブ項目の並べ替えを行うことができます。
+現在のバージョンのダイアログに対して行われる変更との互換性を完全に持たせるには、タブ項目レベルの下にある構造に対して変更（非表示、追加、置換、並べ替えなど）をおこなわないことが非常に重要となります。代わりに、`sling:hideResource` プロパティ（[Sling Resource Merger のプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)を参照）を使用して親のタブ項目を非表示にし、カスタム設定フィールドを含む新しいタブ項目を追加してください。必要に応じて、`sling:orderBefore` を使用してタブ項目を並べ替えることもできます。
 
-以下のダイアログでは、推奨されるダイアログ構造と、前述のように継承されたタブを表示および置換する方法について説明します。
+以下の図では、推奨されるダイアログの構造と、前述した、継承される側のタブを非表示にして置換する方法を示しています。
 
 <!-- 
 
@@ -95,11 +95,11 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 ### コアコンポーネントのロジックのカスタマイズ {#customizing-the-logic-of-a-core-component}
 
-コアコンポーネントのビジネスロジックはSlingモデルに実装されます。このロジックはSling委任パターンを使用して拡張できます。
+コアコンポーネントのビジネスロジックは、Sling モデルで実装されています。このロジックは Sling 委任パターンを使用して拡張できます。
 
-例えば、タイトルコアコンポーネントは、要求されたリソースの `jcr:title` プロパティを使用して、タイトルテキストを提供します。プロパティが `jcr:title` 定義されていない場合、現在のページタイトルへのフォールバックが実装されます。現在のページのタイトルが常に表示されるように動作を変更します。
+例えば、タイトルコアコンポーネントは、要求されたリソースの `jcr:title` プロパティを使用してタイトルのテキストを提供します。`jcr:title` プロパティが定義されていない場合は、現在のページのタイトルへのフォールバックが実行されます。ここで、現在のページのタイトルを常に表示するように動作を変更したいとします。
 
-コアコンポーネントのモデルの実装はプライベートなので、委任パターンを使用して拡張する必要があります。
+コアコンポーネントのモデルの実装が非公開になっているので、委任パターンを使用して拡張する必要があります。
 
 ```java
 @Model(adaptables = SlingHttpServletRequest.class,
@@ -118,15 +118,15 @@ public class PageHeadline implements Title {
 }
 ```
 
-委任パターンについて詳しくは、SlingモデルのコアコンポーネントGitHub Wiki記事 [の委任パターンを参照](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)してください。
+委任パターンについて詳しくは、コアコンポーネント GitHub Wiki 記事の「[Delegation Pattern for Sling Models](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)」を参照してください。
 
 ### マークアップのカスタマイズ {#customizing-the-markup}
 
-高度なスタイル設定では、コンポーネントのマークアップ構造が異なることがあります。
+高度なスタイル設定では、マークアップ構造が異なるコンポーネントが必要となることがあります。
 
-これは、コアコンポーネントからプロキシコンポーネントに変更する必要があるHTLファイルをコピーすることで簡単に行うことができます。
+変更が必要な HTL ファイルをコアコンポーネントからプロキシコンポーネントにコピーすれば、簡単に実行できます。
 
-コアパンくずリストコンポーネントの例を再度取り込んで、マークアップ出力をカスタマイズすると、 `breadcrumb.html` ファイルは、コアパンくずリストをポイントするサイト固有 `sling:resourceSuperTypes` のコンポーネントにコピーする必要があります。
+パンくずコアコンポーネントの例を再度取り上げます。そのマークアップ出力をカスタマイズするには、`breadcrumb.html` ファイルを、パンくずコアコンポーネントを指す `sling:resourceSuperTypes` を含むサイト固有のコンポーネントにコピーする必要があります。
 
 <!-- 
 
@@ -149,11 +149,11 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 ### コンポーネントのスタイル設定 {#styling-the-components}
 
-カスタマイズの最初の形式は、CSSスタイルを適用することです。
+カスタマイズの最初の形式は、CSS スタイルを適用することです。
 
-これを簡単にするために、コアコンポーネントは、Bootstrapから [インスピレーションを得られる標準化された命名規則に従ってい](https://getbootstrap.com/)ます。また、個々のコンポーネントのスタイルを容易にターゲット化および名前空間化するために、各コアコンポーネントは「 `cmp`」および「 `cmp-<name>`」クラスを持つDIV要素にラップされています。
+これが簡単になるよう、コアコンポーネントではセマンティックなマークアップをレンダリングし、[Bootstrap](https://getbootstrap.com/) を参考にして標準化された命名規則に従います。また、個々のコンポーネントのスタイルを容易にターゲット化および名前空間化できるよう、各コアコンポーネントは「`cmp`」および「`cmp-<name>`」クラスを持つ DIV 要素内にラップされます。
 
-例えば、v1Coreパンくず者コンポーネントのHTLファイルを確認します。 [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)では、要素が出力されることがわかり `ol.breadcrumb > li.breadcrumb-item > a`ます。そのため、CSSルールがそのコンポーネントの階層階層クラスにのみ影響するようにするには、次のようにすべてのルールを階層化する必要があります。
+例えば、v1 パンくずコアコンポーネントの HTL ファイル [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html) を確認すると、要素出力の階層が `ol.breadcrumb > li.breadcrumb-item > a` となっていることがわかります。そのため、CSS ルールをそのコンポーネントのパンくずクラスのみに適用するには、次のようにすべてのルールを名前空間化する必要があります。
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  
@@ -161,41 +161,41 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 .cmp-breadcrumb a {}
 ```
 
-さらに、各コアコンポーネントはAEM [スタイルシステム機能](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) を活用して、テンプレート作成者がページ作成者によってコンポーネントに適用できる追加のCSSクラス名を定義できるようにします。これにより、各テンプレートに対して、許可されているコンポーネントスタイルのリストと、そのいずれかの要素がデフォルトでその種類のすべてのコンポーネントに適用されるかどうかを定義できます。
+さらに、各コアコンポーネントは AEM [スタイルシステムの機能](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/style-system.html)を活用しています。スタイルシステムを使用すれば、テンプレート作成者は、ページ作成者がコンポーネントに適用できる追加の CSS クラス名を定義することができます。また、テンプレートごとに、許可されるコンポーネントスタイルのリストと、いずれかのスタイルを同じ種類のすべてのコンポーネントにデフォルトで適用するかどうかを定義できます。
 
-## カスタマイズの互換性のアップグレード {#upgrade-compatibility-of-customizations}
+## アップグレード時のカスタマイズの互換性 {#upgrade-compatibility-of-customizations}
 
-3種類のアップグレードが可能です。
+次の 3 種類のアップグレードが可能です。
 
-* AEMバージョンのアップグレード
+* AEM のバージョンのアップグレード
 * コアコンポーネントの新しいマイナーバージョンへのアップグレード
 * コアコンポーネントのメジャーバージョンへのアップグレード
 
-一般的に、コンポーネントのバージョンが移行する新しいAEMバージョンもサポートしていないため、AEMのアップグレードはコアコンポーネントまたはカスタマイズに影響しません。また、コンポーネントのバージョンでは、移行中の新しいAEMバージョンもサポート [されていません](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html)。
+一般に、AEM を新しいバージョンにアップグレードしても、コンポーネントが移行先の新しい AEM バージョンもサポートし、[廃止または削除](https://helpx.adobe.com/jp/experience-manager/6-5/release-notes/deprecated-removed-features.html) された API がカスタマイズで使用されていなければ、コアコンポーネントやおこなったカスタマイズには何の影響もありません。
 
-このページで説明されているカスタマイズパターンが使用されている限り、新しいメジャーバージョンに切り替えずにコアコンポーネントをアップグレードすることは、カスタマイズには影響しません。
+コアコンポーネントを新しいメジャーバージョンに切り替えずにアップグレードしても、このページで説明したカスタマイズパターンが使用されている限り、カスタマイズには何の影響もありません。
 
-コアコンポーネントの新しいメジャーバージョンへの切り替えは、コンテンツ構造にのみ対応していますが、カスタマイズを再配色する必要がある場合があります。このページで説明するカスタマイズの種類に影響する変更を強調表示するために、各コンポーネントバージョンに対して変更ログが公開されます。
+コアコンポーネントを新しいメジャーバージョンに切り替えた場合、互換性が保たれるのはコンテンツの構造のみであり、カスタマイズはリファクタリングが必要となることがあります。コンポーネントバージョンごとに明瞭な変更ログが公開され、このページで説明した種類のカスタマイズに影響する変更を強調します。
 
 ## カスタマイズのサポート {#support-of-customizations}
 
-AEMコンポーネントの場合と同様に、カスタマイズについて認識することがいくつかあります。
+他の AEM コンポーネントの場合と同様に、カスタマイズに関して注意すべき点がいくつかあります。
 
-1. **コアコンポーネントのコードは直接変更しないでください。**
+1. **コアコンポーネントのコードを直接変更しないでください。**
 
-   これにより、完全にはサポートされず、コンポーネントの今後の更新が難しいプロセスになります。代わりに、このページで説明するカスタマイズ方法を使用してください。
+   そうしてしまうと、コアコンポーネントが完全にサポート対象外となり、将来のコンポーネントのアップデートが困難になってしまいます。代わりに、このページで説明したカスタマイズ方法を使用してください。
 
-1. **カスタムコードは独自の責任です。**
+1. **カスタムコードはユーザー自身の責任になります。**
 
-   サポートプログラムではカスタムコードはカバーされません。また、ドキュメントに記載 [](using.md) されているバニラコアコンポーネントで再現できない問題が報告されます。
+   サポートプログラムではカスタムコードはカバーされません。また、[記載どおりに使用](using.md)された標準のコアコンポーネントで再現できない問題が報告されても、その問題はサポート対象外となります。
 
-1. **廃止された機能および削除された機能をご覧ください。**
+1. **廃止された機能や削除された機能を確認してください。**
 
-   新しいAEMバージョンがアップグレードされるたびに [、使用されていない機能](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) ページに目を通すことで、使用されているすべてのAPIが引き続き対象となるようにしてください。
+   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://helpx.adobe.com/jp/experience-manager/6-5/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
 
-[コアコンポーネントのサポート](developing.md#core-component-support) セクションも参照してください。
+[コアコンポーネントのサポート](developing.md#core-component-support)の節も参照してください。
 
 **関連項目：**
 
-* [コアコンポーネント](using.md) の使用-独自のプロジェクトのコアコンポーネントの使用を習得できます。
-* [コンポーネントガイドライン](guidelines.md) -コアコンポーネントの実装パターンを学習します。
+* [コアコンポーネントの使用](using.md) - 独自のプロジェクトにコアコンポーネントを導入する方法について説明します。
+* [コンポーネントのガイドライン](guidelines.md) - コアコンポーネントの実装パターンについて説明します。
