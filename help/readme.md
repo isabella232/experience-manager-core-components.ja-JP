@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
-translation-type: tm+mt
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: ht
 
 ---
 
-# AEMコアコンポーネントヘルプ
+# AEM コアコンポーネントヘルプ
