@@ -1,11 +1,11 @@
 ---
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
-translation-type: tm+mt
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: ht
 
 ---
 # MIT ライセンス
 
-© Copyright 2018 Adobe.All rights reserved. 
+© Copyright 2018 Adobe.All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &quot;Software&quot;), to deal
