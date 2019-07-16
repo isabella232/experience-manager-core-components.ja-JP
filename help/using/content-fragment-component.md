@@ -2,96 +2,96 @@
 title: コンテンツフラグメントコンポーネント
 seo-title: コンテンツフラグメントコンポーネント
 description: 'null'
-seo-description: コアコンポーネントコンテンツフラグメントコンポーネントを使用すると、コンテンツフラグメントを表示できます。
-uuid: ec807de9- f76c-4850-9ece- c3e439a1d626
-contentOwner: ユーザーは、
-content-type: リファレンス
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: f093f58e-9755-4a4f-803a- ab93a50e6870
-translation-type: tm+mt
-source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
+seo-description: コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、コンテンツフラグメントを表示できます。
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
+contentOwner: ユーザー
+content-type: reference
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
 # コンテンツフラグメントコンポーネント{#content-fragment-component}
 
-コアコンポーネントコンテンツフラグメントコンポーネントを使用すると [、コンテンツフラグメントを表示](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)できます。
+コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/content-fragments.html)を表示できます。
 
 >[!NOTE]
 >
->コアコンポーネントのリリース2.4.0より前に、コンテンツフラグメントコンポーネントはコアコンポーネントの拡張機能として使用でき、個別にダウンロードして明示的に有効にする必要がありました。
+>コアコンポーネントのリリース 2.4.0 以前は、コンテンツフラグメントコンポーネントはコアコンポーネントの拡張機能として使用でき、別個にダウンロードして明示的に有効にする必要がありました。
 
 ## 使用方法 {#usage}
 
-コアコンポーネントコンテンツフラグメントコンポーネントを使用すると、コンテンツフラグメント [をページ](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) に含めることができます。
+コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/content-fragments.html)をページに組み込むことができます。
 
-* フラグメントとそのプロパティは、設定ダイアログで [選択](#configure-dialog)できます。
-* 特定の画像およびグリッドを処理するリソースタイプは、デザインダイアログで [定義](#design-dialog)できます。
-* 編集オプションで、選択したフラグメントがコンテンツフラグメントエディター内 [に開き](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)ます。
+* フラグメントとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
+* 特定の画像やグリッドを処理するリソースタイプは、[デザインダイアログ](#design-dialog)で定義できます。
+* 編集オプションをクリックすると、選択したフラグメントが[コンテンツフラグメントエディター](https://helpx.adobe.com/jp/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)で開かれます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-コンテンツフラグメントコンポーネントの現在のバージョンはv1であり、2017年10月のコアコンポーネントのリリース1.1.0で導入されました。このドキュメントで説明しています。
+このドキュメントでは、コンテンツフラグメントコンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 1.1.0 で導入された v1）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
-| v1 | 互換性 | 互換性 | 互換性 |
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
 >[!NOTE]
 >
->リリース2.4.0より前のバージョンでは、コンテンツフラグメントコンポーネントは拡張子フォルダー内にありました。
+>リリース 2.4.0 以前のバージョンでは、コンテンツフラグメントコンポーネントは拡張機能フォルダーに含まれていました。
 >
 > `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
 > 
->2.4.0から、次の場所に移動しました。
+>2.4.0 からは、次の場所に移動しました。
 >
 >`apps/core/wcm/components/contentfragment/v1/contentfragment`
 >
->v1はどちらもv1ですが、拡張機能フォルダーから使用されたコンテンツフラグメントコンポーネントは、それに関連するプロキシコンポーネントの移行に必要となります。これにより、リリース2.4.0以降のコアコンポーネントにアップグレードするときに、新しいリソースタイプを使用する必要があります。
+>どちらも v1 ですが、拡張機能フォルダーから使用されていたコンテンツフラグメントコンポーネントについては、リリース 2.4.0 以降のコアコンポーネントにアップグレードしたときに新しいリソースタイプを使用できるようにするには、関連するプロキシコンポーネントを移行する必要があります。
 
-コアコンポーネントバージョンとリリースについて詳しくは、ドキュメント [コアコンポーネントバージョン](versions.md)を参照してください。
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-コンテンツフラグメントコンポーネントを体験するには、その設定オプションの例およびHTMLおよびJSON出力の例に加えて [、コンポーネントライブラリを参照](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)してください。
+コンテンツフラグメントコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-コンテンツフラグメントコンポーネント [に関する最新の技術ドキュメントは、GitHubで入手](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment)できます。
+コンテンツフラグメントコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment) を参照してください。
 
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## ダイアログの設定 {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログでは、コンテンツ作成者がコンテンツフラグメントとそのフラグメントの要素を定義することができます。
+設定ダイアログでは、コンテンツフラグメントとそのフラグメントを組み込む要素をコンテンツ作成者が定義できます。
 
 ![](assets/chlimage_1-87.png)
 
 * **コンテンツフラグメント**
 
    * 目的のコンテンツフラグメントへのパス
-   * **選択ダイアログ** を使用してフラグメントを検索できます
+   * **選択ダイアログ** を使用して、フラグメントを見つけることができます。
 
-* **要素** -コンテンツフラグメントの要素
-* **バリエーション** -使用するコンテンツフラグメントのバリエーション（デフォルトは **マスター**）
+* **要素** - コンテンツフラグメントを組み込む要素
+* **バリエーション** - 使用するコンテンツフラグメントのバリエーション（デフォルトは **マスター**）
 
 * **段落**
 
-   * **すべて** -すべての段落を表示
+   * **すべて** - すべての段落を表示します
    * **範囲**
 
       * 表示する段落の範囲をセミコロンで区切って指定します
-      * 1st、3番目 `1;3-5;7;9-*` から5番目、最後の段落の3番目、および9番目の部分を含む場合
+      * 例えば、`1;3-5;7;9-*` では、1 番目、3 番目から 5 番目まで、7 番目、9 番目が最終的な段落に含まれます。
 
-* **見出しを独自の段落として処理する**
+* **見出しを独自の段落として処理**
 
-## デザインダイアログ {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-デザインダイアログでは、テンプレート作成者が混在メディア画像とレスポンシブグリッドを処理するために使用するリソースタイプを定義できます。
+デザインダイアログでは、混在メディア画像とレスポンシブグリッドを処理するためのリソースタイプをテンプレート作成者が定義できます。
 
 ![](assets/chlimage_1-88.png)
 
@@ -101,4 +101,4 @@ source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
 
 * **内部レスポンシブグリッド**
 
-   * 内部レスポンシブグリッドに使用されるSlingリソースタイプ
+   * 内部レスポンシブグリッドに使用される Sling リソースタイプ
