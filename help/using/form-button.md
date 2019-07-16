@@ -2,54 +2,54 @@
 title: フォームボタンコンポーネント
 seo-title: フォームボタンコンポーネント
 description: 'null'
-seo-description: コアコンポーネントフォーム非表示コンポーネントを使用すると、フォームに非表示フィールドを含めることができます。
-uuid: 22c53cd0- d0bc-4e5d-89f3-5ac4f61a9100
-contentOwner: ユーザーは、
-content-type: リファレンス
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: a6e2974a-243f-40ab-903c- c7d3e8615bcc
+seo-description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、フォームに非表示フィールドを含めることができます。
+uuid: 22c53cd0-d0bc-4e5d-89f3-5ac4f61a9100
+contentOwner: ユーザー
+content-type: reference
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: a6e2974a-243f-40ab-903c-c7d3e8615bcc
 disttype: dist5
 gnavtheme: light
-groupsectionnavitems: ' '
+groupsectionnavitems: ' no'
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
 # フォームボタンコンポーネント{#form-button-component}
 
-コアコンポーネントフォームのボタンコンポーネントを使用すると、ページ上のアクションをトリガーするボタンを含めることができます。
+コアコンポーネントのフォームボタンコンポーネントを使用すれば、アクションをトリガーするボタンをページに含めることができます。
 
 ## 使用方法 {#usage}
 
-Core Component Form Buttonコンポーネントを使用すると、ボタンフィールドを作成できます。多くの場合、フォームの送信をトリガーし、 [フォームコンテナコンポーネントとともに使用することを意図](form-container.md)しています。
+コアコンポーネントのフォームボタンコンポーネントを使用すれば、フォームの送信をトリガーすることが多いボタンフィールドを作成できます。このコンポーネントは、[フォームコンテナコンポーネント](form-container.md)と共に使用するためのものです。
 
-ボタンのプロパティは [、設定ダイアログのコンテンツエディターで定義](form-button.md)できます。
+ボタンのプロパティは、コンテンツ編集者が[設定ダイアログ](form-button.md)で定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-フォームボタンコンポーネントの現在のバージョンはv2であり、2018年1月のコアコンポーネントのリリース2.0.0で導入されています。このドキュメントで説明しています。
+このドキュメントでは、フォームボタンコンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v2 | 互換性 | 互換性 | 互換性 |
-| [v1](form-button-v1.md) | 互換性 | 互換性 | 互換性 |
+| v2 | 互換性あり | 互換性あり | 互換性あり |
+| [v1](form-button-v1.md) | 互換性あり | 互換性あり | 互換性あり |
 
-コアコンポーネントバージョンとリリースについて詳しくは、ドキュメント [コアコンポーネントバージョン](versions.md)を参照してください。
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)です。
+以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html) から引用したサンプルです。
 
 ### スクリーンショット {#screenshot}
 
@@ -85,11 +85,11 @@ Core Component Form Buttonコンポーネントを使用すると、ボタンフ
 
 ### 技術的詳細 {#technical-details}
 
-フォームボタンコンポーネント [に関する最新の技術ドキュメントは、GitHubで確認](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button)できます。
+フォームボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button) を参照してください。
 
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## ダイアログの設定 {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
 設定ダイアログでは、コンテンツ作成者がボタンのパラメーターを定義できます。
 
@@ -102,15 +102,15 @@ Core Component Form Buttonコンポーネントを使用すると、ボタンフ
    * **ボタン**
    * **送信**
 
-* **タイトル** -ボタンに表示されるテキスト
+* **タイトル** - ボタンに表示されるテキスト
 
-   * 何も指定しなかった場合、ボタンの種類がデフォルトに設定されます
+   * 指定しない場合は、デフォルトでボタンの種類が表示されます
 
-* **名前** -フォームデータとともに送信されるボタンの名前
-* **値** -フォームデータと共に送信されるボタンの値
+* **名前** - ボタンの名前（フォームデータと共に送信されます）
+* **値** - ボタンの値（フォームデータと共に送信されます）
 
-## デザインダイアログ {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
 ### 「スタイル」タブ {#styles-tab}
 
-フォームボタンコンポーネントでは、AEM [スタイルシステム](authoring.md#component-styling)がサポートされています。
+フォームボタンコンポーネントは、AEM [スタイルシステム](authoring.md#component-styling)をサポートしています。
