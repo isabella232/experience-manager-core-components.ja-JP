@@ -2,53 +2,53 @@
 title: フォーム非表示コンポーネント
 seo-title: フォーム非表示コンポーネント
 description: 'null'
-seo-description: コアコンポーネントフォーム非表示コンポーネントでは、非表示フィールドを表示できます。
-uuid: 63a1b381- f45c-4241- b743- dea8abd45e11
-contentOwner: ユーザーは、
-content-type: リファレンス
-topic-tags: コアコンポーネント
+seo-description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
+uuid: 63a1b381-f45c-4241-b743-dea8abd45e11
+contentOwner: ユーザー
+content-type: reference
+topic-tags: core-components
 discoiquuid: 36e49035-7641-4bad-8a61-723060032903
 disttype: dist5
 gnavtheme: light
-groupsectionnavitems: ' '
+groupsectionnavitems: ' no'
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
 # フォーム非表示コンポーネント{#form-hidden-component}
 
-コアコンポーネントフォーム非表示コンポーネントでは、非表示フィールドを表示できます。
+コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
 
 ## 使用方法 {#usage}
 
-コアコンポーネントフォーム非表示コンポーネントでは、現在のページに関する情報をAEMに渡すための非表示フィールドを作成できます。また [、フォームコンテナコンポーネントとともに使用することを意図](form-container.md)しています。
+コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを作成して、現在のページに関する情報を AEM に返すことができます。このコンポーネントは、[フォームコンテナコンポーネント](form-container.md)と共に使用するためのものです。
 
-フィールドプロパティは [、設定ダイアログのコンテンツエディターで定義](form-hidden.md)できます。
+フィールドのプロパティは、コンテンツ編集者が[設定ダイアログ](form-hidden.md)で定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-フォーム非表示コンポーネントの現在のバージョンはv2であり、2018年1月のコアコンポーネントのリリース2.0.0で導入されています。このドキュメントで説明しています。
+このドキュメントでは、フォーム非表示コンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v2 | 互換性 | 互換性 | 互換性 |
-| [v1](form-hidden-v1.md) | 互換性 | 互換性 | 互換性 |
+| v2 | 互換性あり | 互換性あり | 互換性あり |
+| [v1](form-hidden-v1.md) | 互換性あり | 互換性あり | 互換性あり |
 
-コアコンポーネントバージョンとリリースについて詳しくは、ドキュメント [コアコンポーネントバージョン](versions.md)を参照してください。
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## サンプルコンポーネントの出力 {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、We. Retailから [取得されたサンプル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)です。
+以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html) から引用したサンプルです。
 
 ### HTML {#html}
 
@@ -88,24 +88,24 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ### 技術的詳細 {#technical-details}
 
-フォーム非表示コンポーネントに関する最新の技術ドキュメントは、GitHubにあり [ます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden)。
+フォーム非表示コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden) を参照してください。
 
-コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## ダイアログの設定 {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
 設定ダイアログでは、コンテンツ作成者が非表示フィールドのパラメーターを定義できます。
 
 ![](assets/chlimage_1-26.png)
 
-* **名前**:フォームデータと共に送信されるフィールドの名前
-* **値**:フォームデータと共に送信されるフィールドの値
-* **識別子**:識別子はページ上で一意であり、スクリプトをこのフォームフィールドに連結するために使用できます
+* **名前** - フィールドの名前（フォームデータと共に送信されます）
+* **値** - フィールドの値（フォームデータと共に送信されます）
+* **識別子** - 識別子は、ページ上で一意である必要があり、スクリプトをこのフォームフィールドにバインドするために使用できます
 
-Because the Form Hidden component normally has no visible attributes, the component&#39;s placeholder in the editor displays the **Name** and **Value** field values if they are assigned in order to help the author identify the appropriate Form Hidden component.
+フォーム非表示コンポーネントには通常、表示される属性がありません。そのため、「**名前**」フィールドと「**値**」フィールドの値が割り当てられている場合、エディターのコンポーネントのプレースホルダーにはそれらのフィールド値が表示され、作成者が適切なフォーム非表示コンポーネントを識別できるようになっています。
 
 ![](assets/screenshot_2018-10-19at094927.png)
 
-## デザインダイアログ {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-フォーム非表示コンポーネントのデザインダイアログはありません。
+フォーム非表示コンポーネントにはデザインダイアログはありません。
