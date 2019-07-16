@@ -1,13 +1,13 @@
 ---
 title: コアコンポーネントを使用したオーサリング
 seo-title: コアコンポーネントを使用したオーサリング
-description: AEMでは、コンポーネントは作成するページのコンテンツを構成する構造要素であり、コアコンポーネントは柔軟で機能豊富なオーサリング機能です。
-seo-description: AEMでは、コンポーネントは作成するページのコンテンツを構成する構造要素であり、コアコンポーネントは柔軟で機能豊富なオーサリング機能です。
-uuid: 4a54cd4c-3d89-4683-8301- bf1e634736e3
-content-type: リファレンス
-topic-tags: オーサリング
-discoiquuid: 8751e490- d427-44f2- b767-51935afda988
-translation-type: tm+mt
+description: AEM では、コンポーネントとは、オーサリングの対象となるページのコンテンツを構成する構造要素のことです。コアコンポーネントは、柔軟で機能豊富なオーサリング機能を提供します。
+seo-description: AEM では、コンポーネントとは、オーサリングの対象となるページのコンテンツを構成する構造要素のことです。コアコンポーネントは、柔軟で機能豊富なオーサリング機能を提供します。
+uuid: 4a54cd4c-3d89-4683-8301-bf1e634736e3
+content-type: reference
+topic-tags: authoring
+discoiquuid: 8751e490-d427-44f2-b767-51935afda988
+translation-type: ht
 source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
@@ -15,77 +15,77 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 # コアコンポーネントを使用したオーサリング
 
-Adobe Experience Manager では、コンポーネントは、オーサリングするページのコンテンツを構成する構造要素です。ここでは、ページ作成に重要なコンテンツタイプを提供するコアコンポーネントについて説明します。
+Adobe Experience Manager では、コンポーネントは、オーサリングするページのコンテンツを構成する構造要素です。ここでは、ページを作成するために必要なコンテンツタイプを提供する、コアコンポーネントについて説明します。
 
-コアコンポーネントを使用すると、柔軟で機能豊富なオーサリング機能を提供できます。[We. Retailリファレンスサイト](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) では、コアコンポーネントの使用方法を紹介しています。
+コアコンポーネントは、柔軟で機能豊富なオーサリング機能を提供します。[We.Retail リファレンスサイト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html)は、コアコンポーネントの使用方法を示しています。
 
-コアコンポーネントを体験し、設定オプションの例とHTMLおよびJSON出力の例については [、コンポーネントライブラリを参照](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)してください。
+コアコンポーネントを体験したり、それらの設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)にアクセスしてください。
 
 >[!NOTE]
 >
->コアコンポーネントは、作成者がすぐに使用できないので、 [開発チームはまず環境に統合する必要](using.md)があります。統合が統合されると、 [テンプレートエディターを使用して事前設定され、事前設定](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)されることがあります。
+>コアコンポーネントは、作成者がすぐに使用できるわけではありません。[最初に開発チームがお使いの環境に統合する必要があります](using.md)。統合が完了したら、[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)経由でコアコンポーネントを利用可能にしたり、事前設定したりできます。
 
 >[!CAUTION]
 >
->コアコンポーネント [にはAEM6.3以降が必要で、](versions.md)[編集可能なテンプレート](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)を使用する必要があります。クラシックUIや静的テンプレートでは機能しません。
+>コアコンポーネントを使用するには、[AEM 6.3 以上が必要になる](versions.md)ほか、[編集可能テンプレート](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)を使用する必要もあります。コアコンポーネントはクラシック UI や静的テンプレートでは動作しません。
 
 ## コアコンポーネントを使用したオーサリング {#authoring-with-core-components}
 
-作成者として、以下のようなコアコンポーネントの利点がいくつかあります。
+作成者の場合、次のようなコアコンポーネントのメリットがあります。
 
-* [ページエディターと簡単に連携して統合する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+* 簡単に使用でき、[ページエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)にうまく統合されている
 
-* We. Retailに加え、コンポーネントライブラリに [表示される多数のユース](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) ケースに対応する [機能豊富な機能](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+* 豊富な機能で [We.Retail](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html) や[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)で示したような様々なユースケースに対応できる
 
-* [テンプレートエディターを使用してページ作成者が使用できる機能を定義](#pre-configuring-core-components) する [ために事前設定が可能](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* [事前設定可能](#pre-configuring-core-components)。[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)で、ページ作成者が使用できる機能を定義できる
 
-* [アクセシビリティガイドラインに基づいて構築](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+* [アクセシビリティガイドライン](https://helpx.adobe.com/jp/experience-manager/6-5/managing/using/web-accessibility.html)に沿って構築されている
 
-* レスポンシブレイアウトをサポート [するように設計されています](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* [レスポンシブレイアウト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/responsive-layout.html)対応の設計
 
-コンポーネントは、ページを編集するときに、ページエディターのサイドパネルの **「コンポーネント** 」タブ [で使用](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)できます。
+コンポーネントは、[ページ編集](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)の際に、ページエディターのサイドパネルの「**コンポーネント**」タブから利用できます。
 
-コンポーネントは、コンポーネントグループと呼ばれるカテゴリによってグループ化され、コンポーネントを容易に整理およびフィルタリングできます。コンポーネントのグループ名は [コンポーネントブラウザー](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) のコンポーネントと共に表示され、また、適切なコンポーネントを簡単に見つけるためにグループごとにフィルタリングできます。
+コンポーネントは、フィルタリングや整理を容易におこなえるよう、コンポーネントグループと呼ばれるカテゴリに従ってグループ化されます。コンポーネントのグループ名は、コンポーネントとともに[コンポーネントブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)に表示されます。また、正しいコンポーネントを簡単に見つけられるように、グループでフィルタリングすることもできます。
 
 >[!NOTE]
 >
->コアコンポーネントは、非表示のグループのデフォルトの部分であり、コンポーネントブラウザー内では表示されません。
+>コアコンポーネントは、デフォルトでは非表示グループの一部になっているので、コンポーネントブラウザー内には表示されません。
 >
->必要なコンポーネントを表示グループに追加するか、作成者が使用できるようにカスタマイズします。
+>必要なコンポーネントを表示グループに追加するか、カスタマイズすると、作成者が使用できるようになります。
 
 ## コアコンポーネントの事前設定 {#pre-configuring-core-components}
 
-Foundationコンポーネントの設定は、開発者のジョブでした。ただし、コアコンポーネントを使用すると、テンプレートエディターでテンプレートエディターを使用して多数の機能を設定できるようになりました。
+以前、Foundation コンポーネントの設定は、開発者の仕事でした。これに対し、コアコンポーネントでは、テンプレート作成者がテンプレートエディター経由で様々な機能を設定できるようになりました。
 
-例えば、画像コンポーネントでファイルシステムからの画像アップロードを許可しない場合や、テキストコンポーネントで特定の段落フォーマットのみを許可する場合は、単純なクリックでこれらの機能を有効または無効にすることができます。
+例えば、画像コンポーネントでファイルシステムからの画像アップロードを許可しない場合や、テキストコンポーネントで特定の段落フォーマットのみを許可する場合は、クリックするだけでそれらの機能の有効／無効を切り替えることができます。
 
-詳しくは、ページテンプレート [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) の作成を参照してください。
+詳しくは、[ページテンプレートの作成](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)を参照してください。
 
-### ダイアログの編集とデザイン {#edit-and-design-dialogs}
+### 編集ダイアログとデザインダイアログ {#edit-and-design-dialogs}
 
-コアコンポーネントをテンプレート作成者が事前設定して、テンプレートの一部として許可されるオプションを定義し、ページ作成者が実際のページコンテンツを定義するように設定しているので、各コンポーネントには2つの異なるダイアログにオプションを設定できます。
+コアコンポーネントでは、テンプレート作成者がテンプレートの一部として使用できるオプションを定義することでコアコンポーネントを事前設定した後、ページ作成者がさらに設定することで実際のページコンテンツを定義できます。これにより、各コンポーネントで、異なる 2 つのダイアログ内にオプションが存在することがあります。
 
-|  | 説明 | コントロールの内容 | 例 |
+|  | 説明 | 制御対象 | 例 |
 |--- |--- |--- |--- |
-| **ダイアログを編集** | 配置されたコンポーネントの通常のページ編集中 **にページ作成者** が変更できるオプション | コンポーネントによって表示されるコンテンツと、最終的にページに表示されるコンテンツです。 | コンテンツテキストの形式設定、ページ上での画像の回転 |
-| **デザインダイアログ** | テンプレート作成者が **ページテンプレートを設定するときに変更** できるオプションです。 | コンポーネントの編集時にページ作成者が利用できるオプション | 使用可能なテキストの書式設定オプション、つまり画像内のインプレースオプションが利用可能 |
+| **編集ダイアログ** | **ページ作成者** が通常のページ編集中に、配置したコンポーネントに対して変更できるオプション | コンポーネントによって表示されるコンテンツや、そのコンテンツが最終的にページ上でどのように表示されるか。 | コンテンツテキストの書式設定、ページ上の画像の回転 |
+| **デザインダイアログ** | **テンプレート作成者** がページテンプレートの設定時に変更できるオプション。 | ページ作成者がコンポーネント編集時に利用できるオプション | 利用可能なテキスト書式設定オプション、利用可能な画像インプレースオプション |
 
 ### コンポーネントのスタイル設定 {#component-styling}
 
-ほとんどのコアコンポーネントのスタイルは、AEMスタイルシステムを使用して定義できます。
+ほとんどのコアコンポーネントのスタイルは、AEM スタイルシステムを使用して定義できます。
 
-* テンプレート作成者は、そのコンポーネントのデザインダイアログで特定のコンポーネントに使用できるスタイルを定義できます。
-* コンテンツ作成者は、コンポーネントの追加時やコンテンツの作成時に適用するスタイルを選択できます。
+* テンプレート作成者は、特定のコンポーネントで利用可能なスタイルを、そのコンポーネントのデザインダイアログで定義できます。
+* その後、コンテンツ作成者は、コンポーネントを追加してコンテンツを作成する際に、適用するスタイルを選択できます。
 
-詳しくは [、スタイルシステム](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) のドキュメントを参照してください。
+詳しくは、[スタイルシステム](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/style-system.html)ドキュメントを参照してください。
 
 >[!NOTE]
 >
->スタイルシステム機能を有効にするには、AEM6.3ではサービスパック2（6.3.2.0）以降が必要です。
+>AEM 6.3 でスタイルシステムの機能を有効にするには、サービスパック 2（6.3.2.0）以降が必要となります。
 
-## 使用可能なコアコンポーネントのリスト {#list-of-core-components-available}
+## 利用可能なコアコンポーネントの一覧 {#list-of-core-components-available}
 
-以下は、編集およびデザインのダイアログ機能を詳細に説明するページにリンクされた使用可能なコアコンポーネントのリストです。
+利用可能なコアコンポーネントの一覧を以下に示します。各コンポーネントは、該当する編集ダイアログやデザインダイアログの機能を詳しく説明したページにリンクされています。
 
 コアコンポーネントの現在のバージョンには、次のコンポーネントが含まれています。
 
@@ -112,15 +112,15 @@ Foundationコンポーネントの設定は、開発者のジョブでした。�
 
 >[!CAUTION]
 >
->一部のコアコンポーネントの一部のバージョンは、特定のバージョンのAEMとのみ互換性があります。
+>個々のコアコンポーネントの一部のバージョンは、特定のバージョンの AEM とのみ互換性があります。
 >
->互換性の情報については、個々のヘルプページ（前のリストにリンクされている）を参照するか、 [コアコンポーネントバージョン](versions.md) ドキュメントを参照して詳細を参照してください。
+>互換性の情報については、特定のコンポーネントに対する個々のヘルプページ（前の一覧にリンクされている）を参照するか、[コアコンポーネントバージョン](versions.md)ドキュメントで詳細を確認してください。
 
 >[!NOTE]
 >
 >インスタンスによっては、要件に合わせて明示的に開発されたカスタマイズコンポーネントが存在する場合があります。これらは、ここで説明するいくつかのコンポーネントと同じ名前の場合があります。
->フォームコアコンポーネントはAEM Formsとは関係ありません。
+>フォームコアコンポーネントは、AEM Forms とは関係ありません。
 
 ## 開発者リソース {#developer-resources}
 
-コアコンポーネントに関する技術情報については [、コアコンポーネント](developing.md) 開発者向けのドキュメントを参照してください。
+コアコンポーネントに関する技術情報については、開発者向けのドキュメントである[コアコンポーネントの開発](developing.md)を参照してください。
