@@ -2,17 +2,17 @@
 title: タイトルコンポーネント
 seo-title: タイトルコンポーネント
 description: 'null'
-seo-description: コアコンポーネントタイトルコンポーネントは、インプレース編集機能のセクション見出しコンポーネントです。
-uuid: cf190861- e5cd-42b8-9193-842b8df8c5c6
-contentOwner: User
-content-type: リファレンス
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: 243efc75- fcf9-427d-9303-9642b0602991
+seo-description: コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
+uuid: cf190861-e5cd-42b8-9193-842b8df8c5c6
+contentOwner: ユーザー
+content-type: reference
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 243efc75-fcf9-427d-9303-9642b0602991
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -20,69 +20,69 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 # タイトルコンポーネント{#title-component}
 
-コアコンポーネントタイトルコンポーネントは、インプレース編集機能のセクション見出しコンポーネントです。
+コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
 
-## 使用 {#usage}
+## 使用方法 {#usage}
 
-タイトルコンポーネントは、コンテンツのセクションのタイトルまたは見出しとして使用することを目的としています。The available heading levels can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available headings levels in the [edit dialog](#edit-dialog). 便宜上、見出しテキストの単純なインプレース編集も可能です。
+タイトルコンポーネントは、コンテンツのセクションのタイトルまたは見出しとして使用するためのものです。使用可能な見出しレベルは、[デザインダイアログ](#design-dialog)でテンプレート作成者が定義できます。コンテンツ編集者は、[編集ダイアログ](#edit-dialog)で、使用可能な見出しレベルから選択できます。利便性の向上のため、見出しテキストの簡単なインプレース編集も可能です。
 
-## Version and Compatibility {#version-and-compatibility}
+## バージョンと互換性 {#version-and-compatibility}
 
-現在のバージョンのタイトルコンポーネントはv2であり、2018年1月のコアコンポーネントのリリース2.0.0で導入されています。このドキュメントで説明しています。
+このドキュメントでは、タイトルコンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |---|---|---|---|
-| v2 | 互換性 | 互換性 | 互換性 |
-| [v1](title-v1.md) | 互換性 | 互換性 | 互換性 |
+| v2 | 互換性あり | 互換性あり | 互換性あり |
+| [v1](title-v1.md) | 互換性あり | 互換性あり | 互換性あり |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## Sample Component Output {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Title Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/title.html).
+タイトルコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/title.html)を参照してください。
 
-### Technical Details {#technical-details}
+### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Title Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title).
+タイトルコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title) を参照してください。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## Edit Dialog {#edit-dialog}
+## 編集ダイアログ{#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者がタイトルテキストを定義したり、見出しレベルを選択したりできます。
 
-* **タイトル** -空白の場合、ページタイトルが使用される
-* **タイプ/サイズ** -タイトルの見出しレベルを定義します
-* **リンク** -タイトルをリンクするコンテンツを定義します。コンテンツページ、外部URLまたはページアンカーへのパスです。
+* **タイトル** - 空白の場合、ページタイトルが使用されます
+* **種類 / サイズ** - タイトルの見出しレベルを定義します
+* **リンク** - タイトルのリンク先のコンテンツを定義します。コンテンツページへのパス、外部 URL、ページアンカーのいずれかを指定できます。
 
 ![](assets/screenshot_2018-10-19at110055.png)
 
 >[!CAUTION]
 >
->タイトルのリンクを定義する機能は、コアコンポーネントのリリース2.2.0で導入されました。
+>タイトルのリンクを定義する機能は、コアコンポーネントのリリース 2.2.0 で導入されました。
 
 インプレースエディターを使用して、タイトルコンポーネントのテキストを編集することもできます。
 
 ![](assets/chlimage_1-37.png)
 
-## Design Dialog {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-デザインダイアログでは、テンプレート作成者がコンテンツ作成者によって作成されるときにタイトルコンポーネントにデフォルトの見出しレベルを定義できます。
+デザインダイアログでは、コンテンツ作成者によって使用されたときのタイトルコンポーネントのデフォルト見出しレベルをテンプレート作成者が定義できます。
 
-### Sizes Tab {#sizes-tab}
+### 「サイズ」タブ {#sizes-tab}
 
 ![](assets/screenshot_2018-10-19at110120.png)
 
-* **作成者の許可されたタイプ/サイズ** -タイトルコンポーネントを使用するときにコンテンツ作成者が使用できる見出しタイプを有効または無効にします。
-* **デフォルトのタイプ/サイズ**-コンテンツ作成者がページにタイトルコンポーネントを追加したときに自動的に割り当てられる見出しタイプを定義します。
-* **リンクを無効にする-** タイトルコンポーネント内のリンクのサポートを無効にして、コンテンツ作成者がタイトルからリンクできないようにします。
+* **作成者に許可されたタイプ / サイズ** - コンテンツ作成者がタイトルコンポーネントを使用する際に選択できる見出しタイプを有効または無効にします。
+* **デフォルトのタイプ / サイズ** - コンテンツ作成者がタイトルコンポーネントをページに追加したときに自動的に割り当てられる見出しタイプを定義します。
+* **リンクを無効化** - タイトルコンポーネントでのリンクのサポートを無効にして、コンテンツ作成者がタイトルからリンクできないようにします。
 
 >[!CAUTION]
 >
->タイトルのリンクを定義する機能は、コアコンポーネントのリリース2.2.0で導入されました。
+>タイトルのリンクを定義する機能は、コアコンポーネントのリリース 2.2.0 で導入されました。
 
-### Styles Tab {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
-The Title Component supports the AEM [Style System](authoring.md#component-styling).
+タイトルコンポーネントでは、AEM [スタイルシステム](authoring.md#component-styling)をサポートしています。
