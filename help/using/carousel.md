@@ -2,125 +2,125 @@
 title: カルーセルコンポーネント
 seo-title: カルーセルコンポーネント
 description: 'null'
-seo-description: カルーセルコンポーネントを使用すると、コンテンツ作成者は回転カルーセル内のコンテンツを表示できます。
-uuid: 34934491- bd85-4f1e- ae22- bb48ed4dbd5c
-content-type: リファレンス
-topic-tags: コアコンポーネント
-discoiquuid: 3510812b-9d3e-40fe- b986-0f15d40b42ad
+seo-description: カルーセルコンポーネントを使用すれば、コンテンツ作成者は、回転式のカルーセルにコンテンツを表示することができます。
+uuid: 34934491-bd85-4f1e-ae22-bb48ed4dbd5c
+content-type: reference
+topic-tags: core-components
+discoiquuid: 3510812b-9d3e-40fe-b986-0f15d40b42ad
 disttype: dist5
 gnavtheme: light
-groupsectionnavitems: ' '
+groupsectionnavitems: ' no'
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
-# Carousel Component{#carousel-component}
+# カルーセルコンポーネント{#carousel-component}
 
-コアコンポーネントカルーセルコンポーネントを使用すると、コンテンツ作成者はナビゲーション可能なカルーセル内にコンテンツを表示できます。
+コアコンポーネントのカルーセルコンポーネントを使用すれば、コンテンツ作成者は、ナビゲーション可能なカルーセルにコンテンツを表示できます。
 
-## 使用 {#usage}
+## 使用方法 {#usage}
 
-コンテンツ作成者はカルーセルコンポーネントを使用して、スライドの回転カルーセル内のコンテンツを整理します。
+カルーセルコンポーネントを使用すれば、コンテンツ作成者は、複数のスライドから成る回転式のカルーセルとしてコンテンツを編成できます。
 
-[編集ダイアログ](#edit-dialog) では、コンテンツ作成者が複数のスライドを作成、名前付けおよび順序付け、自動トランジションを遅延と共に有効にすることができます。[デザインダイアログ](#design-dialog)で、テンプレート作成者は、カルーセルに追加できるコンポーネントの定義、自動トランジションの有効化または無効化、スタイルのカスタマイズを行うことができます。
+[編集ダイアログ](#edit-dialog)では、コンテンツ作成者は、複数のスライドの作成、命名、並べ替えをおこなったり、遅延時間の指定が可能な自動切り替え機能を有効にしたりできます。[デザインダイアログ](#design-dialog)を使用すれば、テンプレート作成者は、カルーセルに追加できるコンポーネントを定義したり、自動切り替えを有効化または無効化したり、スタイルをカスタマイズしたりできます。
 
-## Version and Compatibility {#version-and-compatibility}
+## バージョンと互換性 {#version-and-compatibility}
 
-カルーセルコンポーネントの最新バージョンはv1であり、2018年10月のコアコンポーネントのリリース2.2.0で導入されました。このドキュメントで説明しています。
+このドキュメントでは、カルーセルコンポーネントの現在のバージョン（2018 年 10 月にコアコンポーネントのリリース 2.2.0 で導入された v1）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v1 | 互換性 | 互換性 | 互換性 |
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## Sample Component Output {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Carousel Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html).
+カルーセルコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html)にアクセスしてください。
 
-### Technical Details {#technical-details}
+### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Carousel Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+カルーセルコンポーネントに関する最新の技術ドキュメントは、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) にあります。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## Edit Dialog {#edit-dialog}
+## 編集ダイアログ{#edit-dialog}
 
-編集ダイアログでは、コンテンツ作成者がスライドの追加、名前の変更および並べ替え、自動トランジション設定の定義を行うことができます。
+編集ダイアログでは、コンテンツ作成者がスライドの追加、名前変更、並べ替えをおこなったり、自動切り替えの設定を定義したりできます。
 
-### Items Tab {#items-tab}
+### 「項目」タブ {#items-tab}
 
 ![](assets/screenshot_2018-10-12at102451.png)
 
-**「追加」** ボタンを使用してコンポーネントセレクターを開き、タブとして追加するコンポーネントを選択します。追加すると、エントリがリストに追加され、次の列が含まれます。
+タブとして追加するコンポーネントを選択するためのコンポーネントセレクターを開くには、「**追加**」ボタンを使用します。追加が完了すると、以下の列を含むエントリがリストに追加されます。
 
-* **アイコン** -リストで簡単に識別できるようにする、タブのコンポーネントタイプのアイコン。マウスを移動すると、コンポーネント名がツールチップとして表示されます。
-* **説明** -タブのテキストとして使用される説明。タブに対して選択されたコンポーネントの名前にデフォルトで設定されます。
-* **削除** -タブコンポーネントからタブをタップまたはクリックして削除します。
-* **並べ替え** -タップまたはクリックしてドラッグし、タブを並べ替えます。
+* **アイコン** - リスト内で簡単に識別できるようにするための、タブのコンポーネントタイプのアイコン。マウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
+* **説明** - タブのテキストとして使用される説明。デフォルトでは、タブ用に選択されたコンポーネントの名前に設定されます。
+* **削除** - タップまたはクリックすると、タブコンポーネントからタブが削除されます。
+* **並べ替え** - タップまたはクリックしてドラッグすると、タブを並べ替えることができます。
 
-### Properties Tab {#properties-tab}
+### 「プロパティ」タブ {#properties-tab}
 
 ![](assets/screenshot_2018-11-28at141054.png)
 
-**「プロパティ** 」タブで、コンテンツ作成者はスライドを自動的に移行するように設定できます。
+「**プロパティ**」タブでは、コンテンツ作成者は、スライドが自動的に切り替わるように設定できます。
 
-* **自動トランジションスライド** -アクティブな場合、指定した遅延後にコンポーネントが自動的に次のスライドに進みます。
-* **トランジション遅延** -スライドを自動的にトランジションするときに、この値を使用してトランジション間のトランジションの間隔を定義します（ミリ秒単位）。
-* **カーソルを合わせ** たときに自動一時停止を無効にする- **自動的にトランジションをスライド** すると、カルーセルの上にカーソルを置くとカルーセルトランジションが自動的に一時停止します。トランジションを一時停止しないようにするには、このオプションを選択します。
+* **スライドを自動的に切り替え** - 有効にすると、コンポーネントは指定した遅延の後で、自動的に次のスライドへと進みます。
+* **切り替え遅延** - 「スライドを自動的に切り替え」を選択した場合、この値に基づいて切り替え間の遅延（ミリ秒単位）が定義されます。
+* **ポイント時に自動で一時停止する機能を無効にする** - 「**スライドを自動的に切り替え**」を選択した場合、カルーセルの上にマウスカーソルが置かれるたびに、カルーセルの切り替えが自動的に一時停止します。切り替えが一時停止しないようにするには、このオプションを選択します。
 
 >[!NOTE]
 >
->The slide advance controls are not enabled when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the carousel as a reader of the published content would.
+>**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開済みコンテンツの読者と同じようにカルーセルを操作するには、[**プレビュー**&#x200B;モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)または「**[公開済みとして表示](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)**」オプションを使用してください。
 >
->The auto-advance feature is not enabled when in **Edit** mode. **[「公開済みとして表示」](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** オプションを使用すると、公開済みコンテンツの読者として自動早送り機能を確認できます。
+>**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開済みコンテンツの読者と同じ立場で自動進行機能を確認するには、**[公開済みとして表示](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)**&#x200B;オプションを使用してください。
 
-## Select Panel {#select-panel}
+## パネルを選択{#select-panel}
 
-The content author can use the **Select Panel** option on the component toolbar to change to a different slide for editing as well as to easily rearrange the order of the slides.
+コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを使用すれば、コンテンツ作成者は編集用に別のスライドに切り替えたり、簡単にスライドを並べ替えたりできます。
 
 ![](assets/screenshot_2018-10-11at165417.png)
 
-Once selecting the **Select Panel** option in the component toolbar, the configured slides are displayed as a drop-down.
+コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを選択すると、設定済みのスライドがドロップダウンとして表示されます。
 
-* リストは、割り当てられたスライドの割り当て順に並べ替えられ、番号付けに反映されます。
-* 最初にスライドのコンポーネントタイプが表示され、続いて薄いフォントでスライドの説明が表示されます。
+* リスト内のスライドは割り当てられた順番で並べられ、その順番が通し番号に反映されます。
+* まずスライドのコンポーネントタイプが表示され、次にスライドの説明が薄いフォントで表示されます。
 
 ![](assets/opera_snapshot_2018-11-28141537localhost.png)
 
-* ドロップダウンのエントリをタップまたはクリックして、エディターのビューをスライドに切り替えます。
-* スライドは、ドラッグハンドルを使用して順番に並べ替えることができます。
+* ドロップダウン内の 1 つのエントリをタップまたはクリックすると、エディターのビューがそのスライドに切り替わります。
+* ドラッグハンドルを使用すれば、スライドをインプレースで並べ替えることができます。
 
-## Design Dialog {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-デザインダイアログでは、テンプレート作成者が、スライドとして追加できるコンポーネントをカルーセルコンポーネントに定義したり、自動トランジションデフォルトを定義したり、コンテンツ作成者が使用できるカスタムスタイルを定義したりできます。
+デザインダイアログでは、テンプレート作成者が、カルーセルコンポーネントにスライドとして追加できるコンポーネントを定義したり、自動切り替えのデフォルト値を定義したり、コンテンツ作成者が利用できるカスタムスタイルを定義したりできます。
 
-### Properties Tab {#properties-tab-1}
+### 「プロパティ」タブ {#properties-tab-1}
 
-The **Properties** tab is used to define the default settings for the slide transitions when a content author adds the carousel component to a page.
+「**プロパティ**」タブを使用すれば、コンテンツ作成者がカルーセルコンポーネントをページに追加したときのスライド切り替えのデフォルト設定を定義できます。
 
 ![](assets/screenshot_2018-11-28at141824.png)
 
-* **自動的にスライドを切り替え** -コンテンツ作成者がカルーセルコンポーネントをページに追加したときに、カルーセルを自動的に次のスライドに自動的に進むオプションを定義するかどうかを定義します。
-* **トランジション遅延** -コンテンツ作成者がページにカルーセルコンポーネントを追加したときに、スライド間のトランジション遅延のデフォルト値を定義します。
-* **ホバー時に自動停止を無効にする** -デフォルトでは、コンテンツ作成者が **自動的にスライドをスライド** するときに自動スライド一時停止を無効にするオプションが有効になっているかどうかを定義します。
+* **スライドを自動的に切り替え** - コンテンツ作成者がカルーセルコンポーネントをページに追加したときに、カルーセルを次のスライドに自動的に進めるオプションをデフォルトで有効にするかどうかを定義します。
+* **切り替え遅延** - コンテンツ作成者がカルーセルコンポーネントをページに追加したときの、スライド間の切り替え遅延（ミリ秒単位）のデフォルト値を定義します。
+* **ポイント時に自動で一時停止する機能を無効にする** - コンテンツ作成者が「**スライドを自動的に切り替え**」を選択した場合に、自動スライド一時停止を無効にするためのオプションをデフォルトで有効にするかどうかを定義します。
 
-### Allowed Components Tab {#allowed-components-tab}
+### 「許可されるコンポーネント」タブ {#allowed-components-tab}
 
-**「許可されているコンポーネント** 」タブを使用して、コンテンツ作成者がカルーセルコンポーネントにスライドとして追加できるコンポーネントを定義します。
+「**許可されるコンポーネント**」タブでは、コンテンツ作成者がカルーセルコンポーネントにスライドとして追加できるコンポーネントを定義できます。
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)ときの同名のタブと同じになります。
 
-### Styles Tab {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
-The Carousel Component supports the AEM [Style System](authoring.md#component-styling).
+カルーセルコンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポートします。
