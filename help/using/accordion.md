@@ -2,109 +2,109 @@
 title: アコーディオンコンポーネント
 seo-title: アコーディオンコンポーネント
 description: 'null'
-seo-description: コアコンポーネントアコーディオンコンポーネントを使用すると、ページ上のアコーディオンに配置されたパネルのコレクションを作成できます。
-uuid: ec807de9- f76c-4850-9ece- c3e439a1d626
-contentOwner: User
+seo-description: コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
+contentOwner: ユーザー
 content-type: reference
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: f093f58e-9755-4a4f-803a- ab93a50e6870
-translation-type: tm+mt
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+translation-type: ht
 source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
 
 ---
 
 
-# Accordion Component{#accordion-component}
+# アコーディオンコンポーネント{#accordion-component}
 
-コアコンポーネントアコーディオンコンポーネントを使用すると、ページ上のアコーディオンに配置されたパネルのコレクションを作成できます。
+コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
 
-## 使用 {#usage}
+## 使用方法 {#usage}
 
-The Core Component Accordion component allows for the creation of a collection of components, composed as panels, and arranged in an accordion on a page, similar to the [Tabs Component](tabs.md), but allows for expanding and collapsing of the panels.
+コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルコンポーネントをページ上に作成できます。[タブコンポーネント](tabs.md)と似ていますが、パネルの展開と折りたたみが可能です。
 
-* The accordion&#39;s properties can be defined in the [configure dialog](#configure-dialog).
-* The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel popover](#select-planel.md).
-* Defaults for the Accordion Component when adding it to a page can be defined in the [design dialog](#design-dialog).
+* アコーディオンのプロパティは、[設定ダイアログ](#configure-dialog)で定義できます。
+* アコーディオンのパネルの順序は、設定ダイアログで定義できます。また、[パネルを選択ポップオーバー](#select-planel.md)でも定義できます。
+* アコーディオンコンポーネントをページに追加するときのデフォルト設定は、[デザインダイアログ](#design-dialog)で定義できます。
 
-## Version and Compatibility {#version-and-compatibility}
+## バージョンと互換性 {#version-and-compatibility}
 
-アコーディオンコンポーネントの現在のバージョンは、2019年6月のコアコンポーネントのリリース2.5.0で導入されたv1であり、このドキュメントで説明しています。
+このドキュメントでは、アコーディオンコンポーネントの現在のバージョン（2019 年 6 月にコアコンポーネントのリリース 2.5.0 で導入された v1）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
-| v1 | 互換性 | 互換性 | 互換性 |
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## Sample Component Output {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html).
+アコーディオンコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html)を参照してください。
 
-## Technical Details {#technical-details}
+## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Accordion Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
+アコーディオンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) を参照してください。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## Configure Dialog {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログでは、コンテンツ作成者がアコーディオンアイテムやパネルの定義、およびページへの訪問者の動作と表示方法を定義できます。
+設定ダイアログでは、アコーディオンアイテム、アコーディオンアイテムのパネル、ページの訪問者に対するアコーディオンアイテムの動作および表示をコンテンツ作成者が定義できます。
 
-### Items Tab {#items-tab}
+### 「項目」タブ {#items-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.38.png)
 
-**「追加」** ボタンを使用してコンポーネントセレクターを開き、パネルとして追加するコンポーネントを選択します。追加すると、エントリがリストに追加され、次の列が含まれます。
+パネルとして追加するコンポーネントを選択するためのコンポーネントセレクターを開くには、「**追加**」ボタンを使用します。追加が完了すると、以下の列を含むエントリがリストに追加されます。
 
-* **アイコン** -リスト内で簡単に識別できるようにする、パネルのコンポーネントタイプのアイコン。マウスを移動すると、コンポーネント名がツールチップとして表示されます。
-* **説明** -パネルのテキストとして使用される説明。パネルで選択したコンポーネントの名前に初期設定します。
-* **削除** -をタップまたはクリックして、アコーディオンコンポーネントからパネルを削除します。
-* **整列** -タップまたはクリックしてドラッグし、パネルの順序を並べ替えます。
+* **アイコン** - パネルのコンポーネントタイプのアイコン（リスト内で識別しやすくするために使用）。マウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
+* **説明** - パネルのテキストとして使用される説明文。デフォルトでは、パネル用に選択されたコンポーネントの名前に設定されます。
+* **削除** - タップまたはクリックすると、アコーディオンコンポーネントからパネルを削除できます。
+* **並べ替え** - タップまたはクリックしてドラッグすると、パネルを並べ替えることができます。
 
-### Properties Tab {#properties-tab}
+### 「プロパティ」タブ {#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
 
-* **単一項目の拡張** -選択すると、1つのアコーディオン項目が同時に展開されます。1つのアイテムを展開すると、その項目がすべて折りたたまれます。
-* **項目の拡張** -このオプションは、ページが読み込まれるときにデフォルトで展開される項目を定義します。
-   * **単一項目の拡張** が選択されている場合は、1つのパネルを選択する必要があります。デフォルトでは、最初のパネルが選択されます。
-   * **単一項目の拡張** が選択されていない場合、このオプションは複数選択であり、オプションです。
+* **単一アイテムの展開** - このオプションを選択すると、1 つのアコーディオンアイテムが一度に強制的に展開されます。1 つのアイテムを展開すると、それ以外のアイテムはすべて折りたたまれます。
+* **展開済みのアイテム** - ページの読み込み時にデフォルトで展開されるアイテムを定義します。
+   * 「**単一アイテムの展開**」が選択されている場合は、1 つのパネルを選択する必要があります。デフォルトでは、最初のパネルが選択されます。
+   * 「**単一アイテムの展開**」が選択されていない場合、このオプションは複数選択可能となり、任意指定となります。
 
-## Select Panel Popover {#seelct-panel-popover}
+## パネルを選択ポップオーバー {#seelct-panel-popover}
 
-The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the panels within the accordion.
+コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを使用すれば、コンテンツ作成者は編集用に別のパネルに切り替えたり、アコーディオン内のパネルを簡単に並べ替えたりできます。
 
 ![](assets/screen-shot-2019-06-21-08.49.36.png)
 
-Once selecting the **Select Panel** option in the component toolbar, the configured accordion panels are displayed as a drop-down.
+コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを選択すると、設定済みのアコーディオンパネルがドロップダウンとして表示されます。
 
 ![](assets/screen-shot-2019-06-21-08.52.14.png)
 
-* リストは、割り当てられたパネルの割り当て順に並べられ、番号付けに反映されます。
-* パネルのコンポーネントタイプが最初に表示され、その後に薄いフォントでパネルの説明が表示されます。
-* ドロップダウンのエントリをタップまたはクリックして、エディターのビューをそのパネルに切り替えます。
-* パネルは、ドラッグハンドルを使用して配置し直すことができます。
+* リスト内のパネルは割り当てられた順番で並べられ、その順番が通し番号に反映されます。
+* まずパネルのコンポーネントタイプが表示され、次にパネルドの説明が薄いフォントで表示されます。
+* ドロップダウン内の 1 つのエントリをタップまたはクリックすると、エディターのビューがそのパネルに切り替わります。
+* ドラッグハンドルを使用すれば、パネルをインプレースで並べ替えることができます。
 
-## Design Dialog {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-デザインダイアログでは、テンプレート作成者がアコーディオンコンポーネントを使用するコンテンツ作成者とアコーディオンコンポーネントを配置するときにデフォルトセットを使用するオプションを定義できます。
+デザインダイアログでは、アコーディオンコンポーネントの使用時にコンテンツ作成者に提供されるオプションと、アコーディオンコンポーネントの配置時のデフォルト設定をテンプレート作成者が定義できます。
 
-### Properties Tab {#properties-tab-design}
+### 「プロパティ」タブ {#properties-tab-design}
 
 ![](assets/screen-shot-2019-06-21-08.58.11.png)
 
-* **許可されている見出し要素** -このマルチ選択ドロップダウンでは、発言者によって選択できるHTML要素のアコーディオン項目を定義します。
-* **デフォルトの見出し要素** -このドロップダウンで、デフォルトのアコーディオン項目の見出しHTML要素を定義します。
+* **許可される見出し要素** - 作成者が選択できるアコーディオンアイテム見出し HTML 要素を定義する複数選択ドロップダウンです。
+* **デフォルトの見出し要素** - デフォルトのアコーディオンアイテム見出し HTML 要素を定義します。
 
-### Allowed Components Tab {#allowed-components-tab}
+### 「許可されるコンポーネント」タブ {#allowed-components-tab}
 
-**「許可されているコンポーネント** 」タブを使用して、コンテンツ作成者がアコーディオンコンポーネントのパネルにアイテムとして追加できるコンポーネントを定義します。
+「**許可されるコンポーネント**」タブでは、コンテンツ作成者がアコーディオンコンポーネント内のパネルにアイテムとして追加できるコンポーネントを定義できます。
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)ときの同名のタブと同じになります。
 
-### Styles Tab {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
-The Accordion Component supports the AEM [Style System](authoring.md#component-styling).
+アコーディオンコンポーネントでは、AEM [スタイルシステム](authoring.md#component-styling)をサポートしています。
