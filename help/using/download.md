@@ -1,100 +1,100 @@
 ---
-title: コンポーネントのダウンロード
-seo-title: コンポーネントのダウンロード
+title: ダウンロードコンポーネント
+seo-title: ダウンロードコンポーネント
 description: 'null'
-seo-description: コアコンポーネントダウンロードコンポーネントを使用すると、ページ上でダウンロードオプションを作成できます。
-uuid: ec807de9- f76c-4850-9ece- c3e439a1d626
-contentOwner: User
+seo-description: コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
+contentOwner: ユーザー
 content-type: reference
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: f093f58e-9755-4a4f-803a- ab93a50e6870
-translation-type: tm+mt
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+translation-type: ht
 source-git-commit: 88bc68b60e5de247fe800ac041ffefdf9238cce1
 
 ---
 
 
-# Download Component{#download-component}
+# ダウンロードコンポーネント{#download-component}
 
-コアコンポーネントダウンロードコンポーネントを使用すると、ページ上でダウンロードオプションを作成できます。
+コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
 
-## 使用 {#usage}
+## 使用方法 {#usage}
 
-コアコンポーネントダウンロードコンポーネントを使用すると、ダウンロードオプションと関連アセットをページに含めることができます。
+コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションとその関連アセットをページに含めることができます。
 
-* The download option&#39;s properties can be selected in the [configure dialog](#configure-dialog).
-* Defaults for the download component can be defined in the [design dialog](#design-dialog).
+* ダウンロードオプションのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
+* ダウンロードコンポーネントのデフォルト設定は、[デザインダイアログ](#design-dialog)で定義できます。
 
-## Version and Compatibility {#version-and-compatibility}
+## バージョンと互換性 {#version-and-compatibility}
 
-ダウンロードコンポーネントの現在のバージョンは、2019年6月のコアコンポーネントのリリース2.5.0で導入されたv1です。このドキュメントで説明します。
+このドキュメントでは、ダウンロードコンポーネントの現在のバージョン（2019 年 6 月にコアコンポーネントのリリース 2.5.0 で導入された v1）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
-| v1 | 互換性 | 互換性 | 互換性 |
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## Sample Component Output {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Download Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/download.html).
+ダウンロードコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/download.html)を参照してください。
 
-## Technical Details {#technical-details}
+## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Download Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download).
+ダウンロードコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) を参照してください。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## Configure Dialog {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログでは、コンテンツ作成者がダウンロードアイテムを定義し、そのページへの訪問者の行動と表示方法を定義できます。
+設定ダイアログでは、ダウンロードアイテムそのものと、ページの訪問者に対するダウンロードアイテムの動作および表示をコンテンツ作成者が定義できます。
 
 ![](assets/screen-shot-2019-06-17-09.49.14.png)
 
-### Asset Tab {#asset-tab}
+### 「アセット」タブ {#asset-tab}
 
-The selection of a download asset is very similar to the functionality of the [Image Component](image.md) and likewise leverages AEM&#39;s DAM.
+ダウンロードアセットの選択は、[画像コンポーネント](image.md)の機能とよく似ており、同じく AEM の DAM を利用しています。
 
 * **アセットをダウンロード**
-   * [アセットブラウザからアセットをドロップ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) するか、 **または参照** オプションをタップしてローカルファイルシステムからアップロードします。
-   * Tap or click **Clear** to de-select the currently selected image.
-   * **アセット** エディターでアセットのレンディションを [作成するには、「編集」を](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) タップまたはクリックします。
+   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
+   * アセットエディターで[アセットのレンディションを管理](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-assets-touch-ui.html)するには、「**編集**」をタップまたはクリックします。
 
-### Properties Tab {#properties-tab}
+### 「プロパティ」タブ {#properties-tab}
 
 ![](assets/screen-shot-2019-06-17-09.49.51.png)
 
-* **タイトル** -ダウンロードアイテムのヘッドラインとして表示されます
-   * **DAMアセットからタイトルを取得** -選択すると、タイトルにDAMアセットのタイトルが自動的に入力されます。
-* **説明** -ダウンロードアイテムの説明的なサブヘッドラインとして表示
-   * **DAMアセットから説明を取得** -選択すると、説明にDAMアセットの説明が自動的に入力されます。
-* **アクションテキスト** -ダウンロードアイテムのアクションテキストとして表示されます
-   * このフィールドは、ファイルシステムからアセットをアップロードするときに必要です。
-   * **インライン表示** -指定した **アクションテキスト** を選択するとインライン表示されます。
+* **タイトル** - ダウンロードアイテムのヘッドラインとして表示されます。
+   * **DAM アセットからタイトルを取得** - タイトルに DAM アセットのタイトルが自動的に入力されます。
+* **説明** - ダウンロードアイテムを説明するサブヘッドラインとして表示されます。
+   * **DAM アセットから説明を取得** - 説明に DAM アセットの説明が自動的に入力されます。
+* **アクションテキスト** - ダウンロードアイテムのアクションテキストとして表示されます。
+   * このフィールドは、ファイルシステムからアセットをアップロードする場合には必須です。
+   * **インライン表示** - 指定した&#x200B;**アクションテキスト**&#x200B;がインライン表示されます。
 
-## Design Dialog {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-デザインダイアログでは、テンプレート作成者が、コンポーネントのダウンロードを使用するコンテンツ作成者に提供されるオプションを定義できます。
+デザインダイアログでは、ダウンロードコンポーネントの使用時にコンテンツ作成者に提供されるオプションをテンプレート作成者が定義できます。
 
-### Properties Tab {#properties-tab-design}
+### 「プロパティ」タブ {#properties-tab-design}
 
 ![](assets/screen-shot-2019-06-17-10.04.31.png)
 
-* **デフォルトのアクションテキスト** -作成者が「コンポーネントのダウンロード」をページに追加したときに提供される **デフォルトのアクションテキスト** を定義します。
-* **ファイルシステムからのアップロードを許可** -コンテンツ作成者が、自分のローカルファイルシステムからアセットをダウンロードアセットとしてアップロードできるようにします。
-   * デフォルト値は選択されていません。
-* **タイトルタイプ** -コンポーネントのダウンロードタイトルに使用するHTML要素。
-   * 値が選択されていない場合、デフォルト値はH3です。
-* **表示ファイルサイズ** -選択すると、アセットのファイルサイズがダウンロードコンポーネントに表示されます。
-   * デフォルト値が選択されます。
-* **表示ファイル形式** -選択すると、アセットのファイル形式がダウンロードコンポーネントに表示されます。
-   * デフォルト値が選択されます。
-* **表示ファイル名** -選択すると、アセットのファイル名がダウンロードコンポーネントに表示されます。
-   * デフォルト値が選択されます。
+* **デフォルトのアクションテキスト** - 作成者がダウンロードコンポーネントをページに追加したときに表示されるデフォルトの&#x200B;**アクションテキスト**&#x200B;を定義します。
+* **ファイルシステムからのアップロードを許可** - コンテンツ作成者が自分のローカルファイルシステムからアセットをダウンロードアセットとしてアップロードできるようにします。
+   * デフォルト値はオフです。
+* **タイトルタイプ** - ダウンロードコンポーネントのタイトルに使用する HTML 要素。
+   * 値が選択されていない場合、デフォルト値は H3 です。
+* **ファイルサイズを表示** - アセットのファイルサイズがダウンロードコンポーネントに表示されます。
+   * デフォルト値はオンです。
+* **ファイル形式を表示** - アセットのファイル形式がダウンロードコンポーネントに表示されます。
+   * デフォルト値はオンです。
+* **ファイル名を表示** - アセットのファイル名がダウンロードコンポーネントに表示されます。
+   * デフォルト値はオンです。
 
-### Styles Tab {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+画像コンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポートします。
