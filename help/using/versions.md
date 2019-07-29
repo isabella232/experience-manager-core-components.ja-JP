@@ -1,95 +1,95 @@
 ---
 title: コアコンポーネントのバージョン
 seo-title: コアコンポーネントのバージョン
-description: コアコンポーネントは、同じコアコンポーネントの複数のバージョンを含むことができるリリースとして発行されます。このドキュメントでは、リリースとバージョンと、コアコンポーネントおよびAEMとの互換性を理解する方法について説明します。
-seo-description: コアコンポーネントは、同じコアコンポーネントの複数のバージョンを含むことができるリリースとして発行されます。このドキュメントでは、リリースとバージョンと、コアコンポーネントおよびAEMとの互換性を理解する方法について説明します。
-uuid: a916a923-8c5e-456a-84b5- b52228e21434
-contentOwner: User
-content-type: リファレンス
-topic-tags: 概要
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdsc
-translation-type: tm+mt
+description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
+seo-description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
+uuid: a916a923-8c5e-456a-84b5-b52228e21434
+contentOwner: ユーザー
+content-type: reference
+topic-tags: introduction
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
+translation-type: ht
 source-git-commit: 144494c03ffed068b403d80f62fdfddc73a53748
 
 ---
 
 
-# Core Components Versions{#core-components-versions}
+# コアコンポーネントのバージョン{#core-components-versions}
 
-コアコンポーネントの現在のリリースは2.4.0で、AEM6.5と互換性があります。2019年5月にリリース2.0.0のマイナーアップデートとしてリリースされました。リリース2.0.0では、既存コンポーネントのv2アップデートとともに新しいコンポーネントが導入されました。
+コアコンポーネントの現在のリリースは 2.4.0 で、AEM 6.5 と互換性があります。2019 年 5 月にリリース 2.0.0 のマイナーアップデートとしてリリースされました。リリース 2.0.0 では、既存コンポーネントの v2 へのアップデートと共に新しいコンポーネントが導入されました。
 
-See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
+詳しくは、このドキュメントの[リリース履歴と互換性](#versions-and-releases)を参照してください。
 
-[また、コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)をチェックアウトして、コアコンポーネントの現在のリリースを表示し、使用例を提示することもできます。
+また、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)も参照してください。ここでは、コアコンポーネントの現在のリリースを紹介し、使用例を示しています。
 
-## Versions and Releases {#versions-and-releases}
+## バージョンとリリース {#versions-and-releases}
 
-コアコンポーネントはGitHubを使用して配布されます。これにより、アドビはより迅速にコンポーネントに機能を追加し、AEMリリースサイクル外でコミュニティ入力を可能にすることができます。
+コアコンポーネントは GitHub を通じて配布されます。これにより、アドビはより迅速にコンポーネントに機能を追加できるほか、AEM リリースサイクル以外でコミュニティからの入力を取り入れることもできます。
 
-コアコンポーネントは、互換性のある定義済みのAEMバージョンで使用できます。つまり、1つのAEMバージョンは、コアコンポーネントの複数のバージョンまたはリリースをサポートすることがあります。これは、特定のバージョンのAEMに結び付けられていた以前のFoundationコンポーネントよりも柔軟性が高くなります。
+コアコンポーネントは、互換性のある規定された AEM バージョンで使用できます。つまり、1 つのAEM バージョンがコアコンポーネントの複数のバージョンまたはリリースをサポートしている場合があります。その結果、以前の基盤コンポーネントよりも柔軟性が高くなっています。基盤コンポーネントは AEM の特定のバージョンに結び付いていました。
 
 ### バージョン {#versions}
 
-The major iteration of the Core Components are the **versions**. 各コンポーネントにはバージョンがあります。Versions are denoted with **v** appended with a nonzero, positive integer such as v1 and v2. バージョンは、後方互換性のない変更にのみ増加します。これは、通常、新機能と機能の導入のために使用されます。
+コアコンポーネントの主要な反復が&#x200B;**バージョン**&#x200B;です。各コンポーネントにはバージョンがあります。バージョンは、v1 や v2 のように、**v** の後に正の整数が付いた形式で示されます。バージョンは、下位互換性のない変更の場合にのみ増えます。これは、通常、新しい特長や機能が導入される場合です。
 
-開発者および管理者は、コアコンポーネントのバージョンを、リソースタイプパスの数字、およびその実装の完全修飾Javaクラス名によって認識できます。This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/).
+開発者や管理者は、リソースタイプパスや実装の完全修飾 Java クラス名に含まれている数字で、コアコンポーネントのバージョンを認識できます。このバージョン番号は、[セマンティックバージョニングガイドライン](https://semver.org/)で定義されたメジャーバージョンを表します。
 
-For more details about core component versions, see the [developer documentation of the Core Components](guidelines.md).
+コアコンポーネントバージョンについて詳しくは、[コアコンポーネントの開発者向けドキュメント](guidelines.md)を参照してください。
 
-### Releases {#releases}
+### リリース {#releases}
 
-The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). リリースは、X.Y.Z形式の10進数で示され、すべてのコアコンポーネントを配信先パッケージとして収集します。
+コアコンポーネントは&#x200B;**リリース**&#x200B;を通じて使用できるようになり、[GitHub で実際に入手可能な公開済みアーティファクトを表します](https://github.com/adobe/aem-core-wcm-components/releases)。リリースは、すべてのコアコンポーネントを配信可能なパッケージとしてまとめたもので、X.Y.Z 形式の 10 進数で示されます。
 
-* **メジャーリリース** では、既存のコンポーネントの新しいバージョンとまったく新しいコンポーネントと、標準的なバグ修正を導入できます。これは、リリース番号のXコンポーネントのインクリメントで表されます。
+* **メジャーリリース**&#x200B;では、既存コンポーネントの新しいバージョンのほか、まったく新しいコンポーネントおよび通常のバグ修正を取り入れることができます。これは、リリース番号の X 部分のインクリメントで表されます。
 
-* **重要なリリース** では、既存のコンポーネントに関する新機能をバグ修正と共に導入できます。これは、リリース番号のYコンポーネントのインクリメントで表されます。
+* **重要リリース**&#x200B;では、コンポーネントの既存バージョンに新しい機能を導入できるほか、バグ修正をおこなうことができます。これは、リリース番号の Y 部分のインクリメントで表されます。
 
-* **マイナーリリース** にはバグ修正のみが含まれています。これは、リリース番号のZコンポーネントのインクリメントで表されます。
+* **マイナーリリース**&#x200B;にはバグ修正のみ含まれています。これは、リリース番号の Z 部分のインクリメントで表されます。
 
 >[!NOTE]
 >
 >リリースには、同じコンポーネントの複数のバージョンを含めることができます。
 >
->同じバージョンのコンポーネントを複数のリリースに表示できます。
+>同じバージョンのコンポーネントが複数のリリースに現れることがあります。
 
-## Release History and Compatibility {#release-history-and-compatibility}
+## リリース履歴と互換性 {#release-history-and-compatibility}
 
-コアコンポーネントはAEM6.3で最初にリリースされ、サポートされているすべてのAEMバージョンと柔軟で互換性があるように設計されています。このため、コンポーネントのリリースには同じコンポーネントの複数のバージョンを含めることができます。
+コアコンポーネントは AEM 6.3 で初めてリリースされました。柔軟性があり、サポートされているすべての AEM バージョンと互換性があるように設計されています。このため、コンポーネントの 1 つのリリースに同じコンポーネントの複数のバージョンを含めることができます。
 
-次の表に、コアコンポーネントのリリースと、そのリリースに含まれるコンポーネントバージョンの互換性を示します。
+コアコンポーネントの各リリースの互換性、およびリリースとそこに含まれているコンポーネントバージョンの対応関係を以下の表に示します。
 
-### Release History &amp; Supported AEM Versions {#release-history-supported-aem-versions}
+### リリース履歴とサポートされている AEM バージョン {#release-history-supported-aem-versions}
 
-The following table, the contents of which are [available on GitHub with full release details](https://github.com/adobe/aem-core-wcm-components/releases), gives an overview of the releases of the Core Components and their compatibility with AEM releases and Java versions.
+次の表は、コアコンポーネントの各リリースと AEM リリースおよび Java バージョンとの互換性の概要を示しています（[各リリースの詳細については GitHub を参照してください](https://github.com/adobe/aem-core-wcm-components/releases)）。
 
 | リリース | 説明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | このリリースは、コンテンツフラグメントリストコンポーネントを導入しました | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | このリリースはコンポーネントライブラリの調整に重点を置いていますが、セパレータコンポーネントの機能強化も含まれています | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | このリリースはコンポーネントライブラリに加え、新しいセパレータコンポーネントを導入していますが、画像コンポーネントの機能強化も含まれています | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | このリリースは主にバグ修正に重点を置いていますが、カルーセルコンポーネントの機能強化も含まれています | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 追加されたタブおよびカルーセルコンポーネント、画像、ページ、タイトルコンポーネント、拡張トラッキングの機能強化 | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Teaserコンポーネントの導入、画像コンポーネントの改善、多数のバグ修正 | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | バグ修正リリース | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | その他のサポートされている機能強化、バグ修正、および画像のフリップのサポートなどの小さな改善点です。 | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | ほとんどの機能強化、バグ修正、画像、ページ、コンテンツフラグメントコンポーネントの一部のマイナーな改善点があります | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | ナビゲーション、言語ナビゲーション、クイック検索のコンポーネントが導入されました。すべてのコンポーネントに対して実装されるスタイルシステム。 | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | すべてのコンポーネントに対するJSONエクスポートの実装、コンテンツフラグメントコンポーネントの導入 | 6.3.1.0 | 6.4.0.0+ | - | 8 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 画像コンポーネントに関するいくつかの修正点 | 6.3.0.0+ | 6.4.0.0+ | - | 8 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | ページコンポーネント、画像コンポーネント、さまざまなグローバル修正および改善点 | 6.3.0.0+ | 6.4.0.0+ | - | 8 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 画像コンポーネントのアニメーションGIF画像の修正点 | 6.3.0.0+ | 6.4.0.0+ | - | 7 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | コアコンポーネントの初回リリース | 6.3.0.0+ | 6.4.0.0+ | - | 7 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | このリリースでは、コンテンツフラグメントリストコンポーネントが導入されました。 | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | このリリースではコンポーネントライブラリの改善に重点を置いていますが、区切り文字コンポーネントの機能強化も含まれています。 | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | このリリースではコンポーネントライブラリの改善に重点を置き、新しい区切り文字コンポーネントを導入したほか、画像コンポーネントの機能強化も含まれています。 | 6.3.3.0 以上 | 6.4.2.0 以上 | - | 8 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | このリリースは主にバグ修正に重点を置いていますが、カルーセルコンポーネントの機能強化も含まれています。 | 6.3.3.0 以上 | 6.4.2.0 以上 | - | 8 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | タブコンポーネントとカルーセルコンポーネントの導入、画像、ページ、タイトルの各コンポーネントの改善、トラッキングの機能強化がおこなわれました。 | 6.3.3.0 以上 | 6.4.2.0 以上 | - | 8 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | ティーザーコンポーネントの導入、画像コンポーネントの改善、多数のバグ修正がおこなわれました。 | 6.3.3.0 以上 | 6.4.2.0 以上 | - | 8 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | バグ修正リリース | 6.3.2.0 以上 | 6.4.0.0 以上 | - | 8 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 追加の内部的改善、バグ修正、画像フリップのサポートなどの小規模な改善がおこなわれました。 | 6.3.2.0 以上 | 6.4.0.0 以上 | - | 8 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 内部的な改善がほとんどで、その他にバグ修正や、画像、ページ、コンテンツフラグメントの各コンポーネントの小規模な改善がおこなわれました。 | 6.3.2.0 以上 | 6.4.0.0 以上 | - | 8 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | ナビゲーション、言語ナビゲーション、クイック検索の各コンポーネントが導入されました。すべてのコンポーネントにスタイルシステムが実装されました。 | 6.3.2.0 以上 | 6.4.0.0 以上 | - | 8 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | すべてのコンポーネントに JSON エクスポートが実装され、コンテンツフラグメントコンポーネントが導入されました。 | 6.3.1.0 | 6.4.0.0 以上 | - | 8 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 画像コンポーネントの修正がいくつかおこなわれました。 | 6.3.0.0 以上 | 6.4.0.0 以上 | - | 8 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | ページコンポーネントと画像コンポーネントが修正されたほか、広範囲にわたる様々な修正および改善がおこなわれました。 | 6.3.0.0 以上 | 6.4.0.0 以上 | - | 8 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 画像コンポーネントのアニメーション GIF 画像が修正されました。 | 6.3.0.0 以上 | 6.4.0.0 以上 | - | 7 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | コアコンポーネントの初回リリースです。 | 6.3.0.0 以上 | 6.4.0.0 以上 | - | 7 |
 
 >[!NOTE]
 >
->As with AEM, Adobe recommends that developers use the [latest release and versions of the Core Components](https://github.com/adobe/aem-core-wcm-components/releases/latest) available that is compatible with the version of AEM that they are running in order to benefit from the most up-to-date fixes and features.
+>AEM の場合と同様、最新の修正および機能を活用するために、実行している AEM バージョンと互換性のある入手可能な[最新のリリースおよびバージョンのコアコンポーネント](https://github.com/adobe/aem-core-wcm-components/releases/latest)を開発に使用することをお勧めします。
 
-### Component Versions &amp; Releases {#component-versions-and-releases}
+### コンポーネントのバージョンとリリース {#component-versions-and-releases}
 
-次の表に、コアコンポーネントのリリースに含まれるコンポーネントのバージョンを示します。
+コアコンポーネントの各リリースと、そこに含まれている各コンポーネントのバージョンを次の表に示します。
 
-|  | リリース1.0.0-1.0.6 | リリース 1.1.0 | リリース2.0.0-2.0.8 | リリース 2.1.0 | リリース 2.2.-2.2.0 | 2.3.0 |
+|  | リリース 1.0.0 ～ 1.0.6 | リリース 1.1.0 | リリース 2.0.0 ～ 2.0.8 | リリース 2.1.0 | リリース 2.2.～ 2.2.0 | リリース 2.3.0 |
 |---|---|---|---|---|---|---|
 | **[ページ](page.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
 | **[タイトル](title.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
@@ -113,10 +113,10 @@ The following table, the contents of which are [available on GitHub with full re
 
 ## ドキュメント {#documentation}
 
-[コアコンポーネント](authoring.md) を使用したオーサリングでは、コアコンポーネントと、コンテンツ作成者やテンプレート作成者に公開される機能について説明します。各コンポーネントについて詳しく説明しています。
+[コアコンポーネントを使用したオーサリング](authoring.md)では、コアコンポーネントと、コンテンツ作成者やテンプレート作成者に公開されている機能の使用方法について説明します。各コンポーネントについて詳しく説明しています。
 
-[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html) は、ほとんどのコアコンポーネントの現在のバージョンのショーケースであり、どのように使用できるかを示しています。
+[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)では、ほとんどのコアコンポーネントの現在のバージョンを紹介し、それらの使用方法を示しています。
 
-[コアコンポーネント](developing.md) の開発では、コアコンポーネントの技術的機能、プロジェクト内での使用方法、カスタマイズ方法およびベストプラクティスについて説明します。
+[コアコンポーネントの開発](developing.md)では、コアコンポーネントの技術的機能、プロジェクト内での使用方法、カスタマイズ方法およびベストプラクティスについて説明しています。
 
-[コアコンポーネントの概要](introduction.md) では、バージョン、使用事例およびサポートにおけるコアコンポーネントの互換性の概要が提供されています。
+[コアコンポーネントの概要](introduction.md)では、コアコンポーネントの各バージョンの機能、使用例およびサポートの概要を説明しています。
