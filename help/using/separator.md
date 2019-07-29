@@ -1,12 +1,12 @@
 ---
 title: 区切り文字コンポーネント
 seo-title: 区切り文字コンポーネント
-description: セパレータコンポーネントは、ページ上のコンポーネント間の区切りを作成します
-seo-description: セパレータコンポーネントは、ページ上のコンポーネント間の区切りを作成します
-contentOwner: behnert
-content-type: リファレンス
-topic-tags: コアコンポーネント
-translation-type: tm+mt
+description: 区切り文字コンポーネントは、ページ上のコンポーネント間に区切りを作成します
+seo-description: 区切り文字コンポーネントは、ページ上のコンポーネント間に区切りを作成します
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
+translation-type: ht
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -14,40 +14,40 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 # 区切り文字コンポーネント{#separator-component}
 
-コアコンポーネントセパレータコンポーネントには、コンテンツを分割するための水平方向のルールが表示されます。
+コアコンポーネントの区切り文字コンポーネントは、コンテンツを区切るための横罫線を表示します。
 
-## 使用 {#usage}
+## 使用方法 {#usage}
 
-セパレータコンポーネントを使用すると、コンテンツの作成者はコンテンツ間の区切りとして簡単に区切りを作成し、ページ上の情報をより適切に整理できます。
+区切り文字コンポーネントを使用すれば、コンテンツ作成者はコンテンツ間の区切りとして横罫線を手軽に作成して、ページ上の情報をうまく整理できます。
 
-## Version and Compatibility {#version-and-compatibility}
+## バージョンと互換性 {#version-and-compatibility}
 
-現在のバージョンのセパレータコンポーネントはv1であり、2019年2月のコアコンポーネントのリリース2.3.0で導入されています。このドキュメントで説明しています。
+このドキュメントでは、区切り文字コンポーネントの現在のバージョン（2019 年 2 月にコアコンポーネントのリリース 2.3.0 で導入された v1）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |---|---|---|---|
-| v1 | 互換性 | 互換性 | 互換性 |
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
-## Sample Component Output {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
+区切り文字コンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html)を参照してください。
 
-### Technical Details {#technical-details}
+### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
+区切り文字コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) を参照してください。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## Configure Dialog {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
-セパレータコンポーネントには設定ダイアログがありません。
+区切り文字コンポーネントには設定ダイアログはありません。
 
-## Design Dialog {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-デザインダイアログでは、テンプレート作成者がセパレータコンポーネントに適用するスタイルを定義できます。
+デザインダイアログでは、区切り文字コンポーネントに適用するスタイルをテンプレート作成者が定義できます。
 
-### Styles Tab {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
-The Separator Component supports the AEM [Style System](authoring.md#component-styling).
+区切り文字コンポーネントでは、AEM [スタイルシステム](authoring.md#component-styling)をサポートしています。
