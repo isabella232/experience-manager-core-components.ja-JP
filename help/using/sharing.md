@@ -1,57 +1,57 @@
 ---
-title: ソーシャルシェアコンポーネント
-seo-title: ソーシャルシェアコンポーネント
-description: コアコンポーネントソーシャルシェアコンポーネントは、FacebookおよびPinterest共有ウィジェットです。
-seo-description: コアコンポーネントソーシャルシェアコンポーネントは、FacebookおよびPinterest共有ウィジェットです。
-uuid: a75eca9- f055-429b- a128-7d4a1e5ab21e
-contentOwner: User
-content-type: リファレンス
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
+title: ソーシャル共有コンポーネント
+seo-title: ソーシャル共有コンポーネント
+description: コアコンポーネントのソーシャル共有コンポーネントは、Facebook および Pinterest の共有ウィジェットです。
+seo-description: コアコンポーネントのソーシャル共有コンポーネントは、Facebook および Pinterest の共有ウィジェットです。
+uuid: a75aeca9-f055-429b-a128-7d4a1e5ab21e
+contentOwner: ユーザー
+content-type: reference
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a4a31261-01e9-4fda-8d1b-7cec90bb6574
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
-# Social Sharing Component{#social-sharing-component}
+# ソーシャル共有コンポーネント{#social-sharing-component}
 
-コアコンポーネントソーシャルシェアコンポーネントは、FacebookおよびPinterest共有ウィジェットです。
+コアコンポーネントのソーシャル共有コンポーネントは、Facebook および Pinterest の共有ウィジェットです。
 
-## 使用 {#usage}
+## 使用方法 {#usage}
 
-ソーシャルシェアコンポーネントは、FacebookとPinterestの共有リンクをページに追加します。ページヘッダーまたはフッターに含まれることがよくあります。
+ソーシャル共有コンポーネントでは、ページに Facebook および Pinterest の共有リンクを追加します。これは多くの場合、ページのヘッダーまたはフッターに含まれています。
 
-Unlike other components, the settings for the Social Sharing Component is done by the template author via [Initial Page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) and by the content author via [Page Properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+他のコンポーネントとは異なり、ソーシャル共有コンポーネントの設定は、テンプレート作成者が[最初のページのプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)でおこない、コンテンツ作成者が[ページのプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-page-properties.html)でおこないます。
 
-## Version and Compatibility {#version-and-compatibility}
+## バージョンと互換性 {#version-and-compatibility}
 
-ソーシャルシェアコンポーネントの現在のバージョンはv1であり、AEM6.3ではコアコンポーネントのリリース1.0.0とともに導入され、このドキュメントで説明しています。
+このドキュメントでは、ソーシャル共有コンポーネントの現在のバージョン（AEM 6.3 とともにコアコンポーネントのリリース 1.0.0 で導入された v1）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョンと、コンポーネントのバージョンが互換性のあるAEMバージョンの詳細を示します。
+コンポーネントのすべてのサポート対象バージョンおよびコンポーネントの各バージョンと互換性のある AEM バージョンを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v1 | 互換性 | 互換性 | 互換性 |
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## Sample Component Output {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Social Sharing Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html).
+ソーシャル共有コンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html)を参照してください。
 
-### Technical Details {#technical-details}
+### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Sharing Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
+ソーシャル共有コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing) を参照してください。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## Edit Dialog {#edit-dialog}
+## 編集ダイアログ{#edit-dialog}
 
-共有には特別なページヘッダーが必要なので、ページレベルで共有を有効にする必要があります。Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+共有には特別なページヘッダーが必要なので、共有はすべてページレベルで有効にする必要があります。そのため、コンテンツ作成者の場合、ソーシャル共有コンポーネントの編集オプションは、「共有」タブの[ページのプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-page-properties.html)で使用できます。
 
-## Design Dialog {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-共有には特別なページヘッダーが必要なので、ページレベルで共有を有効にする必要があります。Therefore, for the template author the design options for the sharing component are available through the [initial page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+共有には特別なページヘッダーが必要なので、共有はすべてページレベルで有効にする必要があります。そのため、テンプレート作成者の場合、ソーシャル共有コンポーネントのデザインオプションは、[最初のページのプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)で使用できます。
