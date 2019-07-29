@@ -1,15 +1,15 @@
 ---
 title: 画像コンポーネント
 seo-title: 画像コンポーネント
-description: コアコンポーネント画像コンポーネントは、インプレース編集のアダプティブ画像コンポーネント機能です。
-seo-description: コアコンポーネント画像コンポーネントは、インプレース編集のアダプティブ画像コンポーネント機能です。
+description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
+seo-description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
-contentOwner: User
-content-type: リファレンス
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
+contentOwner: ユーザー
+content-type: reference
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -17,90 +17,95 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 # 画像コンポーネント{#image-component}
 
-Core Component Image Componentは、インプレース編集機能を備えたアダプティブ画像コンポーネントです。
+コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 
-## 使用 {#usage}
+## 使用方法 {#usage}
 
-画像コンポーネントを使用すると、画像アセットを簡単に配置し、インプレース編集を行うことができます。これには、遅延読み込みとコンテンツ作成者の切り抜きを伴うアダプティブ画像選択機能があります。
+画像コンポーネントを使用すれば、画像アセットを簡単に配置したり、インプレース編集をおこなったりすることができます。これには、遅延読み込みに対応したアダプティブ画像選択や切り抜きなど、コンテンツ作成者向けの機能が備わっています。
 
-The image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog](#configure-dialog) and crop the image in the [edit dialog](#edit-dialog). 便宜上、画像の単純な配置の変更も利用できます。
+[デザインダイアログ](#design-dialog)では、テンプレート作成者が、画像の幅や切り抜きの設定、追加の設定などを定義できます。コンテンツエディターは、[設定ダイアログ](#configure-dialog)でアセットをアップロードまたは選択し、[編集ダイアログ](#edit-dialog)で画像の切り抜きをおこなうことができます。画像を単純にインプレースで変更することもでき、非常に便利です。
 
-## Version and Compatibility {#version-and-compatibility}
+## バージョンと互換性 {#version-and-compatibility}
 
-現在のバージョンのImage Componentはv2であり、2018年1月のコアコンポーネントのリリース2.0.0で導入されています。このドキュメントで説明しています。
+このドキュメントでは、画像コンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v2 | 互換性 | 互換性 | 互換性 |
-| [v1](image-v1.md) | 互換性 | 互換性 | 互換性 |
+| v2 | 互換性あり | 互換性あり | 互換性あり |
+| [v1](image-v1.md) | 互換性あり | 互換性あり | 互換性あり |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## SVG Support {#svg-support}
+## SVG のサポート {#svg-support}
 
-Scalable Vector Graphics（SVG）はImage Componentでサポートされています。
+画像コンポーネントでは Scalable Vector Graphics（SVG）がサポートされています。
 
-* DAMからSVGアセットをドラッグ&amp;ドロップすると、ローカルファイルシステムからSVGファイルアップロードがアップロードされます。
-* アダプティブ画像サーブレットストリームは、元のSVGファイルをストリーミングします（変換はスキップされます）。
-* SVG画像の場合、画像モデルでは「スマート画像」と「スマートサイズ」が空の配列に設定されます。
+* DAM からの SVG アセットのドラッグ＆ドロップと、ローカルファイルシステムからの SVG ファイルのアップロード、はどちらもサポートされます。
+* アダプティブ画像サーブレットでは元の SVG ファイルがストリーミングされます（変換はスキップされます）。
+* SVG 画像の場合、画像モデルで「スマート画像」と「スマートサイズ」が空の配列に設定されます。
 
 ### セキュリティ {#security}
 
-セキュリティ上の理由から、元のSVGは画像エディターで直接呼び出されることはありません。It is called through `<img src=“path-to-component”>`. これにより、SVGファイルに埋め込まれているスクリプトが実行されなくなります。
+セキュリティ上の理由から、元の SVG が画像エディターで直接呼び出されることは決してありません。`<img src=“path-to-component”>` 経由で呼び出されます。したがって、SVG ファイル内に埋め込まれたスクリプトをブラウザーで実行することはできません。
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+>SVG サポートが AEM 内で[画像エディターの新機能](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/image-editor.html)をサポートするには、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 では[サービスパック 2](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html)、AEM 6.3 以上では[サービスパック 3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要となります。
 
-## Sample Component Output {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Image Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
+画像コンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/image.html)にアクセスしてください。
 
-### Technical Details {#technical-details}
+### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+画像コンポーネントに関する最新の技術ドキュメントは、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image) にあります。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
 >[!NOTE]
 >
->As of Core Components release 2.1.0, the Image Component supports [schema.org microdata](https://schema.org).
+>コアコンポーネントリリース 2.1.0 の時点で、画像コンポーネントは [schema.org microdata](https://schema.org) をサポートしています。
 
-## Configure Dialog {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
-In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#design-dialog), the image component offers a configure dialog where the image itself is defined along with its description and basic properties.
+画像コンポーネントには、標準の[編集ダイアログ](#edit-dialog)と[デザインダイアログ](#design-dialog)のほかに、画像自体の定義やその説明および基本プロパティの定義をおこなうための設定ダイアログも用意されています。
 
-### Asset Tab {#asset-tab}
+### 「アセット」タブ {#asset-tab}
 
 ![](assets/screen_shot_2018-01-08at114245.png)
 
-* **イメージアセット**
-   * [アセットブラウザからアセットをドロップ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) するか、 **または参照** オプションをタップしてローカルファイルシステムからアップロードします。
-   * Tap or click **Clear** to de-select the currently selected image.
-   * **アセット** エディターでアセットのレンディションを [作成するには、「編集」を](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) タップまたはクリックします。
+* **画像アセット**
+   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
+   * アセットエディターで[アセットのレンディションを管理](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-assets-touch-ui.html)するには、「**編集**」をタップまたはクリックします。
 
-### Metadata Tab {#metadata-tab}
+### 「メタデータ」タブ {#metadata-tab}
 
 ![](assets/screen_shot_2018-01-08at114527.png)
 
-* **画像は装飾的な** もので、画像が支援テクノロジーで無視される必要があるため、代替テキストを必要としません。これは、装飾的な画像にのみ適用されます。
-* **視覚障害のある読者のための代替テキスト** の代替テキスト。
-   * Get alternative text from DAM - When checked the image&#39;s alternative text will be populated with the value of the `dc:description` metadata in DAM.
+* **画像は装飾画像**
+画像が支援テクノロジーによって無視される場合（したがってその代替テキストが不要な場合）はオンにします。これは、装飾画像にのみ適用されます。
+* **代替テキスト**
+視覚に障害のあるユーザー向けの、画像の意味や機能を示す代替テキスト。
+   * DAM から代替テキストを取得 - オンにすると、DAM の `dc:description` メタデータの値が画像の代替テキストに設定されます。
 
-* **キャプション** 画像に関する追加情報。初期設定で画像の下に表示されます。
-   * **DAM** からキャプションを取得チェックをオンにすると、画像のキャプションテキストにDAM内の `dc:title` メタデータの値が入力されます。
-   * **キャプションをポップアップ** として表示する場合、キャプションは画像の下に表示されませんが、画像の上にマウスポインターを置くとポップアップとして表示されます。
+* **キャプション**
+画像に関する追加情報。デフォルトでは画像の下に表示されます。
+   * **DAM からキャプションを取得**
+オンにすると、DAM の `dc:title` メタデータの値が画像のキャプションテキストに設定されます。
+   * **キャプションをポップアップとして表示**
+オンにした場合、キャプションは画像の下には表示されなくなり、画像の上にマウスポインターを置いたときに一部のブラウザーでポップアップとして表示されるようになります。
 
 * **リンク**
    * 画像を別のリソースにリンクします。
-   * 選択ダイアログを使用して、別のAEMリソースにリンクします。
-   * AEMリソースにリンクしていない場合は、絶対URLを入力します。非アクティブURLは、AEMに対して相対的に解釈されます。
+   * 別の AEM リソースにリンクする場合は、選択ダイアログを使用します。
+   * AEM リソースにリンクしない場合は、絶対 URL を入力します。非絶対 URL は、AEM に対する相対 URL として解釈されます。
 
-## Edit Dialog {#edit-dialog}
+## 編集ダイアログ{#edit-dialog}
 
-編集ダイアログを使用すると、コンテンツ作成者は、コンテンツ作成者が起動、起動マップの変更、画像のズームを実行できます。
+編集ダイアログでは、コンテンツ作成者は画像の切り抜き、画像のローンチマップの変更および画像のズームをおこなえます。
 
 ![](assets/chlimage_1-8.png)
 
@@ -108,11 +113,11 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
    ![](assets/chlimage_1-9.png)
 
-   このオプションを選択すると、切り抜きの縦横比が定義済みのドロップダウンが表示されます。
+   このオプションを選択すると、定義済みの切り抜き比率のドロップダウンが開きます。
 
-   * Choose the option **Free Hand** to define your own crop.
-   * Choose the option **Remove Crop** to display the original asset.
-   切り抜きオプションを選択したら、青いハンドルを使用して画像上の切り抜きのサイズを調整します。
+   * 独自の切り抜きを定義するには、オプション「**フリーハンド**」を選択します。
+   * 元のアセットを表示するには、オプション「**切り抜きを削除**」を選択します。
+   切り抜きオプションを選択したら、青色のハンドルを使用して画像上の切り抜きのサイズを調整します。
 
    ![](assets/chlimage_1-10.png)
 
@@ -120,50 +125,51 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
    ![](assets/chlimage_1-11.png)
 
-   画像を右（時計回り）に90°回転させるには、このオプションを使用します。
+   画像を右（時計回り）に 90° 回転させるには、このオプションを使用します。
 
 * 水平方向に反転
 
    ![](assets/screen_shot_2018-04-16at091404.png)
 
-   このオプションを使用すると、画像を水平方向に反転したり、Y軸に沿って画像を180°回転させたりできます。
+   画像を水平方向に反転させる（y 軸を中心に 180° 回転させる）には、このオプションを使用します。
 
 * 垂直方向に反転
 
    ![](assets/screen_shot_2018-04-16at091410.png)
 
-   このオプションを使用すると、画像を垂直方向に反転したり、x軸に沿って画像を180°回転させたりできます。
+   画像を垂直方向に反転させる（x 軸を中心に 180° 回転させる）には、このオプションを使用します。
 
-* Map Map
+* ローンチマップ
 
    >[!CAUTION]
    >
-   >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+   >ローンチマップ機能が AEM 内で[画像エディターの新機能](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/image-editor.html)をサポートするには、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 では[サービスパック 2](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html)、AEM 6.3 以上では[サービスパック 3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要となります。
 
    ![](assets/chlimage_1-12.png)
 
-   このオプションを使用して、起動マップを画像に適用します。このオプションを選択すると、ユーザーがマップの形状を選択できる新しいウィンドウが開きます。
+   画像にローンチマップを適用するには、このオプションを使用します。このオプションを選択すると、ユーザーがマップシェイプを選択できる新しいウィンドウが開きます。
 
    * **長方形マップを追加**
    * **円形マップを追加**
    * **多角形マップを追加**
-      * デフォルトでは、三角形のマップが追加されます。シェイプの行をダブルクリックして、新しい青いサイズ変更ハンドルを新しいサイドに追加します。
-   マップシェイプを選択すると、サイズ変更可能な画像に重ね合わされます。青いサイズのサイズ変更ハンドルをドラッグ&amp;ドロップして、シェイプを調整します。
+      * デフォルトでは三角形のマップが追加されます。シェイプの線をダブルクリックすると、新しい青色のサイズ変更ハンドルが新しいサイドに追加されます。
+   マップシェイプを選択すると、マップは画像に重なって表示され、サイズを変更することができます。青色のサイズ変更ハンドルをドラッグ＆ドロップしてシェイプを調整します。
 
    ![](assets/chlimage_1-13.png)
 
-   起動マップをサイズ調整したら、クリックしてフローティングツールバーを開き、リンクのパスを定義します。
+   ローンチマップのサイズ調整が完了したら、マップをクリックしてフローティングツールバーを開き、リンクのパスを定義します。
 
    * **パス**
-      * パスピッカーオプションを使用してAEMでパスを選択する
-      * パスがAEMにない場合は、絶対URLを使用します。絶対パスは、AEMに対する相対パスで解釈されます。
-   * **代替テキスト** パス先の代替説明
+      * パスピッカーオプションを使用して AEM 内のパスを選択します。
+      * パスが AEM 内にない場合は、絶対 URL を使用します。非絶対パスは、AEM に対する相対パスとして解釈されます。
+   * **代替テキスト**
+パス参照先の代替説明
    * **ターゲット**
       * **同じタブ**
       * **新しいタブ**
       * **親フレーム**
       * **トップフレーム**
-   青のチェックマークをタップまたはクリックして保存し、黒のxはキャンセルし、赤のごみ箱はマップを削除します。
+   マップを保存するには青色のチェックマークを、キャンセルするには黒色の x を、削除するには赤色のごみ箱を、それぞれタップまたはクリックします。
 
    ![](assets/chlimage_1-14.png)
 
@@ -171,80 +177,89 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
    ![](assets/chlimage_1-15.png)
 
-   画像が既にズームされている場合は、このオプションを使用してズームレベルをリセットします。
+   画像が既にズームされている場合にこのオプションを使用すれば、ズームレベルがリセットされます。
 
-* Open Zoom Slider
+* ズームスライダーを開く
 
    ![](assets/chlimage_1-16.png)
 
-   このオプションを使用して、画像のズームレベルを制御するスライダを表示します。
+   画像のズームレベルを制御するためのスライダーを表示するには、このオプションを使用します。
 
    ![](assets/chlimage_1-17.png)
 
-インプレースエディターを使用して画像を変更することもできます。スペースの制限により、基本オプションのみがインラインで使用できます。フルスクリーンモードの場合は、フルスクリーンモードを使用します。
+インプレースエディターを使用して画像を変更することもできます。スペース上の制限のため、インラインで使用できるのは基本的なオプションのみです。すべての編集オプションを使用したい場合は、フルスクリーンモードを使用してください。
 
 ![](assets/chlimage_1-18.png)
 
 >[!NOTE]
 >
->画像編集操作（切り抜き、反転、回転）はGIF画像ではサポートされていません。編集モードで行われたそのような変更は、保持されません。
+>画像編集操作（切り抜き、反転、回転）は GIF 画像ではサポートされません。編集モードで GIF に対しておこなわれたそのような変更は、一切保持されません。
 
-## Design Dialog {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-デザインダイアログでは、テンプレート作成者がこのコンポーネントを使用するときに、コンテンツ作成者による切り抜き、アップロード、回転オプションおよびアップロードオプションを定義できます。
+デザインダイアログでは、コンテンツ作成者がこのコンポーネントの使用時に利用できる切り抜き、アップロード、回転の各オプションを、テンプレート作成者が定義することができます。
 
-### Main Tab {#main-tab}
+### 「メイン」タブ {#main-tab}
 
-**「メイン** 」タブでは、画像の幅のリストをピクセル単位で定義して、リストから最も適切な幅を自動的に読み込むことができます。
+「**メイン**」タブでは、画像の幅（ピクセル単位）のリストを定義し、リスト内の最も適切な幅が自動的に読み込まれるようにします。
 
-また、ページにコンポーネントを追加するときに、自動または無効にする一般的なコンポーネントオプションを定義できます。
+さらに、作成者がページにコンポーネントを追加した際に自動的に無効化される一般的なコンポーネントオプションを定義できます。
 
 ![](assets/screenshot_2018-10-19at102756.png)
 
-* **遅延読み込みを有効に** する画像コンポーネントをページに追加するときに遅延読み込みオプションが自動的に有効になっている場合に、定義を有効にします。
-* **画像は、画像コンポーネントをページに追加するときに、装飾的な画像オプションが自動的に有効になっている場合に定義される装飾** 的な定義です。
-* **DAM** から代替テキストを取得する場合、画像コンポーネントをページに追加するときにDAMから代替テキストを取得するオプションが自動的に有効になっている場合に、このテキストを定義します。
-* **DAM** からキャプションを取得するために、画像コンポーネントをページに追加するときにDAMからキャプションを取得するオプションが自動的に有効になっているかどうかを定義します。
-* **キャプションをポップアップ** として表示するには、画像コンポーネントをページに追加するときに、画像キャプションをポップアップとして表示するオプションが自動的に有効になっているかどうかを定義します。
-* **UUIDトラッキング** チェックを無効にすると、画像アセットのUUIDのトラッキングが無効になります。
+* **遅延読み込みを有効にする**
+ページへの画像コンポーネントの追加時に遅延読み込みオプションが自動的に有効化されるかどうかを定義します。
+* **画像は装飾画像**
+ページへの画像コンポーネントの追加時に装飾画像オプションが自動的に有効化されるかどうかを定義します。
+* **DAM から代替テキストを取得**
+ページへの画像コンポーネントの追加時に 、DAM から代替テキストを取得するオプションが自動的に有効化されるかどうかを定義します。
+* **DAM からキャプションを取得**
+ページへの画像コンポーネントの追加時に 、DAM からキャプションを取得するオプションが自動的に有効化されるかどうかを定義します。
+* **キャプションをポップアップとして表示**
+ページへの画像コンポーネントの追加時に、画像のキャプションをポップアップとして表示するオプションが自動的に有効化されるかどうかを定義します。
+* **UUID の追跡を無効化**
+画像アセットの UUID の追跡を無効化する場合にオンにします。
 
-* **幅** 画像の幅のリストをピクセル単位で定義して、リストから最も適切な幅を自動的に読み込みます。
-   * Tap or click the **Add** button to add another size.
-      * グラブハンドルを使用して、サイズの順序を変更します。
-      * Use the **Delete** icon to remove a width.
-   * 初期設定では、画像の読み込みは、表示されるまで延期されます。
-      * Select the option **Disable lazy loading** to load the images upon page load.
-* **JPEG画質**変換（例えば、拡大縮小またはトリミング）
-JPEG画像の画質係数（0~100のパーセンテージ）。
+* **幅**
+画像の幅（ピクセル単位）のリストを定義し、リスト内の最も適切な幅が自動的に読み込まれるようにします。
+   * 別のサイズを追加するには、「**追加**」ボタンをタップまたはクリックします。
+      * サイズの順序を変更するには、グラブハンドルを使用します。
+      * 幅を削除するには、**削除**&#x200B;アイコンを使用します。
+   * デフォルトでは、画像の読み込みは、画像が表示される時点まで遅延されます。
+      * ページ読み込み時に画像を読み込むには、オプション「**遅延読み込みを無効化**」を選択します。
+* **JPEG 画質**
+変換（拡大 / 縮小や切り抜きなど）がおこなわれる JPEG 画像の品質係数（0 ～ 100 パーセントで指定）。
 
 >[!CAUTION]
 >
->&quot;JPEG画質」オプションは、コアコンポーネントのリリース2.2.0以降で使用できます。
+>「JPEG 画質」オプションは、コアコンポーネントのリリース 2.2.0 以降で使用できます。
 
 >[!NOTE]
 >
->As of release 2.2.0 of the Core Components, the Image Component adds the unique UUID attribute `data-asset-id` to the image asset to allow tracking and analysis of the number of views that individual assets receive.
+>コアコンポーネントのリリース 2.2.0 以降では、画像コンポーネントが一意の UUID 属性 `data-asset-id` を画像アセットに追加するようになりましたが、これは、個々のアセットの閲覧数の追跡や分析を可能にするためです。
 
-### Features Tab {#features-tab}
+### 「機能」タブ {#features-tab}
 
-**「機能** 」タブでは、アップロードオプション、方向、切り抜きオプションなど、コンポーネントの使用時にコンテンツ作成者が使用できるオプションを定義できます。
+「**機能**」タブでは、コンテンツ作成者がコンポーネントの使用時に利用できるオプション（アップロードオプション、向きのオプション、切り抜きオプションなど）を定義できます。
 
 * ソース
 
    ![](assets/chlimage_1-19.png)
 
-   Select the option **Allow asset upload from file system** to allow content authors to upload images from his or her local computer. コンテンツ作成者がAEMからアセットのみを選択できるようにするには、このオプションを選択解除します。
+   コンテンツ作成者が自身のローカルコンピュータから画像をアップロードできるようにするには、オプション「**ファイルシステムからのアセットのアップロードを許可**」を選択します。コンテンツ作成者が AEM からしかアセットを選択できないようにするには、このオプションを選択解除します。
 
 * 向き
 
    ![](assets/chlimage_1-20.png)
 
-* **回転** このオプションを使用すると、コンテンツ作成者は「右 **に回転」** オプションを使用できます。
-* **フリップ** このオプションを使用すると、コンテンツ作成者は「水平 **方向に反転」** および「垂直 **方向に反転」** オプションを使用できます。
+* **回転**
+コンテンツ作成者が「**右に回転**」オプションを使用できるようにするには、このオプションを使用します。
+* **反転**
+コンテンツ作成が「**水平方向に反転**」および「**垂直方向に反転**」オプションを使用できるようにするには、このオプションを使用します。
 
    >[!CAUTION]
    >
-   >**「フリップ」** オプションはデフォルトで無効になっています。Enabling it will display the **Flip Vertically** and **Flip Horizontally** buttons in the edit dialog of the image component, however the feature is not currently supported by AEM and any changes made using these options will not be persisted.
+   >「**反転**」オプションはデフォルトでは無効になっています。これを有効にすると、画像コンポーネントの編集ダイアログで「**水平方向に反転**」および「**垂直方向に反転**」ボタンが表示されますが、この機能は現在 AEM でサポートされていないので、これらのオプションを使用しておこなわれた変更は一切保持されません。
 
 <!-- 
 Comment Type: remark
@@ -258,16 +273,16 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
    ![](assets/chlimage_1-21.png)
 
-   Select the option **Allow crop** to allow the content author to crop the image in the component in the edit dialog.
-   * **「追加」** をクリックして、定義済みの切り抜き縦横比を追加します。
-   * Enter a descriptive name, which will be shown in the **Start Crop** dropdown.
+   コンテンツ作成者が編集ダイアログでコンポーネントの画像の切り抜きをおこなえるようにするには、オプション「**切り抜きを許可**」を選択します。
+   * 定義済みの切り抜き縦横比を追加するには、「**追加**」をクリックします。
+   * わかりやすい名前を入力します。この名前が「**切り抜きを開始**」ドロップダウンに表示されます。
    * 縦横比の数値を入力します。
-   * ドラッグハンドルを使用して、縦横比の順序を再調整します
-   * ごみ箱アイコンを使用して、縦横比を削除します。
+   * 縦横比の順序を変更するには、ドラッグハンドルを使用します
+   * 縦横比を削除するには、ごみ箱アイコンを使用します。
    >[!CAUTION]
    >
-   >Note that in AEM, crop aspect ratios are defined as **height/width**. これは、従来の幅と高さの定義とは異なり、従来の互換性の理由で行われます。コンテンツの作成者は、比率の明確な名前を指定している限り、割合を認識しません。これは、比率自体ではなく、UIに表示されるからです。
+   >AEM では、切り抜きの縦横比は「**高さ / 幅**」で定義されます。これは従来の定義である「幅 / 高さ」とは異なり、レガシー互換性のための設定です。UI には比率自体ではなく UI が表示されるので、比率にわかりやすい名前を付けていれば、コンテンツ作成者がこの違いに気付くことはありません。
 
-### Styles Tab {#styles-tab-1}
+### 「スタイル」タブ {#styles-tab-1}
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+画像コンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポートします。
