@@ -1,103 +1,102 @@
 ---
-title: Teaserコンポーネント
-seo-title: Teaserコンポーネント
-description: Teaserコンポーネントでは、画像、タイトル、リッチテキストおよびオプションのコンテンツへのリンクを表示できます。
-seo-description: Teaserコンポーネントでは、画像、タイトル、リッチテキストおよびオプションのコンテンツへのリンクを表示できます。
-uuid: 46989314- df37-448b-8562- c707043f2160
-contentOwner: behnert
-content-type: リファレンス
-topic-tags: コアコンポーネント
+title: ティーザーコンポーネント
+seo-title: ティーザーコンポーネント
+description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
+seo-description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
+uuid: 46989314-df37-448b-8562-c707043f2160
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
 discoiquuid: e597c18e-3643-41be-9878-4a7872f1ab90
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
-# Teaser Component{#teaser-component}
+# ティーザーコンポーネント{#teaser-component}
 
-Core Component Teaserコンポーネントでは、画像、タイトル、リッチテキストおよびオプションのコンテンツへのリンクを表示できます。
+コアコンポーネントのティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
 
-## 使用 {#usage}
+## 使用方法 {#usage}
 
-Teaserコンポーネントを使用すると、コンテンツ、タイトルまたはリッチテキストを使用してコンテンツ、タイトル、またはその他のアクションにリンクすることで、コンテンツ作成者がより簡単にコンテンツにティーザーを作成できます。
+ティーザーコンポーネントを使用すれば、画像、タイトル、リッチテキスト、追加コンテンツや他のアクションへのリンクを使用して、コンテンツ作成者が詳細なコンテンツへのティーザーを容易に作成できるようになります。
 
-The template author can use the [design dialog](#design-dialog) to define if the options to create call-to-actions and add links are available as well as disabling various display options. The content author can use the [configure dialog](#configure-dialog) to set an image, define CTAs, set titles and descriptions, and configure links to the individual teaser. The [edit dialog](image.md#edit-dialog) of the [Image Component](image.md) can be accessed to modify the teaser image.
+[デザインダイアログ](#design-dialog)では、コールトゥアクションを作成したりリンクを追加したりするオプションが使用可能かどうかや、様々な表示オプションの無効化をテンプレート作成者が定義できます。[設定ダイアログ](#configure-dialog)では、画像の設定、CTA（コールトゥアクション）の定義、タイトルと説明の設定、個々のティーザーへのリンクの設定をコンテンツ作成者がおこなえます。[画像コンポーネント](image.md)の[編集ダイアログ](image.md#edit-dialog)にアクセスして、ティーザー画像を変更できます。
 
-## Version and Compatibility {#version-and-compatibility}
+## バージョンと互換性 {#version-and-compatibility}
 
-Teaserコンポーネントの現在のバージョンはv1であり、2018年7月のコアコンポーネントのリリース2.1.0で導入されています。このドキュメントで説明しています。
+このドキュメントでは、ティーザーコンポーネントの現在のバージョン（2018 年 7 月にコアコンポーネントのリリース 2.1.0 で導入された v1）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |---|---|---|---|
-| v1 | 互換性 | 互換性 | 互換性 |
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
-## Sample Component Output {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Teaser Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html).
+ティーザーコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html)を参照してください。
 
-### Technical Details {#technical-details}
+### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Teaser Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
+ティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) を参照してください。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## Configure Dialog {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
-コンテンツ作成者は、設定ダイアログを使用して個別のTeaserのプロパティを定義できます。There is also an [edit dialog](#edit-dialog) to modify the teaser image if one is selected.
+設定ダイアログでは、個々のティーザーのプロパティをコンテンツ作成者が定義できます。また、選択したティーザー画像を変更するための[編集ダイアログ](#edit-dialog)もあります。
 
 ### 画像 {#image}
 
 ![](assets/screen_shot_2018-07-03at104125.png)
 
-* **イメージアセット**
-   * [アセットブラウザからアセットをドロップ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) するか、 **または参照** オプションをタップしてローカルファイルシステムからアップロードします。
-   * Tap or click **Clear** to de-select the currently selected image.
-   * **アセット** エディターでアセットのレンディションを [作成するには、「編集」を](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) タップまたはクリックします。
+* **画像アセット**
+   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
+   * アセットエディターで[アセットのレンディションを管理](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-assets-touch-ui.html)するには、「**編集**」をタップまたはクリックします。
 
 ### テキスト {#text}
 
 ![](assets/screen_shot_2018-07-03at104138.png)
 
-* **タイトル** Teaserのヘッドラインとして表示するタイトルを定義します。
-* **リンクされたページ** からタイトルを取得するオンにすると、リンクされたページのタイトルがタイトルに入力されます。
-* **説明**:
-Teaserの下位見出しとして表示する説明を定義します。
-* **リンクされたページ** から説明を取得するオンにすると、説明にリンクされたページの説明が入力されます。
+* **タイトル** - ティーザーのヘッドラインとして表示するタイトルを定義します。
+* **リンクされたページからタイトルを取得する** - オンにすると、タイトルには、リンクされたページのタイトルが設定されます。
+* **説明** - ティーザーの小見出しとして表示する説明を定義します。
+* **リンクされたページから説明を取得する** - オンにすると、説明には、リンクされたページの説明が設定されます。
 
-### Links &amp; Actions {#links-actions}
+### リンクとアクション {#links-actions}
 
 ![](assets/screen_shot_2018-07-03at104146.png)
 
-* **リンク** リンクがTeaserに適用されました。パスブラウザーを使用して、リンクターゲットを選択します。
-* **「誘い文句（CTA:コールトゥアクション）を有効にする**」チェックボックスをオンにすると、誘い文句（CTA:コールトゥアクション）の定義が有効になります。リスト内の最初の誘い文句（CTA:コールトゥアクション）リンクが他のTeaser要素のリンクとして使用されます。
+* **リンク** - ティーザーに適用されるリンク。パスブラウザーを使用して、リンクターゲットを選択します。
+* **コールトゥアクションを有効化** - オンにすると、コールトゥアクションの定義が有効になります。リスト内の最初のコールトゥアクションリンクが他のティーザー要素のリンクとして使用されます。
 
-## Edit Dialog {#edit-dialog}
+## 編集ダイアログ{#edit-dialog}
 
-The Teaser Component delegates image rendering to the [Image Component](image.md). Therefore the [edit dialog](image.md#edit-dialog of the Image Component is available to the content author to manipulate the teaser image.
+ティーザーコンポーネントは画像レンダリングを[画像コンポーネント](image.md)に委任します。そのため、コンテンツ作成者は画像コンポーネントの[編集ダイアログ](image.md#edit-dialog)を使用してティーザー画像を操作できます。
 
-## Design Dialog {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-デザインダイアログでは、テンプレート作成者がこのコンポーネントを使用するときにコンテンツ作成者によって割り当てられるTeaserオプションを定義できます。
+デザインダイアログを使用すれば、テンプレート作成者は、コンテンツ作成者がこのコンポーネントを使用する際に選択できるティーザーオプションを定義できます。
 
-### Teaser Tab {#teaser-tab}
+### 「ティーザー」タブ {#teaser-tab}
 
 ![](assets/screen_shot_2018-07-03at105958.png)
 
 * **コールトゥアクション**
-   * **コンテンツ作成者の誘い文句（CTA:コールトゥアクション****** ）オプションを非表示にする
+   * **コールトゥアクションを無効化** - 「**コールトゥアクション**」オプションをコンテンツ作成者に表示しません
 * **要素**
    * **タイトルを非表示にする**
-      * Hides the **Title** option for content authors
-      * When selected the **Title Type** is hidden
-   * **「非表示の説明**»コンテンツ作成者の?«説明?を非表示 ****
-* **タイトルタイプ** Teaserのタイトルで使用するHタグを定義します。
+      * 「**タイトル**」オプションをコンテンツ作成者に表示にしません
+      * オンにすると、「**タイトルのタイプ**」は非表示になります
+   * **説明を非表示にする** - 「**説明**」オプションをコンテンツ作成者に表示しません
+* **タイトルのタイプ** - ティーザーのタイトルで使用する H タグを定義します。
 * **リンク**
-   * **選択** した画像をリンクしない場合、Teaser画像はリンクされません
-   * **タイトル** をリンクしない場合、Teaserのタイトルはリンクされません
+   * **画像をリンクしない** - オンにすると、ティーザー画像はリンクされません
+   * **タイトルをリンクしない** - オンにすると、ティーザータイトルはリンクされません
 
-### Styles Tab {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
-The Teaser Component supports the AEM [Style System](authoring.md#component-styling).
+ティーザーコンポーネントでは、AEM [スタイルシステム](authoring.md#component-styling)をサポートしています。
