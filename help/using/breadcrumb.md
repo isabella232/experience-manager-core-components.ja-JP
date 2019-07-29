@@ -2,15 +2,15 @@
 title: パンくずコンポーネント
 seo-title: パンくずコンポーネント
 description: 'null'
-seo-description: コアコンポーネントパンくずコンポーネントはナビゲーションコンポーネントで、コンテンツ階層内のページの場所に基づいてリンクのパンくずリストを構築します。
-uuid: 13e858d5-24ad-4144- adc4-0fa1ffd257c1
-contentOwner: User
-content-type: リファレンス
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: prop237df-08b8-4deb-9881-66a1f0d65ef3
+seo-description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
+uuid: 13e858d5-24ad-4144-adc4-0fa1ffd257c1
+contentOwner: ユーザー
+content-type: reference
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: ecd237df-08b8-4deb-9881-66a1f0d65ef3
 modalsize: 426x240
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -18,74 +18,74 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 # パンくずコンポーネント{#breadcrumb-component}
 
-コアコンポーネントパンくずコンポーネントはナビゲーションコンポーネントで、コンテンツ階層内のページの場所に基づいてリンクのパンくずリストを構築します。
+コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
 
-## 使用 {#usage}
+## 使用方法 {#usage}
 
-階層階層コンポーネントには、サイト階層内の現在のページの位置が表示され、ページの訪問者が現在の場所からページ階層をナビゲートできます。これは多くの場合、ページヘッダーまたはフッターに統合されます。
+パンくずコンポーネントには、サイト階層における現在のページの位置が表示され、ページの訪問者は現在の場所からページ階層内を移動することができます。多くの場合、パンくずコンポーネントはページヘッダーやフッターに統合されています。
 
-Available options, such as the default navigation level and the ability to show the current page or hidden pages, can be defined by the template author in the [design dialog](#design-dialog). The content editor can then choose if hidden pages should be shown or not and the actual navigation level for the component in the [edit dialog](#edit-dialog).
+デフォルトのナビゲーションレベルや現在のページまたは非表示のページを表示する機能などの使用可能なオプションは、テンプレート作成者が[デザインダイアログ](#design-dialog)で定義できます。次に、非表示のページを表示するかどうかやコンポーネントの実際のナビゲーションレベルをコンテンツ編集者が[編集ダイアログ](#edit-dialog)で選択できます。
 
-## Version and Compatibility {#version-and-compatibility}
+## バージョンと互換性 {#version-and-compatibility}
 
-現在のバージョンのパンくずリストはv2であり、2018年1月のコアコンポーネントのリリース2.0.0で導入されています。このドキュメントで説明しています。
+このドキュメントでは、パンくずコンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v2 | 互換性 | 互換性 | 互換性 |
-| [v1](breadcrumb-v1.md) | 互換性 | 互換性 | 互換性 |
+| v2 | 互換性あり | 互換性あり | 互換性あり |
+| [v1](breadcrumb-v1.md) | 互換性あり | 互換性あり | 互換性あり |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## Sample Component Output {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html).
+パンくずコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html)を参照してください。
 
 >[!NOTE]
 >
->As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
+>コアコンポーネントリリース 2.1.0 の時点では、パンくずコンポーネントは [schema.org microdata](https://schema.org/BreadcrumbList) をサポートしています。
 
-## Technical Details {#technical-details}
+## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
+パンくずコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb) を参照してください。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## Edit Dialog {#edit-dialog}
+## 編集ダイアログ{#edit-dialog}
 
-編集ダイアログでは、コンテンツ作成者がパンくずリスト内の非表示ページとアクティブページを抑制し、表示する階層の深さを抑制できます。
+編集ダイアログでは、コンテンツ作成者がパンくずリスト内の非表示ページとアクティブページおよび表示する階層の深さを無効化できます。
 
 ![](assets/screen_shot_2018-01-12at124250.png)
 
-* **ナビゲーション開始レベル** -階層内の階層階層コンポーネントで、現在のページまで移動し始める必要があります。例: We. Retail
+* **ナビゲーション開始レベル** - パンくずコンポーネントが現在のページへの移動を開始する、階層内の位置。例えば、We.Retail では次のようになります。
 
-   * 0 starts at `/content`
+   * 「0」の場合は `/content` で開始
 
-   * 1 starts at `/content/we-retail`
-   * 2 starts at `/content/we-retail/<country>`
+   * 「1」の場合は `/content/we-retail` で開始
+   * 「2」の場合は `/content/we-retail/<country>` で開始
 
-* **非表示のナビゲーション項目** を表示-パンくずリストで非表示にマークされているページを表示（デフォルトでは表示されません）
-* **現在のページを非表示**-パンくずリスト内の現在のページを非表示にします（デフォルトで表示されます）。
+* **非表示のナビゲーション項目を表示** - パンくずリストで非表示とマークされているページを表示します（デフォルトでは表示されません）
+* **現在のページを非表示** - パンくずリストの現在のページを非表示にします（デフォルトでは表示されます）
 
-## Design Dialog {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-デザインダイアログでは、テンプレート作成者が、パンくずリスト内の非表示ページとアクティブページを非表示にしたり、表示する必要のある階層の深さを非表示にしたりするためのオプションを定義できます。
+デザインダイアログでは、テンプレート作成者が、パンくずリスト内の非表示ページとアクティブページおよび表示する階層の深さを無効化するオプションのデフォルト値を定義できます。
 
-### Main Tab {#main-tab}
+### 「メイン」タブ {#main-tab}
 
 ![](assets/screen_shot_2018-01-12at124437.png)
 
-* **ナビゲーション開始レベル** -パンくずリストコンポーネントがページに追加されたときにパンくずリストコンポーネントが現在のページまで移動する必要がある場合に、階層内のデフォルト値を定義します。
-* **非表示のナビゲーション項目を表示** -ページにパンくずリストコンポーネント **が追加されたときに、非表示のナビゲーション項目** を表示オプションのデフォルト値を定義します。
+* **ナビゲーション開始レベル** - パンくずコンポーネントをページに追加したときに階層内でパンくずコンポーネントが現在のページへの移動を開始する位置のデフォルト値を定義します。
+* **非表示のナビゲーション項目を表示** - パンくずコンポーネントをページに追加したときに使用される「**非表示のナビゲーション項目を表示**」オプションのデフォルト値を定義します。
 
-   * 作成者のオプションを有効または無効にすることはできません。デフォルト値のみを設定します。
+   * 作成者用のオプションは有効または無効にはなりません。デフォルト値のみ設定されます。
 
-* **現在のページを非表示** にする-ページにパンくずリストコンポーネントが追加されたときに、現在のページ **** を非表示オプションのデフォルト値を定義します。
+* **現在のページを非表示** - パンくずコンポーネントをページに追加したときに使用される「**現在のページを非表示**」オプションのデフォルト値を定義します。
 
-   * 作成者のオプションを有効または無効にすることはできません。デフォルト値のみを設定します。
+   * 作成者用のオプションは有効または無効にはなりません。デフォルト値のみ設定されます。
 
-### Styles Tab {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
-The Breadcrumb Component supports the AEM [Style System](authoring.md#component-styling).
+パンくずコンポーネントでは、AEM [スタイルシステム](authoring.md#component-styling)をサポートしています。
