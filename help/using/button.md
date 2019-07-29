@@ -2,65 +2,65 @@
 title: ボタンコンポーネント
 seo-title: ボタンコンポーネント
 description: 'null'
-seo-description: コアコンポーネントボタンコンポーネントを使用すると、ボタンを作成および表示できます。
-uuid: ec807de9- f76c-4850-9ece- c3e439a1d626
-contentOwner: User
+seo-description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
+contentOwner: ユーザー
 content-type: reference
-topic-tags: オーサリング
-products: SG_ PREPERNEMENTMANAGER/COREMENTS- new
-discoiquuid: f093f58e-9755-4a4f-803a- ab93a50e6870
-translation-type: tm+mt
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+translation-type: ht
 source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
 
 ---
 
 
-# Button Component{#button-component}
+# ボタンコンポーネント{#button-component}
 
-コアコンポーネントボタンコンポーネントを使用すると、ページ上のボタン項目を設定および表示できます。
+コアコンポーネントのボタンコンポーネントを使用すると、ページ上にボタンアイテムを設定および表示することができます。
 
-## 使用 {#usage}
+## 使用方法 {#usage}
 
-コアコンポーネントボタンコンポーネントを使用すると、ページにボタンを含めることができます。
+コアコンポーネントのボタンコンポーネントを使用すると、ページにボタンを含めることができます。
 
-* The button&#39;s properties can be selected in the [configure dialog](#configure-dialog).
-* Styles for the Button Component can be defined in the [design dialog](#design-dialog).
+* ボタンのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
+* ボタンコンポーネントのスタイルは、[デザインダイアログ](#design-dialog)で定義できます。
 
-## Version and Compatibility {#version-and-compatibility}
+## バージョンと互換性 {#version-and-compatibility}
 
-ボタンコンポーネントの現在のバージョンは、2019年6月のコアコンポーネントのリリース2.5.0で導入されたv1であり、このドキュメントで説明しています。
+このドキュメントでは、ボタンコンポーネントの現在のバージョン（2019 年 6 月にコアコンポーネントのリリース 2.5.0 で導入された v1）について説明します。
 
-次の表に、サポートされているコンポーネントのすべてのバージョン、コンポーネントのバージョンが互換性があるAEMバージョン、および以前のバージョンのドキュメントへのリンクを示します。
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
-| v1 | 互換性 | 互換性 | 互換性 |
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-## Sample Component Output {#sample-component-output}
+## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
+ボタンコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/button.html)を参照してください。
 
-## Technical Details {#technical-details}
+## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+ボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) を参照してください。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
-## Configure Dialog {#configure-dialog}
+## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログでは、コンテンツ作成者がボタンを定義し、そのページへの訪問者の行動と表示方法を定義できます。
+設定ダイアログでは、ボタンそのものと、ページの訪問者に対するボタンの動作および表示をコンテンツ作成者が定義できます。
 
 ![](assets/screen-shot-2019-06-17-11.26.13.png)
 
-* **テキスト** -ボタンに表示するテキスト
-* **リンク** - AEM内のコンテンツページ、外部リソースまたはアンカーへのリンク
-   * **選択ダイアログ** を使用して、AEM内のパスを選択します。
-* **アイコン** -ボタンにアイコンを表示するための識別子
+* **テキスト** - ボタンに表示するテキスト
+* **リンク** - AEM 内のコンテンツページ、外部リソース、アンカーへのリンク
+   * **選択ダイアログ**&#x200B;を使用して、AEM 内のパスを選択します
+* **アイコン** - ボタンにアイコンを表示するための識別子
 
-## Design Dialog {#design-dialog}
+## デザインダイアログ{#design-dialog}
 
-### Styles Tab {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+画像コンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポートします。
