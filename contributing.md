@@ -1,6 +1,6 @@
 ---
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
-translation-type: ht
+source-git-commit: 396d7c04712f575fd5ce67892448dedaab5dbd45
+translation-type: tm+mt
 
 ---
 # Adobe Experience Manager ドキュメントへの貢献
@@ -11,7 +11,7 @@ Adobe Experience Manager ドキュメントへの貢献にご協力いただき�
 
 ## アドビオープンソース行動規範
 
-このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md)を採用しています。AEM ドキュメントに貢献すると、この行動規範の順守に同意したことになります。
+このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md)を採用しています。AEM ドキュメントに貢献すると、この行動規範の順守に同意したことになります。許容できない行為は [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) までご報告ください。
 
 ## AEMド キュメントへの貢献に関するガイドライン
 
@@ -21,9 +21,13 @@ AEM ドキュメントを改善するための貢献をアドビは歓迎しま�
 
 貢献方法は、貢献者と、貢献したい変更の種類によって異なります。
 
+### 雑誌号の作成
+
+提案、現在の文書に関する観察、または何かについての質問があるか。ファイルに問題があります。コンバージョンにつながるものの、docsの編集やリクエストの作成に慣れていない場合にも問題が発生することがあります。
+
 ### 軽微な変更
 
-軽微な更新を投稿するには、記事の **編集** リンクをクリックして、GitHub のソース記事を開きます。GitHub UI を使用して更新をおこないます。詳しくは、一般的な[アドビドキュメントのコントリビューターガイド](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)を参照してください。
+軽微な更新を投稿するには、記事の&#x200B;**編集**&#x200B;リンクをクリックして、GitHub のソース記事を開きます。GitHub UI を使用して更新をおこないます。See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 このリポジトリ内のドキュメントおよびコード例について投稿した軽微な修正または説明には、アドビの利用条件が適用されます。
 
@@ -39,18 +43,22 @@ Adobe Experience Cloud ソリューションの製品チームに所属するテ
 
 アドビの他の部署に所属する従業員は、軽微なアップデートには公開リポジトリを使用する必要があります。
 
+##  投稿者使用許諾契約
+
+このプロジェクトへの第三者によるすべての投稿には、署名済みの投稿者使用許諾契約が含まれている必要があります。これにより、アドビはお客様の投稿をプロジェクトの一部として再配布できるようになります。[CLAに署名します。](https://opensource.adobe.com/cla.html)アドビの CLA は一度提出するだけでよいので、以前に提出したことがある場合は、次へ進むことができます。
+
 ## ツールとセットアップ
 
 コミュニティ投稿者は、GitHub UI を使用して簡単な編集をおこなったり、リポジトリをフォークして大規模な投稿をおこなったりできます。
 
-GitHub オーサリングプラットフォームの使用方法の概要については、[アドビドキュメント貢献者ガイド](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)を参照してください。
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for an overview of how to use the GitHub authoring platform.
 
 ## Markdown を使用してトピックを書式設定する方法
 
 このリポジトリ内のすべての記事は、GitHub フレーバーな Markdown を使用しています。Markdown に馴染みがない場合は、以下を参照してください。
 
-* [Markdown の基本](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [印刷可能な Markdown のチートシート](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [マーケティングの基本](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [印刷可能なマーチャンダイジングシート](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## ラベル
 
