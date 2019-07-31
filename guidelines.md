@@ -1,6 +1,6 @@
 ---
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
-translation-type: ht
+source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
+translation-type: tm+mt
 
 ---
 # AEMド キュメントへの貢献に関するガイドライン
@@ -31,11 +31,11 @@ AEM ドキュメントでは標準的なの使用例を扱っているので、�
 
 ### ドキュメントへの貢献は、技術的な質問に回答するためのものではありません。
 
-AEM ドキュメントの改善に役立つアイデアは、貢献として歓迎します。ただし、AEM の使用方法や技術的な問題の解決方法についての質問に回答するために、貢献を使用することはできません。
+AEM ドキュメントの改善に役立つアイデアは、貢献として歓迎します。However comments, issues, and pull requests are intended for *contributions* only. これらは、AEMの使用方法や技術的な問題の解決方法についての質問に回答する目的では使用されません。
 
-AEM の使用方法や技術的エラーに関する質問がある場合は、通常のサポートプロセスを通じて報告するか、AEM ユーザーフォーラムで議論する必要があります。
+Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
 
-***AEM ドキュメントへの貢献は、アドビサポートの代わりとなるものではなく***、それに反する貢献は拒否されます。
+***AEMドキュメントの寄稿者は、アドビのサポート*** に代わるものではなく、サポート関連の質問への回答を求めているそのような貢献度は拒否されます。
 
 ### 貢献では、影響を受けるドキュメントページを明確に参照する必要があります。
 
@@ -61,7 +61,7 @@ AEM ドキュメントの読者は世界中におり、英語を母国語とし�
 
 #### マイクロソフトのスタイルガイドへの準拠
 
-マイクロソフトのスタイルガイド『[The Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/)』（英語版）は、ソフトウェアドキュメントに重点を置いたドキュメントスタイルガイドで、無料で入手できます。AEM ドキュメントは、可能な限り、このガイドに従っています。
+[Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) は、ソフトウェアドキュメントやAEMドキュメントに焦点を当てた無料のドキュメントスタイルガイドであり、可能な限りこのガイドに従っています。
 
 ### 書式設定
 
