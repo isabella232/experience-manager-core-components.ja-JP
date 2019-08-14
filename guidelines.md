@@ -1,9 +1,9 @@
 ---
 source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# AEMド キュメントへの貢献に関するガイドライン
+# AEM ドキュメントへの貢献に関するガイドライン
 
 ## AEM ドキュメントの理念
 
@@ -27,15 +27,15 @@ AEM ドキュメントでは標準的な使用例を扱っています。製品�
 
 ### バグやそれらの回避策については記載しません。
 
-AEM ドキュメントでは標準的なの使用例を扱っているので、バグ、バグによる影響、バグの回避策は記載されていません。
+AEM ドキュメントでは標準的な使用例を扱っているので、バグ、バグによる影響、バグの回避策は記載されていません。
 
 ### ドキュメントへの貢献は、技術的な質問に回答するためのものではありません。
 
-AEM ドキュメントの改善に役立つアイデアは、貢献として歓迎します。However comments, issues, and pull requests are intended for *contributions* only. これらは、AEMの使用方法や技術的な問題の解決方法についての質問に回答する目的では使用されません。
+AEM ドキュメントの改善に役立つアイデアは、貢献として歓迎します。ただし、コメント、問題報告および変更修正依頼は、*貢献*&#x200B;のみを目的としています。これらを、AEM の使用方法や技術的な問題の解決方法についての質問に回答するために使用することはできません。
 
-Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
+AEM の使用方法や技術的な問題に関して質問がある場合は、[Adobe Experience Manager サポートポータル](https://daycare.day.com/home.html)の通常のサポートプロセスを通じて報告したり、[Adobe Experience Manager コミュニティ](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html)でディスカッションしたりする必要があります。
 
-***AEMドキュメントの寄稿者は、アドビのサポート*** に代わるものではなく、サポート関連の質問への回答を求めているそのような貢献度は拒否されます。
+***AEM ドキュメントへの貢献は、アドビサポートの代わりとなるものではありません。***&#x200B;サポート関連の質問に対する回答を求めるような貢献は、拒否されます。
 
 ### 貢献では、影響を受けるドキュメントページを明確に参照する必要があります。
 
@@ -61,7 +61,7 @@ AEM ドキュメントの読者は世界中におり、英語を母国語とし�
 
 #### マイクロソフトのスタイルガイドへの準拠
 
-[Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) は、ソフトウェアドキュメントやAEMドキュメントに焦点を当てた無料のドキュメントスタイルガイドであり、可能な限りこのガイドに従っています。
+マイクロソフトのスタイルガイド『[The Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/)』（英語版）は、ソフトウェアドキュメントに重点を置いたドキュメントスタイルガイドで、無料で入手できます。AEM ドキュメントは、可能な限り、このガイドに従っています。
 
 ### 書式設定
 
