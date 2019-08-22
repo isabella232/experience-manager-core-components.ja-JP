@@ -4,7 +4,7 @@ product: adobe experience manager
 sub-product: adobe experience manager コアコンポーネント
 archetype: 管理者
 user-guide-title: AEM コアコンポーネント
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
 
 ---
@@ -60,6 +60,6 @@ source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
          + [フォームテキスト（v1）](form-text-v1.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing.md)
-   + [WKND 開発者向けチュートリアル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [WKND 開発者向けチュートリアル](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [コアコンポーネントのカスタマイズ](customizing.md)
    + [コンポーネントのガイドライン](guidelines.md)
