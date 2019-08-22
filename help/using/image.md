@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 ---
@@ -21,15 +21,15 @@ source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 ## 使用方法 {#usage}
 
-画像コンポーネントには、ページ訪問者に対する遅延読み込みと、コンテンツ作成者にとって簡単な画像配置と切り抜きなどのレスポンシブビヘイビアーがあります。
+画像コンポーネントは、アダプティブ画像選択およびレスポンシブ動作を備えており、ページ訪問者に対する遅延読み込みや、コンテンツ作成者に対する簡単な画像の配置や切り抜きを提供します。
 
 [デザインダイアログ](#design-dialog)では、テンプレート作成者が、画像の幅や切り抜きの設定、追加の設定などを定義できます。コンテンツエディターは、[設定ダイアログ](#configure-dialog)でアセットをアップロードまたは選択し、[編集ダイアログ](#edit-dialog)で画像の切り抜きをおこなうことができます。画像を単純にインプレースで変更することもでき、非常に便利です。
 
 ## レスポンシブ機能 {#responsive-features}
 
-Image Componentには堅牢なレスポンシブ機能が用意されており、すぐにすぐに使用できます。ページテンプレートレベルで [は、デザインダイアログ](#design-dialog) を使用して画像アセットのデフォルトの幅を定義できます。画像コンポーネントは、ブラウザーウィンドウのサイズに応じて適切な幅を自動的に読み込みます。ウィンドウのサイズが変更されると、ImageImageコンポーネントはその場で動的な画像サイズを動的に読み込みます。画像コンポーネントは既にコンテンツの読み込みに最適化されているので、コンポーネント開発者は、カスタムメディアクエリの定義について心配する必要はありません。
+画像コンポーネントには、すぐに使用可能な堅牢なレスポンシブ機能が用意されています。ページテンプレートレベルで、[デザインダイアログ](#design-dialog)を使用して、画像アセットのデフォルトの幅を定義できます。画像コンポーネントは、正確な幅を自動的に読み込み、ブラウザーウィンドウのサイズに合わせて表示します。ウィンドウがリサイズされると、画像コンポーネントは、その場で適切な画像サイズを動的に読み取ります。画像コンポーネントはコンテンツの読み取り用に最適化されているので、コンポーネント開発者はカスタムメディアのクエリ定義を気にかける必要がありません。
 
-さらに、画像コンポーネントは遅延読み込みをサポートして、実際の画像アセットの読み込みをブラウザーに表示し、ページの応答性を向上させます。
+さらに、画像コンポーネントは、遅延読み込みをサポートし、ブラウザーで表示できるようになるまで、実際の画像アセットの読み込みを遅らせて、ページの応答性を高めます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -54,11 +54,11 @@ Image Componentには堅牢なレスポンシブ機能が用意されており�
 
 ### セキュリティ {#security}
 
-セキュリティ上の理由から、元の SVG が画像エディターで直接呼び出されることは決してありません。`<img src=“path-to-component”>` 経由で呼び出されます。これにより、SVGファイルに埋め込まれているスクリプトをブラウザーが実行できなくなります。
+セキュリティ上の理由から、元の SVG が画像エディターで直接呼び出されることは決してありません。`<img src=“path-to-component”>` 経由で呼び出されます。これにより、ブラウザーが SVG ファイルに埋め込まれた任意のスクリプトを実行するのを防ぎます。
 
 >[!CAUTION]
 >
->SVGサポートには、AEM内の新しいイメージエディター機能をサポートするために、AEM6.4以降のサービスパック2と [サービスパック2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)[](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) のリリース2.1.0とサービス [パック2のリリース2.1.0](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) が必要です。
+>SVG サポートが AEM 内で[画像エディターの新機能](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/image-editor.html)をサポートするには、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 では[サービスパック 2](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html)、AEM 6.3 以上では[サービスパック 3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要となります。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -66,7 +66,7 @@ Image Componentには堅牢なレスポンシブ機能が用意されており�
 
 ### 技術的詳細 {#technical-details}
 
-Image Component [に関する最新の技術ドキュメントは、GitHubで入手](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)できます。
+画像コンポーネントに関する最新の技術ドキュメントは、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image) にあります。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -83,9 +83,9 @@ Image Component [に関する最新の技術ドキュメントは、GitHubで入
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **画像アセット**
-   * [アセットブラウザからアセットをドロップ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) するか、 **または参照** オプションをタップしてローカルファイルシステムからアップロードします。
+   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * **アセット** エディターでアセットのレンディションを [作成するには、「編集」を](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) タップまたはクリックします。
+   * アセットエディターで[アセットのレンディションを管理](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-assets-touch-ui.html)するには、「**編集**」をタップまたはクリックします。
 
 ### 「メタデータ」タブ {#metadata-tab}
 
@@ -149,7 +149,7 @@ Image Component [に関する最新の技術ドキュメントは、GitHubで入
 
    >[!CAUTION]
    >
-   >起動マップ機能には、AEM内の新しいイメージエディター機能をサポートするために、AEM6.4以降のサービスパック2と [ともに、コアコンポーネントのリリース2.1.0と、](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) AEM6.3以上の [サービスパック3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) が必要です。
+   >ローンチマップ機能が AEM 内で[画像エディターの新機能](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/image-editor.html)をサポートするには、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 では[サービスパック 2](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html)、AEM 6.3 以上では[サービスパック 3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要となります。
 
    ![](assets/chlimage_1-12.png)
 
@@ -207,7 +207,7 @@ Image Component [に関する最新の技術ドキュメントは、GitHubで入
 
 ### 「メイン」タブ {#main-tab}
 
-**「メイン** 」タブでは、画像の幅のリストをピクセル単位で定義でき、コンポーネントはブラウザーのサイズに基づいて最も適切な幅を自動的に読み込みます。これは、画像コンポーネントの [レスポンシブ機能](#responsive-features) の重要な部分です。
+「**メイン**」タブでは、画像の幅（ピクセル単位）のリストを定義でき、コンポーネントは、ブラウザーサイズに基づいて最適な幅を自動的に読み込みます。これは、画像コンポーネントの[レスポンシブ機能](#responsive-features)の重要な役割です。
 
 さらに、作成者がページにコンポーネントを追加した際に自動的に無効化される一般的なコンポーネントオプションを定義できます。
 
@@ -226,7 +226,8 @@ Image Component [に関する最新の技術ドキュメントは、GitHubで入
 * **UUID の追跡を無効化**
 画像アセットの UUID の追跡を無効化する場合にオンにします。
 
-* **幅**&#x200B;画像の幅のリストをピクセル単位で定義し、コンポーネントがブラウザーのサイズに基づいて最も適切な幅を自動的に読み込みます。
+* **幅**
+画像の幅（ピクセル単位）のリストを定義でき、コンポーネントは、ブラウザーサイズに基づいて最適な幅を自動的に読み込みます。
    * 別のサイズを追加するには、「**追加**」ボタンをタップまたはクリックします。
       * サイズの順序を変更するには、グラブハンドルを使用します。
       * 幅を削除するには、**削除**&#x200B;アイコンを使用します。
