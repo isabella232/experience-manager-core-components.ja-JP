@@ -17,7 +17,7 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a34ecc432e489b8dc025aeda29d8eba9c788861
 
 ---
@@ -29,7 +29,7 @@ source-git-commit: 8a34ecc432e489b8dc025aeda29d8eba9c788861
 
 ## 使用方法 {#usage}
 
-多くの場合、Webサイトは様々な地域の複数言語で提供されます。言語ナビゲーションコンポーネントを使用すれば、訪問者は同じページを異なる言語／ロケールで表示できます。したがって、スイスドイツ語バージョンのWebサイト上の読者は、同じページの英語版に簡単に切り替えることができます。言語ナビゲーションコンポーネントは、サイト言語のstuctureを理解し、対応するページを自動的に見つけます。
+Web サイトは、多くの場合、様々な地域向けに複数の言語で提供されています。言語ナビゲーションコンポーネントを使用すれば、訪問者は同じページを異なる言語／ロケールで表示できます。そのため、Web サイトのドイツ語（スイス）バージョンの閲覧者の場合、同じページの英語（米国）バージョンに簡単に切り替えることができます。言語ナビゲーションコンポーネントは、サイトの言語構造の認識を処理し、対応するページを自動的に見つけます。
 
 [編集ダイアログ](#edit-dialog)では、グローバルサイトナビゲーションのルートのほか、構造のナビゲーションの深さを定義できます。[デザインダイアログ](#design-dialog)では、同じオプションのデフォルト値をテンプレート作成者が設定できます。
 
@@ -47,11 +47,11 @@ source-git-commit: 8a34ecc432e489b8dc025aeda29d8eba9c788861
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Language Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html).
+言語ナビゲーションコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-言語ナビゲーションコンポーネントに関する最新の技術ドキュメントは、GitHubにあり [ます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation)。
+言語ナビゲーションコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -59,24 +59,24 @@ To experience the Language Navigation Component as well as see examples of its c
 
 編集ダイアログでは、グローバルサイトナビゲーションのルートのほか、構造のナビゲーションの深さを定義できます。
 
-通常、これらの設定はページテンプレートのleveでのみ行う必要があります。ただし、 [編集ダイアログを使用してページレベルで変更](#edit-dialog)することができます。
+通常、これらの設定は、ページテンプレートレベルでのみおこなう必要があります。ただし、[編集ダイアログ](#edit-dialog)を使用してページレベルで変更できます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
 ![](assets/screen_shot_2018-01-12at133642.png)
 
 * **ナビゲーションルート**
-   * サイトのナビゲーションナビゲーションが開始する場所です。
-   * サイトの言語構造は、このルート下の次のレベルから始まります。
+   * サイトの言語ナビゲーションを開始する場所。
+   * サイトの言語構造は、このルートの下の次のレベルで開始する。
 * **言語構造の深さ**
-   * これは **、ナビゲーションルートの下のコンテンツツリーのレベルが、サイトの言語構造を** 表すものです。例:
-      * `1` は、通常、言語のみが選択されていることを意味します。
-      * `2` 言い換えれば、言語と国を自由に選択できます。
-      * `3` 通常、言語、国、地域の選択があります。
+   * これは、サイトの言語構造を表す&#x200B;**ナビゲーションルート**&#x200B;の下のコンテンツツリーのレベルの数です。例：
+      * `1` は、通常、言語の選択肢のみがあることを示します。
+      * `2` は、通常、言語と国の選択肢があることを示します。
+      * `3` は、通常、言語、国、地域の選択肢があることを示します。
 
 #### 例 {#example}
 
-コンテンツは次のようになります。
+コンテンツが次のような構造になっているとします。
 
 ```
 /content
@@ -93,11 +93,11 @@ To experience the Language Navigation Component as well as see examples of its c
 \-- wknd-shop
 ```
 
-サイトe. Retailの場合は、おそらくヘッダーの一部として言語ナビゲーションコンポーネントをページテンプレートに配置する必要があります。テンプレートの一部として、そのサイトの **ローカライズ** されたコンテンツが開始される `/content/we-retail` ため、コンポーネントのナビゲーションルートを設定できます。また、構造の2 **** つのレベル（国の場合はラグージュ）の構造の `2` ため、言語構造の深さを設定する必要もあります。
+サイト We.Retail では、言語ナビゲーションコンポーネントを、ヘッダーの一部としてページテンプレート上に配置するとよいでしょう。テンプレートの一部で、コンポーネントの&#x200B;**ナビゲーションルート**&#x200B;を `/content/we-retail`（そのサイトのローカライズされたコンテンツが開始される場所）に設定できます。また、「**言語構造の深さ**」を（構造が国と言語の 2 レベルなので）「`2`」に設定します。
 
-**«ナビゲーションルート** »の値を使用すると、言語コンポーネントは、ナビゲーションが開始した後 `/content/we-retail` に、コンテンツツリーの次の2レベルをサイトの言語ナビゲーション構造として認識できます（ **言語構造の深さ** の値で定義されているように、コンテンツツリーの次の2つのレベルを認識する）。
+言語コンポーネントは、**ナビゲーションルート**&#x200B;値によって、`/content/we-retail` の後にナビゲーションが開始されることを把握します。また、コンテンツツリーの次の 2 レベルを（**言語構造の深さ**&#x200B;の値で定義されたように）サイトの言語ナビゲーション構造として認識することで、言語ナビゲーションオプションを生成できます。
 
-ユーザーがどのページを閲覧しているかにかかわらず、言語ナビゲーションコンポーネントは、現在のページの場所を把握し、その後に対応するページに転送して、対応するページを別の言語で見つけることができます。
+言語ナビゲーションコンポーネントは、現在のページの場所を把握し、ルートに戻ってから、対応するページに進むことで、ユーザーがどのページを閲覧していたとしても、別の言語の対応するページを見つけることができます。
 
 ### 「スタイル」タブ {#styles-tab}
 
@@ -105,6 +105,6 @@ To experience the Language Navigation Component as well as see examples of its c
 
 ## 編集ダイアログ{#edit-dialog}
 
-通常、言語ナビゲーションコンポーネントはサイトのページテンプレートに追加し、設定する必要があります。ただし、言語ナビゲーションコンポーネントを個々のコンテンツページに追加する必要がある場合、編集ダイアログでは、コンテンツ作成者がデザインダイアログで [説明したとおりに同じ値を設定](#design-dialog)できます。
+通常、言語ナビゲーションコンポーネントは、サイトのページテンプレートに対してのみ追加し、設定される必要があります。ただし、言語ナビゲーションコンポーネントを個別のコンテンツページに追加する必要がある場合、編集ダイアログを使用すると、コンテンツ作成者は[デザインダイアログ](#design-dialog)で説明したのと同じ値を設定できます。
 
 ![](assets/screen_shot_2018-01-12at133353.png)
