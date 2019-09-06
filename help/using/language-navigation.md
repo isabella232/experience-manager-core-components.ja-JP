@@ -17,8 +17,8 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8a34ecc432e489b8dc025aeda29d8eba9c788861
+translation-type: tm+mt
+source-git-commit: ee6976f39894b4e67b42503503a51589224583f5
 
 ---
 
@@ -47,11 +47,11 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-言語ナビゲーションコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html)を参照してください。
+To experience the Language Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html).
 
 ## 技術的詳細 {#technical-details}
 
-言語ナビゲーションコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation) を参照してください。
+言語ナビゲーションコンポーネントに関する最新の技術ドキュメントは、GitHubにあり [ます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -85,15 +85,15 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
    +-- us
       +-- en
       \-- es
-   +-- ch
+   \-- ch
       +-- de
       +-- fr
-      +-- it
+      \-- it
 +-- wknd-events
 \-- wknd-shop
 ```
 
-サイト We.Retail では、言語ナビゲーションコンポーネントを、ヘッダーの一部としてページテンプレート上に配置するとよいでしょう。テンプレートの一部で、コンポーネントの&#x200B;**ナビゲーションルート**&#x200B;を `/content/we-retail`（そのサイトのローカライズされたコンテンツが開始される場所）に設定できます。また、「**言語構造の深さ**」を（構造が国と言語の 2 レベルなので）「`2`」に設定します。
+サイト We.Retail では、言語ナビゲーションコンポーネントを、ヘッダーの一部としてページテンプレート上に配置するとよいでしょう。Once part of the template, you can set the **Navigation Root** of the component to `/content/we-retail` since that is where your localized content for that site begins. また、「**言語構造の深さ**」を（構造が国と言語の 2 レベルなので）「`2`」に設定します。
 
 言語コンポーネントは、**ナビゲーションルート**&#x200B;値によって、`/content/we-retail` の後にナビゲーションが開始されることを把握します。また、コンテンツツリーの次の 2 レベルを（**言語構造の深さ**&#x200B;の値で定義されたように）サイトの言語ナビゲーション構造として認識することで、言語ナビゲーションオプションを生成できます。
 
