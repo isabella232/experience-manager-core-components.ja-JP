@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
-source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
+translation-type: tm+mt
+source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
 
 ## 技術的詳細 {#technical-details}
 
-ボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) を参照してください。
+ボタンコンポーネント [に関する最新の技術ドキュメントは、GitHubで確認](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)できます。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -52,12 +52,22 @@ source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
 
 設定ダイアログでは、ボタンそのものと、ページの訪問者に対するボタンの動作および表示をコンテンツ作成者が定義できます。
 
-![](assets/screen-shot-2019-06-17-11.26.13.png)
+### 「プロパティ」タブ {#properties-tab}
+
+![](assets/screen-shot-2019-08-29-12.19.32.png)
 
 * **テキスト** - ボタンに表示するテキスト
 * **リンク** - AEM 内のコンテンツページ、外部リソース、アンカーへのリンク
    * **選択ダイアログ**&#x200B;を使用して、AEM 内のパスを選択します
 * **アイコン** - ボタンにアイコンを表示するための識別子
+
+### アクセシビリティタブ {#accessibility-tab}
+
+![](assets/screen-shot-2019-08-29-12.19.43.png)
+
+**「アクセシビリティ** 」タブでは、コンポーネントの [ARIAアクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/) ラベルに値を設定できます。
+
+* **ラベル** -コンポーネントのARIAラベル属性の値
 
 ## デザインダイアログ{#design-dialog}
 
