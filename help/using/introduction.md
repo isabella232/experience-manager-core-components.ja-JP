@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
-translation-type: ht
-source-git-commit: 7130f4ae8add8c8dc3cdfcc4addd0621722b89f7
+translation-type: tm+mt
+source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 コアコンポーネントをすぐに試してみたい場合は、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)にアクセスしてください。コンポーネントライブラリは、ほとんどのコアコンポーネントの現在のバージョンのオンラインショーケースです。ここでは、コンポーネントの様々なバリエーションを操作したり、サンプルの HTML 出力や JSON 出力を確認したりできます。
 
-また [We.Retail リファレンスサイト](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html)でも、コアコンポーネントの使用方法が示されています。
+[We. Retailリファレンスサイト](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) では、コアコンポーネントの使用方法も説明しています。
 
 ## コアコンポーネント - コア機能 {#core-components-core-features}
 
@@ -57,6 +57,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * [コンテンツフラグメント](content-fragment-component.md)
 * [コンテンツフラグメントリスト](content-fragment-list.md)
 * [ダウンロード](download.md)
+* [エクスペリエンスフラグメント](experience-fragment.md)
 * [フォームボタン](form-button.md)
 * [フォームコンテナ](form-container.md)
 * [フォーム非表示](form-hidden.md)
@@ -76,7 +77,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 >[!NOTE]
 >
->コアコンポーネントは、作成者がすぐに使用できるわけではありません。[最初に開発チームがお使いの環境に統合する必要があります](using.md)。統合が完了したら、[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)経由または[デザインモード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)で、コアコンポーネントを利用可能にしたり、事前設定したりできます。
+>コアコンポーネントは、作成者がすぐに使用できるわけではありません。[最初に開発チームがお使いの環境に統合する必要があります](using.md)。Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
 
 >[!CAUTION]
 >
@@ -92,13 +93,13 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 ## Gems セッションの概要 {#gems-session-overview}
 
-コアコンポーネントとその機能、AEM での活用方法の概要については、AEM Gems セッションの [AEM コアコンポーネント](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)を参照してください。
+コアコンポーネントとその機能、AEM での活用方法の概要については、AEM Gems セッションの [AEM コアコンポーネント](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Adobe Experience Manager の GEM](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/aem-index.html) は、アドビのエキスパートによる詳しい技術解説のシリーズです。製品ドキュメントやその他のあらゆる技術的なチャネルを補完するこのシリーズを利用すれば、開発者は特定のトピックにふれ、深く理解することができます。
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) は、アドビのエキスパートによる技術的な詳細な解説シリーズです。製品ドキュメントやその他のあらゆる技術的なチャネルを補完するこのシリーズを利用すれば、開発者は特定のトピックにふれ、深く理解することができます。
 
 ## WKND 開発者向けチュートリアル {#wknd-developer-tutorial}
 
-コアコンポーネントで AEM Sites の開発を始めるには、[この詳しいチュートリアル](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/getting-started.html)に従ってください。
+コアコンポーネントで AEM Sites の開発を始めるには、[この詳しいチュートリアル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## コアコンポーネントのサポート {#core-components-support}
 
@@ -119,4 +120,4 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 Foundation コンポーネントは多くのバージョンにわたって様々なプロジェクト開発の基盤として機能しており、今後も当分の間、引き続きサポートされます。
 
-ただし、アドビの開発の重点はコアコンポーネントに移っており、新機能はコアコンポーネントに追加されます。一方、[ほぼすべての Foundation コンポーネントが AEM 6.5 で廃止され](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/default-components-foundation.html)、今後 Foundation コンポーネントに対しておこなわれるのは、バグ修正のみとなります。
+However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
