@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
@@ -44,6 +44,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | 拡張可能 | 一から始めなくてもカスタムに対応するニーズに対応できるよう、あらゆる機能を拡張可能です。 |
 | オープンソース | 何か問題が見つかった場合は、GitHub（Apache License）で改善にご協力てください。 |
 | バージョン管理 | ユーザーに影響が及ぶ可能性のある機能を改善しても、コアコンポーネントを使用したサイトが動かなくなることはありません。 |
+| [ローカライズされる](localization.md) | スマート参照リゾルバーを使用すると、特定のコンポーネントが対応するローカライズされたコンテンツを自動的に検索してレンダリングできます |
 
 ## 利用可能なコンポーネント {#available-components}
 
