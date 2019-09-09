@@ -5,7 +5,7 @@ sub-product: adobe experience manager コアコンポーネント
 archetype: 管理者
 user-guide-title: AEM コアコンポーネント
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 + はじめに {#get-started}
    + [コアコンポーネントを使用したオーサリング](authoring.md)
    + [コアコンポーネントの使用](using.md)
+   + [ローカリゼーション機能](localization.md)
 + コンポーネント {#components}
    + [アコーディオン](accordion.md)
    + [パンくず](breadcrumb.md)
