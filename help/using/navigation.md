@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -38,6 +38,9 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 ## ローカライズされたサイト構造のサポート {#localized-site-structure}
 
 Web サイトは、多くの場合、様々な地域向けに複数の言語で提供されています。通常、ローカライズされた各ページには、ページテンプレートの一部として含まれるnavagation要素が含まれます。ナビゲーションコンポーネントを使用すると、サイトのすべてのページのテンプレートに一度配置でき、グローバル化されたサイト構造に基づいて、ローカライズされた各ページに自動的に適応できます。
+
+* ナビゲーションコンポーネントのローカリゼーション機能の例については、以下の節を参照 [](#example-localiatzion)してください。
+* コアコンポーネントのローカリゼーション機能の連携例については、コアコンポーネントページの [ローカリゼーション機能](localization.md)を参照してください。
 
 ### 例 {#example-localization}
 
