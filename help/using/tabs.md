@@ -7,7 +7,7 @@ uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
 content-type: reference
 topic-tags: core-components
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 >
 >ネストされたタブコンポーネント（タブ内のタブ）はサポートされています。
 >
->Simple (non-nested) tab components can be located/selected using the [content tree](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), however nested tabs can not be.
+>[コンテンツツリー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)を使用した特定や選択は、単純な（ネストされていない）タブコンポーネントでは可能ですが、ネストされたタブでは不可能です。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -47,7 +47,7 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 ### 技術的詳細 {#technical-details}
 
-タブコンポーネント [に関する最新の技術ドキュメントは、GitHubで確認](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs)できます。
+タブコンポーネントに関する最新の技術ドキュメントは、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) にあります。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -72,21 +72,21 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 「**プロパティ**」タブでは、コンテンツ作成者はページの読み込み時にアクティブになるタブを定義できます。「**デフォルト**」オプションの場合、最初のタブが選択されます。
 
-### アクセシビリティタブ {#accessibility-tab}
+### 「アクセシビリティ」タブ {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.28.40.png)
 
-**「アクセシビリティ** 」タブでは、コンポーネントの [ARIAアクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/) ラベルに値を設定できます。
+「**アクセシビリティ**」タブでは、コンポーネントの「[ARIA アクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/)」ラベルの値を設定できます。
 
-* **ラベル** -コンポーネントのARIAラベル属性の値
+* **ラベル** - コンポーネントの ARIA ラベル属性の値
 
 ## パネルを選択{#select-panel}
 
-コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを使用すれば、コンテンツ作成者は編集用に別のパネルに切り替えたり、簡単にタブを並べ替えたりできます。
+コンポーネントツールバーの「**パネルを選択**」オプションを使用すれば、コンテンツ作成者は編集用に別のパネルに切り替えたり、簡単にタブを並べ替えたりできます。
 
 ![](assets/screenshot_2018-10-11at165417.png)
 
-コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを選択すると、設定済みのタブがドロップダウンとして表示されます。
+コンポーネントツールバーの「**パネルを選択**」オプションを選択すると、設定済みのタブがドロップダウンとして表示されます。
 
 * リスト内のタブは割り当てられた順番で並べられ、その順番が通し番号に反映されます。
 * まずタブのコンポーネントタイプが表示され、次にタブの説明が明るい色のフォントで表示されます。
@@ -98,7 +98,7 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開済みコンテンツの読者としてタブを操作するには [**、プレビュー** モード](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) または「公開済みとして **[表示」](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** オプションを使用します。
+>**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開済みコンテンツの読者と同じようにタブを操作するには、[**プレビュー**&#x200B;モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)または「**[公開済みとして表示](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)**」オプションを使用してください。
 
 ## デザインダイアログ{#design-dialog}
 
@@ -108,8 +108,8 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がタブコンポーネントに項目として追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)ときの同名のタブと同じになります。
 
 ### 「スタイル」タブ {#styles-tab}
 
-タブコンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポートします。
+タブコンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポー
