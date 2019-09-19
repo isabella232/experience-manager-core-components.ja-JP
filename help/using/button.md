@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
@@ -44,7 +44,7 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ## 技術的詳細 {#technical-details}
 
-ボタンコンポーネント [に関する最新の技術ドキュメントは、GitHubで確認](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)できます。
+ボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -61,13 +61,13 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
    * **選択ダイアログ**&#x200B;を使用して、AEM 内のパスを選択します
 * **アイコン** - ボタンにアイコンを表示するための識別子
 
-### アクセシビリティタブ {#accessibility-tab}
+### 「アクセシビリティ」タブ {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.19.43.png)
 
-**「アクセシビリティ** 」タブでは、コンポーネントの [ARIAアクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/) ラベルに値を設定できます。
+「**アクセシビリティ**」タブでは、コンポーネントの「[ARIA アクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/)」ラベルの値を設定できます。
 
-* **ラベル** -コンポーネントのARIAラベル属性の値
+* **ラベル** - コンポーネントの ARIA ラベル属性の値
 
 ## デザインダイアログ{#design-dialog}
 
