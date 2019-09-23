@@ -23,7 +23,7 @@ source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
 
 同様に、ナビゲーションコンポーネントは通常、すべてのページに表示する必要があります。 ただし、ローカライズされたページのコンテンツも反映する必要があります。
 
-Navigation Core Componentと [Experience Fragment Core Componentのローカリゼーション機能と](navigation.md) 、AEM [の編集可能なテンプレートを使用すると、これは簡単](experience-fragment.md)[](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)な作業になります。 この例をさらに拡張して、言語ナビゲーションコンポーネ [ントを使用すること](language-navigation.md) もできます。
+Navigation Core Componentと [Experience Fragment Core Componentのローカリゼーション機能と](navigation.md) 、AEM [の編集可能なテンプレートを使用すると、これは簡単](experience-fragment.md)[](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)な作業になります。 この例は、言語ナビゲーションコンポーネントを使用する [ように拡張する](language-navigation.md) こともできます。
 
 ## コンテンツ構造 {#content-structure}
 
@@ -48,7 +48,7 @@ AEMとそのコアコンポーネントのすべてのローカリゼーショ�
 
 これは、追加のサイトページを作成するこれらのローカリゼーションブランチの下にあります。
 
-ページフッターは通常、エクスペリエンスフラグメントを使用して作成されるので、ページと同様に英語版とフランス語版が必要になります。 ただし、エクスペリエンスフラグメントはページではなく、ページ間で再利用できるページの一部なので、残りのページの真下に直接 `/content` は存在しません。 代わりに、ユーザーは独自のフォルダーの下に住んでいますが、ローカライズする必要があるので、ユーザーの構造はサイトのローカリゼーション構造を反映する必要があります。
+ページフッターは通常、エクスペリエンスフラグメントを使用して作成されるので、ページと同様に英語版とフランス語版が必要になります。 However Experience Fragments are not pages, but are rather parts of pages that can be reused across pages, so they do not live directly under  as the rest of your pages. `/content`Instead they live under their own folder, but since they also must be localized, their structure must mirror the localization structure of your site.
 
 ```
 /content
@@ -66,11 +66,11 @@ AEMとそのコアコンポーネントのすべてのローカリゼーショ�
 
 対応するページに必要なローカライズコンテンツをコアコンポーネントが見つけられるのは、鏡像化されたローカリゼーション構造を通じてです。
 
-## ページフッター — エクスペリエンスフラグメント {#xf-footer}
+## Page Footer - Experience Fragment {#xf-footer}
 
-エクスペリエンスフラグメントコンポーネントは非常に柔軟で、ページのヘッダーまたはフッターに適しています。
+The Experience Fragment Component is very flexible and is well-suited for a page header or footer.
 
-仮のWebサイトは英語とフランス語で提供されているので、前に説明した場所に2つのエクスペリエンスフラグメ `footer` ントを [作成する必要があります。](#content-structure)
+Because our hypothetical website is offered in English and French, we will need to create two Experience Fragments, both called  in the locations we described previously.`footer`[](#content-structure)
 
 ![](assets/screen-shot-2019-09-09-11.08.28.png)
 
@@ -91,24 +91,24 @@ AEMとそのコアコンポーネントのすべてのローカリゼーショ�
    * ナビゲーションコンポーネントでは、ナビゲーションルートを定義し、サイトのナビゲーション構造が開始する場所をコンポーネントに示します。
    * ナビゲーションルートに基づいて、コンポーネントは対応するローカライズされたコンテンツを自動的に見つけることができます。
 * [コンテナコンポーネント](container.md)
-   * 作成者がページに追加のコンテンツを配置できるように、各ページに編集可能なコンテナコンポーネントが含まれます。
+   * Every page will contain an editable Container Component so that authors can place additional content on the page.
 * [エクスペリエンスフラグメント](experience-fragment.md)
-   * ここでは、フッターを表すフラグメントのオーサリング言語で、エクスペリエンスフラグメントコンポーネントにフラグメントパスを指定します。
-   * そのフラグメントのパスと、ローカライズされたページ構造を反映するエクスペリエンスフラグメントの構造に基づいて、コンポーネントは、対応するローカライズされたコンテンツを自動的に検索できます。
+   * We point the Experinece Fragment Component to the fragment path in our authoring language of the fragment that represents the footer.
+   * Based on that fragment's path and the structure of the experience fragments that mirrors the localized page structure, the component can find the corresponding localized content automatically.
    ![](assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## ページ {#pages}
 
-サイトの構造とテンプレートの設定作業を大変な作業で行うと、コンテンツ作成者は単にページに必要なコンテンツを追加するだけで済みます。 テンプレートとコンポーネントのローカリゼーションロジックのおかげで、ナビゲーションとフッターが自動的にページに追加され、ローカライズされます。
+By doing the hard work in setting up the site structure and template, the content author simply needs to add the necessary content to the pages. Thanks to the templates and the localization logic of the components, the navigation and footers will be automatically added to the page and localized.
 
-例えば、作成者はテキストコンポーネントなどのコンテンツを英語およびフランス語のページ（下の青色で表示）に追加するだけで済みます。
+For example, the author would only need to add content such as a text component to the English and French pages (represented in blue below).
 
-ナビゲーションコンポーネントとエクスペリエンスフラグメントコンポーネントは、ページテンプレートから取得され、ローカリゼーション構造とページ自体の場所に基づいて、適切なコンテンツを自動的に表示することを知っています（下の白で示します）。
+The Navigation Component and Experience Fragment Component come from the page template and know to automatically display the correct content based on the localization structure and the location of the page itself (represented in white below).
 
 ![](assets/screen-shot-2019-09-09-11.22.14.png)
 
-## It All Togher {#fitting-it-all-together}
+## Fitting It All Together {#fitting-it-all-together}
 
-以下は、これらのシンプルで強力な要素が連携して、コンテンツ作成者向けにローカライズされたページを配信する仕組みの全体像です。
+Here is the complete picture of how these simple, but powerful elements work together to deliver localized pages for the content authors.
 
 ![](assets/screen-shot-2019-09-09-11.27.58.png)
