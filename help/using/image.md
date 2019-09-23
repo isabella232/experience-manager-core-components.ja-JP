@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 ---
@@ -58,7 +58,7 @@ source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 >[!CAUTION]
 >
->SVG サポートが AEM 内で[画像エディターの新機能](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/image-editor.html)をサポートするには、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 では[サービスパック 2](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html)、AEM 6.3 以上では[サービスパック 3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要となります。
+>SVGのサポートには、AEM内の新しいイメージエディター機能をサポートするために、 [Core Componentsのリリース2.1.0以降、](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) Service Pack 2 [for AEM 6.4、](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) Service Pack 3 [for AEM 6.3以降が必要](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -66,7 +66,7 @@ source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 ### 技術的詳細 {#technical-details}
 
-画像コンポーネントに関する最新の技術ドキュメントは、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image) にあります。
+イメージコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -83,9 +83,9 @@ source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **画像アセット**
-   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * アセットエディターで[アセットのレンディションを管理](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-assets-touch-ui.html)するには、「**編集**」をタップまたはクリックします。
+   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
 
 ### 「メタデータ」タブ {#metadata-tab}
 
@@ -149,7 +149,7 @@ source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
    >[!CAUTION]
    >
-   >ローンチマップ機能が AEM 内で[画像エディターの新機能](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/image-editor.html)をサポートするには、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 では[サービスパック 2](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html)、AEM 6.3 以上では[サービスパック 3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要となります。
+   >Launch map機能を使用するには、AEM内で新しいイメージエディター機能をサポートするために、コアコンポーネントのリリース2.1.0と、 [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4または [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) for AEM 6.3以降が必要です。
 
    ![](assets/chlimage_1-12.png)
 
