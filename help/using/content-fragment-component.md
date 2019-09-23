@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 ---
 
 
 # コンテンツフラグメントコンポーネント{#content-fragment-component}
 
-コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/content-fragments.html)を表示できます。
+The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
 
 >[!NOTE]
 >
@@ -25,11 +25,11 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## 使用方法 {#usage}
 
-コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/content-fragments.html)をページに組み込むことができます。
+The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page.
 
 * フラグメントとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * 特定の画像やグリッドを処理するリソースタイプは、[デザインダイアログ](#design-dialog)で定義できます。
-* 編集オプションをクリックすると、選択したフラグメントが[コンテンツフラグメントエディター](https://helpx.adobe.com/jp/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)で開かれます。
+* 編集オプションを選択すると、選択したフラグメントがコンテンツフラグメントエデ [ィター内で開きま](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)す。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -61,7 +61,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## 技術的詳細 {#technical-details}
 
-コンテンツフラグメントコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment) を参照してください。
+The latest technical documentation about the Content Fragment Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -74,10 +74,10 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 * **コンテンツフラグメント**
 
    * 目的のコンテンツフラグメントへのパス
-   * **選択ダイアログ** を使用して、フラグメントを見つけることができます。
+   * **選択ダイアログ**&#x200B;を使用して、フラグメントを見つけることができます。
 
 * **要素** - コンテンツフラグメントを組み込む要素
-* **バリエーション** - 使用するコンテンツフラグメントのバリエーション（デフォルトは **マスター**）
+* **バリエーション** - 使用するコンテンツフラグメントのバリエーション（デフォルトは&#x200B;**マスター**）
 
 * **段落**
 
