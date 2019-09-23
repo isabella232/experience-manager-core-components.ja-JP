@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html) から引用したサンプルです。
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### HTML {#html}
 
@@ -101,7 +101,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## 技術的詳細 {#technical-details}
 
-フォーム非表示コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden) を参照してください。
+The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
