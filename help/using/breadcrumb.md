@@ -10,7 +10,7 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: ecd237df-08b8-4deb-9881-66a1f0d65ef3
 modalsize: 426x240
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -41,15 +41,15 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-パンくずコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html)を参照してください。
+To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html).
 
 >[!NOTE]
 >
->コアコンポーネントリリース 2.1.0 の時点では、パンくずコンポーネントは [schema.org microdata](https://schema.org/BreadcrumbList) をサポートしています。
+>As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
 
 ## 技術的詳細 {#technical-details}
 
-パンくずコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb) を参照してください。
+The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
