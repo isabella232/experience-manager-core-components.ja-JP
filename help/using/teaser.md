@@ -8,7 +8,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 discoiquuid: e597c18e-3643-41be-9878-4a7872f1ab90
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -40,7 +40,7 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ### 技術的詳細 {#technical-details}
 
-ティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) を参照してください。
+Teaserコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -53,9 +53,9 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 ![](assets/screen_shot_2018-07-03at104125.png)
 
 * **画像アセット**
-   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * アセットエディターで[アセットのレンディションを管理](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-assets-touch-ui.html)するには、「**編集**」をタップまたはクリックします。
+   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
 
 ### テキスト {#text}
 
