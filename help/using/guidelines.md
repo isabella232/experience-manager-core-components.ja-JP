@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ### 関心の分離 {#separation-of-concerns}
 
-通常、コンポーネントのロジック（モデル）とマークアップテンプレート（ビュー）を分離することが推奨されます。これを達成する方法はいくつかありますが、コアコンポーネントでもおこなっているように、[Sling モデル](https://sling.apache.org/documentation/bundles/models.html)をロジックに使用し、[HTML テンプレート言語](https://helpx.adobe.com/jp/experience-manager/htl/using/overview.html)（HTL）をマークアップに使用する方法を推奨します。
+通常、コンポーネントのロジック（モデル）とマークアップテンプレート（ビュー）を分離することが推奨されます。There are several ways to achieve that, however the recommended one is to use [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic and the [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL) for the markup, like the Core Components also do.
 
 Sling モデルは、POJO から必要な変数に簡単にアクセスできるようにする Java 注釈のセットです。コンポーネントの Java ロジックを実装する、シンプルで強力かつ高性能な方法を提供します。
 
@@ -47,7 +47,7 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ### 事前設定可能な機能 {#pre-configurable-capabilities}
 
-コンポーネントには、ページ作成者が使用する編集ダイアログのほかに、テンプレート作成者が事前設定をおこなうためのデザインダイアログも含めることができます。[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)では、「ポリシー」と呼ばれるこれらの事前設定をすべて、セットアップできます。
+コンポーネントには、ページ作成者が使用する編集ダイアログのほかに、テンプレート作成者が事前設定をおこなうためのデザインダイアログも含めることができます。The Template Editor allows to setup all these pre-configurations, which are called "Policies".[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 コンポーネントをできるだけ再利用できるようにするには、事前設定用の意味のあるオプションを用意する必要があります。そうすれば、コンポーネントの機能の有効・無効を切り替えることで、様々なサイトの特定のニーズに対応することができます。
 
@@ -69,7 +69,7 @@ Unclear how I can add my own capability toggle (for example, if i extend a compo
 
 ### コンポーネントのバージョン管理 {#component-versioning}
 
-コンポーネントは時間が経過しても完全に互換性を維持する必要がありますが、互換性を維持できない変更が必要になる場合もあります。これらの相反するニーズへの解決策の 1 つは、リソースタイプパスと実装の完全修飾 Java クラス名に数値を追加して、コンポーネントのバージョン管理を導入することです。このバージョン番号は、[セマンティックバージョン管理のガイドライン](https://semver.org/)で定義されたメジャーバージョンを表します。メジャーバージョンは、後方互換性を維持できない変更でのみインクリメントされます。
+コンポーネントは時間が経過しても完全に互換性を維持する必要がありますが、互換性を維持できない変更が必要になる場合もあります。これらの相反するニーズへの解決策の 1 つは、リソースタイプパスと実装の完全修飾 Java クラス名に数値を追加して、コンポーネントのバージョン管理を導入することです。This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/), which is incremented only for changes that are not backward-compatible.
 
 コンポーネントの以下の側面に対して互換性のない変更をおこなうと、新しいバージョンになります。
 
@@ -79,7 +79,7 @@ Unclear how I can add my own capability toggle (for example, if i extend a compo
 * JSON 表現
 * ダイアログ
 
-詳しくは、GitHub の [Versioning Policies](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) ドキュメントを参照してください。
+For further details, see the [Versioning Policies](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document in GitHub.
 
 コンポーネントのバージョン管理では一種のコントラクトが作成されます。このコントラクトはリファクタリングが必要なタイミングを明確にし、アップグレードの際に重要な役割を果たします。[アップグレード時のカスタマイズの互換性](customizing.md#upgrade-compatibility-of-customizations)の節も参照してください。この節では、アップグレード時に様々な形式のカスタマイズでどういった考慮が必要になるかについて説明しています。
 
@@ -96,11 +96,11 @@ Unclear how I can add my own capability toggle (for example, if i extend a compo
 
 ## まとめ {#putting-it-all-together}
 
-以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html`[HTL](https://helpx.adobe.com/jp/experience-manager/htl/using/overview.html) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
+以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。It then shows how the component's `title.html` [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) file uses to the model interface, while the implementation binds to the specific version of the component through [Sling Model](https://sling.apache.org/documentation/bundles/models.html) annotations.
 
 ![リソースバインディングの概要](assets/chlimage_1-32.png)
 
-以下に別の概要を示します。ここでは、実装 POJO の詳細は示されていませんが、関連する[テンプレートとポリシー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/page-templates-editable.html)の参照方法がわかります。
+Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) are referenced.
 
 `cq:allowedTemplates` プロパティは、サイトで使用可能なテンプレートを示し、`cq:template` はページごとに、どのテンプレートが関連付けられているかを示します。すべてのテンプレートは以下の 3 つの部分から構成されています。
 
