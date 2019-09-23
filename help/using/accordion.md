@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
 
 ---
@@ -45,7 +45,7 @@ source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
 
 ## 技術的詳細 {#technical-details}
 
-アコーディオンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) を参照してください。
+アコーディオンコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -103,7 +103,7 @@ source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がアコーディオンコンポーネント内のパネルにアイテムとして追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)ときの同名のタブと同じになります。
+「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### 「スタイル」タブ {#styles-tab}
 
