@@ -18,8 +18,8 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 
@@ -32,11 +32,11 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 フォームコンテナコンポーネントでは、シンプルな WCM フォームをサポートし、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
-[設定ダイアログ](#configure-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクション、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
+[設定ダイアログ](#configure-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクション、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。The template author can use the [design dialog](#design-dialog) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
 >[!NOTE]
 >
->コアコンポーネントのフォームコンテナコンポーネントでは、コアコンポーネントのフォームコンポーネント（ボタン、テキスト、非表示など）のみ使用できます。[基盤コンポーネント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/default-components-foundation.html)のフォームコンポーネントをコアコンポーネントのフォームコンテナ内で使用すること（およびその逆の使用）はサポートされていません。
+>コアコンポーネントのフォームコンテナコンポーネントでは、コアコンポーネントのフォームコンポーネント（ボタン、テキスト、非表示など）のみ使用できます。Using [foundation components](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) form components within the core components form container (and vice versa) is not supported.
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -53,7 +53,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## 技術的詳細 {#technical-details}
 
-フォームコンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container) を参照してください。
+The latest technical documentation about the Form Container Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container)
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -63,7 +63,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ![](assets/screen_shot_2018-01-12at122046.png)
 
-選択した **アクションタイプ** に応じて、コンテナ内で使用可能なオプションが変わります。使用可能なアクションタイプは次のとおりです。
+選択した&#x200B;**アクションタイプ**&#x200B;に応じて、コンテナ内で使用可能なオプションが変わります。使用可能なアクションタイプは次のとおりです。
 
 * [メール](#mail)
 * [コンテンツを格納](#store-content)
@@ -124,4 +124,4 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## デザインダイアログ{#design-dialog}
 
-デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
+The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
