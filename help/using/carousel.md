@@ -16,7 +16,7 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
@@ -50,7 +50,7 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ### 技術的詳細 {#technical-details}
 
-カルーセルコンポーネントに関する最新の技術ドキュメントは、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) にあります。
+カルーセルコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -81,15 +81,15 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開済みコンテンツの読者と同じようにカルーセルを操作するには、[**プレビュー**&#x200B;モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)または「**[公開済みとして表示](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)**」オプションを使用してください。
+>**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。カルーセ [**ルを、公開さ** れたコンテンツの読者と同様に操作するには、プレビューモードまたは「公開](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)**[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** 済みとして表示」オプションを使用します。
 >
->**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開済みコンテンツの読者と同じ立場で自動進行機能を確認するには、**[公開済みとして表示](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)**&#x200B;オプションを使用してください。
+>**編集**&#x200B;モードでは、自動進行機能は有効になりません。Use **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to see the auto-advance feature as a reader of the published content would.
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.02.22.png)
 
-「**アクセシビリティ**」タブでは、コンポーネントの「[ARIA アクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/)」ラベルの値を設定できます。
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
 * **ラベル** - コンポーネントの ARIA ラベル属性の値
 
@@ -127,8 +127,8 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がカルーセルコンポーネントにスライドとして追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)ときの同名のタブと同じになります。
+「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### 「スタイル」タブ {#styles-tab}
 
-カルーセルコンポーネントは AEM [スタイルシステ
+カルーセルコンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポートします。
