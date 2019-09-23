@@ -31,8 +31,8 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 Web サイトは、多くの場合、様々な地域向けに複数の言語で提供されています。言語ナビゲーションコンポーネントを使用すれば、訪問者は同じページを異なる言語／ロケールで表示できます。そのため、Web サイトのドイツ語（スイス）バージョンの閲覧者の場合、同じページの英語（米国）バージョンに簡単に切り替えることができます。言語ナビゲーションコンポーネントは、サイトの言語構造の認識を処理し、対応するページを自動的に見つけます。
 
-* 言語ナビゲーションコンポーネントのローカリゼーション機能の例については、以下の節を参照 [](#example)してください。
-* 他のコアコンポーネントのローカリゼーション機能が連携する例については、コアコンポーネントページの [ローカリゼーション機能](localization.md)を参照してください。
+* 言語ナビゲーションコンポーネントのローカリゼーション機能の仕組みの例については、以下の節を [参照してください](#example)。
+* 他のコアコンポーネントのローカリゼーション機能の連携の例については、コアコンポーネントページの「ローカ [リゼーション機能」を参照してください](localization.md)。
 
 [編集ダイアログ](#edit-dialog)では、グローバルサイトナビゲーションのルートのほか、構造のナビゲーションの深さを定義できます。[デザインダイアログ](#design-dialog)では、同じオプションのデフォルト値をテンプレート作成者が設定できます。
 
@@ -54,7 +54,7 @@ To experience the Language Navigation Component as well as see examples of its c
 
 ## 技術的詳細 {#technical-details}
 
-言語ナビゲーションコンポーネントに関する最新の技術ドキュメントは、GitHubにあり [ます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation)。
+言語ナビゲーションコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -70,9 +70,9 @@ To experience the Language Navigation Component as well as see examples of its c
 
 * **ナビゲーションルート**
    * サイトの言語ナビゲーションを開始する場所。
-   * サイトの言語構造は、このルートの下の次のレベルで開始する。
+   * サイトの言語構造は、このルート配下の次のレベルで開始する。
 * **言語構造の深さ**
-   * これは、サイトの言語構造を表す&#x200B;**ナビゲーションルート**&#x200B;の下のコンテンツツリーのレベルの数です。例：
+   * これは、サイトの言語構造を表す&#x200B;**ナビゲーションルート**&#x200B;配下のコンテンツツリーのレベルの数です。例：
       * `1` は、通常、言語の選択肢のみがあることを示します。
       * `2` は、通常、言語と国の選択肢があることを示します。
       * `3` は、通常、言語、国、地域の選択肢があることを示します。
@@ -96,7 +96,7 @@ To experience the Language Navigation Component as well as see examples of its c
 \-- wknd-shop
 ```
 
-サイト We.Retail では、言語ナビゲーションコンポーネントを、ヘッダーの一部としてページテンプレート上に配置するとよいでしょう。Once part of the template, you can set the **Navigation Root** of the component to `/content/we-retail` since that is where your localized content for that site begins. また、「**言語構造の深さ**」を（構造が国と言語の 2 レベルなので）「`2`」に設定します。
+サイト We.Retail では、言語ナビゲーションコンポーネントを、ヘッダーの一部としてページテンプレート上に配置するとよいでしょう。テンプレートの一部で、コンポーネントの&#x200B;**ナビゲーションルート**&#x200B;を `/content/we-retail`（そのサイトのローカライズされたコンテンツが開始される場所）に設定できます。また、「**言語構造の深さ**」を（構造が国と言語の 2 レベルなので）「`2`」に設定します。
 
 言語コンポーネントは、**ナビゲーションルート**&#x200B;値によって、`/content/we-retail` の後にナビゲーションが開始されることを把握します。また、コンテンツツリーの次の 2 レベルを（**言語構造の深さ**&#x200B;の値で定義されたように）サイトの言語ナビゲーション構造として認識することで、言語ナビゲーションオプションを生成できます。
 
