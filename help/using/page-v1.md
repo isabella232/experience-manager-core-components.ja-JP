@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: core-components
 discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
 
 # ページコンポーネント（v1）{#page-component-v}
 
-ページコンポーネントは、[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html)と連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
+The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) and allow page header/footer and structure components to be assembled with the template editor.
 
 ## 使用方法 {#usage}
 
@@ -47,7 +47,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html) から引用したサンプルです。
+以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### スクリーンショット {#screenshot}
 
@@ -685,11 +685,11 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## 編集ダイアログ{#edit-dialog}
 
-ページコンポーネントはページ全体を表しているので、編集ダイアログに通常用意されている設定は[ページのプロパティ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)ウィンドウにあります。
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) window.
 
 ## デザインダイアログ{#design-dialog}
 
-ページコンポーネントはページ全体を表しているので、デザインダイアログには、**ページ情報／ページデザイン** でアクセスします。
+ページコンポーネントはページ全体を表しているので、デザインダイアログには、**ページ情報／ページデザイン**&#x200B;でアクセスします。
 
 ![](assets/chlimage_1-94.png)
 
@@ -699,13 +699,13 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 * フィールドを削除するには、削除するフィードの横にあるごみ箱アイコンをクリックまたはタップします。
 * 読み込み順序を変更するには、移動するフィールドの横にあるハンドルをクリックまたはタップしてドラッグします。
 
-クライアント側ライブラリの使用について詳しくは、[クライアント側ライブラリの使用](https://helpx.adobe.com/jp/experience-manager/6-3/sites/developing/using/clientlibs.html)を参照してください。
+クライアント側ライブラリの使用に関する詳細は、「クライアント側ライブラリの使 [用」を参照してくださ](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html)い。
 
 ![](assets/chlimage_1-95.png)
 
 ## 技術的詳細 {#technical-details}
 
-ページコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page) を参照してください。
+ページコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)。
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
