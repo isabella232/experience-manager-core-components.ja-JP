@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html) から引用したサンプルです。
+以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### スクリーンショット {#screenshot}
 
@@ -85,9 +85,9 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 ![](assets/chlimage_1-50.png)
 
 * **画像アセット**
-   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)からアセットをドロップするか、「**参照**」オプションをタップしてローカルファイルシステムからアップロードします。
+   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) or tap the **browse** option to upload from a local file system.
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * アセットエディターで[アセットのレンディションを管理する](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)には、「**編集**」をタップまたはクリックします。
+   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
 
 * **画像は装飾画像** - 画像が支援テクノロジーによって無視される場合（したがってその代替テキストが不要な場合）はオンにします。これは、装飾画像にのみ適用されます。
 * **代替テキスト** - 視覚に障害のあるユーザー向けの、画像の意味や機能を示す代替テキスト。
@@ -239,7 +239,7 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
 ## 技術的詳細 {#technical-details}
 
-画像コンポーネントに関する最新の技術ドキュメントは、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image) にあります。
+イメージコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image)。
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
