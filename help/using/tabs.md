@@ -7,7 +7,7 @@ uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
 content-type: reference
 topic-tags: core-components
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 >
 >ネストされたタブコンポーネント（タブ内のタブ）はサポートされています。
 >
->[コンテンツツリー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)を使用した特定や選択は、単純な（ネストされていない）タブコンポーネントでは可能ですが、ネストされたタブでは不可能です。
+>Simple (non-nested) tab components can be located/selected using the [content tree](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), however nested tabs can not be.
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -47,7 +47,7 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 ### 技術的詳細 {#technical-details}
 
-タブコンポーネントに関する最新の技術ドキュメントは、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) にあります。
+Tabs Componentに関する最新の技術ドキュメントは、GitHub [で入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -76,7 +76,7 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 ![](assets/screen-shot-2019-08-29-12.28.40.png)
 
-「**アクセシビリティ**」タブでは、コンポーネントの「[ARIA アクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/)」ラベルの値を設定できます。
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
 * **ラベル** - コンポーネントの ARIA ラベル属性の値
 
@@ -98,7 +98,7 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開済みコンテンツの読者と同じようにタブを操作するには、[**プレビュー**&#x200B;モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)または「**[公開済みとして表示](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)**」オプションを使用してください。
+>**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開済み [**コンテン** ツの閲覧者としてタブを操作するには、プレビューモードまたは「公開](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)**[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** 済みとして表示」オプションを使用します。
 
 ## デザインダイアログ{#design-dialog}
 
@@ -108,8 +108,8 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がタブコンポーネントに項目として追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)ときの同名のタブと同じになります。
+「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### 「スタイル」タブ {#styles-tab}
 
-タブコンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポー
+タブコンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポートします。
