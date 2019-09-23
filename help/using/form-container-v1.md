@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 800c064e-2ad5-41f3-9cef-b025a555efd9
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 フォームコンテナコンポーネントは、シンプルな WCM フォームをサポートし、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
-[設定ダイアログ](form-container-v1.md#main-pars_title)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクションの種類、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。テンプレート作成者は、[デザインダイアログ](form-container-v1.md#main-pars_title_1995166862)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
+[設定ダイアログ](form-container-v1.md#main-pars_title)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクションの種類、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。The template author can use the [design dialog](form-container-v1.md#main-pars_title_1995166862) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -47,7 +47,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ![](assets/chlimage_1.png)
 
-選択した **アクションタイプ** に応じて、コンテナ内で使用可能なオプションが変わります。使用可能なアクションタイプは次のとおりです。
+選択した&#x200B;**アクションタイプ**&#x200B;に応じて、コンテナ内で使用可能なオプションが変わります。使用可能なアクションタイプは次のとおりです。
 
 * [メール](form-container-v1.md#main-pars_title_966511656)
 * [コンテンツを格納](form-container-v1.md#main-pars_title_2065985840)
@@ -107,11 +107,11 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## デザインダイアログ{#design-dialog}
 
-デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
+The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## 技術的詳細 {#technical-details}
 
-フォームコンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container) を参照してください。
+フォームコンテナコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container)。
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
