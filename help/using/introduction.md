@@ -25,7 +25,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 コアコンポーネントをすぐに試してみたい場合は、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)にアクセスしてください。コンポーネントライブラリは、ほとんどのコアコンポーネントの現在のバージョンのオンラインショーケースです。ここでは、コンポーネントの様々なバリエーションを操作したり、サンプルの HTML 出力や JSON 出力を確認したりできます。
 
-[We. Retailリファレンスサイト](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) では、コアコンポーネントの使用方法も説明しています。
+The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
 
 ## コアコンポーネント - コア機能 {#core-components-core-features}
 
@@ -42,9 +42,9 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | SEO フレンドリー | HTML 出力はセマンティックであり、schema.org マイクロデータ注釈を提供します。 |
 | PWA/SPA/App に対応 | 合理化された JSON 出力は、クライアント側のレンダリングにも使用できます。 |
 | 拡張可能 | 一から始めなくてもカスタムに対応するニーズに対応できるよう、あらゆる機能を拡張可能です。 |
-| オープンソース | 何か問題が見つかった場合は、GitHub（Apache License）で改善にご協力てください。 |
+| オープンソース | 何か問題が見つかった場合は、GitHub（Apache License）で改善にご協力ください。 |
 | バージョン管理 | ユーザーに影響が及ぶ可能性のある機能を改善しても、コアコンポーネントを使用したサイトが動かなくなることはありません。 |
-| [ローカライズされる](localization.md) | スマート参照リゾルバーを使用すると、特定のコンポーネントが対応するローカライズされたコンテンツを自動的に検索してレンダリングできます |
+| [Localized](localization.md) | スマート参照解決により、特定のコンポーネントが、対応するローカライズされたコンテンツを自動的に検索してレンダリングできる |
 
 ## 利用可能なコンポーネント {#available-components}
 
@@ -96,7 +96,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 コアコンポーネントとその機能、AEM での活用方法の概要については、AEM Gems セッションの [AEM コアコンポーネント](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) は、アドビのエキスパートによる技術的な詳細な解説シリーズです。製品ドキュメントやその他のあらゆる技術的なチャネルを補完するこのシリーズを利用すれば、開発者は特定のトピックにふれ、深く理解することができます。
+[Gems on Adobe Experience Managerは](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) 、アドビのエキスパートが提供する技術的な詳細情報のシリーズです。 製品ドキュメントやその他のあらゆる技術的なチャネルを補完するこのシリーズを利用すれば、開発者は特定のトピックにふれ、深く理解することができます。
 
 ## WKND 開発者向けチュートリアル {#wknd-developer-tutorial}
 
