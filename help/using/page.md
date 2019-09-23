@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 
 
 # ページコンポーネント{#page-component}
 
-ページコンポーネントは、[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)と連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
+The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
 
 ## 使用方法 {#usage}
 
@@ -40,11 +40,11 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 >[!NOTE]
 >
->ページコンポーネント v2 と AEM 6.3 の場合に `cq:Page` レベルでリダイレクトを有効にするには、[サービスパック 2](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp2-release-notes.html) 以降が必要です。このようなリダイレクトは、以前のリリースでは使用できませんでした。
+>To enable redirect at `cq:Page` level for verison 2 of the page component and AEM 6.3, [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) or later is required. このようなリダイレクトは、以前のリリースでは使用できませんでした。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html) から引用したサンプルです。
+以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
 
 ### スクリーンショット {#screenshot}
 
@@ -52,23 +52,23 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ### 技術的詳細 {#technical-details}
 
-ページコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page) を参照してください。
+ページコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
 ## 編集ダイアログ{#edit-dialog}
 
-ページコンポーネントはページ全体を表しているので、編集ダイアログに通常用意されている設定は[ページのプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-page-properties.html)ウィンドウにあります。
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html) window.
 
 ## デザインダイアログ{#design-dialog}
 
-ページコンポーネントはページ全体を表しているので、ページテンプレートを編集する際は、**ページ情報／ページポリシー** でデザインダイアログにアクセスします。
+ページコンポーネントはページ全体を表しているので、ページテンプレートを編集する際は、**ページ情報／ページポリシー**&#x200B;でデザインダイアログにアクセスします。
 
 ![](assets/screen_shot_2018-04-03at113410.png)
 
 >[!NOTE]
 >
->以前のバージョンの AEM では、**ページポリシー** は **ページデザイン** と呼ばれていました。
+>以前のバージョンの AEM では、**ページポリシー**&#x200B;は&#x200B;**ページデザイン**&#x200B;と呼ばれていました。
 
 ### 「プロパティ」タブ {#properties-tab}
 
@@ -89,7 +89,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 * フィールドを削除するには、削除するフィードの横にあるごみ箱アイコンをクリックまたはタップします。
 * 読み込み順序を変更するには、移動するフィールドの横にあるハンドルをクリックまたはタップしてドラッグします。
 
-クライアント側ライブラリの使用について詳しくは、[クライアント側ライブラリの使用](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html)を参照してください。
+クライアント側ライブラリの使用に関する詳細は、「クライアント側ライブラリの使 [用」を参照してくださ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)い。
 
 >[!CAUTION]
 >
