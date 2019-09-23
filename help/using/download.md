@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 88bc68b60e5de247fe800ac041ffefdf9238cce1
 
 ---
@@ -44,7 +44,7 @@ source-git-commit: 88bc68b60e5de247fe800ac041ffefdf9238cce1
 
 ## 技術的詳細 {#technical-details}
 
-ダウンロードコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) を参照してください。
+The latest technical documentation about the Download Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download)
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -59,9 +59,9 @@ source-git-commit: 88bc68b60e5de247fe800ac041ffefdf9238cce1
 ダウンロードアセットの選択は、[画像コンポーネント](image.md)の機能とよく似ており、同じく AEM の DAM を利用しています。
 
 * **アセットをダウンロード**
-   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * アセットエディターで[アセットのレンディションを管理](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-assets-touch-ui.html)するには、「**編集**」をタップまたはクリックします。
+   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
 
 ### 「プロパティ」タブ {#properties-tab}
 
