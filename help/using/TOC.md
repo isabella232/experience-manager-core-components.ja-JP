@@ -18,7 +18,7 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 + はじめに {#get-started}
    + [コアコンポーネントを使用したオーサリング](authoring.md)
    + [コアコンポーネントの使用](using.md)
-   + [ローカリゼーション機能](localization.md)
+   + [Localization Features](localization.md)
 + コンポーネント {#components}
    + [アコーディオン](accordion.md)
    + [パンくず](breadcrumb.md)
