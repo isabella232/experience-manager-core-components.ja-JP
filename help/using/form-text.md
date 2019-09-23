@@ -18,8 +18,8 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html) から引用したサンプルです。
+以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
 
 ### スクリーンショット {#screenshot}
 
@@ -88,7 +88,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ### 技術的詳細 {#technical-details}
 
-フォームテキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text) を参照してください。
+フォームテキストコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -108,7 +108,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
    * **日付**
    * **番号**
    * **パスワード**
-* **テキスト行数** - テキスト領域に表示する行数（「**制約**」が **テキスト領域** に設定されている場合にのみ表示）
+* **テキスト行数** - テキスト領域に表示する行数（「**制約**」が&#x200B;**テキスト領域**&#x200B;に設定されている場合にのみ表示）
 * **ラベル** - フィールドに表示するラベル
 * **ラベルを非表示** - ラベルがアクセシビリティのためにのみ必要で、フィールドに関するその他の視覚的情報には影響しない場合に必要です
 * **要素名** - フォームデータと共に送信されるフィールドの名前
@@ -127,7 +127,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 * **制約メッセージ**
    * 値が適切な型でない場合に、フォーム送信時にツールチップとして表示されるメッセージ
-   * 制約タイプが **テキスト** および **テキスト領域** の場合は表示されません
+   * 制約タイプが&#x200B;**テキスト**&#x200B;および&#x200B;**テキスト領域**&#x200B;の場合は表示されません
 * **必須** - 選択した場合、ユーザーはフォームを送信する前に値に入力する必要があります
 * **読み取り専用にする** - 選択した場合、ユーザーはフィールドの値を変更できません
 
