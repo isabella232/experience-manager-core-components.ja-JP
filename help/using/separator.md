@@ -6,7 +6,7 @@ seo-description: 区切り文字コンポーネントは、ページ上のコン
 contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -36,7 +36,7 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ### 技術的詳細 {#technical-details}
 
-区切り文字コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) を参照してください。
+The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
