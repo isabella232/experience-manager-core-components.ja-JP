@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 ---
@@ -44,7 +44,7 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 ## 技術的詳細 {#technical-details}
 
-コンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) を参照してください。
+Container Componentに関する最新の技術ドキュメントは、GitHub [で入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -56,7 +56,7 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 * **レイアウト** - このオプションはコンテナコンポーネントの動作またはレイアウト動作を定義します。
    * **シンプル** - コンテナをシンプルなコンポーネントコレクションとして定義します。
-   * **レスポンシブグリッド** - コンテナを [AEM レスポンシブグリッド](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/responsive-layout.html)として定義します。
+   * **レスポンシブグリッド** — コンテナを [AEMレスポンシブグリッドとして定義します。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 * **ID** - コンポーネントに適用する HTML ID 属性を定義します。
 * **背景色** - [設定に応じて](#background-tab)、自由形式の RGB 値として定義するか、カラーピッカーを使用して定義します。
 * **背景画像** - [設定に応じて](#background-tab)、コンテナの背景色を定義します。
@@ -69,11 +69,11 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がコンテナコンポーネントにアイテムとして追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)ときの同名のタブと同じになります。
+「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### 「デフォルトコンポーネント」タブ {#default-components-tab}
 
-「デフォルトコンポーネント」タブでは、[ページテンプレートでのデフォルトコンポーネントの定義方法](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors)と同様に、特定のアセットタイプをコンテナにドロップしたときにコンテナコンポーネントに追加されるコンポーネントを定義できます。
+The Default Components tab is used to define which component is added to the component when a particular asset type is dropped on the container, similar to [how default components are defined on the page template](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors).
 
 ### 「レスポンシブ設定」タブ {#responsive-settings-tab}
 
