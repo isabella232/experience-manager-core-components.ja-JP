@@ -17,8 +17,8 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html) から引用したサンプルです。
+以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
 
 ### HTML {#html}
 
@@ -88,7 +88,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ### 技術的詳細 {#technical-details}
 
-フォーム非表示コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden) を参照してください。
+フォーム隠しコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
