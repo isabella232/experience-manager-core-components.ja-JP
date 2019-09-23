@@ -17,8 +17,8 @@ noindex: 'true'
 index: n
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は、[We.Retail](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html) から引用したサンプルです。
+以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### スクリーンショット {#screenshot}
 
@@ -186,7 +186,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 「**追加**」ボタンをタップまたはクリックして、新しい項目をリストに挿入します。
 
-* リスト内の項目のテキストを入力するか、**選択ダイアログ** を使用して AEM から項目を選択します。
+* リスト内の項目のテキストを入力するか、**選択ダイアログ**&#x200B;を使用して AEM から項目を選択します。
 * リスト内の項目を再配置するには、ドラッグハンドルを使用します。
 * リスト内の項目を削除するには、ごみ箱アイコンを使用します。
 
@@ -198,7 +198,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 * **検索クエリー** - フルテキスト検索を実行してリスト要素を生成する際の対象となる文字列
 * **検索範囲** - 検索の実行場所
-   * **選択ダイアログ** を使用して AEM 内の場所を選択します。
+   * **選択ダイアログ**&#x200B;を使用して AEM 内の場所を選択します。
    * 空のままにした場合は現在のページが使用されます
 
 #### タグ {#tags}
@@ -208,10 +208,10 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 ![](assets/chlimage_1-42.png)
 
 * **親ページ** - タグマッチングの開始場所
-   * **選択ダイアログ** を使用して AEM 内の場所を選択します。
+   * **選択ダイアログ**&#x200B;を使用して AEM 内の場所を選択します。
    * 空のままにした場合は現在のページが使用されます
 * **タグ** - マッチングの対象となるタグ
-   * **参照** ダイアログを使用してタグを選択します
+   * **参照**&#x200B;ダイアログを使用してタグを選択します
 * **一致** - リストに含まれるページの条件となる一致の種類を定義します
    * **いずれかのタグ**
    * **すべてのタグ**
@@ -272,7 +272,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## 技術的詳細 {#technical-details}
 
-リストコンポーネントの最新の技術ドキュメントは、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list) にあります。
+List Componentに関する最新の技術ドキュメントは、GitHub [で入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list)。
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
