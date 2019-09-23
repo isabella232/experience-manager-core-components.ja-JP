@@ -7,19 +7,19 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: d683f8110b514860bba11e08e6923be49e92652f
 
 ---
 
 
 # コンテンツフラグメントリストコンポーネント{#content-fragment-list-component}
 
-コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、[コンテンツフラグメント](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/content-fragments.html)のリストを表示できます。
+The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
 
 ## 使用方法 {#usage}
 
-コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントモデルに基づいて[コンテンツフラグメント](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/content-fragments.html)のリストをページに組み込むことができます。これは、他のアプリケーションで容易に使用できる[ヘッドレスコンテンツ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)を作成する場合に特に便利です。
+The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page based on a Content Fragment model. This can be especially useful for creating [headless content](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) that can be easily consumed by other applications.
 
 * リストとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * スタイルは、[デザインダイアログ](#design-dialog)でコンポーネントに適用できます。
@@ -42,7 +42,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ## 技術的詳細 {#technical-details}
 
-コンテンツフラグメントリストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist) を参照してください。
+The latest technical documentation about the Content Fragment List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -57,9 +57,9 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 ![](assets/screen-shot-2019-05-08-10.47.19.png)
 
 * **モデル** - リストの基となるコンテンツフラグメントモデルのパス。
-   * デフォルトでは、**モデルパス** として定義された、モデルのすべてのコンテンツフラグメントがリストに含まれます。
+   * デフォルトでは、**モデルパス**&#x200B;として定義された、モデルのすべてのコンテンツフラグメントがリストに含まれます。
 * **親パス** - リストを作成する元となる親パス。
-   * 選択した **モデルパス** に基づくコンテンツフラグメントが、指定した **親パス** 上のフラグメントにフィルタリングされます。
+   * 選択した&#x200B;**モデルパス**&#x200B;に基づくコンテンツフラグメントが、指定した&#x200B;**親パス**&#x200B;上のフラグメントにフィルタリングされます。
    * フィールドの右側にある「**選択ダイアログを開く**」ボタンをクリックまたはタップして、パスを指定します。
 * **タグ** - 指定したタグを持つコンテンツフラグメントのみリストに含まれます。
    * フィールドの右側にある「**選択ダイアログを開く**」ボタンをクリックまたはタップして、タグを指定します。
