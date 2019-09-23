@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 
@@ -40,9 +40,9 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 コアコンポーネントのダイアログ（[デザインダイアログ、編集ダイアログ](authoring.md)のいずれか）で利用可能な設定オプションのカスタマイズが必要になることがあります。
 
-各ダイアログには一貫したノード構造があります。継承する側のコンポーネントでこの構造を複製することをお勧めします。そうすれば、[Sling Resource Merger](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) や[非表示条件](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/hide-conditions.html)を使用して元のダイアログのセクションの非表示、置換または並べ替えをおこなうことができます。複製する構造は、タブ項目ノードレベルまでのすべて、と定義されます。
+各ダイアログには一貫したノード構造があります。It is recommended that this structure is replicated in an inheriting component so that [Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) and [Hide Conditions](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) can be used to hide, replace, or reorder sections of the original dialog. 複製する構造は、タブ項目ノードレベルまでのすべて、と定義されます。
 
-現在のバージョンのダイアログに対して行われる変更との互換性を完全に持たせるには、タブ項目レベルの下にある構造に対して変更（非表示、追加、置換、並べ替えなど）をおこなわないことが非常に重要となります。代わりに、`sling:hideResource` プロパティ（[Sling Resource Merger のプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)を参照）を使用して親のタブ項目を非表示にし、カスタム設定フィールドを含む新しいタブ項目を追加してください。必要に応じて、`sling:orderBefore` を使用してタブ項目を並べ替えることもできます。
+現在のバージョンのダイアログに対して行われる変更との互換性を完全に持たせるには、タブ項目レベルの下にある構造に対して変更（非表示、追加、置換、並べ替えなど）をおこなわないことが非常に重要となります。Instead, a tab item from the parent should be hidden via the `sling:hideResource` property (see [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), and new tab items added that contain the bespoke configuration fields. 必要に応じて、`sling:orderBefore` を使用してタブ項目を並べ替えることもできます。
 
 以下の図では、推奨されるダイアログの構造と、前述した、継承される側のタブを非表示にして置換する方法を示しています。
 
@@ -118,7 +118,7 @@ public class PageHeadline implements Title {
 }
 ```
 
-委任パターンについて詳しくは、コアコンポーネント GitHub Wiki 記事の「[Delegation Pattern for Sling Models](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)」を参照してください。
+For further details about the delegation pattern see the Core Components GitHub Wiki article [Delegation Pattern for Sling Models](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
 
 ### マークアップのカスタマイズ {#customizing-the-markup}
 
@@ -151,9 +151,9 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 カスタマイズの最初の形式は、CSS スタイルを適用することです。
 
-これが簡単になるよう、コアコンポーネントではセマンティックなマークアップをレンダリングし、[Bootstrap](https://getbootstrap.com/) を参考にして標準化された命名規則に従います。また、個々のコンポーネントのスタイルを容易にターゲット化および名前空間化できるよう、各コアコンポーネントは「`cmp`」および「`cmp-<name>`」クラスを持つ DIV 要素内にラップされます。
+これが簡単になるよう、コアコンポーネントではセマンティックなマークアップをレンダリングし、[Bootstrap](https://getbootstrap.com/) / を参考にして標準化された命名規則に従います。また、個々のコンポーネントのスタイルを容易にターゲット化および名前空間化できるよう、各コアコンポーネントは「`cmp`」および「`cmp-<name>`」クラスを持つ DIV 要素内にラップされます。
 
-例えば、v1 パンくずコアコンポーネントの HTL ファイル [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html) を確認すると、要素出力の階層が `ol.breadcrumb > li.breadcrumb-item > a` となっていることがわかります。そのため、CSS ルールをそのコンポーネントのパンくずクラスのみに適用するには、次のようにすべてのルールを名前空間化する必要があります。
+For instance, looking at the HTL file of the v1 Core Breadcrumb Component: [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), we see that the hierarchy of elements output are `ol.breadcrumb > li.breadcrumb-item > a`. そのため、CSS ルールをそのコンポーネントのパンくずクラスのみに適用するには、次のようにすべてのルールを名前空間化する必要があります。
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  
@@ -161,7 +161,7 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 .cmp-breadcrumb a {}
 ```
 
-さらに、各コアコンポーネントは AEM [スタイルシステムの機能](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/style-system.html)を活用しています。スタイルシステムを使用すれば、テンプレート作成者は、ページ作成者がコンポーネントに適用できる追加の CSS クラス名を定義することができます。また、テンプレートごとに、許可されるコンポーネントスタイルのリストと、いずれかのスタイルを同じ種類のすべてのコンポーネントにデフォルトで適用するかどうかを定義できます。
+Additionally, each of the Core Components leverage the AEM [Style System feature](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) that allows template authors to define additional CSS class names that can be applied to the component by the page authors. また、テンプレートごとに、許可されるコンポーネントスタイルのリストと、いずれかのスタイルを同じ種類のすべてのコンポーネントにデフォルトで適用するかどうかを定義できます。
 
 ## アップグレード時のカスタマイズの互換性 {#upgrade-compatibility-of-customizations}
 
@@ -171,7 +171,7 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 * コアコンポーネントの新しいマイナーバージョンへのアップグレード
 * コアコンポーネントのメジャーバージョンへのアップグレード
 
-一般に、AEM を新しいバージョンにアップグレードしても、コンポーネントが移行先の新しい AEM バージョンもサポートし、[廃止または削除](https://helpx.adobe.com/jp/experience-manager/6-5/release-notes/deprecated-removed-features.html) された API がカスタマイズで使用されていなければ、コアコンポーネントやおこなったカスタマイズには何の影響もありません。
+Generally, upgrading AEM to a new version won't impact the Core Components or the customizations done, provided that the components' versions also support the new AEM version that is being migrated to, and that customizations don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
 コアコンポーネントを新しいメジャーバージョンに切り替えずにアップグレードしても、このページで説明したカスタマイズパターンが使用されている限り、カスタマイズには何の影響もありません。
 
@@ -191,7 +191,7 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 1. **廃止された機能や削除された機能を確認してください。**
 
-   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://helpx.adobe.com/jp/experience-manager/6-5/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
+   With each new AEM version being upgraded to, ensure that all API used are still topical by keeping an eye on the [Deprecated and Removed Features](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) page.
 
 [コアコンポーネントのサポート](developing.md#core-component-support)の節も参照してください。
 
