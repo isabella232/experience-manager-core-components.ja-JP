@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Experience Cloud コアコンポーネント
+solution-title: 学習とサポート
 solution-hub-url: https://helpx.adobe.com/jp/support/experience-manager/6-4.html
 solution-image: null
 getting-started-title: 概要
@@ -9,8 +9,8 @@ tutorials-title: チュートリアル
 tutorials-url: https://helpx.adobe.com/jp/experience-manager/kt/index/aem-6-4-videos.html
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: y
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: e5f7fa578f19ed2eb1207c200556d9ac955162d0
 
 ---
 
