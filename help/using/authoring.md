@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 コアコンポーネントを体験したり、それらの設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)にアクセスしてください。
 
-For a more in-depth, developer-oriented introduction to implementing the Core Components on an AEM project check out the WKND tutorial.[](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+AEM プロジェクトにコアコンポーネントを実装するための開発者向けの詳しい概要については、[WKND チュートリアルを参照してください。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ For a more in-depth, developer-oriented introduction to implementing the Core Co
 
 >[!CAUTION]
 >
->Core Components require AEM 6.3 or higher and require the use of editable templates. [](versions.md)[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)コアコンポーネントはクラシック UI や静的テンプレートでは動作しません。
+>コアコンポ [ーネントにはAEM 6.3以降が必要で](versions.md) 、編集可能なテンプレートを使用する [必要があります](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。 コアコンポーネントはクラシック UI や静的テンプレートでは動作しません。
 
 ## コアコンポーネントを使用したオーサリング {#authoring-with-core-components}
 
@@ -37,15 +37,15 @@ For a more in-depth, developer-oriented introduction to implementing the Core Co
 
 * Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
 
-* Feature-rich capabilities to accommodate many use cases as illustrated in We.Retail as well as in the Component Library[](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)[](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+* We.Retailやコンポーネントライブラリに示されている多くの [使用例に対応する機能](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) — 豊富な機能を [備えている](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
 
-* [Pre-configurable to define which features are available to page authors via the template editor](#pre-configuring-core-components)[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* [事前設定可能](#pre-configuring-core-components) ：テンプレートエディターを使用してページ作成者が使用できる機能を [定義します。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 * Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 
-* Built to support easy localization[](localization.md)
+* [容易なローカライゼーション](localization.md)をサポートする設計
 
 Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
 
@@ -81,7 +81,7 @@ See [Creating Page Templates](https://helpx.adobe.com/experience-manager/6-5/sit
 * テンプレート作成者は、特定のコンポーネントで利用可能なスタイルを、そのコンポーネントのデザインダイアログで定義できます。
 * その後、コンテンツ作成者は、コンポーネントを追加してコンテンツを作成する際に、適用するスタイルを選択できます。
 
-For further details see the Style System documentation.[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html)
+詳しくは、スタイルシステムのドキュ [メントを参照して](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) ください。
 
 >[!NOTE]
 >
@@ -101,6 +101,7 @@ For further details see the Style System documentation.[](https://helpx.adobe.co
 * [コンテンツフラグメント](content-fragment-component.md)
 * [コンテンツフラグメントリスト](content-fragment-list.md)
 * [ダウンロード](download.md)
+* [埋め込み](embed.md)
 * [エクスペリエンスフラグメント](experience-fragment.md)
 * [フォームボタン](form-button.md)
 * [フォームコンテナ](form-container.md)
