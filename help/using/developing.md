@@ -10,7 +10,7 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
    * [バージョン内の互換性を確保](#upgrade-of-core-components)しつつ、コンポーネントを発展させることができる
    * 1 つのコンポーネントの複数バージョンが同じ環境で共存できる
 * 最新の実装
-   * Markup defined in HTML Template Language (HTL)[](https://helpx.adobe.com/experience-manager/htl/using/overview.html)
+   * HTML Template Language [](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)で定義されたマークアップ
    * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
 * 効率的なマークアップ
    * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
@@ -41,7 +41,7 @@ source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
    * レスポンシブサイトおよびモバイルサイトに使用可能
 * ヘッドレス CMS の使用例で JSON コンテンツモデルとしてシリアル化する機能
 * 高いアクセシビリティ
-   * WCAG 2.0 [AA標準に準拠](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Compliant with the WCAG 2.0 AA standard[](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
@@ -99,17 +99,17 @@ The Core Components are visible in the Quickstart when the sample content is pre
 | **機能** | **コアコンポーネント** | **基盤コンポーネント** |
 |-----|---|---|
 | ロジックの実装 | Java POJOs with [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotations | JSP コード |
-| マークアップ定義 | [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) syntax | JSP コード |
+| マークアップ定義 | [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL)構文 | JSP コード |
 | XSS サニタイズ | HTL で自動化 | ほぼ手動 |
 | CSS クラスの命名 | Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) | カスタムスキーム |
-| ダイアログの定義 | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + クラシック UI |
+| ダイアログの定義 | [サンゴ3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + クラシック UI |
 | JSON 出力 | [Jacksonシリアル化を使用したSlingモデルエクスポーター](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | デフォルト Sling サーブレット |
 | バージョン管理 | [モデルと HTL の場合](guidelines.md) | なし |
 | テスト | 単体テスト + 統合テスト | 統合テスト |
-| 配信 | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) | クイックスタートを通じて |
-| ライセンス | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | アドビ固有 |
+| 配信 | [パブリックGitHub経由](https://github.com/adobe/aem-core-wcm-components) | クイックスタートを通じて |
+| ライセンス | [Apacheライセンス](https://www.apache.org/licenses/LICENSE-2.0) | アドビ固有 |
 | 貢献度 | プル要求を通じて | 不可能 |
-| アクセシビリティ | Fully compliant with the WCAG 2.0 AA standard[](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Only partially compliant with the WCAG 2.0 AA standard[](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
+| アクセシビリティ | WCAG 2.0 [AA標準に完全準拠](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | WCAG 2.0 AA標準に部分的 [にのみ準拠しています](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
 
 ## コンポーネントリスト {#component-list}
 
@@ -135,14 +135,15 @@ The Core Components are visible in the Quickstart when the sample content is pre
 | [ティーザー](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | 画像、タイトル、リッチテキスト、追加コンテンツや他のアクションへのリンクを使用して、コンテンツ作成者が詳細なコンテンツへのティーザーを容易に作成できるようにする | `-` |
 | [タブ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | コンテンツ作成者がページコンテンツを複数のタブに整理できるようにする | `-` |
 | [カルーセル](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | コンテンツ作成者がコンテンツをスライドの回転カルーセルに整理できるようにする | `/libs/foundation/components/carousel` |
-| [Content Fragement](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | コンテンツフラグメントを表示できるようにする | `-` |
-| [Content Fragement List](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | コンテンツフラグメントのリストを表示できるようにする | `-` |
+| [コンテンツの断片化](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | コンテンツフラグメントを表示できるようにする | `-` |
+| [コンテンツフラグメントリスト](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | コンテンツフラグメントのリストを表示できるようにする | `-` |
 | [区切り文字](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | ページのコンテンツを区切る | `-` |
 | [アコーディオン](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | 折りたたみ可能なアコーディオンの形式にコンテンツパネルを整理する | `-` |
 | [コンテナ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | コンテナ内のコンポーネントを整理する | `-` |
 | [ボタン](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | ページ上にボタンを作成する | `-` |
 | [ダウンロード](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | ダウンロード可能なアセットをページに追加する | `-` |
 | [エクスペリエンスフラグメント](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | エクスペリエンスフラグメントをページに追加する | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [埋め込み](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | ページ内に外部リソースを埋め込む | - |
 
 ### 今後リリース予定のコンポーネント {#upcoming-components}
 
@@ -180,7 +181,7 @@ For an overview of the upcoming Core Componente roadmap see the [project wiki on
 
 既存プロジェクトに関する大規模な作業（リブランディングや全体的なリファクタリングなど）は、多くの場合、コアコンポーネントへの移行のチャンスとなります。このような移行を容易にするために、アドビでは、コアコンポーネントと最新の AEM テクノロジーの導入を促進するための多数の移行ツールを提供しています。
 
-[The AEM Modernization Tools](http://opensource.adobe.com/aem-modernize-tools/) allow for the easy conversion of:
+[AEM最新化ツールを使用すると](http://opensource.adobe.com/aem-modernize-tools/) 、次の項目を簡単に変換できます。
 
 * 静的テンプレートから編集可能テンプレートへ
 * デザイン設定からポリシーへ
