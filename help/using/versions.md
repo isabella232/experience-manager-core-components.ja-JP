@@ -10,14 +10,14 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
+source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ---
 
 
 # コアコンポーネントのバージョン{#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.6.0 で、AEM 6.5 と互換性があります。2019 年 9 月にリリース 2.0.0 の重要なアップデートとしてリリースされました。リリース 2.0.0 では、既存コンポーネントの v2 へのアップデートと共に新しいコンポーネントが導入されました。
+コアコンポーネントの現在のリリースは 2.7.0 で、AEM 6.5 と互換性があります。2019 年 9 月にリリース 2.0.0 の重要なアップデートとしてリリースされました。リリース 2.0.0 では、既存コンポーネントの v2 へのアップデートと共に新しいコンポーネントが導入されました。
 
 詳しくは、このドキュメントの[リリース履歴と互換性](#versions-and-releases)を参照してください。
 
@@ -63,8 +63,9 @@ The core components are made available through **releases** and [represent the a
 
 | リリース | 説明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | このリリースでは新しいエクスペリエンスフラグメントコンポーネントを導入しました | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019年9月6日 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | このリリースでは、新しいアコーディオン、ボタン、コンテナおよびダウンロードコンポーネントが導入されました。 | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 6 月 25 日 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | このリリースでは、新しい埋め込みコンポーネントが導入されました | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 9 月 25 日 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | このリリースでは新しいエクスペリエンスフラグメントコンポーネントを導入しました | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 9 月 6 日 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | このリリースでは、新しいアコーディオン、ボタン、コンテナ、ダウンロードの各コンポーネントが導入されました。 | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 6 月 25 日 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | このリリースでは、コンテンツフラグメントリストコンポーネントが導入されました。 | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 5 月 7 日 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | このリリースではコンポーネントライブラリの改善に重点を置いていますが、区切り文字コンポーネントの機能強化も含まれています。 | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8 | 2019 年 3 月 14 日 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | このリリースではコンポーネントライブラリの改善に重点を置き、新しい区切り文字コンポーネントを導入したほか、画像コンポーネントの機能強化も含まれています。 | 6.3.3.0 以上 | 6.4.2.0 以上 | - | 8 | 2019 年 2 月 11 日 |
@@ -89,27 +90,34 @@ The core components are made available through **releases** and [represent the a
 
 コアコンポーネントの各リリースと、そこに含まれている各コンポーネントのバージョンを次の表に示します。
 
-|  | リリース 1.0.0 ～ 1.0.6 | リリース 1.1.0 | リリース 2.0.0 ～ 2.0.8 | リリース 2.1.0 | リリース 2.2.～ 2.2.0 | リリース 2.3.0 |
-|---|---|---|---|---|---|---|
-| **[ページ](page.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[タイトル](title.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[画像](image.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[リスト](list.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[パンくず](breadcrumb.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[ソーシャルメディア共有](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[フォームコンテナ](form-container.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[フォームテキスト](form-text.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[フォームオプション](form-options.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[フォーム非表示](form-hidden.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[フォームボタン](form-button.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[コンテンツフラグメント](content-fragment-component.md)** |  | サンドボックス | v1 | v1 | v1 | v1 |
-| **[ナビゲーション](navigation.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[言語ナビゲーション](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[クイック検索](quick-search.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[ティーザー](teaser.md)** |  |  |  | v1 | v1 | v1 |
-| **[タブ](tabs.md)** |  |  |  |  | v1 | v1 |
-| **[カルーセル](carousel.md)** |  |  |  |  | v1 | v1 |
-| **[区切り文字](separator.md)** |  |  |  |  |  | v1 |
+|  | リリース 1.0.0 ～ 1.0.6 | リリース 1.1.0 | リリース 2.0.0 ～ 2.0.8 | リリース 2.1.0 | リリース2.2.0-2.2.0 | リリース2.3.0-2.3.2 | リリース 2.4.0 | リリース 2.5.0 | リリース 2.6.0 | リリース 2.7.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **[ページ](page.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[タイトル](title.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[画像](image.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[リスト](list.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[パンくず](breadcrumb.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[ソーシャルメディア共有](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[フォームコンテナ](form-container.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[フォームテキスト](form-text.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[フォームオプション](form-options.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[フォーム非表示](form-hidden.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[フォームボタン](form-button.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[コンテンツフラグメント](content-fragment-component.md)** |  | サンドボックス | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[ナビゲーション](navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[言語ナビゲーション](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[クイック検索](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[ティーザー](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[タブ](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[カルーセル](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[区切り文字](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[コンテンツフラグメントリスト](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[アコーディオン](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[ボタン](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[コンテナ](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[ダウンロード](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[エクスペリエンスフラグメント](separator.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
+| **[埋め込み](separator.md)** |  |  |  |  |  |  |  |  |  | v1 |
 
 ## ドキュメント {#documentation}
 
@@ -120,3 +128,5 @@ The core components are made available through **releases** and [represent the a
 [コアコンポーネントの開発](developing.md)では、コアコンポーネントの技術的機能、プロジェクト内での使用方法、カスタマイズ方法およびベストプラクティスについて説明しています。
 
 [コアコンポーネントの概要](introduction.md)では、コアコンポーネントの各バージョンの機能、使用例およびサポートの概要を説明しています。
+
+[The WKND Tutorial is a great step-by-step introduction to developing for AEM including using the Core Components.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
