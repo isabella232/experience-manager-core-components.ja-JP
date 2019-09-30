@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -44,7 +44,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 | 拡張可能 | 一から始めなくてもカスタムに対応するニーズに対応できるよう、あらゆる機能を拡張可能です。 |
 | オープンソース | 何か問題が見つかった場合は、GitHub（Apache License）で改善にご協力ください。 |
 | バージョン管理 | ユーザーに影響が及ぶ可能性のある機能を改善しても、コアコンポーネントを使用したサイトが動かなくなることはありません。 |
-| [Localized](localization.md) | スマート参照解決により、特定のコンポーネントが、対応するローカライズされたコンテンツを自動的に検索してレンダリングできる |
+| [ローカライズ](localization.md) | スマートリファレンス解決機能により、特定のコンポーネントが対応するローカライズされたコンテンツを自動的に検索してレンダリングできます。 |
 
 ## 利用可能なコンポーネント {#available-components}
 
@@ -58,6 +58,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 * [コンテンツフラグメント](content-fragment-component.md)
 * [コンテンツフラグメントリスト](content-fragment-list.md)
 * [ダウンロード](download.md)
+* [埋め込み](embed.md)
 * [エクスペリエンスフラグメント](experience-fragment.md)
 * [フォームボタン](form-button.md)
 * [フォームコンテナ](form-container.md)
