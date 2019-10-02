@@ -1,30 +1,30 @@
 ---
-title: 埋め込みコンポーネント
-seo-title: 埋め込みコンポーネント
-description: 埋め込みコンポーネントを使用すると、AEMコンテンツページに外部コンテンツを埋め込むことができます。
-seo-description: 埋め込みコンポーネントを使用すると、AEMコンテンツページに外部コンテンツを埋め込むことができます。
+title: Embed Component
+seo-title: Embed Component
+description: The Embed Component enables embedding external content in an AEM content page.
+seo-description: The Embed Component enables embedding external content in an AEM content page.
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
+source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
 
 ---
 
 
-# 埋め込みコンポーネント{#embed-component}
+# Embed Component{#embed-component}
 
 The Core Components Embed Component allows embedding external content in an AEM content page.
 
 ## 使用方法 {#usage}
 
-The Core Component Embed Component allows the content author to define selected external content to be embedded within an AEM content page. さらに、埋め込む自由形式のHTMLを定義するオプションもあります。
+The Core Component Embed Component allows the content author to define selected external content to be embedded within an AEM content page. In addition, there is an option to define free-form HTML to be embedded as well.
 
 * The component's properties can be defined in the [configure dialog](#configure-dialog).
 * コンポーネントをページに追加するときのデフォルト設定は、[デザインダイアログ](#design-dialog)で定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-埋め込みコンポーネントの現在のバージョンはv1で、2019年9月にリリース2.7.0のコアコンポーネントで導入され、このドキュメントで説明されています。
+The current version of the Embed Component is v1, which was introduced with release 2.7.0 of the Core Components in September 2019, and is described in this document.
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
@@ -50,11 +50,11 @@ The configure dialog allows the content author to define the external resource t
 
 ### URL {#url}
 
-The simplest embed is the URL. Simply paste the URL of the resource you wish to embed in the URL field. **** The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the **URL** field. そうでない場合は、フィールドにエラーのマークが付けられます。
+The simplest embed is the URL. Simply paste the URL of the resource you wish to embed in the URL field. **** The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the URL field. ****&#x200B;そうでない場合は、フィールドにエラーのマークが付けられます。
 
-The Embed Component ships with processors for the following types of resources:
+埋め込みコンポーネントは、次の種類のリソースに対応したプロセッサー付きで出荷されます。
 
-* Resources that comply with the oEmbed standard including Facebook Post, Instagram, SoundCloud, Twitter, and YouTube[](https://oembed.com/)
+* Facebook投稿、Instagram [](https://oembed.com/) 、SoundCloud、Twitter、YouTubeなど、oEmbed標準に準拠するリソース
 * Pinterest
 
 開発者は、埋め込みコンポーネントの開発者ドキ [ュメントに従って、URLプロセッサーを追加できます。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
@@ -63,9 +63,9 @@ The Embed Component ships with processors for the following types of resources:
 
 ### 埋め込み可能 {#embeddable}
 
-埋め込み可能な変数を使用すると、埋め込みリソースをよりカスタマイズでき、パラメータ化したり、追加情報を含めたりできます。 An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
+埋め込み可能な変数を使用すると、埋め込みリソースをよりカスタマイズでき、パラメータ化したり、追加情報を含めたりできます。 作成者は、事前設定済みの信頼できる埋め込みデータから選択でき、コンポーネントにはYoutubeが埋め込まれ、すぐに使用できます。
 
-「埋め込 **み可能** 」フィールドは、使用するプロセッサの種類を定義します。 In the case of the YouTube embeddable you can then define:
+「埋め込 **み可能** 」フィールドは、使用するプロセッサの種類を定義します。 埋め込み可能なYouTubeの場合は、次を定義できます。
 
 * **ビデオID** — 埋め込むリソースのYouTubeからの一意のビデオID。
 * **幅** — 埋め込みビデオの幅
@@ -89,11 +89,11 @@ The Embed Component ships with processors for the following types of resources:
 
 ## デザインダイアログ{#design-dialog}
 
-デザインダイアログを使用すると、テンプレート作成者は、埋め込みコンポーネントを使用するコンテンツ作成者が使用できるオプションを定義でき、埋め込みコンポーネントを配置する際に設定されるデフォルトを定義できます。
+The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
 * **URLを無効にする** — 選択した場合に、コンテ **ンツ作成者のURL** オプションを無効にします。
 * **埋め込み可能** — 許可されている埋め込み可 **能なプロセッサーに関係なく、選択時にコンテンツ作成者の「埋め込み可能** 」オプションを無効にします。
 * **HTMLを無効にする** — 選択すると、コンテ **ンツ作成者のHTML** オプションが無効になります。
-* **Allowed Embeddables - Multislect that defines which embeddable processors are available to the content author, provided that the Embeddable option is active.******
+* **Allowed Embeddables** - 「 **Embeddable** 」オプションがアクティブな場合に、コンテンツ作成者が使用できる埋め込み可能なプロセッサーを定義するマルチセレクト。
