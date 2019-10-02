@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
+source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
 
 ---
 
@@ -63,8 +63,8 @@ The core components are made available through **releases** and [represent the a
 
 | リリース | 説明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | このリリースでは、新しい埋め込みコンポーネントが導入されました | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 9 月 25 日 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | このリリースでは新しいエクスペリエンスフラグメントコンポーネントを導入しました | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 9 月 6 日 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | This release introduced the new Embed component | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0 以上 | 8、11 | 2019 年 9 月 25 日 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | このリリースでは新しいエクスペリエンスフラグメントコンポーネントを導入しました | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0 以上 | 8、11 | 2019 年 9 月 6 日 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | このリリースでは、新しいアコーディオン、ボタン、コンテナ、ダウンロードの各コンポーネントが導入されました。 | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 6 月 25 日 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | このリリースでは、コンテンツフラグメントリストコンポーネントが導入されました。 | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 5 月 7 日 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | このリリースではコンポーネントライブラリの改善に重点を置いていますが、区切り文字コンポーネントの機能強化も含まれています。 | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8 | 2019 年 3 月 14 日 |
@@ -129,4 +129,4 @@ The core components are made available through **releases** and [represent the a
 
 [コアコンポーネントの概要](introduction.md)では、コアコンポーネントの各バージョンの機能、使用例およびサポートの概要を説明しています。
 
-[The WKND Tutorial is a great step-by-step introduction to developing for AEM including using the Core Components.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+[WKNDチュートリアルは](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) 、コアコンポーネントの使用を含むAEM向けの開発に関する手順を順を追って説明する優れたチュートリアルです。
