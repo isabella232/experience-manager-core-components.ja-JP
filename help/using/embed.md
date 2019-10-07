@@ -6,7 +6,7 @@ seo-description: 埋め込みコンポーネントを使用すると、AEMコン
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
+source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 ---
 
@@ -95,12 +95,14 @@ To experience the Embed Component as well as see examples of its configuration o
 
 作成者が入力できるHTMLマークアップは、セキュリティ上の理由からフィルタリングされ、作成者が管理者権限を取得できるなど、クロスサイトスクリプティング攻撃を回避します。
 
-一般に、すべてのスクリプトと `style` 要素、およびすべての属 `on*` 性が `style` 出力から削除されます。
+*一般に* 、すべてのスクリプ `style` トと要素、およびすべて `on*` の属 `style` 性が出力から削除されます。
 
-ただし、埋め込みコンポーネントはAEMのグローバルHTML AntiSamiフィルタリングルールセットに従うので、ルールはそれより複雑です。これは、を参照してくださ `/libs/cq/xssprotection/config.xml`い。 これは、必要に応じて開発者がプロジェクト固有の設定に重ねて表示できます。
+ただし、埋め込みコンポーネントは、AEMのグローバルHTML AntiSamy衛生フレームワークフィルタリングルールセットに従うので、ルールはより複雑です（を参照） `/libs/cq/xssprotection/config.xml`。 これは、必要に応じて開発者がプロジェクト固有の設定に重ねて表示できます。
+
+追加のセキュリティ情報は、 [AEM開発者向けドキュメントを参照してください。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
 
 >[!NOTE]
->AntiSamyルールはオーバーレイによって設定できますが、こ `/libs/cq/xssprotection/config.xml`れらの変更は、埋め込みコアコンポーネントだけでなく、すべてのHTLおよびJSP動作に影響を与えます。
+>AntiSamy Geadialyフレームワークのルールはオーバーレイによって設定できますが、こ `/libs/cq/xssprotection/config.xml`れらの変更は、埋め込みコアコンポーネントだけでなく、すべてのHTLおよびJSPの動作に影響を与えます。
 
 ## デザインダイアログ{#design-dialog}
 
