@@ -1,30 +1,30 @@
 ---
-title: Embed Component
-seo-title: Embed Component
-description: The Embed Component enables embedding external content in an AEM content page.
-seo-description: The Embed Component enables embedding external content in an AEM content page.
+title: 埋め込みコンポーネント
+seo-title: 埋め込みコンポーネント
+description: 埋め込みコンポーネントを使用すると、AEMコンテンツページに外部コンテンツを埋め込むことができます。
+seo-description: 埋め込みコンポーネントを使用すると、AEMコンテンツページに外部コンテンツを埋め込むことができます。
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
+source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
 
 ---
 
 
-# Embed Component{#embed-component}
+# 埋め込みコンポーネント{#embed-component}
 
-The Core Components Embed Component allows embedding external content in an AEM content page.
+コアコンポーネント埋め込みコンポーネントを使用すると、AEMコンテンツページに外部コンテンツを埋め込むことができます。
 
 ## 使用方法 {#usage}
 
-The Core Component Embed Component allows the content author to define selected external content to be embedded within an AEM content page. In addition, there is an option to define free-form HTML to be embedded as well.
+コアコンポーネント埋め込みコンポーネントを使用すると、コンテンツ作成者は選択した外部コンテンツを定義してAEMコンテンツページに埋め込むことができます。 さらに、埋め込む自由形式のHTMLを定義するオプションもあります。
 
 * The component's properties can be defined in the [configure dialog](#configure-dialog).
 * コンポーネントをページに追加するときのデフォルト設定は、[デザインダイアログ](#design-dialog)で定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-The current version of the Embed Component is v1, which was introduced with release 2.7.0 of the Core Components in September 2019, and is described in this document.
+埋め込みコンポーネントの現在のバージョンはv1で、2019年9月にリリース2.7.0のコアコンポーネントで導入され、このドキュメントで説明されています。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
@@ -40,17 +40,21 @@ To experience the Embed Component as well as see examples of its configuration o
 
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Embed Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
+埋め込みコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed)。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded: URL, Embeddable, or HTML.************
+設定ダイアログを使用すると、コンテンツ作成者はページに埋め込む外部リソースを定義できます。 まず、埋め込むリソースの種類を選択します。
+
+* [URL](#url)
+* [埋め込み可能](#embeddable)
+* [HTML](#html)
 
 ### URL {#url}
 
-The simplest embed is the URL. Simply paste the URL of the resource you wish to embed in the URL field. **** The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the URL field. ****&#x200B;そうでない場合は、フィールドにエラーのマークが付けられます。
+最も単純な埋め込みはURLです。 埋め込むリソースのURLを「 **URL** 」フィールドに貼り付けます。 コンポーネントはリソースにアクセスしようとします。いずれかのプロセッサでレンダリングできる場合は、 **URLフィールドの下に確認メッセージが表示されます** 。 そうでない場合は、フィールドにエラーのマークが付けられます。
 
 埋め込みコンポーネントは、次の種類のリソースに対応したプロセッサー付きで出荷されます。
 
@@ -87,9 +91,20 @@ The simplest embed is the URL. Simply paste the URL of the resource you wish to 
 >[!NOTE]
 >スクリプトなどの安全でないタグは、入力したHTMLからフィルタされ、結果のページにレンダリングされません。
 
+#### セキュリティ {#security}
+
+作成者が入力できるHTMLマークアップは、セキュリティ上の理由からフィルタリングされ、作成者が管理者権限を取得できるなど、クロスサイトスクリプティング攻撃を回避します。
+
+一般に、すべてのスクリプトと `style` 要素、およびすべての属 `on*` 性が `style` 出力から削除されます。
+
+ただし、埋め込みコンポーネントはAEMのグローバルHTML AntiSamiフィルタリングルールセットに従うので、ルールはそれより複雑です。これは、を参照してくださ `/libs/cq/xssprotection/config.xml`い。 これは、必要に応じて開発者がプロジェクト固有の設定に重ねて表示できます。
+
+>[!NOTE]
+>AntiSamyルールはオーバーレイによって設定できますが、こ `/libs/cq/xssprotection/config.xml`れらの変更は、埋め込みコアコンポーネントだけでなく、すべてのHTLおよびJSP動作に影響を与えます。
+
 ## デザインダイアログ{#design-dialog}
 
-The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
+デザインダイアログを使用すると、テンプレート作成者は、埋め込みコンポーネントを使用するコンテンツ作成者が使用できるオプションを定義でき、埋め込みコンポーネントを配置する際に設定されるデフォルトを定義できます。
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
