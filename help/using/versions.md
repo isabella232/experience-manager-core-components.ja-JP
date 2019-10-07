@@ -4,13 +4,13 @@ seo-title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 seo-description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 uuid: a916a923-8c5e-456a-84b5-b52228e21434
-contentOwner: ユーザー
+contentOwner: bohnert
 content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
+source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
 
 ---
 
