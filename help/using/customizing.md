@@ -10,7 +10,7 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
@@ -34,6 +34,10 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 また、すべてのコアコンポーネントが[スタイルシステム](customizing.md)を実装しています。
 
+## AEM プロジェクトアーキタイプ {#aem-project-archetype}
+
+[AEM Project Archetypeは、推奨のプロキシパターンを使用したコアコンポーネントのロジックと適切な実装のためのSlingModelsを使用したカスタムHTLコンポーネントのhelloworld例を含む、最小限のAdobe Experience Managerプロジェクトを独自のプロジェクトの起点として作成します。](archetype.md)
+
 ## カスタマイズパターン {#customization-patterns}
 
 ### ダイアログのカスタマイズ {#customizing-dialogs}
@@ -45,25 +49,6 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 現在のバージョンのダイアログに対して行われる変更との互換性を完全に持たせるには、タブ項目レベルの下にある構造に対して変更（非表示、追加、置換、並べ替えなど）をおこなわないことが非常に重要となります。Instead, a tab item from the parent should be hidden via the `sling:hideResource` property (see [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), and new tab items added that contain the bespoke configuration fields. 必要に応じて、`sling:orderBefore` を使用してタブ項目を並べ替えることもできます。
 
 以下の図では、推奨されるダイアログの構造と、前述した、継承される側のタブを非表示にして置換する方法を示しています。
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -127,25 +112,6 @@ For further details about the delegation pattern see the Core Components GitHub 
 変更が必要な HTL ファイルをコアコンポーネントからプロキシコンポーネントにコピーすれば、簡単に実行できます。
 
 パンくずコアコンポーネントの例を再度取り上げます。そのマークアップ出力をカスタマイズするには、`breadcrumb.html` ファイルを、パンくずコアコンポーネントを指す `sling:resourceSuperTypes` を含むサイト固有のコンポーネントにコピーする必要があります。
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ### コンポーネントのスタイル設定 {#styling-the-components}
 
