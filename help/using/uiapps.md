@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -20,7 +20,7 @@ Apache Jackrabbit FileVault Package プラグイン は、ui.apps モジュー�
 
 ## 親 POM {#parent-pom}
 
-[親POM](archetype.md#parent-pom) (`<src>/<project>/pom.xml`)には、プロジ `<plugin>` ェクトで使用するプラグインの様々な設定を定義するセクションが含まれます。 これには、Jackrabbit fileVaultパッケージプラグ `filterSource` イン用の設定が含まれます。 The `filterSource` points to the location of the `filter.xml` file that is used to define the jcr paths that are included in the package.
+[親POM](overview.md#parent-pom) (`<src>/<project>/pom.xml`)には、プロジ `<plugin>` ェクトで使用するプラグインの様々な設定を定義するセクションが含まれます。 これには、Jackrabbit fileVaultパッケージプラグ `filterSource` イン用の設定が含まれます。 The `filterSource` points to the location of the `filter.xml` file that is used to define the jcr paths that are included in the package.
 
 Jackrabbit fileVault Package pluginに加えて、Content Package pluginの定義も使用し、パッケージをAEMにプッシュします。 同じ親POMで定義され `aem.host`たグローバ `aem.port``vault.user``vault.password` ルプロパティに対応する、、、、およびの変数が使用されることに注意してください。
 
@@ -30,7 +30,7 @@ ui.apps pom(`<src>/<project>/ui.apps/pom.xml`)は、のタグを `embedded` 提�
 
 core.wcm.components.allおよびcore.wcm.components.examplesパッケージがサブパッケージとして含まれています。 これにより、WKND コードと共に毎回コアコンポーネントのパッケージがデプロイされます。
 
-依存関係リストには、core.wcm.components.allとcore.wcm.components.examplesが依存関係として含まれています。 However as a best practice, versions for dependencies are omitted here and managed in the [parent pom file](archetype.md#core-components).
+依存関係リストには、core.wcm.components.allとcore.wcm.components.examplesが依存関係として含まれています。 However as a best practice, versions for dependencies are omitted here and managed in the [parent pom file](overview.md#core-components).
 
 ## filter.xml {#filter}
 
