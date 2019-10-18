@@ -10,7 +10,7 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ## AEM プロジェクトアーキタイプ {#aem-project-archetype}
 
-[AEM Project Archetypeは、推奨のプロキシパターンを使用したコアコンポーネントのロジックと適切な実装のためのSlingModelsを使用したカスタムHTLコンポーネントのhelloworld例を含む、最小限のAdobe Experience Managerプロジェクトを独自のプロジェクトの起点として作成します。](archetype.md)
+[AEM Project Archetypeは、推奨のプロキシパターンを使用したコアコンポーネントのロジックと適切な実装のためのSlingModelsを使用したカスタムHTLコンポーネントのhelloworld例を含む、最小限のAdobe Experience Managerプロジェクトを独自のプロジェクトの起点として作成します。](overview.md)
 
 ## カスタマイズパターン {#customization-patterns}
 
