@@ -5,7 +5,7 @@ sub-product: adobe experience manager core components
 archetype: Administrator
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: 2a1b149226e1025d116cabde8c9d477f8dadca4c
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 2a1b149226e1025d116cabde8c9d477f8dadca4c
    + [コアコンポーネントのカスタマイズ](customizing.md)
    + [コンポーネントのガイドライン](guidelines.md)
    + [AEM プロジェクトアーキタイプ] {#archetype}
-      + [アーキタイプの概要](archetype.md)
+      + [アーキタイプの概要](overview.md)
       + [Core モジュール](core.md)
       + [ui.appsモジュール](uiapps.md)
       + [ui.contentモジュール](uicontent.md)
