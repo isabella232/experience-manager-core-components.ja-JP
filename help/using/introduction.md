@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -105,7 +105,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 コアコンポーネントで AEM Sites の開発を始めるには、[この詳しいチュートリアル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-最新のコアコンポーネントが組み込まれたAEMプロジェクトアーキタイプを活用して [、お客様独自のAEMプロジェクトを](archetype.md) 、必ず開始してください。
+最新のコアコンポーネントが組み込まれたAEMプロジェクトアーキタイプを活用して [、お客様独自のAEMプロジェクトを](overview.md) 、必ず開始してください。
 
 ## コアコンポーネントのサポート {#core-components-support}
 
