@@ -4,13 +4,13 @@ seo-title: コアコンポーネントの概要
 description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
 seo-description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
 uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: ユーザー
+contentOwner: User
 content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 コアコンポーネントをすぐに試してみたい場合は、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)にアクセスしてください。コンポーネントライブラリは、ほとんどのコアコンポーネントの現在のバージョンのオンラインショーケースです。ここでは、コンポーネントの様々なバリエーションを操作したり、サンプルの HTML 出力や JSON 出力を確認したりできます。
 
-The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
+[We.Retail リファレンスサイト](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)では、コアコンポーネントの使用方法についても説明しています。
 
 ## コアコンポーネント - コア機能 {#core-components-core-features}
 
@@ -40,7 +40,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 | 高いアクセシビリティ | WCAG 2.0 標準に準拠し、ARIA ラベルを提供し、キーボードナビゲーションをサポートします。 |
 | スタイル設定が容易 | コンポーネントはスタイルシステムを実装し、マークアップは BEM CSS の命名規則に従っています。 |
 | SEO フレンドリー | HTML 出力はセマンティックであり、schema.org マイクロデータ注釈を提供します。 |
-| PWA/SPA/App に対応 | 合理化された JSON 出力は、クライアント側のレンダリングにも使用できます。 |
+| PWA／SPA／App に対応 | 合理化された JSON 出力は、クライアント側のレンダリングにも使用できます。 |
 | 拡張可能 | 一から始めなくてもカスタムに対応するニーズに対応できるよう、あらゆる機能を拡張可能です。 |
 | オープンソース | 何か問題が見つかった場合は、GitHub（Apache License）で改善にご協力ください。 |
 | バージョン管理 | ユーザーに影響が及ぶ可能性のある機能を改善しても、コアコンポーネントを使用したサイトが動かなくなることはありません。 |
@@ -79,13 +79,13 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 >[!NOTE]
 >
->コアコンポーネントは、作成者がすぐに使用できるわけではありません。[最初に開発チームがお使いの環境に統合する必要があります](using.md)。Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>コアコンポーネントは、作成者がすぐに使用できるわけではありません。[最初に開発チームがお使いの環境に統合する必要があります](using.md)。統合されると、[テンプレートエディター](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)または[デザインモード](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)で使用できるようになり、事前設定されます。
 
 >[!CAUTION]
 >
 >個々のコアコンポーネントの一部のバージョンは、特定のバージョンの AEM とのみ互換性があります。
 >
->互換性の情報については、特定のコンポーネントに対する個々のヘルプページ（前の一覧にリンクされている）を参照するか、[コアコンポーネントバージョン](versions.md)ドキュメントで詳細を確認してください。
+>互換性の情報については、特定のコンポーネントに対する個々のヘルプページ（前の一覧にリンクされています）を参照するか、[コアコンポーネントバージョン](versions.md)ドキュメントで詳細を確認してください。
 
 ## どのような場合にコアコンポーネントを使用すべきか {#when-to-use-core-components}
 
@@ -97,11 +97,15 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 コアコンポーネントとその機能、AEM での活用方法の概要については、AEM Gems セッションの [AEM コアコンポーネント](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Managerは](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) 、アドビのエキスパートが提供する技術的な詳細情報のシリーズです。 製品ドキュメントやその他のあらゆる技術的なチャネルを補完するこのシリーズを利用すれば、開発者は特定のトピックにふれ、深く理解することができます。
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) は、アドビのエキスパートによる技術的な詳細の解説シリーズです。製品ドキュメントやその他のあらゆる技術的なチャネルを補完するこのシリーズを利用すれば、開発者は特定のトピックにふれ、深く理解することができます。
 
-## WKND 開発者向けチュートリアル {#wknd-developer-tutorial}
+## コアコンポーネントを使用した開発 {#developing-core-components}
+
+コアコンポーネントは、シンプルなスタイル設定から高度な機能の再利用まで、簡単にカスタマイズできる複数のパターンを実装する、堅牢で拡張可能な基本コンポーネントを提供します。 See the [Core Components developing documentation](developing.md) for more information.
 
 コアコンポーネントで AEM Sites の開発を始めるには、[この詳しいチュートリアル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
+最新のコアコンポーネントが組み込まれたAEMプロジェクトアーキタイプを活用して [、お客様独自のAEMプロジェクトを](archetype.md) 、必ず開始してください。
 
 ## コアコンポーネントのサポート {#core-components-support}
 
@@ -122,4 +126,4 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 Foundation コンポーネントは多くのバージョンにわたって様々なプロジェクト開発の基盤として機能しており、今後も当分の間、引き続きサポートされます。
 
-However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+ただし、アドビの開発の重点はコアコンポーネントに移っており、新機能はコアコンポーネントに追加されます。一方、[大部分の Foundation コンポーネントが AEM 6.5 で廃止され](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html)、今後 Foundation コンポーネントに対してはバグ修正のみがおこなわれます。
