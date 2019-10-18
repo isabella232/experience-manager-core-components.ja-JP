@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: adobe experience manager コアコンポーネント
-archetype: 管理者
-user-guide-title: AEM コアコンポーネント
+sub-product: adobe experience manager core components
+archetype: Administrator
+user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: 2a1b149226e1025d116cabde8c9d477f8dadca4c
 
 ---
 
@@ -66,3 +66,9 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
    + [WKND 開発者向けチュートリアル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [コアコンポーネントのカスタマイズ](customizing.md)
    + [コンポーネントのガイドライン](guidelines.md)
+   + [AEM プロジェクトアーキタイプ] {#archetype}
+      + [アーキタイプの概要](archetype.md)
+      + [Core モジュール](core.md)
+      + [ui.appsモジュール](uiapps.md)
+      + [ui.contentモジュール](uicontent.md)
+      + [フロントエンドビルドプロセス](front-end-build.md)
