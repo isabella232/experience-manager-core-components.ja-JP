@@ -10,7 +10,7 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
@@ -47,7 +47,7 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ### 事前設定可能な機能 {#pre-configurable-capabilities}
 
-コンポーネントには、ページ作成者が使用する編集ダイアログのほかに、テンプレート作成者が事前設定をおこなうためのデザインダイアログも含めることができます。The Template Editor allows to setup all these pre-configurations, which are called "Policies".[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+コンポーネントには、ページ作成者が使用する編集ダイアログのほかに、テンプレート作成者が事前設定をおこなうためのデザインダイアログも含めることができます。テンプ [レート](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) ・エディタでは、「ポリシー」と呼ばれるこれらの事前設定をすべて設定できます。
 
 コンポーネントをできるだけ再利用できるようにするには、事前設定用の意味のあるオプションを用意する必要があります。そうすれば、コンポーネントの機能の有効・無効を切り替えることで、様々なサイトの特定のニーズに対応することができます。
 
@@ -112,6 +112,10 @@ Below is another overview, which doesn't show the details of the implementation 
 コンポーネントごとに、ポリシー（コンポーネントの事前設定）へのマッピングを含みます。このマッピングにより、複数のテンプレートにわたるポリシーの再利用、したがってポリシーの一元管理が可能となります。
 
 ![テンプレートとポリシーの概要](assets/screen_shot_2018-12-07at093102.png)
+
+## AEM プロジェクトアーキタイプ {#aem-project-archetype}
+
+[AEM Project Archetypeは、推奨のプロキシパターンを使用したコアコンポーネントのロジックと適切な実装のためのSlingModelsを使用したカスタムHTLコンポーネントのhelloworld例を含む、最小限のAdobe Experience Managerプロジェクトを独自のプロジェクトの起点として作成します。](archetype.md)
 
 **関連項目：**
 
