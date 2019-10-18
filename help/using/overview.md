@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
 
 ---
 
@@ -53,7 +53,7 @@ AEMアーキタイプは、次のモジュールで構成されています。
 * **[ui.content](uicontent.md)**:ui.appsモジュールのコンポーネントを使用するサンプルコンテンツが含まれています。
 * **ui.tests**:は、サーバー側で実行されるJUnitテストを含むJavaバンドルです。 このバンドルは実稼動環境にはデプロイされません。
 * **ui.launcher**:ui.testsバンドル（および依存バンドル）をサーバーにデプロイし、リモートJUnit実行をトリガする接着コードが含まれます。
-* **[ui.frontend](front-end-build.md)**:オプシ [ョン] 、Webpackベースのフロントエンドビルドモジュールを使用するために必要なアーティファクトが含まれます。
+* **[ui.frontend](front-end-build.md)**: **（オプション）** 、Webpackベースのフロントエンドビルドモジュールの使用に必要なアーティファクトが含まれます。
 
 ![](assets/project-pom.png)
 
