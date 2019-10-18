@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 0a61f4e6d1ad8b4d5e3778018838dc70d496e1fc
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -18,7 +18,7 @@ The core maven module (`<src-directory>/<project>/core`) includes all the Java c
 
 `<src-directory>/<project>/core/pom.xml` で定義される Maven Bundle Plugin は、AEM の OSGi コンテナによって認識される OSGi バンドルに Java コードをコンパイルするために使用されます。ここでSlingモデルの場所が定義されます。
 
-上位レベルの環境では、ui.appsモジュールとは別にコアバンドルをデプロイする必要があることはまれですが、ローカルの開発/テスト中は、コアバンドルを直接デプロイすると便利です。 The Maven Sling Plugin allows the core bundle to be deployed to AEM directly leveraging the `autoInstallBundle` profile as defined in the [parent POM](archetype.md#parent-pom).
+上位レベルの環境では、ui.appsモジュールとは別にコアバンドルをデプロイする必要があることはまれですが、ローカルの開発/テスト中は、コアバンドルを直接デプロイすると便利です。 The Maven Sling Plugin allows the core bundle to be deployed to AEM directly leveraging the `autoInstallBundle` profile as defined in the [parent POM](overview.md#parent-pom).
 
 ```
 mvn -PautoInstallBundle clean install
