@@ -7,7 +7,7 @@ uuid: 4a54cd4c-3d89-4683-8301-bf1e634736e3
 content-type: reference
 topic-tags: authoring
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
@@ -17,39 +17,39 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 Adobe Experience Manager では、コンポーネントは、オーサリングするページのコンテンツを構成する構造要素です。
 
-コアコンポーネントは、柔軟で機能豊富なオーサリング機能を提供します。The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) illustrates how the core components can be used.
+コアコンポーネントは、柔軟で機能豊富なオーサリング機能を提供します。[We.Retail リファレンスサイト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html)では、コアコンポーネントがどのように使用できるかを説明しています。
 
 コアコンポーネントを体験したり、それらの設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)にアクセスしてください。
 
-AEM プロジェクトにコアコンポーネントを実装するための開発者向けの詳しい概要については、[WKND チュートリアルを参照してください。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+AEM プロジェクトにコアコンポーネントを実装するための開発者向けの詳しい概要については、[WKND チュートリアル](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/getting-started.html)を参照してください。
 
 >[!NOTE]
 >
->コアコンポーネントは、作成者がすぐに使用できるわけではありません。[最初に開発チームがお使いの環境に統合する必要があります](using.md)。Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+>コアコンポーネントは、作成者がすぐに使用できるわけではありません。[最初に開発チームがお使いの環境に統合する必要があります](using.md)。統合されると、[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)で使用できるようになり、事前設定されます。
 
 >[!CAUTION]
 >
->コアコンポ [ーネントにはAEM 6.3以降が必要で](versions.md) 、編集可能なテンプレートを使用する [必要があります](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。 コアコンポーネントはクラシック UI や静的テンプレートでは動作しません。
+>コアコンポーネントでは [AEM 6.3 以降](versions.md)が必要です。また、[編集可能テンプレート](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)を使用する必要があります。コアコンポーネントはクラシック UI や静的テンプレートでは動作しません。
 
 ## コアコンポーネントを使用したオーサリング {#authoring-with-core-components}
 
 作成者の場合、次のようなコアコンポーネントのメリットがあります。
 
-* Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+* 簡単に使用でき、[ページエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)に適切に統合されている
 
-* We.Retailやコンポーネントライブラリに示されている多くの [使用例に対応する機能](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) — 豊富な機能を [備えている](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+* [We.Retail](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html) や[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)で示されている多数の使用例に対応する豊富な機能を備えている
 
-* [事前設定可能](#pre-configuring-core-components) ：テンプレートエディターを使用してページ作成者が使用できる機能を [定義します。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* ページ作成者が[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)でどの機能を使用できるかを[事前設定可能](#pre-configuring-core-components)
 
-* Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+* [アクセシビリティガイドライン](https://helpx.adobe.com/jp/experience-manager/6-5/managing/using/web-accessibility.html)に沿って構築されている
 
-* Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* [レスポンシブレイアウト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/responsive-layout.html)をサポートするように構築されている
 
 * [容易なローカライゼーション](localization.md)をサポートする設計
 
-Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
+コンポーネントは、**ページ編集**&#x200B;の際に、ページエディターのサイドパネルの「[コンポーネント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)」タブから利用できます。
 
-コンポーネントは、フィルタリングや整理を容易におこなえるよう、コンポーネントグループと呼ばれるカテゴリに従ってグループ化されます。The component group name is displayed with the component in the [component browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) and it is also possible to filter by group to easily find the right component.
+コンポーネントは、フィルタリングや整理を容易におこなえるよう、コンポーネントグループと呼ばれるカテゴリに従ってグループ化されます。コンポーネントのグループ名は、[コンポーネントブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)にコンポーネントと共に表示されます。また、正しいコンポーネントを簡単に見つけられるように、グループでフィルタリングすることもできます。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Components are available on the **Components** tab of the side panel of the page
 
 例えば、画像コンポーネントでファイルシステムからの画像アップロードを許可しない場合や、テキストコンポーネントで特定の段落フォーマットのみを許可する場合は、クリックするだけでそれらの機能の有効／無効を切り替えることができます。
 
-See [Creating Page Templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) for more information.
+詳しくは、[ページテンプレートの作成](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)を参照してください。
 
 ### 編集ダイアログとデザインダイアログ {#edit-and-design-dialogs}
 
@@ -81,7 +81,7 @@ See [Creating Page Templates](https://helpx.adobe.com/experience-manager/6-5/sit
 * テンプレート作成者は、特定のコンポーネントで利用可能なスタイルを、そのコンポーネントのデザインダイアログで定義できます。
 * その後、コンテンツ作成者は、コンポーネントを追加してコンテンツを作成する際に、適用するスタイルを選択できます。
 
-詳しくは、スタイルシステムのドキュ [メントを参照して](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) ください。
+詳しくは、[スタイルシステム](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/style-system.html)のドキュメントを参照してください。
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ See [Creating Page Templates](https://helpx.adobe.com/experience-manager/6-5/sit
 >
 >個々のコアコンポーネントの一部のバージョンは、特定のバージョンの AEM とのみ互換性があります。
 >
->互換性の情報については、特定のコンポーネントに対する個々のヘルプページ（前の一覧にリンクされている）を参照するか、[コアコンポーネントバージョン](versions.md)ドキュメントで詳細を確認してください。
+>互換性の情報については、特定のコンポーネントに対する個々のヘルプページ（前の一覧にリンクされています）を参照するか、[コアコンポーネントバージョン](versions.md)ドキュメントで詳細を確認してください。
 
 >[!NOTE]
 >
