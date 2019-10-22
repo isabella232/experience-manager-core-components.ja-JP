@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 # コンテンツフラグメントリストコンポーネント{#content-fragment-list-component}
 
-The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、[コンテンツフラグメント](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/content-fragments.html)のリストを表示できます。
 
 ## 使用方法 {#usage}
 
-The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page based on a Content Fragment model. これは、他のアプリケーションで簡単に使 [用できるヘッドレス](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) ・コンテンツを作成する場合に特に便利です。
+コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントモデルに基づいて[コンテンツフラグメント](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/content-fragments.html)のリストをページに組み込むことができます。これは、他のアプリケーションで容易に使用できる[ヘッドレスコンテンツ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)を作成する場合に特に便利です。
 
 * リストとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * スタイルは、[デザインダイアログ](#design-dialog)でコンポーネントに適用できます。
@@ -42,7 +42,7 @@ The Core Component Content Fragment List Component allows for the inclusion of a
 
 ## 技術的詳細 {#technical-details}
 
-コンテンツフラグメントリストコンポーネントに関する最新の技術ドキ [ュメントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist)。
+コンテンツフラグメントリストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -64,25 +64,25 @@ The Core Component Content Fragment List Component allows for the inclusion of a
 * **タグ** - 指定したタグを持つコンテンツフラグメントのみリストに含まれます。
    * フィールドの右側にある「**選択ダイアログを開く**」ボタンをクリックまたはタップして、タグを指定します。
    * 選択したタグの横にある「X」をクリックまたはタップすれば、そのタグを削除できます。
-* **Order By** — リストの並べ替えに使用するコンテンツフラグメントモデルのフィールド
-   * 選択できるのは、テキストフィールド（数値、日付および時間を含む）のみです。
-* **並べ替え順** - 「並べ替え順」フィールドでのリストの並 **べ替え** 方法
+* **並べ替え順** - リストの並べ替えに使用するコンテンツフラグメントモデルのフィールド
+   * 選択できるのは、テキストフィールド（数値、日付、時刻など）のみです。
+* **ソート順序** - 「**並べ替え順**」フィールドによるリストの並べ替え方法
    * 昇順または降順
-* **最大項目数** — リストに表示する項目の最大数
-   * 値がない場合、すべての項目が返されます。
+* **最大項目数** - リストに表示する項目の最大数
+   * 値が指定されない場合は、すべての項目が返されます。
 
 >[!NOTE]
->リリー **ス2.7.0**&#x200B;のコアコンポーネントでは **、「並べ替え順」、「並べ替え順****** 」、「最大項目数」の各オプションが導入されました。
+>コアコンポーネントのリリース 2.7.0 では、「**並べ替え順**」、「**ソート順序**」、「**最大項目数**」の各オプションが導入されました。
 
 ### 「要素」タブ
 
-デフォルトでは、コンテンツフラグメントモデルのすべての要素がリストに含まれます(最大項目数フィー **ルドで制限されない** )。 The **Elements** tab allows you to specify only specific elements to include.
+（「**最大項目数**」フィールドで制限されない限り）デフォルトでは、コンテンツフラグメントモデルのすべての要素がリストに含まれます。「**要素**」タブを使用すると、含める特定の要素を指定できます。
 
 ![](assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **要素** - 指定したリストに含まれているコンテンツフラグメントの要素のみ表示されます。
-   * 「**追加**」ボタンをクリックまたはタップすると、新しい要素を追加できます。。
-   * Click or tap the **Delete** button to remove a selected element.
+   * 「**追加**」ボタンをクリックまたはタップすると、新しい要素を追加できます。
+   * 「**削除**」ボタンをクリックまたはタップすると、選択した要素を削除できます。
    * 「**順序**」ハンドルをドラッグすると、要素の順序を並べ替えることができます。
 
 ## デザインダイアログ{#design-dialog}
