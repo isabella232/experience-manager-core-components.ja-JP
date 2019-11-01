@@ -1,25 +1,25 @@
 ---
-title: aemプロジェクトのアーキタイプのui.contentモジュール
-seo-title: aemプロジェクトのアーキタイプのui.contentモジュール
-description: aemプロジェクトのアーキタイプのui.contentモジュール
-seo-description: aemプロジェクトのアーキタイプのui.contentモジュール
+title: AEM プロジェクトアーキタイプの ui.content モジュール
+seo-title: AEM プロジェクトアーキタイプの ui.content モジュール
+description: AEM プロジェクトアーキタイプの ui.content モジュール
+seo-description: AEM プロジェクトアーキタイプの ui.content モジュール
 contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
 
 ---
 
 
-# aemプロジェクトのアーキタイプのui.contentモジュール {#uicontent-module}
+# AEM プロジェクトアーキタイプの ui.content モジュール {#uicontent-module}
 
-The ui.content maven module (`<src-directory>/<project>/ui.content`) includes baseline content and configurations beneath `/content` and `/conf`. ui.content は ui.apps と同様、AEM パッケージにコンパイルされます。主な違いは、ui.content に格納されているノードは AEM インスタンスで直接修正できる点です。これには、ページ、DAM アセット、および編集可能テンプレートが含まれます。ui.contentモジュールは、クリーンインスタンス用のサンプルコンテンツを保存したり、ソース管理で管理されるいくつかのベースライン設定を作成したりするために使用できます。
+ui.content maven モジュール（`<src-directory>/<project>/ui.content` の `/content`）および `/conf` の下には、ベースラインコンテンツおよび設定が含まれています。ui.content は ui.apps と同様、AEM パッケージにコンパイルされます。主な違いは、ui.content に格納されているノードは AEM インスタンスで直接修正できる点です。これには、ページ、DAM アセット、および編集可能テンプレートが含まれます。ui.content モジュールは、クリーンなインスタンスのサンプルコンテンツ、またはソース管理システムで管理されるベースライン設定を格納するために使用できます。
 
 ## filter.xml {#filter}
 
-ui.content `filter.xml` モジュールのファイルは、にあり、ui.contentパッ `<src>/<project>/ui.content/src/main/content/META-INF/vault/filter.xml` ケージと共に含まれ、インストールされるパスが含まれています。 Notice that a `mode="merge"` attribute is added to the path. これにより、コードのデプロイメントを使用してデプロイされた設定が、AEMインスタンスで直接作成されたコンテンツや設定を自動的に上書きすることはありません。
+ui.content モジュールの `filter.xml` ファイルは `<src>/<project>/ui.content/src/main/content/META-INF/vault/filter.xml` にあり、ui.content パッケージに含まれてインストールされるパスを含みます。`mode="merge"` 属性がパスに追加されます。これにより、コードのデプロイメント時にデプロイされた設定が、AEM インスタンスで直接作成されたコンテンツや設定を自動で上書きすることを回避できます。
 
 ## ui.content/pom.xml
 
-ui.appsモジュールと同様に、ui.contentモジュールはFileVaultパッケージプラグインを使用します。 ただし、ui.content pom (`<src>/<project>/ui.content/pom.xml`)には、という名前の追加の設定プロパティ `acHandling`が含まれ、に設定されま `merge_preserve`す。 これは、ui.contentモジュールに、テンプレートを編集できるユーザーを決定する権限であるアクセス制御リスト(ACL)が含まれているためです。 In order for these ACLs to be imported into AEM the `acHandling` property is needed.
+ui.content モジュールは、ui.apps モジュールと同様に FileVault Package プラグインを使用します。ただし、ui.content pom（`<src>/<project>/ui.content/pom.xml`）には、`acHandling` という名前で、`merge_preserve` に設定される追加の設定プロパティが含まれます。これは、ui.content モジュールに、テンプレートを編集できるユーザーを決定する権限であるアクセス制御リスト（ACL）が含まれているためです。これらの ACL を AEM に読み込むには、`acHandling` プロパティが必要です。
