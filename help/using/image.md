@@ -10,7 +10,7 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
+source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 ### 技術的詳細 {#technical-details}
 
-イメージコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)。
+The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -292,3 +292,13 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 ### 「スタイル」タブ {#styles-tab-1}
 
 画像コンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポートします。
+
+## アダプティブイメージサーブレット {#adaptive-image-servlet}
+
+イメージコンポーネントは、コアコンポーネントのアダプティブイメージサーブレットを使用します。 [Adaptive Image Servletは](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 、画像処理とストリーミングを担当し、開発者はコアコンポーネントのカスタマイズに [活用できます](customizing.md)。
+
+>[!NOTE]
+>
+>ヘッダーを介した条件付 `Last-Modified` き要求は、Adaptive Image Servletでサポートされますが、ヘッダーのキャッシュをディスパッ `Last-Modified` チャー [で有効にする必要があります](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
+>
+>[AEMプロジェクトアーキタイプのサンプル](overview.md)Dispatcher設定には、既にこの設定が含まれています。
