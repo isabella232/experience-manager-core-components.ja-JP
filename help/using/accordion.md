@@ -10,7 +10,7 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
 
 ## 技術的詳細 {#technical-details}
 
-アコーディオンコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion)。
+The latest technical documentation about the Accordion Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -72,6 +72,10 @@ source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
 * **展開済みのアイテム** - ページの読み込み時にデフォルトで展開されるアイテムを定義します。
    * 「**単一アイテムの展開**」が選択されている場合は、1 つのパネルを選択する必要があります。デフォルトでは、最初のパネルが選択されます。
    * 「**単一アイテムの展開**」が選択されていない場合、このオプションは複数選択可能となり、任意指定となります。
+
+>[!TIP]
+>
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合は、「追加」ボ **タンは** 非表示になります。 コンポーネントをアコーディオンコンポーネントに追加するには、コンポーネ [ントブラウザーからドラッグし、ページエディターでアコーディオンコンポーネントにドロップしま](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)す。
 
 ## パネルを選択ポップオーバー {#seelct-panel-popover}
 
