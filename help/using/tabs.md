@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: core-components
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 ### 技術的詳細 {#technical-details}
 
-Tabs Componentに関する最新の技術ドキュメントは、GitHub [で入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs)。
+The latest technical documentation about the Tabs Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -65,6 +65,10 @@ Tabs Componentに関する最新の技術ドキュメントは、GitHub [で入�
 * **説明** - タブのテキストとして使用される説明。デフォルトでは、タブ用に選択されたコンポーネントの名前に設定されます。
 * **削除** - タップまたはクリックすると、タブコンポーネントからタブが削除されます。
 * **並べ替え** - タップまたはクリックしてドラッグすると、タブを並べ替えることができます。
+
+>[!TIP]
+>
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合は、「追加」ボ **タンは** 非表示になります。 コンポーネントは、コンポーネントブラウザーからドラッグし、ペ [ージエディターの「タブ」コンポーネントにドロップすることで、Tabsコンポーネントに追加できます](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
 ### 「プロパティ」タブ {#properties-tab}
 
