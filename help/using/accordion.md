@@ -10,7 +10,7 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 ---
 
@@ -64,6 +64,10 @@ The latest technical documentation about the Accordion Component [can be found o
 * **削除** - タップまたはクリックすると、アコーディオンコンポーネントからパネルを削除できます。
 * **並べ替え** - タップまたはクリックしてドラッグすると、パネルを並べ替えることができます。
 
+>[!TIP]
+>
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合は、「追加」ボ **タンは** 非表示になります。 コンポーネントをアコーディオンコンポーネントに追加するには、コンポーネ [ントブラウザーからドラッグし、ページエディターでアコーディオンコンポーネントにドロップしま](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)す。
+
 ### 「プロパティ」タブ {#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
@@ -72,10 +76,6 @@ The latest technical documentation about the Accordion Component [can be found o
 * **展開済みのアイテム** - ページの読み込み時にデフォルトで展開されるアイテムを定義します。
    * 「**単一アイテムの展開**」が選択されている場合は、1 つのパネルを選択する必要があります。デフォルトでは、最初のパネルが選択されます。
    * 「**単一アイテムの展開**」が選択されていない場合、このオプションは複数選択可能となり、任意指定となります。
-
->[!TIP]
->
->ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合は、「追加」ボ **タンは** 非表示になります。 コンポーネントをアコーディオンコンポーネントに追加するには、コンポーネ [ントブラウザーからドラッグし、ページエディターでアコーディオンコンポーネントにドロップしま](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)す。
 
 ## パネルを選択ポップオーバー {#seelct-panel-popover}
 
