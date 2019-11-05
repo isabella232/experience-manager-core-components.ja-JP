@@ -17,7 +17,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ### 技術的詳細 {#technical-details}
 
-カルーセルコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel)。
+The latest technical documentation about the Carousel Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -68,6 +68,10 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 * **説明** - タブのテキストとして使用される説明。デフォルトでは、タブ用に選択されたコンポーネントの名前に設定されます。
 * **削除** - タップまたはクリックすると、タブコンポーネントからタブが削除されます。
 * **並べ替え** - タップまたはクリックしてドラッグすると、タブを並べ替えることができます。
+
+>[!TIP]
+>
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合は、「追加」ボ **タンは** 非表示になります。 コンポーネントは、コンポーネントブラウザーからドラッグし、ペ [ージエディターのカルーセルコンポーネントにドロップすることで、カルーセルコンポーネントに追加できます](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
 ### 「プロパティ」タブ {#properties-tab}
 
