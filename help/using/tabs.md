@@ -7,7 +7,7 @@ uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
 content-type: reference
 topic-tags: core-components
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 >
 >ネストされたタブコンポーネント（タブ内のタブ）はサポートされています。
 >
->Simple (non-nested) tab components can be located/selected using the [content tree](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), however nested tabs can not be.
+>[コンテンツツリー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)を使用した特定や選択は、単純な（ネストされていない）タブコンポーネントでは可能ですが、ネストされたタブでは不可能です。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -43,11 +43,11 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-タブコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html)にアクセスしてください。
+タブコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Tabs Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
+タブコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -68,7 +68,7 @@ The latest technical documentation about the Tabs Component [can be found on Git
 
 >[!TIP]
 >
->ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合は、「追加」ボ **タンは** 非表示になります。 コンポーネントは、コンポーネントブラウザーからドラッグし、ペ [ージエディターの「タブ」コンポーネントにドロップすることで、Tabsコンポーネントに追加できます](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのタブコンポーネントにドラッグ＆ドロップ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)することで、コンポーネントをタブコンポーネントに追加できます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
@@ -80,7 +80,7 @@ The latest technical documentation about the Tabs Component [can be found on Git
 
 ![](assets/screen-shot-2019-08-29-12.28.40.png)
 
-On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
+「**アクセシビリティ**」タブでは、コンポーネントの「[ARIA アクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/)」ラベルの値を設定できます。
 
 * **ラベル** - コンポーネントの ARIA ラベル属性の値
 
@@ -102,7 +102,7 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開済み [**コンテン** ツの閲覧者としてタブを操作するには、プレビューモードまたは「公開](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)**[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** 済みとして表示」オプションを使用します。
+>**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開済みコンテンツの読者と同じ立場でタブを操作するには、[**プレビュー**&#x200B;モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)または「**[公開済みとして表示](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)**」オプションを使用します。
 
 ## デザインダイアログ{#design-dialog}
 
@@ -112,7 +112,7 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がタブコンポーネントに項目として追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する際の同じ名前のタブと同じように機能します。](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### 「スタイル」タブ {#styles-tab}
 
