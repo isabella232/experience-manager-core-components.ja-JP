@@ -16,7 +16,7 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
@@ -46,11 +46,11 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-カルーセルコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html)にアクセスしてください。
+カルーセルコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Carousel Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+カルーセルコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -71,7 +71,7 @@ The latest technical documentation about the Carousel Component [can be found on
 
 >[!TIP]
 >
->ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合は、「追加」ボ **タンは** 非表示になります。 コンポーネントは、コンポーネントブラウザーからドラッグし、ペ [ージエディターのカルーセルコンポーネントにドロップすることで、カルーセルコンポーネントに追加できます](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのカルーセルコンポーネントにドラッグ＆ドロップ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)することで、コンポーネントをカルーセルコンポーネントに追加できます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
@@ -85,15 +85,15 @@ The latest technical documentation about the Carousel Component [can be found on
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。カルーセ [**ルを、公開さ** れたコンテンツの読者と同様に操作するには、プレビューモードまたは「公開](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)**[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** 済みとして表示」オプションを使用します。
+>**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開済みコンテンツの読者と同じ立場でカルーセルを操作するには、[**プレビュー**&#x200B;モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)または「**[公開済みとして表示](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)**」オプションを使用します。
 >
->**編集**&#x200B;モードでは、自動進行機能は有効になりません。Use **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to see the auto-advance feature as a reader of the published content would.
+>**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開済みコンテンツの読者と同じ立場で自動進行機能を確認するには、「**[公開済みとして表示](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)**」オプションを使用します。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.02.22.png)
 
-On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
+「**アクセシビリティ**」タブでは、コンポーネントの「[ARIA アクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/)」ラベルの値を設定できます。
 
 * **ラベル** - コンポーネントの ARIA ラベル属性の値
 
@@ -131,7 +131,7 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がカルーセルコンポーネントにスライドとして追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する際の同じ名前のタブと同じように機能します。](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### 「スタイル」タブ {#styles-tab}
 
