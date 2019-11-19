@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
@@ -58,7 +58,7 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 >[!CAUTION]
 >
->SVGのサポートには、AEM内の新しいイメージエディター機能をサポートするために、 [Core Componentsのリリース2.1.0以降、](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) Service Pack 2 [for AEM 6.4、](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) Service Pack 3 [for AEM 6.3以降が必要](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) です。
+>SVG のサポートには、AEM 内の新しい画像エディター機能をサポートするために、[コアコンポーネントのリリース 2.1.0 と、](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html) AEM 6.4 の Service Pack 2 [、](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html)AEM 6.3 以降の Service Pack [3](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/image-editor.html) が必要です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -66,7 +66,7 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -83,9 +83,9 @@ The latest technical documentation about the Image Component [can be found on Gi
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **画像アセット**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-assets-touch-ui.html)」をタップまたはクリックします。
 
 ### 「メタデータ」タブ {#metadata-tab}
 
@@ -149,7 +149,7 @@ The latest technical documentation about the Image Component [can be found on Gi
 
    >[!CAUTION]
    >
-   >Launch map機能を使用するには、AEM内で新しいイメージエディター機能をサポートするために、コアコンポーネントのリリース2.1.0と、 [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4または [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) for AEM 6.3以降が必要です。
+   >ローンチマップ機能を使用するには、AEM 内で[新しい画像エディター機能](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 と、AEM 6.4 の [Service Pack 2](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html)、AEM 6.3 以降の [Service Pack 3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要です。
 
    ![](assets/chlimage_1-12.png)
 
@@ -293,12 +293,12 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
 画像コンポーネントは AEM [スタイルシステム](authoring.md#component-styling)をサポートします。
 
-## アダプティブイメージサーブレット {#adaptive-image-servlet}
+## アダプティブ画像サーブレット {#adaptive-image-servlet}
 
-イメージコンポーネントは、コアコンポーネントのアダプティブイメージサーブレットを使用します。 [Adaptive Image Servletは](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 、画像処理とストリーミングを担当し、開発者はコアコンポーネントのカスタマイズに [活用できます](customizing.md)。
+画像コンポーネントは、コアコンポーネントのアダプティブ画像サーブレットを使用します。[アダプティブ画像サーブレット](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet)は、画像処理とストリーミングを担当し、開発者は[コアコンポーネントのカスタマイズ](customizing.md)に活用できます。
 
 >[!NOTE]
 >
->ヘッダーを介した条件付 `Last-Modified` き要求は、Adaptive Image Servletでサポートされますが、ヘッダーのキャッシュをディスパッ `Last-Modified` チャー [で有効にする必要があります](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
+>`Last-Modified` ヘッダーを介した条件付き要求は、アダプティブ画像サーブレットでサポートされますが、`Last-Modified` ヘッダーのキャッシュを[ディスパッチャーで有効にする必要があります](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
 >
->[AEMプロジェクトアーキタイプのサンプル](overview.md)Dispatcher設定には、既にこの設定が含まれています。
+>[AEM プロジェクトアーキタイプ](overview.md)のサンプルディスパッチャー設定には、既にこの設定が含まれています。
