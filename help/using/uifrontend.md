@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 5f905b0231b5f07924a55dd3d79d347e019f76f4
+source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
 
 ---
 
@@ -88,6 +88,10 @@ AEM プロジェクトのアーキタイプには、次の機能を備えた Web
    * ベンダー（依存関係の js／css）
 * 完全なSass/Scssのサポート（SassはWebpackを使用してCSSにコンパイルされます）
 * AEMのローカルインスタンスに対するプロキシが組み込まれた静的WebPack開発サーバー
+
+>[!NOTE]
+>
+>ui.frontendモジュールに関する技術的な情報については、GitHubのドキュメントを参 [照してください](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md)。
 
 ## インストール {#installation}
 
