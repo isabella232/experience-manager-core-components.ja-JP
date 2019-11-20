@@ -6,8 +6,8 @@ seo-description: AEM ベースのアプリケーション用のプロジェク�
 contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
-translation-type: ht
-source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
+translation-type: tm+mt
+source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
 
 ---
 
@@ -22,7 +22,7 @@ AEM プロジェクトのアーキタイプは、最小限のベストプラク�
 
 >[!NOTE]
 >
->単純なプロジェクトを実装するためのアーキタイプの使い方の実例については、AEM ドキュメントの「[AEM Sites - WKND チュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)」を参照してください。
+>See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for a practical example that walks you through using the archetype to implement a simple project.
 
 ## 機能 {#features}
 
@@ -53,11 +53,11 @@ AEM アーキタイプは、次のモジュールで構成されています。
 * **[ui.content](uicontent.md)**：ui.apps モジュールのコンポーネントを使用するサンプルコンテンツが含まれます。
 * **ui.tests**：サーバー側で実行される JUnit テストが含まれる Java バンドル。このバンドルは実稼動環境にはデプロイされません。
 * **ui.launcher**：ui.tests バンドル（および依存するバンドル）をサーバーにデプロイし、JUnit のリモート実行をトリガーするグルーコードが含まれます。
-* **[ui.frontend](front-end-build.md)**：**（オプション）** Webpack ベースのフロントエンドビルドモジュールの使用に必要なアーティファクトが含まれます。
+* **[ui.frontend](uifrontend.md)**：**（オプション）** Webpack ベースのフロントエンドビルドモジュールの使用に必要なアーティファクトが含まれます。
 
 ![](assets/project-pom.png)
 
-Maven で表される AEM アーキタイプのモジュールは、アプリケーション、コンテンツ、および必要な OSGi バンドルを表すコンテンツページとして AEM にデプロイされます。
+Mavenで表されるAEMアーキタイプのモジュールは、アプリケーション、コンテンツおよび必要なOSGiバンドルを表すコンテンツパッケージとしてAEMにデプロイされます。
 
 ## 要件 {#requirements}
 
@@ -65,7 +65,7 @@ Maven で表される AEM アーキタイプのモジュールは、アプリケ
 
 * Adobe Experience Manager 6.3.3.0 以降
 * Apache Maven（3.3.9 以降）
-* Adobe Public Maven リポジトリを Maven 設定に追加します。[詳しくは、このナレッジベース記事](https://helpx.adobe.com/jp/experience-manager/kb/SetUpTheAdobeMavenRepository.html)を参照してください。
+* Adobe Public Maven リポジトリを Maven 設定に追加します。[詳しくは、このナレッジベース記事](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html)を参照してください。
 
 以前のアーキタイプバージョンでサポートされている　AEM　バージョンのリストについては、[過去にサポートされていた AEM バージョン](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)を参照してください。
 
@@ -77,7 +77,7 @@ Maven でプロジェクトを構築すると、AEM にデプロイできるア�
 
 ### プロジェクトの作成 {#create-project}
 
-最初に、最も簡単に [AEM Eclipse 拡張機能](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/aem-eclipse.html)を使用し、新しいプロジェクトウィザードに従って「**AEM Sample Multi-Module Project**」を選択し、リリースされたバージョンのアーキタイプを使用できます。
+最初に、最も簡単に [AEM Eclipse 拡張機能](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html)を使用し、新しいプロジェクトウィザードに従って「**AEM Sample Multi-Module Project**」を選択し、リリースされたバージョンのアーキタイプを使用できます。
 
 もちろん、Maven を直接呼び出すこともできます。
 
@@ -94,7 +94,7 @@ mvn archetype:generate \
 >
 >ベストプラクティスとしては、repo.adobe.com を自動で maven のビルドプロセスに追加するために、`adobe-public` プロファイルを Maven の `settings.xml` ファイルに追加することが推奨されます。
 >
->POM の例は[こちらにあります](https://helpx.adobe.com/jp/experience-manager/kb/SetUpTheAdobeMavenRepository.html)。
+>POM の例は[こちらにあります](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html)。
 
 ### プロパティ {#properties}
 
@@ -117,7 +117,7 @@ mvn archetype:generate \
 | `optionAemVersion` | 6.5.0 | 対象 AEM バージョン |
 | `optionIncludeExamples` | y | [コンポーネントライブラリの](http://opensource.adobe.com/aem-core-wcm-components/library.html)サンプルサイトを含める |
 | `optionIncludeErrorHandler` | n | カスタム 404 応答ページを含める |
-| `optionIncludeFrontendModule` | n | [専用のフロントエンド・モジュールを含める](front-end-build.md) |
+| `optionIncludeFrontendModule` | n | [専用のフロントエンド・モジュールを含める](uifrontend.md) |
 
 >[!NOTE]
 > アーキタイプを初めてインタラクティブモードで実行する際には、デフォルト値のプロパティは変更できません（詳しくは [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) を参照してください）。この値は、最後のプロパティ確認が拒否され、質問が繰り返された場合や、コマンドラインでパラメータを渡す際に変更できます（例：`-DoptionIncludeExamples=n`）。
@@ -191,7 +191,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-主要な依存関係の 1 つに [AEM uber-jar](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies) があります。これにより、AEM のバージョンに対して、すべての AEM API が単一の依存関係のエントリで含められます。
+主要な依存関係の 1 つに [AEM uber-jar](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies) があります。これにより、AEM のバージョンに対して、すべての AEM API が単一の依存関係のエントリで含められます。
 
 >[!NOTE]
 >
@@ -201,13 +201,13 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 もちろん、AEM プロジェクトのアーキタイプはコアコンポーネントを活用します。
 
-コアコンポーネントは、デフォルトの実行モードで AEM に自動的にインストールされます。また、サンプルの We.Retail サイトで使用されます。[実稼動実行モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/production-ready.html)（`nosamplecontent`）では、コアコンポーネントは使用できません。
+コアコンポーネントは、デフォルトの実行モードで AEM に自動的にインストールされます。また、サンプルの We.Retail サイトで使用されます。[実稼動実行モード](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/production-ready.html)（`nosamplecontent`）では、コアコンポーネントは使用できません。
 
 そのため、すべてのデプロイメントでコアコンポーネントを使用するには、それらを Maven プロジェクトの一部に組み込むことが推奨されます。
 
 >[!NOTE]
 >
->最新のアーキテクチャでコアコンポーネントの最新バージョンが使用されるよう、通常は、コアコンポーネントの各リリースに続き、AEM プロジェクトアーキタイプがリリースされます。
+>コアコンポーネントの各リリースに続いて、最新のアーキテクチャで最新バージョンのコアコンポーネントを使用できるように、通常はAEMプロジェクトアーキタイプのリリースが続きます。
 >
 >ただし、新しいバージョンのアーキタイプは、新しいバージョンのコアコンポーネントに直接従っていない可能性があるので、コアコンポーネントの依存関係を最新バージョンに更新することができます。
 
@@ -225,15 +225,15 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
    * `mvn clean verify -PintegrationTests`
 * クライアントサイドの Hobbes.js テスト：ブラウザー側の動作を検証する JavaScript ベースのブラウザーサイドテストです。テストするには：
    1. ページの作成時と同様に、ブラウザーに AEM を読み込みます。
-   1. ページを[開発者モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/developer-mode.html)で開きます。
+   1. ページを[開発者モード](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/developer-mode.html)で開きます。
    1. 左のパネルを開き、「**Tests**」タブに切り替えます。
    1. 生成された **MyName Tests** を見つけ、実行します。
 
 ## 次の手順 {#next-steps}
 
-AEM プロジェクトアーキタイプを構築し、インストールしました。次は何をすればよいでしょうか。アーキタイプは小さいとはいえ、推奨ベストプラクティスに従って設定された、多数の強力な AEM 機能の例で構成されています。これらを使用すれば、プロジェクトで機能をどのように活用できるかがわかります。どのプロジェクトでも、次の作業が必要になる可能性があります。
+AEMプロジェクトのアーキタイプを構築し、インストールしました。 次は何をすればよいでしょうか。アーキタイプは小さいとはいえ、推奨ベストプラクティスに従って設定された、多数の強力な AEM 機能の例で構成されています。これらを使用すれば、プロジェクトで機能をどのように活用できるかがわかります。どのプロジェクトでも、次の作業が必要になる可能性があります。
 
-* [既存のコアコンポーネントを拡張するコンポーネントのカスタマイズ](customizing.md)
-* [テンプレートの追加](https://helpx.adobe.com/jp/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
-* [ローカリゼーション構造の適応](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-prep.html)
-* [フロントエンドビルドモジュールの詳細](front-end-build.md)
+* [既存のコアコンポーネントを拡張してコンポーネントをカスタマイズする](customizing.md)
+* [テンプレートの追加](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
+* [ローカリゼーション構造の適応](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
+* [フロントエンドビルドモジュールの詳細](uifrontend.md)
