@@ -4,7 +4,7 @@ seo-title: コンテナコンポーネント
 description: 'null'
 seo-description: コアコンポーネントのコンテナコンポーネントを使用すると、ページ上に複数の追加コンポーネント用のコンテナを作成できます。
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: ユーザー
+contentOwner: User
 content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
@@ -44,7 +44,7 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 ## 技術的詳細 {#technical-details}
 
-Container Componentに関する最新の技術ドキュメントは、GitHub [で入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container)。
+The latest technical documentation about the Container Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -69,7 +69,7 @@ Container Componentに関する最新の技術ドキュメントは、GitHub [�
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がコンテナコンポーネントにアイテムとして追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブの動作は、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)際の同じ名前のタブと同じように機能します。
 
 ### 「デフォルトコンポーネント」タブ {#default-components-tab}
 
