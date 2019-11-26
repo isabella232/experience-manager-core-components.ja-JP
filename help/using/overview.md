@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
+source-git-commit: 6616db2e76d35716cb37052afca8ca2cc2379548
 
 ---
 
@@ -22,7 +22,7 @@ AEM プロジェクトのアーキタイプは、最小限のベストプラク�
 
 >[!NOTE]
 >
->See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for a practical example that walks you through using the archetype to implement a simple project.
+>単純なプロジェクトを実装するためのアーキタイプの使い方の実例については、AEM ドキュメントの「[AEM Sites - WKND チュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)」を参照してください。
 
 ## 機能 {#features}
 
@@ -55,9 +55,9 @@ AEM アーキタイプは、次のモジュールで構成されています。
 * **ui.launcher**：ui.tests バンドル（および依存するバンドル）をサーバーにデプロイし、JUnit のリモート実行をトリガーするグルーコードが含まれます。
 * **[ui.frontend](uifrontend.md)**：**（オプション）** Webpack ベースのフロントエンドビルドモジュールの使用に必要なアーティファクトが含まれます。
 
-![](assets/project-pom.png)
+![](assets/archetype-structure.png)
 
-Mavenで表されるAEMアーキタイプのモジュールは、アプリケーション、コンテンツおよび必要なOSGiバンドルを表すコンテンツパッケージとしてAEMにデプロイされます。
+Maven で表される AEM アーキタイプのモジュールは、アプリケーション、コンテンツ、および必要な OSGi バンドルを表すコンテンツページとして AEM にデプロイされます。
 
 ## 要件 {#requirements}
 
@@ -207,7 +207,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 >[!NOTE]
 >
->コアコンポーネントの各リリースに続いて、最新のアーキテクチャで最新バージョンのコアコンポーネントを使用できるように、通常はAEMプロジェクトアーキタイプのリリースが続きます。
+>最新のアーキテクチャでコアコンポーネントの最新バージョンが使用されるよう、通常は、コアコンポーネントの各リリースに続き、AEM プロジェクトアーキタイプがリリースされます。
 >
 >ただし、新しいバージョンのアーキタイプは、新しいバージョンのコアコンポーネントに直接従っていない可能性があるので、コアコンポーネントの依存関係を最新バージョンに更新することができます。
 
@@ -231,9 +231,9 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ## 次の手順 {#next-steps}
 
-AEMプロジェクトのアーキタイプを構築し、インストールしました。 次は何をすればよいでしょうか。アーキタイプは小さいとはいえ、推奨ベストプラクティスに従って設定された、多数の強力な AEM 機能の例で構成されています。これらを使用すれば、プロジェクトで機能をどのように活用できるかがわかります。どのプロジェクトでも、次の作業が必要になる可能性があります。
+AEM プロジェクトアーキタイプを構築し、インストールしました。次は何をすればよいでしょうか。アーキタイプは小さいとはいえ、推奨ベストプラクティスに従って設定された、多数の強力な AEM 機能の例で構成されています。これらを使用すれば、プロジェクトで機能をどのように活用できるかがわかります。どのプロジェクトでも、次の作業が必要になる可能性があります。
 
-* [既存のコアコンポーネントを拡張してコンポーネントをカスタマイズする](customizing.md)
+* [既存のコアコンポーネントを拡張するコンポーネントのカスタマイズ](customizing.md)
 * [テンプレートの追加](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [ローカリゼーション構造の適応](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
 * [フロントエンドビルドモジュールの詳細](uifrontend.md)
