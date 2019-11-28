@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 ---
@@ -66,7 +66,7 @@ source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 >[!TIP]
 >
->ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのアコーディオンコンポーネントにドラッグ＆ドロップ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)することで、コンポーネントをアコーディオンコンポーネントに追加できます。
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのアコーディオンコンポーネントにドラッグ＆ドロップ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)することで、コンポーネントをアコーディオンコンポーネントに追加できます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
@@ -107,7 +107,7 @@ source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がアコーディオンコンポーネント内のパネルにアイテムとして追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)際の同じ名前のタブと同じように機能します。
+「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)際の同じ名前のタブと同じように機能します。
 
 ### 「スタイル」タブ {#styles-tab}
 
