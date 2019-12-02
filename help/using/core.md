@@ -6,7 +6,7 @@ seo-description: AEM プロジェクトアーキタイプのコアモジュー�
 contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
 
 ---
@@ -24,4 +24,4 @@ source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
 mvn -PautoInstallBundle clean install
 ```
 
-Once successfully executed, you should be able to see the Bundles Console at `http://<host>:<port>/system/console/bundles`.
+正常に実行されると、`http://<host>:<port>/system/console/bundles` にバンドルコンソールが表示されます。
