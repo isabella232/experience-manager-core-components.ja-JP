@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
-translation-type: ht
-source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
+translation-type: tm+mt
+source-git-commit: b1b69e9e1ba18dd0f9d8059a79537ad2bf7db066
 
 ---
 
 
-# コアコンポーネントのバージョン{#core-components-versions}
+# コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.7.0 で、AEM 6.5 と互換性があります。2019 年 9 月にリリース 2.0.0 の重要なアップデートとしてリリースされました。リリース 2.0.0 では、既存コンポーネントの v2 へのアップデートと共に新しいコンポーネントが導入されました。
+コアコンポーネントの現在のリリースは2.8.0で、AEM 6.5と互換性があります。2019年12月にリリースされ、リリース2.0.0への重要な更新となりました。リリース2.0.0では、既存のコンポーネントのv2アップデートと共に新しいコンポーネントが導入されました。
 
 詳しくは、このドキュメントの[リリース履歴と互換性](#versions-and-releases)を参照してください。
 
@@ -63,6 +63,7 @@ source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
 
 | リリース | 説明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | リリース日 |
 |---|---|---|---|---|---|---|
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | このリリースでは、ナビゲーションコンポーネントの機能が少し強化された修正に焦点を当てました | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 8、11 | 2019年12月5日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | このリリースでは新しい埋め込みコンポーネントを導入しました | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 9 月 25 日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | このリリースでは新しいエクスペリエンスフラグメントコンポーネントを導入しました | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 9 月 6 日 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | このリリースでは、アコーディオン、ボタン、コンテナ、ダウンロードの各コンポーネントが新しく導入されました。 | 6.3.3.0 以上 | 6.4.2.0 以上 | 6.5.0.0 以上 | 8、11 | 2019 年 6 月 25 日 |
