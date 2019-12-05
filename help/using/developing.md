@@ -4,13 +4,13 @@ seo-title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
 seo-description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
 uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
-contentOwner: ユーザー
+contentOwner: User
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
-translation-type: ht
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+translation-type: tm+mt
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -32,36 +32,36 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
    * [バージョン内の互換性を確保](#upgrade-of-core-components)しつつ、コンポーネントを発展させることができる
    * 1 つのコンポーネントの複数バージョンが同じ環境で共存できる
 * 最新の実装
-   * [HTML テンプレート言語](https://helpx.adobe.com/jp/experience-manager/htl/using/overview.html)（HTL）で定義されたマークアップ
+   * [HTML テンプレート言語](https://helpx.adobe.com/experience-manager/htl/using/overview.html)（HTL）で定義されたマークアップ
    * [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)で実装されたコンテンツモデルロジック
 * 効率的なマークアップ
    * リリース 2.0.0 時点の[ブロック要素修飾子](https://getbem.com/)（BEM）表記に準拠
       * 以前のリリースでは、[Bootstrap](https://getbootstrap.com/css/) 命名規則に準拠していました。
-   * [アクセシビリティガイドライン](https://helpx.adobe.com/jp/experience-manager/6-5/managing/using/web-accessibility.html)に沿って構築されている
+   * [アクセシビリティガイドライン](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)に沿って構築されている
    * レスポンシブサイトおよびモバイルサイトに使用可能
 * ヘッドレス CMS の使用例で JSON コンテンツモデルとしてシリアル化する機能
 * 高いアクセシビリティ
-   * [WCAG 2.0 AA 標準](https://helpx.adobe.com/jp/experience-manager/6-5/managing/using/web-accessibility.html)に準拠
+   * [WCAG 2.0 AA 標準](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)に準拠
 
 >[!CAUTION]
 >
->コアコンポーネントでは AEM 6.3 以降と Java 8 が必要です。また、[編集可能テンプレート](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)を使用する必要があります。
+>コアコンポーネントでは AEM 6.3 以降と Java 8 が必要です。また、[編集可能テンプレート](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)を使用する必要があります。
 >
 >コアコンポーネントは、クラシック UI でも静的テンプレートでも動作しません。
 
 ## Gems セッションの概要 {#gems-session-overview}
 
-コアコンポーネントとその機能、AEM での活用方法の概要については、AEM Gems セッションの [AEM コアコンポーネント](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+コアコンポーネントとその機能、AEM での活用方法の概要については、AEM Gems セッションの [AEM コアコンポーネント](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/aem-index.html) は、アドビのエキスパートによる技術的な詳細の解説シリーズです。製品ドキュメントやその他のあらゆる技術的なチャネルを補完するこのシリーズを利用すれば、開発者は特定のトピックにふれ、深く理解することができます。
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) は、アドビのエキスパートによる技術的な詳細の解説シリーズです。製品ドキュメントやその他のあらゆる技術的なチャネルを補完するこのシリーズを利用すれば、開発者は特定のトピックにふれ、深く理解することができます。
 
 ## WKND 開発者向けチュートリアル {#wknd-developer-tutorial}
 
-コアコンポーネントで AEM Sites の開発を始めるには、[この詳しいチュートリアル](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/getting-started.html)に従います。
+コアコンポーネントで AEM Sites の開発を始めるには、[この詳しいチュートリアル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)に従います。
 
 ## AEM プロジェクトアーキタイプ {#aem-project-archetype}
 
-[AEM プロジェクトアーキタイプ](overview.md)は、最小限の Adobe Experience Manager プロジェクトを独自のプロジェクトの起点として作成します。これには、推奨のプロキシパターンを使用してコアコンポーネントのロジックと適切な実装をおこなうために、SlingModels を使用したカスタム HTL コンポーネントの helloworld の例が含まれます。
+[AEM Project Archetypeは、推奨のプロキシパターンを使用したコアコンポーネントのロジックと適切な実装にSlingModelsを使用したカスタムHTLコンポーネントのヘルワールド例を含む、最小限のAdobe Experience Managerプロジェクトを独自のプロジェクトの起点として作成します。](overview.md)
 
 ## GitHub 経由で配信 {#delivered-over-github}
 
@@ -88,7 +88,7 @@ GitHub のコード
 
 ### サンプルコンテンツ実行モード {#sample-content-run-mode}
 
-サンプルコンテンツが存在する場合は、コアコンポーネントがクイックスタートに表示されます。[We.Retail リファレンスサイト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html)でコアコンポーネントが使用されるからです。ただし、実稼働環境で（サンプルコンテンツが有効でない `nosamplecontent` 実行モードで）実行する場合は、コアコンポーネントは存在しなくなり、開発チームや運用チームの手で AEM インスタンスにインストールする必要があります。
+サンプルコンテンツが存在する場合は、コアコンポーネントがクイックスタートに表示されます。[We.Retail リファレンスサイト](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)でコアコンポーネントが使用されるからです。ただし、実稼働環境で（サンプルコンテンツが有効でない `nosamplecontent` 実行モードで）実行する場合は、コアコンポーネントは存在しなくなり、開発チームや運用チームの手で AEM インスタンスにインストールする必要があります。
 
 >[!NOTE]
 >
@@ -103,17 +103,17 @@ GitHub のコード
 | **機能** | **コアコンポーネント** | **基盤コンポーネント** |
 |-----|---|---|
 | ロジックの実装 | [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)注釈の付いた Java POJO | JSP コード |
-| マークアップ定義 | [HTML テンプレート言語](https://helpx.adobe.com/jp/experience-manager/htl/user-guide.html)（HTL）構文 | JSP コード |
+| マークアップ定義 | [HTML テンプレート言語](https://helpx.adobe.com/experience-manager/htl/user-guide.html)（HTL）構文 | JSP コード |
 | XSS サニタイズ | HTL で自動化 | ほぼ手動 |
 | CSS クラスの命名 | [ブロック要素修飾子](https://getbem.com/)（BEM）表記（リリース 2.0.0 時点）に基づく、標準化された命名規則 | カスタムスキーム |
-| ダイアログの定義 | [Coral 3](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + クラシック UI |
+| ダイアログの定義 | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + クラシック UI |
 | JSON 出力 | [Jackson シリアル化を使用している Sling モデルエクスポーター](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | デフォルト Sling サーブレット |
 | バージョン管理 | [モデルと HTL の場合](guidelines.md) | なし |
 | テスト | 単体テスト + 統合テスト | 統合テスト |
 | 配信 | [公開 GitHub 経由](https://github.com/adobe/aem-core-wcm-components) | クイックスタートを通じて |
 | ライセンス | [Apache ライセンス](https://www.apache.org/licenses/LICENSE-2.0) | アドビ固有 |
 | 貢献度 | プル要求を通じて | 不可能 |
-| アクセシビリティ | [WCAG 2.0 AA 標準](https://helpx.adobe.com/jp/experience-manager/6-5/managing/using/web-accessibility.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://helpx.adobe.com/jp/experience-manager/6-5/managing/using/web-accessibility.html)に部分的に準拠 |
+| アクセシビリティ | [WCAG 2.0 AA 標準](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)に部分的に準拠 |
 
 ## コンポーネントリスト {#component-list}
 
@@ -151,13 +151,13 @@ GitHub のコード
 
 ### 今後リリース予定のコンポーネント {#upcoming-components}
 
-今後リリース予定のコアコンポーネントのロードマップ概要については、[GitHub のプロジェクト Wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home) を参照してください。
+For an overview of the upcoming Core Component road map see the [project wiki on GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## コアコンポーネントのアップグレード {#upgrade-of-core-components}
 
 バージョン管理されたコンポーネントのメリットの 1 つは、新しい AEM バージョンへの移行と新しいコンポーネントバージョンへの移行を切り離すことができる点です。また、新しいコンポーネントバージョンが使用可能になった場合は、コンポーネントごとに新バージョンへ個別に移行できます。
 
-コアコンポーネントのバージョンが移行先の新しい AEM バージョンもサポートしている場合、新しい AEM バージョンへの移行はコアコンポーネントの動作に影響を与えません。[廃止または削除](https://helpx.adobe.com/jp/experience-manager/6-5/release-notes/deprecated-removed-features.html)された API を使用していない限り、コアコンポーネントのカスタマイズ部分も影響を受けません。
+コアコンポーネントのバージョンが移行先の新しい AEM バージョンもサポートしている場合、新しい AEM バージョンへの移行はコアコンポーネントの動作に影響を与えません。[廃止または削除](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html)された API を使用していない限り、コアコンポーネントのカスタマイズ部分も影響を受けません。
 
 コアコンポーネントを新しいバージョンに移行しても、コンポーネントの動作には影響しませんが、ページ作成者向けの新しい機能が導入されることはあります。これらの機能については、デフォルトの動作が望ましくない場合、テンプレートエディターで何らかの設定が必要になる可能性があります。一方、カスタマイズ部分は適合が必要になる可能性があります。詳しくは、[コアコンポーネントのカスタマイズ](customizing.md#upgrade-compatibility-of-customizations)を参照してください。
 
@@ -212,7 +212,7 @@ GitHub のコード
 
 基盤コンポーネントは多数の AEM バージョンにわたって大規模プロジェクト開発の基礎の役割を果たしてきたので、今後も引き続きサポートされます。
 
-ただし、アドビの開発の重点はコアコンポーネントに移っており、新機能はコアコンポーネントに追加されます。一方、[大部分の Foundation コンポーネントが AEM 6.5 で廃止され](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/default-components-foundation.html)、今後 Foundation コンポーネントに対してはバグ修正のみがおこなわれます。
+ただし、アドビの開発の重点はコアコンポーネントに移っており、新機能はコアコンポーネントに追加されます。一方、[大部分の Foundation コンポーネントが AEM 6.5 で廃止され](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html)、今後 Foundation コンポーネントに対してはバグ修正のみがおこなわれます。
 
 **関連項目：**
 
