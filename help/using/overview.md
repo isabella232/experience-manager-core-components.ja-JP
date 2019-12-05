@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 6616db2e76d35716cb37052afca8ca2cc2379548
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -49,7 +49,7 @@ AEM　プロジェクトのアーキタイプを使用すると、数回のキ�
 AEM アーキタイプは、次のモジュールで構成されています。
 
 * **[core](core.md)**：OSGi サービス、リスナー、スケジューラなどのすべてのコア機能、およびサーブレットや要求フィルターなどのコンポーネント関連の Java コードが含まれる Java バンドル。
-* **[ui.apps](uiapps.md)**：プロっジェクトの `/apps` 部分と `/etc` 部分（JS と CSS の clientlib、コンポーネント、テンプレート、実行モード固有の設定、Hobbes テストなど）が含まれます。
+* **[ui.apps](uiapps.md)**：プロジェクトの `/apps` 部分と `/etc` 部分（JS と CSS の clientlib、コンポーネント、テンプレート、実行モード固有の設定、Hobbes テストなど）が含まれます。
 * **[ui.content](uicontent.md)**：ui.apps モジュールのコンポーネントを使用するサンプルコンテンツが含まれます。
 * **ui.tests**：サーバー側で実行される JUnit テストが含まれる Java バンドル。このバンドルは実稼動環境にはデプロイされません。
 * **ui.launcher**：ui.tests バンドル（および依存するバンドル）をサーバーにデプロイし、JUnit のリモート実行をトリガーするグルーコードが含まれます。
@@ -65,7 +65,7 @@ Maven で表される AEM アーキタイプのモジュールは、アプリケ
 
 * Adobe Experience Manager 6.3.3.0 以降
 * Apache Maven（3.3.9 以降）
-* Adobe Public Maven リポジトリを Maven 設定に追加します。[詳しくは、このナレッジベース記事](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html)を参照してください。
+* Adobe Public Maven リポジトリを Maven 設定に追加します。詳しくは、この[ナレッジベース記事](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html)を参照してください。
 
 以前のアーキタイプバージョンでサポートされている　AEM　バージョンのリストについては、[過去にサポートされていた AEM バージョン](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)を参照してください。
 
@@ -207,7 +207,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 >[!NOTE]
 >
->最新のアーキテクチャでコアコンポーネントの最新バージョンが使用されるよう、通常は、コアコンポーネントの各リリースに続き、AEM プロジェクトアーキタイプがリリースされます。
+>通常、コアコンポーネントの各リリースに続いてAEMプロジェクトアーキタイプのリリースが行われ、最新のアーキタイプで最新バージョンのコアコンポーネントが使用されます。
 >
 >ただし、新しいバージョンのアーキタイプは、新しいバージョンのコアコンポーネントに直接従っていない可能性があるので、コアコンポーネントの依存関係を最新バージョンに更新することができます。
 
