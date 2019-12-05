@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
 disttype: dist5
 gnavtheme: light
-groupsectionnavitems: ' no'
+groupsectionnavitems: false
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 9718a1075b5789db9b71d25b3146f9643bb69ad0
 
 ---
 
@@ -31,16 +31,16 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ナビゲーションコンポーネントリストには、サイトのユーザーがサイト構造を容易にナビゲートできるように、ページのツリーが一覧表示されます。
 
-ナビゲーションコンポーネントは、サイトのグローバル化されたサイト構造を自動的に検出し、[ローカライズされたページに自動的に適応することができます。](#localized-site-strucutre)さらに、[シャドウリダイレクトページ](#shadow-structure)を使用してメインコンテンツ構造以外の構造を表すことで、任意のサイト構造をサポートできます。
+ナビゲーションコンポーネントは、サイトのグローバル化されたサイト構造を自動的に検出し、[ローカライズされたページに自動的に適応することができます。](#localized-site-structure)さらに、[シャドウリダイレクトページ](#shadow-structure)を使用してメインコンテンツ構造以外の構造を表すことで、任意のサイト構造をサポートできます。
 
 [編集ダイアログ](#edit-dialog)では、ナビゲーションルートページおよびナビゲーションの深さをコンテンツ作成者が定義できます。[デザインダイアログ](#design-dialog)では、ナビゲーションルートおよび深さのデフォルト値をテンプレート作成者が定義できます。
 
 ## ローカライズされたサイト構造のサポート {#localized-site-structure}
 
-Web サイトは、多くの場合、様々な地域向けに複数の言語で提供されています。通常、ローカライズされた各ページには、ページテンプレートの一部としてナビゲーション要素が含まれます。ナビゲーションコンポーネントは、サイトのあらゆるページのテンプレートに一度配置すれば、グローバル化されたサイト構造に基づいて、ローカライズされた個々のページに自動的に適応できます。
+Web サイトは、多くの場合、様々な地域向けに複数の言語で提供されています。通常、ローカライズされた各ページには、ページテンプレートの一部として含まれるナビゲーション要素が含まれます。 ナビゲーションコンポーネントは、サイトのあらゆるページのテンプレートに一度配置すれば、グローバル化されたサイト構造に基づいて、ローカライズされた個々のページに自動的に適応できます。
 
-* For an example of how the localization feature of the Navigation Component works, see the section below.[](#example-localiatzion)
-* For an example of how the localization features of the Core Components work together, see the Localization Features of the Core Components page.[](localization.md)
+* ナビゲーションコンポーネントのローカライゼーション機能の仕組みの例については、[以下のセクション](#example-localization)を参照してください。
+* コアコンポーネントのローカライゼーション機能の連携の例については、[コアコンポーネントのローカライゼーション機能ページ](localization.md)を参照してください。
 
 ### 例 {#example-localization}
 
@@ -88,15 +88,15 @@ We.Retail サイトについては、ナビゲーションコンポーネント�
 
 それには、以下の手順を実行します。
 
-1. 目的のサイト構造を表すシャドウページを、空のページとして作成します。これは、多くの場合、シャドウサイト構造と呼ばれます。
-1. これらのページのページプロパティで、実際のコンテンツページを指すように&#x200B;**リダイレクト**&#x200B;値を設定します。
+1. シャドウページは、目的のサイト構造を表す空のページとして作成します。 これは、多くの場合、シャドウサイト構造と呼ばれます。
+1. Set the **Redirect** values in the page properties on these pages to point to the actual content pages.
 1. シャドウページのページプロパティで、「**ナビゲーション内で非表示にする**」オプションを設定します。
 1. ナビゲーションコンポーネントの&#x200B;**ナビゲーションルート**&#x200B;値を、新しいシャドウサイト構造のルートを指すように設定します。
 
 この結果、ナビゲーションコンポーネントは、シャドウサイト構造に基づいてメニューをレンダリングします。コンポーネントによってレンダリングされるリンクは、シャドウページそのものではなく、シャドウページのリダイレクト先となる実際のコンテンツページを指しています。さらに、シャドウページに基づいたナビゲーションの場合でも、コンポーネントには実際のページの名前が表示されると共に、アクティブなページが正しく強調表示されます。ナビゲーションコンポーネントにより、事実上、シャドウページは訪問者に対して完全に透過的になります。
 
 >[!NOTE]
->シャドウページの利用で、ナビゲーションオプションの柔軟性がはるかに高くなりますが、この構造の維持管理は完全に手動でおこなう必要があることに留意してください。実際のサイトコンテンツを再配置したり、コンテンツを追加または削除する場合は、必要に応じてシャドウ構造を手動で更新する必要があります。
+>シャドウページを使用すると、ナビゲーションオプションがより柔軟になりますが、この構造のメンテナンスは完全に手動で行われることに注意してください。 実際のサイトコンテンツを再配置したり、コンテンツを追加または削除する場合は、必要に応じてシャドウ構造を手動で更新する必要があります。
 
 >[!NOTE]
 >シャドウサイト構造をレンダリングする場合、ナビゲーションロジックによって繰り返されるのはシャドウページだけです。このロジックでは、リダイレクト先の構造は繰り返されません。
@@ -119,7 +119,7 @@ We.Retail サイトについては、ナビゲーションコンポーネント�
 
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Navigation Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)
+The latest technical documentation about the Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -133,18 +133,22 @@ The latest technical documentation about the Navigation Component can be found o
 
 ### 「プロパティ」タブ {#properties-tab}
 
-![](assets/screen-shot-2019-08-29-12.23.45.png)
+![](assets/screen-shot-2019-12-04at12.50.51.png)
 
-* **ナビゲーションルート** - ルートページ（ナビゲーションツリーの生成に使用されます）。
-* **ナビゲーションルートを除外** - 生成されたツリーのナビゲーションルートを除外し、その下位ノードのみを含めます。
-* **すべての子ページを収集** - ナビゲーションルートの下位ノードであるすべてのページを収集します。
-* **ナビゲーション構造の深さ** - ナビゲーションツリーのルートを起点に表示する下位レベルの数を定義します（「**すべての子ページを収集**」が選択されていない場合のみ使用可能）。
+* **Navigation Root** — ナビゲーションツリーの生成に使用されるルートページ。
+* **ルートレベルの除外** — 多くの場合、ルートはナビゲーションに含めないでください。 このオプションを使用すると、除外するルートから上のレベルの数を指定できます。 次に例を示します。
+   * 0 =ルートレベルを表示
+   * 1 =ルートレベルの除外
+   * 2 =ルートを除外し、さらに1つ上のレベル
+   * 。
+* **すべての子ページを収集** — ナビゲーションルートの子孫であるすべてのページを収集します。
+* **ナビゲーション構造の深さ** — ナビゲーションルートを基準にして、コンポーネントで表示するナビゲーションツリーの下のレベル数を定義します(「 **Collect all child pages** （すべての子ページを収集）」が選択されていない場合にのみ使用可能)。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.23.53.png)
 
-On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
+「**アクセシビリティ**」タブでは、コンポーネントの「[ARIA アクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/)」ラベルの値を設定できます。
 
 * **ラベル** - コンポーネントの ARIA ラベル属性の値
 
@@ -154,12 +158,16 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 ### 「プロパティ」タブ {#properties-tab-design}
 
-![](assets/screen_shot_2018-04-03at112357.png)
+![](assets/screen-shot-2019-12-04at12.53.32.png)
 
-* **ナビゲーションルート** - ナビゲーション構造のルートページのデフォルト値（ナビゲーションツリーの生成に使用され、コンテンツ作成者がこのコンポーネントをページに追加したときにデフォルトとして使用されます）。
-* **ナビゲーションルートを除外** - 生成されたツリーのナビゲーションルートを除外するオプションのデフォルト値。
-* **すべての子ページを収集** - ナビゲーションルートの下位ノードであるすべてのページを収集するオプションのデフォルト値。
-* **ナビゲーション構造の深さ** - ナビゲーション構造の深さのデフォルト値。
+* **Navigation Root** — ナビゲーション構造のルートページのデフォルト値です。この値は、ナビゲーションツリーの生成に使用され、コンテンツ作成者がページにコンポーネントを追加した場合にデフォルトで使用されます。
+* **ルートレベルの除外** — 多くの場合、ルートはナビゲーションに含めないでください。 このオプションを使用すると、除外するルートから上のレベルのデフォルト数を指定できます。 次に例を示します。
+   * 0 =ルートレベルを表示
+   * 1 =ルートレベルの除外
+   * 2 =ルートを除外し、さらに1つ上のレベル
+   * 。
+* **Collect all child pages** — ナビゲーションルートの子孫であるすべてのページを収集するオプションのデフォルト値。
+* **ナビゲーション構造の深さ** — ナビゲーション構造の深さのデフォルト値。
 
 ### 「スタイル」タブ {#styles-tab}
 
