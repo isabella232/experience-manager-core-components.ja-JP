@@ -4,7 +4,7 @@ product: adobe experience manager
 sub-product: adobe experience manager core components
 archetype: Administrator
 user-guide-title: AEM Core Components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
 
 ---
@@ -63,7 +63,7 @@ source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
          + [フォームテキスト（v1）](form-text-v1.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing.md)
-   + [WKND 開発者向けチュートリアル](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [WKND 開発者向けチュートリアル](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [コアコンポーネントのカスタマイズ](customizing.md)
    + [コンポーネントのガイドライン](guidelines.md)
    + AEM プロジェクトアーキタイプ {#archetype}
@@ -71,4 +71,4 @@ source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
       + [Core モジュール](core.md)
       + [ui.apps モジュール](uiapps.md)
       + [ui.content モジュール](uicontent.md)
-      + [ui.frontendモジュール](uifrontend.md)
+      + [ui.frontend モジュール](uifrontend.md)
