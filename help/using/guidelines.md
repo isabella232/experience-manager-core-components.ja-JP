@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
@@ -35,9 +35,9 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ### 関心の分離 {#separation-of-concerns}
 
-通常、コンポーネントのロジック（モデル）とマークアップテンプレート（ビュー）を分離することが推奨されます。これを達成する方法はいくつかありますが、コアコンポーネントでもおこなっているように、[Sling モデル](https://sling.apache.org/documentation/bundles/models.html)をロジックに使用し、[HTML テンプレート言語](https://helpx.adobe.com/experience-manager/htl/using/overview.html)（HTL）をマークアップに使用する方法を推奨します。
+通常、コンポーネントのロジック（モデル）とマークアップテンプレート（ビュー）を分離することが推奨されます。これを達成する方法はいくつかありますが、コアコンポーネントでもおこなっているように、[Sling モデル](https://sling.apache.org/documentation/bundles/models.html)をロジックに使用し、[HTML テンプレート言語](https://helpx.adobe.com/jp/experience-manager/htl/using/overview.html)（HTL）をマークアップに使用する方法を推奨します。
 
-Sling Modelsは、POJOから必要な変数に簡単にアクセスできるJava注釈のセットです。したがって、コンポーネント用のJavaロジックを実装するシンプルで強力で効率的な方法を提供します。
+Sling モデルは、POJO から必要な変数に簡単にアクセスできるようにする Java 注釈のセットです。コンポーネントの Java ロジックを実装する、シンプルで強力かつ効率的な方法を提供します。
 
 HTL は、AEM 向けに調整された、セキュアでシンプルなテンプレート言語として設計されました。これは様々な種類のロジックを呼び出すことができるので、非常に柔軟性が高くなります。
 
@@ -47,7 +47,7 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ### 事前設定可能な機能 {#pre-configurable-capabilities}
 
-コンポーネントには、ページ作成者が使用する編集ダイアログのほかに、テンプレート作成者が事前設定をおこなうためのデザインダイアログも含めることができます。[テンプレートエディター](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)では、「ポリシー」と呼ばれるこれらの事前設定をすべて設定できます。
+コンポーネントには、ページ作成者が使用する編集ダイアログのほかに、テンプレート作成者が事前設定をおこなうためのデザインダイアログも含めることができます。[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)では、「ポリシー」と呼ばれるこれらの事前設定をすべて設定できます。
 
 コンポーネントをできるだけ再利用できるようにするには、事前設定用の意味のあるオプションを用意する必要があります。そうすれば、コンポーネントの機能の有効・無効を切り替えることで、様々なサイトの特定のニーズに対応することができます。
 
@@ -86,23 +86,23 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ## まとめ {#putting-it-all-together}
 
-以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html`[HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
+以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html`[HTL](https://helpx.adobe.com/jp/experience-manager/htl/using/overview.html) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
 
 ![リソースバインディングの概要](assets/chlimage_1-32.png)
 
-以下に別の概要を示します。ここでは、実装 POJO の詳細は示されていませんが、関連する[テンプレートとポリシー](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html)の参照方法がわかります。
+以下に別の概要を示します。ここでは、実装 POJO の詳細は示されていませんが、関連する[テンプレートとポリシー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/page-templates-editable.html)の参照方法がわかります。
 
 `cq:allowedTemplates` プロパティは、サイトで使用可能なテンプレートを示し、`cq:template` はページごとに、どのテンプレートが関連付けられているかを示します。すべてのテンプレートは以下の 3 つの部分から構成されています。
 
-* **構造** — 各ページに強制的に表示され、ページの作成者が削除できないリソース（ページのヘッダーやフッターコンポーネントなど）を含みます。
-* **initial** — 作成時にページに複製される初期コンテンツを含みます。
-* **policies** — 各コンポーネントに対して、コンポーネントの事前設定であるポリシーへのマッピングを含みます。 このマッピングにより、複数のテンプレートにわたるポリシーの再利用、したがってポリシーの一元管理が可能となります。
+* **structure** - すべてのページに強制的に配置され、ページ作成者が削除できないリソース（ページのヘッダーコンポーネントやフッターコンポーネントなど）を含みます。
+* **initial** - ページ作成時にページに複製される初期コンテンツを含みます。
+* **policies** - コンポーネントごとに、ポリシー（コンポーネントの事前設定）へのマッピングを含みます。このマッピングにより、複数のテンプレートにわたるポリシーの再利用、したがってポリシーの一元管理が可能となります。
 
 ![テンプレートとポリシーの概要](assets/screen_shot_2018-12-07at093102.png)
 
 ## AEM プロジェクトアーキタイプ {#aem-project-archetype}
 
-[AEM Project Archetypeは、推奨のプロキシパターンを使用したコアコンポーネントのロジックと適切な実装にSlingModelsを使用したカスタムHTLコンポーネントのヘルワールド例を含む、最小限のAdobe Experience Managerプロジェクトを独自のプロジェクトの起点として作成します。](overview.md)
+[AEM プロジェクトアーキタイプ](overview.md)は、最小限の Adobe Experience Manager プロジェクトを独自のプロジェクトの起点として作成します。これには、推奨のプロキシパターンを使用してコアコンポーネントのロジックと適切な実装をおこなうために、SlingModels を使用したカスタム HTL コンポーネントの helloworld の例が含まれます。
 
 **関連項目：**
 
