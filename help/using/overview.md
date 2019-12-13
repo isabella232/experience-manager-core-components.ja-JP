@@ -6,7 +6,7 @@ seo-description: AEM ベースのアプリケーション用のプロジェク�
 contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
@@ -65,7 +65,7 @@ Maven で表される AEM アーキタイプのモジュールは、アプリケ
 
 * Adobe Experience Manager 6.3.3.0 以降
 * Apache Maven（3.3.9 以降）
-* Adobe Public Maven リポジトリを Maven 設定に追加します。詳しくは、この[ナレッジベース記事](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html)を参照してください。
+* Adobe Public Maven リポジトリを Maven 設定に追加します。詳しくは、この[ナレッジベース記事](https://helpx.adobe.com/jp/experience-manager/kb/SetUpTheAdobeMavenRepository.html)を参照してください。
 
 以前のアーキタイプバージョンでサポートされている　AEM　バージョンのリストについては、[過去にサポートされていた AEM バージョン](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)を参照してください。
 
@@ -77,7 +77,7 @@ Maven でプロジェクトを構築すると、AEM にデプロイできるア�
 
 ### プロジェクトの作成 {#create-project}
 
-最初に、最も簡単に [AEM Eclipse 拡張機能](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html)を使用し、新しいプロジェクトウィザードに従って「**AEM Sample Multi-Module Project**」を選択し、リリースされたバージョンのアーキタイプを使用できます。
+最初に、最も簡単に [AEM Eclipse 拡張機能](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/aem-eclipse.html)を使用し、新しいプロジェクトウィザードに従って「**AEM Sample Multi-Module Project**」を選択し、リリースされたバージョンのアーキタイプを使用できます。
 
 もちろん、Maven を直接呼び出すこともできます。
 
@@ -94,7 +94,7 @@ mvn archetype:generate \
 >
 >ベストプラクティスとしては、repo.adobe.com を自動で maven のビルドプロセスに追加するために、`adobe-public` プロファイルを Maven の `settings.xml` ファイルに追加することが推奨されます。
 >
->POM の例は[こちらにあります](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html)。
+>POM の例は[こちらにあります](https://helpx.adobe.com/jp/experience-manager/kb/SetUpTheAdobeMavenRepository.html)。
 
 ### プロパティ {#properties}
 
@@ -102,8 +102,8 @@ mvn archetype:generate \
 
 | 名前 | デフォルト値は | 説明 |
 ----------------------------|---------|--------------------
-| `groupId` |  | Base Maven `groupId` |
-| `artifactId` |  | Base Maven ArtifactId |
+| `groupId` |  | ベース  Maven `groupId` |
+| `artifactId` |  | ベース  Maven ArtifactId |
 | `version` |  | バージョン |
 | `package` |  | Java ソースパッケージ |
 | `appsFolderName` |  | `/apps` フォルダー名 |
@@ -191,7 +191,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-主要な依存関係の 1 つに [AEM uber-jar](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies) があります。これにより、AEM のバージョンに対して、すべての AEM API が単一の依存関係のエントリで含められます。
+主要な依存関係の 1 つに [AEM uber-jar](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies) があります。これにより、AEM のバージョンに対して、すべての AEM API が単一の依存関係のエントリで含められます。
 
 >[!NOTE]
 >
@@ -201,13 +201,13 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 もちろん、AEM プロジェクトのアーキタイプはコアコンポーネントを活用します。
 
-コアコンポーネントは、デフォルトの実行モードで AEM に自動的にインストールされます。また、サンプルの We.Retail サイトで使用されます。[実稼動実行モード](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/production-ready.html)（`nosamplecontent`）では、コアコンポーネントは使用できません。
+コアコンポーネントは、デフォルトの実行モードで AEM に自動的にインストールされます。また、サンプルの We.Retail サイトで使用されます。[実稼動実行モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/production-ready.html)（`nosamplecontent`）では、コアコンポーネントは使用できません。
 
 そのため、すべてのデプロイメントでコアコンポーネントを使用するには、それらを Maven プロジェクトの一部に組み込むことが推奨されます。
 
 >[!NOTE]
 >
->通常、コアコンポーネントの各リリースに続いてAEMプロジェクトアーキタイプのリリースが行われ、最新のアーキタイプで最新バージョンのコアコンポーネントが使用されます。
+>最新のアーキテクチャでコアコンポーネントの最新バージョンが使用されるよう、通常は、コアコンポーネントの各リリースに続き、AEM プロジェクトアーキタイプがリリースされます。
 >
 >ただし、新しいバージョンのアーキタイプは、新しいバージョンのコアコンポーネントに直接従っていない可能性があるので、コアコンポーネントの依存関係を最新バージョンに更新することができます。
 
@@ -225,7 +225,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
    * `mvn clean verify -PintegrationTests`
 * クライアントサイドの Hobbes.js テスト：ブラウザー側の動作を検証する JavaScript ベースのブラウザーサイドテストです。テストするには：
    1. ページの作成時と同様に、ブラウザーに AEM を読み込みます。
-   1. ページを[開発者モード](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/developer-mode.html)で開きます。
+   1. ページを[開発者モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/developer-mode.html)で開きます。
    1. 左のパネルを開き、「**Tests**」タブに切り替えます。
    1. 生成された **MyName Tests** を見つけ、実行します。
 
@@ -234,6 +234,6 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 AEM プロジェクトアーキタイプを構築し、インストールしました。次は何をすればよいでしょうか。アーキタイプは小さいとはいえ、推奨ベストプラクティスに従って設定された、多数の強力な AEM 機能の例で構成されています。これらを使用すれば、プロジェクトで機能をどのように活用できるかがわかります。どのプロジェクトでも、次の作業が必要になる可能性があります。
 
 * [既存のコアコンポーネントを拡張するコンポーネントのカスタマイズ](customizing.md)
-* [テンプレートの追加](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
-* [ローカリゼーション構造の適応](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
+* [テンプレートの追加](https://helpx.adobe.com/content/help/jp/experience-manager/6-5/sites/authoring/using/templates.html)
+* [ローカリゼーション構造の適応](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-prep.html)
 * [フロントエンドビルドモジュールの詳細](uifrontend.md)
