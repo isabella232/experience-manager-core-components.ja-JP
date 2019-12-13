@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: core-components
 index: y
 internal: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 # コアコンポーネントのローカライゼーション機能 {#localization-features-of-the-core-components}
 
-多くの Web サイトでは、複数の言語や地域にわたってローカライズされた形式でコンテンツを配信する必要があります。選択されたコアコンポーネントは、スマートリファレンス解決を備え、ローカライズされたサイト構造に基づいて自動的に適合するローカライズされたすべてのコンテンツに対して、統合されたテンプレートを簡単に作成できます。
+多くの Web サイトでは、複数の言語や地域にわたってローカライズされた形式でコンテンツを配信する必要があります。選択されたコアコンポーネントは、スマートリファレンス解決機能を備えており、ローカライズされたサイト構造に基づいてローカライズされたすべてのコンテンツに自動的に適応するので、統合されたテンプレートを簡単に作成できます。
 
 ## 例 - ナビゲーションとフッターを含むローカライズされたページ {#example}
 
@@ -23,7 +23,7 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ナビゲーションコンポーネントも同様に、通常、すべてのページに表示する必要があります。また、ローカライズされたページのコンテンツを反映する必要があります。
 
-Using the localization features of the [Navigation Core Component](navigation.md) and [Experience Fragment Core Component](experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), this becomes a simple task. この例は、[言語ナビゲーションコンポーネント](language-navigation.md)を使用するように拡張することもできます。
+[AEM の編集可能なテンプレート](navigation.md)と共に [Navigation Core Component](experience-fragment.md) と [Experience Fragment Core Component](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html) のローカライゼーション機能を使用すると、簡単な作業になります。この例は、[言語ナビゲーションコンポーネント](language-navigation.md)を使用するように拡張することもできます。
 
 ## コンテンツ構造 {#content-structure}
 
@@ -93,7 +93,7 @@ AEM とそのコアコンポーネントのすべてのローカライゼーシ�
 * [コンテナコンポーネント](container.md)
    * 作成者がページに追加のコンテンツを配置できるように、各ページに編集可能なコンテナコンポーネントが含まれます。
 * [エクスペリエンスフラグメント](experience-fragment.md)
-   * ここでは、Experience Fragmentコンポーネントに、フッターを表すフラグメントのオーサリング言語でのフラグメントパスを指定します。
+   * ここでは、フッターを表すフラグメントのオーサリング言語で、エクスペリエンスフラグメントコンポーネントにフラグメントパスを指定します。
    * 指定したフラグメントパスと、ローカライズされたページ構造を反映するエクスペリエンスフラグメントの構造に基づいて、コンポーネントは、対応するローカライズされたコンテンツを自動的に検索します。
    ![](assets/screen-shot-2019-09-09-11.20.10.png)
 
