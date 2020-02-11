@@ -1,16 +1,8 @@
 ---
 title: アコーディオンコンポーネント
-seo-title: アコーディオンコンポーネント
-description: 'null'
-seo-description: コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
-source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
+description: コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
+translation-type: tm+mt
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -24,7 +16,7 @@ source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルコンポーネントをページ上に作成できます。[タブコンポーネント](tabs.md)と似ていますが、パネルの展開と折りたたみが可能です。
 
 * アコーディオンのプロパティは、[設定ダイアログ](#configure-dialog)で定義できます。
-* アコーディオンのパネルの順序は、設定ダイアログで定義できます。また、[パネルを選択ポップオーバー](#select-planel.md)でも定義できます。
+* アコーディオンのパネルの順序は、設定ダイアログで定義できます。また、[パネルを選択ポップオーバー](#select-panel.md)でも定義できます。
 * アコーディオンコンポーネントをページに追加するときのデフォルト設定は、[デザインダイアログ](#design-dialog)で定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
@@ -33,19 +25,19 @@ source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしてのAEM |
+|--- |--- |--- |---|---|
+| v1 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-アコーディオンコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html)を参照してください。
+アコーディオンコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_accordion)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-アコーディオンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) を参照してください。
+アコーディオンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -66,7 +58,7 @@ source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 >[!TIP]
 >
->ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのアコーディオンコンポーネントにドラッグ＆ドロップ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)することで、コンポーネントをアコーディオンコンポーネントに追加できます。
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのアコーディオンコンポーネントにドラッグ＆ドロップ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)することで、コンポーネントをアコーディオンコンポーネントに追加できます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
@@ -107,7 +99,7 @@ source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がアコーディオンコンポーネント内のパネルにアイテムとして追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)際の同じ名前のタブと同じように機能します。
+「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)際の同じ名前のタブと同じように機能します。
 
 ### 「スタイル」タブ {#styles-tab}
 
