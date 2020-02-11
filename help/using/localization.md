@@ -1,14 +1,8 @@
 ---
 title: コアコンポーネントのローカライゼーション機能
-seo-title: コアコンポーネントのローカライゼーション機能
 description: コアコンポーネントのローカライゼーション機能
-seo-description: コアコンポーネントのローカライゼーション機能
-content-type: reference
-topic-tags: core-components
-index: y
-internal: n
-translation-type: ht
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+translation-type: tm+mt
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -23,7 +17,7 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ナビゲーションコンポーネントも同様に、通常、すべてのページに表示する必要があります。また、ローカライズされたページのコンテンツを反映する必要があります。
 
-[AEM の編集可能なテンプレート](navigation.md)と共に [Navigation Core Component](experience-fragment.md) と [Experience Fragment Core Component](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html) のローカライゼーション機能を使用すると、簡単な作業になります。この例は、[言語ナビゲーションコンポーネント](language-navigation.md)を使用するように拡張することもできます。
+[AEM の編集可能なテンプレート](navigation.md)と共に [Navigation Core Component](experience-fragment.md) と [Experience Fragment Core Component](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) のローカライゼーション機能を使用すると、簡単な作業になります。この例は、[言語ナビゲーションコンポーネント](language-navigation.md)を使用するように拡張することもできます。
 
 ## コンテンツ構造 {#content-structure}
 
