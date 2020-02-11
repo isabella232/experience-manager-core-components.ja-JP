@@ -1,11 +1,8 @@
 ---
-cloud: experience-cloud
-product: adobe experience manager
-sub-product: adobe experience manager core components
-archetype: Administrator
+sub-product: AEM Core Components
 user-guide-title: AEM Core Components
-translation-type: ht
-source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
+translation-type: tm+mt
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -13,7 +10,7 @@ source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
 # AEM コアコンポーネントヘルプ {#using}
 
 + [コアコンポーネントの概要](introduction.md)
-+ [コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)
++ [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library)
 + [コアコンポーネントのバージョン](versions.md)
 + はじめに {#get-started}
    + [コアコンポーネントを使用したオーサリング](authoring.md)
@@ -63,7 +60,7 @@ source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
          + [フォームテキスト（v1）](form-text-v1.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing.md)
-   + [WKND 開発者向けチュートリアル](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [WKND 開発者向けチュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [コアコンポーネントのカスタマイズ](customizing.md)
    + [コンポーネントのガイドライン](guidelines.md)
    + AEM プロジェクトアーキタイプ {#archetype}
