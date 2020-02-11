@@ -1,21 +1,8 @@
 ---
 title: コアコンポーネントの使用
-seo-title: コアコンポーネントの使用
-description: 'null'
-seo-description: '"独自のプロジェクトにコアコンポーネントを導入するには、4 つの手順（ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートでのコンポーネントの有効化）に従います。"'
-uuid: a1ef2acf-8226-4510-838b-f5fae196f9f1
-contentOwner: ユーザー
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 1703a171-830c-477e-a34f-99caba841ec4
-disttype: dist5
-gnavtheme: light
-index: y
-internal: n
-snippet: y
+description: '"独自のプロジェクトにコアコンポーネントを導入するには、4 つの手順（ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートでのコンポーネントの有効化）に従います。"'
 translation-type: tm+mt
-source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -40,7 +27,7 @@ source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
 
 このため、実稼働モード（サンプルコンテンツなし）で開始する場合、コアコンポーネントはクイックスタートには含まれません。Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
 
-There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Also, once you'll have a publish instance running as well, you'll need to replicate that package to the publisher; see [Replicating Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Also, once you&#39;ll have a publish instance running as well, you&#39;ll need to replicate that package to the publisher; see [Replicating Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
 <!-- 
 
@@ -113,7 +100,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. If not done yet, create a [Client Library](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
+1. If not done yet, create a [Client Library](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
 1. サイトのクライアントライブラリで、必要なコアコンポーネントへの依存関係を追加します。これをおこなうには、`embed` プロパティを追加します。
 
    例えば、すべての v1 コアコンポーネントのクライアントライブラリを組み込むには、追加するプロパティは次のようになります。
@@ -132,7 +119,7 @@ Load the Core Client Libraries sounds way better
 
 ## コンポーネントの有効化 {#allow-the-components}
 
-テンプレートエディターでは、次の手順 [を実行します](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。
+テンプレートエディターでは、次の手順 [を実行します](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 1. テンプレートエディターで、レイアウトコンテナを選択し、そのポリシーを開きます。
 1. 「許可されるコンポーネント」のリストで、作成済みのプロキシコンポーネントを選択します。これは、プロキシコンポーネントに割り当てられているコンポーネントグループの下に表示されます。操作が完了したら、変更を適用します。
