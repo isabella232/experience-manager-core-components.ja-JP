@@ -1,15 +1,9 @@
 ---
 title: 画像コンポーネント（v1）
-seo-title: 画像コンポーネント（v1）
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-seo-description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -85,9 +79,9 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 ![](assets/chlimage_1-50.png)
 
 * **画像アセット**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) or tap the **browse** option to upload from a local file system.
+   * [アセットブラウザー](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
+   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)」をタップまたはクリックします。
 
 * **画像は装飾画像** - 画像が支援テクノロジーによって無視される場合（したがってその代替テキストが不要な場合）はオンにします。これは、装飾画像にのみ適用されます。
 * **代替テキスト** - 視覚に障害のあるユーザー向けの、画像の意味や機能を示す代替テキスト。
@@ -239,7 +233,7 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
 ## 技術的詳細 {#technical-details}
 
-イメージコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image)。
+画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image) を参照してください。
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
