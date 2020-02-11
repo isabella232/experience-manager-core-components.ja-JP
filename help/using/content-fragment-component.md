@@ -1,23 +1,15 @@
 ---
 title: コンテンツフラグメントコンポーネント
-seo-title: コンテンツフラグメントコンポーネント
-description: 'null'
-seo-description: コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、コンテンツフラグメントを表示できます。
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: ユーザー
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、コンテンツフラグメントを表示できます。
 translation-type: tm+mt
-source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # コンテンツフラグメントコンポーネント{#content-fragment-component}
 
-The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+The Core Component Content Fragment component allows for the display of a [content fragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 >[!NOTE]
 >
@@ -25,11 +17,11 @@ The Core Component Content Fragment component allows for the display of a [conte
 
 ## 使用方法 {#usage}
 
-The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page.
+The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) on a page.
 
 * フラグメントとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * 特定の画像やグリッドを処理するリソースタイプは、[デザインダイアログ](#design-dialog)で定義できます。
-* 編集オプションを選択すると、選択したフラグメントがコンテンツフラグメントエデ [ィター内で開きま](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)す。
+* 編集オプションを選択すると、選択したフラグメントがコンテンツフラグメントエデ [ィター内で開きま](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)す。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -37,9 +29,9 @@ The Core Component Content Fragment Component allows for the inclusion of a [con
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしてのAEM |
+|--- |--- |--- |---|---|
+| v1 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
 
 >[!NOTE]
 >
@@ -57,11 +49,11 @@ The Core Component Content Fragment Component allows for the inclusion of a [con
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-コンテンツフラグメントコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)を参照してください。
+コンテンツフラグメントコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_cf)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Content Fragment Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
+The latest technical documentation about the Content Fragment Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -102,3 +94,4 @@ The latest technical documentation about the Content Fragment Component [can be 
 * **内部レスポンシブグリッド**
 
    * 内部レスポンシブグリッドに使用される Sling リソースタイプ
+
