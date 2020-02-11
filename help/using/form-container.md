@@ -1,25 +1,8 @@
 ---
 title: フォームコンテナコンポーネント
-seo-title: フォームコンテナコンポーネント
-description: 'null'
-seo-description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
-uuid: 9d556daf-3fe7-4b2a-b5ae-6926acb267a9
-contentOwner: ユーザー
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3d33fe60-a0ac-4ff2-a865-d600b5448aeb
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: ' no'
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,11 +15,11 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 フォームコンテナコンポーネントでは、シンプルな WCM フォームをサポートし、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
-[設定ダイアログ](#configure-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクション、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。The template author can use the [design dialog](#design-dialog) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+[設定ダイアログ](#configure-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクション、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。The template author can use the [design dialog](#design-dialog) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
->コアコンポーネントのフォームコンテナコンポーネントでは、コアコンポーネントのフォームコンポーネント（ボタン、テキスト、非表示など）のみ使用できます。Using [foundation components](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) form components within the core components form container (and vice versa) is not supported.
+>コアコンポーネントのフォームコンテナコンポーネントでは、コアコンポーネントのフォームコンポーネント（ボタン、テキスト、非表示など）のみ使用できます。Using [foundation components](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) form components within the core components form container (and vice versa) is not supported.
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -44,16 +27,16 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 互換性あり | 互換性あり | 互換性あり |
-| [v1](form-container-v1.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしてのAEM |
+|--- |--- |--- |--- |---|
+| v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| [v1](form-container-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Form Container Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container)
+The latest technical documentation about the Form Container Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -124,4 +107,4 @@ The latest technical documentation about the Form Container Component can be fou
 
 ## デザインダイアログ{#design-dialog}
 
-The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
