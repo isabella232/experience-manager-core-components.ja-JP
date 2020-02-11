@@ -1,24 +1,9 @@
 ---
 title: リストコンポーネント（v1）
-seo-title: リストコンポーネント（v1）
-description: 'null'
-seo-description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
-uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: ' no'
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: 'true'
+description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -272,7 +257,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## 技術的詳細 {#technical-details}
 
-List Componentに関する最新の技術ドキュメントは、GitHub [で入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list)。
+The latest technical documentation about the List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
