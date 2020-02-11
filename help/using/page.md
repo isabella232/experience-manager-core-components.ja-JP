@@ -1,23 +1,15 @@
 ---
 title: ページコンポーネント
-seo-title: ページコンポーネント
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
-seo-description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
-uuid: 7052a5b1-e7f1-4944-a55c-faf739b6e89c
-contentOwner: ユーザー
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
 
 # ページコンポーネント{#page-component}
 
-The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
+The Page Component is an extensible page component designed to work with the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
 
 ## 使用方法 {#usage}
 
@@ -31,20 +23,20 @@ The Page Component is an extensible page component designed to work with the [te
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| [v2](page-v1.md) | 互換性あり | 互換性あり | 互換性あり |
-| v1 | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしてのAEM |
+|---|---|---|---|---|
+| [v2](page-v1.md) | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| v1 | 互換性あり | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
 >[!NOTE]
 >
->To enable redirect at `cq:Page` level for verison 2 of the page component and AEM 6.3, [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) or later is required. このようなリダイレクトは、以前のリリースでは使用できませんでした。
+>To enable redirect at `cq:Page` level for version 2 of the page component and AEM 6.3, [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) or later is required. このようなリダイレクトは、以前のリリースでは使用できませんでした。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下は [We.Retailのサンプルです](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
 
 ### スクリーンショット {#screenshot}
 
@@ -52,13 +44,13 @@ The Page Component is an extensible page component designed to work with the [te
 
 ### 技術的詳細 {#technical-details}
 
-ページコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page)。
+The latest technical documentation about the Page Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_page_v2).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
 ## 編集ダイアログ{#edit-dialog}
 
-Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html) window.
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) window.
 
 ## デザインダイアログ{#design-dialog}
 
