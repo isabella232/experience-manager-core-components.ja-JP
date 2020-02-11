@@ -1,17 +1,8 @@
 ---
 title: WKND 開発者向けチュートリアル
-seo-title: AEM に関する WKND 開発者向けチュートリアル
 description: コアコンポーネントを使用して AEM Sites 開発を開始する
-seo-description: コアコンポーネントを使用して AEM Sites 開発を開始する
-uuid: 7c3e852c-b738-45b4-b589-d342d129ab17
-contentOwner: bohnert
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-topic-tags: introduction
-discoiquuid: b4a78adb-5e84-4941-8e55-deb8f377d211
-redirecttarget: https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/getting-started.html
 translation-type: tm+mt
-source-git-commit: 23c3691a93a661c6e75087b4f094fd5263cb540e
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
