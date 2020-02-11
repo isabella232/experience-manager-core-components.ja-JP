@@ -1,16 +1,8 @@
 ---
 title: コアコンポーネントの開発
-seo-title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
-seo-description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
-uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
-contentOwner: User
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
-translation-type: ht
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+translation-type: tm+mt
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -32,36 +24,36 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
    * [バージョン内の互換性を確保](#upgrade-of-core-components)しつつ、コンポーネントを発展させることができる
    * 1 つのコンポーネントの複数バージョンが同じ環境で共存できる
 * 最新の実装
-   * [HTML テンプレート言語](https://helpx.adobe.com/jp/experience-manager/htl/using/overview.html)（HTL）で定義されたマークアップ
+   * [HTML テンプレート言語](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)（HTL）で定義されたマークアップ
    * [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)で実装されたコンテンツモデルロジック
 * 効率的なマークアップ
    * リリース 2.0.0 時点の[ブロック要素修飾子](https://getbem.com/)（BEM）表記に準拠
       * 以前のリリースでは、[Bootstrap](https://getbootstrap.com/css/) 命名規則に準拠していました。
-   * [アクセシビリティガイドライン](https://helpx.adobe.com/jp/experience-manager/6-5/managing/using/web-accessibility.html)に沿って構築されている
+   * [アクセシビリティガイドライン](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に沿って構築されている
    * レスポンシブサイトおよびモバイルサイトに使用可能
 * ヘッドレス CMS の使用例で JSON コンテンツモデルとしてシリアル化する機能
 * 高いアクセシビリティ
-   * [WCAG 2.0 AA 標準](https://helpx.adobe.com/jp/experience-manager/6-5/managing/using/web-accessibility.html)に準拠
+   * [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に準拠
 
 >[!CAUTION]
 >
->コアコンポーネントでは AEM 6.3 以降と Java 8 が必要です。また、[編集可能テンプレート](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)を使用する必要があります。
+>コアコンポーネントでは AEM 6.3 以降と Java 8 が必要です。また、[編集可能テンプレート](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)を使用する必要があります。
 >
 >コアコンポーネントは、クラシック UI でも静的テンプレートでも動作しません。
 
 ## Gems セッションの概要 {#gems-session-overview}
 
-コアコンポーネントとその機能、AEM での活用方法の概要については、AEM Gems セッションの [AEM コアコンポーネント](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+コアコンポーネントとその機能、AEM での活用方法の概要については、AEM Gems セッションの [AEM コアコンポーネント](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/aem-index.html) は、アドビのエキスパートによる技術的な詳細の解説シリーズです。製品ドキュメントやその他のあらゆる技術的なチャネルを補完するこのシリーズを利用すれば、開発者は特定のトピックにふれ、深く理解することができます。
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) は、アドビのエキスパートによる技術的な詳細の解説シリーズです。製品ドキュメントやその他のあらゆる技術的なチャネルを補完するこのシリーズを利用すれば、開発者は特定のトピックにふれ、深く理解することができます。
 
 ## WKND 開発者向けチュートリアル {#wknd-developer-tutorial}
 
-コアコンポーネントで AEM Sites の開発を始めるには、[この詳しいチュートリアル](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/getting-started.html)に従います。
+コアコンポーネントで AEM Sites の開発を始めるには、[この詳しいチュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)に従います。
 
 ## AEM プロジェクトアーキタイプ {#aem-project-archetype}
 
-[AEM プロジェクトアーキタイプ](overview.md)は、最小限の Adobe Experience Manager プロジェクトを独自のプロジェクトの起点として作成します。これには、推奨のプロキシパターンを使用してコアコンポーネントのロジックと適切な実装をおこなうために、SlingModels を使用したカスタム HTL コンポーネントの helloworld の例が含まれます。
+[AEM Project Archetypeは、推奨のプロキシパターンを使用したコアコンポーネントのロジックと適切な実装のためのSlingModelを使用したカスタムHTMLコンポーネントの例を含め、独自のプロジェクトの起点として最小限のAdobe Experience Managerプロジェクトを作成します。](overview.md)
 
 ## GitHub 経由で配信 {#delivered-over-github}
 
@@ -84,15 +76,23 @@ GitHub のコード
 
 ## コンポーネントライブラリ
 
-[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library.html)を参照してください。ここでは、コアコンポーネントの現在のリリースを紹介し、使用例を示しています。
+[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library)を参照してください。ここでは、コアコンポーネントの現在のリリースを紹介し、使用例を示しています。
 
-### サンプルコンテンツ実行モード {#sample-content-run-mode}
+### コアコンポーネントをすぐに使用できる状態 {#out-of-the-box}
 
-サンプルコンテンツが存在する場合は、コアコンポーネントがクイックスタートに表示されます。[We.Retail リファレンスサイト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/we-retail.html)でコアコンポーネントが使用されるからです。ただし、実稼働環境で（サンプルコンテンツが有効でない `nosamplecontent` 実行モードで）実行する場合は、コアコンポーネントは存在しなくなり、開発チームや運用チームの手で AEM インスタンスにインストールする必要があります。
+AEMの実行方法に応じて、コアコンポーネントが自動的にインストールされる場合とされない場合があります。
+
+#### クラウドサービスとしてのAEM {#aem-cloud-service}
+
+コアコンポーネントはクラウドサービスとしての [AEMとの完全な互換性がありますが](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)、コアコンポーネントは手動でインストールする必要があり、そのまま使用することはできません。
+
+#### AEMオンプレミス {#on-premise}
+
+In on-premise installations, the Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won&#39;t be present anymore and must be installed on the AEM instance.
 
 >[!NOTE]
 >
->実稼働環境では、クイックスタートを必ず `nosamplecontent` 実行モードで実行してください。`nosamplecontent` 実行モードでコアコンポーネントを使用するには、[コアコンポーネントの使用](using.md)の説明に従ってください。
+>In on-premise production environments, always run the Quickstart in `nosamplecontent` runmode. `nosamplecontent` 実行モードでコアコンポーネントを使用するには、[コアコンポーネントの使用](using.md)の説明に従ってください。
 
 ## 技術的機能 {#technical-capabilities}
 
@@ -103,17 +103,17 @@ GitHub のコード
 | **機能** | **コアコンポーネント** | **基盤コンポーネント** |
 |-----|---|---|
 | ロジックの実装 | [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)注釈の付いた Java POJO | JSP コード |
-| マークアップ定義 | [HTML テンプレート言語](https://helpx.adobe.com/jp/experience-manager/htl/user-guide.html)（HTL）構文 | JSP コード |
+| マークアップ定義 | [HTML テンプレート言語](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)（HTL）構文 | JSP コード |
 | XSS サニタイズ | HTL で自動化 | ほぼ手動 |
 | CSS クラスの命名 | [ブロック要素修飾子](https://getbem.com/)（BEM）表記（リリース 2.0.0 時点）に基づく、標準化された命名規則 | カスタムスキーム |
-| ダイアログの定義 | [Coral 3](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + クラシック UI |
+| ダイアログの定義 | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + クラシック UI |
 | JSON 出力 | [Jackson シリアル化を使用している Sling モデルエクスポーター](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | デフォルト Sling サーブレット |
 | バージョン管理 | [モデルと HTL の場合](guidelines.md) | なし |
 | テスト | 単体テスト + 統合テスト | 統合テスト |
 | 配信 | [公開 GitHub 経由](https://github.com/adobe/aem-core-wcm-components) | クイックスタートを通じて |
 | ライセンス | [Apache ライセンス](https://www.apache.org/licenses/LICENSE-2.0) | アドビ固有 |
 | 貢献度 | プル要求を通じて | 不可能 |
-| アクセシビリティ | [WCAG 2.0 AA 標準](https://helpx.adobe.com/jp/experience-manager/6-5/managing/using/web-accessibility.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://helpx.adobe.com/jp/experience-manager/6-5/managing/using/web-accessibility.html)に部分的に準拠 |
+| アクセシビリティ | [WCAG 2.0 AA 標準]に完全に準拠(https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
 
 ## コンポーネントリスト {#component-list}
 
@@ -121,33 +121,33 @@ GitHub のコード
 
 | コアコンポーネント | 説明 | 置き換わる基盤コンポーネント |
 |---|---|---|
-| [ページ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page) | テンプレートエディターに対応するレスポンシブページ | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
-| [パンくず](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb) | ページ階層のナビゲーション | `/libs/foundation/components/breadcrumb` |
-| [タイトル](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title) | H1 ~ H6 タイトル | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
+| [ページ](https://adobe.com/go/aem_cmp_tech_page_v2) | テンプレートエディターに対応するレスポンシブページ | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
+| [パンくず](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | ページ階層のナビゲーション | `/libs/foundation/components/breadcrumb` |
+| [タイトル](https://adobe.com/go/aem_cmp_tech_title_v2) | H1 ~ H6 タイトル | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
 | [テキスト](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | リッチテキスト | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
-| [画像](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image) | 最適なレンディションサイズのスマート遅延読み込み | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
-| [リスト](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list) | ページのリスト | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [ソーシャルメディア共有](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing) | Facebook および Pinterest の共有ウィジェット | `-` |
-| [フォームコンテナ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container) | レスポンシブフォームの段落システム | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
-| [フォームテキスト](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text) | テキスト入力フィールド | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
-| [フォームオプション](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options) | 複数オプション入力フィールド | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
-| [フォーム非表示](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden) | 非表示の入力フィールド | `/libs/foundation/components/form/hidden` |
-| [フォームボタン](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button) | 送信ボタンまたはカスタムボタン | `/libs/foundation/components/form/submit` |
-| [ナビゲーション](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation) | ネストしたページ階層を一覧表示するサイトナビゲーションコンポーネント | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
-| [言語ナビゲーション](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation) | グローバル言語構造を一覧表示する言語および国の切り替え機能 | `-` |
-| [クイック検索](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search) | 結果をドロップダウンメニューでインプレース候補として表示する検索コンポーネント | `/libs/foundation/components/search` |
-| [ティーザー](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | 画像、タイトル、リッチテキスト、追加コンテンツや他のアクションへのリンクを使用して、コンテンツ作成者が詳細なコンテンツへのティーザーを容易に作成できるようにする | `-` |
-| [タブ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | コンテンツ作成者がページコンテンツを複数のタブに整理できるようにする | `-` |
-| [カルーセル](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | コンテンツ作成者がコンテンツをスライドの回転カルーセルに整理できるようにする | `/libs/foundation/components/carousel` |
-| [コンテンツフラグメント](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | コンテンツフラグメントを表示できるようにする | `-` |
-| [コンテンツフラグメントリスト](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | コンテンツフラグメントのリストを表示できるようにする | `-` |
-| [区切り文字](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | ページのコンテンツを区切る | `-` |
-| [アコーディオン](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | 折りたたみ可能なアコーディオンの形式にコンテンツパネルを整理する | `-` |
-| [コンテナ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | コンテナ内のコンポーネントを整理する | `-` |
-| [ボタン](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | ページ上にボタンを作成する | `-` |
-| [ダウンロード](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | ダウンロード可能なアセットをページに追加する | `-` |
-| [エクスペリエンスフラグメント](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | エクスペリエンスフラグメントをページに追加する | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [埋め込み](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | ページ内に外部リソースを埋め込む | - |
+| [画像](https://adobe.com/go/aem_cmp_tech_image_v2) | 最適なレンディションサイズのスマート遅延読み込み | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
+| [リスト](https://adobe.com/go/aem_cmp_tech_list_v2) | ページのリスト | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
+| [ソーシャルメディア共有](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Facebook および Pinterest の共有ウィジェット | `-` |
+| [フォームコンテナ](https://adobe.com/go/aem_cmp_tech_form_container_v2) | レスポンシブフォームの段落システム | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
+| [フォームテキスト](https://adobe.com/go/aem_cmp_tech_form_text_v2) | テキスト入力フィールド | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
+| [フォームオプション](https://adobe.com/go/aem_cmp_tech_form_options_v2) | 複数オプション入力フィールド | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
+| [フォーム非表示](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | 非表示の入力フィールド | `/libs/foundation/components/form/hidden` |
+| [フォームボタン](https://adobe.com/go/aem_cmp_tech_form_button_v2) | 送信ボタンまたはカスタムボタン | `/libs/foundation/components/form/submit` |
+| [ナビゲーション](https://adobe.com/go/aem_cmp_tech_navigation_v1) | ネストしたページ階層を一覧表示するサイトナビゲーションコンポーネント | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
+| [言語ナビゲーション](https://adobe.com/go/aem_cmp_tech_langnav_v1) | グローバル言語構造を一覧表示する言語および国の切り替え機能 | `-` |
+| [クイック検索](https://adobe.com/go/aem_cmp_tech_search_v1) | 結果をドロップダウンメニューでインプレース候補として表示する検索コンポーネント | `/libs/foundation/components/search` |
+| [ティーザー](https://adobe.com/go/aem_cmp_tech_teaser_v1) | 画像、タイトル、リッチテキスト、追加コンテンツや他のアクションへのリンクを使用して、コンテンツ作成者が詳細なコンテンツへのティーザーを容易に作成できるようにする | `-` |
+| [タブ](https://adobe.com/go/aem_cmp_tech_tabs_v1) | コンテンツ作成者がページコンテンツを複数のタブに整理できるようにする | `-` |
+| [カルーセル](https://adobe.com/go/aem_cmp_tech_carousel_v1) | コンテンツ作成者がコンテンツをスライドの回転カルーセルに整理できるようにする | `/libs/foundation/components/carousel` |
+| [コンテンツフラグメント](https://adobe.com/go/aem_cmp_tech_cf_v1) | コンテンツフラグメントを表示できるようにする | `-` |
+| [コンテンツフラグメントリスト](https://adobe.com/go/aem_cmp_tech_cflist_v1) | コンテンツフラグメントのリストを表示できるようにする | `-` |
+| [区切り文字](https://adobe.com/go/aem_cmp_tech_separator_v1) | ページのコンテンツを区切る | `-` |
+| [アコーディオン](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 折りたたみ可能なアコーディオンの形式にコンテンツパネルを整理する | `-` |
+| [コンテナ](https://adobe.com/go/aem_cmp_tech_container_v1) | コンテナ内のコンポーネントを整理する | `-` |
+| [ボタン](https://adobe.com/go/aem_cmp_tech_button_v1) | ページ上にボタンを作成する | `-` |
+| [ダウンロード](https://adobe.com/go/aem_cmp_tech_download_v1) | ダウンロード可能なアセットをページに追加する | `-` |
+| [エクスペリエンスフラグメント](https://adobe.com/go/aem_cmp_tech_xf_v1) | エクスペリエンスフラグメントをページに追加する | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [埋め込み](https://adobe.com/go/aem_cmp_tech_embed_v1) | ページ内に外部リソースを埋め込む | - |
 
 ### 今後リリース予定のコンポーネント {#upcoming-components}
 
@@ -157,7 +157,7 @@ GitHub のコード
 
 バージョン管理されたコンポーネントのメリットの 1 つは、新しい AEM バージョンへの移行と新しいコンポーネントバージョンへの移行を切り離すことができる点です。また、新しいコンポーネントバージョンが使用可能になった場合は、コンポーネントごとに新バージョンへ個別に移行できます。
 
-コアコンポーネントのバージョンが移行先の新しい AEM バージョンもサポートしている場合、新しい AEM バージョンへの移行はコアコンポーネントの動作に影響を与えません。[廃止または削除](https://helpx.adobe.com/jp/experience-manager/6-5/release-notes/deprecated-removed-features.html)された API を使用していない限り、コアコンポーネントのカスタマイズ部分も影響を受けません。
+コアコンポーネントのバージョンが移行先の新しい AEM バージョンもサポートしている場合、新しい AEM バージョンへの移行はコアコンポーネントの動作に影響を与えません。[廃止または削除](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)された API を使用していない限り、コアコンポーネントのカスタマイズ部分も影響を受けません。
 
 コアコンポーネントを新しいバージョンに移行しても、コンポーネントの動作には影響しませんが、ページ作成者向けの新しい機能が導入されることはあります。これらの機能については、デフォルトの動作が望ましくない場合、テンプレートエディターで何らかの設定が必要になる可能性があります。一方、カスタマイズ部分は適合が必要になる可能性があります。詳しくは、[コアコンポーネントのカスタマイズ](customizing.md#upgrade-compatibility-of-customizations)を参照してください。
 
@@ -212,7 +212,7 @@ GitHub のコード
 
 基盤コンポーネントは多数の AEM バージョンにわたって大規模プロジェクト開発の基礎の役割を果たしてきたので、今後も引き続きサポートされます。
 
-ただし、アドビの開発の重点はコアコンポーネントに移っており、新機能はコアコンポーネントに追加されます。一方、[大部分の Foundation コンポーネントが AEM 6.5 で廃止され](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/default-components-foundation.html)、今後 Foundation コンポーネントに対してはバグ修正のみがおこなわれます。
+ただし、アドビの開発の重点はコアコンポーネントに移っており、新機能はコアコンポーネントに追加されます。一方、[大部分の Foundation コンポーネントが AEM 6.5 で廃止され](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html)、今後 Foundation コンポーネントに対してはバグ修正のみがおこなわれます。
 
 **関連項目：**
 
