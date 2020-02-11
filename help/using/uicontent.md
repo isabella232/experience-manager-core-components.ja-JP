@@ -1,13 +1,8 @@
 ---
 title: AEM プロジェクトアーキタイプの ui.content モジュール
-seo-title: AEM プロジェクトアーキタイプの ui.content モジュール
 description: AEM プロジェクトアーキタイプの ui.content モジュール
-seo-description: AEM プロジェクトアーキタイプの ui.content モジュール
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
-translation-type: ht
-source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
+translation-type: tm+mt
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
