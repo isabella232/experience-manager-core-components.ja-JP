@@ -1,15 +1,9 @@
 ---
 title: フォーム非表示コンポーネント（v1）
-seo-title: フォーム非表示コンポーネント（v1）
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
-seo-description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
-uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -43,7 +37,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### HTML {#html}
 
