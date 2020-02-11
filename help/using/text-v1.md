@@ -1,24 +1,9 @@
 ---
 title: テキストコンポーネント（v1）
-seo-title: テキストコンポーネント（v1）
-description: 'null'
-seo-description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
-uuid: b787ebac-fa85-416a-b96b-9d2ee85428ec
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d5e37dc7-dfd4-4a44-89b6-c15651472c43
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: ' no'
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: 'true'
+description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -376,7 +361,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## 技術的詳細 {#technical-details}
 
-テキストコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text)。
+The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
