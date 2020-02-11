@@ -1,24 +1,8 @@
 ---
 title: フォーム非表示コンポーネント
-seo-title: フォーム非表示コンポーネント
-description: 'null'
-seo-description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
-uuid: 63a1b381-f45c-4241-b743-dea8abd45e11
-contentOwner: ユーザー
-content-type: reference
-topic-tags: core-components
-discoiquuid: 36e49035-7641-4bad-8a61-723060032903
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: ' no'
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -39,16 +23,16 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 互換性あり | 互換性あり | 互換性あり |
-| [v1](form-hidden-v1.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしてのAEM |
+|--- |--- |--- |--- |---|
+| v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| [v1](form-hidden-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下は [We.Retailのサンプルです](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
 
 ### HTML {#html}
 
@@ -88,7 +72,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ### 技術的詳細 {#technical-details}
 
-フォーム隠しコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden)。
+The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
