@@ -1,16 +1,8 @@
 ---
 title: 画像コンポーネント
-seo-title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-seo-description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
-contentOwner: ユーザー
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: ht
-source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
+translation-type: tm+mt
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -27,7 +19,7 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ## レスポンシブ機能 {#responsive-features}
 
-画像コンポーネントには、すぐに使用可能な堅牢なレスポンシブ機能が用意されています。ページテンプレートレベルで、[デザインダイアログ](#design-dialog)を使用して、画像アセットのデフォルトの幅を定義できます。画像コンポーネントは、正確な幅を自動的に読み込み、ブラウザーウィンドウのサイズに合わせて表示します。ウィンドウがリサイズされると、画像コンポーネントは、その場で適切な画像サイズを動的に読み取ります。画像コンポーネントはコンテンツの読み取り用に最適化されているので、コンポーネント開発者はカスタムメディアのクエリ定義を気にかける必要がありません。
+画像コンポーネントには、すぐに使用可能な堅牢なレスポンシブ機能が用意されています。ページテンプレートレベルで、[デザインダイアログ](#design-dialog)を使用して、画像アセットのデフォルトの幅を定義できます。画像コンポーネントは、正確な幅を自動的に読み込み、ブラウザーウィンドウのサイズに合わせて表示します。ウィンドウのサイズが変更されると、画像コンポーネントはその場で正しい画像サイズを動的に読み込みます。 画像コンポーネントはコンテンツの読み取り用に最適化されているので、コンポーネント開発者はカスタムメディアのクエリ定義を気にかける必要がありません。
 
 さらに、画像コンポーネントは、遅延読み込みをサポートし、ブラウザーで表示できるようになるまで、実際の画像アセットの読み込みを遅らせて、ページの応答性を高めます。
 
@@ -37,10 +29,10 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 互換性あり | 互換性あり | 互換性あり |
-| [v1](image-v1.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしてのAEM |
+|--- |--- |--- |--- |---|
+| v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| [v1](image-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
@@ -58,15 +50,15 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 >[!CAUTION]
 >
->SVG のサポートには、AEM 内の新しい画像エディター機能をサポートするために、[コアコンポーネントのリリース 2.1.0 と、](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html) AEM 6.4 の Service Pack 2 [、](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html)AEM 6.3 以降の Service Pack [3](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/image-editor.html) が必要です。
+>SVG のサポートには、AEM 内の新しい画像エディター機能をサポートするために、[コアコンポーネントのリリース 2.1.0 と、](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) AEM 6.4 の Service Pack 2 [、](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)AEM 6.3 以降の Service Pack [3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) が必要です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-画像コンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/image.html)にアクセスしてください。
+画像コンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_image)にアクセスしてください。
 
 ### 技術的詳細 {#technical-details}
 
-画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image) を参照してください。
+画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_image_v2) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -83,9 +75,9 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **画像アセット**
-   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * [アセットブラウザー](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-assets-touch-ui.html)」をタップまたはクリックします。
+   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)」をタップまたはクリックします。
 
 ### 「メタデータ」タブ {#metadata-tab}
 
@@ -149,7 +141,7 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
    >[!CAUTION]
    >
-   >ローンチマップ機能を使用するには、AEM 内で[新しい画像エディター機能](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 と、AEM 6.4 の [Service Pack 2](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html)、AEM 6.3 以降の [Service Pack 3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要です。
+   >ローンチマップ機能を使用するには、AEM 内で[新しい画像エディター機能](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 と、AEM 6.4 の [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html)、AEM 6.3 以降の [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要です。
 
    ![](assets/chlimage_1-12.png)
 
@@ -266,14 +258,6 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
    >[!CAUTION]
    >
    >「**反転**」オプションはデフォルトでは無効になっています。これを有効にすると、画像コンポーネントの編集ダイアログで「**水平方向に反転**」および「**垂直方向に反転**」ボタンが表示されますが、この機能は現在 AEM でサポートされていないので、これらのオプションを使用しておこなわれた変更は一切保持されません。
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
- -->
 
 * 切り抜き
 
