@@ -1,30 +1,52 @@
 ---
-cloud: experience-cloud
-solution-title: ラーニングとサポート
-solution-hub-url: https://helpx.adobe.com/jp/support/experience-manager/6-4.html
-solution-image: null
-getting-started-title: 概要
-getting-started-url: https://helpx.adobe.com/jp/experience-manager/get-started.html
-tutorials-title: チュートリアル
-tutorials-url: https://helpx.adobe.com/jp/experience-manager/kt/index/aem-6-4-videos.html
+product: Adobe Experience Manager
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: y
-translation-type: ht
-source-git-commit: e5f7fa578f19ed2eb1207c200556d9ac955162d0
+solution-title: AEMの学習とサポート
+solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
+getting-started-title: AEM向け開発の手引き
+getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
+tutorials-title: AEM チュートリアル
+tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
+translation-type: tm+mt
+source-git-commit: a3085d266baf32649fda528a7f4703e133d03ab7
 
 ---
 
 
 # 内部使用メタデータ
 
-metadata.md ファイルには、リポジトリ内にあるユーザーガイドの TOC.md ファイルにパススルーされるリポジトリレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更するには、任意の TOC.md ファイル内でそのように処理してください。
+GitHubオーサリングシステムのメタデータは階層的で、次の上位レベルの前例が定義されています。
 
-| メタデータ | 動作 |
-|--- |--- |
-| solution-title | 記事ヘッダーでリンクとして使用されます。 |
-| solution-hub-url | helpx ハブページを開きます。 |
-| solution-icon | ソリューションタイトルの横にソリューションアイコンを表示します。まだ実装されていません。 |
-| getting-started-url | helpx の「はじめに」のページへのリンク    |
-| tutorials-url | ビデオチュートリアル（helpx チュートリアルまたは KT チュートリアル）へのリンク |
-| mini-toc-levels | 右側のレールに表示される見出しレベルの数を決定します。デフォルトは 2 です。 |
-| git-repo | 内部使用のマスターリポジトリの場所を指定します。 |
+1. metadata.md
+1. ToC
+1. 記事
+
+metadata.mdファイルで定義されたメタデータはリポジトリ全体に適用されますが、ToCと記事のレベルで上書きできます。 メタデータの上書きは、可能な限り低いレベルで行う必要があります。
+
+最低限必要なのは、experience-manager-core-components.enリポジトリ内のメタデータです。
+
+metadata.md
+
+* `product`
+* `git-repo`
+* `index: y`
+* `solution-title`
+* `solution-hub-url`
+* `getting-started-title`
+* `getting-started-url`
+* `tutorials-title`
+* `tutorials-url`
+
+ToCs
+
+* `sub-product`
+* `user-guide-title`
+
+記事
+
+* `title`
+* `description`
+* `index: n` （以前のバージョンのコンポーネントのみ）
+
+メタデータに関する追加情報は、内部オーサリングガ [イドを参照してください。](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
