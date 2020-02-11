@@ -1,15 +1,8 @@
 ---
 title: テキストコンポーネント
-seo-title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
-seo-description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
-uuid: 5f8eee8f-7317-4712-a77f-e34e8a024187
-contentOwner: ユーザー
-content-type: reference
-topic-tags: core-components
-discoiquuid: 9a290584-565e-4392-999c-999ee4a93da1
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -30,32 +23,32 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v2 | 互換性あり | 互換性あり | 互換性あり |
-| [v1](text-v1.md) | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしてのAEM |
+|---|---|---|---|---|
+| v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| [v1](text-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-テキストコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/text.html)を参照してください。
+テキストコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_text)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-テキストコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)。
+The latest technical documentation about the Text Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
 ## テキストコンポーネントとリッチテキストエディター {#the-text-component-and-the-rich-text-editor}
 
-コアコンポーネントのテキストコンポーネントでは、AEM リッチテキストエディター（RTE）を利用します。RTE には、コンテンツ作成者がテキストコンテンツの編集に使用できる幅広い機能が用意されています。RTE は設定の柔軟性が非常に高く、数多くのオプションを提供しています。RTEの設定方法の詳細については、「リッチテキストエディターの設定 [」および「リッチテキストエディタ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) ープラグインの設定」を参照してください [](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)。
+コアコンポーネントのテキストコンポーネントでは、AEM リッチテキストエディター（RTE）を利用します。RTE には、コンテンツ作成者がテキストコンテンツの編集に使用できる幅広い機能が用意されています。RTE は設定の柔軟性が非常に高く、数多くのオプションを提供しています。RTEの設定方法の詳細については、「リッチテキストエディターの設定 [」および「リッチテキストエディタ](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) ープラグインの設定」を参照してください [](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
 
 コアコンポーネントのテキストコンポーネントでは、RTE がすぐに使用できる状態に設定されています。このドキュメントではこの後、テキストコンポーネントの標準設定について説明します。
 
 >[!NOTE]
 >
->Only options enabled by [UI configurations of the RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) are available by in the Text Component.
+>Only options enabled by [UI configurations of the RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) are available by in the Text Component.
 
 ## 編集ダイアログ{#edit-dialog}
 
@@ -253,7 +246,7 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
+Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
 
 ### 特殊文字 {#special-characters}
 
