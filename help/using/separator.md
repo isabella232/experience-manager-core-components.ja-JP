@@ -1,13 +1,8 @@
 ---
 title: 区切り文字コンポーネント
-seo-title: 区切り文字コンポーネント
 description: 区切り文字コンポーネントは、ページ上のコンポーネント間に区切りを作成します
-seo-description: 区切り文字コンポーネントは、ページ上のコンポーネント間に区切りを作成します
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -26,17 +21,17 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v1 | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしてのAEM |
+|---|---|---|---|---|
+| v1 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-区切り文字コンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html)を参照してください。
+区切り文字コンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_separator)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
+The latest technical documentation about the Separator Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1).
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
