@@ -1,16 +1,8 @@
 ---
 title: コアコンポーネントのカスタマイズ
-seo-title: コアコンポーネントのカスタマイズ
 description: コアコンポーネントは、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実施できるパターンをいくつか実装しています。
-seo-description: AEM コアコンポーネントは、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実施できるパターンをいくつか実装しています。
-uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
-contentOwner: ユーザー
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
-translation-type: ht
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+translation-type: tm+mt
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -36,7 +28,7 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ## AEM プロジェクトアーキタイプ {#aem-project-archetype}
 
-[AEM プロジェクトアーキタイプ](overview.md)は、最小限の Adobe Experience Manager プロジェクトを独自のプロジェクトの起点として作成します。これには、推奨のプロキシパターンを使用してコアコンポーネントのロジックと適切な実装をおこなうために、SlingModels を使用したカスタム HTL コンポーネントの helloworld の例が含まれます。
+[The AEM Project Archetype](overview.md) creates a minimal Adobe Experience Manager project as a starting point for your own projects, including an example of custom HTL component with SlingModels for the logic and proper implementation of the Core Components with the recommended proxy pattern.
 
 ## カスタマイズパターン {#customization-patterns}
 
@@ -44,9 +36,9 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 コアコンポーネントのダイアログ（[デザインダイアログ、編集ダイアログ](authoring.md)のいずれか）で利用可能な設定オプションのカスタマイズが必要になることがあります。
 
-各ダイアログには一貫したノード構造があります。継承する側のコンポーネントでこの構造を複製することをお勧めします。そうすれば、[Sling Resource Merger](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) や[非表示条件](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/hide-conditions.html)を使用して元のダイアログのセクションの非表示、置換または並べ替えをおこなうことができます。複製する構造は、タブ項目ノードレベルまでのすべて、と定義されます。
+各ダイアログには一貫したノード構造があります。継承する側のコンポーネントでこの構造を複製することをお勧めします。そうすれば、[Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) や[非表示条件](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html)を使用して元のダイアログのセクションの非表示、置換または並べ替えをおこなうことができます。複製する構造は、タブ項目ノードレベルまでのすべて、と定義されます。
 
-現在のバージョンのダイアログに対して行われる変更との互換性を完全に持たせるには、タブ項目レベルの下にある構造に対して変更（非表示、追加、置換、並べ替えなど）をおこなわないことが非常に重要となります。代わりに、`sling:hideResource` プロパティ（[Sling Resource Merger のプロパティ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)を参照）を使用して親のタブ項目を非表示にし、カスタム設定フィールドを含む新しいタブ項目を追加してください。必要に応じて、`sling:orderBefore` を使用してタブ項目を並べ替えることもできます。
+現在のバージョンのダイアログに対して行われる変更との互換性を完全に持たせるには、タブ項目レベルの下にある構造に対して変更（非表示、追加、置換、並べ替えなど）をおこなわないことが非常に重要となります。代わりに、`sling:hideResource` プロパティ（[Sling Resource Merger のプロパティ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)を参照）を使用して親のタブ項目を非表示にし、カスタム設定フィールドを含む新しいタブ項目を追加してください。必要に応じて、`sling:orderBefore` を使用してタブ項目を並べ替えることもできます。
 
 以下の図では、推奨されるダイアログの構造と、前述した、継承される側のタブを非表示にして置換する方法を示しています。
 
@@ -127,7 +119,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-さらに、各コアコンポーネントは AEM [スタイルシステムの機能](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/style-system.html)を活用しています。スタイルシステムを使用すれば、テンプレート作成者は、ページ作成者がコンポーネントに適用できる追加の CSS クラス名を定義することができます。また、テンプレートごとに、許可されるコンポーネントスタイルのリストと、いずれかのスタイルを同じ種類のすべてのコンポーネントにデフォルトで適用するかどうかを定義できます。
+さらに、各コアコンポーネントは AEM [スタイルシステムの機能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html)を活用しています。スタイルシステムを使用すれば、テンプレート作成者は、ページ作成者がコンポーネントに適用できる追加の CSS クラス名を定義することができます。また、テンプレートごとに、許可されるコンポーネントスタイルのリストと、いずれかのスタイルを同じ種類のすべてのコンポーネントにデフォルトで適用するかどうかを定義できます。
 
 ## アップグレード時のカスタマイズの互換性 {#upgrade-compatibility-of-customizations}
 
@@ -137,7 +129,7 @@ public class PageHeadline implements Title {
 * コアコンポーネントの新しいマイナーバージョンへのアップグレード
 * コアコンポーネントのメジャーバージョンへのアップグレード
 
-一般に、AEM を新しいバージョンにアップグレードしても、コンポーネントが移行先の新しい AEM バージョンもサポートし、[廃止または削除](https://helpx.adobe.com/jp/experience-manager/6-5/release-notes/deprecated-removed-features.html)された API がカスタマイズで使用されていなければ、コアコンポーネントやおこなったカスタマイズには何の影響もありません。
+一般に、AEM を新しいバージョンにアップグレードしても、コンポーネントが移行先の新しい AEM バージョンもサポートし、[廃止または削除](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)された API がカスタマイズで使用されていなければ、コアコンポーネントやおこなったカスタマイズには何の影響もありません。
 
 コアコンポーネントを新しいメジャーバージョンに切り替えずにアップグレードしても、このページで説明したカスタマイズパターンが使用されている限り、カスタマイズには何の影響もありません。
 
@@ -157,7 +149,7 @@ public class PageHeadline implements Title {
 
 1. **廃止された機能や削除された機能を確認してください。**
 
-   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://helpx.adobe.com/jp/experience-manager/6-5/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
+   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
 
 [コアコンポーネントのサポート](developing.md#core-component-support)の節も参照してください。
 
