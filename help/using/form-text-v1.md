@@ -1,15 +1,9 @@
 ---
 title: フォームテキストコンポーネント（v1）
-seo-title: フォームテキストコンポーネント（v1）
-description: 'null'
-seo-description: コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
-uuid: 30123aba-57a8-4ed4-93cb-6a3d2edff9a7
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: bd4e9930-4d81-49ae-a3d1-9a8740418dae
+description: コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -143,7 +137,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## 技術的詳細 {#technical-details}
 
-フォームテキストコンポーネントに関する最新の技術ドキュメ [ントは、GitHubで入手できます](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)。
+The latest technical documentation about the Form Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
