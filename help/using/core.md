@@ -1,13 +1,8 @@
 ---
 title: AEM プロジェクトアーキタイプのコアモジュール
-seo-title: AEM プロジェクトアーキタイプのコアモジュール
 description: AEM プロジェクトアーキタイプのコアモジュール
-seo-description: AEM プロジェクトアーキタイプのコアモジュール
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
-translation-type: ht
-source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
+translation-type: tm+mt
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
