@@ -1,12 +1,8 @@
 ---
 title: 埋め込みコンポーネント
-seo-title: 埋め込みコンポーネント
 description: 埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
-seo-description: 埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
-content-type: reference
-topic-tags: core-components
-translation-type: ht
-source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
+translation-type: tm+mt
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -28,19 +24,19 @@ source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしてのAEM |
+|--- |--- |--- |---|---|
+| v1 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-埋め込みコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/embed.html)を参照してください。
+埋め込みコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_embed)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-埋め込みコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) を参照してください。
+埋め込みコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -99,7 +95,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 ただし、埋め込みコンポーネントは AEM のグローバル HTML AntiSamy サニタイズフレームワークのフィルタリングルールセット（`/libs/cq/xssprotection/config.xml` を参照）に従っているので、ルールはさらに複雑になります。必要に応じ、開発者によってプロジェクト固有の設定に対応するよう、これをオーバーレイすることができます。
 
-セキュリティ情報について詳しくは、[AEM 開発者向けドキュメント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/security.html)を参照してください。
+追加のセキュリティ情報は、 [AEM開発者向けドキュメントのオンプレミスでのインストールに加え](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) 、 [AEMおよびクラウドサービスでのインストールに関するドキュメントを参照してください。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >AntiSamy サニタイズフレームワークのルールは `/libs/cq/xssprotection/config.xml` のオーバーレイにより設定することができますが、そうした変更は、埋め込みコアコンポーネントだけでなく、すべての HTL および JSP の動作に影響を与えます。
