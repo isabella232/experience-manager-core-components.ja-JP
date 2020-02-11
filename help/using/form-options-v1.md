@@ -1,24 +1,9 @@
 ---
 title: フォームオプションコンポーネント（v1）
-seo-title: フォームオプションコンポーネント（v1）
-description: 'null'
-seo-description: コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式の事前定義済みオプションから選択できます。
-uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: ' no'
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: 'true'
+description: コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式の事前定義済みオプションから選択できます。
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -52,7 +37,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### スクリーンショット {#screenshot}
 
@@ -160,7 +145,7 @@ The following is sample taken from We.Retail.[](https://helpx.adobe.com/experien
 
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Form Options Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options)
+The latest technical documentation about the Form Options Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
