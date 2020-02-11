@@ -1,14 +1,8 @@
 ---
 title: タブコンポーネント
-seo-title: タブコンポーネント
 description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
-seo-description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
-uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
-content-type: reference
-topic-tags: core-components
-discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
-translation-type: ht
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+translation-type: tm+mt
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -27,7 +21,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 >
 >ネストされたタブコンポーネント（タブ内のタブ）はサポートされています。
 >
->[コンテンツツリー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)を使用した特定や選択は、単純な（ネストされていない）タブコンポーネントでは可能ですが、ネストされたタブでは不可能です。
+>[コンテンツツリー](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)を使用した特定や選択は、単純な（ネストされていない）タブコンポーネントでは可能ですが、ネストされたタブでは不可能です。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -35,19 +29,19 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしてのAEM |
+|--- |--- |--- |--- |---|
+| v1 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-タブコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html)を参照してください。
+タブコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_tabs)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-タブコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) を参照してください。
+タブコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](developing.md)を参照してください。
 
@@ -68,7 +62,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 >[!TIP]
 >
->ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのタブコンポーネントにドラッグ＆ドロップ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)することで、コンポーネントをタブコンポーネントに追加できます。
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのタブコンポーネントにドラッグ＆ドロップ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)することで、コンポーネントをタブコンポーネントに追加できます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
@@ -102,7 +96,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開済みコンテンツの読者と同じ立場でタブを操作するには、[**プレビュー**&#x200B;モード](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)または「**[公開済みとして表示](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/editing-content.html)**」オプションを使用します。
+>**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開済みコンテンツの読者と同じ立場でタブを操作するには、**[プレビュー](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**モードまたは「**[&#x200B;公開済みとして表示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
 ## デザインダイアログ{#design-dialog}
 
@@ -112,7 +106,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がタブコンポーネントに項目として追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する際の同じ名前のタブと同じように機能します。](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/templates.html)
+「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)際の同じ名前のタブと同じように機能します。
 
 ### 「スタイル」タブ {#styles-tab}
 
