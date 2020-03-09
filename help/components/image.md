@@ -2,7 +2,7 @@
 title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## レスポンシブ機能 {#responsive-features}
 
-画像コンポーネントには、すぐに使用可能な堅牢なレスポンシブ機能が用意されています。ページテンプレートレベルで、[デザインダイアログ](#design-dialog)を使用して、画像アセットのデフォルトの幅を定義できます。画像コンポーネントは、正確な幅を自動的に読み込み、ブラウザーウィンドウのサイズに合わせて表示します。ウィンドウのサイズが変更されると、画像コンポーネントはその場で正しい画像サイズを動的に読み込みます。 画像コンポーネントはコンテンツの読み取り用に最適化されているので、コンポーネント開発者はカスタムメディアのクエリ定義を気にかける必要がありません。
+画像コンポーネントには、すぐに使用可能な堅牢なレスポンシブ機能が用意されています。ページテンプレートレベルで、[デザインダイアログ](#design-dialog)を使用して、画像アセットのデフォルトの幅を定義できます。画像コンポーネントは、正確な幅を自動的に読み込み、ブラウザーウィンドウのサイズに合わせて表示します。ウィンドウのサイズが変更されると、画像コンポーネントは、その場で適切な画像サイズを動的に読み取ります。画像コンポーネントはコンテンツの読み取り用に最適化されているので、コンポーネント開発者はカスタムメディアのクエリ定義を気にかける必要がありません。
 
 さらに、画像コンポーネントは、遅延読み込みをサポートし、ブラウザーで表示できるようになるまで、実際の画像アセットの読み込みを遅らせて、ページの応答性を高めます。
 
@@ -29,7 +29,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしての AEM |
 |--- |--- |--- |--- |---|
 | v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
 | [v1](v1/image-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
@@ -41,7 +41,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 画像コンポーネントでは Scalable Vector Graphics（SVG）がサポートされています。
 
 * DAM からの SVG アセットのドラッグ＆ドロップと、ローカルファイルシステムからの SVG ファイルのアップロード、はどちらもサポートされます。
-* アダプティブイメージサーブレットは、元のSVGファイルをストリーミングする（変換はスキップされる）。
+* アダプティブ画像サーブレットでは元の SVG ファイルがストリーミングされます（変換はスキップされます）。
 * SVG 画像の場合、画像モデルで「スマート画像」と「スマートサイズ」が空の配列に設定されます。
 
 ### セキュリティ {#security}
@@ -277,12 +277,12 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 画像コンポーネントは AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートします。
 
-## アダプティブイメージサーブレット {#adaptive-image-servelet}
+## アダプティブ画像サーブレット {#adaptive-image-servlet}
 
-画像コンポーネントは、コアコンポーネントのアダプティブ画像サーブレットを使用します。 [アダプティブ画像サーブレット](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet)は、画像処理とストリーミングを担当し、開発者は[コアコンポーネントのカスタマイズ](/help/developing/customizing.md)に活用できます。
+画像コンポーネントは、コアコンポーネントのアダプティブ画像サーブレットを使用します。[アダプティブ画像サーブレット](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet)は、画像処理とストリーミングを担当し、開発者は[コアコンポーネントのカスタマイズ](/help/developing/customizing.md)に活用できます。
 
 >[!NOTE]
 >
->Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servelet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>`Last-Modified` ヘッダーを介した条件付き要求は、アダプティブ画像サーブレットでサポートされますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
 >
->[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)のサンプルディスパッチャー設定には、既にこの設定が含まれています。
+>[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)のサンプル Dispatcher 設定には、既にこの設定が含まれています。
