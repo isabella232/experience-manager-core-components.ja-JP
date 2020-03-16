@@ -2,7 +2,7 @@
 title: フォームテキストコンポーネント
 description: コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -30,48 +30,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は [We.Retailのサンプルです](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
-
-### スクリーンショット {#screenshot}
-
-![](/help/assets/chlimage_1-22.png)
-
-### HTML {#html}
-
-```
-<div class="text aem-GridColumn aem-GridColumn--default--12">
-   <div class="cmp-form-text">
-      <label for="form-text-2146967">How many pieces of toast would you like?
-      </label>
-   <input class="cmp-form-text__text" type="number" id="form-text-2146967" name="pieces">
-   </div>
-</div>
-```
-
-### JSON {#json}
-
-```
-"text":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "id":"form-text-2146967",
-                     "title":"How many pieces of toast would you like?",
-                     "name":"pieces",
-                     "value":"",
-                     "helpMessage":"",
-                     "type":"number",
-                     "readOnly":false,
-                     "required":false,
-                     "requiredMessage":"",
-                     "constraintMessage":"",
-                     "rows":2,
-                     "defaultValue":"",
-                     ":type":"core/wcm/components/form/text/v2/text"
-                  }
-```
+To experience the Form Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_text).
 
 ### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Form Text Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2).
+フォームテキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -83,7 +46,7 @@ The latest technical documentation about the Form Text Component [can be found o
 
 ![](/help/assets/chlimage_1-23.png)
 
-* **制約** - 入力するテキストの種類で、これを基準にテキストが検証されます
+* **制約**：入力するテキストの種類で、これを基準にテキストが検証されます
    * **テキスト**
    * **テキスト領域**
    * **電子メール**
@@ -91,18 +54,18 @@ The latest technical documentation about the Form Text Component [can be found o
    * **日付**
    * **番号**
    * **パスワード**
-* **テキスト行数** - テキスト領域に表示する行数（「**制約**」が&#x200B;**テキスト領域**&#x200B;に設定されている場合にのみ表示）
-* **ラベル** - フィールドに表示するラベル
-* **ラベルを非表示** - ラベルがアクセシビリティのためにのみ必要で、フィールドに関するその他の視覚的情報には影響しない場合に必要です
-* **要素名** - フォームデータと共に送信されるフィールドの名前
-* **値** - フィールドに事前入力されるデフォルト値
+* **テキスト行数**：テキスト領域に表示する行数（「**制約**」が&#x200B;**テキスト領域**&#x200B;に設定されている場合にのみ表示）
+* **ラベル**：フィールドに表示するラベル
+* **ラベルを非表示**：ラベルがアクセシビリティのためにのみ必要で、フィールドに関するその他の視覚的情報には影響しない場合に必要です
+* **要素名**：フォームデータと共に送信されるフィールドの名前
+* **値**：フィールドに事前入力されるデフォルト値
 
 ### 「情報」タブ {#about-tab}
 
 ![](/help/assets/chlimage_1-24.png)
 
-* **ヘルプメッセージ** - フィールドに入力できる内容をユーザーに伝えるヒント
-* **ヘルプメッセージをプレースホルダーとして表示** - フォーム入力が空でフォーカスされていない場合、フォーム入力内にヘルプメッセージを表示する
+* **ヘルプメッセージ**：フィールドに入力できる内容をユーザーに伝えるヒント
+* **ヘルプメッセージをプレースホルダーとして表示**：フォーム入力が空でフォーカスされていない場合、フォーム入力内にヘルプメッセージを表示する
 
 ### 「制約」タブ{#constraints-tab}
 
