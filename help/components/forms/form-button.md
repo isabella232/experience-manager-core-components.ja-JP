@@ -2,7 +2,7 @@
 title: フォームボタンコンポーネント
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、フォームに非表示フィールドを含めることができます。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -32,43 +32,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
-
-### スクリーンショット {#screenshot}
-
-![](/help/assets/screen_shot_2018-01-12at120021.png)
-
-### HTML {#html}
-
-```
-<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
-<form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12">
-    <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-    
-    <div class="button aem-GridColumn aem-GridColumn--default--12">
-<button type="BUTTON" class="cmp-form-button" name="loveToast" value="ILoveToast">Click here if you love toast!</button>
-</div>
-
-</form>
-</div>
-```
-
-### JSON {#json}
-
-```
-"button":{  
-                           "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                           ":type":"core/wcm/sandbox/components/form/button/v2/button",
-                           "name":"loveToast",
-                           "jcr:title":"Click here if you love toast!",
-                           "type":"button",
-                           "value":"ILoveToast"
-                        }
-```
+To experience the Form Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_button).
 
 ### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Form Button Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2).
+フォームボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
