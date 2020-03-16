@@ -2,7 +2,7 @@
 title: フォームコンテナコンポーネント
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 フォームコンテナコンポーネントでは、シンプルな WCM フォームをサポートし、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
-[設定ダイアログ](#configure-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクション、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。The template author can use the [design dialog](#design-dialog) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+[設定ダイアログ](#configure-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクション、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
 
 >[!NOTE]
 >
->コアコンポーネントのフォームコンテナコンポーネントでは、コアコンポーネントのフォームコンポーネント（ボタン、テキスト、非表示など）のみ使用できます。Using [foundation components](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) form components within the core components form container (and vice versa) is not supported.
+>コアコンポーネントのフォームコンテナコンポーネントでは、コアコンポーネントのフォームコンポーネント（ボタン、テキスト、非表示など）のみ使用できます。[基盤コンポーネント](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html)のフォームコンポーネントをコアコンポーネントのフォームコンテナ内で使用すること（およびその逆の使用）はサポートされていません。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -34,9 +34,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
+## コンポーネント出力のサンプル {#sample-component-output}
+
+To experience the Form Container Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_container).
+
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Form Container Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2).
+フォームコンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -61,13 +65,13 @@ The latest technical documentation about the Form Container Component [can be fo
 
 ![](/help/assets/screen_shot_2018-01-12at122554.png)
 
-* **件名** - フォーム送信時に送信される電子メールの件名
+* **件名**：フォーム送信時に送信される電子メールの件名
 * **差出人** - フォーム送信時に送信される電子メールの差出人の電子メールアドレス
-* **宛先-** - フォーム送信時に電子メールを受信する受信者のアドレス
+* **宛先-**：フォーム送信時に電子メールを受信する受信者のアドレス
 
    * アドレスを追加するには、「**追加**」ボタンをタップまたはクリックします
    * 電子メールアドレスを削除するには、「**削除**」ボタンをタップまたはクリックします
-* **CC** - フォーム送信時に送信される電子メールのカーボンコピーを受信する受信者のアドレス
+* **CC**：フォーム送信時に送信される電子メールのカーボンコピーを受信する受信者のアドレス
    * アドレスを追加するには、「**追加**」ボタンをタップまたはクリックします
    * 電子メールアドレスを削除するには、「**削除**」ボタンをタップまたはクリックします
 
@@ -77,9 +81,9 @@ The latest technical documentation about the Form Container Component [can be fo
 
 ![](/help/assets/screen_shot_2018-01-12at122538.png)
 
-* **コンテンツのパス** - 送信されたコンテンツが格納されるコンテンツリポジトリのパス
-* **データを表示** - タップまたはクリックすると、保存された送信済みデータが JSON 形式で表示されます
-* **ワークフローを開始** - 保存されたコンテンツをフォーム送信時のペイロードとして使用し、ワークフローを開始するように設定します
+* **コンテンツのパス**：送信されたコンテンツが格納されるコンテンツリポジトリのパス
+* **データを表示**：タップまたはクリックすると、保存された送信済みデータが JSON 形式で表示されます
+* **ワークフローを開始**：保存されたコンテンツをフォーム送信時のペイロードとして使用し、ワークフローを開始するように設定します
 
 ### 注文を送信 {#submit-order}
 
@@ -107,4 +111,4 @@ The latest technical documentation about the Form Container Component [can be fo
 
 ## デザインダイアログ{#design-dialog}
 
-The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
