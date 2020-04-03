@@ -2,7 +2,7 @@
 title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、テキストコンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.2.0 で導入された v2）について説明します。
+このドキュメントでは、テキストコンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
@@ -36,19 +36,19 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Text Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
+テキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_text_v2) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
 ## テキストコンポーネントとリッチテキストエディター {#the-text-component-and-the-rich-text-editor}
 
-コアコンポーネントのテキストコンポーネントでは、AEM リッチテキストエディター（RTE）を利用します。RTE には、コンテンツ作成者がテキストコンテンツの編集に使用できる幅広い機能が用意されています。RTE は設定の柔軟性が非常に高く、数多くのオプションを提供しています。RTEの設定方法の詳細については、「リッチテキストエディターの設定 [」および「リッチテキストエディタ](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) ープラグインの設定」を参照してください [](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
+コアコンポーネントのテキストコンポーネントでは、AEM リッチテキストエディター（RTE）を利用します。RTE には、コンテンツ作成者がテキストコンテンツの編集に使用できる幅広い機能が用意されています。RTE は設定の柔軟性が非常に高く、数多くのオプションを提供しています。RTE の設定方法の詳細については、[リッチテキストエディターの設定](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html)や[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 コアコンポーネントのテキストコンポーネントでは、RTE がすぐに使用できる状態に設定されています。このドキュメントではこの後、テキストコンポーネントの標準設定について説明します。
 
 >[!NOTE]
 >
->Only options enabled by [UI configurations of the RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) are available by in the Text Component.
+>テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
 
 ## 編集ダイアログ{#edit-dialog}
 
@@ -144,7 +144,7 @@ The latest technical documentation about the Text Component [can be found on Git
 
 ![](/help/assets/screen_shot_2018-01-11at130107.png)
 
-検索するテキストを入力し、「**検索**」をタップまたはクリックして検索を開始します。キャンセルする場合は。「x」をタップまたはクリックします。大文字と小文字を区別して完全一致検索をおこなう場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。一致する文字列が見つかった場合は、それが強調表示され、検索ダイアログが淡色表示になります。一致する次の文字列を検索するには、淡色表示のダイアログで「**検索**」ボタンを再度タップまたはクリックします。
+検索するテキストを入力し、「**検索**」をタップまたはクリックして検索を開始します。キャンセルする場合は、「x」をクリックまたはタップします。大文字と小文字を区別して完全一致検索をおこなう場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。一致する文字列が見つかった場合は、それが強調表示され、検索ダイアログが淡色表示になります。一致する次の文字列を検索するには、淡色表示のダイアログで「**検索**」ボタンを再度タップまたはクリックします。
 
 ![](/help/assets/screen_shot_2018-01-11at130145.png)
 
@@ -162,13 +162,17 @@ The latest technical documentation about the Text Component [can be found on Git
 
 検索する文字列と置換後の文字列を入力します。
 
-検索を開始するには、「**検索**」をタップまたはクリックします。キャンセルする場合は。「x」をタップまたはクリックします。
+検索を開始するには、「**検索**」をタップまたはクリックします。キャンセルする場合は、「x」をタップまたはクリックします。
 
 大文字と小文字を区別して完全一致検索をおこなう場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。
 
 一致する文字列が見つかった場合は、それが強調表示され、検索ダイアログが淡色表示になります。一致する次の文字列を検索するには、淡色表示のダイアログで「**検索**」ボタンを再度タップまたはクリックします。強調表示されている一致文字列を置き換えるには、「**置換**」ボタンをタップまたはクリックします。なお、「**置換**」ボタンは、一致する文字列が見つかった場合にのみ有効になります。
 
 「**すべてを置換**」をタップまたはクリックすると、一致するすべての文字列が一度に置換されます。
+
+置換機能を使用する場合は、置換する置換文字列を検索文字列と同時に入力する必要があります。 ただし、置き換える前に「検索」をクリックして文字列を検索することはできます。 「検索」をクリックした後に置換文字列を入力すると、検索はテキストの先頭にリセットされます。
+
+検索と置換ダイアログは、「検索」をクリックすると透明になり、「置換」をクリックすると不透明になります。これにより、作成者は、置換されるテキストを確認できます。
 
 ### テキストを左揃え
 
@@ -246,7 +250,7 @@ The latest technical documentation about the Text Component [can be found on Git
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
+スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 ### 特殊文字 {#special-characters}
 
