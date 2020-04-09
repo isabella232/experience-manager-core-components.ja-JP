@@ -2,7 +2,7 @@
 sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 
 ---
 
@@ -10,7 +10,8 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 # AEM コアコンポーネントヘルプ {#using}
 
 + [コアコンポーネントの概要](introduction.md)
-+ [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library)
++ [成功へのパス](developing/success.md)
++ [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)
 + [コアコンポーネントのバージョン](versions.md)
 + はじめに {#get-started}
    + [コアコンポーネントを使用したオーサリング](get-started/authoring.md)
@@ -60,15 +61,17 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
          + [フォームテキスト（v1）](components/v1/form-text-v1.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing/overview.md)
-   + [WKND 開発者向けチュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [成功へのパス](developing/success.md)
+   + [WKND 開発者向けチュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [コアコンポーネントのカスタマイズ](developing/customizing.md)
    + [コンポーネントのガイドライン](developing/guidelines.md)
    + AEM プロジェクトアーキタイプ {#archetype}
       + [アーキタイプの概要](developing/archetype/overview.md)
+      + [アーキタイプの使用](developing/archetype/using.md)
       + [Core モジュール](developing/archetype/core.md)
       + [ui.apps モジュール](developing/archetype/uiapps.md)
       + [ui.content モジュール](developing/archetype/uicontent.md)
-      + [ui.frontend.generalモジュール](developing/archetype/uifrontend.md)
-      + [ui.frontend.reactモジュール](developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angularモジュール](developing/archetype/uifrontend-angular.md)
-      + [ui.testsモジュール](developing/archetype/uitests.md)
+      + [ui.frontend.general モジュール](developing/archetype/uifrontend.md)
+      + [ui.frontend.react モジュール](developing/archetype/uifrontend-react.md)
+      + [ui.frontend.angular モジュール](developing/archetype/uifrontend-angular.md)
+      + [ui.tests モジュール](developing/archetype/uitests.md)
