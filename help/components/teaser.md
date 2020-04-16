@@ -1,7 +1,7 @@
 ---
 title: ティーザーコンポーネント
 description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -29,11 +29,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-ティーザーコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_teaser)を参照してください。
+ティーザーコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_teaser_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Teaser Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1).
+ティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -46,9 +46,9 @@ The latest technical documentation about the Teaser Component [can be found on G
 ![](/help/assets/screen_shot_2018-07-03at104125.png)
 
 * **画像アセット**
-   * [アセットブラウザー](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * [アセットブラウザー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)」をタップまたはクリックします。
+   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)」をタップまたはクリックします。
 
 ### テキスト {#text}
 
@@ -68,7 +68,7 @@ The latest technical documentation about the Teaser Component [can be found on G
 
 ## 編集ダイアログ{#edit-dialog}
 
-ティーザーコンポーネントは画像レンダリングを[画像コンポーネント](image.md)に委任します。そのため、コンテンツ作成者は画像コンポーネントの[編集ダイアログ](image.md#edit-dialog)を使用してティーザー画像を操作できます。
+ティーザーコンポーネントは画像レンダリングを[画像コンポーネント](image.md)に委任します。そのため、コンテンツ作成者は画像コンポーネントの[編集ダイアログ]（image.md#edit-dialog）を使用してティーザー画像を操作できます。
 
 ## デザインダイアログ{#design-dialog}
 
