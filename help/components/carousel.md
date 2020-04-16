@@ -1,7 +1,7 @@
 ---
 title: カルーセルコンポーネント
 description: カルーセルコンポーネントを使用すれば、コンテンツ作成者は、回転式のカルーセルにコンテンツを表示することができます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -31,11 +31,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-カルーセルコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_carousel)を参照してください。
+カルーセルコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_carousel_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-カルーセルコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1) を参照してください。
+カルーセルコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -56,7 +56,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 >[!TIP]
 >
->ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのカルーセルコンポーネントにドラッグ＆ドロップ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)することで、コンポーネントをカルーセルコンポーネントに追加できます。
+>ページのビューポートが縮小されて編集ダイアログがフルスクリーンになる場合、「**追加**」ボタンが非表示になります。[コンポーネントブラウザーからページエディターのカルーセルコンポーネントにドラッグ＆ドロップ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)することで、コンポーネントをカルーセルコンポーネントに追加できます。
 
 ### 「プロパティ」タブ {#properties-tab}
 
@@ -70,9 +70,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開済みコンテンツの読者と同じ立場でカルーセルを操作するには、[**プレビュー&#x200B;**モード](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)または「**[公開済みとして表示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開されているコンテンツを読者と同じ立場でカルーセルを操作するには、[**プレビュー&#x200B;**モード](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)または「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 >
->**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開済みコンテンツの読者と同じ立場で自動進行機能を確認するには、「**[公開済みとして表示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
@@ -116,7 +116,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がカルーセルコンポーネントにスライドとして追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)際の同じ名前のタブと同じように機能します。
+「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)際の同じ名前のタブと同じように機能します。
 
 ### 「スタイル」タブ {#styles-tab}
 
