@@ -1,7 +1,7 @@
 ---
 title: コアコンポーネントの使用
-description: '"独自のプロジェクトにコアコンポーネントを導入するには、4 つの手順（ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートでのコンポーネントの有効化）に従います。"'
-translation-type: tm+mt
+description: 「独自のプロジェクトにコアコンポーネントを導入するには、4 つの手順（ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートでのコンポーネントの有効化）に従います。」
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -19,15 +19,15 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 >[!NOTE]
 >
 >また、プロジェクト設定、コアコンポーネント、編集可能テンプレート、クライアントライブラリおよびコンポーネント開発にゼロから取り組む方法についての広範な手順については、複数パートから成る次のチュートリアルを参照してください。\
->[AEM Sites の概要 - WKND チュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[AEM Sites の概要 - WKND チュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## ダウンロードとインストール {#download-and-install}
 
 コアコンポーネントの背後にある基本的な考え方は柔軟性です。新しいバージョンのコアコンポーネントを頻繁にリリースすることで、アドビは新しい機能をより柔軟に配信できるようになります。一方、開発者は、プロジェクトに統合するコンポーネントとそれらの更新頻度を柔軟に設定できます。
 
-このため、実稼働モード（サンプルコンテンツなし）で開始する場合、コアコンポーネントはクイックスタートには含まれません。Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
+このため、実稼動モード（サンプルコンテンツなし）で開始する場合、コアコンポーネントはクイックスタートには含まれません。したがって、[リリースされた最新のコンテンツパッケージを GitHub からダウンロード](https://github.com/adobe/aem-core-wcm-components/releases/latest)して AEM 環境にインストールすることが最初の手順になります。
 
-There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Also, once you&#39;ll have a publish instance running as well, you&#39;ll need to replicate that package to the publisher; see [Replicating Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
+これを自動化する方法はいくつかありますが、コンテンツパッケージをインスタンスにすぐにインストールするには、パッケージマネージャーを使用する方法が最も簡単です。詳しくは、[パッケージのインストール](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)を参照してください。また、パブリッシュインスタンスも実行する場合は、そのパブリッシュインスタンスにパッケージをレプリケートする必要があります。詳しくは、[パッケージのレプリケーション](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)を参照してください。
 
 <!-- 
 
@@ -66,7 +66,7 @@ Should we be promoting embedding the core-component package as an artifact in a 
    jcr:description="Section Heading"
    ```
 
-For instance, look at the [title component of the We.Retail reference site](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml), which is a good example of a proxy component that is built that way.
+例えば、[We.Retail 参照サイトのタイトルコンポーネント](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml)をご覧ください。これは、このような方法で作成されるプロキシコンポーネントの好例です。
 
 ## コアスタイルの読み込み {#load-the-core-styles}
 
@@ -100,7 +100,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. If not done yet, create a [Client Library](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
+1. サイトに必要な CSS および JS ファイルをすべて含んだ[クライアントライブラリ](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/introduction/clientlibs.html)を作成します（まだ作成していない場合）。
 1. サイトのクライアントライブラリで、必要なコアコンポーネントへの依存関係を追加します。これをおこなうには、`embed` プロパティを追加します。
 
    例えば、すべての v1 コアコンポーネントのクライアントライブラリを組み込むには、追加するプロパティは次のようになります。
@@ -117,9 +117,9 @@ Load the Core Client Libraries sounds way better
 
 次の手順に進む前に、プロキシコンポーネントとクライアントライブラリが AEM 環境にデプロイされていることを確認してください。
 
-## コンポーネントの有効化 {#allow-the-components}
+## コンポーネントの許可 {#allow-the-components}
 
-テンプレートエディターでは、次の手順 [を実行します](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+[テンプレートエディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)では、次の手順を実行します。
 
 1. テンプレートエディターで、レイアウトコンテナを選択し、そのポリシーを開きます。
 1. 「許可されるコンポーネント」のリストで、作成済みのプロキシコンポーネントを選択します。これは、プロキシコンポーネントに割り当てられているコンポーネントグループの下に表示されます。操作が完了したら、変更を適用します。
