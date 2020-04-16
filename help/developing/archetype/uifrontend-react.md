@@ -1,70 +1,70 @@
 ---
-title: 反応SPAのフロントエンドビルド
-description: ReactベースのSPAプロジェクトのフロントエンドビルドプロセスの説明
-translation-type: tm+mt
+title: React SPA のフロントエンドビルド
+description: React ベースの SPA プロジェクトのフロントエンドビルドプロセスの説明
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
 
 
-# 反応SPAのフロントエンドビルド {#frontend-react}
+# React SPA のフロントエンドビルド {#frontend-react}
 
-このドキュメントでは、アーキタイプを使用してReactフレームワークに基づく単一ページアプリケーション(SPA)を作成する場合に作成されるプロジェクトの詳細を説明します。 例えば、オプションをに設定し `frontendModule` た場合 `react`。
+このドキュメントでは、アーキタイプを使用して React フレームワークに基づく単一ページアプリケーション（SPA）を作成するプロジェクトの詳細を説明します。例えば、`frontendModule` オプションを `react` に設定する場合です。
 
 ## 概要 {#overview}
 
-このプロジェクトは、 [create-react-appでブートストラップされました](https://github.com/facebook/create-react-app)。
+このプロジェクトは、[create-react-app](https://github.com/facebook/create-react-app) でブートストラップ処理されました。
 
-このアプリケーションは、サイトのAEMモデルを使用するように構築されています。 これにより、 [@adobe/cq-react-editable-componentsパッケージのヘルパーコンポーネントを使用してレイアウトが自動的に生成されます](https://www.npmjs.com/package/@adobe/cq-react-editable-components) 。
+このアプリケーションは、サイトの AEM モデルを使用するようにビルドされています。これにより、[@adobe/cq-react-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components) パッケージのヘルパーコンポーネントを使用してレイアウトが自動的に生成されます。
 
 ## スクリプト {#scripts}
 
 プロジェクトディレクトリで、次のコマンドを実行できます。
 
-### npm開始 {#npm-start}
+### npm start {#npm-start}
 
 ```
 npm start
 ```
 
-このコマンドは、http://localhost:4502で実行されているローカルAEMインスタンスからJSONモデルをプロキシすることによって、アプリを開発モードで実行します。 これは、プロジェクト全体が（プロジェクトルート内で）少なくとも1回AEMにデプロイされ`mvn clean install -PautoInstallPackage` ていることを前提としています。
+このコマンドは、http://localhost:4502 で実行されるローカル AEM インスタンスから JSON モデルをプロキシすることで、アプリを開発モードで実行します。これは、プロジェクト全体が少なくとも 1 回 AEM にデプロイされていることを前提としています（プロジェクトルートの `mvn clean install -PautoInstallPackage`）。
 
-ui.frontendディレ `npm start` クトリで実 [行すると](uifrontend.md) 、アプリが自動的にブラウザーで開きます(パス `http://localhost:3000/content/<appId>/<country>/<language>/home.html`)。 編集を行うと、ページが再読み込みされます。
+[ui.frontend](uifrontend.md) ディレクトリで `npm start` を実行すると、アプリが自動的にブラウザーで開きます（パス `http://localhost:3000/content/<appId>/<country>/<language>/home.html`）。編集すると、ページがリロードされます。
 
-CORSに関連するエラーが発生する場合は、次のようにAEMを設定できます。
+CORS に関連するエラーが発生する場合は、次のように AEM を設定します。
 
-1. Configuration Manager(http://localhost:4502/system/console/configMgr)に移動します。
+1. 設定マネージャーに移動します（http://localhost:4502/system/console/configMgr）
 1. 「Adobe Granite Cross-Origin Resource Sharing Policy」の設定を開きます。
 1. 次の値を追加して、新しい設定を作成します。
-   * 許可されている起点：http://localhost:3000
-   * サポートされるヘッダー：認証
-   * 許可されているメソッド：オプション
+   * 許可されるオリジン：http://localhost:3000
+   * サポートされるヘッダー：Authorization
+   * 許可されるメソッド：OPTIONS
 
-### npmテスト {#npm-test}
+### npm test {#npm-test}
 
 ```
 npm test
 ```
 
-このコマンドは、インタラクティブ監視モードでテストランナーを起動します。 詳しくは、テス [トの実行に関するReactのドキュメント](https://facebook.github.io/create-react-app/docs/running-tests) を参照してください。
+このコマンドは、インタラクティブ監視モードでテストランナーを起動します。詳しくは、[テスト実行に関する React のドキュメント](https://facebook.github.io/create-react-app/docs/running-tests)を参照してください。
 
-### npm実行ビルド {#npm-run-build}
+### npm run build {#npm-run-build}
 
 ```
 npm run build
 ```
 
-このコマンドは、実稼働用のアプリをbuildフォルダーに構築します。 実稼働モードでReactをバンドルし、最適なパフォーマンスを得るためにビルドを最適化します。 詳しくは、デプロ [イメントに関するReactのドキュメント](https://facebook.github.io/create-react-app/docs/deployment) を参照してください。
+このコマンドは、実稼動用のアプリケーションを build フォルダーにビルドします。実稼動モードで React をバンドルし、最適なパフォーマンスを得るためにビルドを最適化します。詳しくは、[デプロイメントに関する React のドキュメント](https://facebook.github.io/create-react-app/docs/deployment)を参照してください。
 
-さらに、AEM clientLibは、aem-clientlib-generatorパッケージを使用して、ア [プリから生成されます](https://github.com/wcm-io-frontend/aem-clientlib-generator) 。
+さらに、AEM clientLib は、[aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator) パッケージを使用して、アプリから生成されます。
 
 ## ブラウザーのサポート {#browser-support}
 
-デフォルトでは、このプロジェクトは [Browserslistのデフォルトオプション](https://github.com/browserslist/browserslist)を使用して、ターゲットブラウザを識別します。 また、古いブラウザー（Internet Explorer 11など）をサポートする最新言語機能のポリフィルも含まれています。 このようなブラウザーをサポートする必要がない場合は、ポリフィルの依存関係とインポートを削除できます。
+デフォルトでは、このプロジェクトは [Browserslist](https://github.com/browserslist/browserslist) のデフォルトオプションを使用して、ターゲットブラウザーを識別します。また、古いブラウザー（Internet Explorer 11 など）をサポートする最新言語機能のポリフィルも含まれています。このようなブラウザーをサポートする必要がない場合は、ポリフィルの依存関係と読み込みを削除できます。
 
 ## コード分割 {#code-splitting}
 
-Reactアプリは、デフォルトでコード分割を使用するよ [うに設定さ](https://webpack.js.org/guides/code-splitting) れます。 実稼働用にアプリを作成する場合、コードは複数のチャンクで出力されます。
+React アプリケーションは、デフォルトで[コード分割](https://webpack.js.org/guides/code-splitting)を使用するように設定されます。実稼動用にアプリケーションを作成する場合、コードは複数のチャンクで出力されます。
 
 ```
 $ ls build/static/js
@@ -76,8 +76,8 @@ runtime~main.a8a9905a.js
 runtime~main.a8a9905a.js.map
 ```
 
-必要な場合にのみチャンクを読み込むと、アプリのパフォーマンスが大幅に向上します。
+必要な場合にのみチャンクを読み込むことで、アプリケーションのパフォーマンスが大幅に向上します。
 
-この機能をAEMで使用するには、AEMによって生成されたHTMLからリクエストする必要があるJSファイルとCSSファイルを、アプリが識別できる必要があります。 これは、asset-manifest.jsonファイルの「entrypoints」キーを使用して実現できます。 ファイルはclientlib.config.jsで解析され、エントリポイントファイルのみがClientLibにバンドルされます。 残りのファイルはClientLibのリソースディレクトリに配置され、動的に要求されるので、実際に必要な場合にのみ読み込まれます。
+この機能を AEM で使用するには、AEM で生成された HTML から、どの JS ファイルと CSS ファイルがリクエストされる必要があるのかを、アプリケーションが識別できる必要があります。これは、asset-manifest.json ファイルの「entrypoints」キーを使用して実現できます。ファイルは clientlib.config.js で解析され、entrypoints ファイルのみが ClientLib にバンドルされます。残りのファイルは ClientLib のリソースディレクトリに配置され、動的にリクエストされるので、実際に必要な場合にのみ読み込まれます。
 
-プロジェクトのアーキ [タイプでAEM clientLibsがどのように使用されるかについて詳しくは、一般的な](uifrontend.md#clientlibs) ui.frontendモジュールのドキュメントを参照してください。
+プロジェクトのアーキタイプで AEM clientLibs がどのように使用されるかについて詳しくは、一般的な [ui.frontend モジュールのドキュメント](uifrontend.md#clientlibs)を参照してください。
