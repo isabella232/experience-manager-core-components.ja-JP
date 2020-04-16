@@ -1,7 +1,7 @@
 ---
 title: AEM プロジェクトアーキタイプの ui.content モジュール
 description: AEM プロジェクトアーキタイプの ui.content モジュール
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
