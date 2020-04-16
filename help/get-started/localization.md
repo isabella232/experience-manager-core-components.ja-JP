@@ -1,7 +1,7 @@
 ---
 title: コアコンポーネントのローカライゼーション機能
 description: コアコンポーネントのローカライゼーション機能
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ナビゲーションコンポーネントも同様に、通常、すべてのページに表示する必要があります。また、ローカライズされたページのコンテンツを反映する必要があります。
 
-[AEM の編集可能なテンプレート](/help/components/navigation.md)と共に [Navigation Core Component](/help/components/experience-fragment.md) と [Experience Fragment Core Component](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) のローカライゼーション機能を使用すると、簡単な作業になります。この例は、[言語ナビゲーションコンポーネント](/help/components/language-navigation.md)を使用するように拡張することもできます。
+[AEM の編集可能なテンプレート](/help/components/navigation.md)と共に、[ナビゲーションコアコンポーネント](/help/components/experience-fragment.md)と[エクスペリエンスコアコンポーネント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のローカライゼーション機能を使用すると、簡単な作業になります。この例は、[言語ナビゲーションコンポーネント](/help/components/language-navigation.md)を使用するように拡張することもできます。
 
 ## コンテンツ構造 {#content-structure}
 
@@ -29,7 +29,7 @@ AEM とそのコアコンポーネントのすべてのローカライゼーシ�
 /content/my-site
 ```
 
-また、英語でサイトを作成し、フランス語でも提供するとします。この場合、ページ `my-page` を作成すてば、サイトのコンテンツツリーの 2 つのローカライゼーションブランチで見つかります。
+また、英語でサイトを作成し、フランス語でも提供するとします。この場合、ページ `my-page` を作成すれば、サイトのコンテンツツリーの 2 つのローカライゼーションブランチで見つかります。
 
 ```
 /content
