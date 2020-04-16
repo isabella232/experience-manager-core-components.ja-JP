@@ -1,7 +1,7 @@
 ---
 title: AEM プロジェクトのアーキタイプフロントエンドビルド
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -9,11 +9,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 # AEM プロジェクトアーキタイプの ui.frontend モジュール {#uifrontend-module}
 
-AEM プロジェクトのアーキタイプには、ｗebpack ベースの専用フロントエンドビルドメカニズム（オプション）が含まれています。このように、ui.frontend モジュールは、JavaScript や CSS ファイルを含む、プロジェクトのすべてのフロントエンドリソースの中心となります。この便利で柔軟な機能を最大限に活用するには、AEM プロジェクトにフロントエンド開発がどのように適合するかを理解することが重要です。
+AEM プロジェクトのアーキタイプには、Webpack ベースの専用フロントエンドビルドメカニズム（オプション）が含まれています。このように、ui.frontend モジュールは、JavaScript や CSS ファイルを含む、プロジェクトのすべてのフロントエンドリソースの中心となります。この便利で柔軟な機能を最大限に活用するには、AEM プロジェクトにフロントエンド開発がどのように適合するかを理解することが重要です。
 
 ## AEM プロジェクトとフロントエンド開発 {#aem-and-front-end-development}
 
-非常に簡単に言えば、AEM プロジェクトは、2 つの異なる関連部分から成ると考えることができます。
+簡単に言えば、AEM プロジェクトは、2 つの異なる関連部分から成ると考えることができます。
 
 * AEM のロジックを駆動し、Java ライブラリ、OSGi サービスなどを生成するバックエンドの開発
 * 結果として作成される Web サイトの表示と動作を促し、JavaScript ライブラリと CSS ライブラリを生成するフロントエンド開発
@@ -22,26 +22,26 @@ AEM プロジェクトのアーキタイプには、ｗebpack ベースの専用
 
 ![フロントエンドワークフロー図](/help/assets/front-end-flow.png)
 
-ただし、作成されるプロジェクトでは、バックエンドとフロントエンドの両方の開発作業のアウトプットを使用する必要があります。
+ただし、作成されるプロジェクトでは、バックエンドとフロントエンドの両方の開発作業の出力を使用する必要があります。
 
-Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces two minified client libraries or ClientLibs called `clientlib-site` and `clientlib-dependencies` and deposits them in the ui.apps module. ClientLibsはAEMにデプロイ可能で、クライアント側のコードをリポジトリに保存できます。
+`npm run dev` を実行するとフロントエンドビルドプロセスが開始します。このプロセスでは ui.frontend モジュールに保存されている JavaScript ファイルと CSS ファイルを収集し「`clientlib-site`」と「`clientlib-dependencies`」という縮小された 2 つのクライアントライブラリ（ClientLib）を作成して ui.apps モジュールにデポジットします。ClientLib は AEM にデプロイされ、クライアント側のコードをリポジトリに保存できるようになります。
 
-When the entire AEM project archetype is run using `mvn clean install -PautoInstallPackage` all project artifacts including the ClientLibs are then pushed to the AEM instance.
+AEM プロジェクトのアーキタイプ全体が `mvn clean install -PautoInstallPackage` を使用して実行されると、Clientlib を含むすべてのプロジェクトアーティファクトが AEM インスタンスにプッシュされます。
 
 >[!TIP]
->Learn more about ClientLibs in the [AEM development documentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) and [how the ui.frontend module uses them below](#clientlib-generation).
+>Clientlib の詳細については、[AEM 開発ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/introduction/clientlibs.html)を参照してください。[Clientlib が ui.frontend モジュールによってどのように使用されるかについては以下を参照してください](#clientlib-generation)。
 
-## ClientLibsの概要 {#clientlibs}
+## ClientLib の概要 {#clientlibs}
 
-フロントエンドモジュールは、 [AEM clientLibを使用して使用可能になります](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)。 NPMビルドスクリプトを実行すると、アプリケーションが構築され、aem-clientlib-generatorパッケージが生成されたビルド出力を取得して、そのようなClientLibに変換します。
+フロントエンドモジュールは、[AEM ClientLib](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html) を使用して利用可能になります。NPM ビルドスクリプトを実行すると、アプリケーションがビルドされ、aem-clientlib-generator パッケージがビルド出力結果を取得して、そのような ClientLib に変換します。
 
-ClientLibは、次のファイルとディレクトリで構成されます。
+ClientLib は、次のファイルとディレクトリで構成されます。
 
-* `css/`:HTMLで要求できるCSSファイル
-* `css.txt`:ファイルを結合できるように、ファイルの順序と名 `css/` 前をAEMに指示します。
-* `js/`:HTMLで要求できるJavaScriptファイル
-* `js.txt` ファイルを結合できるように、ファイルの順序と名 `js/` 前をAEMに指示します。
-* `resources/`:ソースマップ、非エントリポイントコードチャンク（コード分割による）、静的アセット（アイコンなど）など。
+* `css/`：HTML で要求できる CSS ファイル
+* `css.txt`：ファイルを結合できるように、`css/` 内のファイルの順序と名前を AEM に指示します。
+* `js/`：HTML で要求できる JavaScript ファイル
+* `js.txt`：ファイルを結合できるように、`js/` 内のファイルの順序と名前を AEM に指示します。
+* `resources/`：ソースマップ、非エントリポイントコードチャンク（コード分割による）、静的アセット（アイコンなど）など。
 
 ## 可能なフロントエンド開発ワークフロー {#possible-workflows}
 
@@ -54,17 +54,17 @@ Webpack を使用すると、ui.frontend モジュール内の AEM Web ページ
 1. ページプレビューモードを使用するか、URL に `wcmmode=disabled` を渡すことによって、AEM でページをプレビューする
 1. ui.frontend モジュール内でページソースを表示し、静的 HTML として保存する
 1. [Webpack を起動](#webpack-dev-server)して、必要な JavaScript と CSS のスタイル設定と生成を開始する
-1. Run `npm run dev` to generate the ClientLibs
+1. `npm run dev` を実行して ClientLib を生成する
 
 このフローでは、AEM 開発者が手順 1 と 2 を実行して、静的 HTML をフロントエンド開発者に渡し、フロントエンド開発者が AEM HTML 出力に基づいて開発をおこなうことができます。
 
 >[!TIP]
 >
->また、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library)を利用して、各コンポーネントのマークアップ出力のサンプルを取り込み、ページレベルではなくコンポーネントレベルで作業することもできます。
+>また、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)を利用して、各コンポーネントのマークアップ出力のサンプルを取り込み、ページレベルではなくコンポーネントレベルで作業することもできます。
 
 ### Storybook の使用{#using-storybook}
 
-[Storybook ](https://storybook.js.org)を使用すると、よりアトミックなフロントエンド開発を実行できます。Storybook は AEM プロジェクトのアーキタイプには含まれていませんが、Storybook をインストールすると、ui.frontend モジュール内に Storybook アーティファクトを保存することができます。When ready for testing within AEM, they can be deployed as ClientLibs by running `npm run dev`.
+[Storybook ](https://storybook.js.org)を使用すると、よりアトミックなフロントエンド開発を実行できます。Storybook は AEM プロジェクトのアーキタイプには含まれていませんが、Storybook をインストールすると、ui.frontend モジュール内に Storybook アーティファクトを保存することができます。AEM 内でテストをおこなう準備が整ったら、`npm run dev` を実行して Storybook を ClientLib としてデプロイできます。
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ Ui.frontend モジュールは、`ui.frontend/src` フォルダーでコード�
 
 ### JavaScript {#javascript}
 
-* 最適化 — 実稼働ビルドでは、使用や呼び出しがおこなわれていないすべての JS が削除されます。
+* 最適化 — 実稼動ビルドでは、使用や呼び出しがおこなわれていないすべての JS が削除されます。
 
 ### CSS {#css}
 
@@ -141,11 +141,11 @@ Ui.frontend モジュールは、`ui.frontend/src` フォルダーでコード�
    * CSS ファイルに 1 つの @charset のみが存在することを確認し、ドキュメントの先頭に移動させる
    * 結果の出力が小さい場合、CSS の初期キーワードを実際の値に置き換える
    * インライン SVG 定義を SVGO で圧縮する
-* クリーニング — 生成されたCSS、JS、およびマップファイルをオンデマンドで消去するための明示的なクリーンタスクを含みます。
+* クリーニング — 生成された CSS、JS、およびマップファイルをオンデマンドで消去するための明示的なクリーンタスクを含みます。
 * ソースマッピング — 開発ビルドのみ
 
 >[!NOTE]
->フロントエンドビルドオプションでは、共通の設定ファイルを使用する開発専用と製品専用の webpack 設定ファイルを利用します。これにより、開発設定と実稼働設定を個別に変更できます。
+>フロントエンドビルドオプションでは、共通の設定ファイルを使用する開発専用と製品専用の webpack 設定ファイルを利用します。これにより、開発設定と実稼動設定を個別に変更できます。
 
 ### クライアントライブラリの生成 {#clientlib-generation}
 
@@ -156,7 +156,7 @@ Ui.frontend モジュールのビルドプロセスでは、[aem-clientlib-gener
 
 ### ページへのクライアントライブラリの追加 {#clientlib-inclusion}
 
-`clientlib-site` および `clientlib-dependencies` カテゴリは、デフォルトテンプレートの一部として、[ページポリシー設定](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions)を使用して、ページに含められます。ポリシーを表示するには、**コンテンツページテンプレート／ページ情報／ページポリシー**&#x200B;を編集します。
+`clientlib-site` および `clientlib-dependencies` カテゴリは、デフォルトテンプレートの一部として、[ページポリシー設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions)を使用して、ページに含められます。ポリシーを表示するには、**コンテンツページテンプレート／ページ情報／ページポリシー**&#x200B;を編集します。
 
 サイトページにクライアントライブラリを最終的に含める方法は次のとおりです。
 
@@ -189,7 +189,7 @@ Ui.frontend モジュールには、AEM の外部での迅速なフロントエ�
    * また、localhost:4502 上で実行されている AEM インスタンスへのプロキシ設定も含まれます。
 * `ui.frontend/src/main/webpack/static/index.html`
    * これは、サーバーが実行される静的 HTML です。
-   * これにより、開発者は CSS/JS の変更を行い、マークアップに直ちに反映させることができます。
+   * これにより、開発者は CSS/JS の変更をおこない、マークアップに直ちに反映させることができます。
    * このファイルに配置されたマークアップは、AEM コンポーネントによって生成されたマークアップを正確に反映していると想定されます。
    * このファイル内のマークアップは、AEM コンポーネントのマークアップとは自動的に同期されません。
    * また、このファイルには、コアコンポーネント CSS やレスポンシブグリッド CSS など、AEM に保存されるクライアントライブラリへの参照も含まれています。
