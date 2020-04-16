@@ -1,7 +1,7 @@
 ---
 title: ページコンポーネント
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 # ページコンポーネント{#page-component}
 
-The Page Component is an extensible page component designed to work with the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
+ページコンポーネントは、[テンプレートエディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)と連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 
 ## 使用方法 {#usage}
 
@@ -32,11 +32,11 @@ The Page Component is an extensible page component designed to work with the [te
 
 >[!NOTE]
 >
->To enable redirect at `cq:Page` level for version 2 of the page component and AEM 6.3, [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) or later is required. このようなリダイレクトは、以前のリリースでは使用できませんでした。
+>ページコンポーネントのバージョン 2 と AEM 6.3 の `cq:Page` レベルでリダイレクトを有効にするには、[サービスパック 2](https://helpx.adobe.com/jp/experience-manager/6-2/release-notes/sp3-release-notes.html) 以降が必要です。このようなリダイレクトは、以前のリリースでは使用できませんでした。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は [We.Retailのサンプルです](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
+以下は [We.Retail](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/bestpractices/we-retail/we-retail.html) から取得したサンプルです。
 
 ### スクリーンショット {#screenshot}
 
@@ -44,13 +44,13 @@ The Page Component is an extensible page component designed to work with the [te
 
 ### 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Page Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_page_v2).
+ページコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_page_v2_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
 ## 編集ダイアログ{#edit-dialog}
 
-Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) window.
+ページコンポーネントはページ全体を表しているので、編集ダイアログに通常用意されている設定は[ページのプロパティ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)ウィンドウにあります。
 
 ## デザインダイアログ{#design-dialog}
 
@@ -81,7 +81,7 @@ Because the component represents the entire page, settings that would normally b
 * フィールドを削除するには、削除するフィードの横にあるごみ箱アイコンをクリックまたはタップします。
 * 読み込み順序を変更するには、移動するフィールドの横にあるハンドルをクリックまたはタップしてドラッグします。
 
-クライアント側ライブラリの使用に関する詳細は、「クライアント側ライブラリの使 [用」を参照してくださ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)い。
+クライアント側ライブラリの使用に関する詳細は、[クライアント側ライブラリの使用](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html)を参照してください。
 
 >[!CAUTION]
 >
