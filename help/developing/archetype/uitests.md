@@ -1,19 +1,19 @@
 ---
-title: aemプロジェクトのアーキタイプのui.testsモジュール
-description: AEMプロジェクトアーキタイプJUnitテストの使用方法
-translation-type: tm+mt
+title: AEM プロジェクトアーキタイプの ui.tests モジュール
+description: AEM プロジェクトアーキタイプの JUnit テストの使用方法
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
 
 
-# ui.tests Module of the AEM Project Archetype {#uitests-module}
+# AEM プロジェクトアーキタイプの ui.tests モジュール {#uitests-module}
 
-プロジェクトには、次の3つのレベルのテストが含まれています。
+プロジェクトには、次の 3 つのレベルのテストが含まれています。
 
-## Unit Tests {#unit-tests}
+## 単体テスト {#unit-tests}
 
-The unit test in the [core module](core.md) showcases classic unit testing of the code contained in the bundle. テストするには、次の手順を実行します。
+[コアモジュール](core.md)での単体テストは、バンドルに含まれるコードの従来のユニットテストを示しています。テストするには、次の手順を実行します。
 
 ```
 mvn clean test
@@ -21,14 +21,14 @@ mvn clean test
 
 ## 統合テスト {#integration-tests}
 
-サーバー側の統合テストを使用すると、AEM環境（AEMサーバー上など）でユニット型のテストを実行できます。 テストするには、次の手順を実行します。
+サーバーサイドの統合テストを使用すると、AEM 環境（AEM サーバー上など）でユニット型のテストを実行できます。テストするには、次の手順を実行します。
 
 ```
 mvn clean verify -PintegrationTests
 ```
 
-## クライアント側テスト {#client-side-tests}
+## クライアントサイドテスト {#client-side-tests}
 
-テスト `client-side Hobbes.js` は、ブラウザー側の動作を検証するJavaScriptベースのブラウザー側テストです。
+`client-side Hobbes.js` テストは、ブラウザーサイドの動作を検証する JavaScript ベースのブラウザーサイドテストです。
 
-テストするには、テストするAEMページをブラウザーで表示しているときに、左のパネルを開いて **Developer** （開発者）モードでページを開き、「 **Tests** （テスト）」タブに切り替えて、生成された **MyNameテストを見つけて実行します** 。
+テストするには、テストする AEM ページをブラウザーで表示しているときに左のパネルを開いて、ページを&#x200B;**開発者モード**&#x200B;で開き、「**テスト**」タブに切り替えて、生成された **MyName Tests** を見つけて実行します。
