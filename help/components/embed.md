@@ -1,7 +1,7 @@
 ---
 title: 埋め込みコンポーネント
 description: 埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -32,11 +32,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-埋め込みコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_embed)を参照してください。
+埋め込みコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_embed_jp)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-埋め込みコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1) を参照してください。
+埋め込みコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -93,9 +93,9 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 *一般に*、すべてのスクリプトおよび `style` 要素とすべての `on*` および `style` 属性は出力から削除されます。
 
-ただし、埋め込みコンポーネントは AEM のグローバル HTML AntiSamy サニタイズフレームワークのフィルタリングルールセット（`/libs/cq/xssprotection/config.xml` を参照）に従っているので、ルールはさらに複雑になります。これは、開発者が必要に応じて、プロジェクト固有の設定に重ねて表示できます。
+ただし、埋め込みコンポーネントは AEM のグローバル HTML AntiSamy サニタイズフレームワークのフィルタリングルールセット（`/libs/cq/xssprotection/config.xml` を参照）に従っているので、ルールはさらに複雑になります。必要に応じ、開発者によってプロジェクト固有の設定に対応するよう、これをオーバーレイすることができます。
 
-追加のセキュリティ情報は、 [AEM開発者向けドキュメントのオンプレミスでのインストールに加え](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) 、 [AEMおよびクラウドサービスでのインストールに関するドキュメントを参照してください。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
+追加のセキュリティ情報は、[AEM 開発ドキュメントのオンプレミスのインストール](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/introduction/security.html)ならびに、[AEM as a Cloud Service のインストール](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/security/home.html)を参照してください。
 
 >[!NOTE]
 >AntiSamy サニタイズフレームワークのルールは `/libs/cq/xssprotection/config.xml` のオーバーレイにより設定することができますが、そうした変更は、埋め込みコアコンポーネントだけでなく、すべての HTL および JSP の動作に影響を与えます。
