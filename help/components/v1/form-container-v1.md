@@ -2,7 +2,7 @@
 title: フォームコンテナコンポーネント（v1）
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68472ab548fb6ebb443a06c12e7b37797a0c1302
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 68472ab548fb6ebb443a06c12e7b37797a0c1302
 
 フォームコンテナコンポーネントは、シンプルな WCM フォームをサポートし、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
-[設定ダイアログ](#settings-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクションの種類、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。The template author can use the [design dialog](#design-dialog) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html).
+[設定ダイアログ](#settings-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクションの種類、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -101,11 +101,11 @@ source-git-commit: 68472ab548fb6ebb443a06c12e7b37797a0c1302
 
 ## デザインダイアログ{#design-dialog}
 
-The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
+デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Form Container Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
+フォームコンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container) を参照してください。
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
