@@ -2,7 +2,7 @@
 title: 画像コンポーネント（v1）
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
+以下は [We.Retail](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html) から取得したサンプルです。
 
 ### スクリーンショット {#screenshot}
 
@@ -79,9 +79,9 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 ![](/help/assets/chlimage_1-50.png)
 
 * **画像アセット**
-   * [アセットブラウザー](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * [アセットブラウザー](https://helpx.adobe.com/jp/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)」をタップまたはクリックします。
+   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)」をタップまたはクリックします。
 
 * **画像は装飾画像** - 画像が支援テクノロジーによって無視される場合（したがってその代替テキストが不要な場合）はオンにします。これは、装飾画像にのみ適用されます。
 * **代替テキスト** - 視覚に障害のあるユーザー向けの、画像の意味や機能を示す代替テキスト。
@@ -145,7 +145,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
          * **新しいタブ**
          * **親フレーム**
          * **トップフレーム**
-   青いチェックマークをタップまたはクリックして保存し、黒いxでキャンセルし、赤いごみ箱でマップを削除します。
+   マップを保存するには青色のチェックマークを、キャンセルするには黒色の x を、削除するには赤色のごみ箱を、それぞれタップまたはクリックします。
 
    ![](/help/assets/chlimage_1-14.png)
 
