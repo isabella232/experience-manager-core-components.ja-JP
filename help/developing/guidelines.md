@@ -1,7 +1,7 @@
 ---
 title: コンポーネントのガイドライン
-description: コアコンポーネントは、Foundation コンポーネントとは非常に異なる、最新の実装パターンに従っています。
-translation-type: tm+mt
+description: コアコンポーネントは、基盤コンポーネントとは大きく異なる、最新の実装パターンに従います。
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 # コンポーネントのガイドライン {#component-guidelines}
 
-[コアコンポーネント](overview.md)は、Foundation コンポーネントとは非常に異なる、最新の実装パターンに従っています。
+[コアコンポーネント](overview.md)は、基盤コンポーネントとは大きく異なる、最新の実装パターンに従います。
 
 このページでは、それらのパターンと、それらを使ってオーサリング可能な独自のコンポーネントを構築すべき場合について説明します。最初の節の[一般的なコンポーネントのパターン](#general-component-patterns)は、あらゆる種類のコンポーネントに適用されますが、2 番目の節の[再利用可能なコンポーネントのパターン](#reusable-component-patterns)は、コアコンポーネントのように、複数のサイトやプロジェクトにわたる再利用を目的としたコンポーネントに適用されます。
 
@@ -23,11 +23,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 通常、ワイヤフレームやデザインに似た要素のバリエーションが含まれている場合、それらのバリエーションを異なるコンポーネントとして実装するのではなく、複数のバリエーションの中から選択するためのオプションを含む 1 つのコンポーネントとして実装するようにしてください。
 
-コンポーネントが複数のサイトやプロジェクトをまたいで再利用される場合は、[事前設定可能な機能 ](#pre-configurable-capabilities)の節で詳細を参照してください。
+コンポーネントが複数のサイトやプロジェクトをまたいで再利用される場合は、[事前設定可能な機能](#pre-configurable-capabilities)の節で詳細を参照してください。
 
 ### 関心の分離 {#separation-of-concerns}
 
-通常、コンポーネントのロジック（モデル）とマークアップテンプレート（ビュー）を分離することが推奨されます。これを達成する方法はいくつかありますが、コアコンポーネントでもおこなっているように、[Sling モデル](https://sling.apache.org/documentation/bundles/models.html)をロジックに使用し、[HTML テンプレート言語](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)（HTL）をマークアップに使用する方法を推奨します。
+通常、コンポーネントのロジック（モデル）とマークアップテンプレート（ビュー）を分離することが推奨されます。これを達成する方法はいくつかありますが、コアコンポーネントでもおこなっているように、[Sling モデル](https://sling.apache.org/documentation/bundles/models.html)をロジックに使用し、[HTML テンプレート言語](https://docs.adobe.com/content/help/ja-JP/experience-manager-htl/using/overview.html)（HTL）をマークアップに使用する方法を推奨します。
 
 Sling モデルは、POJO から必要な変数に簡単にアクセスできるようにする Java 注釈のセットです。コンポーネントの Java ロジックを実装する、シンプルで強力かつ効率的な方法を提供します。
 
@@ -39,7 +39,7 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ### 事前設定可能な機能 {#pre-configurable-capabilities}
 
-コンポーネントには、ページ作成者が使用する編集ダイアログのほかに、テンプレート作成者が事前設定をおこなうためのデザインダイアログも含めることができます。[テンプレートエディター](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)では、「ポリシー」と呼ばれるこれらの事前設定をすべて設定できます。
+コンポーネントには、ページ作成者が使用する編集ダイアログのほかに、テンプレート作成者が事前設定をおこなうためのデザインダイアログも含めることができます。[テンプレートエディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)では、「ポリシー」と呼ばれるこれらの事前設定をすべて設定できます。
 
 コンポーネントをできるだけ再利用できるようにするには、事前設定用の意味のあるオプションを用意する必要があります。そうすれば、コンポーネントの機能の有効・無効を切り替えることで、様々なサイトの特定のニーズに対応することができます。
 
@@ -78,11 +78,11 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ## まとめ {#putting-it-all-together}
 
-以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html`[HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
+以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html`[HTL](https://docs.adobe.com/content/help/ja-JP/experience-manager-htl/using/overview.html) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
 
 ![リソースバインディングの概要](/help/assets/chlimage_1-32.png)
 
-以下に別の概要を示します。ここでは、実装 POJO の詳細は示されていませんが、関連する[テンプレートとポリシー](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html)の参照方法がわかります。
+以下に別の概要を示します。ここでは、実装 POJO の詳細は示されていませんが、関連する[テンプレートとポリシー](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/platform/templates/page-templates-editable.html)の参照方法がわかります。
 
 `cq:allowedTemplates` プロパティは、サイトで使用可能なテンプレートを示し、`cq:template` はページごとに、どのテンプレートが関連付けられているかを示します。すべてのテンプレートは以下の 3 つの部分から構成されています。
 
@@ -94,7 +94,7 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ## AEM プロジェクトアーキタイプ {#aem-project-archetype}
 
-[AEM Project Archetypeは、推奨のプロキシパターンを使用したコアコンポーネントのロジックと適切な実装のためのSlingModelを使用したカスタムHTMLコンポーネントの例を含め、独自のプロジェクトの起点として最小限のAdobe Experience Managerプロジェクトを作成します。](/help/developing/archetype/overview.md)
+[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)は、最小限の Adobe Experience Manager プロジェクトを独自のプロジェクトの起点として作成します。これには、推奨のプロキシパターンを使用してコアコンポーネントのロジックと適切な実装をおこなうために、SlingModels を使用したカスタム HTL コンポーネントの helloworld の例が含まれます。
 
 **関連項目：**
 
