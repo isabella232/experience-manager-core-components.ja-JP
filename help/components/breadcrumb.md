@@ -1,7 +1,7 @@
 ---
 title: パンくずコンポーネント
 description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -32,21 +32,21 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_breadcrumb).
+パンくずコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_breadcrumb_jp)を参照してください。
 
 >[!NOTE]
 >
->As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
+>コアコンポーネントリリース 2.1.0 の時点では、パンくずコンポーネントは [schema.org microdata](https://schema.org/BreadcrumbList) をサポートしています。
 
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2).
+パンくずコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
 ## 編集ダイアログ{#edit-dialog}
 
-編集ダイアログでは、コンテンツ作成者がパンくずリスト内の非表示ページとアクティブページおよび表示する階層の深さを無効化できます。
+編集ダイアログでは、コンテンツ作成者がパンくずリスト内の非表示ページとアクティブなページ、および表示する階層の深さを無効化できます。
 
 ![](/help/assets/screen_shot_2018-01-12at124250.png)
 
