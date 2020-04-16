@@ -1,8 +1,8 @@
 ---
 title: フォーム非表示コンポーネント（v1）
-description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
+description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 # フォーム非表示コンポーネント（v1）{#form-hidden-component-v}
 
-コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示することができます。
+コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
 
 ## 使用方法 {#usage}
 
@@ -37,7 +37,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
+以下は [We.Retail](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html) から取得したサンプルです。
 
 ### HTML {#html}
 
@@ -95,7 +95,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
+フォームの非表示メントコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden) を参照してください。
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
