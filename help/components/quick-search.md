@@ -1,7 +1,7 @@
 ---
 title: クイック検索コンポーネント
 description: クイック検索コンポーネントは、Web サイトに検索機能を提供し、訪問者がサイト内を検索して結果を絞り込めるように検索結果を表示します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、クイック検索コンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.2.0 で導入された v1）について説明します。
+このドキュメントでは、クイック検索コンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入された v1）について説明します。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
@@ -31,7 +31,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は [We.Retailのサンプルです](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
+以下は [We.Retail](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/bestpractices/we-retail/we-retail.html) から取得したサンプルです。
 
 ### スクリーンショット {#screenshot}
 
@@ -77,9 +77,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 >[!NOTE]
 >
->DOS 攻撃からの検索コンポーネントや AEM ベースアプリケーションの保護は、ディスパッチャーで `mod_security` を使用すればいった、より高いレベルで実装する必要があります。
+>DOS 攻撃からの検索コンポーネントや AEM ベースアプリケーションの保護は、Dispatcher で `mod_security` を使用するなど、より高いレベルで実装する必要があります。
 
-The latest technical documentation about the Quick Search Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_search_v1).
+クイック検索コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_search_v1_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
