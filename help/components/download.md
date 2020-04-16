@@ -1,7 +1,7 @@
 ---
 title: ダウンロードコンポーネント
 description: コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -32,11 +32,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-ダウンロードコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_download)を参照してください。
+ダウンロードコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_download_jp)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-ダウンロードコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_download_v1) を参照してください。
+ダウンロードコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -51,9 +51,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 ダウンロードアセットの選択は、[画像コンポーネント](image.md)の機能とよく似ており、同じく AEM の DAM を利用しています。
 
 * **アセットをダウンロード**
-   * [アセットブラウザー](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * [アセットブラウザー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)」をタップまたはクリックします。
+   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)」をタップまたはクリックします。
 
 ### 「プロパティ」タブ {#properties-tab}
 
