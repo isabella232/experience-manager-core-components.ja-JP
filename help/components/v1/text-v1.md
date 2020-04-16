@@ -2,7 +2,7 @@
 title: テキストコンポーネント（v1）
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-以下は [We.Retailのサンプルです](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
+以下は [We.Retail](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/we-retail.html) から取得したサンプルです。
 
 ### スクリーンショット {#screenshot}
 
@@ -163,7 +163,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
    ![](/help/assets/chlimage_1-66.png)
 
-   検索するテキストを入力し、「**検索**」をタップまたはクリックして検索を開始します。キャンセルする場合は。「x」をタップまたはクリックします。
+   検索するテキストを入力し、「**検索**」をタップまたはクリックして検索を開始します。キャンセルする場合は、「x」をクリックまたはタップします。
 
    大文字と小文字を区別して完全一致検索をおこなう場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。
 
@@ -185,7 +185,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
    検索する文字列と置換後の文字列を入力します。
 
-   検索を開始するには、「**検索**」をタップまたはクリックします。キャンセルする場合は。「x」をタップまたはクリックします。
+   検索を開始するには、「**検索**」をタップまたはクリックします。キャンセルする場合は、「x」をタップまたはクリックします。
 
    大文字と小文字を区別して完全一致検索をおこなう場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。
 
@@ -361,7 +361,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
+テキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text) を参照してください。
 
 コアコンポーネントプロジェクト全体を GitHub からダウンロードできます。
 
