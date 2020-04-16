@@ -1,73 +1,73 @@
 ---
-title: Angular SPAのフロントエンドビルド
-description: AngularベースのSPAプロジェクトのフロントエンドビルドプロセスの説明
-translation-type: tm+mt
+title: Angular SPA のフロントエンドビルド
+description: Angular ベースの SPA プロジェクトのフロントエンドビルドプロセスの説明
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
 
 
-# Angular SPAのフロントエンドビルド {#frontend-angular}
+# Angular SPA のフロントエンドビルド {#frontend-angular}
 
-このドキュメントでは、Angularフレームワークに基づいて単一ページアプリケーション(SPA)を作成する際に作成されるプロジェクトの詳細を説明します。 例えば、オプションをに設定し `frontendModule` た場合 `angular`。
+このドキュメントでは、アーキタイプを使用して Angular フレームワークに基づく単一ページアプリケーション（SPA）を作成するプロジェクトの詳細を説明します。例えば、`frontendModule` オプションを `angular` に設定する場合です。
 
 ## 概要 {#overview}
 
-このプロジェクトは [Angular CLIでブートストラップされました](https://github.com/angular/angular-cli)。
+このプロジェクトは [Angular CLI](https://github.com/angular/angular-cli) でブートストラップ処理されました。
 
-このアプリケーションは、サイトのAEMモデルを使用するように構築されています。 これにより、 [@adobe/cq-angular-editable-componentsパッケージのヘルパーコンポーネントを使用してレイアウトが自動的に生成されます](https://www.npmjs.com/package/@adobe/cq-angular-editable-components) 。
+このアプリケーションは、サイトの AEM モデルを使用するようにビルドされています。これにより、[@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components) パッケージのヘルパーコンポーネントを使用してレイアウトが自動的に生成されます。
 
 ## スクリプト {#scripts}
 
 プロジェクトディレクトリで、次のコマンドを実行できます。
 
-### npm開始 {#npm-start}
+### npm start {#npm-start}
 
 ```
 npm start
 ```
 
-このコマンドは、http://localhost:4502で実行されているローカルAEMインスタンスからJSONモデルをプロキシすることによって、アプリを開発モードで実行します。 これは、プロジェクト全体が（プロジェクトルート内で）少なくとも1回AEMにデプロイされ`mvn clean install -PautoInstallPackage` ていることを前提としています。
+このコマンドは、http://localhost:4502 で実行されるローカル AEM インスタンスから JSON モデルをプロキシすることで、アプリを開発モードで実行します。これは、プロジェクト全体が少なくとも 1 回 AEM にデプロイされていることを前提としています（プロジェクトルートの `mvn clean install -PautoInstallPackage`）。
 
-ui.frontendディレクトリでnpm startを実行すると、アプリが自動的にブラウザーで開きます(パス：http://localhost:4200/content/${appId}/${country}/${language}/home.html)。 編集を行うと、ページが再読み込みされます。
+ui.frontend ディレクトリで npm start を実行すると、アプリが自動的にブラウザーで開きます（パス：http://localhost:4200/content/${appId}/${country}/${language}/home.html）。編集すると、ページがリロードされます。
 
-CORSに関連するエラーが発生する場合は、次のようにAEMを設定できます。
+CORS に関連するエラーが発生する場合は、次のように AEM を設定します。
 
-1. Configuration Manager(http://localhost:4502/system/console/configMgr)に移動します。
+1. 設定マネージャーに移動します（http://localhost:4502/system/console/configMgr）
 1. 「Adobe Granite Cross-Origin Resource Sharing Policy」の設定を開きます。
 1. 次の値を追加して、新しい設定を作成します。
-   * 許可されている起点：http://localhost:4200
-   * サポートされるヘッダー：認証
-   * 許可されているメソッド：オプション
+   * 許可されるオリジン：http://localhost:4200
+   * サポートされるヘッダー：Authorization
+   * 許可されるメソッド：OPTIONS
 
-### npmテスト {#npm-test}
+### npm test {#npm-test}
 
 ```
 npm test
 ```
 
-このコマンドは、Karmaテストランナーを起動します。 詳細については、 [Angularのドキュメントを参照してテストの実行](https://angular.io/guide/testing) 。
+このコマンドは、Karma テストランナーを起動します。詳細については、[テスト実行に関する Angular のドキュメント](https://angular.io/guide/testing)を参照してください。
 
-### npm実行テスト：debug {#npm-run-test-debug}
+### npm run test:debug {#npm-run-test-debug}
 
 ```
 npm run test:debug
 ```
 
-このコマンドは、インタラクティブウォッチモードでKarmaテストランナーを起動します。
+このコマンドは、インタラクティブ監視モードで Karma テストランナーを起動します。
 
-### npm実行ビルド {#npm-run-build}
+### npm run build {#npm-run-build}
 
 ```
 npm run build
 ```
 
-このコマンドは、実稼働用のアプリをbuildフォルダーに構築します。 Angularを実稼働モードでバンドルし、最適なパフォーマンスを得るためにビルドを最適化します。 詳細については、 [Angularの導入に関するドキュメント](https://angular.io/guide/deployment) を参照してください。
+このコマンドは、実稼動用のアプリケーションを build フォルダーにビルドします。実稼動モードで Angular をバンドルし、最適なパフォーマンスを得るためにビルドを最適化します。詳しくは、[デプロイメントに関する Angular のドキュメント](https://angular.io/guide/deployment)を参照してください。
 
-さらに、AEM clientLibは、aem-clientlib-generatorパッケージを使用して、ア [プリから生成されます](https://github.com/wcm-io-frontend/aem-clientlib-generator) 。
+さらに、AEM clientLib は、[aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator) パッケージを使用して、アプリから生成されます。
 
-プロジェクトのアーキ [タイプでAEM clientLibsがどのように使用されるかについて詳しくは、一般的な](uifrontend.md#clientlibs) ui.frontendモジュールのドキュメントを参照してください。
+プロジェクトのアーキタイプで AEM clientLibs がどのように使用されるかについて詳しくは、一般的な [ui.frontend モジュールのドキュメント](uifrontend.md#clientlibs)を参照してください。
 
 ## ブラウザーのサポート {#browser-support}
 
-デフォルトでは、このプロジェクトは [Browserslistのデフォルトオプション](https://github.com/browserslist/browserslist)を使用して、ターゲットブラウザを識別します。 また、古いブラウザー（Internet Explorer 11など）をサポートする最新言語機能のポリフィルも含まれています。 このようなブラウザーをサポートする必要がない場合は、ポリフィルの依存関係とインポートを削除できます。
+デフォルトでは、このプロジェクトは [Browserslist](https://github.com/browserslist/browserslist) のデフォルトオプションを使用して、ターゲットブラウザーを識別します。また、古いブラウザー（Internet Explorer 11 など）をサポートする最新言語機能のポリフィルも含まれています。このようなブラウザーをサポートする必要がない場合は、ポリフィルの依存関係と読み込みを削除できます。
