@@ -1,7 +1,7 @@
 ---
 title: ボタンコンポーネント
 description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -32,11 +32,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-ボタンコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_button)を参照してください。
+ボタンコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_button_jp)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-The latest technical documentation about the Button Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
+ボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_button_v1_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -50,7 +50,7 @@ The latest technical documentation about the Button Component [can be found on G
 
 * **テキスト** - ボタンに表示するテキスト
 * **リンク** - AEM 内のコンテンツページ、外部リソース、アンカーへのリンク
-   * **選択ダイアログ**&#x200B;を使用して、AEM 内のパスを選択します
+   * **選択ダイアログ**&#x200B;を使用して、AEM 内のパスを選択します。
 * **アイコン** - ボタンにアイコンを表示するための識別子
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
