@@ -1,7 +1,7 @@
 ---
 title: フォームテキストコンポーネント
 description: コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
@@ -30,11 +30,11 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Form Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_text).
+フォームテキストコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_text_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-フォームテキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2) を参照してください。
+フォームテキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -54,10 +54,10 @@ To experience the Form Text Component as well as see examples of its configurati
    * **日付**
    * **番号**
    * **パスワード**
-* **テキスト行数**：テキスト領域に表示する行数（「**制約**」が&#x200B;**テキスト領域**&#x200B;に設定されている場合にのみ表示）
+* **テキスト行**：テキスト領域に表示する行数（「**制約**」が&#x200B;**テキスト領域**&#x200B;に設定されている場合にのみ表示）
 * **ラベル**：フィールドに表示するラベル
-* **ラベルを非表示**：ラベルがアクセシビリティのためにのみ必要で、フィールドに関するその他の視覚的情報には影響しない場合に必要です
-* **要素名**：フォームデータと共に送信されるフィールドの名前
+* **ラベルを非表示にします**：ラベルがアクセシビリティのためにのみ必要で、フィールドに関するその他の視覚的情報には影響しない場合に必要です
+* **エレメント名**：フォームデータと共に送信されるフィールドの名前
 * **値**：フィールドに事前入力されるデフォルト値
 
 ### 「情報」タブ {#about-tab}
