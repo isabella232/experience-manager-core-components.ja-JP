@@ -1,7 +1,7 @@
 ---
-title: AEMプロジェクトのアーキタイプの使用
-description: AEMプロジェクトのアーキタイプの使用方法の詳細
-translation-type: tm+mt
+title: AEM プロジェクトアーキタイプの使用
+description: AEM プロジェクトアーキタイプの使用方法の詳細
+translation-type: ht
 source-git-commit: 477a1774a856725f52b9db7a978c534de4700661
 
 ---
@@ -21,7 +21,7 @@ AEM プロジェクトのアーキタイプを使用すると、数回のキー�
 
 プロジェクトのアーキタイプを使用すると、AEM での開発を簡単に開始できます。最初の手順にはいくつかの方法があります。
 
-* WKND チュートリアル - アーキタイプの活用方法など、AEM での開発に関する詳しい概要については、「[AEM Sites の概要 - WKND チュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)」を参照して、アーキタイプを使用した単純なプロジェクトの実装手順を示す実例を確認してください。
+* WKND チュートリアル - アーキタイプの活用方法など、AEM での開発に関する詳しい概要については、「[AEM Sites の概要 - WKND チュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)」を参照して、アーキタイプを使用した単純なプロジェクトの実装手順を示す実例を確認してください。
 * WKND イベントチュートリアル - AEM でのシングルページアプリケーション（SPA）の開発に特に関心がある場合は、専用の [WKND イベントチュートリアル](https://helpx.adobe.com/jp/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)を必ずご覧ください。
 * ダウンロードして開始しましょう。- [以下の簡単な手順に従うと](#how-to-use-the-archetype)、GitHub で利用可能な現在のプロジェクトのアーキタイプを簡単にダウンロードして、最初のプロジェクトを作成できます。
 
@@ -67,14 +67,13 @@ mvn -B archetype:generate \
  -D includeExamples=n
 ```
 
-* Set `XX` to the [version number](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) of the latest AEM Project Archetype.
-* AEMをク `aemVersion=cloud` ラウ [ドサービスとして設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html);\
-   アドビ `aemVersion=6.5.0` の [Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)、またはオンプレミスに設定します。
-コアコンポーネントの依存関係は、非クラウドAEMバージョンに対してのみ追加されます。これは、コアコンポーネントがAEM用にクラウドサービスとしてOOTBを提供するためです。
-* Webサイトのタ `appTitle="My Site"` イトルとコンポーネントグループを定義するように調整します。
-* Maven artifactId、 `appId="mysite"` コンポーネント、設定、コンテンツのフォルダー名、およびクライアントライブラリ名を定義するように調整します。
-* Maven groupIdとJava `groupId="com.mysite"` ソースパッケージを定義するように調整します。
-* 使用可能なプロパティのリストを参照して、調整するプロパティの数が多いかどうかを確認します。
+* `XX` を、最新の AEM プロジェクトアーキタイプの[バージョン番号](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)に設定します。
+* [AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) の場合は、`aemVersion=cloud` と設定します。\
+   [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`aemVersion=6.5.0` と設定します。AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用できる形で提供されているので、コアコンポーネントの依存関係は、非クラウドバージョンの AEM の場合にのみ追加します。
+* `appTitle="My Site"` を調整して、Web サイトのタイトルやコンポーネントグループを定義します。
+* `appId="mysite"` を調整して、Maven アーティファクト ID、コンポーネントフォルダー名、設定フォルダー名、コンテンツフォルダー名、およびクライアントライブラリ名を定義します。
+* `groupId="com.mysite"` を調整して、Maven グループ ID と Java ソースパッケージを定義します。
+* 使用可能なプロパティのリストを調べて、調整が必要なプロパティが他にあるかどうかを確認します。
 
 >[!NOTE]
 >
@@ -88,20 +87,20 @@ mvn -B archetype:generate \
 
 | 名前 | デフォルト値は | 説明 |
 --------------------------|----------------|--------------------
-| `appTitle` |  | アプリのタイトル。Webサイトのタイトルやコンポーネントグループ( `"My Site"`)。 |
-| `appId` |  | 技術的な名前。コンポーネント、設定、コンテンツのフォルダー名、クライアントライブラリ名(例： `"mysite"`)。 |
-| `artifactId` | *`${appId}`* | Base Maven artifact ID (e.g. `"mysite"`). |
-| `groupId` |  | Base Maven group ID (e.g. `"com.mysite"`). |
-| `package` | *`${groupId}`* | Javaソースパッケージ(例： `"com.mysite"`)。 |
-| `version` | `1.0-SNAPSHOT` | プロジェクトのバージョン(例： `1.0-SNAPSHOT`)。 |
-| `aemVersion` | `6.5.0` | ターゲットAEMバージョン(クラウドサ `cloud` ービ [スとしてのAEM用に指定可能](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html)。また `6.5.0`は、 `6.4.4`Adobe Managed Services `6.3.3`[](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合)。 |
-| `sdkVersion` | `latest` | `aemVersion=cloud` SDKバージョ [ンを指定できる場合](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) (例： `2020.02.2265.20200217T222518Z-200130`)。 |
-| `includeDispatcherConfig` | `y` | の値（またはの可能性）に応じて、クラウドまたはAMS/オンプレミスのディスパッチャー設 `aemVersion` 定を含め `y` ます `n`。 |
-| `frontendModule` | `none` | クライアントライブラリ（通常のサイトの場合と、通常のサイトの場合）を生成するWebpackフロントエンドビル `general` ドモジュール `none` が含まれています。は、 `angular` または `react`[SPAエディターを実装する単一ページアプリ](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html)用)。 |
-| `languageCountry` | `en_us` | Language and country code to create the content structure from (e.g. `en_us`). |
-| `singleCountry` | `y` | 言語マスターのコンテンツ構造を含めます(または `y`のいずれか `n`)。 |
-| `includeExamples` | `y` | コンポーネン [トライブラリ](https://www.aemcomponents.dev/) のサンプルサイトを含めます( `y`または `n`)。 |
-| `includeErrorHandler` | `n` | インスタンス全体に対してグローバルに表示されるカスタム404応答ページを含めます(または `y` 可能 `n`です)。 |
+| `appTitle` |  | アプリケーションのタイトル。Web サイトのタイトルやコンポーネントグループに使用されます（例：`"My Site"`）。 |
+| `appId` |  | 技術的な名前。コンポーネント、設定、コンテンツのフォルダー名やクライアントライブラリ名に使用されます（例：`"mysite"`）。 |
+| `artifactId` | *`${appId}`* | 基本 Maven アーティファクト ID です（例：`"mysite"`）。 |
+| `groupId` |  | 基本 Maven グループ ID です（例：`"com.mysite"`）。 |
+| `package` | *`${groupId}`* | Java ソースパッケージです（例：`"com.mysite"`）。 |
+| `version` | `1.0-SNAPSHOT` | プロジェクトのバージョンです（例：`1.0-SNAPSHOT`）。 |
+| `aemVersion` | `6.5.0` | 対象 AEM バージョンです（[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は `6.5.0`、`6.4.4`、`6.3.3` のいずれか）。 |
+| `sdkVersion` | `latest` | `aemVersion=cloud` の場合は、[SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) のバージョンを指定できます（例：`2020.02.2265.20200217T222518Z-200130`）。 |
+| `includeDispatcherConfig` | `y` | `aemVersion` の値に応じて、クラウドか AMS／オンプレミスのいずれかの Dispatcher 設定を組み込みます（`y` または `n`）。 |
+| `frontendModule` | `none` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/headless/spas/spa-overview.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
+| `languageCountry` | `en_us` | コンテンツ構造を作成する言語および国コードです（例：`en_us`）。 |
+| `singleCountry` | `y` | 言語マスターコンテンツ構造を組み込みます（`y` または `n`）。 |
+| `includeExamples` | `y` | [コンポーネントライブラリ](https://www.aemcomponents.dev/)のサンプルサイトを組み込みます（`y` または `n`）。 |
+| `includeErrorHandler` | `n` | インスタンス全体でグローバルに使用されるカスタムの 404 応答ページを組み込みます（`y` または `n`）。 |
 
 >[!NOTE]
 > アーキタイプを初めてインタラクティブモードで実行する際には、デフォルト値のプロパティは変更できません（詳しくは [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) を参照してください）。この値は、最後のプロパティ確認が拒否され、質問が繰り返された場合や、コマンドラインでパラメータを渡す際に変更できます（例：`-DoptionIncludeExamples=n`）。
@@ -156,7 +155,7 @@ mvn clean install -PautoInstallBundle
 
 ## 親 POM {#parent-pom}
 
-プロジェクトのルートにある`<src-directory>/<project>/pom.xml`（`pom.xml`）は親 POM と呼ばれ、プロジェクトの構造を駆動し、プロジェクトの依存関係と特定のグローバルプロパティを管理します。
+プロジェクトのルートにある `pom.xml`（`<src-directory>/<project>/pom.xml`）は親 POM と呼ばれ、プロジェクトの構造を駆動し、プロジェクトの依存関係と特定のグローバルプロパティを管理します。
 
 ### グローバルプロジェクトプロパティ {#global-properties}
 
