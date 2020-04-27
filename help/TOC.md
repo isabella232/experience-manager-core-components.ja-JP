@@ -1,7 +1,7 @@
 ---
-sub-product: AEM Core Components
-user-guide-title: AEM Core Components
-translation-type: tm+mt
+sub-product: AEM コアコンポーネント
+user-guide-title: AEM コアコンポーネント
+translation-type: ht
 source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 # AEM コアコンポーネントヘルプ {#using}
 
 + [コアコンポーネントの概要](introduction.md)
-+ [成功へのパス](developing/success.md)
++ [成功への道筋](developing/success.md)
 + [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)
 + [コアコンポーネントのバージョン](versions.md)
 + はじめに {#get-started}
@@ -61,7 +61,7 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
          + [フォームテキスト（v1）](components/v1/form-text-v1.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing/overview.md)
-   + [成功へのパス](developing/success.md)
+   + [成功への道筋](developing/success.md)
    + [WKND 開発者向けチュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [コアコンポーネントのカスタマイズ](developing/customizing.md)
    + [コンポーネントのガイドライン](developing/guidelines.md)
