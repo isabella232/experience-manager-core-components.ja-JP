@@ -1,7 +1,7 @@
 ---
 title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ---
@@ -32,23 +32,23 @@ source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-テキストコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_text)を参照してください。
+テキストコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_text_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-テキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_text_v2) を参照してください。
+テキストコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_text_v2_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
 ## テキストコンポーネントとリッチテキストエディター {#the-text-component-and-the-rich-text-editor}
 
-コアコンポーネントのテキストコンポーネントでは、AEM リッチテキストエディター（RTE）を利用します。RTE には、コンテンツ作成者がテキストコンテンツの編集に使用できる幅広い機能が用意されています。RTE は設定の柔軟性が非常に高く、数多くのオプションを提供しています。RTE の設定方法の詳細については、[リッチテキストエディターの設定](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html)や[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)を参照してください。
+コアコンポーネントのテキストコンポーネントでは、AEM リッチテキストエディター（RTE）を利用します。RTE には、コンテンツ作成者がテキストコンテンツの編集に使用できる幅広い機能が用意されています。RTE は設定の柔軟性が非常に高く、数多くのオプションを提供しています。RTE の設定方法の詳細については、[リッチテキストエディターの設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/operations/rich-text-editor.html)や[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 コアコンポーネントのテキストコンポーネントでは、RTE がすぐに使用できる状態に設定されています。このドキュメントではこの後、テキストコンポーネントの標準設定について説明します。
 
 >[!NOTE]
 >
->テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
+>テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
 
 ## 編集ダイアログ{#edit-dialog}
 
@@ -170,7 +170,7 @@ source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 「**すべてを置換**」をタップまたはクリックすると、一致するすべての文字列が一度に置換されます。
 
-置換機能を使用する場合は、置換する置換文字列を検索文字列と同時に入力する必要があります。 ただし、置き換える前に「検索」をクリックして文字列を検索することはできます。 「検索」をクリックした後に置換文字列を入力すると、検索はテキストの先頭にリセットされます。
+置換機能を使用する場合は、検索文字列と同時に置換後の文字列も入力する必要があります。ただし、置換する前に「検索」をクリックして文字列を検索することはできます。「検索」をクリックした後に置換後の文字列を入力すると、検索がリセットされ、テキストの先頭から再開されます。
 
 検索と置換ダイアログは、「検索」をクリックすると透明になり、「置換」をクリックすると不透明になります。これにより、作成者は、置換されるテキストを確認できます。
 
@@ -250,7 +250,7 @@ source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)を参照してください。
+スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 ### 特殊文字 {#special-characters}
 
