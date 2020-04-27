@@ -1,7 +1,7 @@
 ---
 title: コアコンポーネントの概要
 description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 71c1cca664dde91968df16848650df9f0f0a5218
 
 ---
@@ -11,25 +11,35 @@ source-git-commit: 71c1cca664dde91968df16848650df9f0f0a5218
 
 Adobe Experience Manager では、コンポーネントは、オーサリングするページのコンテンツを構成する構造要素です。コンポーネントは常に AEM エクスペリエンスの基本要素となってきました。作成者はコンポーネントを使用することで単純かつ強力にページを作成し、開発者は柔軟かつ拡張可能なコンポーネントを開発できます。
 
-コアコンポーネントは、AEMの標準化されたWebコンテンツ管理(WCM)コンポーネントのセットで、開発時間を短縮し、Webサイトのメンテナンスコストを削減します。
+コアコンポーネントは、AEM で Web サイトの開発時間を短縮しメンテナンスコストを削減するための、標準化された Web コンテンツ管理（WCM）コンポーネントのセットです。
 
 ## リソース {#resources}
 
-* **[コンポーネントライブラリ：](https://www.adobe.com/go/aem_cmp_library)**コンポーネントを様々な設定で表示するための例のコレクションです。
-* **コンポーネントのドキュメント(このドキュメント):** 開発者および作成者向け。各コンポーネントの詳細を含みます。
-* はじめに:
-   * **[コアコンポーネントの成功：](/help/developing/success.md)**コアコンポーネントを使用するプロジェクトの開始前に十分考慮すべきガイドラインです。
-   * **[WKNDチュートリアル：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**新しいサイトを作成するための2日間のチュートリアルです。
-   * **[Summit Tutorial:](https://expleague.azureedge.net/labs/L767/index.html)**新しいサイトを構築するための2時間のチュートリアル（US Summit 2019のラボから）。
-   * **[Gemsウェビナー：](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**コアコンポーネントのガイドツアー（2018年12月に記録）
+* **[コンポーネントライブラリ：](https://www.adobe.com/go/aem_cmp_library_jp)**コンポーネントを様々な設定で表示する例を集めたものです。
+* **コンポーネントのドキュメント（本ドキュメント）：**&#x200B;開発者および作成者向けに、各コンポーネントの詳細を説明しています。
+* 入門ガイド：
+   * **[コアコンポーネントを利用したプロジェクトの成功への道筋：](/help/developing/success.md)**コアコンポーネントを使用するプロジェクトを開始する前に十分考慮すべきガイドラインです。
+   * **[WKND チュートリアル：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**新しいサイトの構築に関する 2 日間のチュートリアルです。
+   * **[Adobe Summit のチュートリアル：](https://expleague.azureedge.net/labs/L767/index.html)**新しいサイトの構築に関する 2 時間のチュートリアルです（US Summit 2019 のラボの内容）。
+   * **[Gems Web セミナー：](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**コアコンポーネントのガイドツアー（2018 年 12 月に録画）
 
-## 機能 {#features}
+## 特長 {#features}
 
-||||—|—||実稼働環境に対応|コアコンポーネントは27の堅牢なコンポーネントで、テストが適しており、広く使用されており、パフォーマンスが優れています。||Cloud-Ready| [AEM上でクラウドサービスとして、](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html)[](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Adobe Managed Services上、オンプレミスのどちらでも、動作します。||汎用|コンポーネントは、作成者がほとんどすべてのレイアウトを組み立てることができる一般的な概念を表します。||設定可能|テンプレートレベルのコ [ンテンツポリシー](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) 。ページ作成者が使用できる機能と使用できない機能を定義します。|
-|Accessible| They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)).|
-|SEO-Friendly| The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations.||WebApp-Ready|合理化されたJSON [出力により](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) 、クライアント側でのレンダリングが可能になり、コンテキスト [内編集も可能です](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。||デザインキット| Adobe XD用 [UIキットを使用すると](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) 、デザイナーはワイヤフレームを作成し、必要に応じてスタ [イル設定できます](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)。|
-|Themeable| The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/).||カスタマイズ可能| HTMLの調整から高度な機 [能の再利用まで](developing/customizing.md)、いくつかのパターンをカスタマイズしやすくなっています。||バージョン管理|バージ [ョン管理ポリシーは](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) 、影響を及ぼす可能性のある改善の際に、コアコンポーネントがサイトを壊さないようにします。|
-|Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).||オープンソース|必要に応じて何かがない場合は、改 [善点にご協力ください。](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
+|||
+|--|---|
+|実稼働対応| コアコンポーネントは 27 個の堅牢なコンポーネントで、十分にテストされ、広く使用されており、パフォーマンスが優れています。|
+|クラウド対応| [AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)、オンプレミスのどちらでも動作します。|
+|汎用| コンポーネントは、ほぼあらゆるレイアウトの作成に作成者が使用できる汎用的な概念を表します。|
+|設定可能| ページ作成者が使用できる機能と使用できない機能をテンプレートレベルの[コンテンツポリシー](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies)で定義します。|
+|アクセシビリティ| [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)に準拠し、ARIA ラベルを提供し、キーボードナビゲーションをサポートします（[既知の問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)を参照）。|
+|SEO 対応| HTML 出力はセマンティックであり、[schema.org](https://schema.org) マイクロデータ注釈を提供します。|
+|Web アプリ対応| [効率化された JSON 出力](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)によりクライアント側でのレンダリングが可能になる一方、[コンテキスト内編集](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)も依然として可能です。|
+|デザインキット| [Adobe XD 用 UI キット](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd)を使用すると、デザイナーはワイヤフレームを作成したあと、[必要に応じてスタイルを設定](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)できます。|
+|テーマ適用可能| コンポーネントは[スタイルシステム](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/components/style-system.html)を実装し、マークアップは [BEM CSS の命名規則](http://getbem.com/)に従っています。|
+|カスタマイズ可能| いくつかのパターンが用意されているので、HTML の調整から高度な機能の再利用まで、[カスタマイズが容易](developing/customizing.md)になっています。|
+|バージョン管理| [バージョン管理ポリシー](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)が設定されているので、影響を受ける可能性のある改善の際にも、コアコンポーネントが原因でサイトが機能しなくなることはありません。|
+|ローカライズ可能| スマートリファレンス解決機能により、特定のコンポーネントが、[対応するローカライズされたコンテンツを自動的に検索してレンダリング](get-started/localization.md)できます。|
+|オープンソース| 何か問題がある場合は、[改善案を寄稿](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)できます。
 
 ## コンポーネント{#the-components}
 
@@ -59,7 +69,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * [ソーシャルメディア共有](components/sharing.md)
 * [区切り文字](components/separator.md)
 
-### コンテナの構成要素 {#container-components}
+### コンテナコンポーネント {#container-components}
 
 * [コンテナ](components/container.md)
 * [カルーセル](components/carousel.md)
@@ -88,10 +98,10 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------|---------
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 継続的 | 6.5.0.0 以上 | 6.4.4.0 以上 | 6.3.3.4 以上 | 8、11 | 3.3.9+ |
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 継続的 | 6.5.0.0 以上 | 6.4.4.0 以上 | 6.3.3.4 以上 | 8、11 | 3.3.9 以上 |
 
-以前のコアコンポーネントリリースの要件については、コアコンポーネントのバージ [ョンを参照してくださ](versions.md)い。
+以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
-コアコンポーネントでは、編集可能なテンプレー [トの使用が必要で](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 、クラシックUIや静的テンプレートはサポートされません。 必要に応じて、 [AEM Modernization Toolsを確認して](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) 、これらの最新のAEM機能でプロジェクトを更新します。
+コアコンポーネントでは、[編集可能なテンプレート](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)を使用する必要があり、クラシック UI や静的テンプレートはサポートされていません。必要に応じて、[AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) を使用して、これらの最新の AEM 機能をプロジェクトに反映します。
 
-ローカルの開発環境を設定するには、AEMの概要を [クラウドサービスSDKとして、またはこのドキュメントを使用して](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 、AEMの古いバー [ジョンを設定する必要があります](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
+ローカルの開発環境をセットアップするには、[AEM as a Cloud Service SDK の場合はこの概要](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)を、[旧バージョンの AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) の場合は本ドキュメントを、それぞれを参照してください。
