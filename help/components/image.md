@@ -1,7 +1,7 @@
 ---
 title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
@@ -29,7 +29,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | クラウドサービスとしての AEM |
+| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
 | [v1](v1/image-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
@@ -50,15 +50,15 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 >[!CAUTION]
 >
->SVG のサポートには、AEM 内の新しい画像エディター機能をサポートするために、[コアコンポーネントのリリース 2.1.0 と、](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) AEM 6.4 の Service Pack 2 [、](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)AEM 6.3 以降の Service Pack [3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) が必要です。
+>SVG のサポートには、AEM 内の新しい画像エディター機能をサポートするために、[コアコンポーネントのリリース 2.1.0 と、](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/sp-release-notes.html) AEM 6.4 の Service Pack 2 [、](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html)AEM 6.3 以降の Service Pack [3](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/developing/components/image-editor.html) が必要です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-画像コンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_image)にアクセスしてください。
+画像コンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_image_jp)にアクセスしてください。
 
 ### 技術的詳細 {#technical-details}
 
-画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_image_v2) を参照してください。
+画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_image_v2_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -75,9 +75,9 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 ![](/help/assets/screen_shot_2018-01-08at114245.png)
 
 * **画像アセット**
-   * [アセットブラウザー](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * [アセットブラウザー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)」をタップまたはクリックします。
+   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)」をタップまたはクリックします。
 
 ### 「メタデータ」タブ {#metadata-tab}
 
@@ -141,7 +141,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
    >[!CAUTION]
    >
-   >ローンチマップ機能を使用するには、AEM 内で[新しい画像エディター機能](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 と、AEM 6.4 の [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html)、AEM 6.3 以降の [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要です。
+   >ローンチマップ機能を使用するには、AEM 内で[新しい画像エディター機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/developing/components/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 と、AEM 6.4 の [Service Pack 2](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/sp-release-notes.html)、AEM 6.3 以降の [Service Pack 3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要です。
 
    ![](/help/assets/chlimage_1-12.png)
 
@@ -167,7 +167,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
       * **新しいタブ**
       * **親フレーム**
       * **トップフレーム**
-   青いチェックマークをタップまたはクリックして保存し、黒いxでキャンセルし、赤いごみ箱でマップを削除します。
+   マップを保存するには青色のチェックマークを、キャンセルするには黒色の x を、削除するには赤色のごみ箱を、それぞれタップまたはクリックします。
 
    ![](/help/assets/chlimage_1-14.png)
 
@@ -283,6 +283,6 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 >[!NOTE]
 >
->`Last-Modified` ヘッダーを介した条件付き要求は、アダプティブ画像サーブレットでサポートされますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
+>`Last-Modified` ヘッダーを介した条件付き要求は、アダプティブ画像サーブレットでサポートされますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
 >
 >[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)のサンプル Dispatcher 設定には、既にこの設定が含まれています。
