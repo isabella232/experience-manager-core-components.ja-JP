@@ -1,9 +1,9 @@
 ---
 source-git-commit: aa978d6ddf04912e3fc108f86450fac6a90d2caf
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Adobe Experience Managerコアコンポーネントドキュメント
+# Adobe Experience Manager コアコンポーネントドキュメント
 
 ## コアコンポーネントドキュメント
 
@@ -17,4 +17,4 @@ Adobe Experience Manager コアコンポーネント&#x200B;***ドキュメン�
 
 ## コアコンポーネントリポジトリ
 
-[Adobe Experience Manager Core Components自体は](https://github.com/adobe/aem-core-wcm-components) 、プロジェクトとして別のリポジトリに保持されます。 コンポーネントに関する技術／開発者向けドキュメントが必要な場合、コンポーネントそのものへの貢献を希望する場合、コアコンポーネントの機能や特長に関する問題を提起する必要がある場合は、プロジェクトをチェックアウトしてください。
+[Adobe Experience Manager コアコンポーネント](https://github.com/adobe/aem-core-wcm-components)自体は、別個のリポジトリ内のプロジェクトとして維持管理されています。コンポーネントに関する技術／開発者向けドキュメントが必要な場合、コンポーネントそのものへの貢献を希望する場合、コアコンポーネントの機能や特長に関する問題を提起する必要がある場合は、プロジェクトをチェックアウトしてください。
