@@ -1,7 +1,7 @@
 ---
 title: フォーム非表示コンポーネント
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
@@ -32,11 +32,11 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-To experience the Form Hidden Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_hidden).
+フォーム非表示コンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_hidden_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-フォームの非表示メントコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) を参照してください。
+フォームの非表示メントコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
