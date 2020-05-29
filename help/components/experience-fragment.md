@@ -1,8 +1,11 @@
 ---
 title: エクスペリエンスフラグメントコンポーネント
 description: エクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者はエクスペリエンスフラグメントのバリエーションをページに追加できます。
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 89%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 ```
 /content
 +-- experience-fragments
-   \-- we-retail
+   \-- wknd
       +-- language-masters
       +-- us
          +-- en
@@ -59,7 +62,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
          \-- it
             +-- footerTextXf
             \-- headerTextXf
-+-- we-retail
++-- wknd
    +-- language-masters
    +-- us
       +-- en
@@ -72,11 +75,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 \-- wknd-shop
 ```
 
-`/content/experience-fragments/we-retail` 配下の構造が `/content/we-retail` の構造を反映していることに注意してください。
+`/content/experience-fragments/wknd` 配下の構造が `/content/wknd` の構造を反映していることに注意してください。
 
-このとき、エクスペリエンスフラグメントコンポーネント `/content/experience-fragments/we-retail/us/en/footerTextXf` がテンプレートに配置される場合、ローカライズされたページをそのテンプレートに基づいて作成すると、ローカライズされたコンテンツページに対応するローカライズされたエクスペリエンスフラグメントが自動的にレンダリングされます。
+このとき、エクスペリエンスフラグメントコンポーネント `/content/experience-fragments/wknd/us/en/footerTextXf` がテンプレートに配置される場合、ローカライズされたページをそのテンプレートに基づいて作成すると、ローカライズされたコンテンツページに対応するローカライズされたエクスペリエンスフラグメントが自動的にレンダリングされます。
 
-したがって、同じテンプレートを使用する `/content/we-retail/ch/de` 下のコンテンツページに移動すると、`/content/experience-fragments/we-retail/us/en/footerTextXf` ではなく `/content/experience-fragments/we-retail/ch/de/footerTextXf` がレンダリングされます。
+したがって、同じテンプレートを使用する `/content/wknd/ch/de` 下のコンテンツページに移動すると、`/content/experience-fragments/wknd/us/en/footerTextXf` ではなく `/content/experience-fragments/wknd/ch/de/footerTextXf` がレンダリングされます。
 
 ### フォールバック {#fallback}
 
@@ -93,9 +96,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -113,16 +116,22 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 設定ダイアログでは、ページでレンダリングするエクスペリエンスフラグメントバリエーションをコンテンツ作成者が選択できます。
 
-![](/help/assets/screen-shot-2019-08-23-10.49.21.png)
+![エクスペリエンスフラグメントコンポーネントの編集ダイアログ](/help/assets/experience-fragment-edit.png)
 
 「**選択ダイアログを開く**」ボタンを使用して、コンポーネントセレクターを開き、コンテンツページに追加するエクスペリエンスフラグメントコンポーネントバリエーションを選択します。
 
 なお、エクスペリエンスフラグメントコンポーネントをテンプレートに追加する場合、エクスペリエンスフラグメントがローカライズされていれば、テンプレートは自動的にローカライズされます。したがって、ページ上にレンダリングされるものは、明示的に選択したコンポーネントと異なる場合があります。詳しくは、[上記の例](#example)を参照してください。
 
+また、 **IDを定義することもできます**。 このオプションを使用すると、HTMLおよび [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+
+* 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
+* IDを指定する場合は、一意性を確認するのは作成者の責任です。
+* IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+
 ## デザインダイアログ{#design-dialog}
 
 デザインダイアログでは、エクスペリエンスフラグメントコンポーネントの使用時にコンテンツ作成者に提供されるオプションと、エクスペリエンスフラグメントコンポーネントの配置時のデフォルト設定をテンプレート作成者が定義できます。
 
-![](/help/assets/screen-shot-2019-08-23-10.48.36.png)
+### 「スタイル」タブ {#styles-tab}
 
 エクスペリエンスフラグメントコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
