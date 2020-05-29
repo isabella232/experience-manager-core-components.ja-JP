@@ -1,8 +1,11 @@
 ---
 title: コアコンポーネントを使用したオーサリング
 description: AEM では、コンポーネントとは、オーサリングの対象となるページのコンテンツを構成する構造要素のことです。コアコンポーネントは、柔軟で機能豊富なオーサリング機能を提供します。
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 100%
 
 ---
 
@@ -80,50 +83,6 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 >[!NOTE]
 >
 >AEM 6.3 でスタイルシステムの機能を有効にするには、サービスパック 2（6.3.2.0）以降が必要となります。
-
-## 利用可能なコアコンポーネントの一覧 {#list-of-core-components-available}
-
-利用可能なコアコンポーネントの一覧を以下に示します。各コンポーネントは、該当する編集ダイアログやデザインダイアログの機能を詳しく説明したページにリンクされています。
-
-コアコンポーネントの現在のバージョンには、次のコンポーネントが含まれています。
-
-* [アコーディオン](/help/components/accordion.md)
-* [パンくず](/help/components/breadcrumb.md)
-* [ボタン](/help/components/button.md)
-* [コンテナ](/help/components/container.md)
-* [カルーセル](/help/components/carousel.md)
-* [コンテンツフラグメント](/help/components/content-fragment-component.md)
-* [コンテンツフラグメントリスト](/help/components/content-fragment-list.md)
-* [ダウンロード](/help/components/download.md)
-* [埋め込み](/help/components/embed.md)
-* [エクスペリエンスフラグメント](/help/components/experience-fragment.md)
-* [フォームボタン](/help/components/forms/form-button.md)
-* [フォームコンテナ](/help/components/forms/form-container.md)
-* [フォーム非表示](/help/components/forms/form-hidden.md)
-* [フォームオプション](/help/components/forms/form-options.md)
-* [フォームテキスト](/help/components/forms/form-text.md)
-* [画像](/help/components/image.md)
-* [言語ナビゲーション](/help/components/language-navigation.md)
-* [リスト](/help/components/list.md)
-* [ナビゲーション](/help/components/navigation.md)
-* [ページ](/help/components/page.md)
-* [クイック検索](/help/components/quick-search.md)
-* [区切り文字](/help/components/separator.md)
-* [ソーシャルメディア共有](/help/components/sharing.md)
-* [タブ](/help/components/tabs.md)
-* [テキスト](/help/components/text.md)
-* [タイトル](/help/components/title.md)
-
->[!CAUTION]
->
->個々のコアコンポーネントの一部のバージョンは、特定のバージョンの AEM とのみ互換性があります。
->
->互換性の情報については、特定のコンポーネントに対する個々のヘルプページ（前の一覧にリンクされています）を参照するか、[コアコンポーネントバージョン](/help/versions.md)ドキュメントで詳細を確認してください。
-
->[!NOTE]
->
->インスタンスによっては、要件に合わせて明示的に開発されたカスタマイズコンポーネントが存在する場合があります。これらは、ここで説明するいくつかのコンポーネントと同じ名前の場合があります。
->フォームコアコンポーネントは、AEM Forms とは関係ありません。
 
 ## 開発者リソース {#developer-resources}
 
