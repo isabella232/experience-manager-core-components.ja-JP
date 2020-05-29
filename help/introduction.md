@@ -2,10 +2,10 @@
 title: コアコンポーネントの概要
 description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 100%
+source-wordcount: '841'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 * **[コンポーネントライブラリ：](https://www.adobe.com/go/aem_cmp_library_jp)**コンポーネントを様々な設定で表示する例を集めたものです。
 * **コンポーネントのドキュメント（本ドキュメント）：**&#x200B;開発者および作成者向けに、各コンポーネントの詳細を説明しています。
+* **[コアコンポーネントGitHubリポジトリ：](https://github.com/adobe/aem-core-wcm-components)**各コンポーネントとプロジェクトのダウンロードの開発者向けの詳細。
 * 入門ガイド：
    * **[コアコンポーネントを利用したプロジェクトの成功への道筋：](/help/developing/success.md)**コアコンポーネントを使用するプロジェクトを開始する前に十分考慮すべきガイドラインです。
    * **[WKND チュートリアル：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**新しいサイトの構築に関する 2 日間のチュートリアルです。
@@ -43,6 +44,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | バージョン管理 | [バージョン管理ポリシー](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)が設定されているので、影響を受ける可能性のある改善の際にも、コアコンポーネントが原因でサイトが機能しなくなることはありません。 |
 | ローカライズ可能 | スマートリファレンス解決機能により、特定のコンポーネントが対応する[ローカライズされたコンテンツを自動的に検索してレンダリング](get-started/localization.md)できます。 |
 | オープンソース | 何か問題がある場合は、[改善案を寄稿できます。](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| Trackable | メインコンポーネントは、Adobeクライアントデータレイヤーと [統合されます。](/help/developing/data-layer/overview.md) |
 
 ## コンポーネント{#the-components}
 
