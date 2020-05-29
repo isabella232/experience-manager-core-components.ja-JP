@@ -1,8 +1,11 @@
 ---
 title: フォーム非表示コンポーネント
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 78%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 | コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| v2 | - | 互換性あり | 互換性あり | 互換性あり |
 | [v1](/help/components/v1/form-hidden-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
@@ -44,16 +47,21 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 設定ダイアログでは、コンテンツ作成者が非表示フィールドのパラメーターを定義できます。
 
-![](/help/assets/chlimage_1-26.png)
+![フォームの非表示の編集ダイアログ](/help/assets/form-hidden-edit.png)
 
 * **名前** - フィールドの名前（フォームデータと共に送信されます）
 * **値** - フィールドの値（フォームデータと共に送信されます）
-* **識別子** - 識別子は、ページ上で一意である必要があり、スクリプトをこのフォームフィールドにバインドするために使用できます
+* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
+   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
+   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
 
 フォーム非表示コンポーネントには通常、表示される属性がありません。そのため、「**名前**」フィールドと「**値**」フィールドの値が割り当てられている場合、エディターのコンポーネントのプレースホルダーにはそれらのフィールド値が表示され、作成者が適切なフォーム非表示コンポーネントを識別できるようになっています。
 
-![](/help/assets/screenshot_2018-10-19at094927.png)
+![フォーム非表示コンポーネントの例](/help/assets/form-hidden-example.png)
 
 ## デザインダイアログ{#design-dialog}
 
-フォーム非表示コンポーネントにはデザインダイアログはありません。
+### 「スタイル」タブ {#styles-tab}
+
+The Form Hidden Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
