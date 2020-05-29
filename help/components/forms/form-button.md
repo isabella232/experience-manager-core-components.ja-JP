@@ -1,8 +1,11 @@
 ---
 title: フォームボタンコンポーネント
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、フォームに非表示フィールドを含めることができます。
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 | コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| v2 | - | 互換性あり | 互換性あり | 互換性あり |
 | [v1](/help/components/v1/form-button-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
@@ -46,7 +49,7 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ### 「プロパティ」タブ {#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at120433.png)
+![フォームボタンコンポーネントの編集ダイアログ](/help/assets/form-button-edit.png)
 
 * **種類**
 
@@ -59,6 +62,11 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 * **名前** - ボタンの名前（フォームデータと共に送信されます）
 * **値** - ボタンの値（フォームデータと共に送信されます）
+
+* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
+   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
+   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
 
 ## デザインダイアログ{#design-dialog}
 
