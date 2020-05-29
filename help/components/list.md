@@ -1,8 +1,11 @@
 ---
 title: リストコンポーネント
 description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 80%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 | コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| v2 | - | 互換性あり | 互換性あり | 互換性あり |
 | [v1](v1/list-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
@@ -51,9 +54,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * [検索](#search-options)
 * [タグ](#tags)
 
-リストの作成方法に関係なく、常に設定できる[並べ替えオプション](#sort-options)があります。
+Regardless of how the list is built, there are [Sort and ID Options](#sort-options) that can always be configured.
 
-![](/help/assets/chlimage_1-38.png)
+![リストコンポーネントの編集ダイアログ](/help/assets/list-edit.png)
 
 コンテンツ作成者が選択したリストの作成方法に応じて、追加の設定オプションが変わります。
 
@@ -61,7 +64,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 リストは、現在のページまたは別のページの子ページから作成できます。
 
-![](/help/assets/chlimage_1-39.png)
+![子ページのオプション](/help/assets/list-edit-child-pages.png)
 
 * **親ページ**
    * リストを作成する子ページの親ページ
@@ -74,7 +77,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 リストは、項目の固定リストを使用して作成できます。
 
-![](/help/assets/chlimage_1-40.png)
+![固定リストオプション](/help/assets/list-edit-fixed.png)
 
 「**追加**」ボタンをタップまたはクリックして、新しい項目をリストに挿入します。
 
@@ -86,7 +89,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 リストは、AEM コンテンツの検索結果を使用して作成できます。
 
-![](/help/assets/chlimage_1-41.png)
+![検索リストのオプション](/help/assets/list-edit-search.png)
 
 * **検索クエリー**
 フルテキスト検索を実行してリスト要素を生成する際の対象となる文字列
@@ -99,7 +102,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 リストは、特定の場所の下で特定のタグに一致するページを使用して作成できます。
 
-![](/help/assets/chlimage_1-42.png)
+![タグリストオプション](/help/assets/list-edit-tags.png)
 
 * **親ページ**
 タグマッチングの開始場所
@@ -117,7 +120,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 リストの作成方法にかかわらず、いつでも定義できる並べ替えオプションがあります。
 
-![](/help/assets/chlimage_1-43.png)
+![並べ替えオプション](/help/assets/list-edit-sort-options.png)
 
 * **並べ替え順**
 要素の並べ替え方法
@@ -130,12 +133,16 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * **最大項目数**
 リストに表示される項目の最大数。
    * すべての項目を返すには、空のままにします。
+* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
+   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
+   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
 
 ### 「項目設定」タブ {#item-settings-tab}
 
 「項目設定」タブを使用すれば、リスト要素の書式設定を設定できます。
 
-![](/help/assets/chlimage_1-44.png)
+![項目の設定](/help/assets/list-edit-items.png)
 
 * **項目をリンク**
 項目を対応するページにリンクします
@@ -152,31 +159,24 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 「**リスト設定**」タブでは、日付の形式を定義したり、コンポーネントでコンテンツ作成者が使用できるリストの種類を定義したりできます。
 
-![](/help/assets/chlimage_1-45.png)
+![リストコンポーネントのデザインダイアログリスト設定](/help/assets/list-design-list-settings.png)
 
 * **日付の形式**
 最終変更日の表示に使用する形式
-* **子を無効にする**
-コンポーネントで子リストタイプを無効にします
-* **静的を無効にする**
-コンポーネントで静的リストタイプを無効にします
-* **検索を無効にする**
-コンポーネントで検索リストタイプを無効にします
-* **タグを無効にする**
-コンポーネントでタグリストタイプを無効にします
+* **子を無効にするコンポーネントの子リストタイプを**&#x200B;無効にする
+* **Disable static**&#x200B;コンポーネント内の静的なリストタイプを無効にします。
+* **検索を無効にするコンポーネント内の検索リストのタイプを無効にする**
+* **Disable tags**&#x200B;コンポーネントのタグリストタイプを無効にする
 
 ### 項目設定 {#item-settings}
 
 「**項目設定**」タブでは、コンテンツ作成者がコンポーネント内で使用できる個々のリスト要素の書式設定オプションを定義することができます。
 
-![](/help/assets/chlimage_1-46.png)
+![リストコンポーネントのデザインダイアログ項目の設定](/help/assets/list-design-item-settings.png)
 
-* **項目をリンク**
-[編集ダイアログ](#edit-dialog)で「項目をリンク」オプションを有効にします
-* **説明を表示**
-[編集ダイアログ](#edit-dialog)で「説明を表示」オプションを有効にします
-* **日付を表示**
-[編集ダイアログ](#edit-dialog)で「日付を表示」オプションを有効にします
+* **項目をリンク**&#x200B;編集ダイアログの「項目をリンクを有効にする」 [オプション](#edit-dialog)
+* **説明を表示**&#x200B;編集ダイアログの「説明を表示」オプションを有効に [する](#edit-dialog)
+* **Show date**&#x200B;編集ダイアログの「日付を表示」オプションを有効にし [ます。](#edit-dialog)
 
 ### 「スタイル」タブ {#styles-tab}
 
