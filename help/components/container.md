@@ -1,8 +1,11 @@
 ---
 title: コンテナコンポーネント
 description: コアコンポーネントのコンテナコンポーネントを使用すると、ページ上に複数の追加コンポーネント用のコンテナを作成できます。
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 87%
 
 ---
 
@@ -24,9 +27,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -44,14 +47,17 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 設定ダイアログでは、コンテナアイテムそのものと、ページの訪問者に対するコンテナアイテムの動作および表示をコンテンツ作成者が定義できます。
 
-![](/help/assets/screen-shot-2019-06-21-13.59.26.png)
+![コンテナコンポーネントの編集ダイアログ](/help/assets/container-edit.png)
 
 * **レイアウト** - このオプションはコンテナコンポーネントの動作またはレイアウト動作を定義します。
    * **シンプル** - コンテナをシンプルなコンポーネントコレクションとして定義します。
    * **レスポンシブグリッド** - コンテナを [AEM レスポンシブレイアウト](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)として定義します。
-* **ID** - コンポーネントに適用する HTML ID 属性を定義します。
 * **背景色** - [設定に応じて](#background-tab)、自由形式の RGB 値として定義するか、カラーピッカーを使用して定義します。
 * **背景画像** - [設定に応じて](#background-tab)、コンテナの背景色を定義します。
+* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
+   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
+   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
 
 ## デザインダイアログ{#design-dialog}
 
@@ -69,13 +75,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 「レスポンシブ設定」タブ {#responsive-settings-tab}
 
-![](/help/assets/screen-shot-2019-06-21-09.33.03.png)
+![コンテナコンポーネントのデザインダイアログの「レスポンシブ設定」タブ](/help/assets/container-design-responsive.png)
 
 * **列** - 結果として得られるコンテナのグリッド内の列数を定義します。
 
 ### 「背景」タブ {#background-tab}
 
-![](/help/assets/screen-shot-2019-06-21-09.42.42.png)
+![コンテナコンポーネントのデザインダイアログの「背景」タブ](/help/assets/container-design-background.png)
 
 * **背景画像**
    * **背景画像を有効にする** - コンテナの背景画像をコンテンツ作成者が定義できるようにします。
