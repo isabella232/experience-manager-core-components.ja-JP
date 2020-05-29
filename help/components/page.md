@@ -1,8 +1,11 @@
 ---
 title: ページコンポーネント
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 | コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| v2 | - | 互換性あり | 互換性あり | 互換性あり |
 | [v1](v1/page-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
@@ -33,14 +36,6 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 >[!NOTE]
 >
 >ページコンポーネントのバージョン 2 と AEM 6.3 の `cq:Page` レベルでリダイレクトを有効にするには、[サービスパック 2](https://helpx.adobe.com/jp/experience-manager/6-2/release-notes/sp3-release-notes.html) 以降が必要です。このようなリダイレクトは、以前のリリースでは使用できませんでした。
-
-## コンポーネント出力のサンプル {#sample-component-output}
-
-以下は [We.Retail](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/bestpractices/we-retail/we-retail.html) から取得したサンプルです。
-
-### スクリーンショット {#screenshot}
-
-![](/help/assets/chlimage_1.png)
 
 ### 技術的詳細 {#technical-details}
 
@@ -56,7 +51,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ページコンポーネントはページ全体を表しているので、ページテンプレートを編集する際は、**ページ情報／ページポリシー**&#x200B;でデザインダイアログにアクセスします。
 
-![](/help/assets/screen_shot_2018-04-03at113410.png)
+![ページポリシー](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
@@ -66,14 +61,16 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ページデザインウィンドウを使用すれば、読み込むクライアントライブラリとページの Web リソースライブラリを定義できます。
 
-* **クライアントライブラリ** - 読み込むクライアントライブラリカテゴリを定義します。JavaScript が本文の末尾に追加され、CSS がページの先頭に追加されます。
-* **クライアントライブラリ JavaScript ページ先頭** - ページの先頭に読み込む JavaScript クライアントライブラリカテゴリを定義します。
+* **クライアントライブラリ** — 読み込むクライアントライブラリカテゴリを定義します。 JavaScript が本文の末尾に追加され、CSS がページの先頭に追加されます。
+* **クライアントライブラリJavaScriptページの先頭** — ページの先頭に読み込むJavaScriptクライアントライブラリカテゴリを定義します。
    * ここで定義したカテゴリが「**クライアントライブラリ**」フィールドにも存在する場合は、JavaScript が本文の末尾ではなくページの先頭に読み込まれます。
    * カテゴリが「**クライアントライブラリ**」フィールドにも存在する場合を除き、CSS は読み込まれません。
 
-* **Web リソースクライアントライブラリ** - favicon などの Web リソースを提供するために使用されるクライアントライブラリカテゴリです。
+* **Web Resourcesクライアントライブラリ** - faviconsなどのWebリソースの提供に使用するクライアントライブラリカテゴリ。
 
-![](/help/assets/screenshot_2018-10-19at104949.png)
+* **メインコンテンツ要素セレクターにスキップ** — ページのメインコンテンツに直接スキップするアクセシビリティ機能として使用されます。
+
+![ページコンポーネントデザインダイアログ](/help/assets/page-design.png)
 
 「**クライアントライブラリ**」と「**クライアントライブラリ JavaScript ページ先頭**」の両方のフィールドにライブラリを次のように設定できます。
 
