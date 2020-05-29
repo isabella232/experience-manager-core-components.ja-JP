@@ -1,8 +1,11 @@
 ---
 title: クイック検索コンポーネント
 description: クイック検索コンポーネントは、Web サイトに検索機能を提供し、訪問者がサイト内を検索して結果を絞り込めるように検索結果を表示します。
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 85%
 
 ---
 
@@ -23,55 +26,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
-
-## コンポーネント出力のサンプル {#sample-component-output}
-
-以下は [We.Retail](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/bestpractices/we-retail/we-retail.html) から取得したサンプルです。
-
-### スクリーンショット {#screenshot}
-
-![](/help/assets/screen_shot_2018-01-19at094248.png)
-
-### HTML {#html}
-
-```
-<section class="cmp-search" role="search" data-cmp-is="search" data-cmp-min-length="3" data-cmp-results-size="10">
-    <form class="cmp-search__form" data-cmp-hook-search="form" method="get" action="/content/we-retail/us/en/equipment.searchresults.json/_jcr_content/root/responsivegrid/search" autocomplete="off">
-        <div class="cmp-search__field">
-            <i class="cmp-search__icon" data-cmp-hook-search="icon"></i>
-            <span class="cmp-search__loading-indicator" data-cmp-hook-search="loadingIndicator"></span>
-            <input class="cmp-search__input" data-cmp-hook-search="input" type="text" name="fulltext" placeholder="Search" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false">
-            <button class="cmp-search__clear" data-cmp-hook-search="clear">
-                <i class="cmp-search__clear-icon"></i>
-            </button>
-        </div>
-    </form>
-    <div class="cmp-search__results" data-cmp-hook-search="results" role="listbox" aria-multiselectable="false"></div>
-    
-<script data-cmp-hook-search="itemTemplate" type="x-template">
-    <a class="cmp-search__item" data-cmp-hook-search="item">
-        <span class="cmp-search__item-title" data-cmp-hook-search="itemTitle"></span>
-    </a>
-</script>
-</section>
-```
-
-### JSON {#json}
-
-```
-"search":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "relativePath":"/jcr:content/root/responsivegrid/search",
-                     "resultsSize":10,
-                     "searchTermMinimumLength":3,
-                     ":type":"core/wcm/components/search/v1/search"
-                  }
-```
 
 ### 技術的詳細 {#technical-details}
 
@@ -87,9 +46,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 編集ダイアログでは、コンテンツツリー内の検索の開始位置をコンテンツ作成者が定義できます。
 
-![](/help/assets/screen_shot_2018-04-03at120132.png)
+![クイック検索コンポーネントの編集ダイアログ](/help/assets/quick-search-edit.png)
 
 **検索ルート** - 検索の開始位置となるルートページ。検索ルートは、ブループリントマスター、言語マスター、通常のページのいずれでもかまいません。
+* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
+   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
+   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
 
 ## デザインダイアログ{#design-dialog}
 
@@ -97,7 +60,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 「プロパティ」タブ {#properties-tab}
 
-![](/help/assets/screen_shot_2018-04-03at120028.png)
+![クイック検索コンポーネントのデザインダイアログ](/help/assets/quick-search-design.png)
 
 * **検索ルート** - コンテンツ作成者がクイック検索コンポーネントをコンテンツページに配置したときの検索ルートのデフォルト値
 * **結果のサイズ** - 検索リクエストで取得される結果の最大数
