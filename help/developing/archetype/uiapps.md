@@ -1,8 +1,11 @@
 ---
 title: AEM プロジェクトアーキタイプの ui.apps モジュール
 description: AEM プロジェクトアーキタイプの ui.apps モジュール
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ Apache Jackrabbit FileVault Package プラグインは、ui.apps モジュール
 
 ## 親 POM {#parent-pom}
 
-[親 POM](overview.md#parent-pom)（`<src>/<project>/pom.xml`）には、プロジェクトで使用するプラグインの様々な設定を定義する `<plugin>` セクションが含まれます。これには、Jackrabbit FileVault Package プラグインの `filterSource` 用の設定が含まれます。`filterSource` はファイルの場所を指定しています。`filter.xml` ファイルは、パッケージに含まれる jcr パスを定義するために使用されます。
+[親 POM](/help/developing/archetype/using.md#parent-pom)（`<src>/<project>/pom.xml`）には、プロジェクトで使用するプラグインの様々な設定を定義する `<plugin>` セクションが含まれます。これには、Jackrabbit FileVault Package プラグインの `filterSource` 用の設定が含まれます。`filterSource` はファイルの場所を指定しています。`filter.xml` ファイルは、パッケージに含まれる jcr パスを定義するために使用されます。
 
 さらに、Jackrabbit FileVault Package プラグインには Content Package プラグインの定義があり、これはその後、パッケージを AEM にプッシュする際に使用されます。同じ親 POM で定義されたグローバルなプロパティに対応する `aem.host`、`aem.port`、`vault.user`、および `vault.password` の変数が使用されます。
 
@@ -25,7 +28,7 @@ ui.apps pom（`<src>/<project>/ui.apps/pom.xml`）は、`filevault-package-maven
 
 core.wcm.components.all および core.wcm.components.examples パッケージがサブパッケージとして含まれています。これにより、WKND コードと共に毎回コアコンポーネントのパッケージがデプロイされます。
 
-依存関係リストには、core.wcm.components.all と core.wcm.components.examples が依存関係として含まれます。ただし、ベストプラクティスとしては、依存関係のバージョンを[親 pom ファイル](overview.md#core-components)で管理することが推奨されます。
+依存関係リストには、core.wcm.components.all と core.wcm.components.examples が依存関係として含まれます。ただし、ベストプラクティスとしては、依存関係のバージョンを[親 pom ファイル](/help/developing/archetype/using.md#core-components)で管理することが推奨されます。
 
 ## filter.xml {#filter}
 
