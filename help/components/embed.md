@@ -1,8 +1,11 @@
 ---
 title: 埋め込みコンポーネント
 description: 埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 88%
 
 ---
 
@@ -24,9 +27,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -48,6 +51,12 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * [埋め込み可能](#embeddable)
 * [HTML](#html)
 
+埋め込み可能なタイプごとに、広告 **IDを定義できます**。 このオプションを使用すると、HTMLおよび [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+
+* 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
+* IDを指定する場合は、一意性を確認するのは作成者の責任です。
+* IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+
 ### URL {#url}
 
 URL は、最もシンプルな埋め込みリソースです。埋め込むリソースの URL を「**URL**」フィールドに貼り付けるだけです。コンポーネントはそのリソースへのアクセスを試みます。リソースがいずれかのプロセッサーでレンダリングできる場合は、「**URL**」フィールドの下に確認メッセージが表示されます。それ以外の場合は、フィールドにエラーのマークが付きます。
@@ -59,7 +68,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 開発者は、[埋め込みコンポーネントの開発者向けドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)に従って、URL プロセッサーを追加できます。
 
-![](/help/assets/screen-shot-2019-09-25-10.08.29.png)
+![URL用の埋め込みコンポーネントの編集ダイアログ](/help/assets/embed-url.png)
 
 ### 埋め込み可能 {#embeddable}
 
@@ -73,7 +82,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 同様のフィールドが備わったその他の埋め込み可能リソースを開発者が定義することもできます。その場合は、[埋め込みコンポーネントの開発者向けドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)に従います。
 
-![](/help/assets/screen-shot-2019-09-25-10.15.00.png)
+![埋め込み可能なコンポーネントの埋め込み編集ダイアログ](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
 >埋め込み可能リソースをページ作成者が使用できるようにするには、[デザインダイアログ](#design-dialog)からテンプレートレベルで有効にする必要があります。
@@ -82,7 +91,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 埋め込みコンポーネントを使用して、ページにフリーフォーム HTML を追加できます。
 
-![](/help/assets/screen-shot-2019-09-25-10.20.00.png)
+![HTML用の埋め込みコンポーネントの編集ダイアログ](/help/assets/embed-html.png)
 
 >[!NOTE]
 >スクリプトなどの安全でないタグは、入力した HTML コードから削除され、最終的なページではレンダリングされません。
@@ -104,7 +113,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 デザインダイアログでは、埋め込みコンポーネントの使用時にコンテンツ作成者に提供されるオプションと、埋め込みコンポーネントの配置時のデフォルト設定をテンプレート作成者が定義できます。
 
-![](/help/assets/screen-shot-2019-09-25-10.25.28.png)
+![埋め込みコンポーネントのデザインダイアログ](/help/assets/embed-design.png)
 
 * **URL を無効にする** - コンテンツ作成者に対して **URL** オプションを無効にします。
 * **埋め込み可能を無効にする** - 使用可能な埋め込み可能リソースプロセッサーに関係なく、コンテンツ作成者に対して「**埋め込み可能**」オプションを無効にします。
