@@ -1,8 +1,11 @@
 ---
 title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
-translation-type: ht
-source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+translation-type: tm+mt
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '1425'
+ht-degree: 98%
 
 ---
 
@@ -16,10 +19,10 @@ source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
 そこで、アドビでは次の事項を推奨しています。
 
 * **新規プロジェクト**
-新規プロジェクトでは、常に、コアコンポーネントを使用するよう努めます。コアコンポーネントを直接使用または[拡張](customizing.md)してプロジェクト要件を満たすことができない場合は、コアコンポーネントで規定されているコンポーネントアーキテクチャに従ってカスタムコンポーネントを作成します。他に方法がない場合を除き、[基盤コンポーネント](#foundation-component-support)を使用しないでください。
+新規プロジェクトでは、常に、コアコンポーネントを使用するよう努めます。コアコンポーネントを直接使用または[拡張](customizing.md)してプロジェクト要件を満たすことができない場合は、コアコンポーネントで規定されているコンポーネントアーキテクチャに従ってカスタムコンポーネントを作成します。他に方法がない場合を除き、[基盤コンポーネント](/help/versions.md#foundation-component-support)を使用しないでください。
 * **既存プロジェクト**
-サイトまたはコンポーネントのリファクタリングが予定されていない限り、[基盤コンポーネント](#foundation-component-support)を使用し続けることをお勧めします。\
-   ほとんどの既存プロジェクトで広く使用されているので、基盤コンポーネントは[引き続きサポートされます](#foundation-component-support)。
+サイトまたはコンポーネントのリファクタリングが予定されていない限り、[基盤コンポーネント](/help/versions.md#foundation-component-support)を使用し続けることをお勧めします。\
+   ほとんどの既存プロジェクトで広く使用されているので、基盤コンポーネントは[引き続きサポートされます](/help/versions.md#foundation-component-support)。
 * **新規のカスタムコンポーネント**
 既存の[コアコンポーネントをカスタマイズしてよいか](customizing.md)どうかを評価します。\
    カスタマイズできない場合は、[コンポーネントのガイドライン](guidelines.md)に従って新規のカスタムコンポーネントを作成することをお勧めします。
@@ -115,6 +118,7 @@ source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
 | [ダウンロード](https://adobe.com/go/aem_cmp_tech_download_v1_jp) | ダウンロード可能なアセットをページに追加する | `-` |
 | [エクスペリエンスフラグメント](https://adobe.com/go/aem_cmp_tech_xf_v1_jp) | エクスペリエンスフラグメントをページに追加する | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [埋め込み](https://adobe.com/go/aem_cmp_tech_embed_v1_jp) | ページ内に外部リソースを埋め込む | - |
+| [プログレスバー](https://adobe.com/go/aem_cmp_tech_progress_v1) | 目標に向けた進捗を視覚的に表現する | - |
 
 ### 今後リリース予定のコンポーネント {#upcoming-components}
 
