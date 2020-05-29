@@ -1,8 +1,11 @@
 ---
 title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-translation-type: ht
-source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1934'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 | コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| v2 | - | 互換性あり | 互換性あり | 互換性あり |
 | [v1](v1/image-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
@@ -72,7 +75,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ### 「アセット」タブ {#asset-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114245.png)
+![画像コンポーネントの設定ダイアログの「アセット」タブ](/help/assets/image-configure-asset.png)
 
 * **画像アセット**
    * [アセットブラウザー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
@@ -81,7 +84,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ### 「メタデータ」タブ {#metadata-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114527.png)
+![画像コンポーネントの設定ダイアログの「メタデータ」タブ](/help/assets/image-configure-metadata.png)
 
 * **画像は装飾画像**
 画像が支援テクノロジーによって無視される場合（したがってその代替テキストが不要な場合）はオンにします。これは、装飾画像にのみ適用されます。
@@ -101,15 +104,20 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
    * 別の AEM リソースにリンクする場合は、選択ダイアログを使用します。
    * AEM リソースにリンクしない場合は、絶対 URL を入力します。非絶対 URL は、AEM に対する相対 URL として解釈されます。
 
+* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
+   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
+   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+
 ## 編集ダイアログ{#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者は画像の切り抜き、画像のローンチマップの変更および画像のズームをおこなえます。
 
-![](/help/assets/chlimage_1-8.png)
+![画像コンポーネントの編集ダイアログ](/help/assets/image-edit.png)
 
 * 切り抜きを開始
 
-   ![](/help/assets/chlimage_1-9.png)
+   ![開始切り抜きアイコン](/help/assets/image-start-crop.png)
 
    このオプションを選択すると、定義済みの切り抜き比率のドロップダウンが開きます。
 
@@ -117,77 +125,43 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
    * 元のアセットを表示するには、オプション「**切り抜きを削除**」を選択します。
    切り抜きオプションを選択したら、青色のハンドルを使用して画像上の切り抜きのサイズを調整します。
 
-   ![](/help/assets/chlimage_1-10.png)
+   ![切り抜きツールオプション](/help/assets/image-crop-options.png)
 
 * 右に回転
 
-   ![](/help/assets/chlimage_1-11.png)
+   ![右に回転アイコン](/help/assets/image-rotate-right.png)
 
    画像を右（時計回り）に 90° 回転させるには、このオプションを使用します。
 
 * 水平方向に反転
 
-   ![](/help/assets/screen_shot_2018-04-16at091404.png)
+   ![水平方向に反転アイコン](/help/assets/image-flip-horizontal.png)
 
    画像を水平方向に反転させる（y 軸を中心に 180° 回転させる）には、このオプションを使用します。
 
 * 垂直方向に反転
 
-   ![](/help/assets/screen_shot_2018-04-16at091410.png)
+   ![垂直方向に反転アイコン](/help/assets/image-flip-vertical.png)
 
    画像を垂直方向に反転させる（x 軸を中心に 180° 回転させる）には、このオプションを使用します。
 
-* ローンチマップ
-
-   >[!CAUTION]
-   >
-   >ローンチマップ機能を使用するには、AEM 内で[新しい画像エディター機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/developing/components/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 と、AEM 6.4 の [Service Pack 2](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/sp-release-notes.html)、AEM 6.3 以降の [Service Pack 3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html) が必要です。
-
-   ![](/help/assets/chlimage_1-12.png)
-
-   画像にローンチマップを適用するには、このオプションを使用します。このオプションを選択すると、ユーザーがマップシェイプを選択できる新しいウィンドウが開きます。
-
-   * **長方形マップを追加**
-   * **円形マップを追加**
-   * **多角形マップを追加**
-      * デフォルトでは三角形のマップが追加されます。シェイプの線をダブルクリックすると、新しい青色のサイズ変更ハンドルが新しいサイドに追加されます。
-   マップシェイプを選択すると、マップは画像に重なって表示され、サイズを変更することができます。青色のサイズ変更ハンドルをドラッグ＆ドロップしてシェイプを調整します。
-
-   ![](/help/assets/chlimage_1-13.png)
-
-   ローンチマップのサイズ調整が完了したら、マップをクリックしてフローティングツールバーを開き、リンクのパスを定義します。
-
-   * **パス**
-      * パスピッカーオプションを使用して AEM 内のパスを選択します。
-      * パスが AEM 内にない場合は、絶対 URL を使用します。非絶対パスは、AEM に対する相対パスとして解釈されます。
-   * **代替テキスト**
-パス参照先の代替説明
-   * **ターゲット**
-      * **同じタブ**
-      * **新しいタブ**
-      * **親フレーム**
-      * **トップフレーム**
-   マップを保存するには青色のチェックマークを、キャンセルするには黒色の x を、削除するには赤色のごみ箱を、それぞれタップまたはクリックします。
-
-   ![](/help/assets/chlimage_1-14.png)
-
 * ズームをリセット
 
-   ![](/help/assets/chlimage_1-15.png)
+   ![ズームアイコンをリセット](/help/assets/image-reset-zoom.png)
 
    画像が既にズームされている場合にこのオプションを使用すれば、ズームレベルがリセットされます。
 
 * ズームスライダーを開く
 
-   ![](/help/assets/chlimage_1-16.png)
+   ![ズームスライダアイコンを開く](/help/assets/image-zoom.png)
 
    画像のズームレベルを制御するためのスライダーを表示するには、このオプションを使用します。
 
-   ![](/help/assets/chlimage_1-17.png)
+   ![ズームスライダコントロール](/help/assets/image-zoom-slider.png)
 
 インプレースエディターを使用して画像を変更することもできます。スペース上の制限のため、インラインで使用できるのは基本的なオプションのみです。すべての編集オプションを使用したい場合は、フルスクリーンモードを使用してください。
 
-![](/help/assets/chlimage_1-18.png)
+![画像インプレイス編集オプション](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
@@ -203,7 +177,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 さらに、作成者がページにコンポーネントを追加した際に自動的に無効化される一般的なコンポーネントオプションを定義できます。
 
-![](/help/assets/screenshot_2018-10-19at102756.png)
+![画像コンポーネントのデザインダイアログのメインタブ](/help/assets/image-design-main.png)
 
 * **遅延読み込みを有効にする**
 ページへの画像コンポーネントの追加時に遅延読み込みオプションが自動的に有効化されるかどうかを定義します。
@@ -228,7 +202,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 * **JPEG 画質**
 変換（拡大 / 縮小や切り抜きなど）がおこなわれる JPEG 画像の品質係数（0 ～ 100 パーセントで指定）。
 
->[!CAUTION]
+>[!NOTE]
 >
 >「JPEG 画質」オプションは、コアコンポーネントのリリース 2.2.0 以降で使用できます。
 
@@ -242,13 +216,13 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 * ソース
 
-   ![](/help/assets/chlimage_1-19.png)
+   ![イメージコンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-source.png)
 
    コンテンツ作成者が自身のローカルコンピュータから画像をアップロードできるようにするには、オプション「**ファイルシステムからのアセットのアップロードを許可**」を選択します。コンテンツ作成者が AEM からしかアセットを選択できないようにするには、このオプションを選択解除します。
 
 * 向き
 
-   ![](/help/assets/chlimage_1-20.png)
+   ![イメージコンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-orientation.png)
 
 * **回転**
 コンテンツ作成者が「**右に回転**」オプションを使用できるようにするには、このオプションを使用します。
@@ -261,7 +235,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 * 切り抜き
 
-   ![](/help/assets/chlimage_1-21.png)
+   ![イメージコンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-cropping.png)
 
    コンテンツ作成者が編集ダイアログでコンポーネントの画像の切り抜きをおこなえるようにするには、オプション「**切り抜きを許可**」を選択します。
    * 定義済みの切り抜き縦横比を追加するには、「**追加**」をクリックします。
