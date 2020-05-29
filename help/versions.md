@@ -1,8 +1,11 @@
 ---
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
-translation-type: ht
-source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1694'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +26,7 @@ source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
 
 | リリース | 説明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|---|
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | このリリースでは、Adobeクライアントデータレイヤーとの統合が可能になり、プログレスバーコンポーネントが導入されました。 | - | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2020年5月29日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | このリリースでは小規模の機能強化による修正に重点を置きました。 | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 12 月 5 日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | このリリースでは新しい埋め込みコンポーネントを導入しました | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 9 月 25 日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | このリリースでは新しいエクスペリエンスフラグメントコンポーネントを導入しました | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 9 月 6 日 |
@@ -51,34 +55,35 @@ source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
 
 コアコンポーネントの各リリースと、そこに含まれている各コンポーネントのバージョンを次の表に示します。
 
-|  | リリース 1.0.0 ～ 1.0.6 | リリース 1.1.0 | リリース 2.0.0 ～ 2.0.8 | リリース 2.1.0 | リリース 2.2.0 ～ 2.2.0 | リリース 2.3.0 ～ 2.3.2 | リリース 2.4.0 | リリース 2.5.0 | リリース 2.6.0 | リリース 2.7.0 以上 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| **[ページ](components/page.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[タイトル](components/title.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[画像](components/image.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[リスト](components/list.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[パンくず](components/breadcrumb.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[ソーシャルメディア共有](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[フォームコンテナ](components/forms/form-container.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[フォームテキスト](components/forms/form-text.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[フォームオプション](components/forms/form-options.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[フォーム非表示](components/forms/form-hidden.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[フォームボタン](components/forms/form-button.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
-| **[コンテンツフラグメント](components/content-fragment-component.md)** |  | サンドボックス | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[ナビゲーション](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[言語ナビゲーション](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[クイック検索](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[ティーザー](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[タブ](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[カルーセル](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[区切り文字](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
-| **[コンテンツフラグメントリスト](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[アコーディオン](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[ボタン](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[コンテナ](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[ダウンロード](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[エクスペリエンスフラグメント](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
-| **[埋め込み](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 |
+|  | リリース 1.0.0 ～ 1.0.6 | リリース 1.1.0 | リリース 2.0.0 ～ 2.0.8 | リリース 2.1.0 | リリース 2.2.0 ～ 2.2.0 | リリース 2.3.0 ～ 2.3.2 | リリース 2.4.0 | リリース 2.5.0 | リリース 2.6.0 | リリース2.7.0 ～ 2.8.0 | リリース 2.9.0 以上 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **[ページ](components/page.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[タイトル](components/title.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[画像](components/image.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[リスト](components/list.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[パンくず](components/breadcrumb.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[ソーシャルメディア共有](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[フォームコンテナ](components/forms/form-container.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[フォームテキスト](components/forms/form-text.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[フォームオプション](components/forms/form-options.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[フォーム非表示](components/forms/form-hidden.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[フォームボタン](components/forms/form-button.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 |
+| **[コンテンツフラグメント](components/content-fragment-component.md)** |  | サンドボックス | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 |
+| **[ナビゲーション](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[言語ナビゲーション](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[クイック検索](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[ティーザー](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[タブ](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[カルーセル](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[区切り文字](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[コンテンツフラグメントリスト](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[アコーディオン](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[ボタン](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[コンテナ](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[ダウンロード](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[エクスペリエンスフラグメント](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[埋め込み](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
+| **[プログレスバー](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## バージョンとリリース {#versions-and-releases}
 
