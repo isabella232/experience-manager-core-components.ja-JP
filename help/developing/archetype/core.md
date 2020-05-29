@@ -1,8 +1,11 @@
 ---
 title: AEM プロジェクトアーキタイプのコアモジュール
 description: AEM プロジェクトアーキタイプのコアモジュール
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 `<src-directory>/<project>/core/pom.xml` で定義される Maven Bundle Plugin は、AEM の OSGi コンテナによって認識される OSGi バンドルに Java コードをコンパイルするために使用されます。Sling Model の場所もここで定義されます。
 
-上位レベルの環境では、ui.apps モジュールとは別にコアバンドルをデプロイする必要があることはまれですが、ローカルの開発／テスト中は、コアバンドルを直接デプロイすると便利です。Maven Sling プラグインにより、`autoInstallBundle` プロファイル（[親 POM](overview.md#parent-pom) で定義される）を使用してコアバンドルを AEM に直接デプロイできるようになります。
+上位レベルの環境では、ui.apps モジュールとは別にコアバンドルをデプロイする必要があることはまれですが、ローカルの開発／テスト中は、コアバンドルを直接デプロイすると便利です。Maven Sling プラグインにより、`autoInstallBundle` プロファイル（[親 POM](/help/developing/archetype/using.md#parent-pom) で定義される）を使用してコアバンドルを AEM に直接デプロイできるようになります。
 
 ```
 mvn -PautoInstallBundle clean install
