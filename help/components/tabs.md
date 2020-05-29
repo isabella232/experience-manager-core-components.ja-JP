@@ -1,13 +1,16 @@
 ---
 title: タブコンポーネント
 description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 77%
 
 ---
 
 
-# タブコンポーネント
+# タブコンポーネント {#tabs-component}
 
 コアコンポーネントのタブコンポーネントを使用すれば、コンテンツを複数のタブ上に配置できます。
 
@@ -17,11 +20,25 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 [編集ダイアログ](#edit-dialog)では、コンテンツ作成者が、複数のタブを定義したりアクティブなタブを設定したりできます。[デザインダイアログ](#design-dialog)を使用すれば、テンプレート作成者は、タブに追加できるコンポーネントを定義したり、スタイルをカスタマイズしたりできます。
 
->[!NOTE]
+>[!TIP]
 >
 >ネストされたタブコンポーネント（タブ内のタブ）はサポートされています。
 >
 >[コンテンツツリー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)を使用した特定や選択は、単純な（ネストされていない）タブコンポーネントでは可能ですが、ネストされたタブでは不可能です。
+
+## パネルへのディープリンク {#deep-linking}
+
+タブと [アコーディオンコンポーネント](accordion.md) は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
+
+次の手順を実行します。
+
+1. ページエディターで「発行済みとして **[表示](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**」オプションを使用して、コンポーネントとページを表示します。
+1. ページのコンテンツを検査し、パネルのIDを特定します。
+   * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
+1. IDがアンカーになり、ハッシュ(`#`)を使用してURLに追加できます。
+   * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+
+パネルIDをアンカーとして指定したURLに移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。 パネルがデフォルトで展開されないように設定されている場合は、自動的に展開されます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -29,9 +46,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | 互換性あり | 互換性あり | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -51,7 +68,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 「項目」タブ {#items-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.16.png)
+![タブコンポーネントの編集ダイアログ項目タブ](/help/assets/tabs-edit-items.png)
 
 タブとして追加するコンポーネントを選択するためのコンポーネントセレクターを開くには、「**追加**」ボタンを使用します。追加が完了すると、以下の列を含むエントリがリストに追加されます。
 
@@ -66,13 +83,18 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 「プロパティ」タブ {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.32.png)
+![タブコンポーネントの編集ダイアログの「プロパティ」タブ](/help/assets/tabs-edit-properties.png)
 
-「**プロパティ**」タブでは、コンテンツ作成者はページの読み込み時にアクティブになるタブを定義できます。「**デフォルト**」オプションの場合、最初のタブが選択されます。
+* **アクティブな項目** — コンテンツ作成者は、ページが読み込まれるときにアクティブにするタブを定義できます。
+   * 「**デフォルト**」オプションの場合、最初のタブが選択されます。
+* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
+   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
+   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.40.png)
+![タブコンポーネントの編集ダイアログのアクセシビリティタブ](/help/assets/tabs-edit-accessibility.png)
 
 「**アクセシビリティ**」タブでは、コンポーネントの「[ARIA アクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/)」ラベルの値を設定できます。
 
@@ -82,14 +104,14 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 コンポーネントツールバーの「**パネルを選択**」オプションを使用すれば、コンテンツ作成者は編集用に別のパネルに切り替えたり、簡単にタブを並べ替えたりできます。
 
-![](/help/assets/screenshot_2018-10-11at165417.png)
+![パネルアイコンを選択](/help/assets/select-panel-icon.png)
 
 コンポーネントツールバーの「**パネルを選択**」オプションを選択すると、設定済みのタブがドロップダウンとして表示されます。
 
 * リスト内のタブは割り当てられた順番で並べられ、その順番が通し番号に反映されます。
 * まずタブのコンポーネントタイプが表示され、次にタブの説明が明るい色のフォントで表示されます。
 
-![](/help/assets/screenshot_2018-10-11at165154.png)
+![パネルプーバーを選択](/help/assets/select-panel-popover.png)
 
 * ドロップダウン内の 1 つのエントリをタップまたはクリックすると、エディターのビューがそのタブに切り替わります。
 * ドラッグハンドルを使用すれば、タブをインプレースで並べ替えることができます。
