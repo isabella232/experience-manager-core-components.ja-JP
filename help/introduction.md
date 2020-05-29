@@ -1,8 +1,11 @@
 ---
 title: コアコンポーネントの概要
 description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
-translation-type: ht
-source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 |  |  |
 |---|---|
-| 本番で使用可能 | コアコンポーネントは 27 個の堅牢なコンポーネントで、十分にテストされ、広く使用されており、パフォーマンスが優れています。 |
+| 本番で使用可能 | コアコンポーネントは 28 個の堅牢なコンポーネントで、十分にテストされ、広く使用されており、パフォーマンスが優れています。 |
 | クラウド対応 | [AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)、オンプレミスのどちらでも動作します。 |
 | 用途が広い | コンポーネントは、ほぼあらゆるレイアウトの作成に作成者が使用できる汎用的な概念を表します。 |
 | 設定可能 | ページ作成者が使用できる機能と使用できない機能をテンプレートレベルの[コンテンツポリシー](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies)で定義します。 |
@@ -68,6 +71,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * [埋め込み](components/embed.md)
 * [ソーシャルメディア共有](components/sharing.md)
 * [区切り文字](components/separator.md)
+* [プログレスバー](components/progress-bar.md)
 
 ### コンテナコンポーネント {#container-components}
 
@@ -96,9 +100,9 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 ## システム要件 {#system-requirements}
 
-| コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
----------|---------|---------|---------|---------|---------|---------
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 継続的 | 6.5.0.0 以上 | 6.4.4.0 以上 | 6.3.3.4 以上 | 8、11 | 3.3.9 以上 |
+| コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
+---------|---------|---------|---------|---------|---------
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 継続的 | 6.5.0.0 以上 | 6.4.4.0 以上 | 8、11 | 3.3.9 以上 |
 
 以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
