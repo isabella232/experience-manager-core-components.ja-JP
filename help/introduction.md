@@ -2,10 +2,10 @@
 title: コアコンポーネントの概要
 description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
 translation-type: tm+mt
-source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
+source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 97%
+source-wordcount: '846'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | クラウド対応 | [AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)、オンプレミスのどちらでも動作します。 |
 | 用途が広い | コンポーネントは、ほぼあらゆるレイアウトの作成に作成者が使用できる汎用的な概念を表します。 |
 | 設定可能 | ページ作成者が使用できる機能と使用できない機能をテンプレートレベルの[コンテンツポリシー](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies)で定義します。 |
+| Trackable | Adobe Client Data Layerの統合により [](/help/developing/data-layer/overview.md) 、訪問者体験のあらゆる側面を追跡できます。 |
 | 高いアクセシビリティ | [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)に準拠し、ARIA ラベルを提供し、キーボードナビゲーションをサポートします（[既知の問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)を参照）。 |
 | SEO 対応 | HTML 出力はセマンティックであり、[schema.org](https://schema.org) マイクロデータ注釈を提供します。 |
 | Web アプリ対応 | [効率化された JSON 出力](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)によりクライアント側でのレンダリングが可能になる一方、[コンテキスト内編集](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)も依然として可能です。 |
@@ -44,7 +45,6 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | バージョン管理 | [バージョン管理ポリシー](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)が設定されているので、影響を受ける可能性のある改善の際にも、コアコンポーネントが原因でサイトが機能しなくなることはありません。 |
 | ローカライズ可能 | スマートリファレンス解決機能により、特定のコンポーネントが対応する[ローカライズされたコンテンツを自動的に検索してレンダリング](get-started/localization.md)できます。 |
 | オープンソース | 何か問題がある場合は、[改善案を寄稿できます。](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
-| Trackable | メインコンポーネントは、Adobeクライアントデータレイヤーと [統合されます。](/help/developing/data-layer/overview.md) |
 
 ## コンポーネント{#the-components}
 
