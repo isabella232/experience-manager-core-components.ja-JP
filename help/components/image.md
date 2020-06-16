@@ -1,11 +1,11 @@
 ---
 title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1934'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -104,10 +104,10 @@ ht-degree: 92%
    * 別の AEM リソースにリンクする場合は、選択ダイアログを使用します。
    * AEM リソースにリンクしない場合は、絶対 URL を入力します。非絶対 URL は、AEM に対する相対 URL として解釈されます。
 
-* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
-   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
-   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
-   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+   * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
+   * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
+   * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 ## 編集ダイアログ{#edit-dialog}
 
@@ -117,7 +117,7 @@ ht-degree: 92%
 
 * 切り抜きを開始
 
-   ![開始切り抜きアイコン](/help/assets/image-start-crop.png)
+   ![「切り抜きを開始」アイコン](/help/assets/image-start-crop.png)
 
    このオプションを選択すると、定義済みの切り抜き比率のドロップダウンが開きます。
 
@@ -129,39 +129,39 @@ ht-degree: 92%
 
 * 右に回転
 
-   ![右に回転アイコン](/help/assets/image-rotate-right.png)
+   ![「右に回転」アイコン](/help/assets/image-rotate-right.png)
 
    画像を右（時計回り）に 90° 回転させるには、このオプションを使用します。
 
 * 水平方向に反転
 
-   ![水平方向に反転アイコン](/help/assets/image-flip-horizontal.png)
+   ![「水平方向に反転」アイコン](/help/assets/image-flip-horizontal.png)
 
    画像を水平方向に反転させる（y 軸を中心に 180° 回転させる）には、このオプションを使用します。
 
 * 垂直方向に反転
 
-   ![垂直方向に反転アイコン](/help/assets/image-flip-vertical.png)
+   ![「垂直方向に反転」アイコン](/help/assets/image-flip-vertical.png)
 
    画像を垂直方向に反転させる（x 軸を中心に 180° 回転させる）には、このオプションを使用します。
 
 * ズームをリセット
 
-   ![ズームアイコンをリセット](/help/assets/image-reset-zoom.png)
+   ![「ズームをリセット」アイコン](/help/assets/image-reset-zoom.png)
 
    画像が既にズームされている場合にこのオプションを使用すれば、ズームレベルがリセットされます。
 
 * ズームスライダーを開く
 
-   ![ズームスライダアイコンを開く](/help/assets/image-zoom.png)
+   ![「ズームスライダーを開く」アイコン](/help/assets/image-zoom.png)
 
    画像のズームレベルを制御するためのスライダーを表示するには、このオプションを使用します。
 
-   ![ズームスライダコントロール](/help/assets/image-zoom-slider.png)
+   ![ズームスライダーコントロール](/help/assets/image-zoom-slider.png)
 
 インプレースエディターを使用して画像を変更することもできます。スペース上の制限のため、インラインで使用できるのは基本的なオプションのみです。すべての編集オプションを使用したい場合は、フルスクリーンモードを使用してください。
 
-![画像インプレイス編集オプション](/help/assets/image-in-place-edit.png)
+![画像インプレース編集のオプション](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
@@ -216,13 +216,13 @@ ht-degree: 92%
 
 * ソース
 
-   ![イメージコンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-source.png)
+   ![画像コンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-source.png)
 
    コンテンツ作成者が自身のローカルコンピュータから画像をアップロードできるようにするには、オプション「**ファイルシステムからのアセットのアップロードを許可**」を選択します。コンテンツ作成者が AEM からしかアセットを選択できないようにするには、このオプションを選択解除します。
 
 * 向き
 
-   ![イメージコンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-orientation.png)
+   ![画像コンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-orientation.png)
 
 * **回転**
 コンテンツ作成者が「**右に回転**」オプションを使用できるようにするには、このオプションを使用します。
@@ -235,7 +235,7 @@ ht-degree: 92%
 
 * 切り抜き
 
-   ![イメージコンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-cropping.png)
+   ![画像コンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-cropping.png)
 
    コンテンツ作成者が編集ダイアログでコンポーネントの画像の切り抜きをおこなえるようにするには、オプション「**切り抜きを許可**」を選択します。
    * 定義済みの切り抜き縦横比を追加するには、「**追加**」をクリックします。
@@ -249,7 +249,7 @@ ht-degree: 92%
 
 ### 「スタイル」タブ {#styles-tab-1}
 
-画像コンポーネントは AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートします。
+画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ## アダプティブ画像サーブレット {#adaptive-image-servlet}
 
