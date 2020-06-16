@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -70,8 +70,8 @@ ht-degree: 91%
    + [コアコンポーネントのカスタマイズ](developing/customizing.md)
    + [コンポーネントのガイドライン](developing/guidelines.md)
    + Adobe Client Data Layer {#data-layer}
-      + [コアコンポーネントとAdobeクライアントデータレイヤー](developing/data-layer/overview.md)
-      + [Adobe Launchとの統合](developing/data-layer/launch-integration.md)
+      + [コアコンポーネントと Adobe Client Data Layer](developing/data-layer/overview.md)
+      + [Adobe Launch との統合](developing/data-layer/launch-integration.md)
       + [Adobe Analytics との統合](developing/data-layer/analytics-integration.md)
    + AEM プロジェクトアーキタイプ {#archetype}
       + [アーキタイプの概要](developing/archetype/overview.md)
