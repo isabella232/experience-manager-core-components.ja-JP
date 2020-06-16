@@ -1,11 +1,11 @@
 ---
 title: コンテナコンポーネント
 description: コアコンポーネントのコンテナコンポーネントを使用すると、ページ上に複数の追加コンポーネント用のコンテナを作成できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -54,10 +54,10 @@ ht-degree: 87%
    * **レスポンシブグリッド** - コンテナを [AEM レスポンシブレイアウト](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)として定義します。
 * **背景色** - [設定に応じて](#background-tab)、自由形式の RGB 値として定義するか、カラーピッカーを使用して定義します。
 * **背景画像** - [設定に応じて](#background-tab)、コンテナの背景色を定義します。
-* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
-   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
-   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
-   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+   * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
+   * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
+   * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 ## デザインダイアログ{#design-dialog}
 
