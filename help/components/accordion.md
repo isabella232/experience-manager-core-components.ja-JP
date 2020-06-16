@@ -1,11 +1,11 @@
 ---
 title: アコーディオンコンポーネント
 description: コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 79%
 
 ## パネルへのディープリンク {#deep-linking}
 
-アコーディオンと [タブコンポーネント](tabs.md) は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
+アコーディオンと[タブコンポーネント](tabs.md)は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
 
 次の手順を実行します。
 
-1. ページエディターで「発行済みとして **[表示](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**」オプションを使用して、コンポーネントとページを表示します。
-1. ページのコンテンツを検査し、パネルのIDを特定します。
-   * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
-1. IDがアンカーになり、ハッシュ(`#`)を使用してURLに追加できます。
-   * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+1. ページエディターで「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**」オプションを使用して、ページとコンポーネントを表示します。
+1. ページのコンテンツを調べ、パネルの ID を特定します。
+   * 例：`id="accordion-86196c94d3-item-ca319dbb0b"`
+1. ID がアンカーになり、ハッシュ（`#`）を使用して URL に追加できます。
+   * 例：`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
-パネルIDをアンカーとして指定したURLに移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。 パネルがデフォルトで展開されないように設定されている場合は、自動的に展開されます。
+パネル ID をアンカーとして使用して指定した URL に移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。デフォルトでパネルが展開されないように設定されている場合は、自動的に展開されます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -79,26 +79,26 @@ ht-degree: 79%
 
 ### 「プロパティ」タブ {#properties-tab}
 
-![アコーディオンコンポーネントの編集ダイアログのプロパティタブ](/help/assets/accordion-edit-properties.png)
+![アコーディオンコンポーネントの編集ダイアログの「プロパティ」タブ](/help/assets/accordion-edit-properties.png)
 
 * **単一アイテムの展開** - このオプションを選択すると、1 つのアコーディオンアイテムが一度に強制的に展開されます。1 つのアイテムを展開すると、それ以外のアイテムはすべて折りたたまれます。
 * **展開済みのアイテム** - ページの読み込み時にデフォルトで展開されるアイテムを定義します。
    * 「**単一アイテムの展開**」が選択されている場合は、1 つのパネルを選択する必要があります。デフォルトでは、最初のパネルが選択されます。
    * 「**単一アイテムの展開**」が選択されていない場合、このオプションは複数選択可能となり、任意指定となります。
-* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
-   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
-   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
-   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+   * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
+   * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
+   * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-## パネルを選択ポップオーバー {#select-panel-popover}
+## 「パネルを選択」ポップオーバー {#select-panel-popover}
 
 コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを使用すれば、コンテンツ作成者は編集用に別のパネルに切り替えたり、アコーディオン内のパネルを簡単に並べ替えたりできます。
 
-![パネルアイコンを選択](/help/assets/select-panel-icon.png)
+![「パネルを選択」アイコン](/help/assets/select-panel-icon.png)
 
 コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを選択すると、設定済みのアコーディオンパネルがドロップダウンとして表示されます。
 
-![パネルプーバーを選択](/help/assets/select-panel-popover.png)
+![「パネルを選択」ポップオーバー](/help/assets/select-panel-popover.png)
 
 * リスト内のパネルは割り当てられた順番で並べられ、その順番が通し番号に反映されます。
 * まずパネルのコンポーネントタイプが表示され、次にパネルドの説明が薄いフォントで表示されます。
@@ -111,7 +111,7 @@ ht-degree: 79%
 
 ### 「プロパティ」タブ {#properties-tab-design}
 
-![「Design dialog properties」タブ](/help/assets/accordion-design-properties.png)
+![デザインダイアログの「プロパティ」タブ](/help/assets/accordion-design-properties.png)
 
 * **許可される見出し要素** - 作成者が選択できるアコーディオンアイテム見出し HTML 要素を定義する複数選択ドロップダウンです。
 * **デフォルトの見出し要素** - デフォルトのアコーディオンアイテム見出し HTML 要素を定義します。
@@ -124,4 +124,4 @@ ht-degree: 79%
 
 ### 「スタイル」タブ {#styles-tab}
 
-アコーディオンコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+アコーディオンコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
