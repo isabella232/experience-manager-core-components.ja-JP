@@ -1,11 +1,11 @@
 ---
 title: ダウンロードコンポーネント
 description: コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 86%
 
 設定ダイアログでは、ダウンロードアイテムそのものと、ページの訪問者に対するダウンロードアイテムの動作および表示をコンテンツ作成者が定義できます。
 
-![コンポーネントの編集ダイアログの「アセット」タブ](/help/assets/download-edit-asset.png)
+![ダウンロードコンポーネントの編集ダイアログの「アセット」タブ](/help/assets/download-edit-asset.png)
 
 ### 「アセット」タブ {#asset-tab}
 
@@ -60,7 +60,7 @@ ht-degree: 86%
 
 ### 「プロパティ」タブ {#properties-tab}
 
-![コンポーネントの編集ダイアログの「プロパティ」タブ](/help/assets/download-edit-properties.png)
+![ダウンロードコンポーネントの編集ダイアログの「プロパティ」タブ](/help/assets/download-edit-properties.png)
 
 * **タイトル** - ダウンロードアイテムのヘッドラインとして表示されます。
    * **DAM アセットからタイトルを取得** - タイトルに DAM アセットのタイトルが自動的に入力されます。
@@ -69,10 +69,10 @@ ht-degree: 86%
 * **アクションテキスト** - ダウンロードアイテムのアクションテキストとして表示されます。
    * このフィールドは、ファイルシステムからアセットをアップロードする場合には必須です。
    * **インライン表示** - 指定した&#x200B;**アクションテキスト**&#x200B;がインライン表示されます。
-* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
-   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
-   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
-   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+   * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
+   * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
+   * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 ## デザインダイアログ{#design-dialog}
 
@@ -80,7 +80,7 @@ ht-degree: 86%
 
 ### 「プロパティ」タブ {#properties-tab-design}
 
-![コンポーネントのダウンロードのデザインダイアログ](/help/assets/download-design.png)
+![ダウンロードコンポーネントのデザインダイアログ](/help/assets/download-design.png)
 
 * **ファイルシステムからのアップロードを許可** - コンテンツ作成者が自分のローカルファイルシステムからアセットをダウンロードアセットとしてアップロードできるようにします。
    * デフォルト値はオフです。
@@ -95,4 +95,4 @@ ht-degree: 86%
 
 ### 「スタイル」タブ {#styles-tab}
 
-画像コンポーネントは AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートします。
+画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
