@@ -1,11 +1,11 @@
 ---
 title: リストコンポーネント
 description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 80%
 * [検索](#search-options)
 * [タグ](#tags)
 
-Regardless of how the list is built, there are [Sort and ID Options](#sort-options) that can always be configured.
+リストの作成方法に関係なく、常に設定できる[並べ替えおよび ID オプション](#sort-options)があります。
 
 ![リストコンポーネントの編集ダイアログ](/help/assets/list-edit.png)
 
@@ -102,7 +102,7 @@ Regardless of how the list is built, there are [Sort and ID Options](#sort-optio
 
 リストは、特定の場所の下で特定のタグに一致するページを使用して作成できます。
 
-![タグリストオプション](/help/assets/list-edit-tags.png)
+![タグリストのオプション](/help/assets/list-edit-tags.png)
 
 * **親ページ**
 タグマッチングの開始場所
@@ -133,16 +133,16 @@ Regardless of how the list is built, there are [Sort and ID Options](#sort-optio
 * **最大項目数**
 リストに表示される項目の最大数。
    * すべての項目を返すには、空のままにします。
-* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
-   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
-   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
-   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+   * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
+   * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
+   * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 ### 「項目設定」タブ {#item-settings-tab}
 
 「項目設定」タブを使用すれば、リスト要素の書式設定を設定できます。
 
-![項目の設定](/help/assets/list-edit-items.png)
+![項目設定](/help/assets/list-edit-items.png)
 
 * **項目をリンク**
 項目を対応するページにリンクします
@@ -159,25 +159,32 @@ Regardless of how the list is built, there are [Sort and ID Options](#sort-optio
 
 「**リスト設定**」タブでは、日付の形式を定義したり、コンポーネントでコンテンツ作成者が使用できるリストの種類を定義したりできます。
 
-![リストコンポーネントのデザインダイアログリスト設定](/help/assets/list-design-list-settings.png)
+![リストコンポーネントのデザインダイアログリストの設定](/help/assets/list-design-list-settings.png)
 
 * **日付の形式**
 最終変更日の表示に使用する形式
-* **子を無効にするコンポーネントの子リストタイプを**&#x200B;無効にする
-* **Disable static**&#x200B;コンポーネント内の静的なリストタイプを無効にします。
-* **検索を無効にするコンポーネント内の検索リストのタイプを無効にする**
-* **Disable tags**&#x200B;コンポーネントのタグリストタイプを無効にする
+* **子を無効にする**
+コンポーネントで子リストタイプを無効にします
+* **静的を無効にする**
+コンポーネントで静的リストタイプを無効にします
+* **検索を無効にする**
+コンポーネントで検索リストタイプを無効にします
+* **タグを無効にする**
+コンポーネントでタグリストタイプを無効にします
 
 ### 項目設定 {#item-settings}
 
 「**項目設定**」タブでは、コンテンツ作成者がコンポーネント内で使用できる個々のリスト要素の書式設定オプションを定義することができます。
 
-![リストコンポーネントのデザインダイアログ項目の設定](/help/assets/list-design-item-settings.png)
+![リストコンポーネントのデザインダイアログの項目設定](/help/assets/list-design-item-settings.png)
 
-* **項目をリンク**&#x200B;編集ダイアログの「項目をリンクを有効にする」 [オプション](#edit-dialog)
-* **説明を表示**&#x200B;編集ダイアログの「説明を表示」オプションを有効に [する](#edit-dialog)
-* **Show date**&#x200B;編集ダイアログの「日付を表示」オプションを有効にし [ます。](#edit-dialog)
+* **項目をリンク**
+[編集ダイアログ](#edit-dialog)で「項目をリンク」オプションを有効にします
+* **説明を表示**
+[編集ダイアログ](#edit-dialog)で「説明を表示」オプションを有効にします
+* **日付を表示**
+[編集ダイアログ](#edit-dialog)で「日付を表示」オプションを有効にします
 
 ### 「スタイル」タブ {#styles-tab}
 
-画像コンポーネントは AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートします。
+画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
