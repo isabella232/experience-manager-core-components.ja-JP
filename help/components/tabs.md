@@ -1,11 +1,11 @@
 ---
 title: タブコンポーネント
 description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 77%
 
 ## パネルへのディープリンク {#deep-linking}
 
-タブと [アコーディオンコンポーネント](accordion.md) は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
+タブと[アコーディオンコンポーネント](accordion.md)は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
 
 次の手順を実行します。
 
-1. ページエディターで「発行済みとして **[表示](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**」オプションを使用して、コンポーネントとページを表示します。
-1. ページのコンテンツを検査し、パネルのIDを特定します。
-   * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
-1. IDがアンカーになり、ハッシュ(`#`)を使用してURLに追加できます。
-   * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+1. ページエディターで「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**」オプションを使用して、ページとコンポーネントを表示します。
+1. ページのコンテンツを調べ、パネルの ID を特定します。
+   * 例：`id="accordion-86196c94d3-item-ca319dbb0b"`
+1. ID がアンカーになり、ハッシュ（`#`）を使用して URL に追加できます。
+   * 例：`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
-パネルIDをアンカーとして指定したURLに移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。 パネルがデフォルトで展開されないように設定されている場合は、自動的に展開されます。
+パネル ID をアンカーとして使用して指定した URL に移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。デフォルトでパネルが展開されないように設定されている場合は、自動的に展開されます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -68,14 +68,14 @@ ht-degree: 77%
 
 ### 「項目」タブ {#items-tab}
 
-![タブコンポーネントの編集ダイアログ項目タブ](/help/assets/tabs-edit-items.png)
+![タブコンポーネントの編集ダイアログの「項目」タブ](/help/assets/tabs-edit-items.png)
 
 タブとして追加するコンポーネントを選択するためのコンポーネントセレクターを開くには、「**追加**」ボタンを使用します。追加が完了すると、以下の列を含むエントリがリストに追加されます。
 
 * **アイコン** - リスト内で簡単に識別できるようにするための、タブのコンポーネントタイプのアイコン。マウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
 * **説明** - タブのテキストとして使用される説明。デフォルトでは、タブ用に選択されたコンポーネントの名前に設定されます。
 * **削除** - タップまたはクリックすると、タブコンポーネントからタブが削除されます。
-* **並べ替え** - タップまたはクリックしてドラッグすると、タブを並べ替えることができます。
+* **再配置** - タップまたはクリックしてドラッグすると、タブの順序を並べ替えることができます。
 
 >[!TIP]
 >
@@ -85,16 +85,16 @@ ht-degree: 77%
 
 ![タブコンポーネントの編集ダイアログの「プロパティ」タブ](/help/assets/tabs-edit-properties.png)
 
-* **アクティブな項目** — コンテンツ作成者は、ページが読み込まれるときにアクティブにするタブを定義できます。
+* 「**アクティブな項目**」タブでは、コンテンツ作成者はページの読み込み時にアクティブになるタブを定義できます。
    * 「**デフォルト**」オプションの場合、最初のタブが選択されます。
-* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
-   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
-   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
-   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+   * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
+   * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
+   * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
-![タブコンポーネントの編集ダイアログのアクセシビリティタブ](/help/assets/tabs-edit-accessibility.png)
+![タブコンポーネントの編集ダイアログの「アクセシビリティ」タブ](/help/assets/tabs-edit-accessibility.png)
 
 「**アクセシビリティ**」タブでは、コンポーネントの「[ARIA アクセシビリティ](https://www.w3.org/WAI/standards-guidelines/aria/)」ラベルの値を設定できます。
 
@@ -104,14 +104,14 @@ ht-degree: 77%
 
 コンポーネントツールバーの「**パネルを選択**」オプションを使用すれば、コンテンツ作成者は編集用に別のパネルに切り替えたり、簡単にタブを並べ替えたりできます。
 
-![パネルアイコンを選択](/help/assets/select-panel-icon.png)
+![「パネルを選択」アイコン](/help/assets/select-panel-icon.png)
 
 コンポーネントツールバーの「**パネルを選択**」オプションを選択すると、設定済みのタブがドロップダウンとして表示されます。
 
 * リスト内のタブは割り当てられた順番で並べられ、その順番が通し番号に反映されます。
 * まずタブのコンポーネントタイプが表示され、次にタブの説明が明るい色のフォントで表示されます。
 
-![パネルプーバーを選択](/help/assets/select-panel-popover.png)
+![「パネルを選択」ポップオーバー](/help/assets/select-panel-popover.png)
 
 * ドロップダウン内の 1 つのエントリをタップまたはクリックすると、エディターのビューがそのタブに切り替わります。
 * ドラッグハンドルを使用すれば、タブをインプレースで並べ替えることができます。
