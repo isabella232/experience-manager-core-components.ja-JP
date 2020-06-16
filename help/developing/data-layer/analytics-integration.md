@@ -1,122 +1,122 @@
 ---
-title: Adobe Client Data Layerを使用したコアコンポーネントとAdobe Analyticsの統合
-description: コアコンポーネントイベントを登録するためのAdobe Analyticsの設定方法
-translation-type: tm+mt
+title: Adobe Client Data Layer を使用してコアコンポーネントと Adobe Analytics を統合する
+description: コアコンポーネントイベントを登録するよう Adobe Analytics を設定する方法
+translation-type: ht
 source-git-commit: f930a0d6004a29369b189137dd9c52e637ea3a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1000'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Client Data Layerを使用したコアコンポーネントとAdobe Analyticsの統合 {#analytics-integration}
+# Adobe Client Data Layer を使用してコアコンポーネントと Adobe Analytics を統合する {#analytics-integration}
 
-このドキュメントでは、AEM、Adobeクライアントデータレイヤー、Adobe LaunchおよびAdobe Analyticsに基づいてエンドツーエンドの設定を設定し、追跡する方法について詳しく説明します。
+このドキュメントでは、AEM、Adobe Client Data Layer、Adobe Launch および Adobe Analytics に基づいてエンドツーエンドの設定をおこない、以下を追跡する方法について詳しく説明します。
 
-* ページが読み込まれるときにAdobeクライアントデータレイヤーに保存されるページID
-* 画像がクリックされたときにAdobeクライアントデータレイヤーに保存される画像パス
+* ページが読み込まれるときに Adobe Client Data Layer に保存されるページ ID
+* 画像がクリックされたときに Adobe Client Data Layer  に保存される画像パス
 
-これは、コアコンポーネントを例として使用しますが、独自のカスタムコンポーネントに使用することもできます。
+コアコンポーネントを例として使用していますが、独自のカスタムコンポーネントに使用することもできます。
 
-##  手順1 - Adobe Analyticsでレポートスイートを作成する {#create-report-suite}
+## 手順 1 - Adobe Analytics でレポートスイートを作成する {#create-report-suite}
 
-データの集計と分析を行うには、まずレポートスイートを作成する必要があります。
+データの集計と分析をおこなうには、まずレポートスイートを作成する必要があります。
 
 1. `https://analytics.adobe.com` にアクセスします。
-1. Adobe IDを使用してサインインします。
-1. Click the **Analytics** icon.
-1. [ **管理者] > [レポートスイート**]に移動します。
-1. Click **Create New -> Report Suite**.
+1. Adobe ID を使用してログインします。
+1. **Analytics** アイコンをクリックします。
+1. **管理者／レポートスイート**&#x200B;に移動します。
+1. **新規作成／レポートスイート**&#x200B;をクリックします。
 1. フォームに入力します。
-   1. **レポートスイート ID**: `yourSuiteID`
-   1. **サイトのタイトル**: `Your suite description`
-   1. **タイムゾーン**: 必要に応じて
-   1. **Go Live日**: 今日の日付、または適切な日付
-   1. **予想日別ページ表示数**: 100または必要に応じて
-1. Click **Create Report Suite**.
+   1. **レポートスイート ID**：`yourSuiteID`
+   1. **サイトのタイトル**：`Your suite description`
+   1. **タイムゾーン**：必要に応じて
+   1. **公開日**：本日の日付、または適切な日付
+   1. **日別予想ページビュー数**：必要に応じて 0 または 100
+1. 「**レポートスイートの作成**」をクリックします。
 
-成功すると、次のメッセージが緑色で表示されます。 `Report Suite <yourReportSuite> has been successfully created.`
+成功すると、次のメッセージが緑色で表示されます。`Report Suite <yourReportSuite> has been successfully created.`
 
-## 手順2 — レポートスイートを表示する {#make-visible}
+## 手順 2 - レポートスイートを表示する {#make-visible}
 
 新しいレポートスイートを使用するには、そのレポートスイートが表示されている必要があります。
 
 1. `https://adminconsole.adobe.com` にアクセスします。
-1. Adobe IDを使用してサインインします。
-1. 「 **Adobe Analytics - &lt;yourSite>** 」カードをクリックします。
-1. 「 **Adobe Analytics - &lt;yourSite>** 」リンクをクリックします。
-1. Select the **Permissions** tab
-1. 「 **レポートスイート** 」行の「 **編集** 」ボタンをクリックします。
-1. **手順1で作成したレポートスイートの「** +」 [ボタンをクリックして、「](#create-report-suite) 含まれる権限項目 **** 」カテゴリに追加します。
+1. Adobe ID を使用してログインします。
+1. 「**Adobe Analytics - &lt;yourSite>**」カードをクリックします。
+1. 「**Adobe Analytics - &lt;yourSite>**」リンクをクリックします。
+1. 「**権限**」タブを選択します。
+1. 「**レポートスイート**」行の「**編集**」ボタンをクリックします。
+1. [手順 1](#create-report-suite) で作成したレポートスイートの「**+**」ボタンをクリックして、「**含まれる権限項目**」カテゴリに追加します。
 1. 「**保存**」をクリックします。
 
-## 手順3 - AEMサイトとAdobe Launchを統合する {#integrate-launch}
+## 手順 3 - AEM サイトと Adobe Launch を統合する {#integrate-launch}
 
-データを生成するには、LaunchがAEMサイトに統合されている必要があります。
+データを生成するには、Launch が AEM サイトに統合されている必要があります。
 
-Adobeクライアントデータレイヤーの [使用によるコアコンポーネントの統合とAdobe Launch](launch-integration.md) ドキュメントの手順に従います。
+[Adobe Client Data Layer を使用してコアコンポーネントと Adobe Launch を統合する](launch-integration.md)ドキュメントの手順に従います。
 
-## 手順4 - Adobe LaunchでのAdobe Analytics Extensionのインストールと設定 {#install-extension}
+## 手順 4 - Adobe Launch で Adobe Analytics 拡張機能をインストールおよび設定する {#install-extension}
 
-Adobe Analytics Extensionを使用すると、AnalyticsをLaunchと統合できます。
+Adobe Analytics 拡張機能を使用すると、Analytics を Launch と統合できます。
 
-1. 「Adobe Launch」で、 [手順3で作成した新しく追加されたプロパティを選択します。](#integrate-launch)
-1. 「 **拡張子** 」タブに移動し、「 **カタログ**」を選択します。
-1. 「 **Adobe Analytics**」を検索します。
+1. Adobe Launch から、[手順 3](#integrate-launch) で作成し、新しく追加されたプロパティを選択します。
+1. 「**拡張機能**」タブに移動し、「**カタログ**」を選択します。
+1. **Adobe Analytics** を検索します。
 1. 「**インストール**」をクリックします。
 1. 拡張機能を設定します。
-   1. 適切な **環境に対して、** 手順1で作成した [AnalyticsレポートスイートIDを入力します](#create-report-suite) 。
-   1. Set **Character Set** to UTF-8
+   1. 適切な環境に対して、**手順 1** で作成した [Analytics レポートスイート ID](#create-report-suite) を入力します 。
+   1. **文字セット**&#x200B;を UTF-8 に設定します。
 1. 「保存」をクリックします。
 
-## 手順5 - Adobe LaunchでページIDのデータ要素を作成する {#create-data-element}
+## 手順 5 - Adobe Launch でページ ID のデータ要素を作成する {#create-data-element}
 
-ページIDを追跡するには、「起動」でデータ要素が必要です。
+ページ ID を追跡するには、Launch でデータ要素が必要となります。
 
-1. 「Adobe Launch」で、 [手順3で作成したプロパティを選択します。](#integrate-launch)
-1. 「 **データ要素** 」タブを選択し、「 **データ要素**」をクリックします。
-   1. **名前**: `dl-page-id`
-   1. **拡張子**: **コア**
-   1. **データ要素の種類**: **カスタムコード**
-1. 「 **編集画面を開く」をクリックします**
-1. エディターで、次のコードを入力します。 `return adobeDataLayer.getState().page.id;`
+1. Adobe Launch から、[手順 3](#integrate-launch) で作成したプロパティを選択します。
+1. 「**データ要素**」タブを選択し、「**データ要素を追加**」をクリックします。
+   1. **名前**：`dl-page-id`
+   1. **拡張機能**：**コア**
+   1. **データ要素のタイプ**：**カスタムコード**
+1. 「**編集画面を開く**」をクリックします。
+1. エディターで、次のコードを入力します。`return adobeDataLayer.getState().page.id;`
 1. 「**保存**」をクリックします。
-1. 「 **保存** 」をクリックして、データ要素を作成します。
+1. 「**保存**」をクリックして、データ要素を作成します。
 
-## 手順6 - Adobe Launchでルールを作成してAnalyticsでページIDを追跡する {#track-page}
+## 手順 6 - Adobe Launch でルールを作成して Analytics でページ ID を追跡する {#track-page}
 
-ルールを使用すると、AnalyticsのページIDなど、ブラウズ属性を追跡できます。
+ルールを使用すると、Analytics のページ ID などのブラウジング属性を追跡できます。
 
-「Adobe Client Data Layerの [使用」のパート5bで手順を繰り返して、コアコンポーネントとAdobe Launch](launch-integration.md#launch-rule) ドキュメントを統合し、Adobe Launchに次のルールを追加します。
+「[Adobe Client Data Layer を使用してコアコンポーネントと Adobe Launch を統合する](launch-integration.md#launch-rule)」ドキュメントのパート 5b の手順を繰り返して、Adobe Launch で次のルールを追加します。
 
-* **名前**: `track-dl-page-id`
-* イベント:
-   * **拡張子**: **コア**
-   * **イベントタイプ**: **ページ下部**
-* アクション1:
-   * **拡張子**: **Adobe Analytics**
-   * **Action Type**: **変数の設定**
-   * **prop1**: `%dl-page-id%`
-* アクション2:
-   * **拡張子**: **Adobe Analytics**
-   * **Action Type**: **ビーコンの送信**
-   * Check **s.t(): Adobe Analyticsにデータを送信し、ページ表示として扱う**
+* **名前**：`track-dl-page-id`
+* イベント：
+   * **拡張機能**：**コア**
+   * **イベントタイプ**：**ページ下部**
+* アクション 1：
+   * **拡張機能**：**Adobe Analytics**
+   * **アクションタイプ**：**変数の設定**
+   * **prop1**：`%dl-page-id%`
+* アクション 2：
+   * **拡張機能**：**Adobe Analytics**
+   * **アクションタイプ**：**ビーコンを送信**
+   * 「**s.t(): Send Data to Adobe Analytics and treat it as a page view**」にチェックマークを付けます
 
-## 手順7 - Adobe Launchでルールを作成してImage Clickイベントを登録する {#register-click}
+## 手順 7 - Adobe Launch でルールを作成して画像クリックイベントを登録する {#register-click}
 
-ルールを使用すると、Analyticsのクリックイベントなど、参照属性を追跡できます。
+ルールを使用すると、Analytics のクリックイベントなどのブラウジング属性を追跡できます。
 
-「Adobe Client Data Layerの [使用」のパート5bで手順を繰り返して、コアコンポーネントとAdobe Launch](launch-integration.md#launch-rule) ドキュメントを統合し、Adobe Launchに次のルールを追加します。
+「[Adobe Client Data Layer を使用してコアコンポーネントと Adobe Launch を統合する](launch-integration.md#launch-rule)」ドキュメントのパート 5b の手順を繰り返して、Adobe Launch で次のルールを追加します。
 
-* **名前**: `register-dl-image-click`
-* イベント:
-   * **拡張子**: **コア**
-   * **イベントタイプ**: **ページ下部**
-* アクション1:
-   * **拡張子**: **コア**
-   * **Action Type**: **カスタムコード**
-   * エディタ： 次のコードを入力します。
+* **名前**：`register-dl-image-click`
+* イベント：
+   * **拡張機能**：**コア**
+   * **イベントタイプ**：**ページ下部**
+* アクション 1：
+   * **拡張機能**：**コア**
+   * **アクションタイプ**：**カスタムコード**
+   * エディター：次のコードを入力します。
 
       ```
       var myListener = function(event) {
@@ -125,67 +125,67 @@ Adobe Analytics Extensionを使用すると、AnalyticsをLaunchと統合でき�
       adobeDataLayer.addEventListener('image clicked', myListener());
       ```
 
-## 手順8 - Adobe Launchでルールを作成し、Analyticsでのイメージクリックイベントを追跡する {#track-click}
+## 手順 8 - Adobe Launch でルールを作成して Analytics の画像クリックイベントを追跡する {#track-click}
 
-ルールを使用すると、Analyticsのクリックイベントなど、参照属性を追跡できます。
+ルールを使用すると、Analytics のクリックイベントなどのブラウジング属性を追跡できます。
 
-「Adobe Client Data Layerの [使用」のパート5bで手順を繰り返して、コアコンポーネントとAdobe Launch](launch-integration.md#launch-rule) ドキュメントを統合し、Adobe Launchに次のルールを追加します。
+「[Adobe Client Data Layer を使用してコアコンポーネントと Adobe Launch を統合する](launch-integration.md#launch-rule)」ドキュメントのパート 5b の手順を繰り返して、Adobe Launch で次のルールを追加します。
 
-* **名前**: `track-dl-image-click`
-* イベント:
-   * **拡張子**: **コア**
-   * **イベントタイプ**: **ダイレクト型**
-   * **識別子**: `dlImageClicked`
-* アクション1:
-   * **拡張子**: **Adobe Analytics**
-   * **Action Type**: **変数の設定**
-   * **prop2**: 設定形式 `%event.detail%`
-* アクション2:
-   * **拡張子**: **Adobe Analytics**
-   * **Action Type**: **ビーコンの送信**
-   * Check **s.t(): Adobe Analyticsにデータを送信し、ページ表示として扱う**
+* **名前**：`track-dl-image-click`
+* イベント：
+   * **拡張機能**：**コア**
+   * **イベントタイプ**：**直接呼び出し**
+   * **識別子**：`dlImageClicked`
+* アクション 1：
+   * **拡張機能**：**Adobe Analytics**
+   * **アクションタイプ**：**変数の設定**
+   * **prop2**：`%event.detail%` として設定
+* アクション 2：
+   * **拡張機能**：**Adobe Analytics**
+   * **アクションタイプ**：**ビーコンを送信**
+   * 「**s.t(): Send Data to Adobe Analytics and treat it as a page view**」にチェックマークを付けます
 
-## 手順9 — 起動コードをWebサイトに公開する {#publish-launch}
+## 手順 9 - Launch コードを Web サイトに公開する {#publish-launch}
 
-「起動」でこれらのルールおよびプロパティの追跡を有効にするには、コードを発行する必要があります。
+Launch でこれらのルールおよびプロパティのトラッキングを有効にするには、コードを公開する必要があります。
 
-1. 「 **Adobe Launch** 」タブで、「 **Publishing** 」タブを選択します。
-1. 「 **追加新規ライブラリ**」をクリックします。
-1. As **Name** enter: `data-layer-analytics-1`.
-1. 「 **環境** 」として「 **開発（開発）」を選択し**&#x200B;ます。
-1. 「 **追加All Changed Resources**」をクリックします。
-1. 次の3つのルール(`track-dl-page-id`、 `register-dl-image-click` および `track-dl-image-click`)のそれぞれに対して、
-1. 「 **ルール」>「ルール」>「最新** 」を選択し、「 **選択して新しいリビジョンを作成**」をクリックします。
-1. 「**保存して開発用にビルド**」をクリックします。
+1. 「**Adobe Launch**」タブで、「**公開**」タブを選択します。
+1. 「**Add New Library**」をクリックします。
+1. 「**名前**」に「`data-layer-analytics-1`」と入力します。
+1. 「**環境**」として「**Development (development)**」を選択します。
+1. 「**Add All Changed Resources**」をクリックします。
+1. 次の 3 つのルール（`track-dl-page-id`、`register-dl-image-click` および `track-dl-image-click`）のそれぞれに対して：
+1. **ルール／ルール／最新**&#x200B;を選択し、「**Select &amp; Create a New Revision**」をクリックします。
+1. 「**Save &amp; Build for Development**」をクリックします。
 
-## 手順10 - Adobe Analyticsに情報を送信するページをトリガーする {#trigger-page}
+## 手順 10 - ページをトリガーして Adobe Analytics に情報を送信する {#trigger-page}
 
-この手順では、Chrome拡張機能 **LaunchとDTM Switchをインストールします**。 この拡張機能を使用する場合は、起動コードを作成して開発環境にデプロイする必要があります。 ステージング用と実稼動用の環境をデプロイする必要はありません。
+この手順では、Chrome 拡張機能 **Launch and DTM Switch** をインストールします。この拡張機能を使用する場合は、Launch コードを作成して開発環境にデプロイする必要があります。ステージング環境と実稼動環境をデプロイする必要はありません。
 
-1. Chrome Extension **LaunchとDTM Switch** from Discoveryをインストールします。
-1. スイッチの **起動** アイコンをクリックし、「デバッグ」を「 *オン*」に設定します。
-1. ページを再読み込み `http://<host>:<port>/content/core-components-examples/library/image.html`.
+1. Discovery から Chrome 拡張機能 **Launch and DTM Switch** をインストールします。
+1. **Launch スイッチ**&#x200B;アイコンをクリックし、「デバッグ」を「*オン*」に設定します。
+1. `http://<host>:<port>/content/core-components-examples/library/image.html`ページをリロードします。
 1. ブラウザーコンソールを開くと、次のように表示されます。
 
-![Analyticsコンソールの出力](/help/assets/analytics-console-output.png)
+![Analytics コンソールの出力](/help/assets/analytics-console-output.png)
 
 >[!TIP]
 >
->また、Chrome用 **Experience Cloud Debugger** extensionをインストールして、Adobe LaunchとAnalyticsによって表示することもできます。
+>また、Chrome 用 **Experience Cloud Debugger** 拡張機能をインストールして、ページに関する Adobe Launch および Analytics 固有の情報を表示することもできます。
 
-## 手順11 - Adobe Analyticsでの追跡情報の表示 {#view-info}
+## 手順 11 - Adobe Analytics で追跡した情報を表示する {#view-info}
 
-これで、Adobe Analyticsでトリガーしたイベントを表示できます。
+これで、Adobe Analytics でトリガーしたイベントを表示できます。
 
 1. `https://analytics.adobe.com` にアクセスします。
-1. Adobe IDを使用してサインインします。
-1. Click the **Analytics** icon.
-1. Select the **Reports** tab.
-1. 右上のドロップダウンで、 [手順1で作成したレポートスイートを選択します。](#create-report-suite)
-1. 最初の列で、「 **カスタムトラフィック —>カスタムトラフィック1-10 ->カスタムインサイト1** 」を選択し、データレイヤーに保存されている追跡対象のページID（パス）を表示します。 次のように表示されます。
+1. Adobe ID を使用してログインします。
+1. **Analytics** アイコンをクリックします。
+1. 「**レポート**」タブを選択します。
+1. 右上のドロップダウンから、[手順 1](#create-report-suite) で作成したレポートスイートを選択します。
+1. 最初の列で、「**カスタムトラフィック／カスタムトラフィック 1～10／カスタムインサイト 1**」を選択し、データレイヤーに保存されている追跡対象のページ ID（パス）を表示します。次のように表示されます。
 
-   ![カスタムインサイト1](/help/assets/custom-insight-1.png)
+   ![カスタムインサイト 1](/help/assets/custom-insight-1.png)
 
-1. 追跡する画像パスをデータレイヤーに保存している場合は、 **カスタムインサイト2** にアクセスして表示します。 次のように表示されます。
+1. 追跡した画像パスをデータレイヤーに保存している場合は、**カスタムインサイト 2** にアクセスして表示します。次のように表示されます。
 
-   ![カスタムインサイト2](/help/assets/custom-insight-2.png)
+   ![カスタムインサイト 2](/help/assets/custom-insight-2.png)
