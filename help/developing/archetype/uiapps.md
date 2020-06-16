@@ -1,9 +1,9 @@
 ---
 title: AEM プロジェクトアーキタイプの ui.apps モジュール
 description: AEM プロジェクトアーキタイプの ui.apps モジュール
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
 ht-degree: 100%
 
