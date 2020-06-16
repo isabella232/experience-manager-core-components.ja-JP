@@ -1,11 +1,11 @@
 ---
 title: フォームコンテナコンポーネント
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '805'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 84%
 
 フォームが送信されると、フォームのコンテンツは、指定されたリポジトリの場所に保存されます。
 
-![フォームコンテナの編集ダイアログでのコンテンツ保存オプション](/help/assets/form-container-edit-store.png)
+![フォームコンテナの編集ダイアログのコンテンツ保存オプション](/help/assets/form-container-edit-store.png)
 
 * **コンテンツのパス** - 送信されたコンテンツが格納されるコンテンツリポジトリのパス
 * **データを表示** - タップまたはクリックすると、保存された送信済みデータが JSON 形式で表示されます
@@ -89,14 +89,14 @@ ht-degree: 84%
 
 ![フォームコンテナコンポーネントの編集ダイアログの一般オプション](/help/assets/form-container-edit-general.png)
 
-* **「ありがとうございます」ページ** — フォームの送信が完了すると、指定したページにユーザーがリダイレクトされます。
+* **「ありがとうございます」ページ** - フォーム送信の完了後、ユーザーは指定したページにリダイレクトされます。
    * 選択ダイアログを使用して、AEM 内のリソースを選択します。
    * ありがとうページが AEM にない場合は、絶対 URL を指定します。絶対 URL 以外の URL は、AEM からの相対 URL と解釈されます。
    * 空白のままにすると、送信後にフォームが再度表示されます。
-* **ID** — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
-   * 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
-   * IDを指定する場合は、一意性を確認するのは作成者の責任です。
-   * IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+   * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
+   * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
+   * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 ## デザインダイアログ{#design-dialog}
 
@@ -104,4 +104,4 @@ ht-degree: 84%
 
 ### 「スタイル」タブ {#styles-tab}
 
-The Form Container Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+フォームコンテナコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
