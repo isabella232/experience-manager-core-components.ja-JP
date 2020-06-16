@@ -1,11 +1,11 @@
 ---
 title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2202'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -91,27 +91,27 @@ ht-degree: 89%
 
 ### 上付き文字
 
-![上付きのアイコン](/help/assets/text-superscript.png)
+![上付き文字アイコン](/help/assets/text-superscript.png)
 
 選択したテキストまたはカーソルの後に入力したテキストを上付き文字として書式設定するために使用します。
 
 ### テキストとして貼り付け
 
-![テキストとして貼り付けアイコン](/help/assets/text-paste-text.png)
+![「テキストとして貼り付け」アイコン](/help/assets/text-paste-text.png)
 
 コピーしたテキストを書式設定のないプレーンテキストとして貼り付けます。
 
 このオプションを選択すると、ウィンドウが開き、テキストを書式設定のないプレーンテキストとして貼り付けた状態を、実際に挿入する前にプレビューできます。続行する場合はチェックマークをタップまたはクリックし、キャンセルする場合は「x」をタップまたはクリックします。
 
-![テキストの例として貼り付け](/help/assets/text-paste-text-example.png)
+![「テキストとして貼り付け」の例](/help/assets/text-paste-text-example.png)
 
 ### Word から貼り付け
 
-![Wordアイコンから貼り付け](/help/assets/text-paste-word.png)
+![「Word から貼り付け」アイコン](/help/assets/text-paste-word.png)
 
 このオプションを選択すると、ウィンドウが開き、書式設定を維持しながらテキストを貼り付けた状態を、実際に挿入する前にプレビューできます。続行する場合はチェックマークをタップまたはクリックし、キャンセルする場合は「x」をタップまたはクリックします。
 
-![Wordから貼り付けの例](/help/assets/text-paste-word-example.png)
+![「Word から貼り付け」の例](/help/assets/text-paste-word-example.png)
 
 ### ハイパーリンク
 
@@ -123,8 +123,8 @@ ht-degree: 89%
 
 * パスを入力
    * 「選択ダイアログを開く」を使用して、AEM 内のパスを選択します
-   * リンクがAEM内にない場合は、絶対URLを入力します
-      * 絶対パス以外は、AEMを基準とした相対パスとして解釈されます
+   * リンクが AEM 内でない場合は、絶対 URL を入力します
+      * 絶対パス以外は、AEM を基準とした相対パスとして解釈されます
 * リンクの説明用代替テキストを入力します
 * リンクの動作を選択します
    * ターゲット
@@ -187,7 +187,7 @@ ht-degree: 89%
 
 ### テキストを中央揃え
 
-![中央揃えテキストアイコン](/help/assets/text-center.png)
+![「テキストを中央揃え」アイコン](/help/assets/text-center.png)
 
 テキストを中央に揃えます。
 
@@ -233,13 +233,13 @@ ht-degree: 89%
 
 テキストにテーブルを挿入するために使用します。このオプションを選択すると、テーブルの詳細を指定するためのウィンドウが開きます。
 
-![表の例](/help/assets/text-table-example.png)
+![テーブルの例](/help/assets/text-table-example.png)
 
 * **列** - テーブルの列数（必須）
 * **行** - テーブルの行数（必須）
 * **幅** - テーブルの幅
 * **高さ** - テーブルの高さ
-* **セルのパディング** — セルのコンテンツの周囲のスペース
+* **セル内の余白** - セルコンテンツの周囲の空白
 * **セルの間隔** - セル間の空白
 * **ボーダー** - テーブルの罫線の太さ
    * テーブルの見出しについては次の選択肢があります。
@@ -293,19 +293,19 @@ ht-degree: 89%
 
 ![段落書式の例](/help/assets/text-paragraph-example.png)
 
-### In-Line Editing {#in-line-editing}
+### インライン編集{#in-line-editing}
 
 テキストコンポーネントはインラインでも編集できますが、スペースの制限により、必ずしもすべての書式設定オプションがインラインで使用できるわけではありません。すべてのオプションを表示するには、フルスクリーンモードに切り替えます。
 
 ![インライン編集の例](/help/assets/text-edit-inline-example.png)
 
-### 設定とID {#setting-id}
+### 設定と ID {#setting-id}
 
-このオプションを使用すると、HTMLおよび [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
 
-* 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
-* IDを指定する場合は、一意性を確認するのは作成者の責任です。
-* IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+* 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
+* ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
+* ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 ## デザインダイアログ{#design-dialog}
 
@@ -315,9 +315,9 @@ ht-degree: 89%
 
 「プラグイン」タブでは、コンテンツ作成者が使用できる様々なテキスト書式設定オプションを有効または無効にします。
 
-### 機能 {#features}
+### 特長 {#features}
 
-![デザインダイアログの機能](/help/assets/text-design-features.png)
+![デザインダイアログの特長](/help/assets/text-design-features.png)
 
 コンポーネントに対して次の機能を有効または無効にすることができます。
 
@@ -325,8 +325,8 @@ ht-degree: 89%
 * Word から貼り付け
 * 検索と置換
 * スペルチェッカー
-* 挿入された画像修正オプション
-* HTMLソースの編集
+* 挿入された画像の変更オプション
+* HTML ソースの編集
 
 ### 書式設定 {#formatting}
 
@@ -335,15 +335,15 @@ ht-degree: 89%
 コンポーネントに対して次の書式設定オプションを有効または無効にすることができます。
 
 * テーブル
-* リスト （箇条書き、数値、インデント、アウトデント）
-* 配置（左、右、中央）
+* リスト（箇条書き、数値、インデント、アウトデント）
+* 整列（左、右、中央）
 * 太字、斜体、下線
 * リンク（およびリンク解除）
 * 下付き／上付き文字
 
 ### 段落スタイル {#paragraph-styles}
 
-![ダイアログの段落スタイルを設計](/help/assets/text-design-paragraph.png)
+![デザインダイアログの段落スタイル](/help/assets/text-design-paragraph.png)
 
 コンポーネントに対して段落スタイルを有効または無効にすることができます。有効にすると、使用できる書式を定義できます。
 
@@ -354,7 +354,7 @@ ht-degree: 89%
 
 ### 特殊文字 {#configuring-special-characters}
 
-![ダイアログの特殊文字を設計する](/help/assets/text-design-special-characters.png)
+![デザインダイアログの特殊文字](/help/assets/text-design-special-characters.png)
 
 コンポーネントに対して、特殊文字を挿入するオプションを有効または無効にすることができます。有効にすると、使用できる文字を定義できます。
 
