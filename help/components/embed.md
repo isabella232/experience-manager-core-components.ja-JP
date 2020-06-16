@@ -1,11 +1,11 @@
 ---
 title: 埋め込みコンポーネント
 description: 埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '944'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 88%
 * [埋め込み可能](#embeddable)
 * [HTML](#html)
 
-埋め込み可能なタイプごとに、広告 **IDを定義できます**。 このオプションを使用すると、HTMLおよび [データレイヤー内のコンポーネントの固有な識別子を制御できます](/help/developing/data-layer/overview.md)。
+埋め込み可能なタイプごとに、広告 **ID** を定義できます。このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
 
-* 空白の場合、一意のIDが自動的に生成され、結果のページを調べることで確認できます。
-* IDを指定する場合は、一意性を確認するのは作成者の責任です。
-* IDの変更は、CSS、JS、およびデータレイヤーの追跡に影響を与える可能性があります。
+* 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
+* ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
+* ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 ### URL {#url}
 
@@ -68,7 +68,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 開発者は、[埋め込みコンポーネントの開発者向けドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)に従って、URL プロセッサーを追加できます。
 
-![URL用の埋め込みコンポーネントの編集ダイアログ](/help/assets/embed-url.png)
+![URL 用の埋め込みコンポーネントの編集ダイアログ](/help/assets/embed-url.png)
 
 ### 埋め込み可能 {#embeddable}
 
@@ -82,7 +82,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 同様のフィールドが備わったその他の埋め込み可能リソースを開発者が定義することもできます。その場合は、[埋め込みコンポーネントの開発者向けドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)に従います。
 
-![埋め込み可能なコンポーネントの埋め込み編集ダイアログ](/help/assets/embed-embeddable.png)
+![埋め込み可能リソース用の埋め込みコンポーネントの編集ダイアログ](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
 >埋め込み可能リソースをページ作成者が使用できるようにするには、[デザインダイアログ](#design-dialog)からテンプレートレベルで有効にする必要があります。
@@ -91,7 +91,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 埋め込みコンポーネントを使用して、ページにフリーフォーム HTML を追加できます。
 
-![HTML用の埋め込みコンポーネントの編集ダイアログ](/help/assets/embed-html.png)
+![HTML 用の埋め込みコンポーネントの編集ダイアログ](/help/assets/embed-html.png)
 
 >[!NOTE]
 >スクリプトなどの安全でないタグは、入力した HTML コードから削除され、最終的なページではレンダリングされません。
