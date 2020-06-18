@@ -2,9 +2,9 @@
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 translation-type: tm+mt
-source-git-commit: 448a2d31c27869b257ea694dc06fabca903c30b1
+source-git-commit: cef65c3fdf99130086136fe9019ca759bbf1926c
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1717'
 ht-degree: 98%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.9.0 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および[オンプレミスの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。2020年5月にリリースされ、リリース2.0.0への重要なアップデートとしてリリースされました。リリース2.0.0では、既存のコンポーネントのv2アップデートと共に新しいコンポーネントが導入されました。
+コアコンポーネントの現在のリリースは 2.10.0 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および[オンプレミスの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。2020年6月にリリース2.0.0への重要なアップデートとしてリリースされました。リリース2.0.0では、既存のコンポーネントのv2アップデートと共に新しいコンポーネントが導入されました。
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 98%
 
 | リリース | 説明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|---|
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | このリリースでは、PDF Viewerコンポーネントが導入されました。 | - | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2020年6月17日 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | このリリースでは、Adobe Client Data Layer との統合が可能になり、プログレスバーコンポーネントが導入されました。 | - | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2020 年 5 月 29 日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | このリリースでは小規模の機能強化による修正に重点を置きました。 | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 12 月 5 日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | このリリースでは新しい埋め込みコンポーネントを導入しました | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 9 月 25 日 |
@@ -84,6 +85,7 @@ ht-degree: 98%
 | **[エクスペリエンスフラグメント](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[埋め込み](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[プログレスバー](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
+| **[PDFビューア](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## バージョンとリリース {#versions-and-releases}
 
