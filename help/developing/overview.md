@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
-translation-type: ht
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
-workflow-type: ht
-source-wordcount: '1425'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
+workflow-type: tm+mt
+source-wordcount: '1442'
+ht-degree: 98%
 
 ---
 
@@ -119,6 +119,7 @@ ht-degree: 100%
 | [エクスペリエンスフラグメント](https://adobe.com/go/aem_cmp_tech_xf_v1_jp) | エクスペリエンスフラグメントをページに追加する | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [埋め込み](https://adobe.com/go/aem_cmp_tech_embed_v1_jp) | ページ内に外部リソースを埋め込む | - |
 | [プログレスバー](https://adobe.com/go/aem_cmp_tech_progress_v1_jp) | 目標に対する進捗を視覚的に表現する | - |
+| [PDFビューア](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | ページにPDFドキュメントを表示します。 | - |
 
 ### 今後リリース予定のコンポーネント {#upcoming-components}
 
