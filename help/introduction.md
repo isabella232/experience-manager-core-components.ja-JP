@@ -2,10 +2,10 @@
 title: コアコンポーネントの概要
 description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
 translation-type: tm+mt
-source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
+source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 96%
+source-wordcount: '848'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 * **[コンポーネントライブラリ：](https://www.adobe.com/go/aem_cmp_library_jp)**コンポーネントを様々な設定で表示する例を集めたものです。
 * **コンポーネントのドキュメント（本ドキュメント）：**&#x200B;開発者および作成者向けに、各コンポーネントの詳細を説明しています。
-* **[コアコンポーネントGitHubリポジトリ：](https://github.com/adobe/aem-core-wcm-components)**各コンポーネントとプロジェクトのダウンロードの開発者向けの詳細。
+* **[コアコンポーネント GitHub リポジトリ：](https://github.com/adobe/aem-core-wcm-components)**開発者向けに、各コンポーネントおよびプロジェクトのダウンロードの詳細を説明しています。
 * 入門ガイド：
    * **[コアコンポーネントを利用したプロジェクトの成功への道筋：](/help/developing/success.md)**コアコンポーネントを使用するプロジェクトを開始する前に十分考慮すべきガイドラインです。
    * **[WKND チュートリアル：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**新しいサイトの構築に関する 2 日間のチュートリアルです。
@@ -35,7 +35,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | クラウド対応 | [AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)、オンプレミスのどちらでも動作します。 |
 | 用途が広い | コンポーネントは、ほぼあらゆるレイアウトの作成に作成者が使用できる汎用的な概念を表します。 |
 | 設定可能 | ページ作成者が使用できる機能と使用できない機能をテンプレートレベルの[コンテンツポリシー](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies)で定義します。 |
-| Trackable | Adobe Client Data Layerの統合により [](/help/developing/data-layer/overview.md) 、訪問者体験のあらゆる側面を追跡できます。 |
+| 追跡可能 | [Adobe Client Data Layer との統合](/help/developing/data-layer/overview.md)により、訪問者エクスペリエンスのあらゆる側面を追跡できます。 |
 | 高いアクセシビリティ | [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)に準拠し、ARIA ラベルを提供し、キーボードナビゲーションをサポートします（[既知の問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)を参照）。 |
 | SEO 対応 | HTML 出力はセマンティックであり、[schema.org](https://schema.org) マイクロデータ注釈を提供します。 |
 | Web アプリ対応 | [効率化された JSON 出力](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)によりクライアント側でのレンダリングが可能になる一方、[コンテキスト内編集](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)も依然として可能です。 |
@@ -74,6 +74,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * [ソーシャルメディア共有](components/sharing.md)
 * [区切り文字](components/separator.md)
 * [プログレスバー](components/progress-bar.md)
+* [PDFビューア](components/pdf-viewer.md)
 
 ### コンテナコンポーネント {#container-components}
 
@@ -104,7 +105,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 継続的 | 6.5.0.0 以上 | 6.4.4.0 以上 | 8、11 | 3.3.9 以上 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 継続的 | 6.5.0.0 以上 | 6.4.4.0 以上 | 8、11 | 3.3.9 以上 |
 
 以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
