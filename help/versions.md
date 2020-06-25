@@ -2,7 +2,7 @@
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 translation-type: tm+mt
-source-git-commit: cef65c3fdf99130086136fe9019ca759bbf1926c
+source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
 workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 98%
@@ -26,8 +26,8 @@ ht-degree: 98%
 
 | リリース | 説明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|---|
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | このリリースでは、PDF Viewerコンポーネントが導入されました。 | - | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2020年6月17日 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | このリリースでは、Adobe Client Data Layer との統合が可能になり、プログレスバーコンポーネントが導入されました。 | - | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2020 年 5 月 29 日 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | このリリースでは、PDF Viewerコンポーネントが導入されました。 | - | 6.4.8.1+ | 6.5.5.0+ | 継続的 | 8、11 | 2020年6月17日 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | このリリースでは、Adobe Client Data Layer との統合が可能になり、プログレスバーコンポーネントが導入されました。 | - | 6.4.8.0+ | 6.5.4.0+ | 継続的 | 8、11 | 2020 年 5 月 29 日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | このリリースでは小規模の機能強化による修正に重点を置きました。 | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 12 月 5 日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | このリリースでは新しい埋め込みコンポーネントを導入しました | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 9 月 25 日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | このリリースでは新しいエクスペリエンスフラグメントコンポーネントを導入しました | 6.3.3.4 以上 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 9 月 6 日 |
@@ -85,7 +85,7 @@ ht-degree: 98%
 | **[エクスペリエンスフラグメント](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[埋め込み](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[プログレスバー](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
-| **[PDFビューア](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
+| **[PDF ビューア](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## バージョンとリリース {#versions-and-releases}
 
