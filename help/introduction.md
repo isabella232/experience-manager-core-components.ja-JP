@@ -2,10 +2,10 @@
 title: コアコンポーネントの概要
 description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
 translation-type: tm+mt
-source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
+source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * [ソーシャルメディア共有](components/sharing.md)
 * [区切り文字](components/separator.md)
 * [プログレスバー](components/progress-bar.md)
-* [PDFビューア](components/pdf-viewer.md)
+* [PDF ビューア](components/pdf-viewer.md)
 
 ### コンテナコンポーネント {#container-components}
 
@@ -105,7 +105,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 継続的 | 6.5.0.0 以上 | 6.4.4.0 以上 | 8、11 | 3.3.9 以上 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 継続的 | 6.5.5.0+ | 6.4.8.1+ | 8、11 | 3.3.9 以上 |
 
 以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
