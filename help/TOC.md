@@ -1,11 +1,11 @@
 ---
 sub-product: AEM コアコンポーネント
 user-guide-title: AEM コアコンポーネント
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
    + [リスト](components/list.md)
    + [ナビゲーション](components/navigation.md)
    + [ページ](components/page.md)
-   + [PDFビューア](components/pdf-viewer.md)
+   + [PDF ビューア](components/pdf-viewer.md)
    + [プログレスバー](components/progress-bar.md)
    + [クイック検索](components/quick-search.md)
    + [区切り文字](components/separator.md)
