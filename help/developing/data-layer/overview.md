@@ -1,10 +1,10 @@
 ---
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
-translation-type: ht
-source-git-commit: 539a4250c954ac830731a9ecf010e129b2cf9c3a
-workflow-type: ht
-source-wordcount: '416'
+translation-type: tm+mt
+source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
+workflow-type: tm+mt
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -33,6 +33,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 
 1. `/conf` ノードの配下に次の構造を作成します。
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
+   * ノードタイプ: `nt:unstructured`
 1. `enabled` という名前のブール型プロパティを追加し、`true` に設定します。
 1. `sling:configRef` プロパティを `/content` 配下のサイトの `jcr:content` ノード（例：`/content/<mySite>/jcr:content`）に追加し、`/conf/<mySite>` に設定します。
 
