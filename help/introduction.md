@@ -1,9 +1,9 @@
 ---
 title: コアコンポーネントの概要
 description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
 ht-degree: 100%
 
