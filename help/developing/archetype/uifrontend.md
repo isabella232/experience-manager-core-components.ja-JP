@@ -1,8 +1,11 @@
 ---
 title: AEM プロジェクトのアーキタイプフロントエンドビルド
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+workflow-type: tm+mt
+source-wordcount: '1613'
+ht-degree: 100%
 
 ---
 
@@ -29,6 +32,7 @@ AEM プロジェクトのアーキタイプには、Webpack ベースの専用�
 AEM プロジェクトのアーキタイプ全体が `mvn clean install -PautoInstallPackage` を使用して実行されると、Clientlib を含むすべてのプロジェクトアーティファクトが AEM インスタンスにプッシュされます。
 
 >[!TIP]
+>
 >Clientlib の詳細については、[AEM 開発ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/introduction/clientlibs.html)を参照してください。[Clientlib が ui.frontend モジュールによってどのように使用されるかについては以下を参照してください](#clientlib-generation)。
 
 ## ClientLib の概要 {#clientlibs}
@@ -145,6 +149,7 @@ Ui.frontend モジュールは、`ui.frontend/src` フォルダーでコード�
 * ソースマッピング — 開発ビルドのみ
 
 >[!NOTE]
+>
 >フロントエンドビルドオプションでは、共通の設定ファイルを使用する開発専用と製品専用の webpack 設定ファイルを利用します。これにより、開発設定と実稼動設定を個別に変更できます。
 
 ### クライアントライブラリの生成 {#clientlib-generation}
