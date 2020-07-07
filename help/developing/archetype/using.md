@@ -1,9 +1,9 @@
 ---
 title: AEM プロジェクトアーキタイプの使用
 description: AEM プロジェクトアーキタイプの使用方法の詳細
-translation-type: ht
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 100%
 
@@ -106,9 +106,11 @@ mvn -B archetype:generate \
 | `includeErrorHandler` | `n` | インスタンス全体でグローバルに使用されるカスタムの 404 応答ページを組み込みます（`y` または `n`）。 |
 
 >[!NOTE]
+>
 > アーキタイプを初めてインタラクティブモードで実行する際には、デフォルト値のプロパティは変更できません（詳しくは [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) を参照してください）。この値は、最後のプロパティ確認が拒否され、質問が繰り返された場合や、コマンドラインでパラメータを渡す際に変更できます（例：`-DoptionIncludeExamples=n`）。
 
 >[!NOTE]
+>
 >Windows 上で実行して Dispatcher 設定を生成する場合は、管理者権限のコマンドプロンプトまたは Windows Subsystem for Linux から実行する必要があります（[問題 329](https://github.com/adobe/aem-project-archetype/issues/329) を参照）。
 
 ### プロファイル {#profiles}
