@@ -1,9 +1,9 @@
 ---
 title: AEM プロジェクトアーキタイプの使用
 description: AEM プロジェクトアーキタイプの使用方法の詳細
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2057'
 ht-degree: 100%
 
