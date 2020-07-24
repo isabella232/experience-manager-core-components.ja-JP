@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントの概要
 description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
-translation-type: ht
-source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
-workflow-type: ht
-source-wordcount: '848'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
+workflow-type: tm+mt
+source-wordcount: '863'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | 高いアクセシビリティ | [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)に準拠し、ARIA ラベルを提供し、キーボードナビゲーションをサポートします（[既知の問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)を参照）。 |
 | SEO 対応 | HTML 出力はセマンティックであり、[schema.org](https://schema.org) マイクロデータ注釈を提供します。 |
 | Web アプリ対応 | [効率化された JSON 出力](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)によりクライアント側でのレンダリングが可能になる一方、[コンテキスト内編集](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)も依然として可能です。 |
+| AMPのサポート | コンポーネントは、AMP標準に対する組み込みの [サポートを持ち、モバイルエクスペリエンスの](/help/developing/amp.md) 高速化に役立ちます。 |
 | デザインキット | [Adobe XD 用 UI キット](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd)を使用すると、デザイナーはワイヤフレームを作成したあと、[必要に応じてスタイルを設定](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)できます。 |
 | テーマ適用可能 | コンポーネントは[スタイルシステム](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/components/style-system.html)を実装し、マークアップは [BEM CSS の命名規則](http://getbem.com/)に従っています。 |
 | カスタマイズ可能 | いくつかのパターンが用意されているので、HTML の調整から高度な機能の再利用まで、[カスタマイズが容易](developing/customizing.md)になっています。 |
@@ -105,7 +106,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 継続的 | 6.5.5.0+ | 6.4.8.1+ | 8、11 | 3.3.9 以上 |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 継続的 | 6.5.5.0+ | 6.4.8.1+ | 8、11 | 3.3.9 以上 |
 
 以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
