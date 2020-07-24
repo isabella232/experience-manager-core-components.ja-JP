@@ -1,11 +1,11 @@
 ---
 sub-product: AEM コアコンポーネント
 user-guide-title: AEM コアコンポーネント
-translation-type: ht
-source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 98%
 
 ---
 
@@ -70,6 +70,7 @@ ht-degree: 100%
    + [WKND 開発者向けチュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [コアコンポーネントのカスタマイズ](developing/customizing.md)
    + [コンポーネントのガイドライン](developing/guidelines.md)
+   + [AMPのサポート](developing/amp.md)
    + Adobe Client Data Layer {#data-layer}
       + [コアコンポーネントと Adobe Client Data Layer](developing/data-layer/overview.md)
       + [Adobe Launch との統合](developing/data-layer/launch-integration.md)
