@@ -1,67 +1,67 @@
 ---
-title: コアコンポーネントのAMPサポート
-description: コアコンポーネントは、AMP — 高速化モバイルページをサポートします
-translation-type: tm+mt
+title: コアコンポーネントの AMP サポート
+description: コアコンポーネントは、AMP（Accelerated Mobile Pages）をサポートします
+translation-type: ht
 source-git-commit: 905096d909d4fbf624152ba3b5cbc1d80637245f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '493'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# コアコンポーネントのAMPサポート {#amp-support}
+# コアコンポーネントの AMP サポート {#amp-support}
 
-コアコンポーネントの [リリース2.11.0](/help/versions.md) 以降、 [AMP - Accelerated Mobile Pages](https://developers.google.com/amp) — は完全にサポートされます。
+コアコンポーネントの[リリース 2.11.0](/help/versions.md) 以降で、[AMP（Accelerated Mobile Pages）](https://developers.google.com/amp)は完全にサポートされます。
 
-このドキュメントでは、AMPのサポート方法の概要と、サイトでAMPを有効にする方法を説明します。 ただし、技術的な詳細については、GitHub開発者ドキュメントを参照して [ください。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
+このドキュメントでは、AMP のサポート方法の概要と、サイトで AMP を有効にする方法を説明します。ただし、技術的な詳細については、[GitHub 開発者ドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)を参照してください。
 
-## AMPとは {#what-is-amp}
+## AMP とは {#what-is-amp}
 
-Accelerated Mobile Pages(AMP)は、元々Googleがモバイルブラウジング用にページを最適化するために設計したオープンソースフレームワークです。 通常、AMPページは、標準のWebページよりもずっと速く読み込まれ、より優れたモバイルエクスペリエンスを提供します。
+Accelerated Mobile Pages（AMP）は、元々 Google がモバイルブラウジング用にページを最適化するために設計したオープンソースフレームワークです。通常、AMP ページは、標準の Web ページよりもさらに速く読み込まれ、優れたモバイルエクスペリエンスを提供します。
 
-## コアコンポーネントのAMP {#amp-in-core-components}
+## コアコンポーネントの AMP {#amp-in-core-components}
 
-コアコンポーネントでのAMPのサポートは、 [完全に設定可能です。](#enabling-amp) ページのAMPバージョンは、標準HTMLバージョンと一緒に排他的に提供するか、まったく提供しないかができます。
+コアコンポーネントでの AMP サポートは、[完全に設定可能です。](#enabling-amp)ページの AMP バージョンは、標準 HTML バージョンと一緒に排他的に提供する、またはまったく提供しないかを設定できます。
 
-コアコンポーネントは、AMPページをレンダリングす `amp` るためにSlingセレクターとして使用します。 例えば、通常のページ `example.html` をレンダリングし、AMPバージョン `example.amp.html` になります。
+コアコンポーネントは、AMP ページをレンダリングするために Sling セレクターとして `amp` を使用します。例えば、`example.html` は通常のページをレンダリングし、`example.amp.html` は AMP バージョンになります。
 
 ### 要件 {#requirements}
 
-AMPをコアコンポーネントと共に使用する場合、主な違いは、AMPでは、最適化と共に、すべてのCSSが `<head>` 要素内でインライン化される必要があるということです。
+AMP をコアコンポーネントと共に使用する場合、主な違いは、AMP では、最適化と共に、すべての CSS が `<head>` 要素内でインライン化される必要があるということです。
 
-これをサポートするために、カスタマイズされたページコンポーネントが使用され、ページに存在するコンポーネントのAMP固有のCSSのみが読み込まれます。
+これをサポートするために、カスタマイズされたページコンポーネントが使用され、ページに存在するコンポーネントの AMP 固有の CSS のみが読み込まれます。
 
-その他の要件および技術的な詳細については、GitHub開発者ドキュメントを参照して [ください。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
+その他の要件および技術的な詳細については、[GitHub 開発者ドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)を参照してください。
 
-### コアコンポーネントでのAMPの使用 {#using-amp}
+### コアコンポーネントでの AMP の使用 {#using-amp}
 
-個々のプロジェクトは、AMPを活用するかどうかを決定できます。 実際、AMPと標準のHTMLページは並行して配信できるので、プロジェクトは、プロジェクトの特定のページでのみAMPを使用するように選択できます。
+個々のプロジェクトで AMP を活用するかどうかを決定できます。さらに、AMP と標準の HTML ページは並行して提供できるので、プロジェクトの特定のページでのみ AMP を使用するように選択できます。
 
-### AMPサポートのインストール {#installing-amp}
+### AMP サポートのインストール {#installing-amp}
 
-AMPはオプションなので、コアコンポーネントに拡張として配信されます。
+AMP はオプションなので、コアコンポーネントに拡張機能として提供されます。
 
-* Cloud ServiceプロジェクトとしてのAEMの場合、拡張機能は自動的に使用可能になります。
-* オンプレミスおよびAMSプロジェクトの場合、コアコンポーネントのインストール時に、拡張機能を明示的にインストールする必要があります。
+* AEM as a Cloud Service プロジェクトの場合、拡張機能は自動的に使用可能になります。
+* On-Premise および AMS プロジェクトの場合、コアコンポーネントのインストール時に、拡張機能を明示的にインストールする必要があります。
 
-拡張機能がインストールされたら、コンポーネント作成者は、単に拡張機能内のスーパータイプを指すだけで済みます。
+拡張機能がインストールされたら、コンポーネント作成者は、単に拡張機能内のスーパータイプを示すだけで済みます。
 
-### ページに対するAMPの有効化 {#enabling-amp}
+### ページに対する AMP の有効化 {#enabling-amp}
 
-ページに対してAMPを有効にするには、 **AMPモード** が [ページポリシーで選択されている必要があります。](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html#editingatemplatepagepolicies)
+ページに対して AMP を有効にするには、[ページポリシー](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/authoring/siteandpage/templates.translate.html#editingatemplatepagepolicies)で **AMP モード**&#x200B;が選択されている必要があります。
 
-![AMPページポリシーのオプション](/help/assets/amp-policy.png)
+![AMP ページポリシーのオプション](/help/assets/amp-policy.png)
 
-* **AMPなし** — ページは標準のHTMLとしてのみ配信されます。
-* **ペアAMP** — ページは、AMPとHTMLとして配信されます。
-* **AMPのみ** — ページはAMPとしてのみ配信されます。
+* **AMP なし** - ページは標準の HTML としてのみ提供されます。
+* **ペア AMP** - ページは、AMP および HTML として配信されます。
+* **AMP のみ** - ページは AMP としてのみ提供されます。
 
-ページのAMP設定は、個々のページの [ページプロパティ](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-page-properties.html) で上書きすることもできます。
+ページの AMP 設定は、個々のページの[ページプロパティ](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/authoring/authoring/editing-page-properties.translate.html)で上書きすることもできます。
 
-![AMPページのプロパティ](/help/assets/amp-page-properties.png)
+![AMP ページプロパティ](/help/assets/amp-page-properties.png)
 
-* **「ページテンプレートから継承** 」 — これはデフォルト値で、ページテンプレートのポリシーから設定を取得できます。
-* **AMPなし** — ページは標準のHTMLとしてのみ配信されます。
-* **ペアAMP** — ページは、AMPとHTMLとして配信されます。
-* **AMPのみ** — ページはAMPとしてのみ配信されます。
+* **ページテンプレートから継承** - これはデフォルト値で、ページテンプレートのポリシーから設定を取得できます。
+* **AMP なし** - ページは標準の HTML としてのみ提供されます。
+* **ペア AMP** - ページは、AMP および HTML として配信されます。
+* **AMP のみ** - ページは AMP としてのみ提供されます。
