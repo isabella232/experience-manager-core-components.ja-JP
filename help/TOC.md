@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: dc8d63bca14996f230d4f8e68b7706d315955e06
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 98%
    + [WKND 開発者向けチュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [コアコンポーネントのカスタマイズ](developing/customizing.md)
    + [コンポーネントのガイドライン](developing/guidelines.md)
-   + [AMPのサポート](developing/amp.md)
+   + [AMP のサポート](developing/amp.md)
    + Adobe Client Data Layer {#data-layer}
       + [コアコンポーネントと Adobe Client Data Layer](developing/data-layer/overview.md)
       + [Adobe Launch との統合](developing/data-layer/launch-integration.md)
