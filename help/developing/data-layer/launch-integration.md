@@ -1,9 +1,9 @@
 ---
 title: Adobe Client Data Layer を使用してコアコンポーネントと Adobe Launch を統合する
 description: Adobe Launch を使用してコアコンポーネントイベントを登録するよう設定する方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85fb3612aed12b7bfdc05f0a569ae7c7364e6121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1160'
 ht-degree: 100%
 
