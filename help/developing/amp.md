@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントの AMP サポート
 description: コアコンポーネントは、AMP（Accelerated Mobile Pages）をサポートします
-translation-type: ht
-source-git-commit: 905096d909d4fbf624152ba3b5cbc1d80637245f
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 82%
 
 ---
 
@@ -26,26 +26,18 @@ Accelerated Mobile Pages（AMP）は、元々 Google がモバイルブラウジ
 
 コアコンポーネントは、AMP ページをレンダリングするために Sling セレクターとして `amp` を使用します。例えば、`example.html` は通常のページをレンダリングし、`example.amp.html` は AMP バージョンになります。
 
-### 要件 {#requirements}
-
-AMP をコアコンポーネントと共に使用する場合、主な違いは、AMP では、最適化と共に、すべての CSS が `<head>` 要素内でインライン化される必要があるということです。
-
-これをサポートするために、カスタマイズされたページコンポーネントが使用され、ページに存在するコンポーネントの AMP 固有の CSS のみが読み込まれます。
-
-その他の要件および技術的な詳細については、[GitHub 開発者ドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)を参照してください。
-
-### コアコンポーネントでの AMP の使用 {#using-amp}
-
 個々のプロジェクトで AMP を活用するかどうかを決定できます。さらに、AMP と標準の HTML ページは並行して提供できるので、プロジェクトの特定のページでのみ AMP を使用するように選択できます。
 
-### AMP サポートのインストール {#installing-amp}
+## プロジェクトでのAMPサポートの使用の手引き {#getting-started}
 
-AMP はオプションなので、コアコンポーネントに拡張機能として提供されます。
+AMPはオファーを非常に柔軟にサポートしますが、これを使い始めるには、いくつかの簡単な手順が必要です。
 
-* AEM as a Cloud Service プロジェクトの場合、拡張機能は自動的に使用可能になります。
-* On-Premise および AMS プロジェクトの場合、コアコンポーネントのインストール時に、拡張機能を明示的にインストールする必要があります。
-
-拡張機能がインストールされたら、コンポーネント作成者は、単に拡張機能内のスーパータイプを示すだけで済みます。
+1. 必要に応じて、AMPサポート拡張をインストールします。
+   * AEMをCloud Serviceプロジェクトとして使用する場合、拡張機能はコアコンポーネントと共に自動的に使用でき、インストールは必要ありません。
+   * On-Premise および AMS プロジェクトの場合、コアコンポーネントのインストール時に、拡張機能を明示的にインストールする必要があります。
+1. AMP拡張機能がインストールされたら、コンポーネント作成者は、単にコンポーネントのスーパータイプが拡張機能内のスーパータイプを指す必要があります。
+1. [テンプレートレベルまたは個々のページで](#enabling-amp) 、AMPサポートを有効にします。
+1. [必要に応じて、インラインCSS](#css-requirements) をデプロイします。
 
 ### ページに対する AMP の有効化 {#enabling-amp}
 
@@ -65,3 +57,11 @@ AMP はオプションなので、コアコンポーネントに拡張機能と�
 * **AMP なし** - ページは標準の HTML としてのみ提供されます。
 * **ペア AMP** - ページは、AMP および HTML として配信されます。
 * **AMP のみ** - ページは AMP としてのみ提供されます。
+
+### CSSの要件 {#css-requirements}
+
+AMP をコアコンポーネントと共に使用する場合、主な違いは、AMP では、最適化と共に、すべての CSS が `<head>` 要素内でインライン化される必要があるということです。
+
+これをサポートするために、カスタマイズされたページコンポーネントが使用され、ページに存在するコンポーネントの AMP 固有の CSS のみが読み込まれます。
+
+その他の要件および技術的な詳細については、[GitHub 開発者ドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)を参照してください。
