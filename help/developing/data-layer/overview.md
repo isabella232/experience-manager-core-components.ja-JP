@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 
 コアコンポーネントリリース 2.9.0 以降、データレイヤーは clientlib としてコアコンポーネントと共に配布されています。インストールは必要ありません。
 
-ただし、データレイヤーはデフォルトではアクティブになっていません。データレイヤーをアクティブにするには コン [テキストに応じた設定を作成する必要があります](/help/developing/context-aware-configs.md) 。
+ただし、データレイヤーはデフォルトではアクティブになっていません。データレイヤーをアクティブにするにはそのための[コンテキスト対応設定](/help/developing/context-aware-configs.md)を作成する必要があります。
 
 1. `/conf` ノードの配下に次の構造を作成します。
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
