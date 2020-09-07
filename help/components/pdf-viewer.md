@@ -1,11 +1,11 @@
 ---
 title: PDF ビューアコンポーネント
 description: PDF ビューアコンポーネントを使用すると、PDF ドキュメントを表示できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ PDF ビューアコンポーネントに関する最新の技術ドキュメン�
 
 >[!NOTE]
 >
->PDF Viewerコンポーネントは、 [AdobeのドキュメントサービスAPIを利用します](https://www.adobe.io/apis/documentcloud/dcsdk.html) 。これらのサービスを使用するには、管理者が [](/help/developing/context-aware-configs.md) コンテキスト対応設定を行う必要があります。 この設定の [詳細については、コンポーネントの技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+>PDF ビューアコンポーネントは、[Adobe のドキュメントサービス API](https://www.adobe.io/apis/documentcloud/dcsdk.html) を利用します。これらのサービスを使用するには、管理者が[コンテキスト対応設定](/help/developing/context-aware-configs.md)をおこなう必要があります。[この設定の詳細](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)については、コンポーネントの技術ドキュメントを参照してください。
 
 ## 設定ダイアログ {#configure-dialog}
 
