@@ -1,8 +1,11 @@
 ---
 title: AEM プロジェクトアーキタイプ
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-translation-type: ht
-source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
+translation-type: tm+mt
+source-git-commit: ed8c4609683d8e43ebc6859694ff7b9578fb07ff
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 95%
 
 ---
 
@@ -18,11 +21,11 @@ AEM プロジェクトアーキタイプは、Web サイトの出発点として
 ## リソース {#resources}
 
 * **アーキタイプのドキュメント（本ドキュメント）：**&#x200B;アーキタイプアーキテクチャとその様々なモジュールの概要です。
-   * **[アーキタイプの使用：](using.md)**アーキタイプと使用可能なモジュールの使用に関する詳細
-   * **[ui.frontend：](uifrontend.md)**フロントエンドビルドモジュールの使用方法
+   * **[アーキタイプの使用：](using.md)**&#x200B;アーキタイプと使用可能なモジュールの使用に関する詳細
+   * **[ui.frontend：](uifrontend.md)**&#x200B;フロントエンドビルドモジュールの使用方法
 * 次のチュートリアルは、このアーキタイプに基づいています。
-   * **[WKND サイト：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**新しい Web サイトを開始する方法を説明します。
-   * **[WKND シングルページアプリ：](https://helpx.adobe.com/jp/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)**AEM で完全にオーサリング可能な React または Angular Web アプリを作成する方法を説明します。
+   * **[WKND サイト：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**&#x200B;新しい Web サイトを開始する方法を説明します。
+   * **[WKND シングルページアプリ：](https://helpx.adobe.com/jp/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)** AEM で完全にオーサリング可能な React または Angular Web アプリを作成する方法を説明します。
 
 ## 特長 {#features}
 
@@ -59,8 +62,7 @@ mvn -B archetype:generate \
 ```
 
 * [AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) の場合は、`aemVersion=cloud` と設定します。\
-   [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`aemVersion=6.5.0` と設定します。
-AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用できる形で提供されているので、コアコンポーネントの依存関係は、非クラウドバージョンの AEM の場合にのみ追加します。
+   [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`aemVersion=6.5.0` と設定します。AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用できる形で提供されているので、コアコンポーネントの依存関係は、非クラウドバージョンの AEM の場合にのみ追加します。
 * `appTitle="My Site"` を調整して、Web サイトのタイトルやコンポーネントグループを定義します。
 * `appId="mysite"` を調整して、Maven アーティファクト ID、コンポーネントフォルダー名、設定フォルダー名、コンテンツフォルダー名、およびクライアントライブラリ名を定義します。
 * `groupId="com.mysite"` を調整して、Maven グループ ID と Java ソースパッケージを定義します。
@@ -84,12 +86,16 @@ AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用
 | `singleCountry` | `y` | 言語マスターコンテンツ構造を組み込みます（`y` または `n`）。 |
 | `includeExamples` | `y` | [コンポーネントライブラリ](https://www.aemcomponents.dev/)のサンプルサイトを組み込みます（`y` または `n`）。 |
 | `includeErrorHandler` | `n` | インスタンス全体でグローバルに使用されるカスタムの 404 応答ページを組み込みます（`y` または `n`）。 |
+| `includeCommerce` | `n` | CIFコアコンポーネント [の依存関係を含み](https://github.com/adobe/aem-core-cif-components) 、対応するアーティファクトを生成します。 |
+| `commerceEndpoint` |  | CIFに対してのみ必須です。 使用するコマースシステムGraphQLサービスのオプションのエンドポイント(例： `https://hostname.com/grapql`)をクリックします。 |
+| `datalayer` | `y` | Adobeクライアントデータレイヤ [ーとの統合をアクティブ化](/help/developing/data-layer/overview.md)。 |
+| `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMPのサポートを有効にします](/help/developing/amp.md) 。 |
 
 ## システム要件
 
-| アーキタイプ | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
+| アーキタイプ | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------|---------
-| [23](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-23) | 継続的 | 6.5.0.0 以上 | 6.4.4.0 以上 | 6.3.3.4 以上 | 8、11 | 3.3.9 以上 |
+| [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | 継続的 | 6.5.5.0+ | 6.4.8.1+ | 8、11 | 3.3.9 以上 |
 
 [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) または[旧バージョンの AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).のローカル開発環境をセットアップします。
 
