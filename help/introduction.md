@@ -1,9 +1,9 @@
 ---
 title: コアコンポーネントの概要
 description: '堅牢で拡張可能な基本コンポーネントとして導入されたコアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築されています。 '
-translation-type: ht
-source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4e68b1c293f4e6553aa5888ac26ee76c1a569ff3
+workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 100%
 
@@ -18,14 +18,14 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 ## リソース {#resources}
 
-* **[コンポーネントライブラリ：](https://www.adobe.com/go/aem_cmp_library_jp)**コンポーネントを様々な設定で表示する例を集めたものです。
+* **[コンポーネントライブラリ：](https://www.adobe.com/go/aem_cmp_library_jp)**&#x200B;コンポーネントを様々な設定で表示する例を集めたものです。
 * **コンポーネントのドキュメント（本ドキュメント）：**&#x200B;開発者および作成者向けに、各コンポーネントの詳細を説明しています。
-* **[コアコンポーネント GitHub リポジトリ：](https://github.com/adobe/aem-core-wcm-components)**開発者向けに、各コンポーネントおよびプロジェクトのダウンロードの詳細を説明しています。
+* **[コアコンポーネント GitHub リポジトリ：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;開発者向けに、各コンポーネントおよびプロジェクトのダウンロードの詳細を説明しています。
 * 入門ガイド：
-   * **[コアコンポーネントを利用したプロジェクトの成功への道筋：](/help/developing/success.md)**コアコンポーネントを使用するプロジェクトを開始する前に十分考慮すべきガイドラインです。
-   * **[WKND チュートリアル：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**新しいサイトの構築に関する 2 日間のチュートリアルです。
-   * **[Adobe Summit のチュートリアル：](https://expleague.azureedge.net/labs/L767/index.html)**新しいサイトの構築に関する 2 時間のチュートリアルです（US Summit 2019 のラボの内容）。
-   * **[Gems Web セミナー：](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**コアコンポーネントのガイドツアー（2018 年 12 月に録画）
+   * **[コアコンポーネントを利用したプロジェクトの成功への道筋：](/help/developing/success.md)**&#x200B;コアコンポーネントを使用するプロジェクトを開始する前に十分考慮すべきガイドラインです。
+   * **[WKND チュートリアル：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**&#x200B;新しいサイトの構築に関する 2 日間のチュートリアルです。
+   * **[Adobe Summit のチュートリアル：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;新しいサイトの構築に関する 2 時間のチュートリアルです（US Summit 2019 のラボの内容）。
+   * **[Gems Web セミナー：](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;コアコンポーネントのガイドツアー（2018 年 12 月に録画）
 
 ## 特長 {#features}
 
@@ -105,7 +105,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 ## システム要件 {#system-requirements}
 
 | コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
----------|---------|---------|---------|---------|---------
+|---------|---------|---------|---------|---------|---------|
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 継続的 | 6.5.5.0+ | 6.4.8.1+ | 8、11 | 3.3.9 以上 |
 
 以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
