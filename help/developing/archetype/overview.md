@@ -2,7 +2,7 @@
 title: AEM プロジェクトアーキタイプ
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
 translation-type: tm+mt
-source-git-commit: ed8c4609683d8e43ebc6859694ff7b9578fb07ff
+source-git-commit: 1e95666ee58c63fc5dc98821e6424be6acfe4e04
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 95%
@@ -94,7 +94,7 @@ mvn -B archetype:generate \
 ## システム要件
 
 | アーキタイプ | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
----------|---------|---------|---------|---------|---------|---------
+|---------|---------|---------|---------|---------|---------|
 | [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | 継続的 | 6.5.5.0+ | 6.4.8.1+ | 8、11 | 3.3.9 以上 |
 
 [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) または[旧バージョンの AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).のローカル開発環境をセットアップします。
