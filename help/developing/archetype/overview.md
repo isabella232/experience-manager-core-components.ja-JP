@@ -1,11 +1,11 @@
 ---
 title: AEM プロジェクトアーキタイプ
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e95666ee58c63fc5dc98821e6424be6acfe4e04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,10 +86,10 @@ mvn -B archetype:generate \
 | `singleCountry` | `y` | 言語マスターコンテンツ構造を組み込みます（`y` または `n`）。 |
 | `includeExamples` | `y` | [コンポーネントライブラリ](https://www.aemcomponents.dev/)のサンプルサイトを組み込みます（`y` または `n`）。 |
 | `includeErrorHandler` | `n` | インスタンス全体でグローバルに使用されるカスタムの 404 応答ページを組み込みます（`y` または `n`）。 |
-| `includeCommerce` | `n` | CIFコアコンポーネント [の依存関係を含み](https://github.com/adobe/aem-core-cif-components) 、対応するアーティファクトを生成します。 |
-| `commerceEndpoint` |  | CIFに対してのみ必須です。 使用するコマースシステムGraphQLサービスのオプションのエンドポイント(例： `https://hostname.com/grapql`)をクリックします。 |
-| `datalayer` | `y` | Adobeクライアントデータレイヤ [ーとの統合をアクティブ化](/help/developing/data-layer/overview.md)。 |
-| `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMPのサポートを有効にします](/help/developing/amp.md) 。 |
+| `includeCommerce` | `n` | [CIF コアコンポーネント](https://github.com/adobe/aem-core-cif-components)の依存関係を含み、対応するアーティファクトを生成します。 |
+| `commerceEndpoint` |  | CIF でのみ必須です。使用するコマースシステム GraphQL サービスのオプションのエンドポイント（例：`https://hostname.com/grapql`）をクリックします。 |
+| `datalayer` | `y` | [Adobe クライアントデータレイヤー](/help/developing/data-layer/overview.md)との統合をアクティブ化します。 |
+| `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMP](/help/developing/amp.md) のサポートを有効にします。 |
 
 ## システム要件
 
