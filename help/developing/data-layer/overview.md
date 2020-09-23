@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
-translation-type: ht
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 76%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 
 コンポーネント／コンテナ項目スキーマは、次のように定義されます。
 
-```
+```javascript
 id: {                   // component ID
     @type               // resource type
     repo:modifyDate     // last modified date
@@ -69,6 +69,9 @@ id: {                   // component ID
 }
 ```
 
+次の [イベントは](#events) 、コンポーネント/コンテナ項目スキーマに関連します。
+
+* `cmp:click`
 
 ### ページスキーマ {#page}
 
@@ -78,7 +81,7 @@ id: {                   // component ID
 
 ページスキーマは次のように定義されます。
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -104,7 +107,7 @@ id: {
 
 コンテナスキーマは次のように定義されます。
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -117,6 +120,12 @@ id: {
 }
 ```
 
+次の [イベントは、コンテナのスキーマに関連します](#events) 。
+
+* `cmp:click`
+* `cmp:show`
+* `cmp:hide`
+
 ### 画像スキーマ {#image}
 
 画像スキーマは、次のコンポーネントで使用されます。
@@ -125,7 +134,7 @@ id: {
 
 画像スキーマは次のように定義します。
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -138,13 +147,17 @@ id: {
 }
 ```
 
+次の [イベントは、画像スキーマに関連します](#events) 。
+
+* `cmp:click`
+
 ### アセットスキーマ {#asset}
 
 アセットスキーマは、[画像コンポーネント](/help/components/image.md)内で使用されます。
 
 アセットスキーマは次のように定義します。
 
-```
+```javascript
 id: {
     repo:id             // asset UUID
     repo:path           // asset path
@@ -154,3 +167,28 @@ id: {
 }
 ```
 
+次の [イベントは](#events) 、アセットスキーマに関連します。
+
+* `cmp:click`
+
+## イベント {#events}
+
+データレイヤーがトリガーするイベントは多数あります。
+
+* **`cmp:click`**  — クリック可能な要素( `data-cmp-clickable` 属性を持つ要素)をクリックすると、データレイヤーによって `cmp:click` イベントがトリガーされます。
+* **`cmp:show`** および **`cmp:hide`** — アコーディオン（展開/折りたたみ）、カルーセル（次へ/前へのボタン）、タブ（タブ選択）の各コンポーネントを操作すると、データレイヤーがトリガーされ `cmp:show` 、 `cmp:hide` イベントがそれぞれ1つずつ発生します。
+* **`cmp:loaded`**  — データレイヤーにページ上のコアコンポーネントが入力されるとすぐに、データレイヤーが `cmp:loaded` イベントをトリガーします。
+
+### コンポーネントによってトリガーされるイベント {#events-components}
+
+次の表に、これらのイベントと共にイベントをトリガーする標準的なコアコンポーネントを示します。
+
+| コンポーネント | イベント |
+|---|---|
+| [ナビゲーション](/help/components/navigation.md) | `cmp:click` |
+| [言語ナビゲーション](/help/components/language-navigation.md) | `cmp:click` |
+| [パンくず](/help/components/breadcrumb.md) | `cmp:click` |
+| [ボタン](/help/components/button.md) | `cmp:click` |
+| [カルーセル](/help/components/carousel.md) | `cmp:show` および `cmp:hide` |
+| [タブ](/help/components/tabs.md) | `cmp:show` および `cmp:hide` |
+| [アコーディオン](/help/components/accordion.md) | `cmp:show` および `cmp:hide` |
