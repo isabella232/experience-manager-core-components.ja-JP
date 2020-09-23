@@ -3,11 +3,11 @@ sub-product: AEM コアコンポーネント
 user-guide-title: AEM コアコンポーネント
 breadcrumb-title: Core Components Guide
 user-guide-description: Use the extensible Core Components to let authors easily create content.
-translation-type: ht
-source-git-commit: ea7c8b2ac4a60a22644c9de96833b95c4113986d
-workflow-type: ht
-source-wordcount: '191'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b35b951a203b100e296bc3a115e34e27727293ae
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 94%
 
 ---
 
@@ -75,9 +75,8 @@ ht-degree: 100%
    + [AMP のサポート](developing/amp.md)
    + [コンテキスト対応の設定](developing/context-aware-configs.md)
    + Adobe Client Data Layer {#data-layer}
-      + [コアコンポーネントと Adobe Client Data Layer](developing/data-layer/overview.md)
-      + [Adobe Launch との統合](developing/data-layer/launch-integration.md)
-      + [Adobe Analytics との統合](developing/data-layer/analytics-integration.md)
+      + [データレイヤーの概要](developing/data-layer/overview.md)
+      + [データレイヤーとの統合](developing/data-layer/integrations.md)
       + [データレイヤーの拡張](developing/data-layer/extending.md)
    + AEM プロジェクトアーキタイプ {#archetype}
       + [アーキタイプの概要](developing/archetype/overview.md)
