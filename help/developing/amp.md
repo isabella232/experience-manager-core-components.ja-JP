@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントの AMP サポート
 description: コアコンポーネントは、AMP（Accelerated Mobile Pages）をサポートします
-translation-type: ht
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+workflow-type: tm+mt
 source-wordcount: '534'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ AMP サポートは高い柔軟性を提供しますが、これを使い始め�
 
 ### CSS の要件 {#css-requirements}
 
-AMP をコアコンポーネントと共に使用する場合、主な違いは、AMP では、最適化と共に、すべての CSS が `<head>` 要素内でインライン化される必要があるということです。
+When using AMP with the Core Components, the main difference is that AMP requires all [CSS to be inlined](including-clientlibs.md#inlining) in the `<head>` element as well as optimized.
 
 これをサポートするために、カスタマイズされたページコンポーネントが使用され、ページに存在するコンポーネントの AMP 固有の CSS のみが読み込まれます。
 
