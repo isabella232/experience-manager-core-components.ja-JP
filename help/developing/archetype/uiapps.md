@@ -1,9 +1,9 @@
 ---
 title: AEM プロジェクトアーキタイプの ui.apps モジュール
 description: AEM プロジェクトアーキタイプの ui.apps モジュール
-translation-type: ht
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a427c2ade8cca69de8e2b59fc3afb4405342909c
+workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # AEM プロジェクトアーキタイプの ui.apps モジュール {#uiapps-module}
 
-ui.apps maven モジュール（`<src-directory>/<project>/ui.apps`）には、`/apps` 配下のサイトで必要となるすべてのレンダリングコードが含まれます。これには CSS／JS が含まれ、それらは clientlibs と呼ばれる AEM の形式で保存されます。また、これには動的 HTML をレンダリングするための HTL スクリプトも含まれます。ui.apps モジュールは、ファイルシステムに保存でき、ソース管理に対してコミットできる、JCR 内の構造とのマッピングと考えることができます。
+ui.apps maven モジュール（`<src-directory>/<project>/ui.apps`）には、`/apps` 配下のサイトで必要となるすべてのレンダリングコードが含まれます。これには CSS／JS が含まれ、それらは [clientlibs と呼ばれる AEM の形式で保存されます。](uifrontend.md#clientlibs)また、これには動的 HTML をレンダリングするための HTL スクリプトも含まれます。ui.apps モジュールは、ファイルシステムに保存でき、ソース管理に対してコミットできる、JCR 内の構造とのマッピングと考えることができます。
 
 Apache Jackrabbit FileVault Package プラグインは、ui.apps モジュールのコンテンツを、AEM にデプロイできる AEM パッケージにコンパイルするために使用されます。プラグインのグローバル設定は、parent pom.xml で定義されます。
 
