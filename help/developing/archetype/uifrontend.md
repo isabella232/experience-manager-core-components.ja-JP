@@ -1,11 +1,11 @@
 ---
 title: AEM プロジェクトのアーキタイプフロントエンドビルド
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-translation-type: ht
-source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
-workflow-type: ht
-source-wordcount: '1613'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ AEM プロジェクトのアーキタイプ全体が `mvn clean install -PautoIn
 
 >[!TIP]
 >
->Clientlib の詳細については、[AEM 開発ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/introduction/clientlibs.html)を参照してください。[Clientlib が ui.frontend モジュールによってどのように使用されるかについては以下を参照してください](#clientlib-generation)。
+>AEM [開発ドキュメントでAEMがClientLibをどのように処理するか](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/introduction/clientlibs.html)、それらを [含める方法について詳しくは](/help/developing/including-clientlibs.md)、次のui.frontendモジュールでClientLibがどのように使用され [るかを参照してください。](#clientlib-generation)
 
 ## ClientLib の概要 {#clientlibs}
 
