@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ id: {                   // component ID
 }
 ```
 
-次の [イベントは](#events) 、コンポーネント/コンテナ項目スキーマに関連します。
+次の[イベント](#events)は、コンポーネント／コンテナ項目スキーマに関連します。
 
 * `cmp:click`
 
@@ -120,7 +120,7 @@ id: {
 }
 ```
 
-次の [イベントは、コンテナのスキーマに関連します](#events) 。
+次の[イベント](#events)は、コンテナスキーマに関連します。
 
 * `cmp:click`
 * `cmp:show`
@@ -147,7 +147,7 @@ id: {
 }
 ```
 
-次の [イベントは、画像スキーマに関連します](#events) 。
+次の[イベント](#events)は、画像スキーマに関連します。
 
 * `cmp:click`
 
@@ -167,7 +167,7 @@ id: {
 }
 ```
 
-次の [イベントは](#events) 、アセットスキーマに関連します。
+次の[イベント](#events)は、アセットスキーマに関連します。
 
 * `cmp:click`
 
@@ -175,9 +175,9 @@ id: {
 
 データレイヤーがトリガーするイベントは多数あります。
 
-* **`cmp:click`**  — クリック可能な要素( `data-cmp-clickable` 属性を持つ要素)をクリックすると、データレイヤーによって `cmp:click` イベントがトリガーされます。
-* **`cmp:show`** および **`cmp:hide`** — アコーディオン（展開/折りたたみ）、カルーセル（次へ/前へのボタン）、タブ（タブ選択）の各コンポーネントを操作すると、データレイヤーがトリガーされ `cmp:show` 、 `cmp:hide` イベントがそれぞれ1つずつ発生します。
-* **`cmp:loaded`**  — データレイヤーにページ上のコアコンポーネントが入力されるとすぐに、データレイヤーが `cmp:loaded` イベントをトリガーします。
+* **`cmp:click`** — クリック可能な要素（`data-cmp-clickable` 属性を持つ要素）をクリックすると、データレイヤーによって `cmp:click` イベントがトリガーされます。
+* **`cmp:show`** および **`cmp:hide`** — アコーディオン（展開/折りたたみ）、カルーセル（次へ／前へのボタン）、タブ（タブ選択）の各コンポーネントを操作すると、データレイヤーがそれぞれ`cmp:show`および`cmp:hide`イベントをトリガーします。
+* **`cmp:loaded`** — データレイヤーにページ上のコアコンポーネントが入力されるとすぐに、データレイヤーが `cmp:loaded` イベントをトリガーします。
 
 ### コンポーネントによってトリガーされるイベント {#events-components}
 
