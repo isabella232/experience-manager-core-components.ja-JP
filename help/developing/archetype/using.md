@@ -1,11 +1,11 @@
 ---
 title: AEM プロジェクトアーキタイプの使用
 description: AEM プロジェクトアーキタイプの使用方法の詳細
-translation-type: ht
-source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
 source-wordcount: '2057'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,13 +33,13 @@ AEM プロジェクトのアーキタイプを使用すると、数回のキー�
 AEM アーキタイプは、次のモジュールで構成されています。
 
 * **[core](core.md)**：OSGi サービス、リスナー、スケジューラなどのすべてのコア機能、およびサーブレットや要求フィルターなどのコンポーネント関連の Java コードが含まれる Java バンドル。
-* **[ui.apps](uiapps.md)**：プロジェクトの`/apps`部分と`/etc`部分（JS と CSS の clientlib、コンポーネント、テンプレート、実行モード固有の設定、Hobbes テストなど）が含まれます。
+* **[ui.apps](uiapps.md)**：プロジェクトの `/apps` 部分と `/etc` 部分（JS と CSS の clientlib、コンポーネント、テンプレート、実行モード固有の設定、Hobbes テストなど）が含まれます。
 * **[ui.content](uicontent.md)**：ui.apps モジュールのコンポーネントを使用するサンプルコンテンツが含まれます。
 * **[ui.tests](uitests.md)**：サーバー側で実行される JUnit テストが含まれる Java バンドル。このバンドルは実稼動環境にはデプロイされません。
 * **ui.launcher**：ui.tests バンドル（および依存するバンドル）をサーバーにデプロイし、JUnit のリモート実行をトリガーするグルーコードが含まれます。
-* **[ui.frontend.general](uifrontend.md)**：**（オプション）**一般的な Webpack ベースのフロントエンドビルドモジュールの使用に必要なアーティファクトが含まれます。
-* **[ui.frontend.react](uifrontend-react.md)**：**（オプション）**アーキタイプを使用して React に基づく SPA プロジェクトを作成する場合に必要なアーティファクトが含まれます。
-* **[ui.frontend.angular](uifrontend-angular.md)**：**（オプション）**アーキタイプを使用して Angular に基づく SPA プロジェクトを作成する場合に必要なアーティファクトが含まれます。
+* **[ui.frontend.general](uifrontend.md)**：**（オプション）**&#x200B;一般的な Webpack ベースのフロントエンドビルドモジュールの使用に必要なアーティファクトが含まれます。
+* **[ui.frontend.react](uifrontend-react.md)**：**（オプション）**&#x200B;アーキタイプを使用して React に基づく SPA プロジェクトを作成する場合に必要なアーティファクトが含まれます。
+* **[ui.frontend.angular](uifrontend-angular.md)**：**（オプション）**&#x200B;アーキタイプを使用して Angular に基づく SPA プロジェクトを作成する場合に必要なアーティファクトが含まれます。
 
 ![](/help/assets/archetype-structure.png)
 
@@ -96,10 +96,10 @@ mvn -B archetype:generate \
 | `groupId` |  | 基本 Maven グループ ID です（例：`"com.mysite"`）。 |
 | `package` | *`${groupId}`* | Java ソースパッケージです（例：`"com.mysite"`）。 |
 | `version` | `1.0-SNAPSHOT` | プロジェクトのバージョンです（例：`1.0-SNAPSHOT`）。 |
-| `aemVersion` | `6.5.0` | 対象 AEM バージョンです（[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は `6.5.0`、`6.4.4`、`6.3.3` のいずれか）。 |
+| `aemVersion` | `6.5.0` | Target AEM version (can be `cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html); or `6.5.0`, or `6.4.4` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) or on-premise). |
 | `sdkVersion` | `latest` | `aemVersion=cloud` の場合は、[SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) のバージョンを指定できます（例：`2020.02.2265.20200217T222518Z-200130`）。 |
 | `includeDispatcherConfig` | `y` | `aemVersion` の値に応じて、クラウドか AMS／オンプレミスのいずれかの Dispatcher 設定を組み込みます（`y` または `n`）。 |
-| `frontendModule` | `none` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/headless/spas/spa-overview.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
+| `frontendModule` | `none` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/introduction.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
 | `languageCountry` | `en_us` | コンテンツ構造を作成する言語および国コードです（例：`en_us`）。 |
 | `singleCountry` | `y` | 言語マスターコンテンツ構造を組み込みます（`y` または `n`）。 |
 | `includeExamples` | `y` | [コンポーネントライブラリ](https://www.aemcomponents.dev/)のサンプルサイトを組み込みます（`y` または `n`）。 |
@@ -194,7 +194,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 もちろん、AEM プロジェクトのアーキタイプはコアコンポーネントを活用します。
 
-コアコンポーネントは、デフォルトの実行モードで AEM に自動的にインストールされます。また、サンプルの We.Retail サイトで使用されます。[実稼動実行モード](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/security/production-ready.html)（`nosamplecontent`）では、コアコンポーネントは使用できません。
+コアコンポーネントは、デフォルトの実行モードで自動的にAEMにインストールされ、サンプルのWKNDサイトで使用されます。 [実稼動実行モード](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/security/production-ready.html)（`nosamplecontent`）では、コアコンポーネントは使用できません。
 
 そのため、すべてのデプロイメントでコアコンポーネントを使用するには、それらを Maven プロジェクトの一部に組み込むことが推奨されます。
 
