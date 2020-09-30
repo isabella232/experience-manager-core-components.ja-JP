@@ -1,8 +1,11 @@
 ---
 title: コンポーネントのガイドライン
 description: コアコンポーネントは、基盤コンポーネントとは大きく異なる、最新の実装パターンに従います。
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +85,7 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ![リソースバインディングの概要](/help/assets/chlimage_1-32.png)
 
-以下に別の概要を示します。ここでは、実装 POJO の詳細は示されていませんが、関連する[テンプレートとポリシー](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/platform/templates/page-templates-editable.html)の参照方法がわかります。
+以下に別の概要を示します。ここでは、実装 POJO の詳細は示されていませんが、関連する[テンプレートとポリシー](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html)の参照方法がわかります。
 
 `cq:allowedTemplates` プロパティは、サイトで使用可能なテンプレートを示し、`cq:template` はページごとに、どのテンプレートが関連付けられているかを示します。すべてのテンプレートは以下の 3 つの部分から構成されています。
 
