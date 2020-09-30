@@ -2,10 +2,10 @@
 title: AEM プロジェクトのアーキタイプフロントエンドビルド
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ AEM プロジェクトのアーキタイプ全体が `mvn clean install -PautoIn
 
 ## ClientLib の概要 {#clientlibs}
 
-フロントエンドモジュールは、[AEM ClientLib](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html) を使用して利用可能になります。NPM ビルドスクリプトを実行すると、アプリケーションがビルドされ、aem-clientlib-generator パッケージがビルド出力結果を取得して、そのような ClientLib に変換します。
+フロントエンドモジュールは、[AEM ClientLib](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/introduction/clientlibs.html) を使用して利用可能になります。NPM ビルドスクリプトを実行すると、アプリケーションがビルドされ、aem-clientlib-generator パッケージがビルド出力結果を取得して、そのような ClientLib に変換します。
 
 ClientLib は、次のファイルとディレクトリで構成されます。
 
@@ -161,7 +161,7 @@ Ui.frontend モジュールのビルドプロセスでは、[aem-clientlib-gener
 
 ### ページへのクライアントライブラリの追加 {#clientlib-inclusion}
 
-`clientlib-site` および `clientlib-dependencies` カテゴリは、デフォルトテンプレートの一部として、[ページポリシー設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions)を使用して、ページに含められます。ポリシーを表示するには、**コンテンツページテンプレート／ページ情報／ページポリシー**&#x200B;を編集します。
+`clientlib-site` および `clientlib-dependencies` カテゴリは、デフォルトテンプレートの一部として、[ページポリシー設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions)を使用して、ページに含められます。ポリシーを表示するには、**コンテンツページテンプレート／ページ情報／ページポリシー**&#x200B;を編集します。
 
 サイトページにクライアントライブラリを最終的に含める方法は次のとおりです。
 
