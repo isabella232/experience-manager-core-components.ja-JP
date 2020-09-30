@@ -1,11 +1,11 @@
 ---
 title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '1934'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,10 +32,10 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | 互換性あり | 互換性あり | 互換性あり |
-| [v1](v1/image-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | 互換性あり | 互換性あり | 互換性あり |
+| [v1](v1/image-v1.md) | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->SVG のサポートには、AEM 内の新しい画像エディター機能をサポートするために、[コアコンポーネントのリリース 2.1.0 と、](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/sp-release-notes.html) AEM 6.4 の Service Pack 2 [、](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes/sp3-release-notes.html)AEM 6.3 以降の Service Pack [3](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/developing/components/image-editor.html) が必要です。
+>SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/sp-release-notes.html) for AEM 6.4 or higher to support the [image editor features](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) within AEM.
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -94,8 +94,8 @@ ht-degree: 100%
 
 * **キャプション**
 画像に関する追加情報。デフォルトでは画像の下に表示されます。
-   * **DAM からキャプションを取得**
-オンにすると、DAM の `dc:title` メタデータの値が画像のキャプションテキストに設定されます。
+   * **DAM**&#x200B;からキャプションを取得：オンにすると、画像のキャプションテキストに 
+`dc:title` メタデータがDAMに含まれています。
    * **キャプションをポップアップとして表示**
 オンにした場合、キャプションは画像の下には表示されなくなり、画像の上にマウスポインターを置いたときに一部のブラウザーでポップアップとして表示されるようになります。
 
@@ -123,6 +123,7 @@ ht-degree: 100%
 
    * 独自の切り抜きを定義するには、オプション「**フリーハンド**」を選択します。
    * 元のアセットを表示するには、オプション「**切り抜きを削除**」を選択します。
+
    切り抜きオプションを選択したら、青色のハンドルを使用して画像上の切り抜きのサイズを調整します。
 
    ![切り抜きツールオプション](/help/assets/image-crop-options.png)
@@ -224,10 +225,10 @@ ht-degree: 100%
 
    ![画像コンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-orientation.png)
 
-* **回転**
-コンテンツ作成者が「**右に回転**」オプションを使用できるようにするには、このオプションを使用します。
-* **反転**
-コンテンツ作成が「**水平方向に反転**」および「**垂直方向に反転**」オプションを使用できるようにするには、このオプションを使用します。
+* **回転**&#x200B;このオプションを使用すると、コンテンツ作成者が 
+**右に回転** (Rotate Right)オプション
+* **反転**&#x200B;このオプションは、コンテンツ作成者が 
+**「水平方向に反転** 」および「垂直方向に **反転** 」オプション
 
    >[!CAUTION]
    >
@@ -243,6 +244,7 @@ ht-degree: 100%
    * 縦横比の数値を入力します。
    * 縦横比の順序を変更するには、ドラッグハンドルを使用します
    * 縦横比を削除するには、ごみ箱アイコンを使用します。
+
    >[!CAUTION]
    >
    >AEM では、切り抜きの縦横比は「**高さ / 幅**」で定義されます。これは従来の定義である「幅 / 高さ」とは異なり、レガシー互換性のための設定です。UI には比率自体ではなく UI が表示されるので、比率にわかりやすい名前を付けていれば、コンテンツ作成者がこの違いに気付くことはありません。
