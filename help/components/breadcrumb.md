@@ -1,10 +1,10 @@
 ---
 title: パンくずコンポーネント
 description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '713'
+translation-type: tm+mt
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+workflow-type: tm+mt
+source-wordcount: '709'
 ht-degree: 100%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 100%
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
-| コンポーネントのバージョン | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | 互換性あり | 互換性あり | 互換性あり |
-| [v1](v1/breadcrumb-v1.md) | 互換性あり | 互換性あり | 互換性あり | - |
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- | --- |--- |---|
+| v2 | 互換性あり | 互換性あり | 互換性あり |
+| [v1](v1/breadcrumb-v1.md) | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 ![パンくずコンポーネントの編集ダイアログ](/help/assets/breadcrumb-edit.png)
 
-* **ナビゲーション開始レベル** - パンくずコンポーネントが現在のページへの移動を開始する、階層内の位置。例えば、We.Retail では次のようになります。
+* **ナビゲーション開始レベル** - パンくずコンポーネントが現在のページへの移動を開始する、階層内の位置。次に例を示します。
 
    * 「0」の場合は `/content` で開始
    * 「1」の場合は `/content/<yourSite>` で開始
