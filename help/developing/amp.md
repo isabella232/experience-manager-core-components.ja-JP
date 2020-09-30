@@ -2,10 +2,10 @@
 title: コアコンポーネントの AMP サポート
 description: コアコンポーネントは、AMP（Accelerated Mobile Pages）をサポートします
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 95%
+source-wordcount: '536'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ AMP サポートは高い柔軟性を提供しますが、これを使い始め�
 
 ### ページに対する AMP の有効化 {#enabling-amp}
 
-ページに対して AMP を有効にするには、[ページポリシー](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/authoring/siteandpage/templates.translate.html#editingatemplatepagepolicies)で **AMP モード**&#x200B;が選択されている必要があります。
+ページに対して AMP を有効にするには、[ページポリシー](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)で **AMP モード**&#x200B;が選択されている必要があります。
 
 ![AMP ページポリシーのオプション](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ AMP サポートは高い柔軟性を提供しますが、これを使い始め�
 * **ペア AMP** - ページは、AMP および HTML として配信されます。
 * **AMP のみ** - ページは AMP としてのみ提供されます。
 
-ページの AMP 設定は、個々のページの[ページプロパティ](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/authoring/authoring/editing-page-properties.translate.html)で上書きすることもできます。
+ページの AMP 設定は、個々のページの[ページプロパティ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)で上書きすることもできます。
 
 ![AMP ページプロパティ](/help/assets/amp-page-properties.png)
 
