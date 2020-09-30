@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントを使用したオーサリング
 description: AEM では、コンポーネントとは、オーサリングの対象となるページのコンテンツを構成する構造要素のことです。コアコンポーネントは、柔軟で機能豊富なオーサリング機能を提供します。
-translation-type: ht
-source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
-workflow-type: ht
-source-wordcount: '778'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 >[!CAUTION]
 >
->コアコンポーネントでは [AEM 6.3 以降](/help/versions.md)が必要です。また、[編集可能テンプレート](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)を使用する必要があります。コアコンポーネントはクラシック UI や静的テンプレートでは動作しません。
+>コアコンポーネントでは [AEM 6.4 以降](/help/versions.md)が必要です。また、[編集可能テンプレート](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)を使用する必要があります。コアコンポーネントはクラシック UI や静的テンプレートでは動作しません。
 
 ## コアコンポーネントを使用したオーサリング {#authoring-with-core-components}
 
@@ -79,10 +79,6 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * その後、コンテンツ作成者は、コンポーネントを追加してコンテンツを作成する際に、適用するスタイルを選択できます。
 
 詳しくは、[スタイルシステム](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/style-system.html)のドキュメントを参照してください。
-
->[!NOTE]
->
->AEM 6.3 でスタイルシステムの機能を有効にするには、サービスパック 2（6.3.2.0）以降が必要となります。
 
 ## 開発者リソース {#developer-resources}
 
