@@ -1,11 +1,11 @@
 ---
 title: ソーシャル共有コンポーネント
 description: コアコンポーネントのソーシャル共有コンポーネントは、Facebook および Pinterest の共有ウィジェットです。
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、ソーシャル共有コンポーネントの現在のバージョン（AEM 6.3 とともにコアコンポーネントのリリース 1.0.0 で導入された v1）について説明します。
+最新バージョンのソーシャル共有コンポーネントはv1です。これはコアコンポーネントのリリース1.0.0で導入され、このドキュメントで説明します。
 
 コンポーネントのすべてのサポート対象バージョンおよびコンポーネントの各バージョンと互換性のある AEM バージョンを次の表に示します。
 
