@@ -2,10 +2,10 @@
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
 translation-type: tm+mt
-source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 53%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
    * 各ノードの `jcr:primaryType` 設定先 `nt:unstructured`。
 1. `enabled` という名前のブール型プロパティを追加し、`true` に設定します。
 
-   ![WKNDリファレンスサイトのDataLayerConfigの場所](../../assets/datalayer-contextaware-sling-config.png)
+   ![WKNDリファレンスサイトのDataLayerConfigの場所](/help/assets/datalayer-contextaware-sling-config.png)
 
    *WKNDリファレンスサイトのDataLayerConfigの場所*
 
@@ -59,7 +59,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 
 1. また、ブラウザーの開発者ツールを開き、コンソールでJavaScriptオブジェクトを `adobeDataLayer` 使用できるようにします。 次のコマンドを入力して、現在のページのデータレイヤーの状態を取得します。
 
-   ```js
+   ```javascript
    window.adobeDataLayer.getState();
    ```
 
@@ -238,7 +238,7 @@ eventInfo: {
 
 次に例を示します。
 
-```js
+```javascript
 function logEventObject(event) {
     if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
         var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
