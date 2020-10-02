@@ -4,8 +4,8 @@ description: AEM ベースのアプリケーション用のプロジェクトテ
 translation-type: tm+mt
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1622'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ AEM プロジェクトのアーキタイプ全体が `mvn clean install -PautoIn
 
 >[!TIP]
 >
->AEM [開発ドキュメントでAEMがClientLibをどのように処理するか](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/introduction/clientlibs.html)、それらを [含める方法について詳しくは](/help/developing/including-clientlibs.md)、次のui.frontendモジュールでClientLibがどのように使用され [るかを参照してください。](#clientlib-generation)
+>[AEM 開発ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/introduction/clientlibs.html)で AEM による ClientLib の処理方法および[それらを含める](/help/developing/including-clientlibs.md)方法をご確認ください。また、[ui.frontend モジュールで ClientLib がどのように使用されるか](#clientlib-generation)については以下を参照してください。
 
 ## ClientLib の概要 {#clientlibs}
 
