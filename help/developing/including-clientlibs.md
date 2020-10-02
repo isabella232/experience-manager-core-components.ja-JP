@@ -1,22 +1,22 @@
 ---
 title: クライアントライブラリを含める
-description: 使用事例に応じて、クライアントライブラリを含める方法はいくつかあります。
-translation-type: tm+mt
+description: 使用事例に応じてクライアントライブラリを含める方法は多数あります。
+translation-type: ht
 source-git-commit: 24f718be2ba66113eda970c213c6ce4baec51752
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# クライアントライブラリを含める {#including-client-libraries}
+# ククライアントライブラリを含める{#including-client-libraries}
 
-使用事例に応じて、 [クライアントライブラリを含める方法はいくつかあります](/help/developing/archetype/uifrontend.md#clientlibs) 。 このドキュメントでは、それぞれの例とサンプル [HTLスニペット](https://docs.adobe.com/content/help/ja-JP/experience-manager-htl/using/overview.html) を紹介します。
+使用事例に応じて[クライアントライブラリ](/help/developing/archetype/uifrontend.md#clientlibs)を含める方法は多数あります。このドキュメントでは、それぞれの例とサンプル [HTL スニペット](https://docs.adobe.com/content/help/ja-JP/experience-manager-htl/using/overview.html) を紹介します。
 
 ## 推奨されるデフォルトの使用方法 {#recommended-default-usage}
 
-状況に最適なものを調べる時間がない場合は、次のHTL行をページ `head` 要素内に配置して、クライアントライブラリを含めます。
+状況に何が最適化を調べる時間がない場合は、次の HTL 行をページ `head` 要素内に配置して、クライアントライブラリを含めます。
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -25,11 +25,11 @@ ht-degree: 3%
 </sly>
 ```
 
-ページにはCSSとJSの両方が含まれますが、JSのインクルードに `head``defer``script` 属性が追加されるので、ブラウザーはDOMの準備が完了するのを待ってスクリプトを実行し、ページの読み込み速度を最適化します。
+これにより、ページ `head` に CSS と JS の両方が含まれますが、JS `script` インクルードに `defer` 属性が追加されるので、ブラウザーは DOM は準備が完了するのを待ってスクリプトを実行し、ページの読み込み速度を最適化します。
 
 ## 基本的な使用方法 {#basic-usage}
 
-クライアントライブラリカテゴリのJSとCSSの両方を含める基本構文は、次のとおりです。この構文は、対応するすべてのCSS `link` 要素またはJS `script` 要素を生成します。
+クライアントライブラリカテゴリの JS と CSS の両方を含める基本構文は、次のとおりです。この構文は、対応するすべての CSS `link` 要素または JS `script` 要素を生成します。
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -37,7 +37,7 @@ ht-degree: 3%
 </sly>
 ```
 
-複数のクライアントライブラリカテゴリに対して同じ処理を一度に行うには、文字列の配列を `categories` パラメーターに渡します。
+複数のクライアントライブラリカテゴリに対して、同じ処理を一度に行うには、文字列の配列を `categories` パラメーターに渡します。
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -46,10 +46,10 @@ ht-degree: 3%
 </sly>
 ```
 
-## CSSまたはJSのみ {#css-js-only}
+## CSS または JS のみ {#css-js-only}
 
-CSSインクルードをHTML `head``body` 要素に配置し、JSインクルードを要素の終了直前に配置することがよくあります。&#x200B;
-で、JS `head`ではなくCSSのみを含める場合は、次を使用しま `cssIncludes`す。
+HTML `head` 要素に CSS インクルードを配置し、`body` 要素を閉じる直前に JS インクルードを配置することがよくあります。
+JS ではなく CSS のみを含めるには、`head` で `cssIncludes` を使用します。
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -57,7 +57,7 @@ CSSインクルードをHTML `head``body` 要素に配置し、JSインクルー
 </sly>
 ```
 
-閉じる前に、CSSではなくJSのみを含める場合は、次を使用し `body` ま `jsIncludes`す。
+CSS ではなく JS のみを含めるには、`body` を閉じる前に `jsIncludes` を使用します。
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -67,7 +67,7 @@ CSSインクルードをHTML `head``body` 要素に配置し、JSインクルー
 
 ## 属性 {#attributes}
 
-生成されるCSS `link` 要素やJS `script` 要素に属性を適用するには、次のような多数のパラメータを使用できます。
+生成される CSS `link` 要素や JS `script` 要素に属性を適用するには、次のように多数のパラメーターを使用できます。
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -81,19 +81,20 @@ CSSインクルードをHTML `head``body` 要素に配置し、JSインクルー
 </sly>
 ```
 
-CSS `link` 属性のうち、 `jsAndCssIncludes` およびに渡すことができるもの `cssIncludes`:
+`jsAndCssIncludes` および `cssIncludes` に渡すことができる CSS `link` 属性：
 
-* `media`:文字列&#x200B;JS `script` 属性を指定します。この属性は、およびに渡すこ `jsAndCssIncludes` とができ `jsIncludes`ます。
+* `media`: 文字列
+&#x200B;
+`jsAndCssIncludes` および `jsIncludes` に渡すことができる JS `script` 属性：
 
-* `async`: ブール型
-* `defer`: ブール型
-* `onload`: string
-* `crossorigin`: string
+* `async`：ブール型
+* `defer`：ブール型
+* `onload`：文字列
+* `crossorigin`：文字列
 
 ## インライン {#inlining}
 
-場合によっては、最適化のため、または電子メールまたは [AMPのために](amp.md) 、CSSまたはJSをHTMLの出力にインライン化する必要があります。
-CSSをインラインにするに `cssInline` は、を使用できます。この場合、周囲の `style` 要素を記述する必要があります。
+場合によっては、最適化用、または電子メールまたは [AMP](amp.md) 用として、CSS または JS を HTML の出力にインライン化する必要が出ることがあります。CSS をインライン化するには、`cssInline` を使用できますが、その場合は前後に `style` 要素を記述する必要があります。
 
 ```html
 <style type="text/css"
@@ -102,7 +103,7 @@ CSSをインラインにするに `cssInline` は、を使用できます。こ�
 </style>
 ```
 
-同様に、JSをインラインにする場合 `jsInline` は、を使用できます。この場合、周囲の `script` 要素を記述する必要があります。
+同様に、`jsInline` を使用して JS をインライン化できますが、前後に `script` 要素を記述する必要があります。
 
 ```html
 <script type="text/javascript"
