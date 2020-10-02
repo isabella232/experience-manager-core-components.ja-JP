@@ -3,11 +3,11 @@ sub-product: AEM コアコンポーネント
 user-guide-title: AEM コアコンポーネント
 breadcrumb-title: Core Components Guide
 user-guide-description: Use the extensible Core Components to let authors easily create content.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
