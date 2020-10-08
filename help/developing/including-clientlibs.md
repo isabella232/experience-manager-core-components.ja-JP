@@ -2,10 +2,10 @@
 title: クライアントライブラリを含める
 description: 使用事例に応じてクライアントライブラリを含める方法は多数あります。
 translation-type: tm+mt
-source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
+source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,10 +84,7 @@ CSS ではなく JS のみを含めるには、`body` を閉じる前に `jsIncl
 
 `jsAndCssIncludes` および `cssIncludes` に渡すことができる CSS `link` 属性：
 
-* `media`：文字列
-
-JS `script` attributes that can be passed to `jsAndCssIncludes` and `jsIncludes`:
-
+* `media`:文字列JS `script` 属性を指定し `jsAndCssIncludes` ま `jsIncludes`す。
 * `async`：ブール型
 * `defer`：ブール型
 * `onload`：文字列
