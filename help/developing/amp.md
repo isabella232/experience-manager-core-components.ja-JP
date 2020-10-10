@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントの AMP サポート
 description: コアコンポーネントは、AMP（Accelerated Mobile Pages）をサポートします
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ AMP サポートは高い柔軟性を提供しますが、これを使い始め�
 
 ### ページに対する AMP の有効化 {#enabling-amp}
 
-ページに対して AMP を有効にするには、[ページポリシー](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)で **AMP モード**&#x200B;が選択されている必要があります。
+ページに対して AMP を有効にするには、[ページポリシー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)で **AMP モード**&#x200B;が選択されている必要があります。
 
 ![AMP ページポリシーのオプション](/help/assets/amp-policy.png)
 
@@ -60,7 +60,7 @@ AMP サポートは高い柔軟性を提供しますが、これを使い始め�
 
 ### CSS の要件 {#css-requirements}
 
-When using AMP with the Core Components, the main difference is that AMP requires all [CSS to be inlined](including-clientlibs.md#inlining) in the `<head>` element as well as optimized.
+AMP をコアコンポーネントと共に使用する場合、主な違いは、AMP では、`<head>` 要素内で[すべての CSS をインライン化](including-clientlibs.md#inlining)および最適化する必要があるということです。
 
 これをサポートするために、カスタマイズされたページコンポーネントが使用され、ページに存在するコンポーネントの AMP 固有の CSS のみが読み込まれます。
 
