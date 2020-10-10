@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '868'
+ht-degree: 100%
 
 ---
 
@@ -26,22 +26,22 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 
 ## インストールとアクティベーション {#installation-activation}
 
-コアコンポーネントリリース2.9.0以降、データレイヤーはコアコンポーネントと共にAEMクライアントライブラリとして配布され、インストールは必要ありません。 AEM Project Archetype v. 24以降で生成されるすべての [プロジェクトには、デフォルトでアクティブ化されたデータレイヤーが含まれ](/help/developing/archetype/overview.md) ます。
+コアコンポーネントリリース 2.9.0 の時点では、データレイヤーはコアコンポーネントとともに AEM クライアントライブラリとして配布され、インストールの必要はありません。[AEM Project Archetype v. 24 以降](/help/developing/archetype/overview.md)で生成されるすべてのプロジェクトには、アクティブ化されたデータレイヤーがデフォルトで含まれます。
 
-データレイヤーを手動でアクティブにするには、 [コンテキストに応じた設定を作成する必要があります](/help/developing/context-aware-configs.md) 。
+データレイヤーを手動でアクティブにするには、[コンテキストに応じた設定](/help/developing/context-aware-configs.md)を作成する必要があります。
 
-1. フォルダの下に次の構造を作成し `/conf/<mySite>` ます。 `<mySite>` はサイトのプロジェクトの名前です。
+1. `/conf/<mySite>` フォルダーの下に次の構造を作成します。`<mySite>` はサイトのプロジェクトの名前です。
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-   * 各ノードの `jcr:primaryType` 設定先 `nt:unstructured`。
+   * 各ノードには、`nt:unstructured` に対する `jcr:primaryType` セットがあります。
 1. `enabled` という名前のブール型プロパティを追加し、`true` に設定します。
 
-   ![WKNDリファレンスサイトのDataLayerConfigの場所](/help/assets/datalayer-contextaware-sling-config.png)
+   ![WKND リファレンスサイトの DataLayerConfig の場所](/help/assets/datalayer-contextaware-sling-config.png)
 
-   *WKNDリファレンスサイトのDataLayerConfigの場所*
+   *WKND リファレンスサイトの DataLayerConfig の場所*
 
-1. Add a `sling:configRef` property to the `jcr:content` node of your site below `/content` (e.g. `/content/<mySite>/jcr:content`) and set it to `/conf/<mySite>` from the previous step.
+1. `sling:configRef` プロパティを `/content` 配下のサイトの `jcr:content` ノード（例：`/content/<mySite>/jcr:content`）に追加し、以前の手順の `/conf/<mySite>` に設定します。
 
-1. 有効にすると、エディター外のサイトのページを読み込んで、アクティベーションを検証することができます。Inspectのページソースと `<body>` タグには属性を含める必要があります `data-cmp-data-layer-enabled`
+1. 有効にすると、エディター外のサイトのページを読み込んで、アクティベーションを検証することができます。ページソースを検査し、`<body>` タグには属性 `data-cmp-data-layer-enabled` を含める必要があります。
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -57,7 +57,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
        </script>
    ```
 
-1. また、ブラウザーの開発者ツールを開き、コンソールでJavaScriptオブジェクトを `adobeDataLayer` 使用できるようにします。 次のコマンドを入力して、現在のページのデータレイヤーの状態を取得します。
+1. また、ブラウザーの開発者ツールを開き、コンソールで `adobeDataLayer` JavaScript オブジェクトを使用できるようにします。次のコマンドを入力して、現在のページのデータレイヤーの状態を取得します。
 
    ```javascript
    window.adobeDataLayer.getState();
@@ -122,7 +122,7 @@ id: {
 }
 ```
 
-ページの読み込み時に `cmp:show` イベントがトリガされます。 このイベントは、開始タグのすぐ下にあるインラインJavaScriptからディスパッチされるので、データレイヤーイベントキューで最も早いイベントになり `<body>` ます。
+ページの読み込み時に `cmp:show` イベントがトリガーされます。このイベントは、開始 `<body>` タグのすぐ下にあるインライン JavaScript からディスパッチされるので、データレイヤーイベントキューで最も早いイベントになります。
 
 ### コンテナスキーマ {#container}
 
@@ -200,13 +200,13 @@ id: {
 
 ## コアコンポーネントのイベント {#events}
 
-コアコンポーネントは、データレイヤーを介してトリガーされるイベントが多数あります。 データレイヤーと対話操作するためのベストプラクティスは、イベントリスナーを [登録し](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)** 、イベントタイプをトリガーしたイベントやコンポーネントに基づいてアクションを実行することです。 これにより、非同期スクリプトで競合が発生する可能性を回避できます。
+コアコンポーネントがデータレイヤーを介してトリガーするイベントは多数あります。データレイヤーを操作する際のベストプラクティスは、[イベントリスナーを登録](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)し、**&#x200B;イベントタイプや、イベントをトリガーしたコンポーネントに基づいてアクションを実行することです。これにより、非同期スクリプトで競合が発生する可能性を回避できます。
 
-AEMコアコンポーネントが提供する初期設定のイベントを以下に示します。
+AEM コアコンポーネントが提供する初期設定のイベントを以下に示します。
 
 * **`cmp:click`** — クリック可能な要素（`data-cmp-clickable` 属性を持つ要素）をクリックすると、データレイヤーによって `cmp:click` イベントがトリガーされます。
-* **`cmp:show`** および **`cmp:hide`** — アコーディオン（展開/折りたたみ）、カルーセル（次へ／前へのボタン）、タブ（タブ選択）の各コンポーネントを操作すると、データレイヤーがそれぞれ`cmp:show`および`cmp:hide`イベントをトリガーします。ページの読み込み時にも `cmp:show` イベントがディスパッチされ、最初のイベントと見なされます。
-* **`cmp:loaded`**  — データレイヤーにページ上のコアコンポーネントが入力されるとすぐに、データレイヤーは `cmp:loaded` イベントをトリガーします。
+* **`cmp:show`** および **`cmp:hide`** — アコーディオン（展開/折りたたみ）、カルーセル（次へ／前へのボタン）、タブ（タブ選択）の各コンポーネントを操作すると、データレイヤーがそれぞれ`cmp:show`および`cmp:hide`イベントをトリガーします。`cmp:show` イベントはページの読み込み時にもディスパッチされ、最初のイベントと見なされます。
+* **`cmp:loaded`** — データレイヤーにページ上のコアコンポーネントが入力されるとすぐに、データレイヤーが `cmp:loaded` イベントをトリガーします。
 
 ### コンポーネントによってトリガーされるイベント {#events-components}
 
@@ -226,7 +226,7 @@ AEMコアコンポーネントが提供する初期設定のイベントを以�
 
 ### イベントパス情報 {#event-path-info}
 
-AEMコアコンポーネントによってトリガーされる各データレイヤーイベントには、以下のJSONオブジェクトを含むペイロードが含まれます。
+AEM コアコンポーネントによってトリガーされる各データレイヤーイベントには、以下の JSON オブジェクトを含むペイロードが含まれます。
 
 ```json
 eventInfo: {
@@ -234,7 +234,7 @@ eventInfo: {
 }
 ```
 
-ここ `<component-path>` で、はイベントをトリガーしたデータレイヤー内のコンポーネントへのJSONパスです。  を介して使用できる値は、イベントをトリガーしたコンポーネントの現在の状態を取得するパラメーターとして使用できるので重要で `event.eventInfo.path`す。こ `adobeDataLayer.getState(<component-path>)` のパラメーターを使用すると、カスタムコードが追加のデータにアクセスしてデータレイヤーに追加できます。
+ここでは、`<component-path>` はイベントをトリガーしたデータレイヤー内のコンポーネントへの JSON パスです。`event.eventInfo.path` を介して使用できる値は、パラメーターとして `adobeDataLayer.getState(<component-path>)` に使用できるので重要です。このパラメーターは、イベントをトリガーしたコンポーネントの現在の状態を取得し、カスタムコードが追加のデータにアクセスしてデータレイヤーに追加できるようにします。
 
 次に例を示します。
 
@@ -255,4 +255,4 @@ window.adobeDataLayer.push(function (dl) {
 
 ## チュートリアル
 
-データレイヤーとコアコンポーネントをさらに詳しく調べたい場合は、 [この実践チュートリアルをご覧ください](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
+データレイヤーとコアコンポーネントをさらに詳しく調べたい場合は、[次の実践チュートリアルをご覧ください](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
