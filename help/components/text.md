@@ -1,11 +1,11 @@
 ---
 title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2200'
+ht-degree: 100%
 
 ---
 
@@ -45,13 +45,13 @@ ht-degree: 0%
 
 ## テキストコンポーネントとリッチテキストエディター {#the-text-component-and-the-rich-text-editor}
 
-コアコンポーネントのテキストコンポーネントでは、AEM リッチテキストエディター（RTE）を利用します。RTE には、コンテンツ作成者がテキストコンテンツの編集に使用できる幅広い機能が用意されています。RTE は設定の柔軟性が非常に高く、数多くのオプションを提供しています。RTE の設定方法の詳細については、[リッチテキストエディターの設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)や[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
+コアコンポーネントのテキストコンポーネントでは、AEM リッチテキストエディター（RTE）を利用します。RTE には、コンテンツ作成者がテキストコンテンツの編集に使用できる幅広い機能が用意されています。RTE は設定の柔軟性が非常に高く、数多くのオプションを提供しています。RTE の設定方法の詳細については、[リッチテキストエディターの設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)や[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 コアコンポーネントのテキストコンポーネントでは、RTE がすぐに使用できる状態に設定されています。このドキュメントではこの後、テキストコンポーネントの標準設定について説明します。
 
 >[!NOTE]
 >
->テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
+>テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
 
 ## 編集ダイアログ{#edit-dialog}
 
@@ -256,7 +256,7 @@ ht-degree: 0%
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
+スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 ### 特殊文字 {#special-characters}
 
