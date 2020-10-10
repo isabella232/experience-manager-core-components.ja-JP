@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントの使用
 description: 「独自のプロジェクトにコアコンポーネントを導入するには、4 つの手順（ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートでのコンポーネントの有効化）に従います。」
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 94%
    jcr:description="Section Heading"
    ```
 
-For instance, look at the [title component of the WKND site](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml), which is a good example of a proxy component that is built that way.
+例えば、[WKND サイトのタイトルコンポーネント](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml)をご覧ください。これは、このような方法で作成されるプロキシコンポーネントの好例です。
 
 ## コアスタイルの読み込み {#load-the-core-styles}
 
