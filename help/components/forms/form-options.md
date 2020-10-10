@@ -1,9 +1,9 @@
 ---
 title: フォームオプションコンポーネント
 description: コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式の事前定義済みオプションから選択できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
 ht-degree: 100%
 
