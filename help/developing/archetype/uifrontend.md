@@ -1,11 +1,11 @@
 ---
 title: AEM プロジェクトのアーキタイプフロントエンドビルド
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -161,7 +161,7 @@ Ui.frontend モジュールのビルドプロセスでは、[aem-clientlib-gener
 
 ### ページへのクライアントライブラリの追加 {#clientlib-inclusion}
 
-`clientlib-site` および `clientlib-dependencies` カテゴリは、デフォルトテンプレートの一部として、[ページポリシー設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions)を使用して、ページに含められます。ポリシーを表示するには、**コンテンツページテンプレート／ページ情報／ページポリシー**&#x200B;を編集します。
+`clientlib-site` および `clientlib-dependencies` カテゴリは、デフォルトテンプレートの一部として、[ページポリシー設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions)を使用して、ページに含められます。ポリシーを表示するには、**コンテンツページテンプレート／ページ情報／ページポリシー**&#x200B;を編集します。
 
 サイトページにクライアントライブラリを最終的に含める方法は次のとおりです。
 
