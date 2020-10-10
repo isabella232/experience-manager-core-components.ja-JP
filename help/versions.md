@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1681'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
-コアコンポーネントは、サポートされるすべてのAEMバージョンと柔軟で互換性があるように設計されています。 このため、コンポーネントの 1 つのリリースに同じコンポーネントの複数のバージョンを含めることができます。
+コアコンポーネントは、柔軟性を備え、サポートされるすべての AEM バージョンと互換性があるように設計されています。このため、コンポーネントの 1 つのリリースに同じコンポーネントの複数のバージョンを含めることができます。
 
 コアコンポーネントの各リリースの互換性、およびリリースとそこに含まれているコンポーネントバージョンの対応関係を以下の表に示します。
 
@@ -133,6 +133,6 @@ ht-degree: 96%
 
 ## 基盤コンポーネントのサポート {#foundation-component-support}
 
-Adobeの開発重視はコアコンポーネントに移行し、新機能の追加は今後も続けられます。
+Adobe の開発における重点は、コアコンポーネントに移行し、新機能の追加は今後も続けられます。
 
-[ほとんどのFoundation ComponentsはAEM 6.5で非推奨となり](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/authoring/siteandpage/default-components-foundation.html) 、今後はFoundation Componentsに関する主なバグ修正のみが検討されます。
+[ほとんどの基盤コンポーネントは AEM 6.5 では非推奨となり](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/authoring/siteandpage/default-components-foundation.html)、今後は基盤コンポーネントに関する主なバグ修正のみが検討されます。
