@@ -1,11 +1,11 @@
 ---
 title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1921'
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/sp-release-notes.html) for AEM 6.4 or higher to support the [image editor features](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) within AEM.
+>SVG のサポートには、AEM 内の新しい[画像エディター機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/components-templates/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/sp-release-notes.html) 以降が必要です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -94,8 +94,9 @@ ht-degree: 0%
 
 * **キャプション**
 画像に関する追加情報。デフォルトでは画像の下に表示されます。
-   * **DAM**&#x200B;からキャプションを取得：オンにすると、画像のキャプションテキストに 
-`dc:title` メタデータがDAMに含まれています。
+   * **DAM からキャプションを取得**
+オンにすると、DAM の  
+`dc:title` メタデータの値が画像のキャプションテキストに設定されます。
    * **キャプションをポップアップとして表示**
 オンにした場合、キャプションは画像の下には表示されなくなり、画像の上にマウスポインターを置いたときに一部のブラウザーでポップアップとして表示されるようになります。
 
@@ -187,7 +188,7 @@ ht-degree: 0%
 * **DAM から代替テキストを取得**
 ページへの画像コンポーネントの追加時に 、DAM から代替テキストを取得するオプションが自動的に有効化されるかどうかを定義します。
 * **DAM からキャプションを取得**
-ページへの画像コンポーネントの追加時に 、DAM からキャプションを取得するオプションが自動的に有効化されるかどうかを定義します。
+ページへの画像コンポーネントの追加時に、DAM からキャプションを取得するオプションが自動的に有効化されるかどうかを定義します。
 * **キャプションをポップアップとして表示**
 ページへの画像コンポーネントの追加時に、画像のキャプションをポップアップとして表示するオプションが自動的に有効化されるかどうかを定義します。
 * **UUID の追跡を無効化**
@@ -225,10 +226,12 @@ ht-degree: 0%
 
    ![画像コンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-orientation.png)
 
-* **回転**&#x200B;このオプションを使用すると、コンテンツ作成者が 
-**右に回転** (Rotate Right)オプション
-* **反転**&#x200B;このオプションは、コンテンツ作成者が 
-**「水平方向に反転** 」および「垂直方向に **反転** 」オプション
+* **回転**
+コンテンツ作成者が 
+「**右に回転**」オプションを使用できるようにするには、このオプションを使用します。
+* **反転**
+コンテンツ作成者が 
+「**水平方向に反転**」および「**垂直方向に反転**」オプションを使用できるようにするには、このオプションを使用します。
 
    >[!CAUTION]
    >
