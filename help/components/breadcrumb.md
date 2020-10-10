@@ -1,9 +1,9 @@
 ---
 title: パンくずコンポーネント
 description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '709'
 ht-degree: 100%
 
