@@ -1,11 +1,11 @@
 ---
 title: クライアントライブラリを含める
 description: 使用事例に応じてクライアントライブラリを含める方法は多数あります。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '333'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## CSS または JS のみ {#css-js-only}
 
-Frequently, one wants to place the CSS includes in the HTML `head` element, and the JS includes just before the closing of the `body` element.
+HTML `head` 要素に CSS インクルードを配置し、`body` 要素を閉じる直前に JS インクルードを配置することがよくあります。
 
 JS ではなく CSS のみを含めるには、`head` で `cssIncludes` を使用します。
 
@@ -84,7 +84,7 @@ CSS ではなく JS のみを含めるには、`body` を閉じる前に `jsIncl
 
 `jsAndCssIncludes` および `cssIncludes` に渡すことができる CSS `link` 属性：
 
-* `media`:文字列JS `script` 属性を指定し `jsAndCssIncludes` ま `jsIncludes`す。
+* `media`：`jsAndCssIncludes` および `jsIncludes` に渡すことができる文字列 JS `script` 属性：
 * `async`：ブール型
 * `defer`：ブール型
 * `onload`：文字列
@@ -92,7 +92,7 @@ CSS ではなく JS のみを含めるには、`body` を閉じる前に `jsIncl
 
 ## インライン {#inlining}
 
-In some cases, either for optimization, or for email or [AMP,](amp.md) it might be required to inline the CSS or JS into the output of the HTML.
+場合によっては、最適化用、または電子メールまたは [AMP](amp.md) 用として、CSS または JS を HTML の出力にインライン化する必要が出ることがあります。
 
 CSS をインライン化するには、`cssInline` を使用できますが、その場合は前後に `style` 要素を記述する必要があります。
 
