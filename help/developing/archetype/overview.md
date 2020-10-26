@@ -1,11 +1,11 @@
 ---
 title: AEM プロジェクトアーキタイプ
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ AEM プロジェクトアーキタイプは、Web サイトの出発点として
    * **[アーキタイプの使用：](using.md)**&#x200B;アーキタイプと使用可能なモジュールの使用に関する詳細
    * **[ui.frontend：](uifrontend.md)**&#x200B;フロントエンドビルドモジュールの使用方法
 * 次のチュートリアルは、このアーキタイプに基づいています。
-   * **[WKND サイト：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**&#x200B;新しい Web サイトを開始する方法を説明します。
+   * **[WKND サイト：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**&#x200B;新しい Web サイトを開始する方法を説明します。
    * **[WKND シングルページアプリ：](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** AEM で完全にオーサリング可能な React または Angular Web アプリを作成する方法を説明します。
 
 ## 特長 {#features}
@@ -40,8 +40,8 @@ AEM プロジェクトアーキタイプは、Web サイトの出発点として
 * **ヘッダーとフッター：**[コンポーネントのローカライゼーション機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-core-components/using/get-started/localization.html)を使用して、コードなしで組み立ててローカライズできます。
 * **スタイルシステム：**&#x200B;作成者が[様々なスタイルを適用](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html)できるようにすることで、カスタムコンポーネントを作成しないようにすることができます。
 * **フロントエンドビルド：**&#x200B;フロントエンド開発者は、[AEM ページのモックを作成](uifrontend.md#webpack-dev-server)し、Webpack、TypeScript、SASS を使用して[クライアントライブラリをビルド](uifrontend.md)することができます。
-* **Web アプリ対応：**[React](uifrontend-react.md) または [Angular](uifrontend-angular.md) を使用するサイトの場合は、[SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) を使用して、[アプリのコンテキスト内オーサリング](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)を維持できます。
-* **コマースが有効：**[AEMコマースを](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) Magentoなどのコマースソリューションと統合するプロジェクトの場合は、 [コマースコアコンポーネントを使用](https://magento.com/)[](https://github.com/adobe/aem-core-cif-components)します。
+* **Web アプリ対応：**[React](uifrontend-react.md) または [Angular](uifrontend-angular.md) を使用するサイトの場合は、[SPA SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/headless/spa/developing.html) を使用して、[アプリのコンテキスト内オーサリング](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)を維持できます。
+* **コマースに対応：**[AEM コマース](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/commerce/home.html)を [Magento](https://magento.com/jp) などのコマースソリューションと統合するプロジェクトの場合は、[コマースコアコンポーネント](https://github.com/adobe/aem-core-cif-components)を使用します。
 * **コード例：** HelloWorld コンポーネントのほか、サンプルのモデル、サーブレット、フィルター、スケジューラーをチェックアウトできます。
 * **オープンソース：**&#x200B;何か問題がある場合は、改善案を[寄稿](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)できます。
 
@@ -60,7 +60,8 @@ mvn -B archetype:generate \
 ```
 
 * [AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) の場合は、`aemVersion=cloud` と設定します。\
-   [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`aemVersion=6.5.0` と設定します。AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用できる形で提供されているので、コアコンポーネントの依存関係は、非クラウドバージョンの AEM の場合にのみ追加します。
+   [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`aemVersion=6.5.0` と設定します。
+AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用できる形で提供されているので、コアコンポーネントの依存関係は、非クラウドバージョンの AEM の場合にのみ追加します。
 * `appTitle="My Site"` を調整して、Web サイトのタイトルやコンポーネントグループを定義します。
 * `appId="mysite"` を調整して、Maven アーティファクト ID、コンポーネントフォルダー名、設定フォルダー名、コンテンツフォルダー名、およびクライアントライブラリ名を定義します。
 * `groupId="com.mysite"` を調整して、Maven グループ ID と Java ソースパッケージを定義します。
@@ -79,7 +80,7 @@ mvn -B archetype:generate \
 | `aemVersion` | `cloud` | ターゲット AEM バージョンです（[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`6.5.0`、`6.4.4` のいずれか）。 |
 | `sdkVersion` | `latest` | `aemVersion=cloud` の場合は、[SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) のバージョンを指定できます（例：`2020.02.2265.20200217T222518Z-200130`）。 |
 | `includeDispatcherConfig` | `y` | `aemVersion` の値に応じて、クラウドか AMS／オンプレミスのいずれかの Dispatcher 設定を組み込みます（`y` または `n`）。 |
-| `frontendModule` | `general` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
+| `frontendModule` | `general` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
 | `language` | `en` | コンテンツ構造の作成に使用する言語コード（ISO 639-1）（例：`en`、`deu`）。 |
 | `country` | `us` | コンテンツ構造の作成に使用する国コード（ISO 3166-1）（例：`US`）。 |
 | `singleCountry` | `y` | 言語マスターコンテンツ構造を組み込みます（`y` または `n`）。 |
