@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
-translation-type: ht
-source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
-workflow-type: ht
-source-wordcount: '868'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 97%
 
 ---
 
@@ -256,3 +256,7 @@ window.adobeDataLayer.push(function (dl) {
 ## チュートリアル
 
 データレイヤーとコアコンポーネントをさらに詳しく調べたい場合は、[次の実践チュートリアルをご覧ください](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
+
+>[!TIP]
+>
+>データレイヤーの柔軟性をさらに検討するには、カスタムコンポーネントでデータレイヤーを有効にする方法など、統合オプションについて確認してください。
