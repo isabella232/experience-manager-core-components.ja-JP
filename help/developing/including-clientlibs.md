@@ -1,11 +1,11 @@
 ---
 title: クライアントライブラリを含める
 description: 使用事例に応じてクライアントライブラリを含める方法は多数あります。
-translation-type: ht
-source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
-workflow-type: ht
-source-wordcount: '333'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: afce571ada011c38c83830628f09a9e268658965
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 84%
 
 ---
 
@@ -111,3 +111,26 @@ CSS をインライン化するには、`cssInline` を使用できますが、�
     ${clientlibs.jsInline @ context="unsafe"}
 </script>
 ```
+
+## コンテキスト対応CSSとJavaScriptの読み込み {#context-aware-loading}
+
+[ページコンポーネント](/help/components/page.md) は、開発者定義のコンテキスト対応CSS、JavaScriptまたはmetaタグの読み込みもサポートします。
+
+これを行うには、次の構造を [使用するためのコンテキストに応じたリソース](context-aware-configs.md)`com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` を作成します。
+
+```text
+com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
+    - prefixPath="/some/path"
+    + item01
+        - element=["link"|"script"|"meta"]
+        - location=["header"|"footer"]
+        + attributes
+            - attributeName01="attributeValue01"
+            - attributeName02="attributeValue02"
+            ...
+    + item02
+        ...
+    ...
+```
+
+[詳しくは、ページコンポーネントの技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
