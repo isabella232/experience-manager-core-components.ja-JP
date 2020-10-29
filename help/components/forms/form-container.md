@@ -1,11 +1,11 @@
 ---
 title: フォームコンテナコンポーネント
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
-translation-type: ht
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
+workflow-type: tm+mt
+source-wordcount: '956'
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 フォームコンテナコンポーネントでは、シンプルな WCM フォームをサポートし、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
-[設定ダイアログ](#configure-dialog)を使用して、コンテンツ編集者は、フォーム送信でトリガーされるアクション、送信されたコンテンツの保存先、ワークフローをトリガーするかどうかを定義できます。テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
+By using the [configure dialog](#configure-dialog) the content editor can define the action triggered by form submission, the URl that should handle the submission, and whether a workflow should be triggered. テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
 
 >[!NOTE]
 >
@@ -53,10 +53,23 @@ ht-degree: 100%
 
 選択した&#x200B;**アクションタイプ**&#x200B;に応じて、コンテナ内で使用可能なオプションが変わります。使用可能なアクションタイプは次のとおりです。
 
+* [Post Form Data](#post-data)
 * [メール](#mail)
 * [コンテンツを格納](#store-content)
 
 タイプに関係なく、各アクションに適用される[一般的な設定](#general-settings)があります。
+
+### Post Form Data {#post-data}
+
+フォームが送信されると、フォームデータの後処理のアクションタイプは、送信されたデータをJSONとしてサードパーティに渡して処理します。
+
+![フォームコンテナコンポーネントの編集ダイアログの「フォームデータを投稿」オプション](/help/assets/form-container-edit-post.png)
+
+* **Endpoint** — データを処理する完全修飾HTTPSサービス
+* **エラーメッセージ** — 送信が成功しなかった場合に表示するメッセージ
+
+>[!TIP]
+>システム管理者が転送されたフォームデータの処理を処理するために調整できる、追加のタイムアウトオプションがあります。 [詳しくは、GitHubの技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### メール {#mail}
 
@@ -82,6 +95,12 @@ ht-degree: 100%
 * **コンテンツのパス** - 送信されたコンテンツが格納されるコンテンツリポジトリのパス
 * **データを表示** - タップまたはクリックすると、保存された送信済みデータが JSON 形式で表示されます
 * **ワークフローを開始** - フォーム送信時に保存されたコンテンツをペイロードとしてワークフローを開始するように設定します
+
+>[!NOTE]
+>
+>ユーザー・データの管理を容易にし、懸念事項を分離するために、ユーザー生成コンテンツをリポジトリ内に格納することは、一般的に推奨されません。
+>
+>代わりに、「 [Post Form Data](#post-data) 」アクションタイプを使用して、ユーザーコンテンツを専用のサービスプロバイダーに渡します。
 
 ### 一般的な設定 {#general-settings}
 
