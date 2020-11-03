@@ -1,11 +1,11 @@
 ---
 title: Sling のコンテキスト対応設定とコアコンポーネント
 description: コアコンポーネントは、特定の機能で、Sling のコンテキスト対応設定を利用します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11e2c6da0fa93084b601437fd45fd65dd8d73231
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 83%
 
 ## Sling のコンテキスト対応設定 {#context-aware-configurations}
 
-サイトの地域が異なると、異なる設定が必要となることがあります。例えば、一部のパラメーターが共有される場合、ネストされたコンテキストとグローバルなフォールバック値の継承が必要になる場合があります。AEMでは、Slingのコンテキスト対応設定が利用され、これによりこの可能性が可能になります。
+サイトの地域が異なると、異なる設定が必要となることがあります。例えば、一部のパラメーターが共有される場合、ネストされたコンテキストとグローバルなフォールバック値の継承が必要になる場合があります。AEM では、Sling のコンテキスト対応設定を活用することで、これが可能になります。
 
-AEMでの設定について詳しくは、設定と設定ブラウザーのドキュメントを [参照してください。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
+AEM での設定について詳しくは、[設定と設定ブラウザーのドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/developing/configurations.html)を参照してください。
 
 ## コアコンポーネントでの使用 {#core-components}
 
