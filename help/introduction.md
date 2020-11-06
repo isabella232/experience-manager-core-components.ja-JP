@@ -2,10 +2,10 @@
 title: コアコンポーネントの概要
 description: 'コアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築され、堅牢で拡張可能な基本コンポーネントを提供します。 '
 translation-type: tm+mt
-source-git-commit: 8f57b555b06cbb193e0b94021c81193f016390b8
+source-git-commit: 836fc4a8544e4d5bdf352074385ee4aed9303b1d
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 96%
 
 ---
 
@@ -106,7 +106,11 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 継続的 | 6.5.5.0+ | 6.4.8.1+ | 8、11 | 3.3.9 以上 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 継続的 | 6.5.5.0+ * | 6.4.8.1+ * | 8、11 | 3.3.9 以上 |
+
+>[!NOTE]
+>
+>(*)バージョン2.11.0以降は、 `org.apache.sling.models.impl` バージョン1.4.12以降が必要です( [SLING-8781のため](https://issues.apache.org/jira/browse/SLING-8781))。 これは、将来のService PackでAEM 6.4および6.5に対して提供される予定です。 それまでは、Sling Modelsバンドルが `core.wcm.components.all` パッケージに含まれます。
 
 以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
