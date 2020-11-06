@@ -2,17 +2,17 @@
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 translation-type: tm+mt
-source-git-commit: d815058a1fe295eba5988a283c17de576ef06c5e
+source-git-commit: c64276bb95aeaef4223fc2a0dc2c3cfdf8609f5a
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 80%
+source-wordcount: '1848'
+ht-degree: 78%
 
 ---
 
 
 # コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.12.0 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および [On-Premise の AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。2020年10月にリリースされ、リリース2.0.0への重要なアップデートとしてリリースされました。リリース2.0.0では、既存のコンポーネントのv2アップデートと共に新しいコンポーネントが導入されました。
+コアコンポーネントの現在のリリースは 2.12.1 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および [On-Premise の AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。2020年11月に2.12.0のパッチリリースとしてリリースされました。リリース2.12.0では、フォーム、メタデータ、およびデータレイヤーに新機能がいくつか導入されました。
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
@@ -26,8 +26,9 @@ ht-degree: 80%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | このリリースでは、新しいPOST [フォームハンドラが導入されました。](/help/components/forms/form-container.md#post-data) コンテキストに応じた設定を使用して、カスタムCSS、JavaScript、メタデータ [タグを含める機能。](/help/developing/including-clientlibs.md#context-aware-loading) カスタムコンポーネントでのデータレイヤー統合を `DataLayerBuilder`[簡単にするユーティリティを追加しました。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | 継続的 | 8、11 | 2020年10月29日 |
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | This release introduced [AMP support.](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | 継続的 | 8、11 | 2020 年 7 月 20 日 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | これは2.12.0のパッチリリースで、イメージコンポーネントの重大なバグを修正しました。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年11月5日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | このリリースでは、新しいPOST [フォームハンドラが導入されました。](/help/components/forms/form-container.md#post-data) コンテキストに応じた設定を使用して、カスタムCSS、JavaScript、メタデータ [タグを含める機能。](/help/developing/including-clientlibs.md#context-aware-loading) カスタムコンポーネントでのデータレイヤー統合を `DataLayerBuilder`[簡単にするユーティリティを追加しました。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年10月29日 |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | This release introduced [AMP support.](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 7 月 20 日 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | This release introduced the [PDF Viewer component.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | 継続的 | 8、11 | 2020 年 6 月 17 日 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | This release enabled integration with the [Adobe Client Data Layer](/help/developing/data-layer/overview.md) and introduced the [Progress Bar component.](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 継続的 | 8、11 | 2020 年 5 月 29 日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | このリリースでは小規模の機能強化による修正に重点を置きました。 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 12 月 5 日 |
@@ -51,6 +52,10 @@ ht-degree: 80%
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | コアコンポーネントの初回リリースです。。 | 6.4.0.0 以上 | - | - | 7 | 2017 年 3 月 20 日 |
 
 >[!NOTE]
+>
+>(*)バージョン2.11.0以降は、 `org.apache.sling.models.impl` バージョン1.4.12以降が必要です( [SLING-8781のため](https://issues.apache.org/jira/browse/SLING-8781))。 これは、将来のService PackでAEM 6.4および6.5に対して提供される予定です。 それまでは、Sling Modelsバンドルが `core.wcm.components.all` パッケージに含まれます。
+
+>[!TIP]
 >
 >AEM の場合と同様、最新の修正および機能を活用するために、実行している AEM バージョンと互換性のある入手可能な[最新のリリースおよびバージョンのコアコンポーネント](https://github.com/adobe/aem-core-wcm-components/releases/latest)を開発に使用することをお勧めします。
 
