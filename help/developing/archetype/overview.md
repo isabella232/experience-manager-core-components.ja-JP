@@ -1,11 +1,11 @@
 ---
 title: AEM プロジェクトアーキタイプ
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-translation-type: ht
-source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
-workflow-type: ht
-source-wordcount: '1035'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c9ec069a9eb12b8625be09d1c38dcaaf437bd5cb
+workflow-type: tm+mt
+source-wordcount: '1280'
+ht-degree: 81%
 
 ---
 
@@ -90,6 +90,21 @@ AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用
 | `commerceEndpoint` |  | CIF でのみ必須です。使用するコマースシステム GraphQL サービスのオプションのエンドポイント（例：`https://hostname.com/grapql`）をクリックします。 |
 | `datalayer` | `y` | [Adobe クライアントデータレイヤー](/help/developing/data-layer/overview.md)との統合をアクティブ化します。 |
 | `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMP](/help/developing/amp.md) のサポートを有効にします。 |
+
+## Analyzerモジュール {#analyzer-module}
+
+AEM analyzer Mavenプラグインは、様々なコンテンツパッケージプロジェクトの構造を分析します。
+
+AEM mavenプロジェクトに含める方法については、 [AEM Analyzer Mavenプラグインのドキュメント](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) を参照してください。 このプラグインは、AEM Mavenアーキタイプバージョン25以降に含まれています。
+
+以下の表は、この手順の一部として実行されるアナライザーについて説明しています。 一部はローカルSDKで実行され、残りはCloud Managerパイプラインデプロイメント中のみ実行されます。
+
+| モジュール | 関数、例、トラブルシューティング | ローカル SDK | Cloud Manager |
+|---|---|---|---|
+| `api-regions-exportsimports` | Mavenプロジェクトに含まれる他のバンドルのエクスポートパッケージ宣言で、すべてのOSGIバンドルのインポートパッケージ宣言が満たされているかどうかを確認します。 <p> </p> トラブルシューティングを行うには、エクスポートする予定のバンドルのマニフェストを調べ、誤った名前または誤ったバージョンが使用されたかを判断します。 | はい | はい |
+| `requirements-capabilities` | OSGIバンドルで行われたすべての要件宣言が、Mavenプロジェクトに含まれる他のバンドルの機能宣言によって満たされているかどうかを確認します。 <p> </p> トラブルシューティングを行うには、バンドルのマニフェストを調べて、なぜそれが欠落しているかを判断する機能を宣言すると予想されるバンドルのマニフェストを調べます。 | はい | はい |
+| `bundle-content` | バンドルにSling-Initial-Contentで指定された初期コンテンツが含まれる場合に警告を表示します。これは、AEMでCloud Serviceクラスター環境として問題があります。 | はい | はい |
+| `api-regions-crossfeature-dups` | Cloud ServiceのパブリックAPIとしてAEMをオーバーライドするエクスポートパッケージ宣言が、お客様のOSGIバンドルにないことを検証します | はい | はい |
 
 ## システム要件
 
