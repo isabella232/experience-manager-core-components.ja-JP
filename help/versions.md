@@ -2,9 +2,9 @@
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 translation-type: tm+mt
-source-git-commit: c64276bb95aeaef4223fc2a0dc2c3cfdf8609f5a
+source-git-commit: 2f3d2499e9f6c88453b633c20e49703eac25eff4
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '1870'
 ht-degree: 78%
 
 ---
@@ -26,8 +26,9 @@ ht-degree: 78%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | これは2.12.0のパッチリリースで、イメージコンポーネントの重大なバグを修正しました。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年11月5日 |
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | このリリースでは、新しいPOST [フォームハンドラが導入されました。](/help/components/forms/form-container.md#post-data) コンテキストに応じた設定を使用して、カスタムCSS、JavaScript、メタデータ [タグを含める機能。](/help/developing/including-clientlibs.md#context-aware-loading) カスタムコンポーネントでのデータレイヤー統合を `DataLayerBuilder`[簡単にするユーティリティを追加しました。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年10月29日 |
+| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | これは、2.12.0のパッチリリースで、マイナーな修正が含まれていました。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年11月11日 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | これは2.12.0のパッチリリースで、 [イメージコンポーネントの重大なバグを修正しました。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年11月5日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | このリリースでは、新しいPOST [フォームハンドラが導入されました。](/help/components/forms/form-container.md#post-data) コンテキストに応じた設定を使用して、カスタムCSS、JavaScript、メタデータ [タグを含める機能。](/help/developing/including-clientlibs.md#context-aware-loading) カスタムコンポーネントでのデータレイヤー統合を `DataLayerBuilder`[簡単にするユーティリティを追加しました。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年10月29日 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | This release introduced [AMP support.](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 7 月 20 日 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | This release introduced the [PDF Viewer component.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | 継続的 | 8、11 | 2020 年 6 月 17 日 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | This release enabled integration with the [Adobe Client Data Layer](/help/developing/data-layer/overview.md) and introduced the [Progress Bar component.](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 継続的 | 8、11 | 2020 年 5 月 29 日 |
