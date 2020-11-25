@@ -4,10 +4,10 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
 translation-type: tm+mt
-source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
+source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,4 @@ ht-degree: 100%
       + [ui.frontend.react モジュール](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular モジュール](developing/archetype/uifrontend-angular.md)
       + [ui.tests モジュール](developing/archetype/uitests.md)
+      + [Analyzer Mavenプラグインの構築](developing/archetype/build-analyzer-maven-plugin.md)
