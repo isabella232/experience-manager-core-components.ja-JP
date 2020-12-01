@@ -1,8 +1,11 @@
 ---
 title: コアコンポーネントのローカライゼーション機能
 description: コアコンポーネントのローカライゼーション機能
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 100%
 
 ---
 
@@ -89,6 +92,7 @@ AEM とそのコアコンポーネントのすべてのローカライゼーシ�
 * [エクスペリエンスフラグメント](/help/components/experience-fragment.md)
    * ここでは、フッターを表すフラグメントのオーサリング言語で、エクスペリエンスフラグメントコンポーネントにフラグメントパスを指定します。
    * 指定したフラグメントパスと、ローカライズされたページ構造を反映するエクスペリエンスフラグメントの構造に基づいて、コンポーネントは、対応するローカライズされたコンテンツを自動的に検索します。
+
    ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## ページ {#pages}
