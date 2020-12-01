@@ -1,8 +1,11 @@
 ---
 title: コアコンポーネントを利用したプロジェクトの成功への道筋
 description: コアコンポーネントを利用したプロジェクトの実装を成功させる方法
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 100%
 
 ---
 
