@@ -110,7 +110,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 >[!NOTE]
 >
->(*)バージョン2.11.0以降は、 `org.apache.sling.models.impl` バージョン1.4.12以降が必要です( [SLING-8781のため](https://issues.apache.org/jira/browse/SLING-8781))。 これは、将来のService PackでAEM 6.4および6.5に対して提供される予定です。 それまでは、Sling Modelsバンドルが `core.wcm.components.all` パッケージに含まれます。
+>(*)バージョン2.11.0以降、`org.apache.sling.models.impl`バージョン1.4.12以降が必要です（[SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)のため）。 これは、将来のService PackでAEM 6.4および6.5に対して提供される予定です。 それまでは、Sling Modelsバンドルが`core.wcm.components.all`パッケージに含まれます。
 
 以前のコアコンポーネントリリースの要件については、[コアコンポーネントのバージョン](versions.md)を参照してください。
 
