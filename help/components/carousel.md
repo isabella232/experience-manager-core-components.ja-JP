@@ -1,9 +1,9 @@
 ---
 title: カルーセルコンポーネント
 description: カルーセルコンポーネントを使用すれば、コンテンツ作成者は、回転式のカルーセルにコンテンツを表示することができます。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 100%
 
@@ -77,9 +77,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開されているコンテンツを読者と同じ立場でカルーセルを操作するには、[**プレビュー&#x200B;**モード](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)または「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開されているコンテンツを読者と同じ立場でカルーセルを操作するには、[**プレビュー**&#x200B;モード](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)または「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 >
->**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
