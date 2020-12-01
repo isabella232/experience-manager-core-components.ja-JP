@@ -2,8 +2,11 @@
 title: フォームコンテナコンポーネント（v1）
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 index: n
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 68472ab548fb6ebb443a06c12e7b37797a0c1302
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 100%
 
 ---
 
@@ -89,14 +92,14 @@ source-git-commit: 68472ab548fb6ebb443a06c12e7b37797a0c1302
 
 ### 一般的な設定 {#general-settings}
 
-「ありがとうございます」ページは、選択したアクションタイプに関係なくいつでも定義できます。
+ありがとうページは、選択したアクションタイプに関係なくいつでも定義できます。
 
 ![](/help/assets/chlimage_1-5.png)
 
 フォーム送信の完了後、ユーザーは指定したページにリダイレクトされます。
 
 * 選択ダイアログを使用して、AEM 内のリソースを選択します。
-* 「ありがとうございます」ページが AEM にない場合は、絶対 URL を指定します。絶対 URL 以外の URL は、AEM からの相対 URL と解釈されます。
+* ありがとうページが AEM にない場合は、絶対 URL を指定します。絶対 URL 以外の URL は、AEM からの相対 URL と解釈されます。
 * 空白のままにすると、送信後にフォームが再度表示されます。
 
 ## デザインダイアログ{#design-dialog}
