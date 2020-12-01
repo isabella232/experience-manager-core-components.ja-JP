@@ -112,11 +112,11 @@ CSS をインライン化するには、`cssInline` を使用できますが、�
 </script>
 ```
 
-## コンテキスト対応CSSとJavaScriptの読み込み {#context-aware-loading}
+## コンテキスト対応CSSとJavaScript {#context-aware-loading}の読み込み
 
-[ページコンポーネント](/help/components/page.md) は、開発者定義のコンテキスト対応CSS、JavaScriptまたはmetaタグの読み込みもサポートします。
+[ページコンポーネント](/help/components/page.md)は、開発者定義のコンテキスト対応CSS、JavaScriptまたはmetaタグの読み込みもサポートしています。
 
-これを行うには、次の構造を [使用するためのコンテキストに応じたリソース](context-aware-configs.md)`com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` を作成します。
+これは、次の構造を使用して、`com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig`の[コンテキスト対応リソース](context-aware-configs.md)を作成することで行います。
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
