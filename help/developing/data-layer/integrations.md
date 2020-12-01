@@ -16,22 +16,22 @@ Adobe Client Data Layer は、あらゆるスクリプトのあらゆる種類�
 
 Adobeクライアントデータレイヤーは、カスタムコンポーネントと統合でき、Adobe AnalyticsおよびAdobe Targetとの統合によって、Webサイトに対する洞察を得ることができます。
 
-## カスタムコンポーネント用のデータレイヤーの有効化 {#enabling-custom-components}
+## カスタムコンポーネント用のデータレイヤーの有効化{#enabling-custom-components}
 
 カスタムコンポーネントをデータレイヤーに自動的に追加するには：
 
 1. 追跡する必要があるカスタムコンポーネントモデルのプロパティを定義します。
-1. カス追加タムコンポーネントのHTLの属性。 `data-cmp-data-layer` E.g. `data-cmp-data-layer="${mycomponent.data.json}"`.
+1. カス追加タムコンポーネントのHTLの`data-cmp-data-layer`属性。 例：`data-cmp-data-layer="${mycomponent.data.json}"`.
 
-カスタムコンポーネントの特定の要素をクリックするたびに、データレイヤーが `cmp:click` イベントを自動的にトリガーするようにするには、カスタムコンポーネントのHTLで追跡する要素に `data-cmp-clickable` 属性を追加します。
+カスタムコンポーネントの特定の要素をクリックするたびに、データレイヤーが`cmp:click`イベントを自動的にトリガーするようにするには、カスタムコンポーネントのHTLで追跡する要素に`data-cmp-clickable`属性を追加します。
 
-この `data-cmp-data-layer-enabled` 属性をクエリーして、クライアント側でデータレイヤーが有効かどうかを確認できます。
+`data-cmp-data-layer-enabled`属性をクエリーして、クライアント側にデータレイヤーが有効かどうかを確認できます。
 
 >[!TIP]
 >
->Adobeクライアントデータレイヤーとコアコンポーネントの統合の技術的な詳細、およびカスタムコンポーネントでデータレイヤーを有効にする方法については、コアコンポーネントリポジトリの [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) ファイルを参照してください。
+>Adobeクライアントデータレイヤーとコアコンポーネントの統合の技術的な詳細、およびカスタムコンポーネントでデータレイヤーを有効にする方法については、コアコンポーネントリポジトリの[`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md)ファイルを参照してください。
 
-## Adobe Analytics、Adobe Targetとの統合 {#analytics-target}
+## Adobe AnalyticsおよびAdobe Targetとの統合{#analytics-target}
 
 Adobe Analytics や Adobe Target との組み合わせることで、Adobe Client Data Layer は非常に強力で柔軟なツールセットの基盤となり、デジタルエクスペリエンスのインサイトを獲得することができます。次のチュートリアルでは、サンプル統合の手順を説明します。
 
