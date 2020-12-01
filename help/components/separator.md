@@ -1,9 +1,9 @@
 ---
 title: 区切り文字コンポーネント
 description: 区切り文字コンポーネントは、ページ上のコンポーネント間に区切りを作成します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 
