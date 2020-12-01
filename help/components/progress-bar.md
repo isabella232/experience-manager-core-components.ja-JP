@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-プログレスバーコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_progressbar)を参照してください。
+プログレスバーコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_progressbar_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
