@@ -1,18 +1,18 @@
 ---
 title: Sling のコンテキスト対応設定とコアコンポーネント
 description: コアコンポーネントは、特定の機能で、Sling のコンテキスト対応設定を利用します
-translation-type: ht
-source-git-commit: 11e2c6da0fa93084b601437fd45fd65dd8d73231
-workflow-type: ht
-source-wordcount: '194'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: aff9046008dcea6c0cbda4b3de400df77a507097
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 84%
 
 ---
 
 
 # Sling のコンテキスト対応設定とコアコンポーネント {#sling-context-aware-configurations}
 
-コンテキスト対応設定は Sling の機能です。この機能はコンテンツリソースまたはリソースツリーに関連し、コアコンポーネントでサイト全体の設定を可能にするために利用されます。
+コンテキスト対応構成は、Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)の[機能です。 これらは、コンテンツリソースまたはリソースツリーに関連する設定で、コアコンポーネントによってサイト全体の設定が可能になるように利用されます。
 
 ## Sling のコンテキスト対応設定 {#context-aware-configurations}
 
