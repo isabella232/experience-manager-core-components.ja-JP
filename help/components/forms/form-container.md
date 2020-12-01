@@ -18,7 +18,7 @@ ht-degree: 80%
 
 フォームコンテナコンポーネントでは、シンプルな WCM フォームをサポートし、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
-By using the [configure dialog](#configure-dialog) the content editor can define the action triggered by form submission, the URl that should handle the submission, and whether a workflow should be triggered. テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
+[設定ダイアログ](#configure-dialog)を使用すると、コンテンツエディターは、フォームの送信によってトリガーされるアクション、送信を処理するURL、ワークフローをトリガーするかどうかを定義できます。 テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ By using the [configure dialog](#configure-dialog) the content editor can define
 
 ## 技術的詳細 {#technical-details}
 
-フォームコンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2_jp) を参照してください。
+フォームコンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -65,8 +65,8 @@ By using the [configure dialog](#configure-dialog) the content editor can define
 
 ![フォームコンテナコンポーネントの編集ダイアログの「フォームデータを投稿」オプション](/help/assets/form-container-edit-post.png)
 
-* **Endpoint** — データを処理する完全修飾HTTPSサービス
-* **エラーメッセージ** — 送信が成功しなかった場合に表示するメッセージ
+* **Endpoint**  — データを処理する完全修飾HTTPSサービス
+* **エラーメッセージ**  — 送信が成功しなかった場合に表示するメッセージ
 
 >[!TIP]
 >システム管理者が転送されたフォームデータの処理を処理するために調整できる、追加のタイムアウトオプションがあります。 [詳しくは、GitHubの技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
@@ -100,7 +100,7 @@ By using the [configure dialog](#configure-dialog) the content editor can define
 >
 >ユーザー・データの管理を容易にし、懸念事項を分離するために、ユーザー生成コンテンツをリポジトリ内に格納することは、一般的に推奨されません。
 >
->代わりに、「 [Post Form Data](#post-data) 」アクションタイプを使用して、ユーザーコンテンツを専用のサービスプロバイダーに渡します。
+>代わりに、[Post Form Data](#post-data)アクションタイプを使用して、ユーザーコンテンツを専用サービスプロバイダーに渡します。
 
 ### 一般的な設定 {#general-settings}
 
@@ -119,7 +119,7 @@ By using the [configure dialog](#configure-dialog) the content editor can define
 
 ## デザインダイアログ{#design-dialog}
 
-デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
+デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
