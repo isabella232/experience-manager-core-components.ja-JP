@@ -1,9 +1,9 @@
 ---
 title: タブコンポーネント
 description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 100%
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開されているコンテンツを読者と同じ立場でタブを操作するには、**[](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)プレビュー**&#x200B;モードまたは「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開されているコンテンツを読者と同じ立場でタブを操作するには、**[](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)プレビュー**&#x200B;モードまたは「**[公開されているとおりに表示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
 ## デザインダイアログ{#design-dialog}
 
