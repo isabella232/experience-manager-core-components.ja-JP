@@ -2,8 +2,11 @@
 title: テキストコンポーネント（v1）
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 index: n
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 100%
 
 ---
 
@@ -147,6 +150,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
       * 新しいタブ
       * 親フレーム
       * トップフレーム
+
    リンクを適用する場合はチェックマークをタップまたはクリックし、キャンセルする場合は「x」をタップまたはクリックします。
 
 * リンク解除
