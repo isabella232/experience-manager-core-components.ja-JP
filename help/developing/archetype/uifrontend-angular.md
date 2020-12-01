@@ -1,8 +1,11 @@
 ---
 title: Angular SPA のフロントエンドビルド
 description: Angular ベースの SPA プロジェクトのフロントエンドビルドプロセスの説明
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 100%
 
 ---
 
