@@ -2,8 +2,11 @@
 title: タイトルコンポーネント（v1）
 description: コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
 index: n
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 100%
 
 ---
 
