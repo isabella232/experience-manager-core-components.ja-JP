@@ -1,9 +1,9 @@
 ---
 title: 言語ナビゲーションコンポーネント
 description: 言語ナビゲーションコンポーネントは、言語と国を指定したサイトナビゲーション機能を提供し、訪問者が同じページを異なるロケールでナビゲートできるようにします。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
 
