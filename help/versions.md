@@ -2,9 +2,9 @@
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 translation-type: tm+mt
-source-git-commit: 2f3d2499e9f6c88453b633c20e49703eac25eff4
+source-git-commit: 0f2994657ac42d4110e3b802753968a2bfdf0e5a
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1873'
 ht-degree: 78%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 78%
 
 # コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.12.1 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および [On-Premise の AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。2020年11月に2.12.0のパッチリリースとしてリリースされました。リリース2.12.0では、フォーム、メタデータ、およびデータレイヤーに新機能がいくつか導入されました。
+コアコンポーネントの現在のリリースは 2.13.0 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および [On-Premise の AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 78%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
+| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | このリリースには、[画像コンポーネント用の新しいダイナミックメディア機能が含まれています。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年12月4日 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | これは、2.12.0のパッチリリースで、マイナーな修正が含まれていました。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年11月11日 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | これは2.12.0のパッチリリースで、[イメージコンポーネントの重大なバグを修正しました。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年11月5日 |
 | [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | このリリースでは、新しいPOSTフォームハンドラ[が導入されました。](/help/components/forms/form-container.md#post-data)カスタムCSS、Javascript、メタデータ[タグを含める機能は、コンテキスト対応設定を介して行われます。](/help/developing/including-clientlibs.md#context-aware-loading)と`DataLayerBuilder`ユーティリティは、カスタムコンポーネントのデータレイヤー統合を単純化します。](/help/developing/data-layer/integrations.md#enabling-custom-components)[ | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年10月29日 |
