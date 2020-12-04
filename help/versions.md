@@ -4,8 +4,8 @@ description: コアコンポーネントはリリースとして公開されま�
 translation-type: tm+mt
 source-git-commit: 0f2994657ac42d4110e3b802753968a2bfdf0e5a
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
