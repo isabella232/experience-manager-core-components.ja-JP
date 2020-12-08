@@ -1,16 +1,12 @@
 ---
-source-git-commit: 68b8587bc943d30229d8be742904ebc4b93da9d4
-workflow-type: ht
-translation-type: ht
-source-wordcount: '233'
+source-git-commit: d1ab5eb1b3de07ccdf095b03f7c2e760dfc3d413
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
 # Adobe Experience Manager コアコンポーネントドキュメント
-
-| EXL-PR | EXL | プレビュー | アクティベート | 公開済み | ヘルプ |
-|--- |--- |--- |--- |--- |--- |
-| [![ビルドのステータス](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_pr-exl/lastBuild/) | [![ビルドのステータス](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_exl/lastBuild/lastBuild) | [プレビュー URL](https://experienceleague.corp.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [ライブ URL](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) | [オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=ja) |
 
 ## コアコンポーネントドキュメント
 
@@ -19,8 +15,8 @@ Adobe Experience Manager コアコンポーネント&#x200B;***ドキュメン�
 ドキュメントに対する貢献を歓迎します。次のリソースを参照してください。
 
 * [contributing.md](contributing.md)：ドキュメントに対する貢献方法の概要。
-* [guidelines.md](guidelines.md)：貢献で期待される内容とドキュメント貢献の作成方法の概要。
-* [code-of-conduct.md](code-of-conduct.md)：このドキュメントプロジェクトへの貢献時に期待される行動の基準の概要。
+* [guidelines.md](guidelines.md)：投稿で期待される内容とドキュメント投稿の作成方法の概要。
+* [code-of-conduct.md](code-of-conduct.md)：このドキュメントプロジェクトへの投稿時に期待される行動の基準の概要。
 
 ## コアコンポーネントリポジトリ
 
