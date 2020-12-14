@@ -2,10 +2,10 @@
 title: ボタンコンポーネント
 description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -72,4 +72,4 @@ ht-degree: 100%
 
 ### 「スタイル」タブ {#styles-tab}
 
-画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+ButtonコンポーネントはAEM [Style System](/help/get-started/authoring.md#component-styling)をサポートします。
