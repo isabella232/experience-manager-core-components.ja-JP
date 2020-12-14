@@ -2,7 +2,7 @@
 title: AEM プロジェクトアーキタイプの使用
 description: AEM プロジェクトアーキタイプの使用方法の詳細
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 100%
@@ -57,9 +57,9 @@ Maven でプロジェクトを構築すると、AEM にデプロイできるア�
 
 もちろん、Maven を直接呼び出すこともできます。
 
-```
+```shell
 mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=XX \
  -D aemVersion=cloud \
@@ -130,31 +130,31 @@ mvn -B archetype:generate \
 
 プロジェクトのルートディレクトリで実行するすべてのモジュールを構築するには、次の Maven コマンドを使用します。
 
-```
+```shell
 mvn clean install
 ```
 
 実行中の AEM インスタンスがある場合は、次の Maven コマンドを使用して、プロジェクト全体を構築およびパッケージ化し、AEM にデプロイできます。
 
-```
+```shell
 mvn clean install -PautoInstallPackage
 ```
 
 パブリッシュインスタンスにデプロイするには、次のコマンドを実行します。
 
-```
+```shell
 mvn clean install -PautoInstallPackagePublish
 ```
 
 または、パブリッシュインスタンスにデプロイするには、次のコマンドを実行します。
 
-```
+```shell
 mvn clean install -PautoInstallPackage -Daem.port=4503
 ```
 
 または、オーサーにバンドルのみをデプロイするには、次のコマンドを実行します。
 
-```
+```shell
 mvn clean install -PautoInstallBundle
 ```
 
@@ -170,7 +170,7 @@ mvn clean install -PautoInstallBundle
 
 これらのプロパティは、より上位の環境にデプロイされる際には上書きされるよう設定されています。そうすることで、POM ファイルを変更する必要がなく、`aem.host` および `sling.password` などの変数をコマンドライン引数で上書きできます。
 
-```
+```shell
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
 ```
 
