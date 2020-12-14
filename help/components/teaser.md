@@ -2,10 +2,10 @@
 title: ティーザーコンポーネント
 description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 100%
+source-wordcount: '762'
+ht-degree: 98%
 
 ---
 
@@ -52,6 +52,10 @@ ht-degree: 100%
    * [アセットブラウザー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
    * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)」をタップまたはクリックします。
+
+>[!NOTE]
+>
+>[Dynamic Media](image.md#dynamic-media) 機能は、現在、Teaserコンポーネントでは使用できません。
 
 ### テキスト {#text}
 
