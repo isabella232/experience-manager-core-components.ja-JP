@@ -2,10 +2,10 @@
 title: AEM プロジェクトのアーキタイプフロントエンドビルド
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 100%
+source-wordcount: '1620'
+ht-degree: 99%
 
 ---
 
@@ -33,11 +33,11 @@ AEM プロジェクトのアーキタイプ全体が `mvn clean install -PautoIn
 
 >[!TIP]
 >
->[AEM 開発ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/introduction/clientlibs.html)で AEM による ClientLib の処理方法および[それらを含める](/help/developing/including-clientlibs.md)方法をご確認ください。また、[ui.frontend モジュールで ClientLib がどのように使用されるか](#clientlib-generation)については以下を参照してください。
+>[AEM 開発ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)で AEM による ClientLib の処理方法および[それらを含める](/help/developing/including-clientlibs.md)方法をご確認ください。また、[ui.frontend モジュールで ClientLib がどのように使用されるか](#clientlib-generation)については以下を参照してください。
 
 ## ClientLib の概要 {#clientlibs}
 
-フロントエンドモジュールは、[AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) を使用して利用可能になります。NPM ビルドスクリプトを実行すると、アプリケーションがビルドされ、aem-clientlib-generator パッケージがビルド出力結果を取得して、そのような ClientLib に変換します。
+フロントエンドモジュールは、[AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) を使用して利用可能になります。NPM ビルドスクリプトを実行すると、アプリケーションがビルドされ、aem-clientlib-generator パッケージがビルド出力結果を取得して、そのような ClientLib に変換します。
 
 ClientLib は、次のファイルとディレクトリで構成されます。
 
