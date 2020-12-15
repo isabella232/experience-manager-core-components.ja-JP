@@ -2,10 +2,10 @@
 title: AEM プロジェクトアーキタイプの使用
 description: AEM プロジェクトアーキタイプの使用方法の詳細
 translation-type: tm+mt
-source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '2057'
-ht-degree: 100%
+source-wordcount: '2055'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ Maven でプロジェクトを構築すると、AEM にデプロイできるア�
 
 ### プロジェクトの作成 {#create-project}
 
-最初に、最も簡単に [AEM Eclipse 拡張機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/devtools/aem-eclipse.html)を使用し、新しいプロジェクトウィザードに従って「**AEM Sample Multi-Module Project**」を選択し、リリースされたバージョンのアーキタイプを使用できます。
+最初に、最も簡単に [AEM Eclipse 拡張機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html)を使用し、新しいプロジェクトウィザードに従って「**AEM Sample Multi-Module Project**」を選択し、リリースされたバージョンのアーキタイプを使用できます。
 
 もちろん、Maven を直接呼び出すこともできます。
 
