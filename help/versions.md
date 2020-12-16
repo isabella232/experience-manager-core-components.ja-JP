@@ -2,17 +2,17 @@
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 translation-type: tm+mt
-source-git-commit: 0f2994657ac42d4110e3b802753968a2bfdf0e5a
+source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1901'
+ht-degree: 95%
 
 ---
 
 
 # コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.13.0 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および [On-Premise の AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。
+コアコンポーネントの現在のリリースは 2.13.2 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および[オンプレミスの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
@@ -26,32 +26,33 @@ ht-degree: 0%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | このリリースには、[画像コンポーネント用の新しいダイナミックメディア機能が含まれています。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年12月4日 |
+| [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | これは、AEMaaCSでRTEを使用した場合の問題に対処するためのパッチリリースでした | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年12月16日 |
+| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | このリリースには、[画像コンポーネントの新しいDynamic Media機能が含まれています。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年12月4日 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | これは、2.12.0のパッチリリースで、マイナーな修正が含まれていました。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年11月11日 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | これは2.12.0のパッチリリースで、[イメージコンポーネントの重大なバグを修正しました。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年11月5日 |
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | このリリースでは、新しいPOSTフォームハンドラ[が導入されました。](/help/components/forms/form-container.md#post-data)カスタムCSS、Javascript、メタデータ[タグを含める機能は、コンテキスト対応設定を介して行われます。](/help/developing/including-clientlibs.md#context-aware-loading)と`DataLayerBuilder`ユーティリティは、カスタムコンポーネントのデータレイヤー統合を単純化します。](/help/developing/data-layer/integrations.md#enabling-custom-components)[ | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020年10月29日 |
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | このリリースでは、[AMPのサポートが導入されました。](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 7 月 20 日 |
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | このリリースでは、[PDFビューアコンポーネントが導入されました。](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | 継続的 | 8、11 | 2020 年 6 月 17 日 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | このリリースでは、[Adobeクライアントデータレイヤー](/help/developing/data-layer/overview.md)との統合が可能になり、[プログレスバーコンポーネントが導入されました。](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 継続的 | 8、11 | 2020 年 5 月 29 日 |
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | このリリースでは小規模の機能強化による修正に重点を置きました。 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 12 月 5 日 |
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | このリリースでは、新しい[埋め込みコンポーネントが導入されました。](/help/components/embed.md) | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 9 月 25 日 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | このリリースでは、新しい[エクスペリエンスフラグメントコンポーネントが導入されました。](/help/components/experience-fragment.md) | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 9 月 6 日 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | このリリースでは、新しい[アコーディオン、](/help/components/accordion.md) [ボタン、](/help/components/button.md) [コンテナ、](/help/components/container.md)および[コンポーネントのダウンロードが導入されました。](/help/components/download.md) | 6.4.2.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 6 月 25 日 |
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | このリリースでは、[コンテンツフラグメントリストコンポーネントが導入されました。](/help/components/content-fragment-list.md) | 6.4.2.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 5 月 7 日 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | このリリースでは、[コンポーネントライブラリ](https://aemcomponents.dev)の改良点に焦点を当てていますが、[セパレータコンポーネントの機能強化も含まれています。](/help/components/separator.md) | 6.4.2.0 以上 | 6.5.0.0 以上 | 継続的 | 8 | 2019 年 3 月 14 日 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | このリリースは、[コンポーネントライブラリ](https://aemcomponents.dev)に重点を置き、新しい[セパレータコンポーネント](/help/components/separator.md)を導入しましたが、[画像コンポーネントの機能強化も含まれています。](/help/components/image.md) | 6.4.2.0 以上 | - | - | 8 | 2019 年 2 月 11 日 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | このリリースは主にバグ修正に焦点を当てていますが、[カルーセルコンポーネントの機能強化も含まれています。](/help/components/carousel.md) | 6.4.2.0 以上 | - | - | 8 | 2018 年 11 月 27 日 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | このリリースでは、[タブコンポーネント](/help/components/tabs.md)と[カルーセルコンポーネント](/help/components/carousel.md)が導入され、[画像コンポーネント、](/help/components/image.md)[ページコンポーネント、](/help/components/page.md)と[タイトルコンポーネント](/help/components/title.md)の機能が強化されました。 | 6.4.2.0 以上 | - | - | 8 | 2018 年 10 月 16 日 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | このリリースでは、[Teaserコンポーネント](/help/components/teaser.md)が導入され、[画像コンポーネント](/help/components/image.md)が改善され、多数のバグ修正が行われました。 | 6.4.2.0 以上 | - | - | 8 | 2018 年 7 月 13 日 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | これはバグフィックスのリリースでした。 | 6.4.0.0 以上 | - | - | 8 | 2018 年 6 月 12 日 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | このリリースでは、[イメージコンポーネントでの画像反転のサポートなど、機能が強化され、バグが修正され、小さな改善が加えられました。](/help/components/image.md) | 6.4.0.0 以上 | - | - | 8 | 2018 年 4 月 11 日 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | このリリースは主に、内部の改善、バグ修正、および[画像コンポーネント、](/help/components/image.md) [ページコンポーネント、](/help/components/page.md)および[コンテンツフラグメントコンポーネントの小さな改善に焦点を当てています。](/help/components/content-fragment-component.md) | 6.4.0.0 以上 | - | - | 8 | 2018 年 3 月 7 日 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | このリリースでは、[ナビゲーションコンポーネント、](/help/components/navigation.md) [言語ナビゲーションコンポーネント、](/help/components/language-navigation.md)および[クイック検索コンポーネント](/help/components/quick-search.md)が導入され、すべてのコンポーネントに対して[スタイルシステム](/help/get-started/authoring.md#component-styling)が実装されました。 | 6.4.0.0 以上 | - | - | 8 | 2018 年 1 月 16 日 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | このリリースでは、すべてのコンポーネントにJSONエクスポートが実装され、[コンテンツフラグメントコンポーネントが導入されています。](/help/components/content-fragment-component.md) | 6.4.0.0 以上 | - | - | 8 | 2017 年 10 月 10 日 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | このリリースでは、[イメージコンポーネントに対していくつかの修正が追加されています。](/help/components/image.md) | 6.4.0.0 以上 | - | - | 8 | 2017 年 8 月 4 日 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | このリリースでは、[ページコンポーネント、](/help/components/page.md) [画像コンポーネント、](/help/components/image.md)および様々なグローバルな修正と改善に対する修正が追加されています。 | 6.4.0.0 以上 | - | - | 8 | 2017 年 4 月 26 日 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | このリリースでは、[イメージコンポーネント内のアニメーションGIF画像に関する修正が追加されました。](/help/components/image.md) | 6.4.0.0 以上 | - | - | 7 | 2017 年 3 月 22 日 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | コアコンポーネントの初回リリースです。。 | 6.4.0.0 以上 | - | - | 7 | 2017 年 3 月 20 日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | このリリースでは、[新しい POST フォームハンドラ](/help/components/forms/form-container.md#post-data)、カスタム CSS、JavaScript、メタデータ[タグをコンテキストに応じた設定で組み込む](/help/developing/including-clientlibs.md#context-aware-loading)機能、[カスタムコンポーネントでデータレイヤーとの統合を簡単におこなう](/help/developing/data-layer/integrations.md#enabling-custom-components)ための `DataLayerBuilder` ユーティリティが導入されました。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 10月 30 日 |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | このリリースでは、[AMP のサポート](/help/developing/amp.md)が導入されました。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 7 月 21 日 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | このリリースでは、[PDF ビューアコンポーネント](/help/components/pdf-viewer.md)が導入されました。 | 6.4.8.1+ | 6.5.5.0+ | 継続的 | 8、11 | 2020 年 6 月 18 日 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | このリリースでは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) との統合が可能になり、[進行状況バーコンポーネント](/help/components/progress-bar.md)が導入されました。 | 6.4.8.0+ | 6.5.4.0+ | 継続的 | 8、11 | 2020 年 5 月 30日 |
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | このリリースでは小規模の機能強化による修正に重点を置きました。 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 12 月 6 日 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | このリリースでは、新しい[埋め込みコンポーネント](/help/components/embed.md)が導入されました。 | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 9 月 26 日 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | このリリースでは、新しい[エクスペリエンスフラグメントコンポーネント](/help/components/experience-fragment.md)が導入されました. | 6.4.4.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 9 月 7 日 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | このリリースでは、[アコーディオン](/help/components/accordion.md)、[ボタン](/help/components/button.md)、[コンテナ](/help/components/container.md)、[ダウンロード](/help/components/download.md)の各コンポーネントが新しく導入されました。 | 6.4.2.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 6 月 26 日 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | このリリースでは、[コンテンツフラグメントリストコンポーネント](/help/components/content-fragment-list.md)が導入されました。 | 6.4.2.0 以上 | 6.5.0.0 以上 | 継続的 | 8、11 | 2019 年 5 月 8 日 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | このリリースでは[コンポーネントライブラリ](https://aemcomponents.dev)の改善に重点を置いていますが、[区切り文字コンポーネント](/help/components/separator.md)の機能強化も含まれています。 | 6.4.2.0 以上 | 6.5.0.0 以上 | 継続的 | 8 | 2019 年 3 月 15 日 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | このリリースでは[コンポーネントライブラリ](https://aemcomponents.dev)の改善に重点を置き、新しい[区切り文字コンポーネント](/help/components/separator.md)を導入したほか、[画像コンポーネント](/help/components/image.md)の機能強化も含まれています。 | 6.4.2.0 以上 | - | - | 8 | 2019 年 2 月 12 日 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | このリリースは主にバグ修正に重点を置いていますが、[カルーセルコンポーネント](/help/components/carousel.md)の機能強化も含まれています。 | 6.4.2.0 以上 | - | - | 8 | 2018 年 11 月 28 日 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | このリリースでは、[タブコンポーネント](/help/components/tabs.md)と[カルーセルコンポーネント](/help/components/carousel.md)が導入されたほか、[画像コンポーネント](/help/components/image.md)、[ページコンポーネント](/help/components/page.md)、[タイトルコンポーネント](/help/components/title.md)が改善され、トラッキング機能も強化されました。 | 6.4.2.0 以上 | - | - | 8 | 2018 年 10 月 17 日 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | このリリースでは、[ティーザーコンポーネント](/help/components/teaser.md)が導入されたほか、[画像コンポーネント](/help/components/image.md)の改善と多数のバグ修正がおこなわれました。 | 6.4.2.0 以上 | - | - | 8 | 2018 年 7 月 14 日 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | バグ修正リリース。 | 6.4.0.0 以上 | - | - | 8 | 2018 年 6 月 13 日 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | このリリースでは、内部的な改善、バグ修正、小規模な改善（[画像コンポーネント](/help/components/image.md)での画像反転のサポートなど）が追加されました。 | 6.4.0.0 以上 | - | - | 8 | 2018 年 4 月 12 日 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | このリリースでは主に、内部的な改善とバグの修正に加えて、[画像コンポーネント](/help/components/image.md)、[ページコンポーネント](/help/components/page.md)、[コンテンツフラグメントコンポーネント](/help/components/content-fragment-component.md)のマイナーな改善にも重点を置いています。 | 6.4.0.0 以上 | - | - | 8 | 2018 年 3 月 8 日 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | このリリースでは、[ナビゲーションコンポーネント](/help/components/navigation.md)、[言語ナビゲーションコンポーネント](/help/components/language-navigation.md)、[クイック検索コンポーネント](/help/components/quick-search.md)が導入されたほか、すべてのコンポーネントに[スタイルシステム](/help/get-started/authoring.md#component-styling)が実装されました。 | 6.4.0.0 以上 | - | - | 8 | 2018 年 1 月 17 日 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | このリリースでは、すべてのコンポーネントに JSON 形式での書き出しが実装されたほか、[コンテンツフラグメントコンポーネント](/help/components/content-fragment-component.md)が導入されました。 | 6.4.0.0 以上 | - | - | 8 | 2017 年 10 月 11 日 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | このリリースでは、[画像コンポーネント](/help/components/image.md)の修正がいくつか追加されています。 | 6.4.0.0 以上 | - | - | 8 | 2017 年 8 月 5 日 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | このリリースでは、[ページコンポーネント](/help/components/page.md)と[画像コンポーネント](/help/components/image.md)の修正のほか、様々なグローバル修正および改善がおこなわれました。 | 6.4.0.0 以上 | - | - | 8 | 2017 年 4 月 27 日 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | このリリースでは、[画像コンポーネント](/help/components/image.md)のアニメーション GIF 画像に関する修正が追加されました。 | 6.4.0.0 以上 | - | - | 7 | 2017 年 3 月 23 日 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | コアコンポーネントの初回リリースです。。 | 6.4.0.0 以上 | - | - | 7 | 2017 年 3 月 21 日 |
 
 >[!NOTE]
 >
@@ -100,13 +101,13 @@ ht-degree: 0%
 
 コアコンポーネントは GitHub を通じて配布されます。これにより、アドビはより迅速にコンポーネントに機能を追加できるほか、AEM リリースサイクル以外でコミュニティからの入力を取り入れることもできます。
 
-コアコンポーネントは、互換性のある規定された AEM バージョンで使用できます。つまり、1 つの AEM バージョンがコアコンポーネントの複数のバージョンまたはリリースをサポートしている場合があります。その結果、以前の基盤コンポーネントよりも柔軟性が高くなっています。基盤コンポーネントは AEM の特定のバージョンに結び付いていました。
+コアコンポーネントは、互換性のある定義済みの AEM バージョンで使用できます。つまり、1 つの AEM バージョンがコアコンポーネントの複数のバージョンまたはリリースをサポートしている場合があります。その結果、以前の基盤コンポーネントよりも柔軟性が高くなっています。基盤コンポーネントは AEM の特定のバージョンに結び付いていました。
 
 ### バージョン {#versions}
 
 コアコンポーネントの主要な反復が&#x200B;**バージョン**&#x200B;です。各コンポーネントにはバージョンがあります。バージョンは、v1 や v2 のように、**v** の後に正の整数が付いた形式で示されます。バージョンは、下位互換性のない変更の場合にのみ増えます。これは、通常、新しい特長や機能が導入される場合です。
 
-開発者や管理者は、リソースタイプパスや実装の完全修飾 Java クラス名に含まれている数字で、コアコンポーネントのバージョンを認識できます。このバージョン番号は、[セマンティックバージョニングガイドライン](https://semver.org/)/で定義されたメジャーバージョンを表します。
+開発者や管理者は、リソースタイプパスや実装の完全修飾 Java クラス名に含まれている数字で、コアコンポーネントのバージョンを認識できます。このバージョン番号は、[セマンティックバージョニングガイドライン](https://semver.org/)で定義されたメジャーバージョンを表します。
 
 コアコンポーネントバージョンについて詳しくは、[コアコンポーネントの開発者向けドキュメント](developing/guidelines.md)を参照してください。
 
