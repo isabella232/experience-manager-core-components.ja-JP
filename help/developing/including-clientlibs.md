@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: afce571ada011c38c83830628f09a9e268658965
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# ククライアントライブラリを含める{#including-client-libraries}
+# クライアントライブラリを含める {#including-client-libraries}
 
-使用事例に応じて[クライアントライブラリ](/help/developing/archetype/uifrontend.md#clientlibs)を含める方法は多数あります。このドキュメントでは、それぞれの例とサンプル [HTL スニペット](https://docs.adobe.com/content/help/ja-JP/experience-manager-htl/using/overview.html) を紹介します。
+使用事例に応じて[クライアントライブラリ](/help/developing/archetype/uifrontend.md#clientlibs)を含める方法は多数あります。このドキュメントでは、それぞれの例とサンプル [HTL スニペット](https://docs.adobe.com/content/help/ja-JP/experience-manager-htl/using/overview.html)を紹介します。
 
 ## 推奨されるデフォルトの使用方法 {#recommended-default-usage}
 
-状況に何が最適化を調べる時間がない場合は、次の HTL 行をページ `head` 要素内に配置して、クライアントライブラリを含めます。
+状況に何が最適かを調べる時間がない場合は、次の HTL 行をページ `head` 要素内に配置して、クライアントライブラリを含めます。
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -37,7 +37,7 @@ ht-degree: 84%
 </sly>
 ```
 
-複数のクライアントライブラリカテゴリに対して、同じ処理を一度に行うには、文字列の配列を `categories` パラメーターに渡します。
+複数のクライアントライブラリカテゴリに対して、同じ処理を一度におこなうには、文字列の配列を `categories` パラメーターに渡します。
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -112,11 +112,11 @@ CSS をインライン化するには、`cssInline` を使用できますが、�
 </script>
 ```
 
-## コンテキスト対応CSSとJavaScript {#context-aware-loading}の読み込み
+## コンテキスト対応 CSS と JavaScript の読み込み {#context-aware-loading}
 
-[ページコンポーネント](/help/components/page.md)は、開発者定義のコンテキスト対応CSS、JavaScriptまたはmetaタグの読み込みもサポートしています。
+[ページコンポーネント](/help/components/page.md)では、開発者定義のコンテキスト対応 CSS、JavaScript、メタタグの読み込みもサポートしています。
 
-これは、次の構造を使用して、`com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig`の[コンテキスト対応リソース](context-aware-configs.md)を作成することで行います。
+これをおこなうには、次の構造を使用して `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` の[コンテキスト対応リソース](context-aware-configs.md)を作成します。
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
