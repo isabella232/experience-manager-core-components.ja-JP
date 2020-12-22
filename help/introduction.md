@@ -10,7 +10,7 @@ ht-degree: 94%
 ---
 
 
-# コアコンポーネントの概要{#core-components-introduction}
+# コアコンポーネントの概要 {#core-components-introduction}
 
 Adobe Experience Manager では、コンポーネントは、オーサリングするページのコンテンツを構成する構造要素です。コンポーネントは常に AEM エクスペリエンスの基本要素となってきました。作成者はコンポーネントを使用することで単純かつ強力にページを作成し、開発者は柔軟かつ拡張可能なコンポーネントを開発できます。
 
@@ -18,7 +18,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 ## リソース {#resources}
 
-* **[コンポーネントライブラリ：](https://www.adobe.com/go/aem_cmp_library_jp)**&#x200B;コンポーネントを様々な設定で表示する例を集めたものです。
+* **[コンポーネントライブラリ：](https://www.adobe.com/go/aem_cmp_library)**&#x200B;コンポーネントを様々な設定で表示する例を集めたものです。
 * **コンポーネントのドキュメント（本ドキュメント）：**&#x200B;開発者および作成者向けに、各コンポーネントの詳細を説明しています。
 * **[コアコンポーネント GitHub リポジトリ：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;開発者向けに、各コンポーネントおよびプロジェクトのダウンロードの詳細を説明しています。
 * 入門ガイド：
@@ -38,7 +38,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | 追跡可能 | [Adobe Client Data Layer との統合](/help/developing/data-layer/overview.md)により、訪問者エクスペリエンスのあらゆる側面を追跡できます。 |
 | 高いアクセシビリティ | [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)に準拠し、ARIA ラベルを提供し、キーボードナビゲーションをサポートします（[既知の問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)を参照）。 |
 | SEO 対応 | HTML 出力はセマンティックであり、[schema.org](https://schema.org) マイクロデータ注釈を提供します。 |
-| Web アプリ対応 | [効率化された JSON 出力](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)によりクライアント側でのレンダリングが可能になる一方、[コンテキスト内編集](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)も依然として可能です。 |
+| Web アプリ対応 | [効率化された JSON 出力](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)によりクライアント側でのレンダリングが可能になる一方、[コンテキスト内編集](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)も依然として可能です。 |
 | AMP のサポート | コンポーネントには、[AMP 標準に対する組み込みのサポート](/help/developing/amp.md)があり、モバイルエクスペリエンスの高速化に役立ちます。 |
 | デザインキット | [Adobe XD 用 UI キット](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)を使用すると、デザイナーはワイヤフレームを作成したあと、[必要に応じてスタイルを設定](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)できます。 |
 | テーマ適用可能 | コンポーネントは[スタイルシステム](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/components-templates/style-system.html)を実装し、マークアップは [BEM CSS の命名規則](http://getbem.com/)に従っています。 |
@@ -47,7 +47,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | ローカライズ可能 | スマートリファレンス解決機能により、特定のコンポーネントが対応する[ローカライズされたコンテンツを自動的に検索してレンダリング](get-started/localization.md)できます。 |
 | オープンソース | 何か問題がある場合は、[改善案を寄稿できます。](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
-## コンポーネント{#the-components}
+## コンポーネント {#the-components}
 
 コアコンポーネントの現在のバージョンには、次のコンポーネントが含まれています。
 
@@ -116,4 +116,4 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 コアコンポーネントでは、[編集可能なテンプレート](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)を使用する必要があり、クラシック UI や静的テンプレートはサポートされていません。必要に応じて、[AEM 最新化ツール](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)を使用して、これらの最新の AEM 機能をプロジェクトに反映します。
 
-ローカルの開発環境をセットアップするには、[AEM as a Cloud Service SDK の場合はこの概要](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)を、[旧バージョンの AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) の場合は本ドキュメントを、それぞれを参照してください。
+ローカルの開発環境をセットアップするには、[AEM as a Cloud Service SDK の場合はこの概要](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)を、[旧バージョンの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) の場合は本ドキュメントを、それぞれを参照してください。
