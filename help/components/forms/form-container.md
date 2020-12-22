@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 フォームコンテナコンポーネントでは、シンプルな WCM フォームをサポートし、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
-[設定ダイアログ](#configure-dialog)を使用すると、コンテンツエディターは、フォームの送信によってトリガーされるアクション、送信を処理するURL、ワークフローをトリガーするかどうかを定義できます。 テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
+[設定ダイアログ](#configure-dialog)を使用すると、フォーム送信でトリガーされるアクション、送信を処理する URL、ワークフローをトリガーするかどうかをコンテンツ編集者が定義できます。テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 80%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-フォームコンテナコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_container_jp)を参照してください。
+フォームコンテナコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_container)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
@@ -54,26 +54,26 @@ ht-degree: 80%
 選択した&#x200B;**アクションタイプ**&#x200B;に応じて、コンテナ内で使用可能なオプションが変わります。使用可能なアクションタイプは次のとおりです。
 
 * [Post Form Data](#post-data)
-* [メール](#mail)
-* [コンテンツを格納](#store-content)
+* [Mail](#mail)
+* [Store Content](#store-content)
 
 タイプに関係なく、各アクションに適用される[一般的な設定](#general-settings)があります。
 
 ### Post Form Data {#post-data}
 
-フォームが送信されると、フォームデータの後処理のアクションタイプは、送信されたデータをJSONとしてサードパーティに渡して処理します。
+フォームが送信されると、「Post Form Data」アクションタイプにより、送信されたデータを JSON 形式でサードパーティに渡して処理させます。
 
-![フォームコンテナコンポーネントの編集ダイアログの「フォームデータを投稿」オプション](/help/assets/form-container-edit-post.png)
+![フォームコンテナコンポーネントの編集ダイアログの「Post Form Data」オプション](/help/assets/form-container-edit-post.png)
 
-* **Endpoint**  — データを処理する完全修飾HTTPSサービス
-* **エラーメッセージ**  — 送信が成功しなかった場合に表示するメッセージ
+* **エンドポイント** - データを処理する HTTPS サービスの完全修飾名
+* **エラーメッセージ** - 送信が成功しなかった場合に表示するメッセージ
 
 >[!TIP]
->システム管理者が転送されたフォームデータの処理を処理するために調整できる、追加のタイムアウトオプションがあります。 [詳しくは、GitHubの技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>転送されたフォームデータを処理するためにシステム管理者が調整できる追加のタイムアウトオプションが用意されています。[詳しくは、GitHub の技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
-### メール {#mail}
+### Mail {#mail}
 
-アクションタイプが「メール」の場合、フォームが送信されると、指定した受信者に電子メールが送信されます。
+アクションタイプが「Mail」の場合、フォームが送信されると、指定した受信者に電子メールが送信されます。
 
 ![フォームコンテナコンポーネントの編集ダイアログのメールオプション](/help/assets/form-container-edit-mail.png)
 
@@ -86,7 +86,7 @@ ht-degree: 80%
    * アドレスを追加するには、「**追加**」ボタンをタップまたはクリックします
    * 電子メールアドレスを削除するには、「**削除**」ボタンをタップまたはクリックします
 
-### コンテンツを格納 {#store-content}
+### Store Content {#store-content}
 
 フォームが送信されると、フォームのコンテンツは、指定されたリポジトリの場所に保存されます。
 
@@ -98,9 +98,9 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->ユーザー・データの管理を容易にし、懸念事項を分離するために、ユーザー生成コンテンツをリポジトリ内に格納することは、一般的に推奨されません。
+>ユーザーデータを管理しやすくしたり、問題点を分離できるようにするために、ユーザー生成コンテンツをリポジトリ内に格納することは、一般的に推奨されません。
 >
->代わりに、[Post Form Data](#post-data)アクションタイプを使用して、ユーザーコンテンツを専用サービスプロバイダーに渡します。
+>代わりに、[Post Form Data](#post-data) アクションタイプを使用して、ユーザーコンテンツを専用のサービスプロバイダーに渡します。
 
 ### 一般的な設定 {#general-settings}
 
@@ -108,16 +108,16 @@ ht-degree: 80%
 
 ![フォームコンテナコンポーネントの編集ダイアログの一般オプション](/help/assets/form-container-edit-general.png)
 
-* **「ありがとうございます」ページ** - フォーム送信の完了後、ユーザーは指定したページにリダイレクトされます。
+* **ありがとうページ** - フォーム送信の完了後、ユーザーは指定したページにリダイレクトされます。
    * 選択ダイアログを使用して、AEM 内のリソースを選択します。
    * ありがとうページが AEM にない場合は、絶対 URL を指定します。絶対 URL 以外の URL は、AEM からの相対 URL と解釈されます。
    * 空白のままにすると、送信後にフォームが再度表示されます。
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
