@@ -1,16 +1,16 @@
 ---
 title: ボタンコンポーネント
 description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# ボタンコンポーネント{#button-component}
+# ボタンコンポーネント {#button-component}
 
 コアコンポーネントのボタンコンポーネントを使用すると、ページ上にボタンアイテムを設定および表示することができます。
 
@@ -35,11 +35,11 @@ ht-degree: 98%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-ボタンコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_button_jp)を参照してください。
+ボタンコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_button)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-ボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_button_v1_jp) を参照してください。
+ボタンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_button_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -55,7 +55,7 @@ ht-degree: 98%
 * **リンク** - AEM 内のコンテンツページ、外部リソース、アンカーへのリンク
    * **選択ダイアログ**&#x200B;を使用して、AEM 内のパスを選択します。
 * **アイコン** - ボタンにアイコンを表示するための識別子
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
@@ -68,8 +68,8 @@ ht-degree: 98%
 
 * **ラベル** - コンポーネントの ARIA ラベル属性の値
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 ### 「スタイル」タブ {#styles-tab}
 
-ButtonコンポーネントはAEM [Style System](/help/get-started/authoring.md#component-styling)をサポートします。
+ボタンコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
