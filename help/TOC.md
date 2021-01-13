@@ -3,11 +3,11 @@ sub-product: AEM コアコンポーネント
 user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 98%
 
 + [コアコンポーネントの概要](introduction.md)
 + [成功への道筋](developing/success.md)
-+ [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)
++ [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library)
 + [コアコンポーネントのバージョン](versions.md)
 + はじめに {#get-started}
    + [コアコンポーネントを使用したオーサリング](get-started/authoring.md)
    + [コアコンポーネントの使用](get-started/using.md)
    + [ローカライゼーション機能](get-started/localization.md)
-+ コンポーネント{#components}
++ コンポーネント {#components}
    + [アコーディオン](components/accordion.md)
    + [パンくず](components/breadcrumb.md)
    + [ボタン](components/button.md)
@@ -89,4 +89,4 @@ ht-degree: 98%
       + [ui.frontend.react モジュール](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular モジュール](developing/archetype/uifrontend-angular.md)
       + [ui.tests モジュール](developing/archetype/uitests.md)
-      + [Analyzer Mavenプラグインの構築](developing/archetype/build-analyzer-maven-plugin.md)
+      + [Build Analyzer Maven プラグイン](developing/archetype/build-analyzer-maven-plugin.md)
