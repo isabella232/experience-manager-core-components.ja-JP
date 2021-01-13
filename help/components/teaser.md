@@ -1,11 +1,11 @@
 ---
 title: ティーザーコンポーネント
 description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 98%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-ティーザーコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_teaser_jp)を参照してください。
+ティーザーコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_teaser)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-ティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1_jp) を参照してください。
+ティーザーコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -55,7 +55,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->[Dynamic Media](image.md#dynamic-media) 機能は、現在、Teaserコンポーネントでは使用できません。
+>[Dynamic Media 機能](image.md#dynamic-media)は、現在、Teaser コンポーネントでは使用できません。
 
 ### テキスト {#text}
 
@@ -66,7 +66,7 @@ ht-degree: 98%
    * **リンクされたページからタイトルを取得する** - オンにすると、タイトルには、リンクされたページのタイトルが設定されます。
 * **説明** - ティーザーの小見出しとして表示する説明を定義します。
    * **リンクされたページから説明を取得する** - オンにすると、説明には、リンクされたページの説明が設定されます。
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
@@ -78,11 +78,11 @@ ht-degree: 98%
 * **リンク** - ティーザーに適用されるリンク。パスブラウザーを使用して、リンクターゲットを選択します。
 * **コールトゥアクションを有効化** - オンにすると、コールトゥアクションの定義が有効になります。リスト内の最初のコールトゥアクションリンクが他のティーザー要素のリンクとして使用されます。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 ティーザーコンポーネントは画像レンダリングを[画像コンポーネント](image.md)に委任します。そのため、コンテンツ作成者は画像コンポーネントの[編集ダイアログ]（image.md#edit-dialog）を使用してティーザー画像を操作できます。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログを使用すれば、テンプレート作成者は、コンテンツ作成者がこのコンポーネントを使用する際に選択できるティーザーオプションを定義できます。
 
