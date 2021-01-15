@@ -1,11 +1,11 @@
 ---
 title: AEM as a Cloud Service SDK Build Analyzer Maven プラグイン
 description: ローカルの Maven Build Analyzer プラグインに関するドキュメント
-translation-type: ht
-source-git-commit: b95515dba74486add7f50bc8984f4358090e735c
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 37ec5c245d3806d98dd8a8538c81fc10154a2dfc
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 98%
 
 ---
 
@@ -26,3 +26,4 @@ AEM Maven プロジェクトに含める方法については、[Maven プラグ
 | `bundle-resources` | バンドルに Sling-Bundle-Resources ヘッダーで指定されたリソースが含まれている場合に警告を表示します。これは、AEM as a Cloud Service クラスターでは問題となります。警告は次のようになります。<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> リソースを repoinit ステートメントに変換する際のトラブルシューティングについては [Repoinit ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#repo-init)を参照してください。 | 可 | 可 |
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | これらのアナライザーは、Sling 機能モデルに準拠するアーティファクトを作成する[コンテンツパッケージを機能モデル変換プロセス](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ja#deploying)に関連付けた詳細をチェックします。エラーが発生した場合は、Adobe カスタマーサポートに報告する必要があります。 | 可 | 可 |
 | `api-regions-crossfeature-dups` | AEM as a Cloud Service のパブリック API をオーバーライドする Export-package 宣言が顧客の OSGI バンドルにないことを検証します。<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>この問題を修正するには、AEM パブリック API に含まれるパッケージの書き出しを停止します。 | 可 | 可 |
+| `repoinit` | すべてのレポイントセクションの構文を確認します。 | 可 | 可 |
