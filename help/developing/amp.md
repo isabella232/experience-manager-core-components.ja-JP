@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントの AMP サポート
 description: コアコンポーネントは、AMP（Accelerated Mobile Pages）をサポートします
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,6 +66,6 @@ AMP をコアコンポーネントと共に使用する場合、主な違いは�
 
 >[!NOTE]
 >
->AMPデザインの制限のため、Adobeは、ページのAMPバージョンでのレスポンシブグリッドの使用をサポートしません。
+>AMP デザインの制約により、アドビは、ページの AMP バージョンでレスポンシブグリッドを使用することをサポートしません。
 
 その他の要件および技術的な詳細については、[GitHub 開発者ドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)を参照してください。
