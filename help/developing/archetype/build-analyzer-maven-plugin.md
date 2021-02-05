@@ -1,11 +1,11 @@
 ---
 title: AEM as a Cloud Service SDK Build Analyzer Maven プラグイン
 description: ローカルの Maven Build Analyzer プラグインに関するドキュメント
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 42a9dcd64ed8a9c70ec0f72dac50bf88111b703b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ AEM Maven プロジェクトに含める方法については、[Maven プラグ
 
 >[!NOTE]
 >
->Maven中央リポジトリにある最新バージョンのプラグインを参照するようにMavenプロジェクトを更新することをお勧めします（次の場所）。https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
+>Maven 中央リポジトリ（https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/）にある最新バージョンのプラグインを参照するよう、Maven プロジェクトを更新することをお勧めします。
 
 以下の表は、この手順の一部として実行されるアナライザーについて説明しています。<!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
@@ -31,4 +31,4 @@ AEM Maven プロジェクトに含める方法については、[Maven プラグ
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | これらのアナライザーは、Sling 機能モデルに準拠するアーティファクトを作成する[コンテンツパッケージを機能モデル変換プロセス](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ja#deploying)に関連付けた詳細をチェックします。エラーが発生した場合は、Adobe カスタマーサポートに報告する必要があります。 | 可 | 可 |
 | `api-regions-crossfeature-dups` | AEM as a Cloud Service のパブリック API をオーバーライドする Export-package 宣言が顧客の OSGI バンドルにないことを検証します。<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>この問題を修正するには、AEM パブリック API に含まれるパッケージの書き出しを停止します。 | 可 | 可 |
 | `repoinit` | すべての repoinit セクションの構文を確認します | 可 | 可 |
-| `bundle-nativecode` | OSGIバンドルがネイティブコードをインストールしていないことを検証します。 | 可 | 可 |
+| `bundle-nativecode` | OSGI バンドルがネイティブコードをインストールしないことを検証します。 | 可 | 可 |
