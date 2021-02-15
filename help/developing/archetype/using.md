@@ -1,11 +1,11 @@
 ---
 title: AEM プロジェクトアーキタイプの使用
 description: AEM プロジェクトアーキタイプの使用方法の詳細
-translation-type: ht
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
-workflow-type: ht
-source-wordcount: '2055'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+workflow-type: tm+mt
+source-wordcount: '2064'
+ht-degree: 96%
 
 ---
 
@@ -33,13 +33,16 @@ AEM プロジェクトのアーキタイプを使用すると、数回のキー�
 AEM アーキタイプは、次のモジュールで構成されています。
 
 * **[core](core.md)**：OSGi サービス、リスナー、スケジューラなどのすべてのコア機能、およびサーブレットや要求フィルターなどのコンポーネント関連の Java コードが含まれる Java バンドル。
-* **[ui.apps](uiapps.md)**：プロジェクトの `/apps` 部分と `/etc` 部分（JS と CSS の clientlibs、コンポーネント、テンプレート、実行モード固有の設定、Hobbes テストなど）が含まれます。
+* **[it.tests](ittests.md)**:は、Javaベースの統合テストです。
+* **[ui.apps](uiapps.md)**:には、プロジェクト `/apps` のおよび `/etc` 部分（JSとCSSのclientlib、コンポーネント、テンプレートなど）が含まれます。
 * **[ui.content](uicontent.md)**：ui.apps モジュールのコンポーネントを使用するサンプルコンテンツが含まれます。
-* **[ui.tests](uitests.md)**：サーバー側で実行される JUnit テストが含まれる Java バンドル。このバンドルは実稼動環境にはデプロイされません。
-* **ui.launcher**：ui.tests バンドル（および依存するバンドル）をサーバーにデプロイし、JUnit のリモート実行をトリガーするグルーコードが含まれます。
+* **ui.config**:プロジェクトに対する実行モード固有のOSGi設定が含まれます。
 * **[ui.frontend.general](uifrontend.md)**：**（オプション）**&#x200B;一般的な Webpack ベースのフロントエンドビルドモジュールの使用に必要なアーティファクトが含まれます。
 * **[ui.frontend.react](uifrontend-react.md)**：**（オプション）**&#x200B;アーキタイプを使用して React に基づく SPA プロジェクトを作成する場合に必要なアーティファクトが含まれます。
 * **[ui.frontend.angular](uifrontend-angular.md)**：**（オプション）**&#x200B;アーキタイプを使用して Angular に基づく SPA プロジェクトを作成する場合に必要なアーティファクトが含まれます。
+* **[ui.tests](uitests.md)**:には、SeleniumベースのUIテストが含まれています。
+* **all**:は、ベンダーの依存関係を含め、すべてのコンパイル済みモジュール（バンドルおよびコンテンツパッケージ）を埋め込む単一のコンテンツパッケージです。
+* **分析**:プロジェクトの分析を実行します。これにより、AEMにCloud Serviceとしてデプロイするための追加の検証が提供されます。
 
 ![](/help/assets/archetype-structure.png)
 
@@ -96,7 +99,7 @@ mvn -B archetype:generate \
 | `groupId` |  | 基本 Maven グループ ID です（例：`"com.mysite"`）。 |
 | `package` | *`${groupId}`* | Java ソースパッケージです（例：`"com.mysite"`）。 |
 | `version` | `1.0-SNAPSHOT` | プロジェクトのバージョンです（例：`1.0-SNAPSHOT`）。 |
-| `aemVersion` | `6.5.0` | ターゲット AEM バージョンです（[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`6.5.0`、`6.4.4` のいずれか）。 |
+| `aemVersion` | `6.5.0` | ターゲット AEM バージョンです（[AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`6.5.0`、`6.4.4` のいずれか）。 |
 | `sdkVersion` | `latest` | `aemVersion=cloud` の場合は、[SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) のバージョンを指定できます（例：`2020.02.2265.20200217T222518Z-200130`）。 |
 | `includeDispatcherConfig` | `y` | `aemVersion` の値に応じて、クラウドか AMS／オンプレミスのいずれかの Dispatcher 設定を組み込みます（`y` または `n`）。 |
 | `frontendModule` | `none` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/headless/spa/introduction.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
