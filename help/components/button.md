@@ -1,11 +1,11 @@
 ---
 title: ボタンコンポーネント
 description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
-translation-type: ht
-source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
-workflow-type: ht
-source-wordcount: '438'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -73,3 +73,7 @@ ht-degree: 100%
 ### 「スタイル」タブ {#styles-tab}
 
 ボタンコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+
+## Adobe Client Data Layer {#data-layer}
+
+Buttonコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
