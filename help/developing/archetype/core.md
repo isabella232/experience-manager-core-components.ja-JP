@@ -2,9 +2,9 @@
 title: AEM プロジェクトアーキタイプのコアモジュール
 description: AEM プロジェクトアーキタイプのコアモジュール
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '182'
 ht-degree: 100%
 
 ---
@@ -18,8 +18,16 @@ ht-degree: 100%
 
 上位レベルの環境では、ui.apps モジュールとは別にコアバンドルをデプロイする必要があることはまれですが、ローカルの開発／テスト中は、コアバンドルを直接デプロイすると便利です。Maven Sling プラグインにより、`autoInstallBundle` プロファイル（[親 POM](/help/developing/archetype/using.md#parent-pom) で定義される）を使用してコアバンドルを AEM に直接デプロイできるようになります。
 
-```
+```shell
 mvn -PautoInstallBundle clean install
 ```
 
 正常に実行されると、`http://<host>:<port>/system/console/bundles` にバンドルコンソールが表示されます。
+
+##  単体テスト {#unit-tests}
+
+コアモジュールでの単体テストは、バンドルに含まれるコードの従来のユニットテストを示しています。テストするには、次の手順を実行します。
+
+```shell
+mvn clean test
+```
