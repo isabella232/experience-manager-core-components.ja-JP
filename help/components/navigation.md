@@ -2,10 +2,10 @@
 title: ナビゲーションコンポーネント
 description: ナビゲーションコンポーネントを使用すれば、グローバル化されたサイト構造を容易にナビゲートできます。
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 100%
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -144,7 +144,7 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 
 * **ラベル** - コンポーネントの ARIA ラベル属性の値
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、コンテンツ作成者に表示されるナビゲーションルートページおよびナビゲーションの深さのデフォルト値をテンプレート作成者が設定できます。
 
@@ -165,3 +165,7 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 ### 「スタイル」タブ {#styles-tab}
 
 ナビゲーションコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+
+## Adobe Client Data Layer {#data-layer}
+
+ナビゲーションコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
