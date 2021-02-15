@@ -2,10 +2,10 @@
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 100%
+source-wordcount: '974'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 
 1. `sling:configRef` プロパティを `/content` 配下のサイトの `jcr:content` ノード（例：`/content/<mySite>/jcr:content`）に追加し、以前の手順の `/conf/<mySite>` に設定します。
 
-1. 有効にすると、エディター外のサイトのページを読み込んで、アクティベーションを検証することができます。ページソースを検査し、`<body>` タグには属性 `data-cmp-data-layer-enabled` を含める必要があります。
+1. 有効にすると、アクティベーションの外部にサイトのページを読み込んでエディターを検証できます。例えば、エディターで&#x200B;**表示を「発行済み**&#x200B;として」オプションを使用します。 ページソースを検査し、`<body>` タグには属性 `data-cmp-data-layer-enabled` を含める必要があります。
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -62,6 +62,28 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
    ```javascript
    window.adobeDataLayer.getState();
    ```
+
+## サポートされるコンポーネント{#supported-components}
+
+次のコンポーネントは、データレイヤーをサポートしています。
+
+* [アコーディオン](/help/components/accordion.md)
+* [パンくず](/help/components/breadcrumb.md)
+* [ボタン](/help/components/button.md)
+* [カルーセル](/help/components/carousel.md)
+* [コンテンツフラグメント](/help/components/content-fragment-component.md)
+* [画像](/help/components/image.md)
+* [言語ナビゲーション](/help/components/language-navigation.md)
+* [リスト](/help/components/list.md)
+* [ナビゲーション](/help/components/navigation.md)
+* [ページ](/help/components/page.md)
+* [プログレスバー](/help/components/progress-bar.md)
+* [タブ](/help/components/tabs.md)
+* [ティーザー](/help/components/teaser.md)
+* [テキスト](/help/components/text.md)
+* [タイトル](/help/components/title.md)
+
+コンポーネントによってトリガーされる[イベントも参照してください。](#events-components)
 
 ## コアコンポーネントのデータスキーマ {#data-schemas}
 
@@ -197,6 +219,34 @@ id: {
 次の[イベント](#events)は、アセットスキーマに関連します。
 
 * `cmp:click`
+
+### コンテンツフラグメントスキーマ{#content-fragment}
+
+コンテンツフラグメントスキーマは、[コンテンツフラグメントコンポーネントで使用されます。](/help/components/content-fragment-component.md)
+
+コンテンツフラグメントスキーマは次のように定義します。
+
+```javascript
+id: {
+    @type
+    repo:modifyDate
+    dc:title
+    dc:description
+    xdm:text
+    xdm:linkURL
+    parentId
+    elements            // array of the Content Fragment elements
+}
+```
+
+コンテンツフラグメント要素に使用するスキーマは次のとおりです。
+
+```javascript
+{
+    xdm:title           // title
+    xdm:text            // text
+}
+```
 
 ## コアコンポーネントのイベント {#events}
 
