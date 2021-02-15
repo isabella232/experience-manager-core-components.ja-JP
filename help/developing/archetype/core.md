@@ -24,7 +24,7 @@ mvn -PautoInstallBundle clean install
 
 正常に実行されると、`http://<host>:<port>/system/console/bundles` にバンドルコンソールが表示されます。
 
-##  単体テスト {#unit-tests}
+## 単体テスト {#unit-tests}
 
 コアモジュールでの単体テストは、バンドルに含まれるコードの従来のユニットテストを示しています。テストするには、次の手順を実行します。
 
