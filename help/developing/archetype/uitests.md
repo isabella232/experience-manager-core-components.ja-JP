@@ -1,11 +1,11 @@
 ---
 title: AEM プロジェクトアーキタイプの ui.tests モジュール
-description: AEM プロジェクトアーキタイプの JUnit テストの使用方法
+description: AEMプロジェクトのアーキタイプUIテストの使用方法
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 26%
 
 ---
 
@@ -14,24 +14,22 @@ ht-degree: 100%
 
 プロジェクトには、次の 3 つのレベルのテストが含まれています。
 
-## 単体テスト {#unit-tests}
+* [単体テスト](core.md#unit-tests)
+* [統合テスト](ittests.md)
+* UIテスト
 
-[コアモジュール](core.md)での単体テストは、バンドルに含まれるコードの従来のユニットテストを示しています。テストするには、次の手順を実行します。
+この記事では、ui.testsモジュールの一部として使用できるUIテストについて説明します。
 
-```
-mvn clean test
-```
+## UIテストの実行{#running-tests}
 
-## 統合テスト {#integration-tests}
+テストするには、次の手順を実行します。
 
-サーバーサイドの統合テストを使用すると、AEM 環境（AEM サーバー上など）でユニット型のテストを実行できます。テストするには、次の手順を実行します。
-
-```
-mvn clean verify -PintegrationTests
+```shell
+mvn verify -Pui-tests-local-execution
 ```
 
-## クライアントサイドテスト {#client-side-tests}
+実行後、レポートとログは`target/reports`フォルダーで使用できます。
 
-`client-side Hobbes.js` テストは、ブラウザーサイドの動作を検証する JavaScript ベースのブラウザーサイドテストです。
+## 追加のオプション{#additional-options}
 
-テストするには、テストする AEM ページをブラウザーで表示しているときに左のパネルを開いて、ページを&#x200B;**開発者モード**&#x200B;で開き、「**テスト**」タブに切り替えて、生成された **MyName Tests** を見つけて実行します。
+UIテストは、ローカルブラウザとDockerイメージに対するヘッドレステストなど、様々なオプションを使用して実行できます。 詳細は、ui.testsモジュール](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests)の[README.mdファイルを参照してください。
