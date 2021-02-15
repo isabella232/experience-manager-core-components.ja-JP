@@ -2,7 +2,7 @@
 title: React SPA のフロントエンドビルド
 description: React ベースの SPA プロジェクトのフロントエンドビルドプロセスの説明
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ### npm start {#npm-start}
 
-```
+```shell
 npm start
 ```
 
@@ -45,7 +45,7 @@ CORS に関連するエラーが発生する場合は、次のように AEM を�
 
 ### npm test {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ npm test
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
@@ -69,7 +69,7 @@ npm run build
 
 React アプリケーションは、デフォルトで[コード分割](https://webpack.js.org/guides/code-splitting)を使用するように設定されます。実稼動用にアプリケーションを作成する場合、コードは複数のチャンクで出力されます。
 
-```
+```shell
 $ ls build/static/js
 2.5b77f553.chunk.js
 2.5b77f553.chunk.js.map
