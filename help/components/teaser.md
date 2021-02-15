@@ -1,11 +1,11 @@
 ---
 title: ティーザーコンポーネント
 description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
-translation-type: ht
-source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 98%
 
 ---
 
@@ -106,3 +106,7 @@ ht-degree: 100%
 ### 「スタイル」タブ {#styles-tab}
 
 ティーザーコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+
+## Adobe Client Data Layer {#data-layer}
+
+Teaserコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
