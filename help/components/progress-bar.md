@@ -2,10 +2,10 @@
 title: プログレスバーコンポーネント
 description: プログレスバーコンポーネントは、目標に向かう進行状況を視覚的に表します
 translation-type: tm+mt
-source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 97%
 
 ---
 
@@ -55,3 +55,7 @@ ht-degree: 100%
 ### 「スタイル」タブ {#styles-tab}
 
 プログレスバーコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+
+## Adobe Client Data Layer {#data-layer}
+
+プログレスバーコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
