@@ -1,18 +1,18 @@
 ---
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
-translation-type: ht
-source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
-workflow-type: ht
-source-wordcount: '1901'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: defc6f2cf4cac817577f3e74372da5e420a45ead
+workflow-type: tm+mt
+source-wordcount: '1938'
+ht-degree: 98%
 
 ---
 
 
 # コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.13.2 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および[オンプレミスの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。
+コアコンポーネントの現在のリリースは 2.14.0 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および[オンプレミスの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
+| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | このリリースには、[埋め込みコンポーネント](/help/components/embed.md)の新しいオプションが含まれ、[ページ](/help/components/page.md)レベルにブランドスラッグが導入され、多くの問題に対処します。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021年2月8日 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | これは、AEMaaCS で RTE を使用した場合の問題に対処するためのパッチリリースでした。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 12 月 17 日 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | このリリースには、[画像コンポーネント](/help/components/image.md)の新しい Dynamic Media 機能が含まれています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 12 月 5 日 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | これは、2.12.0 のパッチリリースで、マイナーな修正が含まれています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 11 月 12 日 |
