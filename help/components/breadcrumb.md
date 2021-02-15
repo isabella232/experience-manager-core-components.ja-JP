@@ -2,10 +2,10 @@
 title: パンくずコンポーネント
 description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者が、パンくずリスト内の非表示ページとアクティブページおよび表示する階層の深さを無効化するオプションのデフォルト値を定義できます。
 
@@ -89,3 +89,7 @@ ht-degree: 100%
 ### 「スタイル」タブ {#styles-tab}
 
 パンくずコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+
+## Adobe Client Data Layer {#data-layer}
+
+階層リンクコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
