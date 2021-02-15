@@ -3,11 +3,11 @@ sub-product: AEM コアコンポーネント
 user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
-translation-type: ht
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 96%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
          + [フォームテキスト（v1）](components/v1/form-text-v1.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing/overview.md)
-   + [成功への道筋](developing/success.md)
+   + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [WKND 開発者向けチュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [コアコンポーネントのカスタマイズ](developing/customizing.md)
    + [コンポーネントのガイドライン](developing/guidelines.md)
@@ -89,4 +89,5 @@ ht-degree: 100%
       + [ui.frontend.react モジュール](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular モジュール](developing/archetype/uifrontend-angular.md)
       + [ui.tests モジュール](developing/archetype/uitests.md)
+      + [it.testsモジュール](developing/archetype/ittests.md)
       + [Build Analyzer Maven プラグイン](developing/archetype/build-analyzer-maven-plugin.md)
