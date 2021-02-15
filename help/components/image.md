@@ -1,11 +1,11 @@
 ---
 title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-translation-type: ht
-source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
-workflow-type: ht
-source-wordcount: '2157'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+workflow-type: tm+mt
+source-wordcount: '2170'
+ht-degree: 99%
 
 ---
 
@@ -255,3 +255,7 @@ ht-degree: 100%
 >`Last-Modified` ヘッダーを介した条件付き要求は、アダプティブ画像サーブレットでサポートされますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja#caching-http-response-headers)。
 >
 >[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)のサンプル Dispatcher 設定には、既にこの設定が含まれています。
+
+## Adobe Client Data Layer {#data-layer}
+
+イメージコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
