@@ -1,9 +1,9 @@
 ---
 title: AEM プロジェクトのアーキタイプフロントエンドビルド
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-translation-type: ht
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ AEM プロジェクトのアーキタイプ全体が `mvn clean install -PautoIn
 
 ## ClientLibs の概要 {#clientlibs}
 
-フロントエンドモジュールは、[AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja-JP) を使用して利用可能になります。NPM ビルドスクリプトを実行すると、アプリケーションがビルドされ、aem-clientlib-generator パッケージがビルド出力結果を取得して、そのような ClientLib に変換します。
+フロントエンドモジュールは、[AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) を使用して利用可能になります。NPM ビルドスクリプトを実行すると、アプリケーションがビルドされ、aem-clientlib-generator パッケージがビルド出力結果を取得して、そのような ClientLib に変換します。
 
 ClientLib は、次のファイルとディレクトリで構成されます。
 
@@ -165,7 +165,7 @@ ui.frontend モジュールのビルドプロセスでは、[aem-clientlib-gener
 
 サイトページにクライアントライブラリを最終的に含める方法は次のとおりです。
 
-```
+```html
 <HTML>
     <head>
         <link rel="stylesheet" href="clientlib-base.css" type="text/css">
