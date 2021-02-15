@@ -2,10 +2,10 @@
 title: 言語ナビゲーションコンポーネント
 description: 言語ナビゲーションコンポーネントは、言語と国を指定したサイトナビゲーション機能を提供し、訪問者が同じページを異なるロケールでナビゲートできるようにします。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 98%
 
 ---
 
@@ -104,3 +104,7 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 ![言語ナビゲーションコンポーネントの編集ダイアログ](/help/assets/language-navigation-edit.png)
+
+## Adobe Client Data Layer {#data-layer}
+
+言語ナビゲーションコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
