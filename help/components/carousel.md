@@ -1,16 +1,16 @@
 ---
 title: カルーセルコンポーネント
 description: カルーセルコンポーネントを使用すれば、コンテンツ作成者は、回転式のカルーセルにコンテンツを表示することができます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# カルーセルコンポーネント{#carousel-component}
+# カルーセルコンポーネント {#carousel-component}
 
 コアコンポーネントのカルーセルコンポーネントを使用すれば、コンテンツ作成者は、ナビゲーション可能なカルーセルにコンテンツを表示できます。
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者がスライドの追加、名前変更、並べ替えをおこなったり、自動切り替えの設定を定義したりできます。
 
@@ -70,7 +70,7 @@ ht-degree: 99%
 * **スライドを自動的に切り替え** - 有効にすると、コンポーネントは指定した遅延の後で、自動的に次のスライドへと進みます。
 * **切り替え遅延** - 「スライドを自動的に切り替え」を選択した場合、この値に基づいて切り替え間の遅延（ミリ秒単位）が定義されます。
 * **ポイント時に自動で一時停止する機能を無効にする** - 「**スライドを自動的に切り替え**」を選択した場合、カルーセルの上にマウスカーソルが置かれるたびに、カルーセルの切り替えが自動的に一時停止します。切り替えが一時停止しないようにするには、このオプションを選択します。
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
@@ -79,7 +79,7 @@ ht-degree: 99%
 >
 >**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開されているコンテンツを読者と同じ立場でカルーセルを操作するには、[**プレビュー**&#x200B;モード](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)または「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 >
->**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
@@ -89,7 +89,7 @@ ht-degree: 99%
 
 * **ラベル** - コンポーネントの ARIA ラベル属性の値
 
-## パネルを選択{#select-panel}
+## パネルを選択 {#select-panel}
 
 コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを使用すれば、コンテンツ作成者は編集用に別のスライドに切り替えたり、簡単にスライドを並べ替えたりできます。
 
@@ -105,7 +105,7 @@ ht-degree: 99%
 * ドロップダウン内の 1 つのエントリをタップまたはクリックすると、エディターのビューがそのスライドに切り替わります。
 * ドラッグハンドルを使用すれば、スライドをインプレースで並べ替えることができます。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者が、カルーセルコンポーネントにスライドとして追加できるコンポーネントを定義したり、自動切り替えのデフォルト値を定義したり、コンテンツ作成者が利用できるカスタムスタイルを定義したりできます。
 
@@ -131,4 +131,4 @@ ht-degree: 99%
 
 ## Adobe Client Data Layer {#data-layer}
 
-カルーセルコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
+カルーセルコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
