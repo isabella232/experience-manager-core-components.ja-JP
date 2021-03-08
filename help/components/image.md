@@ -1,11 +1,11 @@
 ---
 title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2170'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 99%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-画像コンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_image)にアクセスしてください。
+画像コンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_image_jp)にアクセスしてください。
 
 ### 技術的詳細 {#technical-details}
 
@@ -258,4 +258,4 @@ ht-degree: 99%
 
 ## Adobe Client Data Layer {#data-layer}
 
-イメージコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
+画像コンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
