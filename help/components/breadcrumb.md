@@ -1,16 +1,16 @@
 ---
 title: パンくずコンポーネント
 description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# パンくずコンポーネント{#breadcrumb-component}
+# パンくずコンポーネント {#breadcrumb-component}
 
 コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者がパンくずリスト内の非表示ページとアクティブなページ、および表示する階層の深さを無効化できます。
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 * **非表示のナビゲーション項目を表示** - パンくずリストで非表示とマークされているページを表示します（デフォルトでは表示されません）
 * **現在のページを非表示** - パンくずリストの現在のページを非表示にします（デフォルトでは表示されます）
 * **シャドウイングを無効にする** - 階層内のページがリダイレクトの場合、リダイレクト先のページの名前がターゲットの代わりに表示されます。詳細については、ナビゲーションコンポーネントの[シャドウサイト構造のサポート](navigation.md#shadow-structure) を参照してください。
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
@@ -92,4 +92,4 @@ ht-degree: 98%
 
 ## Adobe Client Data Layer {#data-layer}
 
-階層リンクコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
+パンくずコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
