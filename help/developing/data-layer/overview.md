@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '974'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 
 >[!TIP]
 >
->Adobe Client Data Layer の詳細については、[GitHub リポジトリのリソースを参照してください。](https://github.com/adobe/adobe-client-data-layer)
+>Adobe Client Data Layer の詳細については、[GitHub リポジトリーのリソースを参照してください。](https://github.com/adobe/adobe-client-data-layer)
 >
->Adobe Client Data Layer とコアコンポーネントの統合に関する技術的な詳細については、コアコンポーネントリポジトリの [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) ファイルを参照してください。
+>Adobe Client Data Layer とコアコンポーネントの統合に関する技術的な詳細については、コアコンポーネントリポジトリーの [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) ファイルを参照してください。
 
 ## インストールとアクティベーション {#installation-activation}
 
@@ -41,7 +41,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 
 1. `sling:configRef` プロパティを `/content` 配下のサイトの `jcr:content` ノード（例：`/content/<mySite>/jcr:content`）に追加し、以前の手順の `/conf/<mySite>` に設定します。
 
-1. 有効にすると、アクティベーションの外部にサイトのページを読み込んでエディターを検証できます。例えば、エディターで&#x200B;**表示を「発行済み**&#x200B;として」オプションを使用します。 ページソースを検査し、`<body>` タグには属性 `data-cmp-data-layer-enabled` を含める必要があります。
+1. 有効にすると、エディター外のサイトのページを読み込んで、アクティベーションを検証できます。例えば、エディターで「**公開されているとおりに表示**」オプションを使用します。ページソースを検査し、`<body>` タグには属性 `data-cmp-data-layer-enabled` を含める必要があります。
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -63,9 +63,9 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
    window.adobeDataLayer.getState();
    ```
 
-## サポートされるコンポーネント{#supported-components}
+## サポートされているコンポーネント {#supported-components}
 
-次のコンポーネントは、データレイヤーをサポートしています。
+データレイヤーをサポートしているコンポーネントは次のとおりです。
 
 * [アコーディオン](/help/components/accordion.md)
 * [パンくず](/help/components/breadcrumb.md)
@@ -83,7 +83,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 * [テキスト](/help/components/text.md)
 * [タイトル](/help/components/title.md)
 
-コンポーネントによってトリガーされる[イベントも参照してください。](#events-components)
+[コンポーネントでトリガーされるイベント](#events-components)も参照してください。
 
 ## コアコンポーネントのデータスキーマ {#data-schemas}
 
@@ -220,11 +220,11 @@ id: {
 
 * `cmp:click`
 
-### コンテンツフラグメントスキーマ{#content-fragment}
+### コンテンツフラグメントスキーマ {#content-fragment}
 
-コンテンツフラグメントスキーマは、[コンテンツフラグメントコンポーネントで使用されます。](/help/components/content-fragment-component.md)
+コンテンツフラグメントスキーマは、[コンテンツフラグメントコンポーネント](/help/components/content-fragment-component.md)で使用されます。
 
-コンテンツフラグメントスキーマは次のように定義します。
+コンテンツフラグメントスキーマは次のように定義されています。
 
 ```javascript
 id: {
@@ -239,7 +239,7 @@ id: {
 }
 ```
 
-コンテンツフラグメント要素に使用するスキーマは次のとおりです。
+コンテンツフラグメント要素に使用されるスキーマは次のとおりです。
 
 ```javascript
 {
