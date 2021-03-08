@@ -1,11 +1,11 @@
 ---
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c5749d6660af1ad94f4911f261951e0369fa139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1971'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 97%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | このリリースでは、[ページコンポーネント](/help/components/page.md)のプログレッシブWebアプリがサポートされ、[Adobeデータレイヤーのバージョン2.0.0がサポートされます。](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021年2月23日 |
-| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | このリリースには、[埋め込みコンポーネント](/help/components/embed.md)の新しいオプションが含まれ、[ページ](/help/components/page.md)レベルにブランドスラッグが導入され、多くの問題に対処します。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021年2月9日 |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | このリリースでは、プログレッシブ ｗeb アプリが[ページコンポーネント](/help/components/page.md)でサポートされているほか、[Adobe データレイヤー](/help/developing/data-layer/overview.md)のバージョン 2.0.0 がサポートされています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 2 月 23 日 |
+| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | このリリースには、[埋め込みコンポーネント](/help/components/embed.md)の新しいオプションが含まれています。また、[ページ](/help/components/page.md)レベルでブランドスラッグが導入されているほか、多くの問題にも対処しています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 2 月 9 日 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | これは、AEMaaCS で RTE を使用した場合の問題に対処するためのパッチリリースでした。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 12 月 17 日 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | このリリースには、[画像コンポーネント](/help/components/image.md)の新しい Dynamic Media 機能が含まれています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 12 月 5 日 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | これは、2.12.0 のパッチリリースで、マイナーな修正が含まれています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 11 月 12 日 |
