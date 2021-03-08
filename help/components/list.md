@@ -1,16 +1,16 @@
 ---
 title: リストコンポーネント
 description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# リストコンポーネント{#list-component}
+# リストコンポーネント {#list-component}
 
 コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者がリストとリスト項目を設定できます。
 
@@ -91,7 +91,7 @@ ht-degree: 99%
 
 ![検索リストのオプション](/help/assets/list-edit-search.png)
 
-* **検索クエリー**
+* **検索クエリ**
 フルテキスト検索を実行してリスト要素を生成する際の対象となる文字列
 * **検索範囲**
 検索の実行場所
@@ -133,7 +133,7 @@ ht-degree: 99%
 * **最大項目数**
 リストに表示される項目の最大数。
    * すべての項目を返すには、空のままにします。
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
@@ -151,7 +151,7 @@ ht-degree: 99%
 * **日付を表示**
 リンク項目の変更日を表示します
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者が、コンテンツ作成者に許可するリストの種類や、使用可能な項目設定を定義できます。
 
@@ -191,4 +191,4 @@ ht-degree: 99%
 
 ## Adobe Client Data Layer {#data-layer}
 
-リストコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
+リストコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
