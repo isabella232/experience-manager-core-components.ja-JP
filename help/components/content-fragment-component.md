@@ -1,16 +1,16 @@
 ---
 title: コンテンツフラグメントコンポーネント
 description: コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、コンテンツフラグメントを表示できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# コンテンツフラグメントコンポーネント{#content-fragment-component}
+# コンテンツフラグメントコンポーネント {#content-fragment-component}
 
 コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)を表示できます。
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ## 使用方法 {#usage}
 
-コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)をページに組み込むことができます。
+コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)をページに組み込むことができます。
 
 * フラグメントとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * 特定の画像やグリッドを処理するリソースタイプは、[デザインダイアログ](#design-dialog)で定義できます。
@@ -86,7 +86,7 @@ ht-degree: 98%
 
       * 表示する段落の範囲をセミコロンで区切って指定します
       * 例えば、`1;3-5;7;9-*` では、1 番目、3 番目から 5 番目まで、7 番目、9 番目が最終的な段落に含まれます。
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
@@ -100,7 +100,7 @@ ht-degree: 98%
 * **段落** - すべての段落、または特定の範囲を選択できます。
 * **見出しを独自の段落として処理**
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、混在メディア画像とレスポンシブグリッドを処理するためのリソースタイプをテンプレート作成者が定義できます。
 
@@ -112,4 +112,4 @@ ht-degree: 98%
 
 ## Adobe Client Data Layer {#data-layer}
 
-コンテンツフラグメントコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
+コンテンツフラグメントコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
