@@ -1,16 +1,16 @@
 ---
 title: タイトルコンポーネント
 description: コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# タイトルコンポーネント{#title-component}
+# タイトルコンポーネント {#title-component}
 
 コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
 
@@ -41,14 +41,14 @@ ht-degree: 98%
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者がタイトルテキストを定義したり、見出しレベルを選択したりできます。
 
 * **タイトル** - 空白の場合、ページタイトルが使用されます
 * **種類 / サイズ** - タイトルの見出しレベルを定義します
 * **リンク** - タイトルのリンク先のコンテンツを定義します。コンテンツページへのパス、外部 URL、ページアンカーのいずれかを指定できます。
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
@@ -63,7 +63,7 @@ ht-degree: 98%
 
 ![タイトルコンポーネントのインプレース編集](/help/assets/title-edit-inline.png)
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、コンテンツ作成者によって使用されたときのタイトルコンポーネントのデフォルト見出しレベルをテンプレート作成者が定義できます。
 
@@ -85,4 +85,4 @@ ht-degree: 98%
 
 ## Adobe Client Data Layer {#data-layer}
 
-Titleコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
+タイトルコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
