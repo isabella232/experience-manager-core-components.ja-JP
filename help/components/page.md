@@ -1,28 +1,28 @@
 ---
 title: ページコンポーネント
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f4a45b2af87e5a5f0396b335c65856ce821455c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
-# ページコンポーネント{#page-component}
+# ページコンポーネント {#page-component}
 
 ページコンポーネントは、[テンプレートエディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)と連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 
 ## 使用方法 {#usage}
 
-ページコンポーネントは、コアコンポーネントと編集可能なテンプレートを使用して設計されたすべてのページの基盤を形成します。 ページコンポーネントを使用すると、ヘッダー、フッターおよびページの構造を、他のコアコンポーネントを使用するテンプレートとして定義できます。
+ページコンポーネントは、コアコンポーネントと編集可能なテンプレートを使用して設計されるあらゆるページの基礎となるものです。ページコンポーネントを使用すれば、ページのヘッダー、フッター、構造を、他のコアコンポーネントを使用する際のテンプレートとして定義できます。
 
-[デザインダイアログ](#design-dialog)を使用すれば、カスタムのクライアント側ライブラリをページ用に定義できます。ページコンポーネントはページ自体なので、コンポーネントから直接アクセスできる編集ダイアログを持つ他のコンポーネントとは異なり、ページコンポーネントの[編集ダイアログ](#edit-dialog)はページのプロパティウィンドウです。
+[デザインダイアログ](#design-dialog)を使用すれば、カスタムのクライアント側ライブラリをページ用に定義できます。コンポーネントから編集ダイアログに直接アクセスできる他のコンポーネントとは異なり、ページコンポーネントはページそのものなので、ページコンポーネントの[編集ダイアログ](#edit-dialog)はページプロパティウィンドウになります。
 
-## プログレッシブWeb Appサポート{#pwa-support}
+## プログレッシブ ｗeb アプリのサポート {#pwa-support}
 
-コアコンポーネントのリリース2.15.0では、Cloud Serviceの組み込みのプログレッシブWeb Apps(PWA)機能としてAEMのサポートが追加されました。 サイトレベルでシンプルな設定を行うことで、AEMのエクスペリエンスをPWAに変えることができます。
+コアコンポーネントのリリース 2.15.0 では、AEM as a Cloud Service の組み込みプログレッシブ ｗeb アプリ（PWA）機能をサポートするようになりました。サイトレベルでの簡単な設定で、AEM エクスペリエンスを PWA に変えることができます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -43,11 +43,11 @@ ht-degree: 81%
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 ページコンポーネントはページ全体を表しているので、編集ダイアログに通常用意されている設定は[ページのプロパティ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)ウィンドウにあります。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 ページコンポーネントはページ全体を表しているので、ページテンプレートを編集する際は、**ページ情報／ページポリシー**&#x200B;でデザインダイアログにアクセスします。
 
@@ -86,8 +86,8 @@ ht-degree: 81%
 
 ### 「スタイル」タブ {#styles-tab}
 
-ページコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+ページコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ## Adobe Client Data Layer {#data-layer}
 
-ページコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
+ページコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
