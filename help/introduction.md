@@ -1,9 +1,9 @@
 ---
 title: コアコンポーネントの概要
 description: 'コアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築され、堅牢で拡張可能な基本コンポーネントを提供します。 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a752bbe7e03b3b85950b4b6332c39960198edd1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 * **[コンポーネントライブラリ：](https://www.adobe.com/go/aem_cmp_library)**&#x200B;コンポーネントを様々な設定で表示する例を集めたものです。
 * **コンポーネントのドキュメント（本ドキュメント）：**&#x200B;開発者および作成者向けに、各コンポーネントの詳細を説明しています。
-* **[コアコンポーネント GitHub リポジトリ：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;開発者向けに、各コンポーネントおよびプロジェクトのダウンロードの詳細を説明しています。
+* **[コアコンポーネント GitHub リポジトリー：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;開発者向けに、各コンポーネントおよびプロジェクトのダウンロードの詳細を説明しています。
 * 入門ガイド：
    * **[コアコンポーネントを利用したプロジェクトの成功への道筋：](/help/developing/success.md)**&#x200B;コアコンポーネントを使用するプロジェクトを開始する前に十分考慮すべきガイドラインです。
    * **[WKND チュートリアル：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**&#x200B;新しいサイトの構築に関する 2 日間のチュートリアルです。
