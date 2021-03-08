@@ -1,16 +1,16 @@
 ---
 title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2213'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# テキストコンポーネント{#text-component}
+# テキストコンポーネント {#text-component}
 
 コアコンポーネントのテキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 
@@ -51,9 +51,9 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
+>テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 編集ダイアログには、テキストの作成を支援する標準のリッチテキスト書式設定ツールが用意されています。
 
@@ -149,7 +149,8 @@ ht-degree: 99%
 
 ![検索の例](/help/assets/text-find-example.png)
 
-検索するテキストを入力し、「**検索**」をタップまたはクリックして検索を開始します。キャンセルする場合は、「x」をクリックまたはタップします。大文字と小文字を区別して完全一致検索をおこなう場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。一致する文字列が見つかった場合は、それが強調表示され、検索ダイアログが淡色表示になります。一致する次の文字列を検索するには、淡色表示のダイアログで「**検索**」ボタンを再度タップまたはクリックします。
+検索するテキストを入力し、「**検索**」をタップまたはクリックして検索を開始します。キャンセルする場合は、「x」をクリックまたはタップします。大文字と小文字を区別して完全一致検索をおこなう場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。
+一致する文字列が見つかった場合は、それが強調表示され、検索ダイアログが淡色表示になります。一致する次の文字列を検索するには、淡色表示のダイアログで「**検索**」ボタンを再度タップまたはクリックします。
 
 ![検索例](/help/assets/text-find-example-found.png)
 
@@ -256,7 +257,7 @@ ht-degree: 99%
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
+スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 ### 特殊文字 {#special-characters}
 
@@ -294,7 +295,7 @@ ht-degree: 99%
 
 ![段落書式の例](/help/assets/text-paragraph-example.png)
 
-### インライン編集{#in-line-editing}
+### インライン編集 {#in-line-editing}
 
 テキストコンポーネントはインラインでも編集できますが、スペースの制限により、必ずしもすべての書式設定オプションがインラインで使用できるわけではありません。すべてのオプションを表示するには、フルスクリーンモードに切り替えます。
 
@@ -370,4 +371,4 @@ ht-degree: 99%
 
 ## Adobe Client Data Layer {#data-layer}
 
-テキストコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
+テキストコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
