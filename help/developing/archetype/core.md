@@ -1,9 +1,9 @@
 ---
 title: AEM プロジェクトアーキタイプのコアモジュール
 description: AEM プロジェクトアーキタイプのコアモジュール
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ mvn -PautoInstallBundle clean install
 
 ## 単体テスト {#unit-tests}
 
-コアモジュールでの単体テストは、バンドルに含まれるコードの従来のユニットテストを示しています。テストするには、次の手順を実行します。
+コアモジュールでの単体テストは、バンドルに含まれているコードの従来の単体テストを示しています。テストするには、次のコマンドを実行します。
 
 ```shell
 mvn clean test
