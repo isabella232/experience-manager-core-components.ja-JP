@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 + [コアコンポーネントの概要](introduction.md)
 + [成功への道筋](developing/success.md)
-+ [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library)
++ [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)
 + [コアコンポーネントのバージョン](versions.md)
 + はじめに {#get-started}
    + [コアコンポーネントを使用したオーサリング](get-started/authoring.md)
@@ -68,7 +68,7 @@ ht-degree: 96%
          + [フォームテキスト（v1）](components/v1/form-text-v1.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing/overview.md)
-   + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ja)
    + [WKND 開発者向けチュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [コアコンポーネントのカスタマイズ](developing/customizing.md)
    + [コンポーネントのガイドライン](developing/guidelines.md)
@@ -89,5 +89,5 @@ ht-degree: 96%
       + [ui.frontend.react モジュール](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular モジュール](developing/archetype/uifrontend-angular.md)
       + [ui.tests モジュール](developing/archetype/uitests.md)
-      + [it.testsモジュール](developing/archetype/ittests.md)
+      + [it.tests モジュール](developing/archetype/ittests.md)
       + [Build Analyzer Maven プラグイン](developing/archetype/build-analyzer-maven-plugin.md)
