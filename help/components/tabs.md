@@ -1,11 +1,11 @@
 ---
 title: タブコンポーネント
 description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 99%
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者がタブの作成、名前変更、並べ替えをおこなったり、アクティブなタブを定義したりできます。
 
@@ -87,7 +87,7 @@ ht-degree: 99%
 
 * 「**アクティブな項目**」タブでは、コンテンツ作成者はページの読み込み時にアクティブになるタブを定義できます。
    * 「**デフォルト**」オプションの場合、最初のタブが選択されます。
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
@@ -100,7 +100,7 @@ ht-degree: 99%
 
 * **ラベル** - コンポーネントの ARIA ラベル属性の値
 
-## パネルを選択{#select-panel}
+## パネルを選択 {#select-panel}
 
 コンポーネントツールバーの「**パネルを選択**」オプションを使用すれば、コンテンツ作成者は編集用に別のパネルに切り替えたり、簡単にタブを並べ替えたりできます。
 
@@ -118,9 +118,9 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開されているコンテンツを読者と同じ立場でタブを操作するには、**[](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)プレビュー**&#x200B;モードまたは「**[公開されているとおりに表示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開されているコンテンツを読者と同じ立場でタブを操作するには、**[](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)プレビュー**&#x200B;モードまたは「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者が、タブコンポーネントに項目として追加できるコンポーネントを定義したり、コンテンツ作成者が利用できるカスタムスタイルを定義したりできます。
 
@@ -132,8 +132,8 @@ ht-degree: 99%
 
 ### 「スタイル」タブ {#styles-tab}
 
-タブコンポーネントは AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートします。
+タブコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ## Adobe Client Data Layer {#data-layer}
 
-Tabsコンポーネントは、[Adobeクライアントデータレイヤーをサポートします。](/help/developing/data-layer/overview.md)
+タブコンポーネントは、[Adobe Client Data Layer](/help/developing/data-layer/overview.md) をサポートしています。
