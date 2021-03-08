@@ -1,11 +1,11 @@
 ---
 title: AEM プロジェクトアーキタイプの ui.tests モジュール
-description: AEMプロジェクトのアーキタイプUIテストの使用方法
-translation-type: tm+mt
+description: AEM プロジェクトアーキタイプの UI テストの使用方法
+translation-type: ht
 source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -16,20 +16,20 @@ ht-degree: 26%
 
 * [単体テスト](core.md#unit-tests)
 * [統合テスト](ittests.md)
-* UIテスト
+* UI テスト
 
-この記事では、ui.testsモジュールの一部として使用できるUIテストについて説明します。
+この記事では、ui.tests モジュールの一部として使用できる UI テストについて説明します。
 
-## UIテストの実行{#running-tests}
+## UI テストの実行 {#running-tests}
 
-テストするには、次の手順を実行します。
+テストするには、次のコマンドを実行します。
 
 ```shell
 mvn verify -Pui-tests-local-execution
 ```
 
-実行後、レポートとログは`target/reports`フォルダーで使用できます。
+実行後、レポートとログは `target/reports` フォルダーで入手できます。
 
-## 追加のオプション{#additional-options}
+## その他のオプション {#additional-options}
 
-UIテストは、ローカルブラウザとDockerイメージに対するヘッドレステストなど、様々なオプションを使用して実行できます。 詳細は、ui.testsモジュール](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests)の[README.mdファイルを参照してください。
+UI テストは、ローカルブラウザー対するヘッドレステストや Docker イメージ形式のヘッドレステストを指定するオプションなど、様々なオプションを使用して実行できます。詳しくは、[ui.tests モジュールの README.md ファイル](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests)を参照してください。
