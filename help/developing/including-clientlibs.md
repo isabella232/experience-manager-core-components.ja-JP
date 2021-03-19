@@ -1,11 +1,12 @@
 ---
 title: クライアントライブラリを含める
 description: 使用事例に応じてクライアントライブラリを含める方法は多数あります。
+role: アーキテクト、開発者、管理者
 translation-type: tm+mt
-source-git-commit: afce571ada011c38c83830628f09a9e268658965
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 99%
 
 ---
 
