@@ -1,11 +1,12 @@
 ---
 title: フォームテキストコンポーネント
 description: コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
+role: アーキテクト、開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 99%
 
 ---
 
@@ -85,7 +86,7 @@ ht-degree: 100%
    * **必須メッセージ** - フィールドを空のままにした場合、ツールヒントチップとして表示されるメッセージ
 * **読み取り専用** - 選択した場合、ユーザーはフィールドの値を変更できません
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 ### 「スタイル」タブ {#styles-tab}
 
