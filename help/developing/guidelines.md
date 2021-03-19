@@ -1,11 +1,12 @@
 ---
 title: コンポーネントのガイドライン
 description: コアコンポーネントは、基盤コンポーネントとは大きく異なる、最新の実装パターンに従います。
+role: アーキテクト、開発者、管理者
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 100%
+source-wordcount: '1262'
+ht-degree: 99%
 
 ---
 
