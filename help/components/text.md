@@ -1,11 +1,12 @@
 ---
 title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
-translation-type: ht
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: ht
-source-wordcount: '2213'
-ht-degree: 100%
+role: アーキテクト、開発者、管理者、実業家
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '2218'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +52,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
+>テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
 
 ## 編集ダイアログ {#edit-dialog}
 
@@ -257,7 +258,7 @@ ht-degree: 100%
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
+スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 ### 特殊文字 {#special-characters}
 
