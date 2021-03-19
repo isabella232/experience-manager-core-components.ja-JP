@@ -1,11 +1,12 @@
 ---
 title: ダウンロードコンポーネント
 description: コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
+role: アーキテクト、開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 100%
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +75,7 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、ダウンロードコンポーネントの使用時にコンテンツ作成者に提供されるオプションをテンプレート作成者が定義できます。
 
