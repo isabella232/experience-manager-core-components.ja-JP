@@ -1,11 +1,12 @@
 ---
 title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
+role: アーキテクト、開発者、管理者
 translation-type: tm+mt
-source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 100%
+source-wordcount: '1445'
+ht-degree: 99%
 
 ---
 
