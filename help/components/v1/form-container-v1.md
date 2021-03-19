@@ -2,11 +2,12 @@
 title: フォームコンテナコンポーネント（v1）
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 index: n
+role: アーキテクト、開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 68472ab548fb6ebb443a06c12e7b37797a0c1302
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 100%
+source-wordcount: '643'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 100%
    * アドレスを追加するには、「**追加**」ボタンをタップまたはクリックします
    * 電子メールアドレスを削除するには、「**削除**」ボタンをタップまたはクリックします
 
-### コンテンツを格納 {#store-content}
+### Store Content {#store-content}
 
 フォームが送信されると、フォームのコンテンツは、指定されたリポジトリの場所に保存されます。
 
@@ -102,7 +103,7 @@ ht-degree: 100%
 * ありがとうページが AEM にない場合は、絶対 URL を指定します。絶対 URL 以外の URL は、AEM からの相対 URL と解釈されます。
 * 空白のままにすると、送信後にフォームが再度表示されます。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
