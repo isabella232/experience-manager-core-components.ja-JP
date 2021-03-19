@@ -1,11 +1,12 @@
 ---
 title: Sling のコンテキスト対応設定とコアコンポーネント
 description: コアコンポーネントは、特定の機能で、Sling のコンテキスト対応設定を利用します
-translation-type: ht
-source-git-commit: aff9046008dcea6c0cbda4b3de400df77a507097
-workflow-type: ht
-source-wordcount: '200'
-ht-degree: 100%
+role: アーキテクト、開発者、管理者
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 98%
 
 ---
 
