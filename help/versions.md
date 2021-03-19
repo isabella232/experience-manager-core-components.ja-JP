@@ -1,11 +1,12 @@
 ---
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
-translation-type: ht
-source-git-commit: 3c5749d6660af1ad94f4911f261951e0369fa139
-workflow-type: ht
-source-wordcount: '1971'
-ht-degree: 100%
+role: アーキテクト、開発者、管理者、実業家
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '1976'
+ht-degree: 99%
 
 ---
 
