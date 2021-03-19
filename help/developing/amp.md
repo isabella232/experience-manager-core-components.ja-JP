@@ -1,11 +1,12 @@
 ---
 title: コアコンポーネントの AMP サポート
 description: コアコンポーネントは、AMP（Accelerated Mobile Pages）をサポートします
-translation-type: ht
-source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+role: アーキテクト、開発者、管理者
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 99%
 
 ---
 
