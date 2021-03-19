@@ -2,11 +2,12 @@
 title: リストコンポーネント（v1）
 description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
 index: n
+role: アーキテクト、開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '859'
+ht-degree: 99%
 
 ---
 
@@ -232,7 +233,7 @@ ht-degree: 100%
 * **日付を表示**
 リンク項目の変更日を表示します
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者が、コンテンツ作成者に許可するリストの種類や、使用可能な項目設定を定義できます。
 
