@@ -2,11 +2,12 @@
 title: フォーム非表示コンポーネント（v1）
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
 index: n
+role: アーキテクト、開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 98%
 
 ---
 
