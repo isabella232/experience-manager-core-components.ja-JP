@@ -2,11 +2,12 @@
 title: 画像コンポーネント（v1）
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 index: n
+role: アーキテクト、開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 100%
+source-wordcount: '1234'
+ht-degree: 99%
 
 ---
 
