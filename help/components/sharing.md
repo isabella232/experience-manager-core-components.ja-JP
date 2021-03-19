@@ -1,11 +1,12 @@
 ---
 title: ソーシャル共有コンポーネント
 description: コアコンポーネントのソーシャル共有コンポーネントは、Facebook および Pinterest の共有ウィジェットです。
+role: アーキテクト、開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +43,7 @@ ht-degree: 100%
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 ![共有コンポーネントの編集ダイアログ](/help/assets/sharing-edit.png)
 
