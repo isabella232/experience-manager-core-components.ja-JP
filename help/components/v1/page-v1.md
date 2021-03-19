@@ -2,11 +2,12 @@
 title: ページコンポーネント（v1）
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 index: n
+role: アーキテクト、開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 100%
+source-wordcount: '495'
+ht-degree: 98%
 
 ---
 
@@ -680,11 +681,11 @@ ht-degree: 100%
 >
 >コアコンポーネントからの JSON エクスポートには、コアコンポーネントのリリース 1.1.0 が必要です。詳しくは、[コアコンポーネント v1 の互換性情報](/help/versions.md)を参照してください。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 ページコンポーネントはページ全体を表しているので、編集ダイアログに通常用意されている設定は[ページのプロパティ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)ウィンドウにあります。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 ページコンポーネントはページ全体を表しているので、デザインダイアログには、**ページ情報／ページデザイン**&#x200B;でアクセスします。
 
