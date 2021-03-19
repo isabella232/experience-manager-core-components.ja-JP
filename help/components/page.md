@@ -1,11 +1,12 @@
 ---
 title: ページコンポーネント
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
-translation-type: ht
-source-git-commit: f4a45b2af87e5a5f0396b335c65856ce821455c9
-workflow-type: ht
-source-wordcount: '683'
-ht-degree: 100%
+role: アーキテクト、開発者、管理者、実業家
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 99%
 
 ---
 
