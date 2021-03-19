@@ -1,11 +1,12 @@
 ---
 title: コンテンツフラグメントコンポーネント
 description: コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、コンテンツフラグメントを表示できます。
-translation-type: ht
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: ht
-source-wordcount: '673'
-ht-degree: 100%
+role: アーキテクト、開発者、管理者、実業家
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 100%
 
 ## 使用方法 {#usage}
 
-コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)をページに組み込むことができます。
+コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)をページに組み込むことができます。
 
 * フラグメントとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * 特定の画像やグリッドを処理するリソースタイプは、[デザインダイアログ](#design-dialog)で定義できます。
