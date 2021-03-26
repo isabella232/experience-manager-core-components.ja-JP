@@ -3,17 +3,17 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: アーキテクト、開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
 workflow-type: tm+mt
-source-wordcount: '1976'
-ht-degree: 99%
+source-wordcount: '2009'
+ht-degree: 98%
 
 ---
 
 
 # コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.15.0 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および[オンプレミスの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。
+コアコンポーネントの現在のリリースは 2.15.2 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および[オンプレミスの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
@@ -27,6 +27,7 @@ ht-degree: 99%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
+| [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | これは、主に[Data Layer](/help/developing/data-layer/overview.md)の下位互換性の問題と、特定の状況でITテストが失敗した問題を修正するパッチリリースでした。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 3 月 16 日 |
 | [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | このリリースでは、プログレッシブ ｗeb アプリが[ページコンポーネント](/help/components/page.md)でサポートされているほか、[Adobe データレイヤー](/help/developing/data-layer/overview.md)のバージョン 2.0.0 がサポートされています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 2 月 23 日 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | このリリースには、[埋め込みコンポーネント](/help/components/embed.md)の新しいオプションが含まれています。また、[ページ](/help/components/page.md)レベルでブランドスラッグが導入されているほか、多くの問題にも対処しています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 2 月 9 日 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | これは、AEMaaCS で RTE を使用した場合の問題に対処するためのパッチリリースでした。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 12 月 17 日 |
