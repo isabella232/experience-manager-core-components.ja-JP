@@ -1,17 +1,17 @@
 ---
 title: コアコンポーネントのカスタマイズ
 description: コアコンポーネントは、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実施できるパターンをいくつか実装しています。
-role: アーキテクト、開発者、管理者
-translation-type: tm+mt
+role: 設計者、開発者、管理者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1109'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# コアコンポーネントのカスタマイズ{#customizing-core-components}
+# コアコンポーネントのカスタマイズ {#customizing-core-components}
 
 [コアコンポーネント](overview.md)は、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実施できるパターンをいくつか実装しています。
 
@@ -153,7 +153,7 @@ public class PageHeadline implements Title {
 
 1. **廃止された機能や削除された機能を確認してください。**
 
-   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
+   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
 
 [コアコンポーネントのサポート](overview.md#core-component-support)の節も参照してください。
 
