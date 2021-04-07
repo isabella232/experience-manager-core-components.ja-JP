@@ -1,15 +1,15 @@
 ---
 title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
-role: アーキテクト、開発者、管理者、実業家
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 98%
+source-wordcount: '2004'
+ht-degree: 99%
 
 ---
-
 
 # コアコンポーネントのバージョン {#core-components-versions}
 
