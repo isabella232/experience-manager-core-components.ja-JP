@@ -1,17 +1,17 @@
 ---
 title: コンテナコンポーネント
 description: コアコンポーネントのコンテナコンポーネントを使用すると、ページ上に複数の追加コンポーネント用のコンテナを作成できます。
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# コンテナコンポーネント{#container-component}
+# コンテナコンポーネント {#container-component}
 
 コアコンポーネントのコンテナコンポーネントを使用すると、ページ上に複数の追加コンポーネント用のコンテナを作成できます。
 
@@ -72,7 +72,7 @@ ht-degree: 99%
 
 ### 「デフォルトコンポーネント」タブ {#default-components-tab}
 
-「デフォルトコンポーネント」タブでは、[ページテンプレートでのデフォルトコンポーネントの定義方法](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)と同様に、特定のアセットタイプをコンテナにドロップしたときにコンテナコンポーネントに追加されるコンポーネントを定義できます。
+「デフォルトコンポーネント」タブでは、[ページテンプレートでのデフォルトコンポーネントの定義方法](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)と同様に、特定のアセットタイプをコンテナにドロップしたときにコンテナコンポーネントに追加されるコンポーネントを定義できます。
 
 ### 「レスポンシブ設定」タブ {#responsive-settings-tab}
 
