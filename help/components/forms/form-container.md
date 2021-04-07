@@ -1,12 +1,12 @@
 ---
 title: フォームコンテナコンポーネント
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 99%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-フォームコンテナコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_container)を参照してください。
+フォームコンテナコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_container_jp)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-フォームコンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2) を参照してください。
+フォームコンテナコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -56,7 +56,7 @@ ht-degree: 99%
 
 * [Post Form Data](#post-data)
 * [Mail](#mail)
-* [Store Content](#store-content)
+* [コンテンツを格納](#store-content)
 
 タイプに関係なく、各アクションに適用される[一般的な設定](#general-settings)があります。
 
@@ -87,7 +87,7 @@ ht-degree: 99%
    * アドレスを追加するには、「**追加**」ボタンをタップまたはクリックします
    * 電子メールアドレスを削除するには、「**削除**」ボタンをタップまたはクリックします
 
-### Store Content {#store-content}
+### コンテンツを格納 {#store-content}
 
 フォームが送信されると、フォームのコンテンツは、指定されたリポジトリの場所に保存されます。
 
@@ -120,7 +120,7 @@ ht-degree: 99%
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
+デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
