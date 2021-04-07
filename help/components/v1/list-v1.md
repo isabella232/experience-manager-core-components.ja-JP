@@ -2,17 +2,17 @@
 title: リストコンポーネント（v1）
 description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
 index: n
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# リストコンポーネント（v1）{#list-component-v}
+# リストコンポーネント（v1） {#list-component-v}
 
 コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
 
@@ -137,7 +137,7 @@ ht-degree: 99%
 >
 >コアコンポーネントからの JSON エクスポートには、コアコンポーネントのリリース 1.1.0 が必要です。詳しくは、[コアコンポーネント v1 の互換性情報](/help/versions.md)を参照してください。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 編集ダイアログでは、コンテンツ作成者がリストとリスト要素を設定できます。
 
