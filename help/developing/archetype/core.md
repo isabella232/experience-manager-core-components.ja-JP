@@ -1,13 +1,13 @@
 ---
 title: AEM プロジェクトアーキタイプのコアモジュール
 description: AEM プロジェクトアーキタイプのコアモジュール
-feature: コアコンポーネント、AEMプロジェクトアーキタイプ
-role: アーキテクト、開発者、管理者
-translation-type: tm+mt
+feature: コアコンポーネント、AEM プロジェクトアーキタイプ
+role: 設計者、開発者、管理者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
