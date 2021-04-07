@@ -2,17 +2,17 @@
 title: フォームコンテナコンポーネント（v1）
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 index: n
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '643'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# フォームコンテナコンポーネント（v1）{#form-container-component-v1}
+# フォームコンテナコンポーネント（v1） {#form-container-component-v1}
 
 コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 
@@ -69,7 +69,7 @@ ht-degree: 99%
    * アドレスを追加するには、「**追加**」ボタンをタップまたはクリックします
    * 電子メールアドレスを削除するには、「**削除**」ボタンをタップまたはクリックします
 
-### Store Content {#store-content}
+### コンテンツを格納 {#store-content}
 
 フォームが送信されると、フォームのコンテンツは、指定されたリポジトリの場所に保存されます。
 
