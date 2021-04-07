@@ -1,13 +1,13 @@
 ---
 title: Adobe Client Data Layer の拡張
 description: Adobe Client Data Layer は、いくつかの基本的なパターンに従って拡張できます
-feature: コアコンポーネント、Adobeクライアントデータレイヤー
-role: アーキテクト、開発者、管理者
-translation-type: tm+mt
+feature: コアコンポーネント、Adobe Client Data Layer
+role: 設計者、開発者、管理者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
