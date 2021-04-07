@@ -1,23 +1,23 @@
 ---
 title: コンテンツフラグメントリストコンポーネント
 description: コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントのリストを表示できます。
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# コンテンツフラグメントリストコンポーネント{#content-fragment-list-component}
+# コンテンツフラグメントリストコンポーネント {#content-fragment-list-component}
 
 コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、[コンテンツフラグメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)のリストを表示できます。
 
 ## 使用方法 {#usage}
 
-コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントモデルに基づいて[コンテンツフラグメント](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)のリストをページに組み込むことができます。これは、他のアプリケーションで容易に使用できる[ヘッドレスコンテンツ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)を作成する場合に特に便利です。
+コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントモデルに基づいて[コンテンツフラグメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)のリストをページに組み込むことができます。これは、他のアプリケーションで容易に使用できる[ヘッドレスコンテンツ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)を作成する場合に特に便利です。
 
 * リストとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * スタイルは、[デザインダイアログ](#design-dialog)でコンポーネントに適用できます。
@@ -64,7 +64,7 @@ ht-degree: 99%
    * 選択したタグの横にある「X」をクリックまたはタップすれば、そのタグを削除できます。
 * **並べ替え順** - リストの並べ替えに使用するコンテンツフラグメントモデルのフィールド
    * 選択できるのは、テキストフィールド（数値、日付、時刻など）のみです。
-* **ソート順序** - 「**並べ替え順**」フィールドによるリストの並べ替え方法
+* **並べ替え順序** - 「**並べ替え順**」フィールドによるリストの並べ替え方法
    * 昇順または降順
 * **最大項目数** - リストに表示する項目の最大数
    * 値が指定されない場合は、すべての項目が返されます。
@@ -74,19 +74,19 @@ ht-degree: 99%
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 >[!NOTE]
->コアコンポーネントのリリース 2.7.0 では、「**並べ替え順**」、「**ソート順序**」、「**最大項目数**」の各オプションが導入されました。
+>コアコンポーネントのリリース 2.7.0 では、「**並べ替え順**」、「**並べ替え順序**」、「**最大項目数**」の各オプションが導入されました。
 
-### 「要素」タブ
+### 「エレメント」タブ
 
-（「**最大項目数**」フィールドで制限されない限り）デフォルトでは、コンテンツフラグメントモデルのすべての要素がリストに含まれます。「**要素**」タブを使用すると、含める特定の要素を指定できます。
+（「**最大項目数**」フィールドで制限されない限り）デフォルトでは、コンテンツフラグメントモデルのすべての要素がリストに含まれます。「**エレメント**」タブを使用すると、含める特定の要素を指定できます。
 
 ![コンテンツフラグメントリストコンポーネントの編集ダイアログの「要素」タブ](/help/assets/content-fragment-list-elements.png)
 
-* **要素** - 指定したリストに含まれているコンテンツフラグメントの要素のみ表示されます。
+* **エレメント** - 指定したリストに含まれているコンテンツフラグメントの要素のみ表示されます。
    * 「**追加**」ボタンをクリックまたはタップすると、新しい要素を追加できます。
    * 「**削除**」ボタンをクリックまたはタップすると、選択した要素を削除できます。
    * 「**順序**」ハンドルをドラッグすると、要素の順序を並べ替えることができます。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、コンテンツフラグメントリストコンポーネントに適用するスタイルをテンプレート作成者が定義できます。
