@@ -2,17 +2,17 @@
 title: フォーム非表示コンポーネント（v1）
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
 index: n
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# フォーム非表示コンポーネント（v1）{#form-hidden-component-v}
+# フォーム非表示コンポーネント（v1） {#form-hidden-component-v}
 
 コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
 
@@ -93,7 +93,7 @@ ht-degree: 98%
 * **値** - フィールドの値（フォームデータと共に送信されます）
 * **識別子** - 識別子は、ページ上で一意である必要があり、スクリプトをこのフォームフィールドにバインドするために使用できます
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 フォーム非表示コンポーネントにはデザインダイアログはありません。
 
