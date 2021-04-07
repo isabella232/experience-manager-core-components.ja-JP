@@ -2,17 +2,17 @@
 title: ページコンポーネント（v1）
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 index: n
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# ページコンポーネント（v1）{#page-component-v}
+# ページコンポーネント（v1） {#page-component-v}
 
 ページコンポーネントは、[テンプレートエディター](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html)と連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 
