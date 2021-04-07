@@ -1,17 +1,17 @@
 ---
 title: ダウンロードコンポーネント
 description: コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# ダウンロードコンポーネント{#download-component}
+# ダウンロードコンポーネント {#download-component}
 
 コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
 
@@ -36,11 +36,11 @@ ht-degree: 99%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-ダウンロードコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_download_jp)を参照してください。
+ダウンロードコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_download)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
-ダウンロードコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_jp) を参照してください。
+ダウンロードコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_download_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
