@@ -1,12 +1,12 @@
 ---
 title: PDF ビューアコンポーネント
 description: PDF ビューアコンポーネントを使用すると、PDF ドキュメントを表示できます。
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ PDF ビューアコンポーネントに関する最新の技術ドキュメン�
 
 設定ダイアログでは、ビューアそのものと、ページの訪問者に対するビューアの動作および表示をコンテンツ作成者が定義できます。
 
-### 「設定」タブ{#configuration-tab}
+### 「設定」タブ {#configuration-tab}
 
 「設定」タブでは、作成者は表示する PDF を定義できます。パスは、AEM 内のアセットとして定義することも、別のリソースへの絶対パスとして定義することもできます。
 
@@ -107,6 +107,6 @@ PDF ビューアコンポーネントに関する最新の技術ドキュメン�
 * **PDF のダウンロード** - 有効にすると、「ダウンロード」ボタンが表示されます。
 * **PDF の印刷** - 有効にすると、「印刷」ボタンが表示されます。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 PDF ビューアコンポーネントにはデザインダイアログはありません。
