@@ -1,12 +1,12 @@
 ---
 title: コアコンポーネントを利用したプロジェクトの成功への道筋
 description: コアコンポーネントを利用したプロジェクトの実装を成功させる方法
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ AEM とコアコンポーネントの機能は非常に強力ですが、同時�
 
 ### コンテンツフラグメント {#content-fragments}
 
-[コンテンツフラグメントを使用すると、チャネルに特化しないコンテンツをチャネル固有のバリエーションと共に作成できます。](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html)その後、コンテンツページをオーサリングする際に、これらのフラグメントとそれらのバリエーションを使用できます。
+[コンテンツフラグメントを使用すると](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html)、チャネルに特化しないコンテンツをチャネル固有のバリエーションと共に作成できます。その後、コンテンツページをオーサリングする際に、これらのフラグメントとそれらのバリエーションを使用できます。
 
 更新された JSON エクスポーターと共に構造化コンテンツフラグメントを使用して、AEM コンテンツをコンテンツサービス経由で AEM ページ以外のチャネルに配信することもできます。
 
