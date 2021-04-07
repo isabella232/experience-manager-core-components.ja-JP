@@ -1,12 +1,12 @@
 ---
 title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2175'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 99%
 
 ### 技術的詳細 {#technical-details}
 
-画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_image_v2) を参照してください。
+画像コンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_image_v2_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -217,11 +217,9 @@ ht-degree: 99%
 
    ![画像コンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-orientation.png)
 
-* **回転**
-コンテンツ作成者が 
+* **回転** - コンテンツ作成者が 
 「**右に回転**」オプションを使用できるようにするには、このオプションを使用します。
-* **反転**
-コンテンツ作成者が 
+* **反転** - コンテンツ作成者が 
 「**水平方向に反転**」および「**垂直方向に反転**」オプションを使用できるようにするには、このオプションを使用します。
 
    >[!CAUTION]
