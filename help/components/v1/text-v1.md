@@ -2,17 +2,17 @@
 title: テキストコンポーネント（v1）
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 index: n
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# テキストコンポーネント（v1）{#text-component-v}
+# テキストコンポーネント（v1） {#text-component-v}
 
 テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 
@@ -71,7 +71,7 @@ ht-degree: 99%
 >
 >コアコンポーネントからの JSON エクスポートには、コアコンポーネントのリリース 1.1.0 が必要です。詳しくは、[コアコンポーネント v1 の互換性情報](/help/versions.md)を参照してください。
 
-## 編集ダイアログ{#edit-dialog}
+## 編集ダイアログ {#edit-dialog}
 
 編集ダイアログには、テキストの作成を支援する標準のリッチテキスト書式設定ツールが用意されています。
 
@@ -313,7 +313,7 @@ ht-degree: 99%
 
 ![](/help/assets/chlimage_1-86.png)
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、コンテンツ作成者が使用できるテキスト書式設定オプションをテンプレート作成者が定義できます。
 
