@@ -1,17 +1,17 @@
 ---
 title: エクスペリエンスフラグメントコンポーネント
 description: エクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者はエクスペリエンスフラグメントのバリエーションをページに追加できます。
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# エクスペリエンスフラグメントコンポーネント{#experience-fragment-component}
+# エクスペリエンスフラグメントコンポーネント {#experience-fragment-component}
 
 コアコンポーネントのエクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者は、ローカライズされたサイト構造をサポートしながら、エクスペリエンスフラグメントのバリエーションをページに配置できます。
 
@@ -105,7 +105,7 @@ ht-degree: 99%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-エクスペリエンスフラグメントコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_xf_jp)を参照してください。
+エクスペリエンスフラグメントコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_xf)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
