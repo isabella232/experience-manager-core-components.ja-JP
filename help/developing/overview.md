@@ -1,12 +1,12 @@
 ---
 title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
-role: アーキテクト、開発者、管理者
-translation-type: tm+mt
+role: 設計者、開発者、管理者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 99%
 | 配信 | [公開 GitHub 経由](https://github.com/adobe/aem-core-wcm-components) | クイックスタートを通じて |
 | ライセンス | [Apache ライセンス](https://www.apache.org/licenses/LICENSE-2.0) | アドビ固有 |
 | 貢献度 | プル要求を通じて | 不可能 |
-| アクセシビリティ | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
+| アクセシビリティ | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
 
 ## コンポーネントリスト {#component-list}
 
@@ -93,35 +93,35 @@ ht-degree: 99%
 
 | コアコンポーネント | 説明 | 置き換わる基盤コンポーネント |
 |---|---|---|
-| [ページ](https://adobe.com/go/aem_cmp_tech_page_v2) | テンプレートエディターに対応するレスポンシブページ | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
-| [パンくず](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | ページ階層のナビゲーション | `/libs/foundation/components/breadcrumb` |
-| [タイトル](https://adobe.com/go/aem_cmp_tech_title_v2) | H1 ~ H6 タイトル | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
+| [ページ](https://adobe.com/go/aem_cmp_tech_page_v2_jp) | テンプレートエディターに対応するレスポンシブページ | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
+| [パンくず](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_jp) | ページ階層のナビゲーション | `/libs/foundation/components/breadcrumb` |
+| [タイトル](https://adobe.com/go/aem_cmp_tech_title_v2_jp) | H1 ~ H6 タイトル | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
 | [テキスト](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | リッチテキスト | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
-| [画像](https://adobe.com/go/aem_cmp_tech_image_v2) | 最適なレンディションサイズのスマート遅延読み込み | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
-| [リスト](https://adobe.com/go/aem_cmp_tech_list_v2) | ページのリスト | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [ソーシャルメディア共有](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Facebook および Pinterest の共有ウィジェット | `-` |
-| [フォームコンテナ](https://adobe.com/go/aem_cmp_tech_form_container_v2) | レスポンシブフォームの段落システム | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
-| [フォームテキスト](https://adobe.com/go/aem_cmp_tech_form_text_v2) | テキスト入力フィールド | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
-| [フォームオプション](https://adobe.com/go/aem_cmp_tech_form_options_v2) | 複数オプション入力フィールド | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
-| [フォーム非表示](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | 非表示の入力フィールド | `/libs/foundation/components/form/hidden` |
-| [フォームボタン](https://adobe.com/go/aem_cmp_tech_form_button_v2) | 送信ボタンまたはカスタムボタン | `/libs/foundation/components/form/submit` |
-| [ナビゲーション](https://adobe.com/go/aem_cmp_tech_navigation_v1) | ネストしたページ階層を一覧表示するサイトナビゲーションコンポーネント | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
-| [言語ナビゲーション](https://adobe.com/go/aem_cmp_tech_langnav_v1) | グローバル言語構造を一覧表示する言語および国の切り替え機能 | `-` |
-| [クイック検索](https://adobe.com/go/aem_cmp_tech_search_v1) | 結果をドロップダウンメニューでインプレース候補として表示する検索コンポーネント | `/libs/foundation/components/search` |
-| [ティーザー](https://adobe.com/go/aem_cmp_tech_teaser_v1) | 画像、タイトル、リッチテキスト、追加コンテンツや他のアクションへのリンクを使用して、コンテンツ作成者が詳細なコンテンツへのティーザーを容易に作成できるようにする | `-` |
-| [タブ](https://adobe.com/go/aem_cmp_tech_tabs_v1) | コンテンツ作成者がページコンテンツを複数のタブに整理できるようにする | `-` |
-| [カルーセル](https://adobe.com/go/aem_cmp_tech_carousel_v1) | コンテンツ作成者がコンテンツをスライドの回転カルーセルに整理できるようにする | `/libs/foundation/components/carousel` |
-| [コンテンツフラグメント](https://adobe.com/go/aem_cmp_tech_cf_v1) | コンテンツフラグメントを表示できるようにする | `-` |
-| [コンテンツフラグメントリスト](https://adobe.com/go/aem_cmp_tech_cflist_v1) | コンテンツフラグメントのリストを表示できるようにする | `-` |
-| [区切り文字](https://adobe.com/go/aem_cmp_tech_separator_v1) | ページのコンテンツを区切る | `-` |
+| [画像](https://adobe.com/go/aem_cmp_tech_image_v2_jp) | 最適なレンディションサイズのスマート遅延読み込み | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
+| [リスト](https://adobe.com/go/aem_cmp_tech_list_v2_jp) | ページのリスト | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
+| [ソーシャルメディア共有](https://adobe.com/go/aem_cmp_tech_sharing_v1_jp) | Facebook および Pinterest の共有ウィジェット | `-` |
+| [フォームコンテナ](https://adobe.com/go/aem_cmp_tech_form_container_v2_jp) | レスポンシブフォームの段落システム | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
+| [フォームテキスト](https://adobe.com/go/aem_cmp_tech_form_text_v2_jp) | テキスト入力フィールド | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
+| [フォームオプション](https://adobe.com/go/aem_cmp_tech_form_options_v2_jp) | 複数オプション入力フィールド | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
+| [フォーム非表示](https://adobe.com/go/aem_cmp_tech_form_hidden_v2_jp) | 非表示の入力フィールド | `/libs/foundation/components/form/hidden` |
+| [フォームボタン](https://adobe.com/go/aem_cmp_tech_form_button_v2_jp) | 送信ボタンまたはカスタムボタン | `/libs/foundation/components/form/submit` |
+| [ナビゲーション](https://adobe.com/go/aem_cmp_tech_navigation_v1_jp) | ネストしたページ階層を一覧表示するサイトナビゲーションコンポーネント | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
+| [言語ナビゲーション](https://adobe.com/go/aem_cmp_tech_langnav_v1_jp) | グローバル言語構造を一覧表示する言語および国の切り替え機能 | `-` |
+| [クイック検索](https://adobe.com/go/aem_cmp_tech_search_v1_jp) | 結果をドロップダウンメニューでインプレース候補として表示する検索コンポーネント | `/libs/foundation/components/search` |
+| [ティーザー](https://adobe.com/go/aem_cmp_tech_teaser_v1_jp) | 画像、タイトル、リッチテキスト、追加コンテンツや他のアクションへのリンクを使用して、コンテンツ作成者が詳細なコンテンツへのティーザーを容易に作成できるようにする | `-` |
+| [タブ](https://adobe.com/go/aem_cmp_tech_tabs_v1_jp) | コンテンツ作成者がページコンテンツを複数のタブに整理できるようにする | `-` |
+| [カルーセル](https://adobe.com/go/aem_cmp_tech_carousel_v1_jp) | コンテンツ作成者がコンテンツをスライドの回転カルーセルに整理できるようにする | `/libs/foundation/components/carousel` |
+| [コンテンツフラグメント](https://adobe.com/go/aem_cmp_tech_cf_v1_jp) | コンテンツフラグメントを表示できるようにする | `-` |
+| [コンテンツフラグメントリスト](https://adobe.com/go/aem_cmp_tech_cflist_v1_jp) | コンテンツフラグメントのリストを表示できるようにする | `-` |
+| [区切り文字](https://adobe.com/go/aem_cmp_tech_separator_v1_jp) | ページのコンテンツを区切る | `-` |
 | [アコーディオン](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 折りたたみ可能なアコーディオンの形式にコンテンツパネルを整理する | `-` |
-| [コンテナ](https://adobe.com/go/aem_cmp_tech_container_v1) | コンテナ内のコンポーネントを整理する | `-` |
+| [コンテナ](https://adobe.com/go/aem_cmp_tech_container_v1_jp) | コンテナ内のコンポーネントを整理する | `-` |
 | [ボタン](https://adobe.com/go/aem_cmp_tech_button_v1) | ページ上にボタンを作成する | `-` |
 | [ダウンロード](https://adobe.com/go/aem_cmp_tech_download_v1) | ダウンロード可能なアセットをページに追加する | `-` |
-| [エクスペリエンスフラグメント](https://adobe.com/go/aem_cmp_tech_xf_v1) | エクスペリエンスフラグメントをページに追加する | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [エクスペリエンスフラグメント](https://adobe.com/go/aem_cmp_tech_xf_v1_jp) | エクスペリエンスフラグメントをページに追加する | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [埋め込み](https://adobe.com/go/aem_cmp_tech_embed_v1) | ページ内に外部リソースを埋め込む | - |
 | [プログレスバー](https://adobe.com/go/aem_cmp_tech_progress_v1) | 目標に対する進捗を視覚的に表現する | - |
-| [PDF ビューア](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | ページに PDF ドキュメントを表示します。 | - |
+| [PDF ビューア](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_jp) | ページに PDF ドキュメントを表示します。 | - |
 
 ### 今後リリース予定のコンポーネント {#upcoming-components}
 
