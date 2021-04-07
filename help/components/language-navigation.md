@@ -1,12 +1,12 @@
 ---
 title: 言語ナビゲーションコンポーネント
 description: 言語ナビゲーションコンポーネントは、言語と国を指定したサイトナビゲーション機能を提供し、訪問者が同じページを異なるロケールでナビゲートできるようにします。
-role: アーキテクト、開発者、管理者、実業家
-translation-type: tm+mt
+role: 設計者、開発者、管理者、業務担当者
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
