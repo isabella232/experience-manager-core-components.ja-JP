@@ -5,11 +5,11 @@ type: ドキュメント
 description: Adobe Experience Manager コアコンポーネントのドキュメント
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.ja-JP
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 290423c39b925ea8cf4077f31a76ecf01167f344
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '113'
+ht-degree: 100%
 
 ---
 
@@ -49,4 +49,4 @@ metadata.md
 * `description`
 * `index: n`（以前のバージョンのコンポーネントのみ）
 
-メタデータに関する追加情報は、[内部オーサリングガイド](https://docs.adobe.com/help/ja-JP/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)を参照してください。
+メタデータに関する追加情報は、[内部オーサリングガイド](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html?lang=ja)を参照してください。
