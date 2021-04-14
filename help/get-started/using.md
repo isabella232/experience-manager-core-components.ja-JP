@@ -1,15 +1,15 @@
 ---
 title: コアコンポーネントの使用
 description: 「独自のプロジェクトにコアコンポーネントを導入するには、4 つの手順（ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートでのコンポーネントの有効化）に従います。」
-role: 設計者、開発者、管理者、業務担当者
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
+translation-type: tm+mt
+source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
+workflow-type: tm+mt
+source-wordcount: '977'
+ht-degree: 72%
 
 ---
-
 
 # コアコンポーネントの使用 {#using-core-components}
 
@@ -20,16 +20,36 @@ ht-degree: 100%
 1. [コアスタイルの読み込み](#load-the-core-styles)
 1. [コンポーネントの有効化](#allow-the-components)
 
->[!NOTE]
+>[!TIP]
 >
->また、プロジェクト設定、コアコンポーネント、編集可能テンプレート、クライアントライブラリおよびコンポーネント開発にゼロから取り組む方法についての広範な手順については、複数パートから成る次のチュートリアルを参照してください。\
+>プロジェクト設定、コアコンポーネント、編集可能なテンプレート、クライアントライブラリ、コンポーネントの開発を最初から開始する方法のより詳しい説明は、次のマルチパートチュートリアルを参照してください。\
 >[AEM Sites の概要 - WKND チュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+
+>[!TIP]
+>
+>[AEMプロジェクトのアーキタイプを使用する場合、](/help/developing/archetype/overview.md)コアコンポーネントは、Adobeのベストプラクティスの推奨事項に基づいて、プロジェクトに自動的に追加されます。
 
 ## ダウンロードとインストール {#download-and-install}
 
-コアコンポーネントの背後にある基本的な考え方は柔軟性です。新しいバージョンのコアコンポーネントを頻繁にリリースすることで、アドビは新しい機能をより柔軟に配信できるようになります。一方、開発者は、プロジェクトに統合するコンポーネントとそれらの更新頻度を柔軟に設定できます。
+コアコンポーネントの背後にある基本的な考え方は柔軟性です。新しいバージョンのコアコンポーネントを頻繁にリリースすることで、アドビは新しい機能をより柔軟に配信できるようになります。一方、開発者は、プロジェクトに統合するコンポーネントとそれらの更新頻度を柔軟に設定できます。これにより、AEMとコアコンポーネントの両方で別々のリリースプロセスが実行されます。
 
-このため、実稼動モード（サンプルコンテンツなし）で開始する場合、コアコンポーネントはクイックスタートには含まれません。したがって、[リリースされた最新のコンテンツパッケージを GitHub からダウンロード](https://github.com/adobe/aem-core-wcm-components/releases/latest)して AEM 環境にインストールすることが最初の手順になります。
+したがって、AEMをクラウドサービスとして実行しているか、オンプレミスとして実行しているかによって、インストール手順が決まります。
+
+### AEM as a Cloud Service {#aemaacs}
+
+ステップ1はない！ AEMは、コアコンポーネントの最新バージョンでCloud Serviceに自動的に付属します。 AEMaaCSオファーがAEMの最新の機能を利用できるように、AEMaCSではコアコンポーネントの最新バージョンが自動的に更新されます。
+
+AEMaCSでコアコンポーネントを使用する際には、次の点に留意してください。
+
+* コアコンポーネントは`/libs`に含まれています。
+* プロジェクトビルドパイプラインでは、`/apps`の一部としてコアコンポーネントが再び含まれる場合、ログに警告が生成され、プロジェクトの一部として埋め込まれたバージョンは無視されます。
+   * 今後のリリースでは、コアコンポーネントを含めて、パイプラインの構築が再び失敗します。
+* プロジェクトに以前`/apps`のコアコンポーネントが含まれていた場合、[プロジェクトの調整が必要になる場合があります。](/help/developing/overview.md#via-aemaacs)
+* コアコンポーネントが`/libs`に配置された場合でも、`/apps`に同じパスのオーバーレイを作成することはお勧めしません。 [コンポーネントの一部をカスタマイズする必要がある場合は、代わりにプロキシコンポーネントの](/help/developing/guidelines.md#proxy-component-pattern) パターンを使用する必要があります。
+
+### AEM 6.5以前{#aem-65}
+
+コアコンポーネントは、実稼働モードで起動する場合（サンプルコンテンツなし）、クイックスタートに含まれません。 したがって、[リリースされた最新のコンテンツパッケージを GitHub からダウンロード](https://github.com/adobe/aem-core-wcm-components/releases/latest)して AEM 環境にインストールすることが最初の手順になります。
 
 これを自動化する方法はいくつかありますが、コンテンツパッケージをインスタンスにすぐにインストールするには、パッケージマネージャーを使用する方法が最も簡単です。詳しくは、[パッケージのインストール](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)を参照してください。また、パブリッシュインスタンスも実行する場合は、そのパブリッシュインスタンスにパッケージをレプリケートする必要があります。詳しくは、[パッケージのレプリケーション](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)を参照してください。
 
