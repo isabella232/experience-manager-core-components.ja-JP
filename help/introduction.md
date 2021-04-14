@@ -4,10 +4,10 @@ description: 'コアコンポーネントは、最新のテクノロジーとベ
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 94%
 
 ---
 
@@ -118,3 +118,9 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 コアコンポーネントでは、[編集可能なテンプレート](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)を使用する必要があり、クラシック UI や静的テンプレートはサポートされていません。必要に応じて、[AEM 最新化ツール](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)を使用して、これらの最新の AEM 機能をプロジェクトに反映します。
 
 ローカルの開発環境をセットアップするには、[AEM as a Cloud Service SDK の場合はこの概要](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)を、[旧バージョンの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) の場合は本ドキュメントを、それぞれを参照してください。
+
+>[!TIP]
+>
+>コアコンポーネントは自動的にAEMのCloud Serviceに含まれ、常に最新リリースのコアコンポーネントを持っています。
+>
+>AEMaaCSとオンプレミスの両方でコアコンポーネントの使用を開始する方法について詳しくは、[コアコンポーネントの使用](/help/get-started/using.md)ドキュメントを参照してください。
