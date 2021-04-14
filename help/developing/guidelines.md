@@ -1,15 +1,15 @@
 ---
 title: コンポーネントのガイドライン
 description: コアコンポーネントは、基盤コンポーネントとは大きく異なる、最新の実装パターンに従います。
-role: 設計者、開発者、管理者
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '1262'
-ht-degree: 100%
+role: Architect, Developer, Administrator
+exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
+translation-type: tm+mt
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+workflow-type: tm+mt
+source-wordcount: '1272'
+ht-degree: 98%
 
 ---
-
 
 # コンポーネントのガイドライン {#component-guidelines}
 
@@ -53,6 +53,10 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ただし、プロジェクト固有のコンポーネント間でコードが重複しないようにするには、`sling:resourceSuperType` プロパティを使用して各コンポーネントが共通の親コンポーネントを参照するようにしてください。ほとんど親コンポーネントを参照するだけの、これらプロジェクト固有のコンポーネントは、「プロキシコンポーネント」と呼ばれます。機能をすべて継承する場合はプロキシコンポーネントを完全に空にすることができます。また、プロキシコンポーネントでコンポーネントのいくつかの側面を再定義することもできます。
 
+>[!TIP]
+>
+>プロキシコンポーネントの作成方法の詳細については、「[コアコンポーネントの使用](/help/get-started/using.md#create-proxy-components)」を参照してください。
+
 ### コンポーネントのバージョン管理 {#component-versioning}
 
 コンポーネントは時間が経過しても完全に互換性を維持する必要がありますが、互換性を維持できない変更が必要になる場合もあります。これらの相反するニーズへの解決策の 1 つは、リソースタイプパスと実装の完全修飾 Java クラス名に数値を追加して、コンポーネントのバージョン管理を導入することです。このバージョン番号は、[セマンティックバージョン管理のガイドライン](https://semver.org/)で定義されたメジャーバージョンを表します。メジャーバージョンは、後方互換性を維持できない変更でのみインクリメントされます。
@@ -82,7 +86,7 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ## まとめ {#putting-it-all-together}
 
-以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html` [HTL](https://docs.adobe.com/content/help/ja-JP/experience-manager-htl/using/overview.html) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
+以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
 
 ![リソースバインディングの概要](/help/assets/chlimage_1-32.png)
 
