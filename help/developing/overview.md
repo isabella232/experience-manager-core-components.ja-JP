@@ -1,15 +1,15 @@
 ---
 title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
-role: 設計者、開発者、管理者
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '1445'
-ht-degree: 100%
+role: Architect, Developer, Administrator
+exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
+translation-type: tm+mt
+source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
+workflow-type: tm+mt
+source-wordcount: '1591'
+ht-degree: 90%
 
 ---
-
 
 # コアコンポーネントの開発 {#developing-core-components}
 
@@ -40,6 +40,8 @@ ht-degree: 100%
 
 新規プロジェクトは、コアコンポーネントで実装する必要があります。ただし、既存プロジェクトでは通常、基盤コンポーネントが広範囲にわたって実装されています。
 
+### Foundationコンポーネントからの移行{#from-foundation}
+
 既存プロジェクトに関する大規模な作業（リブランディングや全体的なリファクタリングなど）は、多くの場合、コアコンポーネントへの移行のチャンスとなります。このような移行を容易にするために、アドビでは、コアコンポーネントと最新の AEM テクノロジーの導入を促進するための多数の移行ツールを提供しています。
 
 [AEM Modernization Tools](http://opensource.adobe.com/aem-modernize-tools/) を使用すると、以下の変換を容易におこなえるようになります。
@@ -54,6 +56,23 @@ ht-degree: 100%
 >[!NOTE]
 >
 >AEM Modernize Tools はコミュニティの取り組みであり、アドビによるサポートまたは保証の対象外です。
+
+## Cloud ServiceとしてAEMに移行する{#via-aemaacs}
+
+AEMにはCloud Service版のコアコンポーネントが自動的に付属するので、オンプレミスのAEMから移行する場合は、プロジェクト`pom.xml`ファイルのコアコンポーネントへの依存関係を削除する必要があります。
+
+プロキシコンポーネントは、   プロキシは必要なスーパータイプを指し、スーパータイプパスはその中にバージョンを持ちます。 この方法では、依存関係を削除するだけで、コアコンポーネントはオンプレミスと同じようにAEMaCSで動作します。
+
+他のAEMaCSプロジェクトと同様に、AEM SDKのjarにも依存関係を追加する必要があります。 これはコアコンポーネントに固有のものではありませんが、必須です。
+
+```xml
+<dependency>
+   <groupId>com.adobe.aem</groupId>
+   <artifactId>aem-sdk-api</artifactId>
+</dependency>
+```
+
+AEMaCSプロジェクトについて詳しくは、ドキュメント[AEMプロジェクト構造](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)を参照してください。
 
 ## コアコンポーネントのサポート {#core-component-support}
 
@@ -85,7 +104,7 @@ ht-degree: 100%
 | 配信 | [公開 GitHub 経由](https://github.com/adobe/aem-core-wcm-components) | クイックスタートを通じて |
 | ライセンス | [Apache ライセンス](https://www.apache.org/licenses/LICENSE-2.0) | アドビ固有 |
 | 貢献度 | プル要求を通じて | 不可能 |
-| アクセシビリティ | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
+| アクセシビリティ | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
 
 ## コンポーネントリスト {#component-list}
 
