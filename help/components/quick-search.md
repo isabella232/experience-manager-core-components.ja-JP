@@ -1,15 +1,15 @@
 ---
 title: クイック検索コンポーネント
 description: クイック検索コンポーネントは、Web サイトに検索機能を提供し、訪問者がサイト内を検索して結果を絞り込めるように検索結果を表示します。
-role: 設計者、開発者、管理者、業務担当者
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '597'
-ht-degree: 100%
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
+translation-type: tm+mt
+source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 96%
 
 ---
-
 
 # クイック検索コンポーネント {#quick-search-component}
 
@@ -55,7 +55,11 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-## デザインダイアログ {#design-dialog}
+>[!NOTE]
+>
+>**検索ルート**&#x200B;が設定されていない場合や解決できない場合、クイック検索はデフォルトで現在のページの下の検索になります。
+
+## デザインダイアログ{#design-dialog}
 
 デザインダイアログを使用すれば、コンテンツツリーにおける検索の開始位置のデフォルト値、結果セットサイズの上限、検索語句の長さの下限をテンプレート作成者が設定できます。デザインダイアログでは、コンテンツ作成者が使用できるテキスト書式設定オプションをテンプレート作成者が定義できます。
 
