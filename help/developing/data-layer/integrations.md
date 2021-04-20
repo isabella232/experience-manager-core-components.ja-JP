@@ -1,8 +1,8 @@
 ---
 title: 統合と Adobe Client Data Layer
 description: Adobe Client Data Layer とカスタムコンポーネントの統合方法のほか、Adobe Analytics や Adobe Target との統合が Web サイトに対するインサイトの取得にどう役に立つかを説明します。
-feature: コアコンポーネント、Adobe Client Data Layer
-role: 設計者、開発者、管理者
+feature: Core Components, Adobe Client Data Layer
+role: Architect, Developer, Administrator
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht
