@@ -1,16 +1,16 @@
 ---
 title: AEM プロジェクトアーキタイプ
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-feature: Core Components, AEM Project Archetype
+feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
+exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 translation-type: ht
-source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '1043'
+source-wordcount: '1040'
 ht-degree: 100%
 
 ---
-
 
 # AEM プロジェクトアーキタイプ {#aem-project-archetype}
 
