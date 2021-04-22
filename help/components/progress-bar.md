@@ -2,14 +2,14 @@
 title: プログレスバーコンポーネント
 description: プログレスバーコンポーネントは、目標に向かう進行状況を視覚的に表します
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '343'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
-
 
 # プログレスバーコンポーネント {#progress-bar-component}
 
