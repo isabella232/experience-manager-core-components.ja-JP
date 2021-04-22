@@ -3,16 +3,16 @@ title: パンくずコンポーネント（v1）
 description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '551'
+source-wordcount: '546'
 ht-degree: 100%
 
 ---
 
-
-# パンくずコンポーネント（v1） {#breadcrumb-component-v}
+# パンくずコンポーネント（v1）{#breadcrumb-component-v}
 
 コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
 
