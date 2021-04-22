@@ -1,16 +1,16 @@
 ---
 title: Angular SPA のフロントエンドビルド
 description: Angular ベースの SPA プロジェクトのフロントエンドビルドプロセスの説明
-feature: Core Components, AEM Project Archetype
+feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
+exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '412'
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
-
 
 # Angular SPA のフロントエンドビルド {#frontend-angular}
 
