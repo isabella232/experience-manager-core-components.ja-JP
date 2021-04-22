@@ -2,14 +2,14 @@
 title: ボタンコンポーネント
 description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '456'
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
-
 
 # ボタンコンポーネント {#button-component}
 
