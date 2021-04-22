@@ -6,8 +6,8 @@ exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 translation-type: tm+mt
 source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ AEMにはCloud Service版のコアコンポーネントが自動的に付属す�
 </dependency>
 ```
 
-AEMaCSプロジェクトについて詳しくは、ドキュメント[AEMプロジェクト構造](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)を参照してください。
+AEMaCSプロジェクトについて詳しくは、ドキュメント[AEMプロジェクト構造](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja)を参照してください。
 
 ## コアコンポーネントのサポート {#core-component-support}
 
