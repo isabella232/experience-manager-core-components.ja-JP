@@ -6,8 +6,8 @@ exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
 source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -99,7 +99,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 >[!NOTE]
 >
->個々のコアコンポーネントの一部のバージョンは、特定のバージョンの AEM とのみ互換性があります。
+>個別コアコンポーネントの一部のバージョンは、特定のバージョンの AEM とのみ互換性があります。
 >
 >互換性の情報については、特定のコンポーネントに対する個々のヘルプページ（前の一覧にリンクされています）を参照するか、[コアコンポーネントバージョン](versions.md)ドキュメントで詳細を確認してください。
 
