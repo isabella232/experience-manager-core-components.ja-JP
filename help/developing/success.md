@@ -2,14 +2,14 @@
 title: コアコンポーネントを利用したプロジェクトの成功への道筋
 description: コアコンポーネントを利用したプロジェクトの実装を成功させる方法
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '575'
+source-wordcount: '570'
 ht-degree: 100%
 
 ---
-
 
 # コアコンポーネントを利用したプロジェクトの成功への道筋 {#paths-to-success}
 
