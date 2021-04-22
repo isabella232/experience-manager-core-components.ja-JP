@@ -3,16 +3,16 @@ title: フォームコンテナコンポーネント（v1）
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '643'
+source-wordcount: '638'
 ht-degree: 100%
 
 ---
 
-
-# フォームコンテナコンポーネント（v1） {#form-container-component-v1}
+# フォームコンテナコンポーネント（v1）{#form-container-component-v1}
 
 コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 
