@@ -2,14 +2,14 @@
 title: コンテナコンポーネント
 description: コアコンポーネントのコンテナコンポーネントを使用すると、ページ上に複数の追加コンポーネント用のコンテナを作成できます。
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '797'
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
-
 
 # コンテナコンポーネント {#container-component}
 
