@@ -1,16 +1,16 @@
 ---
 title: AEM プロジェクトアーキタイプの ui.tests モジュール
 description: AEM プロジェクトアーキタイプの UI テストの使用方法
-feature: Core Components, AEM Project Archetype
+feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
+exl-id: eb3c9b34-f10e-410f-bcf3-34f94f124c7c
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # AEM プロジェクトアーキタイプの ui.tests モジュール {#uitests-module}
 
