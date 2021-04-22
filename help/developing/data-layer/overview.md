@@ -1,16 +1,16 @@
 ---
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
-feature: Core Components, Adobe Client Data Layer
+feature: コアコンポーネント、Adobe Client Data Layer
 role: Architect, Developer, Administrator
+exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '983'
+source-wordcount: '980'
 ht-degree: 100%
 
 ---
-
 
 # コアコンポーネントでの Adobe Client Data Layer の使用 {#data-layer-core-components}
 
