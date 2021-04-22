@@ -1,16 +1,16 @@
 ---
 title: AEM プロジェクトのアーキタイプフロントエンドビルド
 description: AEM ベースのアプリケーション用のプロジェクトテンプレート
-feature: Core Components, AEM Project Archetype
+feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
+exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '1628'
+source-wordcount: '1625'
 ht-degree: 100%
 
 ---
-
 
 # AEM プロジェクトアーキタイプの ui.frontend モジュール {#uifrontend-module}
 
