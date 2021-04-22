@@ -3,16 +3,16 @@ title: 画像コンポーネント（v1）
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '1234'
+source-wordcount: '1229'
 ht-degree: 100%
 
 ---
 
-
-# 画像コンポーネント（v1） {#image-component-v}
+# 画像コンポーネント（v1）{#image-component-v}
 
 コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 
