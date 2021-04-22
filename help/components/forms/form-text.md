@@ -2,14 +2,14 @@
 title: フォームテキストコンポーネント
 description: コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '582'
+source-wordcount: '577'
 ht-degree: 100%
 
 ---
-
 
 # フォームテキストコンポーネント {#form-text-component}
 
