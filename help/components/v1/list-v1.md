@@ -3,16 +3,16 @@ title: リストコンポーネント（v1）
 description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '859'
+source-wordcount: '854'
 ht-degree: 100%
 
 ---
 
-
-# リストコンポーネント（v1） {#list-component-v}
+# リストコンポーネント（v1）{#list-component-v}
 
 コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
 
