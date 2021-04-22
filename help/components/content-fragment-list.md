@@ -2,16 +2,16 @@
 title: コンテンツフラグメントリストコンポーネント
 description: コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントのリストを表示できます。
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '767'
+source-wordcount: '762'
 ht-degree: 100%
 
 ---
 
-
-# コンテンツフラグメントリストコンポーネント {#content-fragment-list-component}
+# コンテンツフラグメントリストコンポーネント{#content-fragment-list-component}
 
 コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、[コンテンツフラグメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)のリストを表示できます。
 
