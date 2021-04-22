@@ -1,16 +1,16 @@
 ---
 title: AEM プロジェクトアーキタイプの ui.apps モジュール
 description: AEM プロジェクトアーキタイプの ui.apps モジュール
-feature: Core Components, AEM Project Archetype
+feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
+exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 100%
 
 ---
-
 
 # AEM プロジェクトアーキタイプの ui.apps モジュール {#uiapps-module}
 
