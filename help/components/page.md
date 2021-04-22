@@ -3,11 +3,11 @@ title: ページコンポーネント
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 
 ## プログレッシブ ｗeb アプリのサポート {#pwa-support}
 
-コアコンポーネントのリリース2.15.0では、Cloud Serviceの組み込みの[プログレッシブWeb Apps (PWA)機能としてAEMのサポートが導入されました。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html)サイトレベルでの簡単な設定で、AEM エクスペリエンスを PWA に変えることができます。
+コアコンポーネントのリリース 2.15.0 では、AEM as a Cloud Service の組み込み[プログレッシブ Web アプリ（PWA）機能をサポートするようになりました。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=ja)サイトレベルでの簡単な設定で、AEM エクスペリエンスを PWA に変えることができます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
