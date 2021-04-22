@@ -2,14 +2,14 @@
 title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '2218'
+source-wordcount: '2213'
 ht-degree: 100%
 
 ---
-
 
 # テキストコンポーネント {#text-component}
 
