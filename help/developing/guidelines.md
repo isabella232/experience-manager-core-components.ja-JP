@@ -3,11 +3,11 @@ title: コンポーネントのガイドライン
 description: コアコンポーネントは、基盤コンポーネントとは大きく異なる、最新の実装パターンに従います。
 role: Architect, Developer, Administrator
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1272'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ### 関心の分離 {#separation-of-concerns}
 
-通常、コンポーネントのロジック（モデル）とマークアップテンプレート（ビュー）を分離することが推奨されます。これを達成する方法はいくつかありますが、コアコンポーネントでもおこなっているように、[Sling モデル](https://sling.apache.org/documentation/bundles/models.html)をロジックに使用し、[HTML テンプレート言語](https://docs.adobe.com/content/help/ja-JP/experience-manager-htl/using/overview.html)（HTL）をマークアップに使用する方法を推奨します。
+通常、コンポーネントのロジック（モデル）とマークアップテンプレート（ビュー）を分離することが推奨されます。これを達成する方法はいくつかありますが、コアコンポーネントでも行っているように、[Sling モデル](https://sling.apache.org/documentation/bundles/models.html)をロジックに使用し、[HTML テンプレート言語](https://docs.adobe.com/content/help/ja-JP/experience-manager-htl/using/overview.html)（HTL）をマークアップに使用する方法を推奨します。
 
 Sling モデルは、POJO から必要な変数に簡単にアクセスできるようにする Java 注釈のセットです。コンポーネントの Java ロジックを実装する、シンプルで強力かつ効率的な方法を提供します。
 
@@ -43,7 +43,7 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ### 事前設定可能な機能 {#pre-configurable-capabilities}
 
-コンポーネントには、ページ作成者が使用する編集ダイアログのほかに、テンプレート作成者が事前設定をおこなうためのデザインダイアログも含めることができます。[テンプレートエディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)では、「ポリシー」と呼ばれるこれらの事前設定をすべて設定できます。
+コンポーネントには、ページ作成者が使用する編集ダイアログのほかに、テンプレート作成者が事前設定を行うためのデザインダイアログも含めることができます。[テンプレートエディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)では、「ポリシー」と呼ばれるこれらの事前設定をすべて設定できます。
 
 コンポーネントをできるだけ再利用できるようにするには、事前設定用の意味のあるオプションを用意する必要があります。そうすれば、コンポーネントの機能の有効・無効を切り替えることで、様々なサイトの特定のニーズに対応することができます。
 
@@ -55,13 +55,13 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 >[!TIP]
 >
->プロキシコンポーネントの作成方法の詳細については、「[コアコンポーネントの使用](/help/get-started/using.md#create-proxy-components)」を参照してください。
+>プロキシコンポーネントの作成方法について詳しくは、[コアコンポーネントの使用](/help/get-started/using.md#create-proxy-components)を参照してください。
 
 ### コンポーネントのバージョン管理 {#component-versioning}
 
 コンポーネントは時間が経過しても完全に互換性を維持する必要がありますが、互換性を維持できない変更が必要になる場合もあります。これらの相反するニーズへの解決策の 1 つは、リソースタイプパスと実装の完全修飾 Java クラス名に数値を追加して、コンポーネントのバージョン管理を導入することです。このバージョン番号は、[セマンティックバージョン管理のガイドライン](https://semver.org/)で定義されたメジャーバージョンを表します。メジャーバージョンは、後方互換性を維持できない変更でのみインクリメントされます。
 
-コンポーネントの以下の側面に対して互換性のない変更をおこなうと、新しいバージョンになります。
+コンポーネントの以下の側面に対して互換性のない変更を行うと、新しいバージョンになります。
 
 * Sling モデル（セマンティックバージョン管理のガイドラインに準拠）
 * HTL スクリプトおよびテンプレート
@@ -86,7 +86,7 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ## まとめ {#putting-it-all-together}
 
-以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
+以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html` [HTL](https://docs.adobe.com/content/help/ja-JP/experience-manager-htl/using/overview.html) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
 
 ![リソースバインディングの概要](/help/assets/chlimage_1-32.png)
 
@@ -102,7 +102,7 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ## AEM プロジェクトアーキタイプ {#aem-project-archetype}
 
-[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)は、最小限の Adobe Experience Manager プロジェクトを独自のプロジェクトの起点として作成します。これには、推奨のプロキシパターンを使用してコアコンポーネントのロジックと適切な実装をおこなうために、SlingModels を使用したカスタム HTL コンポーネントの helloworld の例が含まれます。
+[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)は、最小限の Adobe Experience Manager プロジェクトを独自のプロジェクトの起点として作成します。これには、ロジック用の SlingModels を使用したカスタム HTL コンポーネントの例や、推奨のプロキシパターンを使用したコアコンポーネントの適切な実装が含まれます。
 
 **関連項目：**
 
