@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f151a70c5ff7db042d4e10adc7ed8a9752ea9c87
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 継続的 | 6.5.5.0+* | 6.4.8.1+ * | 8、11 | 3.3.9 以上 |
+| [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 継続的 | 6.5.5.0+ * | 6.4.8.1+ * | 8、11 | 3.3.9 以上 |
 
 >[!NOTE]
 >
@@ -121,6 +121,6 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 >[!TIP]
 >
->コアコンポーネントは自動的にAEMのCloud Serviceに含まれ、常に最新リリースのコアコンポーネントを持っています。
+>コアコンポーネントは自動的に AEM as a Cloud Service に含まれ、常にコアコンポーネントの最新リリースが使用可能になっています。
 >
->AEMaaCSとオンプレミスの両方でコアコンポーネントの使用を開始する方法について詳しくは、[コアコンポーネントの使用](/help/get-started/using.md)ドキュメントを参照してください。
+>AEM as a Cloud Service と AEM オンプレミスの両方でコアコンポーネントの使用を開始する方法について詳しくは、[コアコンポーネントの使用](/help/get-started/using.md)を参照してください。
