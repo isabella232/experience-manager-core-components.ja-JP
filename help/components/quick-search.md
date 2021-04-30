@@ -3,11 +3,11 @@ title: クイック検索コンポーネント
 description: クイック検索コンポーネントは、Web サイトに検索機能を提供し、訪問者がサイト内を検索して結果を絞り込めるように検索結果を表示します。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
 
@@ -50,14 +50,14 @@ ht-degree: 0%
 ![クイック検索コンポーネントの編集ダイアログ](/help/assets/quick-search-edit.png)
 
 **検索ルート** - 検索の開始位置となるルートページ。検索ルートは、ブループリントマスター、言語マスター、通常のページのいずれでもかまいません。
-* **ID**  — このオプションを使用すると、HTML内および [データレイヤー内のコンポーネントの固有な識別子を制御できます。](/help/developing/data-layer/overview.md)
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
 >[!NOTE]
 >
->**検索ルート**&#x200B;が設定されていない場合や解決できない場合、クイック検索はデフォルトで現在のページの下の検索になります。
+>**検索ルート**&#x200B;が設定されていない場合や解決できない場合、クイック検索はデフォルトで現在のページ配下の検索になります。
 
 ## デザインダイアログ{#design-dialog}
 
