@@ -3,11 +3,11 @@ title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
 role: Architect, Developer, Administrator
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1591'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## コアコンポーネントを使用すべき状況 {#when-to-use-the-core-components}
 
-コアコンポーネントはまったく新しい技術であり、複数のメリットがあるので、新しい AEM プロジェクトではコアコンポーネントを使用することをお勧めします。既存のプロジェクトでは、リブランディングや全体的なリファクタリングなど、より大きなプロジェクト作業の一環として移行をおこなうようにしてください。
+コアコンポーネントはまったく新しい技術であり、複数のメリットがあるので、新しい AEM プロジェクトではコアコンポーネントを使用することをお勧めします。既存のプロジェクトでは、リブランディングや全体的なリファクタリングなど、より大きなプロジェクト作業の一環として移行を行うようにしてください。
 
 そこで、アドビでは次の事項を推奨しています。
 
@@ -40,11 +40,11 @@ ht-degree: 0%
 
 新規プロジェクトは、コアコンポーネントで実装する必要があります。ただし、既存プロジェクトでは通常、基盤コンポーネントが広範囲にわたって実装されています。
 
-### Foundationコンポーネントからの移行{#from-foundation}
+### 基盤コンポーネントからの移行 {#from-foundation}
 
 既存プロジェクトに関する大規模な作業（リブランディングや全体的なリファクタリングなど）は、多くの場合、コアコンポーネントへの移行のチャンスとなります。このような移行を容易にするために、アドビでは、コアコンポーネントと最新の AEM テクノロジーの導入を促進するための多数の移行ツールを提供しています。
 
-[AEM Modernization Tools](http://opensource.adobe.com/aem-modernize-tools/) を使用すると、以下の変換を容易におこなえるようになります。
+[AEM Modernization Tools](http://opensource.adobe.com/aem-modernize-tools/) を使用すると、以下の変換を容易に行えるようになります。
 
 * 静的テンプレートから編集可能テンプレートへ
 * デザイン設定からポリシーへ
@@ -57,13 +57,13 @@ ht-degree: 0%
 >
 >AEM Modernize Tools はコミュニティの取り組みであり、アドビによるサポートまたは保証の対象外です。
 
-## Cloud ServiceとしてAEMに移行する{#via-aemaacs}
+## AEM as a Cloud Service への移行を通じた移行 {#via-aemaacs}
 
-AEMにはCloud Service版のコアコンポーネントが自動的に付属するので、オンプレミスのAEMから移行する場合は、プロジェクト`pom.xml`ファイルのコアコンポーネントへの依存関係を削除する必要があります。
+AEM as a Cloud Service には最新版のコアコンポーネントが自動的に搭載されているので、オンプレミスの AEM から移行する場合は、プロジェクトの `pom.xml` ファイルでコアコンポーネントへの依存関係を削除する必要があります。
 
-プロキシコンポーネントは、   プロキシは必要なスーパータイプを指し、スーパータイプパスはその中にバージョンを持ちます。 この方法では、依存関係を削除するだけで、コアコンポーネントはオンプレミスと同じようにAEMaCSで動作します。
+プロキシは必要なスーパータイプを指しており、そのスーパータイプのパスにバージョンが含まれているので、プロキシコンポーネントは引き続きこれまでどおり機能します。このようにして、依存関係を削除するだけで、コアコンポーネントはオンプレミスの場合と同じように AEM as a Cloud Service で動作させることができます。
 
-他のAEMaCSプロジェクトと同様に、AEM SDKのjarにも依存関係を追加する必要があります。 これはコアコンポーネントに固有のものではありませんが、必須です。
+他の AEM as a Cloud Service プロジェクトと同様に、AEM SDK JAR への依存関係も追加する必要があります。これはコアコンポーネントに限ったことではありませんが、いずれにせよ必要なことです。
 
 ```xml
 <dependency>
@@ -72,7 +72,7 @@ AEMにはCloud Service版のコアコンポーネントが自動的に付属す�
 </dependency>
 ```
 
-AEMaCSプロジェクトについて詳しくは、ドキュメント[AEMプロジェクト構造](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja)を参照してください。
+AEM as a Cloud Service プロジェクトについて詳しくは、[AEM プロジェクトの構造](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja)を参照してください。
 
 ## コアコンポーネントのサポート {#core-component-support}
 
@@ -104,7 +104,7 @@ AEMaCSプロジェクトについて詳しくは、ドキュメント[AEMプロ�
 | 配信 | [公開 GitHub 経由](https://github.com/adobe/aem-core-wcm-components) | クイックスタートを通じて |
 | ライセンス | [Apache ライセンス](https://www.apache.org/licenses/LICENSE-2.0) | アドビ固有 |
 | 貢献度 | プル要求を通じて | 不可能 |
-| アクセシビリティ | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
+| アクセシビリティ | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
 
 ## コンポーネントリスト {#component-list}
 
