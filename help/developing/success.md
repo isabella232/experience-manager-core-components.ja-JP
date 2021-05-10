@@ -3,11 +3,11 @@ title: コアコンポーネントを利用したプロジェクトの成功へ�
 description: コアコンポーネントを利用したプロジェクトの実装を成功させる方法
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-translation-type: ht
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
-source-wordcount: '570'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ### Adobe XD 用 UI キットの使用 {#ui-kit}
 
-カスタムコンポーネントのニーズが明らかになったら、すぐに [Adobe XD 用の UIキット](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd)を活用して、コアコンポーネントを構成要素として使用し、設計者が枠組みと設計の作成を開始できるようにします。
+カスタムコンポーネントのニーズが明らかになったら、すぐに [Adobe XD 用の UIキット](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)を活用して、コアコンポーネントを構成要素として使用し、設計者が枠組みと設計の作成を開始できるようにします。
 
 ## 強力な機能を見落とさない {#powerful-features}
 
@@ -60,4 +60,4 @@ AEM とコアコンポーネントの機能は非常に強力ですが、同時�
 
 ### 埋め込みコンポーネント {#embed-component}
 
-[埋め込みコンポーネントは](/help/components/embed.md)を利用すると、YouTube ビデオコンテンツなどの外部リソースを単に組み込めるだけでなく、コンポーネントを拡張してプロジェクトのニーズに合ったコンテンツを作成できます。
+[埋め込み](/help/components/embed.md) コンポーネントを使用すると、YouTubeビデオコンテンツなどの外部リソースを簡単に含めることができるだけでなく、プロジェクトのニーズに合わせたコンテンツにも対応できる拡張性もあります。
