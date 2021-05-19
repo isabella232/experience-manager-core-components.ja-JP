@@ -3,10 +3,10 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 46d97324ed1b903c315725429fe36b11a1856aa9
+source-git-commit: 6dc5c5959410f643ff169989d4d98c6f65f98076
 workflow-type: tm+mt
-source-wordcount: '2067'
-ht-degree: 98%
+source-wordcount: '2072'
+ht-degree: 97%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 98%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | これは、リンクハンドラに関連する問題を修正するためのパッチリリースでした。 PWAの改善も少し行われた。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021年5月15日 |
+| [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | これは、主に新しいリンクハンドラの問題を修正するパッチリリースで、[PWA用の複数ページアプリケーションをサポートするための機能が追加されました。](/help/components/page.md#pwa-support) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021年5月15日 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | このリリースでは、アクセシビリティの向上と、既存のコンポーネントに対する新しいリンクハンドラーの導入に焦点を当てています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 4 月 23 日 |
 | [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | これは、主に[データレイヤー](/help/developing/data-layer/overview.md)の下位互換性の問題と、特定の状況で IT テストが失敗する問題を修正するパッチリリースでした。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 3 月 17 日 |
-| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | このリリースでは、プログレッシブ ｗeb アプリが[ページコンポーネント](/help/components/page.md)でサポートされているほか、[Adobe データレイヤー](/help/developing/data-layer/overview.md)のバージョン 2.0.0 がサポートされています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 2 月 24 日 |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | このリリースでは、ページコンポーネント](/help/components/page.md#pwa-support)に[プログレッシブWebアプリ(PWA)がサポートされ、[Adobeデータレイヤーのバージョン2.0.0がサポートされます。](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 2 月 24 日 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | このリリースには、[埋め込みコンポーネント](/help/components/embed.md)の新しいオプションが含まれています。また、[ページ](/help/components/page.md)レベルでブランドスラッグが導入されているほか、多くの問題にも対処しています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 2 月 10 日 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | これは、AEMaaCS で RTE を使用した場合の問題に対処するためのパッチリリースでした。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 12 月 17 日 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | このリリースには、[画像コンポーネント](/help/components/image.md)の新しい Dynamic Media 機能が含まれています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2020 年 12 月 5 日 |
