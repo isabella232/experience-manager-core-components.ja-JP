@@ -3,9 +3,8 @@ title: コアコンポーネントの概要
 description: 'コアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築され、堅牢で拡張可能な基本コンポーネントを提供します。 '
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-translation-type: ht
-source-git-commit: f151a70c5ff7db042d4e10adc7ed8a9752ea9c87
-workflow-type: ht
+source-git-commit: 46d97324ed1b903c315725429fe36b11a1856aa9
+workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 100%
 
@@ -28,7 +27,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
    * **[Adobe Summit のチュートリアル：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;新しいサイトの構築に関する 2 時間のチュートリアルです（US Summit 2019 のラボの内容）。
    * **[Gems Web セミナー：](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;コアコンポーネントのガイドツアー（2018 年 12 月に録画）
 
-## 特長 {#features}
+## 機能 {#features}
 
 |  |  |
 |---|---|
@@ -74,7 +73,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * [コンテンツフラグメントリスト](components/content-fragment-list.md)
 * [埋め込み](components/embed.md)
 * [ソーシャルメディア共有](components/sharing.md)
-* [区切り文字](components/separator.md)
+* [セパレーター](components/separator.md)
 * [プログレスバー](components/progress-bar.md)
 * [PDF ビューア](components/pdf-viewer.md)
 
@@ -107,7 +106,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 継続的 | 6.5.5.0+ * | 6.4.8.1+ * | 8、11 | 3.3.9 以上 |
+| [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 継続的 | 6.5.5.0+ * | 6.4.8.1+ * | 8、11 | 3.3.9 以上 |
 
 >[!NOTE]
 >
