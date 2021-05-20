@@ -3,9 +3,8 @@ title: コアコンポーネントの AMP サポート
 description: コアコンポーネントは、AMP（Accelerated Mobile Pages）をサポートします
 role: Architect, Developer, Administrator
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
 
