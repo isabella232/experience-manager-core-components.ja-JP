@@ -3,9 +3,8 @@ title: カルーセルコンポーネント
 description: カルーセルコンポーネントを使用すれば、コンテンツ作成者は、回転式のカルーセルにコンテンツを表示することができます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 100%
 
@@ -80,7 +79,7 @@ ht-degree: 100%
 >
 >**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開されているコンテンツを読者と同じ立場でカルーセルを操作するには、[**プレビュー**&#x200B;モード](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)または「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 >
->**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 
