@@ -4,9 +4,8 @@ description: Angular ベースの SPA プロジェクトのフロントエンド
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
 exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
