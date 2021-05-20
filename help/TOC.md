@@ -4,7 +4,6 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
 feature-set: Experience Manager Sites
-translation-type: tm+mt
 source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
 workflow-type: tm+mt
 source-wordcount: '214'
@@ -42,7 +41,7 @@ ht-degree: 100%
    + [PDF ビューア](components/pdf-viewer.md)
    + [プログレスバー](components/progress-bar.md)
    + [クイック検索](components/quick-search.md)
-   + [区切り文字](components/separator.md)
+   + [セパレーター](components/separator.md)
    + [ソーシャルメディア共有](components/sharing.md)
    + [テキスト](components/text.md)
    + [タブ](components/tabs.md)
