@@ -3,9 +3,8 @@ title: コアコンポーネントのローカライゼーション機能
 description: コアコンポーネントのローカライゼーション機能
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 100%
 
