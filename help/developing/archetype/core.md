@@ -4,9 +4,8 @@ description: AEM プロジェクトアーキタイプのコアモジュール
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
 exl-id: 49e80d8c-2b41-4c42-b45e-c2e3b4b16a59
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 
