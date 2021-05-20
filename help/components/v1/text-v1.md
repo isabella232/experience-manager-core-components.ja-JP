@@ -4,9 +4,8 @@ description: テキストコンポーネントは、インプレース編集機�
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
