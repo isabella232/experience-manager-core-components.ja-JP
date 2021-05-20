@@ -3,9 +3,8 @@ title: コアコンポーネントを使用したオーサリング
 description: AEM では、コンポーネントとは、オーサリングの対象となるページのコンテンツを構成する構造要素のことです。コアコンポーネントは、柔軟で機能豊富なオーサリング機能を提供します。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 >[!CAUTION]
 >
->コアコンポーネントでは [AEM 6.4 以降](/help/versions.md)が必要です。また、[編集可能テンプレート](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)を使用する必要があります。コアコンポーネントはクラシック UI や静的テンプレートでは動作しません。
+>コアコンポーネントでは [AEM 6.4 以降](/help/versions.md)が必要です。また、[編集可能テンプレート](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)を使用する必要があります。コアコンポーネントはクラシック UI や静的テンプレートでは動作しません。
 
 ## コアコンポーネントを使用したオーサリング {#authoring-with-core-components}
 
@@ -35,9 +34,9 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 * 簡単に使用でき、[ページエディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)に適切に統合されている
 
-* [WKND リファレンスサイト](https://wknd.site)ならびに[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)で示されている多数の使用例に対応する豊富な機能を備えている
+* [WKND リファレンスサイト](https://wknd.site)ならびに[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library)で示されている多数の使用例に対応する豊富な機能を備えている
 
-* ページ作成者が[テンプレートエディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)でどの機能を使用できるかを[事前設定可能](#pre-configuring-core-components)
+* ページ作成者が[テンプレートエディター](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)でどの機能を使用できるかを[事前設定可能](#pre-configuring-core-components)
 
 * [アクセシビリティガイドライン](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に沿って構築されている
 
@@ -45,9 +44,9 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 * [容易なローカライゼーション](localization.md)をサポートする設計
 
-コンポーネントは、**ページ編集**&#x200B;の際に、ページエディターのサイドパネルの「[コンポーネント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)」タブから利用できます。
+コンポーネントは、**ページ編集**&#x200B;の際に、ページエディターのサイドパネルの「[コンポーネント](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)」タブから利用できます。
 
-コンポーネントは、フィルタリングや整理を容易におこなえるよう、コンポーネントグループと呼ばれるカテゴリに従ってグループ化されます。コンポーネントのグループ名は、[コンポーネントブラウザー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)にコンポーネントと共に表示されます。また、正しいコンポーネントを簡単に見つけられるように、グループでフィルタリングすることもできます。
+コンポーネントは、フィルタリングや整理を容易におこなえるよう、コンポーネントグループと呼ばれるカテゴリに従ってグループ化されます。コンポーネントのグループ名は、[コンポーネントブラウザー](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)にコンポーネントと共に表示されます。また、正しいコンポーネントを簡単に見つけられるように、グループでフィルタリングすることもできます。
 
 >[!NOTE]
 >
@@ -61,7 +60,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 例えば、画像コンポーネントでファイルシステムからの画像アップロードを許可しない場合や、テキストコンポーネントで特定の段落フォーマットのみを許可する場合は、クリックするだけでそれらの機能の有効／無効を切り替えることができます。
 
-詳しくは、[ページテンプレートの作成](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)を参照してください。
+詳しくは、[ページテンプレートの作成](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)を参照してください。
 
 ### 編集ダイアログとデザインダイアログ {#edit-and-design-dialogs}
 
