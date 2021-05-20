@@ -3,9 +3,8 @@ title: PDF ビューアコンポーネント
 description: PDF ビューアコンポーネントを使用すると、PDF ドキュメントを表示できます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 100%
 
