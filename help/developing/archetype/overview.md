@@ -4,7 +4,6 @@ description: AEM ベースのアプリケーション用のプロジェクトテ
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-translation-type: tm+mt
 source-git-commit: 32679158dd71c361f01904b4462a6ec8b33d305c
 workflow-type: tm+mt
 source-wordcount: '1040'
@@ -29,7 +28,7 @@ AEM プロジェクトアーキタイプは、Web サイトの出発点として
    * **[WKND サイト：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**&#x200B;新しい Web サイトを開始する方法を説明します。
    * **[WKND シングルページアプリ：](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** AEM で完全にオーサリング可能な React または Angular Web アプリを作成する方法を説明します。
 
-## 特長 {#features}
+## 機能 {#features}
 
 * **ベストプラクティス：**&#x200B;アドビの最新の推奨プラクティスをすべて活用して、サイトをブートストラップできます。
 * **ローコード（低コード）：**&#x200B;テンプレートの編集、コンテンツの作成、CSS のデプロイをおこなうと、サイトの運用開始準備が整います。
