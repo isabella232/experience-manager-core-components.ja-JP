@@ -3,9 +3,8 @@ title: ティーザーコンポーネント
 description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 100%
 
