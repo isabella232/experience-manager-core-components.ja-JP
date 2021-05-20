@@ -4,9 +4,8 @@ description: AEM プロジェクトアーキタイプの ui.apps モジュール
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
