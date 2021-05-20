@@ -3,9 +3,8 @@ title: エクスペリエンスフラグメントコンポーネント
 description: エクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者はエクスペリエンスフラグメントのバリエーションをページに追加できます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 100%
 
