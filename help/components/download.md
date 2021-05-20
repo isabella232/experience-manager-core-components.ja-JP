@@ -3,9 +3,8 @@ title: ダウンロードコンポーネント
 description: コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 100%
 
