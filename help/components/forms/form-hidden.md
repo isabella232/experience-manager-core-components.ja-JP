@@ -3,9 +3,8 @@ title: フォーム非表示コンポーネント
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
