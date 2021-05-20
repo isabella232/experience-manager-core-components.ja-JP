@@ -3,9 +3,8 @@ title: フォームオプションコンポーネント
 description: コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式の事前定義済みオプションから選択できます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 
