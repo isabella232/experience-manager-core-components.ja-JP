@@ -3,16 +3,16 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 6dc5c5959410f643ff169989d4d98c6f65f98076
+source-git-commit: 9f7ecb12c7135033a87508901a5c8bd006f72a0e
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2099'
 ht-degree: 97%
 
 ---
 
 # コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.16.2 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および[オンプレミスの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。
+コアコンポーネントの現在のリリースは 2.16.4 で、[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) および[オンプレミスの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/user-guide/home.html) インストールと互換性があります。
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 97%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
+| [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | これは、新しいリンクハンドラーの問題を修正するためのパッチリリースです。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021年5月19日 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | これは、主に新しいリンクハンドラの問題を修正するパッチリリースで、[PWA用の複数ページアプリケーションをサポートするための機能が追加されました。](/help/components/page.md#pwa-support) | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021年5月15日 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | このリリースでは、アクセシビリティの向上と、既存のコンポーネントに対する新しいリンクハンドラーの導入に焦点を当てています。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 4 月 23 日 |
 | [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | これは、主に[データレイヤー](/help/developing/data-layer/overview.md)の下位互換性の問題と、特定の状況で IT テストが失敗する問題を修正するパッチリリースでした。 | 6.4.8.1+ * | 6.5.5.0+ * | 継続的 | 8、11 | 2021 年 3 月 17 日 |
