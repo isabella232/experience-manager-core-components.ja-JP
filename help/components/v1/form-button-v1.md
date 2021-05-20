@@ -4,9 +4,8 @@ description: コアコンポーネントのフォーム非表示コンポーネ�
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
