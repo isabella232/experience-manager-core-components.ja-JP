@@ -3,9 +3,8 @@ title: アコーディオンコンポーネント
 description: コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 100%
 
