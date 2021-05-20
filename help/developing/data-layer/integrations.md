@@ -4,9 +4,8 @@ description: Adobe Client Data Layer とカスタムコンポーネントの統�
 feature: コアコンポーネント、Adobe Client Data Layer
 role: Architect, Developer, Administrator
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
 
