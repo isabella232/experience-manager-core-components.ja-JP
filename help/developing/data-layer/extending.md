@@ -4,9 +4,8 @@ description: Adobe Client Data Layer は、いくつかの基本的なパター�
 feature: コアコンポーネント、Adobe Client Data Layer
 role: Architect, Developer, Administrator
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 
