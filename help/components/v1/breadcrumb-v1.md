@@ -4,9 +4,8 @@ description: コアコンポーネントのパンくずコンポーネントは�
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
