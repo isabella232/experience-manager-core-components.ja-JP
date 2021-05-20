@@ -4,9 +4,8 @@ description: コアコンポーネントでの Adobe Client Data Layer の使用
 feature: コアコンポーネント、Adobe Client Data Layer
 role: Architect, Developer, Administrator
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
 
