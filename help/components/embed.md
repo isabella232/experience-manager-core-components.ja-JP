@@ -3,9 +3,8 @@ title: 埋め込みコンポーネント
 description: 埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 100%
 
