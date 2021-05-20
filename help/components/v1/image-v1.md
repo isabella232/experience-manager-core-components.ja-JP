@@ -4,9 +4,8 @@ description: コアコンポーネントの画像コンポーネントは、イ�
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 100%
 
