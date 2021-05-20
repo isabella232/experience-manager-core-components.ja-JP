@@ -3,9 +3,8 @@ title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
 role: Architect, Developer, Administrator
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-translation-type: ht
 source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 100%
 
@@ -104,7 +103,7 @@ AEM as a Cloud Service プロジェクトについて詳しくは、[AEM プロ�
 | 配信 | [公開 GitHub 経由](https://github.com/adobe/aem-core-wcm-components) | クイックスタートを通じて |
 | ライセンス | [Apache ライセンス](https://www.apache.org/licenses/LICENSE-2.0) | アドビ固有 |
 | 貢献度 | プル要求を通じて | 不可能 |
-| アクセシビリティ | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
+| アクセシビリティ | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
 
 ## コンポーネントリスト {#component-list}
 
