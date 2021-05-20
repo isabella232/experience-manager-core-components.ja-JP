@@ -4,9 +4,8 @@ description: コアコンポーネントのフォームコンテナコンポー�
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 100%
 
@@ -47,7 +46,7 @@ ht-degree: 100%
 
 選択した&#x200B;**アクションタイプ**&#x200B;に応じて、コンテナ内で使用可能なオプションが変わります。使用可能なアクションタイプは次のとおりです。
 
-* [メール](#mail)
+* [Mail](#mail)
 * [コンテンツを格納](#store-content)
 * [注文を送信](#submit-order)
 * [注文を更新](#update-order)
