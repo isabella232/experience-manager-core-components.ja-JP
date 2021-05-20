@@ -3,9 +3,8 @@ title: ナビゲーションコンポーネント
 description: ナビゲーションコンポーネントを使用すれば、グローバル化されたサイト構造を容易にナビゲートできます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 100%
 
