@@ -4,9 +4,8 @@ description: ローカルの Maven Build Analyzer プラグインに関するド
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
 
