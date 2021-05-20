@@ -3,9 +3,8 @@ title: フォームコンテナコンポーネント
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -72,7 +71,7 @@ ht-degree: 100%
 >[!TIP]
 >転送されたフォームデータを処理するためにシステム管理者が調整できる追加のタイムアウトオプションが用意されています。[詳しくは、GitHub の技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
-### Mail {#mail}
+### メール {#mail}
 
 アクションタイプが「Mail」の場合、フォームが送信されると、指定した受信者に電子メールが送信されます。
 
@@ -120,7 +119,7 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
+デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
