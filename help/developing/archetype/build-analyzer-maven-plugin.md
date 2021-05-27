@@ -4,10 +4,10 @@ description: ローカルの Maven Build Analyzer プラグインに関するド
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: de1bb63dc965e6674652bc3e61b515f8f045c6bc
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,6 +21,8 @@ AEM Maven プロジェクトに含める方法については、[Maven プラグ
 >
 >Maven 中央リポジトリ（https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/）にある最新バージョンのプラグインを参照するよう、Maven プロジェクトを更新することをお勧めします。
 
+プラグインは、プロジェクトで設定されたSDKではなく、利用可能な最新のSDKを使用します。
+
 以下の表は、この手順の一部として実行されるアナライザーについて説明しています。<!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | モジュール | 機能、例、トラブルシューティング | ローカル SDK | Cloud Manager |
@@ -33,3 +35,6 @@ AEM Maven プロジェクトに含める方法については、[Maven プラグ
 | `api-regions-crossfeature-dups` | AEM as a Cloud Service のパブリック API をオーバーライドする Export-package 宣言が顧客の OSGI バンドルにないことを検証します。<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>この問題を修正するには、AEM パブリック API に含まれるパッケージの書き出しを停止します。 | はい | はい |
 | `repoinit` | すべての repoinit セクションの構文を確認します | はい | はい |
 | `bundle-nativecode` | OSGI バンドルがネイティブコードをインストールしないことを検証します。 | はい | はい |
+| `configuration-api` | 重要なOSGi設定を検証します。 <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | はい | はい |
+| `region-deprecated-api` | [非推奨のapi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html)が使用されているかどうかを確認します <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | はい | はい |
+
