@@ -4,10 +4,10 @@ description: AEM プロジェクトアーキタイプの使用方法の詳細
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 17081a073998512a52aebfc662f2bc125ca2a2c4
 workflow-type: tm+mt
-source-wordcount: '2069'
-ht-degree: 100%
+source-wordcount: '2147'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ AEM プロジェクトのアーキタイプを使用すると、数回のキー�
 
 もちろん、成功する AEM プロジェクトには多数の要素がありますが、AEM プロジェクトのアーキタイプを使用すると健全な基盤を構築できるので、あらゆる AEM プロジェクトで強くお勧めします。
 
-## 概要 {#getting-started}
+## はじめに {#getting-started}
 
 プロジェクトのアーキタイプを使用すると、AEM での開発を簡単に開始できます。最初の手順にはいくつかの方法があります。
 
@@ -93,21 +93,28 @@ mvn -B archetype:generate \
 アーキタイプを使用してプロジェクトを作成する場合は、次のプロパティを使用できます。
 
 | 名前 | デフォルト値は | 説明 |
---------------------------|----------------|--------------------
+|---------------------------|----------------|--------------------|
 | `appTitle` |  | アプリケーションのタイトル。Web サイトのタイトルやコンポーネントグループに使用されます（例：`"My Site"`）。 |
 | `appId` |  | 技術的な名前。コンポーネント、設定、コンテンツのフォルダー名やクライアントライブラリ名に使用されます（例：`"mysite"`）。 |
 | `artifactId` | *`${appId}`* | 基本 Maven アーティファクト ID です（例：`"mysite"`）。 |
 | `groupId` |  | 基本 Maven グループ ID です（例：`"com.mysite"`）。 |
 | `package` | *`${groupId}`* | Java ソースパッケージです（例：`"com.mysite"`）。 |
 | `version` | `1.0-SNAPSHOT` | プロジェクトのバージョンです（例：`1.0-SNAPSHOT`）。 |
-| `aemVersion` | `6.5.0` | ターゲット AEM バージョンです（[AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`6.5.0`、`6.4.4` のいずれか）。 |
+| `aemVersion` | `cloud` | ターゲット AEM バージョンです（[AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`6.5.0`、`6.4.4` のいずれか）。 |
 | `sdkVersion` | `latest` | `aemVersion=cloud` の場合は、[SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) のバージョンを指定できます（例：`2020.02.2265.20200217T222518Z-200130`）。 |
 | `includeDispatcherConfig` | `y` | `aemVersion` の値に応じて、クラウドか AMS／オンプレミスのいずれかの Dispatcher 設定を組み込みます（`y` または `n`）。 |
-| `frontendModule` | `none` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/headless/spa/introduction.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
-| `languageCountry` | `en_us` | コンテンツ構造を作成する言語および国コードです（例：`en_us`）。 |
+| `frontendModule` | `general` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
+| `language` | `en` | コンテンツ構造の作成に使用する言語コード（ISO 639-1）（例：`en`、`deu`）。 |
+| `country` | `us` | コンテンツ構造の作成に使用する国コード（ISO 3166-1）（例：`US`）。 |
 | `singleCountry` | `y` | 言語マスターコンテンツ構造を組み込みます（`y` または `n`）。 |
-| `includeExamples` | `y` | [コンポーネントライブラリ](https://www.aemcomponents.dev/)のサンプルサイトを組み込みます（`y` または `n`）。 |
+| `includeExamples` | `n` | [コンポーネントライブラリ](https://www.aemcomponents.dev/)のサンプルサイトを組み込みます（`y` または `n`）。 |
 | `includeErrorHandler` | `n` | インスタンス全体でグローバルに使用されるカスタムの 404 応答ページを組み込みます（`y` または `n`）。 |
+| `includeCommerce` | `n` | [CIF コアコンポーネント](https://github.com/adobe/aem-core-cif-components)の依存関係を含み、対応するアーティファクトを生成します。 |
+| `commerceEndpoint` |  | CIF でのみ必須です。使用するコマースシステム GraphQL サービスのオプションのエンドポイント（例：`https://hostname.com/grapql`）をクリックします。 |
+| `datalayer` | `y` | [Adobe クライアントデータレイヤー](/help/developing/data-layer/overview.md)との統合をアクティブ化します。 |
+| `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMP](/help/developing/amp.md) のサポートを有効にします。 |
+| `enableDynamicMedia` | `n` | プロジェクトポリシー設定で基盤DynamicMediaコンポーネントを有効にし、コア画像コンポーネントのポリシーのDynamic Media機能をアクティブ化します。 |
+| `enableSSR` | `n` | フロントエンドプロジェクトに対してSSRを有効にするオプション |
 
 >[!NOTE]
 >
@@ -122,7 +129,7 @@ mvn -B archetype:generate \
 生成された Maven プロジェクトは、`mvn install` の実行時に様々なデプロイメントプロファイルをサポートします。
 
 | プロファイル ID | 説明 |
---------------------------|------------------------------
+| --------------------------|------------------------------|
 | `autoInstallBundle` | maven-sling-plugin を含むコアバンドルを felix コンソールにインストールします。 |
 | `autoInstallPackage` | パッケージマネージャーに content-package-maven-plugin を使用し、ui.content と ui.apps のコンテンツパッケージをローカルホスト（ポート 4502）のデフォルトのオーサーインスタンスにインストールします。ホスト名とポートは、`aem.host` および `aem.port` ユーザー定義プロパティを使用して変更できます。 |
 | `autoInstallPackagePublish` | パッケージマネージャーに content-package-maven-plugin を使用し、ui.content と ui.apps のコンテンツパッケージをローカルホスト（ポート 4503）のデフォルトのパブリッシュインスタンスにインストールします。ホスト名とポートは、`aem.host` および `aem.port` ユーザー定義プロパティを使用して変更できます。 |
