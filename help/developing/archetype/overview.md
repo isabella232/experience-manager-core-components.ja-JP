@@ -4,10 +4,10 @@ description: AEM ベースのアプリケーション用のプロジェクトテ
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 32679158dd71c361f01904b4462a6ec8b33d305c
+source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 100%
+source-wordcount: '1111'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ AEM プロジェクトアーキタイプは、Web サイトの出発点として
 
 >[!TIP]
 >
->最新の AEM プロジェクトアーキタイプは [GitHub で入手できます](https://github.com/adobe/aem-project-archetype)。
+>最新のAEMプロジェクトアーキタイプ[はGitHubで入手できます。](https://github.com/adobe/aem-project-archetype)
 
 ## リソース {#resources}
 
@@ -38,15 +38,15 @@ AEM プロジェクトアーキタイプは、Web サイトの出発点として
 * **コアコンポーネント：**&#x200B;作成者は、アドビの汎用の[標準コンポーネントセット](/help/introduction.md)を使用して、ほぼどのようなレイアウトでも作成できます。
 * **編集可能なテンプレート：**&#x200B;ほとんどすべての[テンプレートをコードなしで](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)組み立てることができ、作成者による編集が可能な範囲を定義できます。
 * **レスポンシブレイアウト：**&#x200B;テンプレートまたは個々のページで、定義されたブレークポイントについて[要素がどのようにリフローするかを定義](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)できます。
-* **ヘッダーとフッター：**[コンポーネントのローカライゼーション機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-core-components/using/get-started/localization.html)を使用して、コードなしで組み立ててローカライズできます。
+* **ヘッダーとフッター：** [コンポーネントのローカライゼーション機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-core-components/using/get-started/localization.html)を使用して、コードなしで組み立ててローカライズできます。
 * **スタイルシステム：**&#x200B;作成者が[様々なスタイルを適用](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html)できるようにすることで、カスタムコンポーネントを作成しないようにすることができます。
 * **フロントエンドビルド：**&#x200B;フロントエンド開発者は、[AEM ページのモックを作成](uifrontend.md#webpack-dev-server)し、Webpack、TypeScript、SASS を使用して[クライアントライブラリをビルド](uifrontend.md)することができます。
-* **Web アプリ対応：**[React](uifrontend-react.md) または [Angular](uifrontend-angular.md) を使用するサイトの場合は、[SPA SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/headless/spa/developing.html) を使用して、[アプリのコンテキスト内オーサリング](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)を維持できます。
-* **コマースに対応：**[AEM コマース](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/commerce/home.html)を [Magento](https://magento.com/jp) などのコマースソリューションと統合するプロジェクトの場合は、[コマースコアコンポーネント](https://github.com/adobe/aem-core-cif-components)を使用します。
+* **Web アプリ対応：** [React](uifrontend-react.md) または [Angular](uifrontend-angular.md) を使用するサイトの場合は、[SPA SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/headless/spa/developing.html) を使用して、[アプリのコンテキスト内オーサリング](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)を維持できます。
+* **コマースに対応：** [AEM コマース](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/commerce/home.html)を [Magento](https://magento.com/jp) などのコマースソリューションと統合するプロジェクトの場合は、[コマースコアコンポーネント](https://github.com/adobe/aem-core-cif-components)を使用します。
 * **コード例：** HelloWorld コンポーネントのほか、サンプルのモデル、サーブレット、フィルター、スケジューラーをチェックアウトできます。
 * **オープンソース：**&#x200B;何か問題がある場合は、改善案を[寄稿](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)できます。
 
-## 使用方法
+## 使用方法 {#usage}
 
 プロジェクトを生成する場合は、次のコマンドラインを必要に応じて調整します。
 
@@ -68,10 +68,10 @@ AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用
 * `groupId="com.mysite"` を調整して、Maven グループ ID と Java ソースパッケージを定義します。
 * 使用可能なプロパティのリストを調べて、調整が必要なプロパティが他にあるかどうかを確認します。
 
-## 使用可能なプロパティ
+## 使用可能なプロパティ {#available-properties}
 
 | 名前 | デフォルト値は | 説明 |
---------------------------|----------------|--------------------
+|---------------------------|----------------|--------------------|
 | `appTitle` |  | アプリケーションのタイトル。Web サイトのタイトルやコンポーネントグループに使用されます（例：`"My Site"`）。 |
 | `appId` |  | 技術的な名前。コンポーネント、設定、コンテンツのフォルダー名やクライアントライブラリ名に使用されます（例：`"mysite"`）。 |
 | `artifactId` | *`${appId}`* | 基本 Maven アーティファクト ID です（例：`"mysite"`）。 |
@@ -91,20 +91,24 @@ AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用
 | `commerceEndpoint` |  | CIF でのみ必須です。使用するコマースシステム GraphQL サービスのオプションのエンドポイント（例：`https://hostname.com/grapql`）をクリックします。 |
 | `datalayer` | `y` | [Adobe クライアントデータレイヤー](/help/developing/data-layer/overview.md)との統合をアクティブ化します。 |
 | `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMP](/help/developing/amp.md) のサポートを有効にします。 |
+| `enableDynamicMedia` | `n` | プロジェクトポリシー設定で基盤DynamicMediaコンポーネントを有効にし、コア画像コンポーネントのポリシーのDynamic Media機能をアクティブ化します。 |
+| `enableSSR` | `n` | フロントエンドプロジェクトに対してSSRを有効にするオプション |
 
-## システム要件
+## システム要件 {#requirements}
 
-| アーキタイプ | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
-|---------|---------|---------|---------|---------|---------|
-| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) | 継続的 | 6.5.5.0+ | 6.4.8.1+ | 8、11 | 3.3.9 以上 |
+| アーキタイプ | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
+|---------|---------|---------|---------|---------|
+| [28](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-28) | 継続的 | 6.5.7.0以上 | 8、11 | 3.3.9 以上 |
 
 [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) または[旧バージョンの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) のローカル開発環境をセットアップします。
 
-### 既知の問題
+### 既知の問題 {#known-issues}
 
 Windows 上で実行して Dispatcher 設定を生成する場合は、管理者権限のコマンドプロンプトまたは Windows Subsystem for Linux から実行する必要があります（[問題 329](https://github.com/adobe/aem-project-archetype/issues/329) を参照）。
 
 （`-B` パラメーターを指定せずに）インタラクティブモードでアーキタイプを実行する際は、最終確認が却下された場合を除き、デフォルト値を持つプロパティは変更できません。その場合は、デフォルト値を持つプロパティを含めることで質問が繰り返し表示されます（詳しくは [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) を参照してください）。
+
+[Eclipseの問題により、生成後のスクリプト`archetype-post-generate.groovy`が実行されないので、`File -> New -> Maven Project`で新しいプロジェクトを開始する際に、Eclipseでこのアーキタイプを使用することはできません。](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) 回避策は、上記のコマンドラインを使用し、Eclipseを使用することで `File -> Import -> Existing Maven Project`す。
 
 ## 参考情報 {#further-reading}
 
