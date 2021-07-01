@@ -4,7 +4,7 @@ description: 'コアコンポーネントは、最新のテクノロジーとベ
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: cc1fc14e1ca9125a24c13ac68716951ef790afea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
 ht-degree: 100%
 
@@ -106,7 +106,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネント | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 継続的 | 6.5.6.0以上* | 6.4.8.4+ * | 8、11 | 3.3.9 以上 |
+| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 継続的 | 6.5.6.0+ * | 6.4.8.4+ * | 8、11 | 3.3.9 以上 |
 
 >[!NOTE]
 >
