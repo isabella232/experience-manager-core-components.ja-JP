@@ -1,9 +1,9 @@
 ---
 title: フォームコンテナコンポーネント
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
@@ -102,7 +102,7 @@ ht-degree: 100%
 >
 >代わりに、[Post Form Data](#post-data) アクションタイプを使用して、ユーザーコンテンツを専用のサービスプロバイダーに渡します。
 
-### 一般的な設定 {#general-settings}
+### 一般設定 {#general-settings}
 
 ありがとうページは、選択したアクションタイプに関係なくいつでも定義できます。
 
@@ -121,6 +121,6 @@ ht-degree: 100%
 
 デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 フォームコンテナコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
