@@ -1,16 +1,16 @@
 ---
 title: リストコンポーネント
 description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 100%
 
 ---
 
-# リストコンポーネント {#list-component}
+# リストコンポーネント{#list-component}
 
 コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 編集ダイアログでは、コンテンツ作成者がリストとリスト項目を設定できます。
 
-### 「リスト設定」タブ {#list-settings-tab}
+### 「リスト設定」タブ  {#list-settings-tab}
 
 リストは様々な方法で作成できます。
 
@@ -138,7 +138,7 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-### 「項目設定」タブ {#item-settings-tab}
+### 「項目設定」タブ  {#item-settings-tab}
 
 「項目設定」タブを使用すれば、リスト要素の書式設定を設定できます。
 
@@ -185,7 +185,7 @@ ht-degree: 100%
 * **日付を表示**
 [編集ダイアログ](#edit-dialog)で「日付を表示」オプションを有効にします
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
