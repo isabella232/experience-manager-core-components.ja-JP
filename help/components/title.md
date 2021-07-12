@@ -1,16 +1,16 @@
 ---
 title: タイトルコンポーネント
 description: コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 
 ---
 
-# タイトルコンポーネント {#title-component}
+# タイトルコンポーネント{#title-component}
 
 コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 デザインダイアログでは、コンテンツ作成者によって使用されたときのタイトルコンポーネントのデフォルト見出しレベルをテンプレート作成者が定義できます。
 
-### 「サイズ」タブ {#sizes-tab}
+### 「サイズ」タブ  {#sizes-tab}
 
 ![タイトルコンポーネントのデザインダイアログ](/help/assets/title-design.png)
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 >
 >タイトルのリンクを定義する機能は、コアコンポーネントのリリース 2.2.0 で導入されました。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 タイトルコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
