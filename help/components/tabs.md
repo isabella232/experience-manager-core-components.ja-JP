@@ -1,9 +1,9 @@
 ---
 title: タブコンポーネント
 description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 100%
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 編集ダイアログでは、コンテンツ作成者がタブの作成、名前変更、並べ替えをおこなったり、アクティブなタブを定義したりできます。
 
-### 「項目」タブ {#items-tab}
+### 「項目」タブ  {#items-tab}
 
 ![タブコンポーネントの編集ダイアログの「項目」タブ](/help/assets/tabs-edit-items.png)
 
@@ -92,7 +92,7 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-### 「アクセシビリティ」タブ {#accessibility-tab}
+### 「アクセシビリティ」タブ  {#accessibility-tab}
 
 ![タブコンポーネントの編集ダイアログの「アクセシビリティ」タブ](/help/assets/tabs-edit-accessibility.png)
 
@@ -124,13 +124,13 @@ ht-degree: 100%
 
 デザインダイアログでは、テンプレート作成者が、タブコンポーネントに項目として追加できるコンポーネントを定義したり、コンテンツ作成者が利用できるカスタムスタイルを定義したりできます。
 
-### 「許可されるコンポーネント」タブ {#allowed-components-tab}
+### 「許可されるコンポーネント」タブ  {#allowed-components-tab}
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がタブコンポーネントに項目として追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)際の同じ名前のタブと同じように機能します。
+「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する際の同じ名前のタブと同じように機能します。](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 タブコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
