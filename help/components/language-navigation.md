@@ -1,16 +1,16 @@
 ---
 title: 言語ナビゲーションコンポーネント
 description: 言語ナビゲーションコンポーネントは、言語と国を指定したサイトナビゲーション機能を提供し、訪問者が同じページを異なるロケールでナビゲートできるようにします。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 100%
 
 ---
 
-# 言語ナビゲーションコンポーネント {#language-navigation-component}
+# 言語ナビゲーションコンポーネント{#language-navigation-component}
 
 言語ナビゲーションコンポーネントは、言語と国を指定したサイトナビゲーション機能を提供し、訪問者が同じページを異なるロケールでナビゲートできるようにします。
 
@@ -89,7 +89,7 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 
 ユーザーがどのページを閲覧していたとしても、言語ナビゲーションコンポーネントで現在のページの場所を把握し、一旦ルートに戻ってから、対応するページに進むことで、別の言語の対応するページを見つけることができます。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 言語ナビゲーションコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
