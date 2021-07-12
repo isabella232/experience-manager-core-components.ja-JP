@@ -1,16 +1,16 @@
 ---
 title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 100%
 
 ---
 
-# テキストコンポーネント {#text-component}
+# テキストコンポーネント{#text-component}
 
 コアコンポーネントのテキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 
@@ -313,7 +313,7 @@ ht-degree: 100%
 
 デザインダイアログでは、コンテンツ作成者が使用できるテキスト書式設定オプションをテンプレート作成者が定義できます。
 
-### 「プラグイン」タブ {#plugins-tab}
+### 「プラグイン」タブ  {#plugins-tab}
 
 「プラグイン」タブでは、コンテンツ作成者が使用できる様々なテキスト書式設定オプションを有効または無効にします。
 
@@ -365,7 +365,7 @@ ht-degree: 100%
 * 文字を削除するには、「**削除**」ボタンをタップまたはクリックします。
 * 文字の順序を並べ替えるには、ハンドルをタップまたはクリックしてドラッグします。
 
-## 「スタイル」タブ {#styles-tab}
+## 「スタイル」タブ  {#styles-tab}
 
 テキストコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
