@@ -1,9 +1,9 @@
 ---
 title: コアコンポーネントの開発
 description: コアコンポーネントは、豊富な機能、継続的配信、コンポーネントのバージョン管理、最新の実装、効率的なマークアップ、コンテンツの JSON エクスポートなどの特長を持つ堅牢で拡張可能なベースコンポーネントを提供します。
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # コアコンポーネントの開発 {#developing-core-components}
 
-## コアコンポーネントを使用すべき状況 {#when-to-use-the-core-components}
+## コアコンポーネントを使用すべき状況  {#when-to-use-the-core-components}
 
 コアコンポーネントはまったく新しい技術であり、複数のメリットがあるので、新しい AEM プロジェクトではコアコンポーネントを使用することをお勧めします。既存のプロジェクトでは、リブランディングや全体的なリファクタリングなど、より大きなプロジェクト作業の一環として移行を行うようにしてください。
 
