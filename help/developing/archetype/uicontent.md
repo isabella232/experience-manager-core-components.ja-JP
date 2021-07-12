@@ -2,9 +2,9 @@
 title: AEM プロジェクトアーキタイプの ui.content モジュール
 description: AEM プロジェクトアーキタイプの ui.content モジュール
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: af019cd8-c733-4b53-bb57-321dd9451178
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
