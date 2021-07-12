@@ -1,9 +1,9 @@
 ---
 title: プログレスバーコンポーネント
 description: プログレスバーコンポーネントは、目標に向かう進行状況を視覚的に表します
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 プログレスバーダイアログでは、区切り文字コンポーネントに適用するスタイルをテンプレート作成者が定義できます。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 プログレスバーコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
