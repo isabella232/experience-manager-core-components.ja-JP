@@ -1,16 +1,16 @@
 ---
 title: パンくずコンポーネント
 description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 100%
 
 ---
 
-# パンくずコンポーネント {#breadcrumb-component}
+# パンくずコンポーネント{#breadcrumb-component}
 
 コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 デザインダイアログでは、テンプレート作成者が、パンくずリスト内の非表示ページとアクティブページおよび表示する階層の深さを無効化するオプションのデフォルト値を定義できます。
 
-### 「メイン」タブ {#main-tab}
+### 「メイン」タブ  {#main-tab}
 
 ![](/help/assets/breadcrumb-design.png)
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 * **シャドウイングを無効にする** - パンくずコンポーネントをページに追加したときに使用される「**シャドウイングを無効にする**」オプションのデフォルト値を定義します。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 パンくずコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
