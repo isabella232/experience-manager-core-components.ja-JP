@@ -4,10 +4,10 @@ description: AEM ベースのアプリケーション用のプロジェクトテ
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
+source-git-commit: b5ad1c874d5f6d6781c2d0b0cc992b278c91211b
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 92%
+source-wordcount: '1118'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ AEM プロジェクトアーキタイプは、Web サイトの出発点として
 
 >[!TIP]
 >
->最新のAEMプロジェクトアーキタイプ[はGitHubで入手できます。](https://github.com/adobe/aem-project-archetype)
+>最新の AEM プロジェクトアーキタイプは [GitHub で入手できます](https://github.com/adobe/aem-project-archetype)。
 
 ## リソース {#resources}
 
@@ -54,12 +54,13 @@ AEM プロジェクトアーキタイプは、Web サイトの出発点として
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=27 \
+ -D archetypeVersion=XX \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
 ```
 
+* `XX`を最新の[アーキタイプバージョン番号に置き換えます。](#requirements)
 * [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) の場合は、`aemVersion=cloud` と設定します。\
    [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`aemVersion=6.5.0` と設定します。
 AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用できる形で提供されているので、コアコンポーネントの依存関係は、非クラウドバージョンの AEM の場合にのみ追加します。
@@ -91,14 +92,14 @@ AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用
 | `commerceEndpoint` |  | CIF でのみ必須です。使用するコマースシステム GraphQL サービスのオプションのエンドポイント（例：`https://hostname.com/grapql`）をクリックします。 |
 | `datalayer` | `y` | [Adobe クライアントデータレイヤー](/help/developing/data-layer/overview.md)との統合をアクティブ化します。 |
 | `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMP](/help/developing/amp.md) のサポートを有効にします。 |
-| `enableDynamicMedia` | `n` | プロジェクトポリシー設定で基盤DynamicMediaコンポーネントを有効にし、コア画像コンポーネントのポリシーのDynamic Media機能をアクティブ化します。 |
-| `enableSSR` | `n` | フロントエンドプロジェクトに対してSSRを有効にするオプション |
+| `enableDynamicMedia` | `n` | プロジェクトポリシー設定で基盤DynamicMediaコンポーネントを有効にし、コア画像コンポーネントのポリシーでDynamic Media機能をアクティブ化します。 |
+| `enableSSR` | `n` | フロントエンドプロジェクトに対して SSR を有効にするオプション |
 
 ## システム要件 {#requirements}
 
 | アーキタイプ | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [28](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-28) | 継続的 | 6.5.7.0以上 | 8、11 | 3.3.9 以上 |
+| [28](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-28) | 継続的 | 6.5.7.0+ | 8、11 | 3.3.9 以上 |
 
 [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) または[旧バージョンの AEM](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) のローカル開発環境をセットアップします。
 
@@ -108,7 +109,7 @@ Windows 上で実行して Dispatcher 設定を生成する場合は、管理者
 
 （`-B` パラメーターを指定せずに）インタラクティブモードでアーキタイプを実行する際は、最終確認が却下された場合を除き、デフォルト値を持つプロパティは変更できません。その場合は、デフォルト値を持つプロパティを含めることで質問が繰り返し表示されます（詳しくは [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) を参照してください）。
 
-[Eclipseの問題により、生成後のスクリプト`archetype-post-generate.groovy`が実行されないので、`File -> New -> Maven Project`で新しいプロジェクトを開始する際に、Eclipseでこのアーキタイプを使用することはできません。](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) 回避策は、上記のコマンドラインを使用し、Eclipseを使用することで `File -> Import -> Existing Maven Project`す。
+`File -> New -> Maven Project` で新しいプロジェクトを開始する際に、Eclipse でこのアーキタイプを使用することはできません。これは、生成後のスクリプト `archetype-post-generate.groovy` が [Eclipse の問題](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993)によって実行されないことが原因です。回避策は、上記のコマンドラインを使用し、Eclipse で `File -> Import -> Existing Maven Project` を使用することです。
 
 ## 参考情報 {#further-reading}
 
