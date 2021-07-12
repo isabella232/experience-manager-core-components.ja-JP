@@ -1,9 +1,9 @@
 ---
 title: クイック検索コンポーネント
 description: クイック検索コンポーネントは、Web サイトに検索機能を提供し、訪問者がサイト内を検索して結果を絞り込めるように検索結果を表示します。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 100%
@@ -58,7 +58,7 @@ ht-degree: 100%
 >
 >**検索ルート**&#x200B;が設定されていない場合や解決できない場合、クイック検索はデフォルトで現在のページ配下の検索になります。
 
-## デザインダイアログ{#design-dialog}
+## デザインダイアログ {#design-dialog}
 
 デザインダイアログを使用すれば、コンテンツツリーにおける検索の開始位置のデフォルト値、結果セットサイズの上限、検索語句の長さの下限をテンプレート作成者が設定できます。デザインダイアログでは、コンテンツ作成者が使用できるテキスト書式設定オプションをテンプレート作成者が定義できます。
 
@@ -78,6 +78,6 @@ ht-degree: 100%
 >
 >「**結果のサイズ**」が大きすぎる場合や、「**検索語句の最小の長さ**」が小さすぎる場合は、パフォーマンスに影響が出る可能性があります。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 クイック検索コンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
