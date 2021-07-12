@@ -1,16 +1,16 @@
 ---
 title: ページコンポーネント
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 100%
 
 ---
 
-# ページコンポーネント {#page-component}
+# ページコンポーネント{#page-component}
 
 ページコンポーネントは、[テンプレートエディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)と連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 >
 >ページ先頭のクライアントライブラリを個別に定義する機能は、コアコンポーネントリリース 2.2.0 で導入されました。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 ページコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
