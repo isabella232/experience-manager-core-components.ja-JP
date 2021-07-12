@@ -1,9 +1,9 @@
 ---
 title: コアコンポーネントを利用したプロジェクトの成功への道筋
 description: コアコンポーネントを利用したプロジェクトの実装を成功させる方法
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
