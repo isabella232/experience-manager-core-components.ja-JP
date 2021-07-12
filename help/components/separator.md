@@ -1,9 +1,9 @@
 ---
 title: 区切り文字コンポーネント
 description: 区切り文字コンポーネントは、ページ上のコンポーネント間に区切りを作成します
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
@@ -51,6 +51,6 @@ ht-degree: 100%
 
 デザインダイアログでは、区切り文字コンポーネントに適用するスタイルをテンプレート作成者が定義できます。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 区切り文字コンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
