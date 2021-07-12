@@ -1,16 +1,16 @@
 ---
 title: コンテンツフラグメントコンポーネント
 description: コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、コンテンツフラグメントを表示できます。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%
 
 ---
 
-# コンテンツフラグメントコンポーネント {#content-fragment-component}
+# コンテンツフラグメントコンポーネント{#content-fragment-component}
 
 コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)を表示できます。
 
@@ -91,7 +91,7 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-### 「段落コントロール」タブ {#paragraph-control-tab}
+### 「段落コントロール」タブ  {#paragraph-control-tab}
 
 **複数の要素**&#x200B;モードが選択されている場合は、このタブを使用できません。
 
