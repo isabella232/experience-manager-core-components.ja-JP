@@ -1,9 +1,9 @@
 ---
 title: クライアントライブラリを含める
 description: 使用事例に応じてクライアントライブラリを含める方法は多数あります。
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
