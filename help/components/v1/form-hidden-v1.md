@@ -2,16 +2,16 @@
 title: フォーム非表示コンポーネント（v1）
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
 
 ---
 
-# フォーム非表示コンポーネント（v1）{#form-hidden-component-v}
+# フォーム非表示コンポーネント（v1） {#form-hidden-component-v}
 
 コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
 
