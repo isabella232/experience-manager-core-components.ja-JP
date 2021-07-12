@@ -1,9 +1,9 @@
 ---
 title: コンポーネントのガイドライン
 description: コアコンポーネントは、基盤コンポーネントとは大きく異なる、最新の実装パターンに従います。
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 100%
