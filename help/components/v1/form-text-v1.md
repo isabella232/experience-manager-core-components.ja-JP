@@ -2,16 +2,16 @@
 title: フォームテキストコンポーネント（v1）
 description: コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
 ---
 
-# フォームテキストコンポーネント（v1）{#form-text-component-v}
+# フォームテキストコンポーネント（v1） {#form-text-component-v}
 
 コアコンポーネントのフォームテキストコンポーネントを使用すれば、送信するフォームテキストを入力できます。
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 * **エレメント名** - フォームデータと共に送信されるフィールドの名前
 * **値** - フィールドに事前入力されるデフォルト値
 
-### について {#about}
+###  について {#about}
 
 ![](/help/assets/chlimage_1-24.png)
 
