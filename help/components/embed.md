@@ -1,16 +1,16 @@
 ---
 title: 埋め込みコンポーネント
 description: 埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 100%
 
 ---
 
-# 埋め込みコンポーネント {#embed-component}
+# 埋め込みコンポーネント{#embed-component}
 
 コアコンポーネントの埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
 
@@ -120,7 +120,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 デザインダイアログでは、埋め込みコンポーネントの使用時にコンテンツ作成者に提供されるオプションと、埋め込みコンポーネントの配置時のデフォルト設定をテンプレート作成者が定義できます。
 
-### 「埋め込み可能なタイプ」タブ {#embeddable-types-tab}
+### 「埋め込み可能なタイプ」タブ  {#embeddable-types-tab}
 
 ![埋め込みコンポーネントのデザインダイアログ](/help/assets/embed-design.png)
 
@@ -129,7 +129,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 * **HTML を無効にする** - コンテンツ作成者に対して **HTML** オプションを無効にします。
 * **許可される埋め込み可能コンポーネント** - 「**埋め込み可能**」オプションがアクティブな場合に、コンテンツ作成者が使用できる埋め込み可能リソースプロセッサーを指定する複数選択フィールド。
 
-### 「YouTube」タブ {#youtube-tab}
+### 「YouTube」タブ  {#youtube-tab}
 
 ![埋め込みコンポーネントのデザインダイアログの「YouTube」タブ](/help/assets/embed-design-youtube.png)
 
