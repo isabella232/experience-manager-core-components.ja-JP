@@ -1,16 +1,16 @@
 ---
 title: ボタンコンポーネント
 description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%
 
 ---
 
-# ボタンコンポーネント {#button-component}
+# ボタンコンポーネント{#button-component}
 
 コアコンポーネントのボタンコンポーネントを使用すると、ページ上にボタンアイテムを設定および表示することができます。
 
@@ -60,7 +60,7 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-### 「アクセシビリティ」タブ {#accessibility-tab}
+### 「アクセシビリティ」タブ  {#accessibility-tab}
 
 ![ボタンコンポーネントの編集ダイアログの「アクセシビリティ」タブ](/help/assets/button-edit-accessibility.png)
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 ボタンコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
