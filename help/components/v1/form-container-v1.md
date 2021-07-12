@@ -2,16 +2,16 @@
 title: フォームコンテナコンポーネント（v1）
 description: コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 100%
 
 ---
 
-# フォームコンテナコンポーネント（v1）{#form-container-component-v1}
+# フォームコンテナコンポーネント（v1） {#form-container-component-v1}
 
 コアコンポーネントのフォームコンテナコンポーネントを使用すれば、シンプルな送信フォームを作成できます。
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 ![](/help/assets/chlimage_1-4.png)
 
-### 一般的な設定 {#general-settings}
+### 一般設定 {#general-settings}
 
 ありがとうページは、選択したアクションタイプに関係なくいつでも定義できます。
 
