@@ -1,16 +1,16 @@
 ---
 title: コンテナコンポーネント
 description: コアコンポーネントのコンテナコンポーネントを使用すると、ページ上に複数の追加コンポーネント用のコンテナを作成できます。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 100%
 
 ---
 
-# コンテナコンポーネント {#container-component}
+# コンテナコンポーネント{#container-component}
 
 コアコンポーネントのコンテナコンポーネントを使用すると、ページ上に複数の追加コンポーネント用のコンテナを作成できます。
 
@@ -63,23 +63,23 @@ ht-degree: 100%
 
 デザインダイアログでは、コンテナコンポーネントの使用時にコンテンツ作成者に提供されるオプションをテンプレート作成者が定義できます。
 
-### 「許可されるコンポーネント」タブ {#allowed-components-tab}
+### 「許可されるコンポーネント」タブ  {#allowed-components-tab}
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がコンテナコンポーネントにアイテムとして追加できるコンポーネントを定義できます。
 
 「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)際の同じ名前のタブと同じように機能します。
 
-### 「デフォルトコンポーネント」タブ {#default-components-tab}
+### 「デフォルトコンポーネント」タブ  {#default-components-tab}
 
 「デフォルトコンポーネント」タブでは、[ページテンプレートでのデフォルトコンポーネントの定義方法](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)と同様に、特定のアセットタイプをコンテナにドロップしたときにコンテナコンポーネントに追加されるコンポーネントを定義できます。
 
-### 「レスポンシブ設定」タブ {#responsive-settings-tab}
+### 「レスポンシブ設定」タブ  {#responsive-settings-tab}
 
 ![コンテナコンポーネントのデザインダイアログの「レスポンシブ設定」タブ](/help/assets/container-design-responsive.png)
 
 * **列** - 結果として得られるコンテナのグリッド内の列数を定義します。
 
-### 「背景」タブ {#background-tab}
+### 「背景」タブ  {#background-tab}
 
 ![コンテナコンポーネントのデザインダイアログの「背景」タブ](/help/assets/container-design-background.png)
 
@@ -96,6 +96,6 @@ ht-degree: 100%
    * **削除** - タップまたはクリックすると、スウォッチを削除できます。
    * **並べ替え** - タップまたはクリックしてドラッグすると、スウォッチを並べ替えることができます。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 コンテナコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
