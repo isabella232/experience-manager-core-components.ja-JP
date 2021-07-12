@@ -2,16 +2,16 @@
 title: フォームオプションコンポーネント（v1）
 description: コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式の事前定義済みオプションから選択できます。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 100%
 
 ---
 
-# フォームオプションコンポーネント（v1）{#form-options-component-v}
+# フォームオプションコンポーネント（v1） {#form-options-component-v}
 
 コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式の事前定義済みオプションから選択できます。
 
