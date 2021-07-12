@@ -2,12 +2,12 @@
 title: AEM プロジェクトアーキタイプの使用
 description: AEM プロジェクトアーキタイプの使用方法の詳細
 feature: コアコンポーネント、AEM プロジェクトアーキタイプ
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 17081a073998512a52aebfc662f2bc125ca2a2c4
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2147'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -113,8 +113,8 @@ mvn -B archetype:generate \
 | `commerceEndpoint` |  | CIF でのみ必須です。使用するコマースシステム GraphQL サービスのオプションのエンドポイント（例：`https://hostname.com/grapql`）をクリックします。 |
 | `datalayer` | `y` | [Adobe クライアントデータレイヤー](/help/developing/data-layer/overview.md)との統合をアクティブ化します。 |
 | `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMP](/help/developing/amp.md) のサポートを有効にします。 |
-| `enableDynamicMedia` | `n` | プロジェクトポリシー設定で基盤DynamicMediaコンポーネントを有効にし、コア画像コンポーネントのポリシーのDynamic Media機能をアクティブ化します。 |
-| `enableSSR` | `n` | フロントエンドプロジェクトに対してSSRを有効にするオプション |
+| `enableDynamicMedia` | `n` | プロジェクトポリシー設定で基盤DynamicMediaコンポーネントを有効にし、コア画像コンポーネントのポリシーでDynamic Media機能をアクティブ化します。 |
+| `enableSSR` | `n` | フロントエンドプロジェクトに対して SSR を有効にするオプション |
 
 >[!NOTE]
 >
