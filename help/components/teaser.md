@@ -1,9 +1,9 @@
 ---
 title: ティーザーコンポーネント
 description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 100%
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 デザインダイアログを使用すれば、テンプレート作成者は、コンテンツ作成者がこのコンポーネントを使用する際に選択できるティーザーオプションを定義できます。
 
-### 「ティーザー」タブ {#teaser-tab}
+### 「ティーザー」タブ  {#teaser-tab}
 
 ![ティーザーコンポーネントのデザインダイアログ](/help/assets/teaser-design.png)
 
@@ -103,7 +103,7 @@ ht-degree: 100%
    * **タイトルをリンクしない** - オンにすると、ティーザータイトルはリンクされません
 * **画像の委任** - ティーザーが画像処理をデリゲートするコンポーネントを示す情報表示。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 ティーザーコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
