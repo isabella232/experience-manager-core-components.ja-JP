@@ -2,16 +2,16 @@
 title: フォームボタンコンポーネント（v1）
 description: コアコンポーネントのフォーム非表示コンポーネントを使用すれば、フォームに非表示フィールドを含めることができます。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
 ---
 
-# フォームボタンコンポーネント（v1）{#form-button-component-v}
+# フォームボタンコンポーネント（v1） {#form-button-component-v}
 
 コアコンポーネントのフォームボタンコンポーネントを使用すれば、アクションをトリガーするボタンフィールドをフォームに含めることができます。
 
