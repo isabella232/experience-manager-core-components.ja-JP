@@ -1,16 +1,16 @@
 ---
 title: エクスペリエンスフラグメントコンポーネント
 description: エクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者はエクスペリエンスフラグメントのバリエーションをページに追加できます。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 100%
 
 ---
 
-# エクスペリエンスフラグメントコンポーネント {#experience-fragment-component}
+# エクスペリエンスフラグメントコンポーネント{#experience-fragment-component}
 
 コアコンポーネントのエクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者は、ローカライズされたサイト構造をサポートしながら、エクスペリエンスフラグメントのバリエーションをページに配置できます。
 
@@ -132,6 +132,6 @@ ht-degree: 100%
 
 デザインダイアログでは、エクスペリエンスフラグメントコンポーネントの使用時にコンテンツ作成者に提供されるオプションと、エクスペリエンスフラグメントコンポーネントの配置時のデフォルト設定をテンプレート作成者が定義できます。
 
-### 「スタイル」タブ {#styles-tab}
+### 「スタイル」タブ  {#styles-tab}
 
 エクスペリエンスフラグメントコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
