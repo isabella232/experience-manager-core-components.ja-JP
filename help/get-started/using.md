@@ -1,16 +1,16 @@
 ---
 title: コアコンポーネントの使用
 description: 「独自のプロジェクトにコアコンポーネントを導入するには、4 つの手順（ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートでのコンポーネントの有効化）に従います。」
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 100%
 
 ---
 
-# コアコンポーネントの使用 {#using-core-components}
+# コアコンポーネントの使用{#using-core-components}
 
 独自のプロジェクトにコアコンポーネントを導入するには、次の 4 つの手順に従います。以下では、それぞれの手順について詳しく説明します。
 
