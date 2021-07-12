@@ -1,16 +1,16 @@
 ---
 title: ソーシャル共有コンポーネント
 description: コアコンポーネントのソーシャル共有コンポーネントは、Facebook および Pinterest の共有ウィジェットです。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 
 ---
 
-# ソーシャル共有コンポーネント {#social-sharing-component}
+# ソーシャル共有コンポーネント{#social-sharing-component}
 
 コアコンポーネントのソーシャル共有コンポーネントは、Facebook および Pinterest の共有ウィジェットです。
 
