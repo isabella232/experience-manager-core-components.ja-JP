@@ -2,9 +2,9 @@
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
 feature: コアコンポーネント、Adobe Client Data Layer
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
@@ -78,7 +78,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 * [リスト](/help/components/list.md)
 * [ナビゲーション](/help/components/navigation.md)
 * [ページ](/help/components/page.md)
-* [プログレスバー](/help/components/progress-bar.md)
+* [進行状況バー](/help/components/progress-bar.md)
 * [タブ](/help/components/tabs.md)
 * [ティーザー](/help/components/teaser.md)
 * [テキスト](/help/components/text.md)
