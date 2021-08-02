@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 ## 編集ダイアログ {#edit-dialog}
 
-編集ダイアログでは、コンテンツ作成者は画像の切り抜き、画像のローンチマップの変更および画像のズームをおこなえます。
+編集ダイアログでは、コンテンツ作成者は画像の切り抜き、画像のローンチマップの変更および画像のズームを行えます。
 
 ![](/help/assets/chlimage_1-8.png)
 
