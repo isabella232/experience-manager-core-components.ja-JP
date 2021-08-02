@@ -4,15 +4,15 @@ description: エクスペリエンスフラグメントコンポーネントを�
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
 ht-degree: 100%
 
 ---
 
-# エクスペリエンスフラグメントコンポーネント{#experience-fragment-component}
+# エクスペリエンスフラグメントコンポーネント {#experience-fragment-component}
 
-コアコンポーネントのエクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者は、ローカライズされたサイト構造をサポートしながら、エクスペリエンスフラグメントのバリエーションをページに配置できます。
+コンテンツ作成者は、コアコンポーネントのエクスペリエンスフラグメントコンポーネントを使用して、ローカライズされたサイト構造をサポートしながら、エクスペリエンスフラグメントのバリエーションをページに配置できます。
 
 ## 使用方法 {#usage}
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-エクスペリエンスフラグメントコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_xf)を参照してください。
+エクスペリエンスフラグメントコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_xf)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
@@ -132,6 +132,6 @@ ht-degree: 100%
 
 デザインダイアログでは、エクスペリエンスフラグメントコンポーネントの使用時にコンテンツ作成者に提供されるオプションと、エクスペリエンスフラグメントコンポーネントの配置時のデフォルト設定をテンプレート作成者が定義できます。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 エクスペリエンスフラグメントコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
