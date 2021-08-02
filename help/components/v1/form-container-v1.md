@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 タイプに関係なく、各アクションに適用される[一般的な設定](#general-settings)があります。
 
-### メール {#mail}
+### Mail {#mail}
 
 アクションタイプが「メール」の場合、フォームが送信されると、指定した受信者に電子メールが送信されます。
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
+テンプレート作成者は、デザインダイアログを使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
 ## 技術的詳細 {#technical-details}
 
