@@ -4,7 +4,7 @@ description: タブコンポーネントを使用すれば、複数のタブを�
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 編集ダイアログでは、コンテンツ作成者がタブの作成、名前変更、並べ替えをおこなったり、アクティブなタブを定義したりできます。
 
-### 「項目」タブ  {#items-tab}
+### 「項目」タブ {#items-tab}
 
 ![タブコンポーネントの編集ダイアログの「項目」タブ](/help/assets/tabs-edit-items.png)
 
@@ -85,14 +85,14 @@ ht-degree: 100%
 
 ![タブコンポーネントの編集ダイアログの「プロパティ」タブ](/help/assets/tabs-edit-properties.png)
 
-* 「**アクティブな項目**」タブでは、コンテンツ作成者はページの読み込み時にアクティブになるタブを定義できます。
+* **アクティブな項目** - コンテンツ作成者は、ページの読み込み時にアクティブになるタブを定義できます。
    * 「**デフォルト**」オプションの場合、最初のタブが選択されます。
 * **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-### 「アクセシビリティ」タブ  {#accessibility-tab}
+### 「アクセシビリティ」タブ {#accessibility-tab}
 
 ![タブコンポーネントの編集ダイアログの「アクセシビリティ」タブ](/help/assets/tabs-edit-accessibility.png)
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 ## パネルを選択 {#select-panel}
 
-コンポーネントツールバーの「**パネルを選択**」オプションを使用すれば、コンテンツ作成者は編集用に別のパネルに切り替えたり、簡単にタブを並べ替えたりできます。
+コンテンツ作成者は、コンポーネントツールバーの「**パネルを選択**」オプションを使用して、編集用に別のパネルに切り替えたり、簡単にタブを並べ替えたりできます。
 
 ![「パネルを選択」アイコン](/help/assets/select-panel-icon.png)
 
@@ -118,19 +118,19 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開されているコンテンツを読者と同じ立場でタブを操作するには、**[プレビュー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**&#x200B;モードまたは「**[公開されているとおりに表示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開されているコンテンツを読者と同じ立場でタブを操作するには、**[プレビュー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**&#x200B;モードまたは「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
 ## デザインダイアログ {#design-dialog}
 
 デザインダイアログでは、テンプレート作成者が、タブコンポーネントに項目として追加できるコンポーネントを定義したり、コンテンツ作成者が利用できるカスタムスタイルを定義したりできます。
 
-### 「許可されるコンポーネント」タブ  {#allowed-components-tab}
+### 「許可されるコンポーネント」タブ {#allowed-components-tab}
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がタブコンポーネントに項目として追加できるコンポーネントを定義できます。
 
 「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する際の同じ名前のタブと同じように機能します。](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 タブコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
