@@ -4,7 +4,7 @@ description: カルーセルコンポーネントを使用すれば、コンテ�
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 編集ダイアログでは、コンテンツ作成者がスライドの追加、名前変更、並べ替えをおこなったり、自動切り替えの設定を定義したりできます。
 
-### 「項目」タブ  {#items-tab}
+### 「項目」タブ {#items-tab}
 
 ![カルーセルコンポーネントの編集ダイアログの「項目」タブ](/help/assets/carousel-edit-items.png)
 
@@ -79,9 +79,9 @@ ht-degree: 100%
 >
 >**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開されているコンテンツを読者と同じ立場でカルーセルを操作するには、[**プレビュー**&#x200B;モード](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)または「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 >
->**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
-### 「アクセシビリティ」タブ  {#accessibility-tab}
+### 「アクセシビリティ」タブ {#accessibility-tab}
 
 ![カルーセルコンポーネントの編集ダイアログの「アクセシビリティ」タブ](/help/assets/carousel-edit-accessibility.png)
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 
 ## パネルを選択 {#select-panel}
 
-コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを使用すれば、コンテンツ作成者は編集用に別のスライドに切り替えたり、簡単にスライドを並べ替えたりできます。
+コンテンツ作成者は、コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを使用して、編集用に別のスライドに切り替えたり、簡単にスライドを並べ替えたりできます。
 
 ![「パネルを選択」アイコン](/help/assets/select-panel-icon.png)
 
@@ -119,13 +119,13 @@ ht-degree: 100%
 * **切り替え遅延** - コンテンツ作成者がカルーセルコンポーネントをページに追加したときの、スライド間の切り替え遅延（ミリ秒単位）のデフォルト値を定義します。
 * **ポイント時に自動で一時停止する機能を無効にする** - コンテンツ作成者が「**スライドを自動的に切り替え**」を選択した場合に、自動スライド一時停止を無効にするためのオプションをデフォルトで有効にするかどうかを定義します。
 
-### 「許可されるコンポーネント」タブ  {#allowed-components-tab}
+### 「許可されるコンポーネント」タブ {#allowed-components-tab}
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がカルーセルコンポーネントにスライドとして追加できるコンポーネントを定義できます。
 
 「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する際の同じ名前のタブと同じように機能します。](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 カルーセルコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
