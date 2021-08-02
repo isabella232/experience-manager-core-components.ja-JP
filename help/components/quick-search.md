@@ -4,7 +4,7 @@ description: クイック検索コンポーネントは、Web サイトに検索
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # クイック検索コンポーネント {#quick-search-component}
 
-クイック検索コンポーネントは、Web サイトに検索機能を提供し、一致するコンテンツを訪問者が容易に見つけて結果を表示できるように検索結果を表示します。
+クイック検索コンポーネントは、Web サイトに検索機能を提供し、検索結果を提示することで、訪問者が一致するコンテンツを簡単に見つけて結果を表示できるようにします。
 
 ## 使用方法 {#usage}
 
@@ -78,6 +78,6 @@ ht-degree: 100%
 >
 >「**結果のサイズ**」が大きすぎる場合や、「**検索語句の最小の長さ**」が小さすぎる場合は、パフォーマンスに影響が出る可能性があります。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 クイック検索コンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
