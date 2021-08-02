@@ -4,7 +4,7 @@ description: コアコンポーネントのフォームコンテナコンポー�
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 使用方法 {#usage}
 
-フォームコンテナコンポーネントでは、シンプルな WCM フォームをサポートし、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
+フォームコンテナコンポーネントは、シンプルな WCM フォームをサポートしており、フォームコンポーネントの追加が可能なネスト構造を使用しているので、シンプルな情報送信フォームおよび機能を作成できます。
 
 [設定ダイアログ](#configure-dialog)を使用すると、フォーム送信でトリガーされるアクション、送信を処理する URL、ワークフローをトリガーするかどうかをコンテンツ編集者が定義できます。テンプレート作成者は、[デザインダイアログ](#design-dialog)を使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのマッピングを定義できます。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-フォームコンテナコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_container_jp)を参照してください。
+フォームコンテナコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_container_jp)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 >[!TIP]
 >転送されたフォームデータを処理するためにシステム管理者が調整できる追加のタイムアウトオプションが用意されています。[詳しくは、GitHub の技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
-### メール {#mail}
+### Mail {#mail}
 
 アクションタイプが「Mail」の場合、フォームが送信されると、指定した受信者に電子メールが送信されます。
 
@@ -119,8 +119,8 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログを使用すれば、テンプレート作成者は、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
+テンプレート作成者は、デザインダイアログを使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 フォームコンテナコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
