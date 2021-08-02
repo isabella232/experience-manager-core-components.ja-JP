@@ -4,7 +4,7 @@ description: コアコンポーネントのコンテナコンポーネントを�
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-コンテナコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_container_jp)を参照してください。
+コンテナコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_container_jp)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
@@ -63,23 +63,23 @@ ht-degree: 100%
 
 デザインダイアログでは、コンテナコンポーネントの使用時にコンテンツ作成者に提供されるオプションをテンプレート作成者が定義できます。
 
-### 「許可されるコンポーネント」タブ  {#allowed-components-tab}
+### 「許可されるコンポーネント」タブ {#allowed-components-tab}
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がコンテナコンポーネントにアイテムとして追加できるコンポーネントを定義できます。
 
 「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)際の同じ名前のタブと同じように機能します。
 
-### 「デフォルトコンポーネント」タブ  {#default-components-tab}
+### 「デフォルトコンポーネント」タブ {#default-components-tab}
 
-「デフォルトコンポーネント」タブでは、[ページテンプレートでのデフォルトコンポーネントの定義方法](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)と同様に、特定のアセットタイプをコンテナにドロップしたときにコンテナコンポーネントに追加されるコンポーネントを定義できます。
+「デフォルトコンポーネント」タブでは、[ページテンプレートでのデフォルトコンポーネントの定義方法](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)と同様に、特定のアセットタイプをコンテナにドロップしたときにコンテナコンポーネントに追加されるコンポーネントを定義できます。
 
-### 「レスポンシブ設定」タブ  {#responsive-settings-tab}
+### 「レスポンシブ設定」タブ {#responsive-settings-tab}
 
 ![コンテナコンポーネントのデザインダイアログの「レスポンシブ設定」タブ](/help/assets/container-design-responsive.png)
 
 * **列** - 結果として得られるコンテナのグリッド内の列数を定義します。
 
-### 「背景」タブ  {#background-tab}
+### 「背景」タブ {#background-tab}
 
 ![コンテナコンポーネントのデザインダイアログの「背景」タブ](/help/assets/container-design-background.png)
 
@@ -89,13 +89,13 @@ ht-degree: 100%
    * **背景色を有効にする** - コンテナの背景色をコンテンツ作成者が定義できるようにします。
    * **スウォッチのみ** - コンテナの背景色に事前に定義されているカラースウォッチからのみコンテンツ作成者が選択できるようにします。
       * 「**背景色を有効にする**」を選択した場合にのみ使用可能です。
-* **許可されるスウォッチ** - コンテナの背景色をコンテンツ作成者が選択できる事前定義済みカラーを定義します。
+* **許可されるスウォッチ** - コンテンツ作成者がコンテナの背景色を選択できるように事前定義済みカラーを定義します。
    * 「**追加**」ボタンを使用して、事前定義済みのカラースウォッチを追加します。追加が完了すると、以下の列を含むエントリがリストに追加されます。
    * **値** - RGB 値を使用して手動で色を定義します。
       * カラーピッカーをタップまたはクリックすると、個々の RGB 値を調整するか 16 進数値を定義して、色を選択しやすくなります。
    * **削除** - タップまたはクリックすると、スウォッチを削除できます。
    * **並べ替え** - タップまたはクリックしてドラッグすると、スウォッチを並べ替えることができます。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 コンテナコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
