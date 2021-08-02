@@ -5,7 +5,7 @@ feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1625'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ AEM プロジェクトのアーキタイプ全体が `mvn clean install -PautoIn
 
 ## ClientLibs の概要 {#clientlibs}
 
-フロントエンドモジュールは、[AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) を使用して利用可能になります。NPM ビルドスクリプトを実行すると、アプリケーションがビルドされ、aem-clientlib-generator パッケージがビルド出力結果を取得して、そのような ClientLib に変換します。
+フロントエンドモジュールは、[AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja-JP) を使用して利用可能になります。NPM ビルドスクリプトを実行すると、アプリケーションがビルドされ、aem-clientlib-generator パッケージがビルド出力結果を取得して、そのような ClientLib に変換します。
 
 ClientLib は、次のファイルとディレクトリで構成されます。
 
