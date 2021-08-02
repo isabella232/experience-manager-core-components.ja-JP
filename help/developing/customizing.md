@@ -4,7 +4,7 @@ description: コアコンポーネントは、シンプルなスタイル設定�
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1106'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # コアコンポーネントのカスタマイズ{#customizing-core-components}
 
-[コアコンポーネント](overview.md)は、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実施できるパターンをいくつか実装しています。
+[コアコンポーネント](overview.md)は、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実行できるパターンをいくつか実装しています。
 
 ## 柔軟なアーキテクチャ {#flexible-architecture}
 
@@ -106,7 +106,7 @@ public class PageHeadline implements Title {
 
 変更が必要な HTL ファイルをコアコンポーネントから[プロキシコンポーネント](guidelines.md#proxy-component-pattern)にコピーすれば、簡単に実行できます。
 
-パンくずコアコンポーネントの例を再度取り上げます。そのマークアップ出力をカスタマイズするには、`breadcrumb.html` ファイルを、パンくずコアコンポーネントを指す `sling:resourceSuperTypes` を含むサイト固有のコンポーネントにコピーする必要があります。
+パンくずコアコンポーネントの例を再度取り上げます。そのマークアップ出力をカスタマイズするには、`breadcrumb.html` ファイルを、パンくずコアコンポーネントをポイントする `sling:resourceSuperTypes` を含むサイト固有のコンポーネントにコピーする必要があります。
 
 ### コンポーネントのスタイル設定 {#styling-the-components}
 
@@ -152,7 +152,7 @@ public class PageHeadline implements Title {
 
 1. **廃止された機能や削除された機能を確認してください。**
 
-   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
+   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
 
 [コアコンポーネントのサポート](overview.md#core-component-support)の節も参照してください。
 
