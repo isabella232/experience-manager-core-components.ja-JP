@@ -4,7 +4,7 @@ description: プログレスバーコンポーネントは、目標に向かう�
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-プログレスバーコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_progressbar_jp)を参照してください。
+プログレスバーコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_progressbar_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 プログレスバーダイアログでは、区切り文字コンポーネントに適用するスタイルをテンプレート作成者が定義できます。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 プログレスバーコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
