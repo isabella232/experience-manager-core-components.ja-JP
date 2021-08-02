@@ -5,7 +5,7 @@ feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Admin
 exl-id: 49e80d8c-2b41-4c42-b45e-c2e3b4b16a59
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ mvn -PautoInstallBundle clean install
 
 正常に実行されると、`http://<host>:<port>/system/console/bundles` にバンドルコンソールが表示されます。
 
-## 単体テスト  {#unit-tests}
+## 単体テスト {#unit-tests}
 
 コアモジュールでの単体テストは、バンドルに含まれているコードの従来の単体テストを示しています。テストするには、次のコマンドを実行します。
 
