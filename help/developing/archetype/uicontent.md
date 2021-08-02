@@ -5,7 +5,7 @@ feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Admin
 exl-id: af019cd8-c733-4b53-bb57-321dd9451178
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
 ht-degree: 100%
 
