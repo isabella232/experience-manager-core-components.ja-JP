@@ -4,7 +4,7 @@ description: コアコンポーネントのフォームテキストコンポー�
 role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-フォームテキストコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_text_jp)を参照してください。
+フォームテキストコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_text_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
@@ -67,14 +67,14 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-### 「情報」タブ  {#about-tab}
+### 「情報」タブ {#about-tab}
 
 ![「情報」タブ](/help/assets/form-text-edit-about.png)
 
 * **ヘルプメッセージ** - フィールドに入力できる内容をユーザーに伝えるヒント
 * **ヘルプメッセージをプレースホルダーとして表示** - フォーム入力が空でフォーカスされていない場合、フォーム入力内にヘルプメッセージを表示するかどうか
 
-### 「制約」タブ  {#constraints-tab}
+### 「制約」タブ {#constraints-tab}
 
 ![「制約」タブ](/help/assets/form-text-edit-constraints.png)
 
@@ -87,6 +87,6 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 フォームテキストコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
