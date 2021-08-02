@@ -4,7 +4,7 @@ description: 「独自のプロジェクトにコアコンポーネントを導�
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
 ht-degree: 100%
 
