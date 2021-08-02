@@ -4,7 +4,7 @@ description: 区切り文字コンポーネントは、ページ上のコンポ�
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 使用方法 {#usage}
 
-区切り文字コンポーネントを使用すれば、コンテンツ作成者はコンテンツ間の区切りとして横罫線を手軽に作成して、ページ上の情報をうまく整理できます。
+区切り文字コンポーネントを使用すれば、コンテンツ間の区切りとして横罫線を手軽に作成して、ページ上の情報をうまく整理できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-区切り文字コンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_separator_jp)を参照してください。
+区切り文字コンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_separator_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
@@ -51,6 +51,6 @@ ht-degree: 100%
 
 デザインダイアログでは、区切り文字コンポーネントに適用するスタイルをテンプレート作成者が定義できます。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 区切り文字コンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
