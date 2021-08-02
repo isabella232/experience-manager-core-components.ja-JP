@@ -4,7 +4,7 @@ description: コアコンポーネントのフォームオプションコンポ�
 role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-フォームオプションコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_options_jp)を参照してください。
+フォームオプションコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_options_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ![フォームオプションコンポーネントの編集ダイアログ](/help/assets/form-options-edit.png)
 
-* **タイプ** - オプションの表示方法
+* **種類** - オプションの表示方法
    * **チェックボックス**
    * **ラジオボタン**
    * **ドロップダウン**
@@ -76,6 +76,6 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 フォームオプションコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
