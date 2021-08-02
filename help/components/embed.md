@@ -4,7 +4,7 @@ description: 埋め込みコンポーネントを使用すると、AEM コンテ
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1341'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-埋め込みコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_embed)を参照してください。
+埋め込みコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_embed)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
@@ -120,7 +120,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 デザインダイアログでは、埋め込みコンポーネントの使用時にコンテンツ作成者に提供されるオプションと、埋め込みコンポーネントの配置時のデフォルト設定をテンプレート作成者が定義できます。
 
-### 「埋め込み可能なタイプ」タブ  {#embeddable-types-tab}
+### 「埋め込み可能なタイプ」タブ {#embeddable-types-tab}
 
 ![埋め込みコンポーネントのデザインダイアログ](/help/assets/embed-design.png)
 
@@ -129,7 +129,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 * **HTML を無効にする** - コンテンツ作成者に対して **HTML** オプションを無効にします。
 * **許可される埋め込み可能コンポーネント** - 「**埋め込み可能**」オプションがアクティブな場合に、コンテンツ作成者が使用できる埋め込み可能リソースプロセッサーを指定する複数選択フィールド。
 
-### 「YouTube」タブ  {#youtube-tab}
+### 「YouTube」タブ {#youtube-tab}
 
 ![埋め込みコンポーネントのデザインダイアログの「YouTube」タブ](/help/assets/embed-design-youtube.png)
 
