@@ -4,7 +4,7 @@ description: コアコンポーネントのダウンロードコンポーネン�
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-ダウンロードコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_download)を参照してください。
+ダウンロードコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_download)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ![ダウンロードコンポーネントの編集ダイアログの「アセット」タブ](/help/assets/download-edit-asset.png)
 
-### 「アセット」タブ  {#asset-tab}
+### 「アセット」タブ {#asset-tab}
 
 ダウンロードアセットの選択は、[画像コンポーネント](image.md)の機能とよく似ており、同じく AEM の DAM を利用しています。
 
@@ -93,6 +93,6 @@ ht-degree: 100%
 * **ファイル名を表示** - アセットのファイル名がダウンロードコンポーネントに表示されます。
    * デフォルト値はオンです。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
