@@ -5,7 +5,7 @@ feature: コアコンポーネント、Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Adobe Client Data Layer との統合 {#integrations}
 
-Adobe Client Data Layer は、あらゆるスクリプトのあらゆる種類のデータを表示およびアクセスできる標準化された方法を提供し、Web サイトを測定する際の手間を軽減します。
+Adobe Client Data Layer は、あらゆるスクリプトのあらゆる種類のデータを表示および利用できる標準化された方法を提供し、Web サイトを実装する際の手間を軽減します。
 
 Adobe Client Data Layer はカスタムコンポーネントと統合でき、Web サイトに対するインサイトを取得するうえで Adobe Analytics や Adobe Target との統合が役に立ちます。
 
