@@ -4,7 +4,7 @@ description: ナビゲーションコンポーネントを使用すれば、グ�
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1382'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-ナビゲーションコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_navigation_jp)を参照してください。
+ナビゲーションコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_navigation_jp)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
@@ -136,7 +136,7 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-### 「アクセシビリティ」タブ  {#accessibility-tab}
+### 「アクセシビリティ」タブ {#accessibility-tab}
 
 ![ナビゲーションコンポーネントの編集ダイアログの「アクセシビリティ」タブ](/help/assets/navigation-edit-accessibility.png)
 
@@ -162,7 +162,7 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 * **ナビゲーション構造の深さ** - ナビゲーション構造の深さのデフォルト値。
 * **シャドウイングを無効にする** - ナビゲーションコンポーネントの追加時にシャドウを無効にする必要がある場合のデフォルト値です。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 ナビゲーションコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
