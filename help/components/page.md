@@ -4,7 +4,7 @@ description: ページコンポーネントは、テンプレートエディタ�
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ## 編集ダイアログ {#edit-dialog}
 
-ページコンポーネントはページ全体を表しているので、編集ダイアログに通常用意されている設定は[ページのプロパティ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)ウィンドウにあります。
+ページコンポーネントはページ全体を表しているので、通常は編集ダイアログで設定する内容が、[ページのプロパティ](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)ウィンドウにあります。
 
 ## デザインダイアログ {#design-dialog}
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 >
 >ページ先頭のクライアントライブラリを個別に定義する機能は、コアコンポーネントリリース 2.2.0 で導入されました。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 ページコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
