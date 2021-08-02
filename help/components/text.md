@@ -4,7 +4,7 @@ description: テキストコンポーネントは、インプレース編集機�
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2213'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-テキストコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_text_jp)を参照してください。
+テキストコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_text_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
+>テキストコンポーネントでは、[RTE の UI 設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
 
 ## 編集ダイアログ {#edit-dialog}
 
@@ -257,7 +257,7 @@ ht-degree: 100%
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
+スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 ### 特殊文字 {#special-characters}
 
@@ -313,7 +313,7 @@ ht-degree: 100%
 
 デザインダイアログでは、コンテンツ作成者が使用できるテキスト書式設定オプションをテンプレート作成者が定義できます。
 
-### 「プラグイン」タブ  {#plugins-tab}
+### 「プラグイン」タブ {#plugins-tab}
 
 「プラグイン」タブでは、コンテンツ作成者が使用できる様々なテキスト書式設定オプションを有効または無効にします。
 
@@ -365,7 +365,7 @@ ht-degree: 100%
 * 文字を削除するには、「**削除**」ボタンをタップまたはクリックします。
 * 文字の順序を並べ替えるには、ハンドルをタップまたはクリックしてドラッグします。
 
-## 「スタイル」タブ  {#styles-tab}
+## 「スタイル」タブ {#styles-tab}
 
 テキストコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
