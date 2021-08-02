@@ -4,13 +4,13 @@ description: コアコンポーネントのフォーム非表示コンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
-# フォーム非表示コンポーネント{#form-hidden-component}
+# フォーム非表示コンポーネント {#form-hidden-component}
 
 コアコンポーネントのフォーム非表示コンポーネントを使用すれば、非表示フィールドを表示できます。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-フォーム非表示コンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_hidden_jp)を参照してください。
+フォーム非表示コンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_form_hidden_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
@@ -62,6 +62,6 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 フォーム非表示コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
