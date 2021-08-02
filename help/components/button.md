@@ -4,13 +4,13 @@ description: コアコンポーネントのボタンコンポーネントを使�
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
 ht-degree: 100%
 
 ---
 
-# ボタンコンポーネント{#button-component}
+# ボタンコンポーネント {#button-component}
 
 コアコンポーネントのボタンコンポーネントを使用すると、ページ上にボタンアイテムを設定および表示することができます。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-ボタンコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_button)を参照してください。
+ボタンコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_button)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
@@ -60,7 +60,7 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-### 「アクセシビリティ」タブ  {#accessibility-tab}
+### 「アクセシビリティ」タブ {#accessibility-tab}
 
 ![ボタンコンポーネントの編集ダイアログの「アクセシビリティ」タブ](/help/assets/button-edit-accessibility.png)
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 ボタンコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
