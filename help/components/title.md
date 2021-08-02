@@ -4,7 +4,7 @@ description: コアコンポーネントのタイトルコンポーネントは�
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
-タイトルコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_title_jp)を参照してください。
+タイトルコンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_title_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
@@ -65,9 +65,9 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログでは、コンテンツ作成者によって使用されたときのタイトルコンポーネントのデフォルト見出しレベルをテンプレート作成者が定義できます。
+デザインダイアログでは、コンテンツ作成者が使用する際のタイトルコンポーネントのデフォルト見出しレベルをテンプレート作成者が定義できます。
 
-### 「サイズ」タブ  {#sizes-tab}
+### 「サイズ」タブ {#sizes-tab}
 
 ![タイトルコンポーネントのデザインダイアログ](/help/assets/title-design.png)
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 >
 >タイトルのリンクを定義する機能は、コアコンポーネントのリリース 2.2.0 で導入されました。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 タイトルコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
