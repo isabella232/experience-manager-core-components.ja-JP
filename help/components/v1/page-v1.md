@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -682,7 +682,7 @@ ht-degree: 100%
 
 ## 編集ダイアログ {#edit-dialog}
 
-ページコンポーネントはページ全体を表しているので、編集ダイアログに通常用意されている設定は[ページのプロパティ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)ウィンドウにあります。
+ページコンポーネントはページ全体を表しているので、通常は編集ダイアログで設定する内容が、[ページのプロパティ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)ウィンドウにあります。
 
 ## デザインダイアログ {#design-dialog}
 
