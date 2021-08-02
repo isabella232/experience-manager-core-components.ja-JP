@@ -4,7 +4,7 @@ description: コアコンポーネントのアコーディオンコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1067'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 設定ダイアログでは、アコーディオンアイテム、アコーディオンアイテムのパネル、ページの訪問者に対するアコーディオンアイテムの動作および表示をコンテンツ作成者が定義できます。
 
-### 「項目」タブ  {#items-tab}
+### 「項目」タブ {#items-tab}
 
 ![アコーディオンコンポーネントの編集ダイアログの「項目」タブ](/help/assets/accordion-edit-items.png)
 
@@ -90,9 +90,9 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-## 「パネルを選択」ポップオーバー  {#select-panel-popover}
+## 「パネルを選択」ポップオーバー {#select-panel-popover}
 
-コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを使用すれば、コンテンツ作成者は編集用に別のパネルに切り替えたり、アコーディオン内のパネルを簡単に並べ替えたりできます。
+コンテンツ作成者は、コンポーネントツールバーの&#x200B;**パネルを選択**&#x200B;オプションを使用して、編集用に別のパネルに切り替えたり、アコーディオン内のパネルを簡単に並べ替えたりできます。
 
 ![「パネルを選択」アイコン](/help/assets/select-panel-icon.png)
 
@@ -116,13 +116,13 @@ ht-degree: 100%
 * **許可される見出し要素** - 作成者が選択できるアコーディオンアイテム見出し HTML 要素を定義する複数選択ドロップダウンです。
 * **デフォルトの見出し要素** - デフォルトのアコーディオンアイテム見出し HTML 要素を定義します。
 
-### 「許可されるコンポーネント」タブ  {#allowed-components-tab}
+### 「許可されるコンポーネント」タブ {#allowed-components-tab}
 
-「**許可されるコンポーネント**」タブでは、コンテンツ作成者がアコーディオンコンポーネント内のパネルにアイテムとして追加できるコンポーネントを定義できます。
+「**許可されるコンポーネント**」タブでは、アコーディオンコンポーネント内のパネルにアイテムとして追加できるコンポーネントをコンテンツ作成者が定義できます。
 
 「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)際の同じ名前のタブと同じように機能します。
 
-### 「スタイル」タブ  {#styles-tab}
+### 「スタイル」タブ {#styles-tab}
 
 アコーディオンコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
