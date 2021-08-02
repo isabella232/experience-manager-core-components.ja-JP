@@ -4,7 +4,7 @@ description: コアコンポーネントは、AMP（Accelerated Mobile Pages）�
 role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 このドキュメントでは、AMP のサポート方法の概要と、サイトで AMP を有効にする方法を説明します。ただし、技術的な詳細については、[GitHub 開発者ドキュメント](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)を参照してください。
 
-## AMP とは  {#what-is-amp}
+## AMP とは {#what-is-amp}
 
 Accelerated Mobile Pages（AMP）は、元々 Google がモバイルブラウジング用にページを最適化するために設計したオープンソースフレームワークです。通常、AMP ページは、標準の Web ページよりもさらに速く読み込まれ、優れたモバイルエクスペリエンスを提供します。
 
