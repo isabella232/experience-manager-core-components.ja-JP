@@ -4,7 +4,7 @@ description: コアコンポーネントを利用したプロジェクトの実�
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 早期の導入 {#start-early}
 
-プロジェクトの実装段階だけでコアコンポーネントを検討するのでなく、ワイヤフレーム作成および設計段階からコアコンポーネントを利用します。
+プロジェクトの実装段階に入ってコアコンポーネントを検討するのでなく、ワイヤフレーム作成や設計段階からコアコンポーネントの検討を開始します。
 
 ### コンポーネントライブラリの使用 {#component-library}
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 ### Adobe XD 用 UI キットの使用 {#ui-kit}
 
-カスタムコンポーネントのニーズが明らかになったら、すぐに [Adobe XD 用の UIキット](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)を活用して、コアコンポーネントを構成要素として使用し、設計者が枠組みと設計の作成を開始できるようにします。
+カスタムコンポーネントの必要性が明らかになった時点で、[Adobe XD 用の UI キット](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)を活用して、設計者がコアコンポーネントを構成要素として使用してワイヤーフレームや設計の構築を開始できるようにします。
 
 ## 強力な機能を見落とさない {#powerful-features}
 
