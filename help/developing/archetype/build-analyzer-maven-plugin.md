@@ -5,9 +5,9 @@ feature: コアコンポーネント、AEM プロジェクトアーキタイプ
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -40,17 +40,17 @@ AEM Maven プロジェクトに含める方法については、[Maven プラグ
 
 ## 既知の問題
 
-Build Analyzer Mavenプラグインを使用する際の既知の問題のリストを以下に示します。
+Build Analyzer Maven プラグイン使用時の既知の問題のリストを以下に示します。
 
-### ローカルSDKでBuild Analyzer Mavenプラグインを実行できませんでした
+### ローカル SDK で Build Analyzer Maven プラグインを実行できない
 
-Build AnalyzerのMavenプラグインのバージョン`1.1.2`より前のローカルSDKを使用する場合、プラグインを実行すると、次のエラーが発生する可能性があります。 この場合、プロジェクトを最新バージョンのプラグインに更新します。
+バージョン `1.1.2` より前の Build Analyzer の Maven プラグインでローカル SDK を使用する場合、プラグインを実行すると、次のエラーが発生する可能性があります。この場合、プロジェクトを最新バージョンのプラグインに更新します。
 
 ```txt
 [ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
 ```
 
-AEMプロジェクトアーキタイプを使用してプロジェクトを設定する場合は、次のように、ルートMavenの`pom.xml`のプロパティを調整してください。
+AEM プロジェクトアーキタイプを使用してプロジェクトを設定する場合は、ルート Mavenの `pom.xml` のプロパティを次のように調整してください。
 
 ```xml
    ...
