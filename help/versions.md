@@ -3,9 +3,9 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: fdca922ff637dc905fc90e80a1018c214a38e8c8
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2279'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | このパッチは、[リスト](/help/components/list.md)および[ナビゲーション](/help/components/navigation.md)コンポーネントを強化し、リダイレクトターゲット用の外部URLを表示し、[ティーザー](/help/components/teaser.md)コンポーネントのページ画像の継承を有効にし、追加のバグ修正を含みます。 | 6.4.8.4+ * | 6.5.6.0+ * | 継続的 | 8、11 | 2021年8月31日 |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | このパッチは、[リスト](/help/components/list.md)および[ナビゲーション](/help/components/navigation.md)コンポーネントを強化し、リダイレクトターゲット用の外部URLを表示し、今後の[ティーザー](/help/components/teaser.md)コンポーネントv2のページ画像の継承を有効にし、追加のバグ修正を含みます。 | 6.4.8.4+ * | 6.5.6.0+ * | 継続的 | 8、11 | 2021年8月31日 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | このパッチリリース以前に導入された後方互換性のない変更を修正するためのパッチリリースです。 | 6.4.8.4以降* | 6.5.6.0以上* | 継続的 | 8、11 | 2021年8月3日 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | このパッチリリースでは、ページのサイトマップのサポートが追加され、様々なアクセシビリティの改善が含まれています。 | 6.4.8.4以降* | 6.5.6.0以上* | 継続的 | 8、11 | 2021 年 7 月 29 日（PT） |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | このパッチリリースには、AEMaaCS で動作しない[データレイヤー](/help/developing/data-layer/overview.md)の修正が含まれています。 | 6.4.8.4以降* | 6.5.6.0以上* | 継続的 | 8、11 | 2021 年 7 月 8 日（PT） |
