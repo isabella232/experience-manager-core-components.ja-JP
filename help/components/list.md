@@ -3,10 +3,10 @@ title: リストコンポーネント
 description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '979'
-ht-degree: 100%
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
+workflow-type: tm+mt
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,17 @@ ht-degree: 100%
 ## 使用方法 {#usage}
 
 リストコンポーネントを使用すれば、子ページの動的リストや、自由に定義した項目の静的リストなどを作成できます。[デザインダイアログ](#design-dialog)では、利用可能なリストの種類や書式設定のオプションをテンプレート作成者が定義できます。[編集ダイアログ](#edit-dialog)では、利用可能なリストタイプやリスト要素の書式設定方法の中から、コンテンツエディターが選択できます。
+
+## リスト内のリダイレクト {#redirects}
+
+ページにリダイレクトターゲットがある場合(外部URLを指しているか別のAEMページを指しているかに関係なく)、そのポイントへのリンクを含むリストがリダイレクトターゲットのURLに直接続されます。
+
+### 例 {#redirect-example}
+
+* ページBにリダイレクトするページAを作成します。
+* `https://aemcomponents.dev`にリダイレクトするページCを作成する
+* ページDに、ページAとページCを含むリストコンポーネントを挿入します。
+* 生成された各リンクは、ページBと`https://aemcomponents.dev`を直接指します。
 
 ## バージョンと互換性 {#version-and-compatibility}
 

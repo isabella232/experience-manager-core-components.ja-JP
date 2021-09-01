@@ -3,10 +3,10 @@ title: ナビゲーションコンポーネント
 description: ナビゲーションコンポーネントを使用すれば、グローバル化されたサイト構造を容易にナビゲートできます。
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1382'
-ht-degree: 100%
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
+workflow-type: tm+mt
+source-wordcount: '1469'
+ht-degree: 94%
 
 ---
 
@@ -87,6 +87,18 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 
 >[!NOTE]
 >シャドウサイト構造をレンダリングする場合、ナビゲーションロジックによって繰り返されるのはシャドウページだけです。このロジックでは、リダイレクト先の構造は繰り返されません。
+
+## ナビゲーションでのリダイレクト {#redirects}
+
+ページにリダイレクトターゲットがある場合(外部URLを指しているか別のAEMページを指しているかに関係なく)、そのポイントへのリンクを含むナビゲーションコンポーネントがリダイレクトターゲットのURLに直接移動します。
+
+### 例 {#redirect-example}
+
+* ページBにリダイレクトするページAを作成します。
+* `https://aemcomponents.dev`にリダイレクトするページCを作成する
+* ページDに、ページAおよびCを含むまたはナビゲーションコンポーネントを挿入します。
+* 生成された各リンクは、ページBと`https://aemcomponents.dev`を直接指します。
+
 
 ## バージョンと互換性 {#version-and-compatibility}
 
