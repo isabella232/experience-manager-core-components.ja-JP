@@ -1,13 +1,13 @@
 ---
 title: AEM as a Cloud Service SDK Build Analyzer Maven プラグイン
 description: ローカルの Maven Build Analyzer プラグインに関するドキュメント
-feature: コアコンポーネント、AEM プロジェクトアーキタイプ
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
-workflow-type: ht
-source-wordcount: '595'
-ht-degree: 100%
+source-git-commit: db33866f0a9e87e34eaaa061d308438c6f5bebb4
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 97%
 
 ---
 
@@ -37,6 +37,7 @@ AEM Maven プロジェクトに含める方法については、[Maven プラグ
 | `bundle-nativecode` | OSGI バンドルがネイティブコードをインストールしないことを検証します。 | はい | はい |
 | `configuration-api` | 重要な OSGi 設定を検証します。 <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | はい | はい |
 | `region-deprecated-api` | [非推奨の api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=ja) が使用されているかどうかを確認します <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | はい | はい |
+| `artifact-rules` | バンドルやコンテンツパッケージなどの依存関係を検証して、アーティファクトの既知の問題を防ぎます。<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | はい | はい |
 
 ## 既知の問題
 
