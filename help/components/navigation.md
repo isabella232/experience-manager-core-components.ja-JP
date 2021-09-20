@@ -4,13 +4,13 @@ description: ナビゲーションコンポーネントを使用すれば、グ�
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1469'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# ナビゲーションコンポーネント{#navigation-component}
+# ナビゲーションコンポーネント {#navigation-component}
 
 ナビゲーションコンポーネントを使用すれば、グローバル化されたサイト構造を容易にナビゲートできます。
 
@@ -90,14 +90,14 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 
 ## ナビゲーションでのリダイレクト {#redirects}
 
-ページにリダイレクトターゲットがある場合(外部URLを指しているか別のAEMページを指しているかに関係なく)、そのポイントへのリンクを含むナビゲーションコンポーネントがリダイレクトターゲットのURLに直接移動します。
+ページにリダイレクトターゲットがある場合（外部 URL を指しているか別の AEM ページを指しているかに関係なく）、そのターゲットへのリンクを含むナビゲーションコンポーネントは、リダイレクトターゲットの URL を直接示します。
 
 ### 例 {#redirect-example}
 
-* ページBにリダイレクトするページAを作成します。
-* `https://aemcomponents.dev`にリダイレクトするページCを作成する
-* ページDに、ページAおよびCを含むまたはナビゲーションコンポーネントを挿入します。
-* 生成された各リンクは、ページBと`https://aemcomponents.dev`を直接指します。
+* ページ B にリダイレクトするページ A を作成します。
+* `https://aemcomponents.dev` にリダイレクトするページ C を作成する
+* ページ D で、ページ A とページ C を含むナビゲーションコンポーネントを挿入します。
+* 生成された各リンクは、ページ B と `https://aemcomponents.dev` を直接指します。
 
 
 ## バージョンと互換性 {#version-and-compatibility}
