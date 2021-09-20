@@ -4,13 +4,13 @@ description: 'コアコンポーネントは、最新のテクノロジーとベ
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
 ht-degree: 100%
 
 ---
 
-# コアコンポーネントの概要{#core-components-introduction}
+# コアコンポーネントの概要 {#core-components-introduction}
 
 Adobe Experience Manager では、コンポーネントは、オーサリングするページのコンテンツを構成する構造要素です。コンポーネントは常に AEM エクスペリエンスの基本要素となってきました。作成者はコンポーネントを使用することで単純かつ強力にページを作成し、開発者は柔軟かつ拡張可能なコンポーネントを開発できます。
 
