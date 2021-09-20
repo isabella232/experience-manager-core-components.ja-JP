@@ -4,13 +4,13 @@ description: コアコンポーネントのリストコンポーネントを使�
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# リストコンポーネント{#list-component}
+# リストコンポーネント {#list-component}
 
 コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
 
@@ -20,14 +20,14 @@ ht-degree: 92%
 
 ## リスト内のリダイレクト {#redirects}
 
-ページにリダイレクトターゲットがある場合(外部URLを指しているか別のAEMページを指しているかに関係なく)、そのポイントへのリンクを含むリストがリダイレクトターゲットのURLに直接続されます。
+ページにリダイレクトターゲットがある場合（外部 URL を指しているか別の AEM ページを指しているかに関係なく）、そのターゲットへのリンクを含むリストは、リダイレクトターゲットの URL を直接示します。
 
 ### 例 {#redirect-example}
 
-* ページBにリダイレクトするページAを作成します。
-* `https://aemcomponents.dev`にリダイレクトするページCを作成する
-* ページDに、ページAとページCを含むリストコンポーネントを挿入します。
-* 生成された各リンクは、ページBと`https://aemcomponents.dev`を直接指します。
+* ページ B にリダイレクトするページ A を作成します。
+* `https://aemcomponents.dev` にリダイレクトするページ C を作成する
+* ページ D で、ページ A とページ C を含むリストコンポーネントを挿入します。
+* 生成された各リンクは、ページ B と `https://aemcomponents.dev` を直接指します。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
