@@ -1,13 +1,13 @@
 ---
 title: AEM プロジェクトアーキタイプの使用
 description: AEM プロジェクトアーキタイプの使用方法の詳細
-feature: コアコンポーネント、AEM プロジェクトアーキタイプ
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2147'
-ht-degree: 100%
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+workflow-type: tm+mt
+source-wordcount: '2209'
+ht-degree: 96%
 
 ---
 
@@ -100,7 +100,7 @@ mvn -B archetype:generate \
 | `groupId` |  | 基本 Maven グループ ID です（例：`"com.mysite"`）。 |
 | `package` | *`${groupId}`* | Java ソースパッケージです（例：`"com.mysite"`）。 |
 | `version` | `1.0-SNAPSHOT` | プロジェクトのバージョンです（例：`1.0-SNAPSHOT`）。 |
-| `aemVersion` | `cloud` | ターゲット AEM バージョンです（[AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`6.5.0`、`6.4.4` のいずれか）。 |
+| `aemVersion` | `cloud` | ターゲット AEM バージョンです（[AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`6.5.0`、`6.4.4` のいずれか）。 |
 | `sdkVersion` | `latest` | `aemVersion=cloud` の場合は、[SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) のバージョンを指定できます（例：`2020.02.2265.20200217T222518Z-200130`）。 |
 | `includeDispatcherConfig` | `y` | `aemVersion` の値に応じて、クラウドか AMS／オンプレミスのいずれかの Dispatcher 設定を組み込みます（`y` または `n`）。 |
 | `frontendModule` | `general` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
@@ -115,6 +115,7 @@ mvn -B archetype:generate \
 | `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMP](/help/developing/amp.md) のサポートを有効にします。 |
 | `enableDynamicMedia` | `n` | プロジェクトポリシー設定で基盤 Dynamic Media コンポーネントを有効にし、コア画像コンポーネントのポリシーで Dynamic Media 機能をアクティブ化します。 |
 | `enableSSR` | `n` | フロントエンドプロジェクトに対して SSR を有効にするオプション |
+| `precompiledScripts` | `n` | [サーバー側スクリプトを`ui.apps`から事前にコンパイル](/help/developing/archetype/precompiled-bundled-scripts.md)し、`ui.apps`プロジェクトのセカンダリバンドルアーティファクトとしてビルドに添付するオプション。 `aemVersion` はに設定する必要があり `cloud`ます。 |
 
 >[!NOTE]
 >
@@ -136,6 +137,7 @@ mvn -B archetype:generate \
 | `autoInstallSinglePackage` | パッケージマネージャーに content-package-maven-plugin を使用し、`all` のコンテンツパッケージをローカルホスト（ポート 4502）のデフォルトのオーサーインスタンスにインストールします。ホスト名とポートは、`aem.host` および `aem.port` ユーザー定義プロパティを使用して変更できます。 |
 | `autoInstallSinglePackagePublish` | パッケージマネージャーに content-package-maven-plugin を使用し、`all` のコンテンツパッケージをローカルホスト（ポート 4503）のデフォルトのパブリッシュインスタンスにインストールします。ホスト名とポートは、`aem.host` および `aem.port` ユーザー定義プロパティを使用して変更できます。 |
 | `integrationTests` | 提供された統合テストを AEM インスタンスで実行します（`verify` フェーズのみ）。 |
+| `precompiledScripts` | `precompiledScripts`プロパティを`y`に設定してプロジェクトが生成されたときに自動的に定義されます。 プロファイルはデフォルトでアクティブで、`ui.apps`内にOSGiバンドルを生成し、事前コンパイル済みスクリプトを使用します。このスクリプトは`all`コンテンツパッケージに含まれます。 プロファイルは`-DskipScriptPrecompilation=true`で無効にできます。 |
 
 ### ビルドとインストール {#building-and-installing}
 

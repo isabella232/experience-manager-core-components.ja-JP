@@ -1,20 +1,20 @@
 ---
-sub-product: AEM コアコンポーネント
+sub-product: AEM Core Components
 user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
 feature-set: Experience Manager Sites
-source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
+source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
 # AEM コアコンポーネントヘルプ {#using}
 
-+ [コアコンポーネントの概要](introduction.md)
++ [コアコンポーネントの概要 ](introduction.md)
 + [成功への道筋](developing/success.md)
 + [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)
 + [コアコンポーネントのバージョン](versions.md)
@@ -39,7 +39,7 @@ ht-degree: 100%
    + [ナビゲーション](components/navigation.md)
    + [ページ](components/page.md)
    + [PDF ビューア](components/pdf-viewer.md)
-   + [プログレスバー](components/progress-bar.md)
+   + [進行状況バー](components/progress-bar.md)
    + [クイック検索](components/quick-search.md)
    + [セパレーター](components/separator.md)
    + [ソーシャルメディア共有](components/sharing.md)
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [アーキタイプの使用](developing/archetype/using.md)
       + [Core モジュール](developing/archetype/core.md)
       + [ui.apps モジュール](developing/archetype/uiapps.md)
+      + [バンドル済みスクリプトの事前コンパイル](developing/archetype/precompiled-bundled-scripts.md)
       + [ui.content モジュール](developing/archetype/uicontent.md)
       + [ui.frontend.general モジュール](developing/archetype/uifrontend.md)
       + [ui.frontend.react モジュール](developing/archetype/uifrontend-react.md)
