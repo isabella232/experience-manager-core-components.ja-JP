@@ -3,10 +3,10 @@ title: コアコンポーネントの概要
 description: 'コアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築され、堅牢で拡張可能な基本コンポーネントを提供します。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: 19a7057d0a37d8222dcb2441bba1e479d786fb10
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | 用途が広い | コンポーネントは、ほぼあらゆるレイアウトの作成に作成者が使用できる汎用的な概念を表します。 |
 | 設定可能 | ページ作成者が使用できる機能と使用できない機能をテンプレートレベルの[コンテンツポリシー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies)で定義します。 |
 | 追跡可能 | [Adobe Client Data Layer との統合](/help/developing/data-layer/overview.md)により、訪問者エクスペリエンスのあらゆる側面を追跡できます。 |
-| 高いアクセシビリティ | [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)に準拠し、ARIA ラベルを提供し、キーボードナビゲーションをサポートします（[既知の問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)を参照）。 |
+| 高いアクセシビリティ | [WCAG 2.1 標準 ](https://www.w3.org/TR/WCAG21/) に準拠し、ARIA ラベルを提供し、キーボードナビゲーション（[ 既知の問題 ](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)）をサポートします。 |
 | SEO 対応 | HTML 出力はセマンティックであり、[schema.org](https://schema.org) マイクロデータ注釈を提供します。 |
 | Web アプリ対応 | [効率化された JSON 出力](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)によりクライアント側でのレンダリングが可能になる一方、[コンテキスト内編集](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)も依然として可能です。 |
 | AMP のサポート | コンポーネントには、[AMP 標準に対する組み込みのサポート](/help/developing/amp.md)があり、モバイルエクスペリエンスの高速化に役立ちます。 |
