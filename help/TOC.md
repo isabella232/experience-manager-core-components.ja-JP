@@ -4,10 +4,10 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
 feature-set: Experience Manager Sites
-source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
+source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+source-wordcount: '212'
+ht-degree: 95%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing/overview.md)
    + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ja)
-   + [WKND 開発者向けチュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [WKND 開発者向けチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [コアコンポーネントのカスタマイズ](developing/customizing.md)
    + [コンポーネントのガイドライン](developing/guidelines.md)
    + [AMP のサポート](developing/amp.md)
@@ -84,7 +84,7 @@ ht-degree: 98%
       + [アーキタイプの使用](developing/archetype/using.md)
       + [Core モジュール](developing/archetype/core.md)
       + [ui.apps モジュール](developing/archetype/uiapps.md)
-      + [バンドル済みスクリプトの事前コンパイル](developing/archetype/precompiled-bundled-scripts.md)
+      + [コンパイル済みのバンドルされたスクリプト](developing/archetype/precompiled-bundled-scripts.md)
       + [ui.content モジュール](developing/archetype/uicontent.md)
       + [ui.frontend.general モジュール](developing/archetype/uifrontend.md)
       + [ui.frontend.react モジュール](developing/archetype/uifrontend-react.md)

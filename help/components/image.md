@@ -3,10 +3,10 @@ title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2170'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '2162'
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->SVG のサポートには、AEM 内の新しい[画像エディター機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/components-templates/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/sp-release-notes.html) 以降が必要です。
+>SVG のサポートには、AEM 内の新しい[画像エディター機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降が必要です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -82,9 +82,9 @@ ht-degree: 100%
 ![画像コンポーネントの設定ダイアログの「アセット」タブ](/help/assets/image-configure-asset.png)
 
 * **画像アセット**
-   * [アセットブラウザー](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
-   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)」をタップまたはクリックします。
+   * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ja)」をタップまたはクリックします。
 
 ### 「メタデータ」タブ {#metadata-tab}
 

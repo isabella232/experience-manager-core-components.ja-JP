@@ -4,10 +4,10 @@ description: AEM プロジェクトアーキタイプの使用方法の詳細
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+source-git-commit: 017790c5a0e53ba6203a5c3d5ddebcce9c00cb01
 workflow-type: tm+mt
-source-wordcount: '2209'
-ht-degree: 96%
+source-wordcount: '2193'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ AEM プロジェクトのアーキタイプを使用すると、数回のキー�
 
 プロジェクトのアーキタイプを使用すると、AEM での開発を簡単に開始できます。最初の手順にはいくつかの方法があります。
 
-* WKND チュートリアル - アーキタイプの活用方法など、AEM での開発に関する詳しい概要については、「[AEM Sites の概要 - WKND チュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)」を参照して、アーキタイプを使用した単純なプロジェクトの実装手順を示す実例を確認してください。
+* WKND チュートリアル - アーキタイプの活用方法など、AEM での開発に関する詳しい概要については、「[AEM Sites の概要 - WKND チュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)」を参照して、アーキタイプを使用した単純なプロジェクトの実装手順を示す実例を確認してください。
 * WKND イベントチュートリアル - AEM でのシングルページアプリケーション（SPA）の開発に特に関心がある場合は、専用の [WKND イベントチュートリアル](https://helpx.adobe.com/jp/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)を必ずご覧ください。
 * ダウンロードして開始しましょう。- [以下の簡単な手順に従うと](#how-to-use-the-archetype)、GitHub で利用可能な現在のプロジェクトのアーキタイプを簡単にダウンロードして、最初のプロジェクトを作成できます。
 
@@ -75,7 +75,7 @@ mvn -B archetype:generate \
 ```
 
 * `XX` を、最新の AEM プロジェクトアーキタイプの[バージョン番号](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)に設定します。
-* [AEM as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html) の場合は、`aemVersion=cloud` と設定します。\
+* [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja) の場合は、`aemVersion=cloud` と設定します。\
    [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`aemVersion=6.5.0` と設定します。AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用できる形で提供されているので、コアコンポーネントの依存関係は、非クラウドバージョンの AEM の場合にのみ追加します。
 * `appTitle="My Site"` を調整して、Web サイトのタイトルやコンポーネントグループを定義します。
 * `appId="mysite"` を調整して、Maven アーティファクト ID、コンポーネントフォルダー名、設定フォルダー名、コンテンツフォルダー名、およびクライアントライブラリ名を定義します。
@@ -100,10 +100,10 @@ mvn -B archetype:generate \
 | `groupId` |  | 基本 Maven グループ ID です（例：`"com.mysite"`）。 |
 | `package` | *`${groupId}`* | Java ソースパッケージです（例：`"com.mysite"`）。 |
 | `version` | `1.0-SNAPSHOT` | プロジェクトのバージョンです（例：`1.0-SNAPSHOT`）。 |
-| `aemVersion` | `cloud` | ターゲット AEM バージョンです（[AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`6.5.0`、`6.4.4` のいずれか）。 |
-| `sdkVersion` | `latest` | `aemVersion=cloud` の場合は、[SDK](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) のバージョンを指定できます（例：`2020.02.2265.20200217T222518Z-200130`）。 |
+| `aemVersion` | `cloud` | ターゲット AEM バージョンです（[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`6.5.0`、`6.4.4` のいずれか）。 |
+| `sdkVersion` | `latest` | `aemVersion=cloud` の場合は、[SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) のバージョンを指定できます（例：`2020.02.2265.20200217T222518Z-200130`）。 |
 | `includeDispatcherConfig` | `y` | `aemVersion` の値に応じて、クラウドか AMS／オンプレミスのいずれかの Dispatcher 設定を組み込みます（`y` または `n`）。 |
-| `frontendModule` | `general` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
+| `frontendModule` | `general` | クライアントライブラリを生成する Webpack フロントエンドビルドモジュールを組み込みます（通常のサイトの場合は `general` または `none`。[SPA エディター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)を実装しているシングルページアプリの場合は `angular` または `react`）。 |
 | `language` | `en` | コンテンツ構造の作成に使用する言語コード（ISO 639-1）（例：`en`、`deu`）。 |
 | `country` | `us` | コンテンツ構造の作成に使用する国コード（ISO 3166-1）（例：`US`）。 |
 | `singleCountry` | `y` | 言語マスターコンテンツ構造を組み込みます（`y` または `n`）。 |
@@ -115,7 +115,7 @@ mvn -B archetype:generate \
 | `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMP](/help/developing/amp.md) のサポートを有効にします。 |
 | `enableDynamicMedia` | `n` | プロジェクトポリシー設定で基盤 Dynamic Media コンポーネントを有効にし、コア画像コンポーネントのポリシーで Dynamic Media 機能をアクティブ化します。 |
 | `enableSSR` | `n` | フロントエンドプロジェクトに対して SSR を有効にするオプション |
-| `precompiledScripts` | `n` | [サーバー側スクリプトを`ui.apps`から事前にコンパイル](/help/developing/archetype/precompiled-bundled-scripts.md)し、`ui.apps`プロジェクトのセカンダリバンドルアーティファクトとしてビルドに添付するオプション。 `aemVersion` はに設定する必要があり `cloud`ます。 |
+| `precompiledScripts` | `n` | [](/help/developing/archetype/precompiled-bundled-scripts.md) サーバー側スクリプトを `ui.apps` から事前にコンパイルし、`ui.apps` プロジェクトのセカンダリバンドルアーティファクトとしてビルドに添付するオプション。 `aemVersion` はに設定する必要があり `cloud`ます。 |
 
 >[!NOTE]
 >
@@ -137,7 +137,7 @@ mvn -B archetype:generate \
 | `autoInstallSinglePackage` | パッケージマネージャーに content-package-maven-plugin を使用し、`all` のコンテンツパッケージをローカルホスト（ポート 4502）のデフォルトのオーサーインスタンスにインストールします。ホスト名とポートは、`aem.host` および `aem.port` ユーザー定義プロパティを使用して変更できます。 |
 | `autoInstallSinglePackagePublish` | パッケージマネージャーに content-package-maven-plugin を使用し、`all` のコンテンツパッケージをローカルホスト（ポート 4503）のデフォルトのパブリッシュインスタンスにインストールします。ホスト名とポートは、`aem.host` および `aem.port` ユーザー定義プロパティを使用して変更できます。 |
 | `integrationTests` | 提供された統合テストを AEM インスタンスで実行します（`verify` フェーズのみ）。 |
-| `precompiledScripts` | `precompiledScripts`プロパティを`y`に設定してプロジェクトが生成されたときに自動的に定義されます。 プロファイルはデフォルトでアクティブで、`ui.apps`内にOSGiバンドルを生成し、事前コンパイル済みスクリプトを使用します。このスクリプトは`all`コンテンツパッケージに含まれます。 プロファイルは`-DskipScriptPrecompilation=true`で無効にできます。 |
+| `precompiledScripts` | `precompiledScripts` プロパティを `y` に設定してプロジェクトが生成されたときに自動的に定義されます。 プロファイルはデフォルトでアクティブで、`ui.apps` 内に OSGi バンドルを生成し、事前コンパイル済みのスクリプトを含めます。このスクリプトは `all` コンテンツパッケージに含まれます。 プロファイルは `-DskipScriptPrecompilation=true` で無効にできます。 |
 
 ### ビルドとインストール {#building-and-installing}
 
@@ -197,7 +197,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-主要な依存関係の 1 つに [AEM uber-jar](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies) があります。これにより、AEM のバージョンに対して、すべての AEM API が単一の依存関係のエントリで含められます。
+主な依存関係の 1 つは、[AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) です。 これにより、AEM のバージョンに対して、すべての AEM API が単一の依存関係のエントリで含められます。
 
 >[!NOTE]
 >
@@ -207,7 +207,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 もちろん、AEM プロジェクトのアーキタイプはコアコンポーネントを活用します。
 
-コアコンポーネントは、デフォルトの実行モードで AEM に自動的にインストールされます。また、サンプルの WKND サイトで使用されます。[実稼動実行モード](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/security/production-ready.html)（`nosamplecontent`）では、コアコンポーネントは使用できません。
+コアコンポーネントは、デフォルトの実行モードで AEM に自動的にインストールされます。また、サンプルの WKND サイトで使用されます。[実稼動実行モード](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ja#runmodes)（`nosamplecontent`）では、コアコンポーネントは使用できません。
 
 そのため、すべてのデプロイメントでコアコンポーネントを使用するには、それらを Maven プロジェクトの一部に組み込むことが推奨されます。
 
@@ -231,7 +231,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
    * `mvn clean verify -PintegrationTests`
 * クライアントサイドの Hobbes.js テスト：ブラウザー側の動作を検証する JavaScript ベースのブラウザーサイドテストです。テストするには：
    1. ページの作成時と同様に、ブラウザーに AEM を読み込みます。
-   1. ページを[開発者モード](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/developing/components/developer-mode.html)で開きます。
+   1. ページを[開発者モード](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html)で開きます。
    1. 左のパネルを開き、「**Tests**」タブに切り替えます。
    1. 生成された **MyName Tests** を見つけ、実行します。
 
@@ -240,6 +240,6 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 AEM プロジェクトアーキタイプを構築し、インストールしました。次は何をすればよいでしょうか。アーキタイプは小さいとはいえ、推奨ベストプラクティスに従って設定された、多数の強力な AEM 機能の例で構成されています。これらを使用すれば、プロジェクトで機能をどのように活用できるかがわかります。どのプロジェクトでも、次の作業が必要になる可能性があります。
 
 * [既存のコアコンポーネントを拡張するコンポーネントのカスタマイズ](/help/developing/customizing.md)
-* [テンプレートの追加](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)
-* [ローカリゼーション構造の適応](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/introduction/tc-prep.html)
+* [テンプレートの追加](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)
+* [ローカリゼーション構造の適応](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html)
 * [フロントエンドビルドモジュールの詳細](uifrontend.md)

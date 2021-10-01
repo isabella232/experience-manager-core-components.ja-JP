@@ -1,13 +1,13 @@
 ---
 title: 統合と Adobe Client Data Layer
 description: Adobe Client Data Layer とカスタムコンポーネントの統合方法のほか、Adobe Analytics や Adobe Target との統合が Web サイトに対するインサイトの取得にどう役に立つかを説明します。
-feature: コアコンポーネント、Adobe Client Data Layer
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 96%
 
 ---
 
@@ -40,10 +40,10 @@ Adobe Analytics や Adobe Target との組み合わせることで、Adobe Clien
 
 Adobe Client Data Layer の組み込み機能と AEM コアコンポーネントを使用して、Adobe Experience Manager Sites のページに関するデータを収集する方法を説明します。Experience Platform Launch と Adobe Analytics 拡張は、ルールを作成して Adobe Analytics にページデータを送信するために使用されます。
 
-[こちらでチュートリアルをご覧ください。](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
+[こちらでチュートリアルをご覧ください。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
 
 ### Adobe Analytics を使用してクリックされたコンポーネントを追跡 {#track-clicked-components}
 
 イベント駆動型 Adobe Client Data Layer を AEM コアコンポーネントと共に使用して、Adobe Experience Manager サイト上にある特定のコンポーネントのクリックを追跡します。Experience Platform Launch でルールを使用して、クリックイベントをリッスンし、コンポーネントでフィルタリングして、リンクのトラックビーコンと共にデータを Adobe Analytics に送信する方法について説明します。
 
-[こちらでチュートリアルをご覧ください。](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
+[こちらでチュートリアルをご覧ください。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)

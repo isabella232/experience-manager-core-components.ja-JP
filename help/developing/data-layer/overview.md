@@ -1,13 +1,13 @@
 ---
 title: コアコンポーネントでの Adobe Client Data Layer の使用
 description: コアコンポーネントでの Adobe Client Data Layer の使用
-feature: コアコンポーネント、Adobe Client Data Layer
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -306,7 +306,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## チュートリアル
 
-データレイヤーとコアコンポーネントをさらに詳しく調べたい場合は、[次の実践チュートリアルをご覧ください](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
+データレイヤーとコアコンポーネントをさらに詳しく調べたい場合は、[次の実践チュートリアルをご覧ください](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
 
 >[!TIP]
 >

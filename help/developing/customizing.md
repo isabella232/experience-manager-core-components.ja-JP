@@ -3,10 +3,10 @@ title: コアコンポーネントのカスタマイズ
 description: コアコンポーネントは、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実施できるパターンをいくつか実装しています。
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-さらに、各コアコンポーネントは AEM [スタイルシステムの機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/style-system.html)を活用しています。スタイルシステムを使用すれば、テンプレート作成者は、ページ作成者がコンポーネントに適用できる追加の CSS クラス名を定義することができます。また、テンプレートごとに、許可されるコンポーネントスタイルのリストと、いずれかのスタイルを同じ種類のすべてのコンポーネントにデフォルトで適用するかどうかを定義できます。
+さらに、各コアコンポーネントは AEM [スタイルシステムの機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=ja)を活用しています。スタイルシステムを使用すれば、テンプレート作成者は、ページ作成者がコンポーネントに適用できる追加の CSS クラス名を定義することができます。また、テンプレートごとに、許可されるコンポーネントスタイルのリストと、いずれかのスタイルを同じ種類のすべてのコンポーネントにデフォルトで適用するかどうかを定義できます。
 
 ## アップグレード時のカスタマイズの互換性 {#upgrade-compatibility-of-customizations}
 
@@ -132,7 +132,7 @@ public class PageHeadline implements Title {
 * コアコンポーネントの新しいマイナーバージョンへのアップグレード
 * コアコンポーネントのメジャーバージョンへのアップグレード
 
-一般に、AEM を新しいバージョンにアップグレードしても、コンポーネントが移行先の新しい AEM バージョンもサポートしており、[廃止または削除](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)された API がカスタマイズで使用されていなければ、コアコンポーネントや行ったカスタマイズには何の影響もありません。
+一般に、AEM を新しいバージョンにアップグレードしても、コンポーネントが移行先の新しい AEM バージョンもサポートしており、[廃止または削除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)された API がカスタマイズで使用されていなければ、コアコンポーネントや行ったカスタマイズには何の影響もありません。
 
 コアコンポーネントを新しいメジャーバージョンに切り替えずにアップグレードしても、このページで説明したカスタマイズパターンが使用されている限り、カスタマイズには何の影響もありません。
 
@@ -152,7 +152,7 @@ public class PageHeadline implements Title {
 
 1. **廃止された機能や削除された機能を確認してください。**
 
-   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
+   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
 
 [コアコンポーネントのサポート](overview.md#core-component-support)の節も参照してください。
 

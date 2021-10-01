@@ -1,6 +1,8 @@
 ---
-source-git-commit: 10892e6befa81caba8ed152270e3a01ee6b56fee
-translation-type: ht
+source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 # Adobe Experience Manager ドキュメントへの投稿
@@ -40,13 +42,13 @@ AEM ドキュメントを改善するためのあらゆる投稿を歓迎しま�
 
 問題が見つかり、その修正方法が正確にわかっている場合は、プル要求の作成を検討してください。プル要求を使用すると、ドキュメントに編集を加えることができ、それを AEM Docs チームメンバーがドキュメントに含めるかどうかをレビューします。どのページにも右側のナビゲーションパネル上部に「**Edit this page**」リンクがあるので、それをクリックするだけで変更を提案し、プル要求が作成できます。
 
-すべてのプル要求には、署名付きの[寄稿者ライセンス同意書（CLA）が添付されている必要があります。](https://opensource.adobe.com/cla.html)これにより、アドビはお客様の投稿をプロジェクトの一部として再配布できるようになります。アドビの CLA は一度提出するだけでよいので、以前に提出したことがある場合は、次へ進むことができます。
+すべてのプル要求には、署名付きの[寄稿者ライセンス同意書（CLA）が添付されている必要があります。](https://opensource.adobe.com/cla.html) これにより、アドビはお客様の投稿をプロジェクトの一部として再配布できるようになります。アドビの CLA は一度提出するだけでよいので、以前に提出したことがある場合は、次へ進むことができます。
 
 ### 概要ビデオ
 
 以下のビデオで、イシューとプル要求の作成方法についての概要を簡単に確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/27069?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
 
 ### アドビ従業員による投稿
 
@@ -56,4 +58,4 @@ AEM ドキュメントを改善するためのあらゆる投稿を歓迎しま�
 
 ## その他の情報
 
-GitHub オーサリングプラットフォームの使用方法の詳細については、[アドビドキュメント寄稿者ガイド](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)を参照してください。
+GitHub オーサリングプラットフォームの使用方法の詳細については、[アドビドキュメント寄稿者ガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。

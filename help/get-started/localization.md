@@ -3,10 +3,10 @@ title: コアコンポーネントのローカライゼーション機能
 description: コアコンポーネントのローカライゼーション機能
 role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '725'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ナビゲーションコンポーネントも同様に、通常、すべてのページに表示する必要があります。また、ローカライズされたページのコンテンツを反映する必要があります。
 
-[AEM の編集可能なテンプレート](/help/components/navigation.md)と共に、[ナビゲーションコアコンポーネント](/help/components/experience-fragment.md)と[エクスペリエンスコアコンポーネント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/features/templates.html)のローカライゼーション機能を使用すると、簡単な作業になります。この例は、[言語ナビゲーションコンポーネント](/help/components/language-navigation.md)を使用するように拡張することもできます。
+[AEM の編集可能なテンプレート](/help/components/navigation.md)と共に、[ナビゲーションコアコンポーネント](/help/components/experience-fragment.md)と[エクスペリエンスコアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)のローカライゼーション機能を使用すると、簡単な作業になります。この例は、[言語ナビゲーションコンポーネント](/help/components/language-navigation.md)を使用するように拡張することもできます。
 
 ## コンテンツ構造 {#content-structure}
 

@@ -3,10 +3,10 @@ title: コアコンポーネントを利用したプロジェクトの成功へ�
 description: コアコンポーネントを利用したプロジェクトの実装を成功させる方法
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '564'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 97%
 
 ---
 
@@ -48,13 +48,13 @@ AEM とコアコンポーネントの機能は非常に強力ですが、同時�
 
 ### コンテンツフラグメント {#content-fragments}
 
-[コンテンツフラグメントを使用すると](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html)、チャネルに特化しないコンテンツをチャネル固有のバリエーションと共に作成できます。その後、コンテンツページをオーサリングする際に、これらのフラグメントとそれらのバリエーションを使用できます。
+[コンテンツフラグメントを使用すると](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html)、チャネルに特化しないコンテンツをチャネル固有のバリエーションと共に作成できます。その後、コンテンツページをオーサリングする際に、これらのフラグメントとそれらのバリエーションを使用できます。
 
 更新された JSON エクスポーターと共に構造化コンテンツフラグメントを使用して、AEM コンテンツをコンテンツサービス経由で AEM ページ以外のチャネルに配信することもできます。
 
 ### エクスペリエンスフラグメントテンプレート {#experience-fragment-templates}
 
-作成者がページの一部（エクスペリエンスのフラグメント）を再利用する場合。[エクスペリエンスフラグメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html)を使用しなければ、作成者はそのフラグメントをコピーして貼り付ける必要があります。これらのエクスペリエンスのコピー／貼り付けの作成と管理には時間がかかり、ユーザーエラーが発生しがちです。
+作成者がページの一部（エクスペリエンスのフラグメント）を再利用する場合。[エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html)を使用しなければ、作成者はそのフラグメントをコピーして貼り付ける必要があります。これらのエクスペリエンスのコピー／貼り付けの作成と管理には時間がかかり、ユーザーエラーが発生しがちです。
 エクスペリエンスフラグメントは、コピー／貼り付けを不要にします。
 
 ### 埋め込みコンポーネント {#embed-component}
