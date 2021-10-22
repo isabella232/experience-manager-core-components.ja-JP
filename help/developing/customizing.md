@@ -1,18 +1,18 @@
 ---
-title: コアコンポーネントのカスタマイズ
-description: コアコンポーネントは、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実施できるパターンをいくつか実装しています。
+title: 'コアコンポーネントのカスタマイズ '
+description: コアコンポーネントには、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実行できるパターンがいくつか実装されています。
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # コアコンポーネントのカスタマイズ{#customizing-core-components}
 
-[コアコンポーネント](overview.md)は、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実行できるパターンをいくつか実装しています。
+[コアコンポーネント](overview.md)には、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実行できるパターンがいくつか実装されています。
 
 ## 柔軟なアーキテクチャ {#flexible-architecture}
 
@@ -132,7 +132,7 @@ public class PageHeadline implements Title {
 * コアコンポーネントの新しいマイナーバージョンへのアップグレード
 * コアコンポーネントのメジャーバージョンへのアップグレード
 
-一般に、AEM を新しいバージョンにアップグレードしても、コンポーネントが移行先の新しい AEM バージョンもサポートしており、[廃止または削除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)された API がカスタマイズで使用されていなければ、コアコンポーネントや行ったカスタマイズには何の影響もありません。
+一般に、AEM を新しいバージョンにアップグレードしても、コンポーネントが移行先の新しい AEM バージョンもサポートしており、[廃止または削除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=ja)された API がカスタマイズで使用されていなければ、コアコンポーネントや行ったカスタマイズには何の影響もありません。
 
 コアコンポーネントを新しいメジャーバージョンに切り替えずにアップグレードしても、このページで説明したカスタマイズパターンが使用されている限り、カスタマイズには何の影響もありません。
 
@@ -152,7 +152,7 @@ public class PageHeadline implements Title {
 
 1. **廃止された機能や削除された機能を確認してください。**
 
-   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
+   新しい AEM バージョンにアップグレードするたびに、[廃止された機能と削除された機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=ja)のページに目を通し、使用中のすべての API がまだ有効であることを確認してください。
 
 [コアコンポーネントのサポート](overview.md#core-component-support)の節も参照してください。
 
