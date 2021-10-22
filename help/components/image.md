@@ -4,13 +4,13 @@ description: コアコンポーネントの画像コンポーネントは、イ�
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2162'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 画像コンポーネント{#image-component}
+# 画像コンポーネント {#image-component}
 
 コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 画像コンポーネントは、アダプティブ画像選択およびレスポンシブ動作を備えており、ページ訪問者に対する遅延読み込みや、コンテンツ作成者に対する簡単な画像の配置や切り抜きを提供します。
 
-[デザインダイアログ](#design-dialog)では、テンプレート作成者が、画像の幅や切り抜きの設定、追加の設定などを定義できます。コンテンツエディターは、[設定ダイアログ](#configure-dialog)でアセットをアップロードまたは選択し、[編集ダイアログ](#edit-dialog)で画像の切り抜きをおこなうことができます。画像を単純にインプレースで変更することもでき、非常に便利です。
+[デザインダイアログ](#design-dialog)では、テンプレート作成者が、画像の幅や切り抜きの設定、追加の設定などを定義できます。コンテンツエディターは、[設定ダイアログ](#configure-dialog)でアセットをアップロードまたは選択し、[編集ダイアログ](#edit-dialog)で画像の切り抜きを行うことができます。画像を単純にインプレースで変更することもでき、非常に便利です。
 
 ## レスポンシブ機能 {#responsive-features}
 
@@ -59,7 +59,7 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->SVG のサポートには、AEM 内の新しい[画像エディター機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降が必要です。
+>SVG のサポートには、AEM 内の新しい[画像エディター機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html?lang=ja)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降が必要です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -75,14 +75,14 @@ ht-degree: 99%
 
 ## 設定ダイアログ {#configure-dialog}
 
-画像コンポーネントには、標準の[編集ダイアログ](#edit-dialog)と[デザインダイアログ](#design-dialog)のほかに、画像自体の定義やその説明および基本プロパティの定義をおこなうための設定ダイアログも用意されています。
+画像コンポーネントには、標準の[編集ダイアログ](#edit-dialog)と[デザインダイアログ](#design-dialog)のほかに、画像自体の定義やその説明および基本プロパティの定義を行うための設定ダイアログも用意されています。
 
 ### 「アセット」タブ {#asset-tab}
 
 ![画像コンポーネントの設定ダイアログの「アセット」タブ](/help/assets/image-configure-asset.png)
 
 * **画像アセット**
-   * [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ja)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
    * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ja)」をタップまたはクリックします。
 
@@ -118,7 +118,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->切り抜き、回転、ズームの各機能は、Dynamic Media アセットには適用されません。[Dynamic Media の機能](#dynamic-media)が有効な場合、Dynamic Media のアセットに対するこのような編集は[設定ダイアログ](#configure-dialog)を使用しておこなう必要があります。
+>切り抜き、回転、ズームの各機能は、Dynamic Media アセットには適用されません。[Dynamic Media の機能](#dynamic-media)が有効な場合、Dynamic Media のアセットに対するこのような編集は[設定ダイアログ](#configure-dialog)を使用して行う必要があります。
 
 ![画像コンポーネントの編集ダイアログ](/help/assets/image-edit.png)
 
@@ -129,7 +129,7 @@ ht-degree: 99%
    このオプションを選択すると、定義済みの切り抜き比率のドロップダウンが開きます。
 
    * 独自の切り抜きを定義するには、オプション「**フリーハンド**」を選択します。
-   * 元のアセットを表示するには、オプション「**切り抜きを削除**」を選択します。
+   * 元のアセットを表示するには、オプション「**トリミングを削除**」を選択します。
 
    切り抜きオプションを選択したら、青色のハンドルを使用して画像上の切り抜きのサイズを調整します。
 
@@ -173,7 +173,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->画像編集操作（切り抜き、反転、回転）は GIF 画像ではサポートされません。編集モードで GIF に対しておこなわれたそのような変更は、一切保持されません。
+>画像編集操作（切り抜き、反転、回転）は GIF 画像ではサポートされません。編集モードで GIF に対して行われた変更は、一切保持されません。
 
 ## デザインダイアログ {#design-dialog}
 
@@ -200,7 +200,7 @@ ht-degree: 99%
       * 幅を削除するには、**削除**&#x200B;アイコンを使用します。
    * デフォルトでは、画像の読み込みは、画像が表示される時点まで遅延されます。
       * ページ読み込み時に画像を読み込むには、オプション「**遅延読み込みを無効にする**」を選択します。
-* **JPEG 画質** - 変換（拡大／縮小や切り抜きなど）がおこなわれる JPEG 画像の品質係数（0 ～ 100 パーセントで指定）。
+* **JPEG 画質** - 変換（拡大／縮小や切り抜きなど）が行われる JPEG 画像の品質係数（0 ～ 100 パーセントで指定）。
 
 ### 「機能」タブ {#features-tab}
 
@@ -223,13 +223,13 @@ ht-degree: 99%
 
    >[!CAUTION]
    >
-   >「**反転**」オプションはデフォルトでは無効になっています。これを有効にすると、画像コンポーネントの編集ダイアログで「**水平方向に反転**」および「**垂直方向に反転**」ボタンが表示されますが、この機能は現在 AEM でサポートされていないので、これらのオプションを使用しておこなわれた変更は一切保持されません。
+   >「**反転**」オプションはデフォルトでは無効になっています。これを有効にすると、画像コンポーネントの編集ダイアログで「**水平方向に反転**」および「**垂直方向に反転**」ボタンが表示されますが、この機能は現在 AEM でサポートされていないので、これらのオプションを使用して行われた変更は一切保持されません。
 
 * 切り抜き
 
    ![画像コンポーネントのデザインダイアログの「機能」タブ](/help/assets/image-design-features-cropping.png)
 
-   コンテンツ作成者が編集ダイアログでコンポーネントの画像の切り抜きをおこなえるようにするには、オプション「**切り抜きを許可**」を選択します。
+   コンテンツ作成者が編集ダイアログでコンポーネントの画像の切り抜きを行えるようにするには、オプション「**切り抜きを許可**」を選択します。
    * 定義済みの切り抜き縦横比を追加するには、「**追加**」をクリックします。
    * わかりやすい名前を入力します。この名前が「**切り抜きを開始**」ドロップダウンに表示されます。
    * 縦横比の数値を入力します。
