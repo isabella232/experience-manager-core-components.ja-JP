@@ -4,13 +4,13 @@ description: ページコンポーネントは、テンプレートエディタ�
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# ページコンポーネント{#page-component}
+# ページコンポーネント {#page-component}
 
 ページコンポーネントは、[テンプレートエディター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)と連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 
 ## 編集ダイアログ {#edit-dialog}
 
-ページコンポーネントはページ全体を表しているので、通常は編集ダイアログで設定する内容が、[ページのプロパティ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)ウィンドウにあります。
+ページコンポーネントはページ全体を表しているので、通常は編集ダイアログで設定する内容が、[ページのプロパティ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=ja)ウィンドウにあります。
 
 ## デザインダイアログ {#design-dialog}
 
