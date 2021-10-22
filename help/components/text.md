@@ -4,19 +4,19 @@ description: テキストコンポーネントは、インプレース編集機�
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2205'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# テキストコンポーネント{#text-component}
+# テキストコンポーネント {#text-component}
 
 コアコンポーネントのテキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 
 ## 使用方法 {#usage}
 
-テキストコンポーネントは、シンプルなインラインエディターでもフルスクリーン形式でも容易にテキスト編集をおこなえる堅牢なリッチテキストエディターを提供します。
+テキストコンポーネントは、シンプルなインライン形式でもフルスクリーン形式でも容易にテキスト編集を行える強力なリッチテキストエディターを提供します。
 
 [編集ダイアログ](#edit-dialog)には、限定的なオプションのみのインライン編集機能と、すべての機能を利用できるフルスクリーン編集機能が用意されています。[デザインダイアログ](#design-dialog)では、見出し、特殊文字、段落スタイルなどのテキスト書式設定オプションをコンテンツ作成者のテンプレートに設定できます。
 
@@ -45,13 +45,13 @@ ht-degree: 98%
 
 ## テキストコンポーネントとリッチテキストエディター {#the-text-component-and-the-rich-text-editor}
 
-コアコンポーネントのテキストコンポーネントでは、AEM リッチテキストエディター（RTE）を利用します。RTE には、コンテンツ作成者がテキストコンテンツの編集に使用できる幅広い機能が用意されています。RTE は設定の柔軟性が非常に高く、数多くのオプションを提供しています。RTE の設定方法の詳細については、[リッチテキストエディターの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)や[リッチテキストエディタープラグインの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
+コアコンポーネントのテキストコンポーネントでは、AEM リッチテキストエディター（RTE）を利用します。RTE には、コンテンツ作成者がテキストコンテンツの編集に使用できる幅広い機能が用意されています。RTE は設定の柔軟性が非常に高く、数多くのオプションを提供しています。RTE の設定方法の詳細については、[リッチテキストエディターの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=ja)や[リッチテキストエディタープラグインの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ja)を参照してください。
 
 コアコンポーネントのテキストコンポーネントでは、RTE がすぐに使用できる状態に設定されています。このドキュメントではこの後、テキストコンポーネントの標準設定について説明します。
 
 >[!NOTE]
 >
->テキストコンポーネントでは、[RTE の UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
+>テキストコンポーネントでは、[RTE の UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ja)で有効になっているオプションのみ使用できます。
 
 ## 編集ダイアログ {#edit-dialog}
 
@@ -149,7 +149,7 @@ ht-degree: 98%
 
 ![検索の例](/help/assets/text-find-example.png)
 
-検索するテキストを入力し、「**検索**」をタップまたはクリックして検索を開始します。キャンセルする場合は、「x」をクリックまたはタップします。大文字と小文字を区別して完全一致検索をおこなう場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。
+検索するテキストを入力し、「**検索**」をタップまたはクリックして検索を開始します。キャンセルする場合は、「x」をクリックまたはタップします。大文字と小文字を区別して完全一致検索を行う場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。
 一致する文字列が見つかった場合は、それが強調表示され、検索ダイアログが淡色表示になります。一致する次の文字列を検索するには、淡色表示のダイアログで「**検索**」ボタンを再度タップまたはクリックします。
 
 ![検索例](/help/assets/text-find-example-found.png)
@@ -169,7 +169,7 @@ ht-degree: 98%
 検索する文字列と置換後の文字列を入力します。
 
 * 検索を開始するには、「**検索**」をタップまたはクリックします。キャンセルする場合は、「x」をタップまたはクリックします。
-* 大文字と小文字を区別して完全一致検索をおこなう場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。
+* 大文字と小文字を区別して完全一致検索を行う場合は、「**大文字小文字を区別して一致**」オプションを選択してから検索を開始します。
 * 「**すべてを置換**」をタップまたはクリックすると、一致するすべての文字列が一度に置換されます。
 
 一致する文字列が見つかった場合は、それが強調表示され、検索ダイアログが淡色表示になります。一致する次の文字列を検索するには、淡色表示のダイアログで「**検索**」ボタンを再度タップまたはクリックします。強調表示されている一致文字列を置き換えるには、「**置換**」ボタンをタップまたはクリックします。なお、「**置換**」ボタンは、一致する文字列が見つかった場合にのみ有効になります。
@@ -257,7 +257,7 @@ ht-degree: 98%
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
+スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ja)を参照してください。
 
 ### 特殊文字 {#special-characters}
 
@@ -285,7 +285,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->**ソース編集**&#x200B;で入力した HTML コードはスキャンされて、XSS のリスクやスクリプトがないか確認され、検出されたものはすべて自動的に削除されます。したがって、実際に保存されたコンテンツは、**ソース編集**&#x200B;で入力した内容と異なる可能性があります。そのため、**ソース編集**&#x200B;を使用しておこなった変更を保存する場合は、まず、**ソース編集**&#x200B;を終了して、テキストを通常のエディターで表示する必要があります。
+>**ソース編集**&#x200B;で入力した HTML コードはスキャンされて、XSS のリスクやスクリプトがないか確認され、検出されたものはすべて自動的に削除されます。したがって、実際に保存されたコンテンツは、**ソース編集**&#x200B;で入力した内容と異なる可能性があります。そのため、**ソース編集**&#x200B;を使用して行った変更を保存する場合は、まず、**ソース編集**&#x200B;を終了して、テキストを通常のエディターで表示する必要があります。
 
 ### 段落書式
 
@@ -330,7 +330,8 @@ ht-degree: 98%
 * 挿入された画像の変更オプション
 * HTML ソースの編集
 
-### 書式設定 {#formatting}
+### 
+フォーマ {#formatting}
 
 ![デザインダイアログの書式設定](/help/assets/text-design-formatting.png)
 
