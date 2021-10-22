@@ -4,13 +4,13 @@ description: 埋め込みコンポーネントを使用すると、AEM コンテ
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1337'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 埋め込みコンポーネント{#embed-component}
+# 埋め込みコンポーネント {#embed-component}
 
 コアコンポーネントの埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
 
@@ -111,7 +111,7 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
 
 ただし、埋め込みコンポーネントは AEM のグローバル HTML AntiSamy サニタイズフレームワークのフィルタリングルールセット（`/libs/cq/xssprotection/config.xml` を参照）に従っているので、ルールはさらに複雑になります。必要に応じ、開発者によってプロジェクト固有の設定に対応するよう、これをオーバーレイすることができます。
 
-追加のセキュリティ情報は、[AEM 開発ドキュメントのオンプレミスのインストール](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)ならびに、[AEM as a Cloud Service のインストール](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)を参照してください。
+追加のセキュリティ情報は、[AEM 開発ドキュメントのオンプレミスのインストール](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=ja)ならびに、[AEM as a Cloud Service のインストール](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >AntiSamy サニタイズフレームワークのルールは `/libs/cq/xssprotection/config.xml` のオーバーレイにより設定することができますが、そうした変更は、埋め込みコアコンポーネントだけでなく、すべての HTL および JSP の動作に影響を与えます。
@@ -141,5 +141,5 @@ URL は、最もシンプルな埋め込みリソースです。埋め込むリ�
    * **ループのデフォルト値** - YouTube 埋め込みタイプが選択されている場合、「**ループを有効にする**」オプションが自動的に設定されます。
 * **インライン再生の設定を許可 (iOS)** - YouTube 埋め込みタイプが選択されている場合に、コンポーネントの「**インライン再生を有効にする (iOS)**」オプションの設定をコンテンツ作成者に許可します。
    * **インライン再生のデフォルト値 (iOS)** - YouTube 埋め込みタイプが選択されている場合、「**インライン再生を有効にする (iOS)**」オプションが自動的に設定されます。
-* **インラインビデオの設定を許可** - YouTube 埋め込みタイプが選択されている場合に、コンポーネントの「**関連ビデオの制限なし**」オプションの設定をコンテンツ作成者に許可します。
+* **関連ビデオの設定を許可** - YouTube 埋め込みタイプが選択されている場合に、コンポーネントの「**関連ビデオの制限なし**」オプションの設定をコンテンツ作成者に許可します。
    * **無制限の関連ビデオのデフォルト値** - YouTube 埋め込みタイプが選択されている場合、「**関連ビデオの制限なし**」オプションが自動的に設定されます。
