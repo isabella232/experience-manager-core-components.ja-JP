@@ -1,38 +1,39 @@
 ---
-title: バンドル済みスクリプトの事前コンパイル
-description: OSGiバンドルを介してコンポーネントスクリプトをAdobe Experience Manager Serverにデプロイする方法を説明します。Cloud Service
-source-git-commit: 56464decc8d6ae3cef68d62bfe459bceda0539ef
-workflow-type: tm+mt
+title: 事前コンパイル済みバンドルスクリプト
+description: OSGi バンドルを使用してコンポーネントスクリプトを Adobe Experience Manager Cloud Service にデプロイする方法を説明します。
+exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
+source-git-commit: 767f83fbad11a108aab25be2b77759af3c08b864
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# バンドル済みスクリプトの事前コンパイル
+# 事前コンパイル済みバンドルスクリプト
 
-AEM as aCloud Serviceは、事前にコンパイルされたバンドルされたスクリプトとして、[`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles)コンポーネントスクリプトのデプロイメントをサポートしています。 これにより、開発者は、ビルド時にスクリプトを事前にコンパイルし、OSGiバンドルとしてパッケージ化できます。
+AEM as a Cloud Service では、[`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#code-packages-%2F-osgi-bundles) コンポーネントスクリプトを事前コンパイル済みバンドルスクリプトとしてデプロイすることができます。これにより、開発者は、ビルド時にスクリプトを事前にコンパイルして、OSGi バンドルとしてパッケージ化することができます。
 
-## OSGiバンドルを介して事前コンパイル済みスクリプトをデプロイするメリット
+## OSGi バンドルを使用して事前コンパイル済みスクリプトをデプロイするメリット
 
-スクリプトを事前コンパイル済みのバンドルスクリプトとしてデプロイすると、次の利点があります。
+スクリプトを事前コンパイル済みバンドルスクリプトとしてデプロイすると、次の利点があります。
 
-+ ビルド時にスクリプトをコンパイルすることで、開発者は開発プロセスの早い段階でエラーを発見できます
-+ Java APIスクリプトの依存関係は、`Import-Package`および`Export-Package`バンドルヘッダーを介して明示的に定義されます
-+ 継承（`sling:resourceSuperType`を介）と他のリソースタイプ（HTLの`data-sly-resource`ブロック要素や`sling:include` JSPタグなどを介）への委任は、バンドルのメタデータを介してマッピングできます
-+ リソースタイプのバージョン管理は、Java APIと同様の方法で適用できます
++ ビルド時にスクリプトをコンパイルすると、開発者が開発プロセスの早期にエラーを検出できます
++ Java API スクリプトの依存関係は、`Import-Package` および `Export-Package` バンドルヘッダーを使用して明示的に定義されます
++ （`sling:resourceSuperType` を使用した）継承および（例えば HTL の `data-sly-resource` ブロック要素や `sling:include` JSP タグなどを使用した）他のリソースタイプへの委任は、バンドルのメタデータを使用してマッピングできます
++ リソースタイプのバージョン管理を、Java API と同様の方法で適用できます
 
-## プリコンパイルとパッケージのインポート
+## 事前コンパイルとパッケージインポート
 
-[`htl-maven-plugin`](https://sling.apache.org/components/htl-maven-plugin/index.html)は、HTLスクリプトの構文を検証できますが、HTLスクリプトをJavaクラスに転送するためにも使用できます。 これらはMavenプロジェクトの`generated-sources`フォルダーに追加され、`maven-compiler-plugin`によって取得されます。
+[`htl-maven-plugin`](https://sling.apache.org/components/htl-maven-plugin/index.html) は HTL スクリプトの構文を検証できますが、HTL スクリプトを Java クラスにトランスパイルする場合にも使用できます。これらは Maven プロジェクトの `generated-sources` フォルダーに追加され、`maven-compiler-plugin` によって選択されます。
 
-[`bnd-maven-plugin`](https://github.com/bndtools/bnd/tree/master/maven/bnd-maven-plugin)を追加して、Java APIの読み込み用にOSGiバンドルのメタデータを生成できます。
+[`bnd-maven-plugin`](https://github.com/bndtools/bnd/tree/master/maven/bnd-maven-plugin) を追加して、Java API インポート用に OSGi バンドルのメタデータを生成できます。
 
 ## 継承と委任
 
-OSGiフレームワークは、様々なコンポーネント間の契約を表す[要件と機能](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies)を定義する強力な手段を提供します。 これらはメタデータを使用して記述され、実行時に適用されます。 バンドルされたスクリプトは、継承の関係(`sling:resourceSuperType`)と委任（レンダリングプロセスの他のリソースタイプを含む）の両方を表すために、このメカニズムを使用します。
+OSGi フレームワークは、様々なコンポーネント間のコントラクト表現する[要件と機能](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies)を定義する強力な方法を提供します。これらはメタデータを使用して記述され、実行時に適用されます。バンドルスクリプトでは、このメカニズムを使用して、継承関係（`sling:resourceSuperType`）と委任（レンダリングプロセスにおける他のリソースタイプを含む）の両方を表現します。
 
-[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html)プロジェクトの`bnd`プラグインを使用して、[`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles)コンテンツパッケージで提供されるスクリプトに対応する要件と機能を抽出できます。
+[`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#code-packages-%2F-osgi-bundles) コンテンツパッケージで提供されるスクリプトに対応する要件と機能を抽出するには、[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) プロジェクトの `bnd` プラグインを使用できます。
 
-## AEMプロジェクトアーキタイプのサポート
+## AEM プロジェクトアーキタイプのサポート
 
-バージョン31以降、 [AEMプロジェクトアーキタイプ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html)を使用して、事前にコンパイルされたバンドルされたスクリプトを使用するCloud ServiceプロジェクトとしてAEMを正しく設定できます。 さらに、AEMプロジェクトのアーキタイプで、[AEMをCloud ServiceSDK Build Analyzer Maven Plugin](/help/developing/archetype/build-analyzer-maven-plugin.md)として設定し、Javaパッケージレベルとスクリプトレベルの依存関係を検証します。
+バージョン 31 からは、[AEM プロジェクトアーキタイプ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=ja)を使用して、事前コンパイル済みバンドルスクリプトを使用するように AEM as a Cloud Service プロジェクトを正しくセットアップできます。さらに、AEM プロジェクトアーキタイプでは、Java パッケージレベルとスクリプトレベルでの依存関係を検証するように [AEM as a Cloud Service SDK の Build Analyzer Maven プラグイン](/help/developing/archetype/build-analyzer-maven-plugin.md)を設定します。
