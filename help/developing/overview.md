@@ -4,9 +4,9 @@ description: コアコンポーネントは、豊富な機能、継続的配信�
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ AEM as a Cloud Service プロジェクトについて詳しくは、[AEM プロ�
 | 配信 | [公開 GitHub 経由](https://github.com/adobe/aem-core-wcm-components) | クイックスタートを通じて |
 | ライセンス | [Apache ライセンス](https://www.apache.org/licenses/LICENSE-2.0) | アドビ固有 |
 | 貢献度 | プル要求を通じて | 不可能 |
-| アクセシビリティ | [WCAG 2.0 AA 標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に完全に準拠 | [WCAG 2.0 AA 標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
+| アクセシビリティ | [WCAG 2.0 AA 標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=ja)に完全に準拠 | [WCAG 2.0 AA 標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=ja)に部分的に準拠 |
 
 ## コンポーネントリスト {#component-list}
 
@@ -149,6 +149,6 @@ AEM as a Cloud Service プロジェクトについて詳しくは、[AEM プロ�
 
 バージョン管理されたコンポーネントのメリットの 1 つは、新しい AEM バージョンへの移行と新しいコンポーネントバージョンへの移行を切り離すことができる点です。また、新しいコンポーネントバージョンが使用可能になった場合は、コンポーネントごとに新バージョンへ個別に移行できます。
 
-コアコンポーネントのバージョンが移行先の新しい AEM バージョンもサポートしている場合、新しい AEM バージョンへの移行はコアコンポーネントの動作に影響を与えません。[廃止または削除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)された API を使用していない限り、コアコンポーネントのカスタマイズ部分も影響を受けません。
+コアコンポーネントのバージョンが移行先の新しい AEM バージョンもサポートしている場合、新しい AEM バージョンへの移行はコアコンポーネントの動作に影響を与えません。[廃止または削除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=ja)された API を使用していない限り、コアコンポーネントのカスタマイズ部分も影響を受けません。
 
 コアコンポーネントを新しいバージョンに移行しても、コンポーネントの動作には影響しませんが、ページ作成者向けの新しい機能が導入されることはあります。これらの機能については、デフォルトの動作が望ましくない場合、テンプレートエディターで何らかの設定が必要になる可能性があります。一方、カスタマイズ部分は適合が必要になる可能性があります。詳しくは、[コアコンポーネントのカスタマイズ](customizing.md#upgrade-compatibility-of-customizations)を参照してください。
