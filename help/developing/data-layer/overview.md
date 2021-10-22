@@ -5,9 +5,9 @@ feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '972'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 
 >[!TIP]
 >
->Adobe Client Data Layer の詳細については、[GitHub リポジトリーのリソースを参照してください。](https://github.com/adobe/adobe-client-data-layer)
+>Adobe Client Data Layer の詳細については、[GitHub リポジトリのリソースを参照してください。](https://github.com/adobe/adobe-client-data-layer)
 >
->Adobe Client Data Layer とコアコンポーネントの統合に関する技術的な詳細については、コアコンポーネントリポジトリーの [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) ファイルを参照してください。
+>Adobe Client Data Layer とコアコンポーネントの統合に関する技術的な詳細については、コアコンポーネントリポジトリの [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) ファイルを参照してください。
 
 ## インストールとアクティベーション {#installation-activation}
 
@@ -78,7 +78,7 @@ Adobe Client Data Layer のコードは、コアコンポーネントと同様�
 * [リスト](/help/components/list.md)
 * [ナビゲーション](/help/components/navigation.md)
 * [ページ](/help/components/page.md)
-* [進行状況バー](/help/components/progress-bar.md)
+* [プログレスバー](/help/components/progress-bar.md)
 * [タブ](/help/components/tabs.md)
 * [ティーザー](/help/components/teaser.md)
 * [テキスト](/help/components/text.md)
@@ -306,7 +306,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## チュートリアル
 
-データレイヤーとコアコンポーネントをさらに詳しく調べたい場合は、[次の実践チュートリアルをご覧ください](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
+データレイヤーとコアコンポーネントをさらに詳しく調べたい場合は、[次の実践チュートリアルをご覧ください](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=ja)。
 
 >[!TIP]
 >
