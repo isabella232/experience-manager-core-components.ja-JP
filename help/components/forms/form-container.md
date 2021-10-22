@@ -4,9 +4,9 @@ description: コアコンポーネントのフォームコンテナコンポー�
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '950'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->コアコンポーネントのフォームコンテナコンポーネントでは、コアコンポーネントのフォームコンポーネント（ボタン、テキスト、非表示など）のみ使用できます。[基盤コンポーネント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html)のフォームコンポーネントをコアコンポーネントのフォームコンテナ内で使用すること（およびその逆の使用）はサポートされていません。
+>コアコンポーネントのフォームコンテナコンポーネントでは、コアコンポーネントのフォームコンポーネント（ボタン、テキスト、非表示など）のみ使用できます。[基盤コンポーネント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=ja)のフォームコンポーネントをコアコンポーネントのフォームコンテナ内で使用すること（およびその逆の使用）はサポートされていません。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -78,8 +78,8 @@ ht-degree: 99%
 ![フォームコンテナコンポーネントの編集ダイアログのメールオプション](/help/assets/form-container-edit-mail.png)
 
 * **件名** - フォーム送信時に送信される電子メールの件名
-* **差出人** - フォーム送信時に送信される電子メールの差出人の電子メールアドレス
-* **宛先-** - フォーム送信時に電子メールを受信する受信者のアドレス
+* **宛先** - フォーム送信時に送信される電子メールの差出人の電子メールアドレス
+* **範囲終了** - フォーム送信時に電子メールを受信する受信者のアドレス
    * アドレスを追加するには、「**追加**」ボタンをタップまたはクリックします
    * 電子メールアドレスを削除するには、「**削除**」ボタンをタップまたはクリックします
 * **CC** - フォーム送信時に送信される電子メールのカーボンコピーを受信する受信者のアドレス
@@ -98,7 +98,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->ユーザーデータを管理しやすくしたり、問題点を分離できるようにするために、ユーザー生成コンテンツをリポジトリ内に格納することは、一般的に推奨されません。
+>ユーザーデータを管理しやすくしたり、問題点を分離できるようにするために、ユーザー生成コンテンツをリポジトリ内に格納することは、一般的には推奨されません。
 >
 >代わりに、[Post Form Data](#post-data) アクションタイプを使用して、ユーザーコンテンツを専用のサービスプロバイダーに渡します。
 
@@ -119,7 +119,7 @@ ht-degree: 99%
 
 ## デザインダイアログ {#design-dialog}
 
-テンプレート作成者は、デザインダイアログを使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
+テンプレート作成者は、デザインダイアログを使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
