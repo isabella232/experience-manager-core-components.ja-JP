@@ -4,9 +4,9 @@ description: コアコンポーネントは、AMP（Accelerated Mobile Pages）�
 role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ AMP サポートは高い柔軟性を提供しますが、これを使い始め�
 
 ### ページに対する AMP の有効化 {#enabling-amp}
 
-ページに対して AMP を有効にするには、[ページポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)で **AMP モード**&#x200B;が選択されている必要があります。
+ページに対して AMP を有効にするには、[ページポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja#editing-a-template-page-policy-template-author-developer)で **AMP モード**&#x200B;が選択されている必要があります。
 
 ![AMP ページポリシーのオプション](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ AMP サポートは高い柔軟性を提供しますが、これを使い始め�
 * **ペア AMP** - ページは、AMP および HTML として配信されます。
 * **AMP のみ** - ページは AMP としてのみ提供されます。
 
-ページの AMP 設定は、個々のページの[ページプロパティ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)で上書きすることもできます。
+ページの AMP 設定は、個々のページの[ページプロパティ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=ja)で上書きすることもできます。
 
 ![AMP ページプロパティ](/help/assets/amp-page-properties.png)
 
