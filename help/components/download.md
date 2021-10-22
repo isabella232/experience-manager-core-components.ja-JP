@@ -4,13 +4,13 @@ description: コアコンポーネントのダウンロードコンポーネン�
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# ダウンロードコンポーネント{#download-component}
+# ダウンロードコンポーネント {#download-component}
 
 コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 ダウンロードアセットの選択は、[画像コンポーネント](image.md)の機能とよく似ており、同じく AEM の DAM を利用しています。
 
 * **アセットをダウンロード**
-   * [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
+   * [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ja)からアセットをドロップするか、「**参照**」オプションをタップすると、ローカルファイルシステムからアップロードできます。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
    * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ja)」をタップまたはクリックします。
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 * **アクションテキスト** - ダウンロードアイテムのアクションテキストとして表示されます。
    * このフィールドは、ファイルシステムからアセットをアップロードする場合には必須です。
    * **インライン表示** - 指定した&#x200B;**アクションテキスト**&#x200B;がインライン表示されます。
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
