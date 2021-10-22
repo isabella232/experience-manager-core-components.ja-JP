@@ -5,9 +5,9 @@ breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
 feature-set: Experience Manager Sites
 source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 95%
    + [ナビゲーション](components/navigation.md)
    + [ページ](components/page.md)
    + [PDF ビューア](components/pdf-viewer.md)
-   + [進行状況バー](components/progress-bar.md)
+   + [プログレスバー](components/progress-bar.md)
    + [クイック検索](components/quick-search.md)
-   + [セパレーター](components/separator.md)
+   + [区切り文字](components/separator.md)
    + [ソーシャルメディア共有](components/sharing.md)
    + [テキスト](components/text.md)
    + [タブ](components/tabs.md)
@@ -69,7 +69,7 @@ ht-degree: 95%
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing/overview.md)
    + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ja)
-   + [WKND 開発者向けチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [WKND 開発者向けチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)
    + [コアコンポーネントのカスタマイズ](developing/customizing.md)
    + [コンポーネントのガイドライン](developing/guidelines.md)
    + [AMP のサポート](developing/amp.md)
@@ -84,7 +84,7 @@ ht-degree: 95%
       + [アーキタイプの使用](developing/archetype/using.md)
       + [Core モジュール](developing/archetype/core.md)
       + [ui.apps モジュール](developing/archetype/uiapps.md)
-      + [コンパイル済みのバンドルされたスクリプト](developing/archetype/precompiled-bundled-scripts.md)
+      + [事前コンパイル済みバンドルスクリプト](developing/archetype/precompiled-bundled-scripts.md)
       + [ui.content モジュール](developing/archetype/uicontent.md)
       + [ui.frontend.general モジュール](developing/archetype/uifrontend.md)
       + [ui.frontend.react モジュール](developing/archetype/uifrontend-react.md)
