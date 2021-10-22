@@ -4,13 +4,13 @@ description: コアコンポーネントのコンテナコンポーネントを�
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# コンテナコンポーネント{#container-component}
+# コンテナコンポーネント {#container-component}
 
 コアコンポーネントのコンテナコンポーネントを使用すると、ページ上に複数の追加コンポーネント用のコンテナを作成できます。
 
@@ -51,10 +51,10 @@ ht-degree: 98%
 
 * **レイアウト** - このオプションはコンテナコンポーネントの動作またはレイアウト動作を定義します。
    * **シンプル** - コンテナをシンプルなコンポーネントコレクションとして定義します。
-   * **レスポンシブグリッド** - コンテナを [AEM レスポンシブレイアウト](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)として定義します。
+   * **レスポンシブグリッド** - コンテナを [AEM レスポンシブレイアウト](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=ja)として定義します。
 * **背景色** - [設定に応じて](#background-tab)、自由形式の RGB 値として定義するか、カラーピッカーを使用して定義します。
 * **背景画像** - [設定に応じて](#background-tab)、コンテナの背景色を定義します。
-* **ID** - このオプションを使用すると、HTML 内および [データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
+* **ID** - このオプションを使用すると、HTML 内および[データレイヤー](/help/developing/data-layer/overview.md)内のコンポーネントの一意の識別子を制御できます。
    * 空白のままにした場合、一意の ID が自動的に生成されます。生成された ID は結果のページを調べることで確認できます。
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
@@ -71,7 +71,7 @@ ht-degree: 98%
 
 ### 「デフォルトコンポーネント」タブ {#default-components-tab}
 
-「デフォルトコンポーネント」タブでは、[ページテンプレートでのデフォルトコンポーネントの定義方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)と同様に、特定のアセットタイプをコンテナにドロップしたときにコンテナコンポーネントに追加されるコンポーネントを定義できます。
+「デフォルトコンポーネント」タブでは、[ページテンプレートでのデフォルトコンポーネントの定義方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)と同様に、特定のアセットタイプをコンテナにドロップしたときにコンテナコンポーネントに追加されるコンポーネントを定義できます。
 
 ### 「レスポンシブ設定」タブ {#responsive-settings-tab}
 
