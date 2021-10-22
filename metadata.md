@@ -6,9 +6,9 @@ description: Adobe Experience Manager コアコンポーネントのドキュメ
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.ja-JP
 index: y
 source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ GitHub オーサリングシステムのメタデータは階層的で、次の�
 1. 目次
 1. 記事
 
-metadata.md ファイルで定義されたメタデータはリポジトリ全体に適用されますが、目次と記事のレベルで上書きできます。メタデータの上書きは、可能な限り低いレベルでおこなう必要があります。
+metadata.md ファイルで定義されたメタデータはリポジトリ全体に適用されますが、目次と記事のレベルで上書きできます。メタデータの上書きは、可能な限り低いレベルで行う必要があります。
 
 最低限必要なのは、experience-manager-core-components.en リポジトリ内のメタデータです。
 
@@ -48,4 +48,4 @@ metadata.md
 * `description`
 * `index: n`（以前のバージョンのコンポーネントのみ）
 
-メタデータに関する追加情報は、[内部オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)を参照してください。
+メタデータに関する追加情報は、[内部オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html?lang=ja#solution)を参照してください。
