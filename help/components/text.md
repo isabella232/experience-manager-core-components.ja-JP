@@ -330,8 +330,7 @@ ht-degree: 100%
 * 挿入された画像の変更オプション
 * HTML ソースの編集
 
-### 
-フォーマ {#formatting}
+### フォーマ {#formatting}
 
 ![デザインダイアログの書式設定](/help/assets/text-design-formatting.png)
 
