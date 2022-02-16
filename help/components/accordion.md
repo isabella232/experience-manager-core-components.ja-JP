@@ -1,12 +1,12 @@
 ---
-title: アコーディオンコンポーネント
+title: 'アコーディオンコンポーネント '
 description: コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '1063'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '1067'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,28 @@ ht-degree: 100%
 * アコーディオンのパネルの順序は、設定ダイアログで定義できます。また、[パネルを選択ポップオーバー](#select-panel-popover)でも定義できます。
 * アコーディオンコンポーネントをページに追加するときのデフォルト設定は、[デザインダイアログ](#design-dialog)で定義できます。
 
+## バージョンと互換性 {#version-and-compatibility}
+
+このドキュメントでは、アコーディオンコンポーネントの現在のバージョン（2019 年 6 月にコアコンポーネントのリリース 2.5.0 で導入された v1）について説明します。
+
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
+
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | 互換性あり<br>[リリース2.17.4](/help/versions.md) および以前 | 互換性あり | 互換性あり |
+
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
+
+## コンポーネント出力のサンプル {#sample-component-output}
+
+アコーディオンコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_accordion_jp)を参照してください。
+
+## 技術的詳細 {#technical-details}
+
+アコーディオンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1) を参照してください。
+
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
+
 ## パネルへのディープリンク {#deep-linking}
 
 アコーディオンと[タブコンポーネント](tabs.md)は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
@@ -35,28 +57,6 @@ ht-degree: 100%
    * 例：`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 パネル ID をアンカーとして使用して指定した URL に移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。デフォルトでパネルが展開されないように設定されている場合は、自動的に展開されます。
-
-## バージョンと互換性 {#version-and-compatibility}
-
-このドキュメントでは、アコーディオンコンポーネントの現在のバージョン（2019 年 6 月にコアコンポーネントのリリース 2.5.0 で導入された v1）について説明します。
-
-コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
-
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v1 | 互換性あり | 互換性あり | 互換性あり |
-
-コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
-
-## コンポーネント出力のサンプル {#sample-component-output}
-
-アコーディオンコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_accordion_jp)を参照してください。
-
-## 技術的詳細 {#technical-details}
-
-アコーディオンコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1) を参照してください。
-
-コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
 ## 設定ダイアログ {#configure-dialog}
 

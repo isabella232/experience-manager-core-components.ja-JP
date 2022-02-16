@@ -3,10 +3,10 @@ title: タブコンポーネント
 description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,28 @@ ht-degree: 100%
 >
 >[コンテンツツリー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ja#content-tree)を使用した特定や選択は、単純な（ネストされていない）タブコンポーネントでは可能ですが、ネストされたタブでは不可能です。
 
+## バージョンと互換性 {#version-and-compatibility}
+
+このドキュメントでは、タブコンポーネントの現在のバージョン（2018 年 10 月にコアコンポーネントのリリース 2.2.0 で導入された v1）について説明します。
+
+コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
+
+| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | 互換性あり<br>[リリース2.17.4](/help/versions.md) および以前 | 互換性あり | 互換性あり |
+
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
+
+## コンポーネント出力のサンプル {#sample-component-output}
+
+タブコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_tabs_jp)を参照してください。
+
+### 技術的詳細 {#technical-details}
+
+タブコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1_jp) を参照してください。
+
+コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
+
 ## パネルへのディープリンク {#deep-linking}
 
 タブと[アコーディオンコンポーネント](accordion.md)は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
@@ -39,28 +61,6 @@ ht-degree: 100%
    * 例：`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 パネル ID をアンカーとして使用して指定した URL に移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。デフォルトでパネルが展開されないように設定されている場合は、自動的に展開されます。
-
-## バージョンと互換性 {#version-and-compatibility}
-
-このドキュメントでは、タブコンポーネントの現在のバージョン（2018 年 10 月にコアコンポーネントのリリース 2.2.0 で導入された v1）について説明します。
-
-コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
-
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v1 | 互換性あり | 互換性あり | 互換性あり |
-
-コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
-
-## コンポーネント出力のサンプル {#sample-component-output}
-
-タブコンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_tabs_jp)を参照してください。
-
-### 技術的詳細 {#technical-details}
-
-タブコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1_jp) を参照してください。
-
-コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
 ## 編集ダイアログ {#edit-dialog}
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開されているコンテンツを読者と同じ立場でタブを操作するには、**[プレビュー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#preview-mode)**&#x200B;モードまたは「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、作成者がタブを選択することはできません。公開されているコンテンツを読者と同じ立場でタブを操作するには、**[プレビュー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#preview-mode)**&#x200B;モードまたは「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
 ## デザインダイアログ {#design-dialog}
 

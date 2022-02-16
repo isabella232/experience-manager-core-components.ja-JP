@@ -3,10 +3,10 @@ title: カルーセルコンポーネント
 description: カルーセルコンポーネントを使用すれば、コンテンツ作成者は、回転式のカルーセルにコンテンツを表示することができます。
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '1115'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '1119'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 | コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | 互換性あり | 互換性あり | 互換性あり |
+| v1 | 互換性あり<br>[リリース2.17.4](/help/versions.md) および以前 | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 >
 >**編集**&#x200B;モードでは、スライドを進めるためのコントロールが有効になりません。公開されているコンテンツを読者と同じ立場でカルーセルを操作するには、[**プレビュー**&#x200B;モード](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#preview-mode)または「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#view-as-published)**」オプションを使用します。
 >
->**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=ja#view-as-published)**」オプションを使用します。
+>**編集**&#x200B;モードでは、自動進行機能は有効になりません。公開されているコンテンツを読者と同じ立場で自動進行機能を確認するには、「**[公開されているとおりに表示](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」オプションを使用します。
 
 ### 「アクセシビリティ」タブ {#accessibility-tab}
 

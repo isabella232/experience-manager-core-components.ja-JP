@@ -4,9 +4,9 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
 feature-set: Experience Manager Sites
-source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: ht
-source-wordcount: '212'
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -55,9 +55,17 @@ ht-degree: 100%
       + [フォームテキスト](components/forms/form-text.md)
    + v1 コンポーネント {#v1-components}
       + [パンくず（v1）](components/v1/breadcrumb-v1.md)
+      + [ボタン (v1)](components/v1/button.md)
+      + [コンテンツフラグメントリスト (v1)](components/v1/content-fragment-list.md)
+      + [ダウンロード (v1)](components/v1/download.md)
+      + [埋め込み (v1)](components/v1/embed.md)
+      + [エクスペリエンスフラグメント (v1)](components/v1/experience-fragment.md)
       + [画像（v1）](components/v1/image-v1.md)
+      + [言語ナビゲーション (v1)](components/v1/language-navigation.md)
       + [リスト（v1）](components/v1/list-v1.md)
+      + [ナビゲーション (v1)](components/v1/navigation.md)
       + [ページ（v1）](components/v1/page-v1.md)
+      + [ティーザー (v1)](components/v1/teaser.md)
       + [テキスト（v1）](components/v1/text-v1.md)
       + [タイトル（v1）](components/v1/title-v1.md)
       + v1 フォームコンポーネント {#v1-forms}
@@ -66,6 +74,12 @@ ht-degree: 100%
          + [フォーム非表示（v1）](components/v1/form-hidden-v1.md)
          + [フォームオプション（v1）](components/v1/form-options-v1.md)
          + [フォームテキスト（v1）](components/v1/form-text-v1.md)
+   + v2 コンポーネント {#v2-components}
+      + [パンくず（v2）](components/v2/breadcrumb.md)
+      + [画像（v2）](components/v2/image.md)
+      + [リスト（v2）](components/v2/list.md)
+      + [ページ（v2）](components/v2/page.md)
+      + [タイトル（v2）](components/v2/title.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing/overview.md)
    + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ja)

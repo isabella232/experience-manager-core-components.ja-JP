@@ -1,16 +1,16 @@
 ---
-title: コンテンツフラグメントリストコンポーネント
+title: コンテンツフラグメントリストコンポーネント (v1)
 description: コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントのリストを表示できます。
 role: Architect, Developer, Admin, User
-exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 86%
+source-wordcount: '725'
+ht-degree: 93%
 
 ---
 
-# コンテンツフラグメントリストコンポーネント {#content-fragment-list-component}
+
+# コンテンツフラグメントリストコンポーネント  (v1) {#content-fragment-list-component}
 
 コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)のリストを表示できます。
 
@@ -23,16 +23,13 @@ ht-degree: 86%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、コンテンツフラグメントコンポーネントの現在のバージョン (2022 年 2 月にコアコンポーネントのリリース2.18.0で導入された v2) について説明します。
+このドキュメントでは、2019 年 5 月にコアコンポーネントのリリース 2.4.0 で導入されたコンテンツフラグメントコンポーネント v1 について説明します。
 
-コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
-
-| コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|----|---|---|
-| v2 | - | 互換性あり | 互換性あり |
-| [v1](v1/content-fragment-list.md) | 互換性あり | 互換性あり | 互換性あり |
-
-コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
+>[!CAUTION]
+>
+>このドキュメントでは、コンテンツフラグメントリストコンポーネント v1 について説明します。
+>
+>コンテンツフラグメントリストコンポーネントの現在のバージョンについて詳しくは、 [コンテンツフラグメントリストコンポーネント](/help/components/content-fragment-list.md) 文書。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -87,18 +84,6 @@ ht-degree: 86%
    * 「**削除**」ボタンをクリックまたはタップすると、選択した要素を削除できます。
    * 「**順序**」ハンドルをドラッグすると、要素の順序を並べ替えることができます。
 
-### 「スタイル」タブ {#styles-tab-edit}
-
-![コンテンツフラグメントリストコンポーネントの編集ダイアログの「スタイル」タブ](/help/assets/content-fragment-list-styles.png)
-
-コンテンツフラグメントリストコンポーネントは、AEM [スタイルシステム。](/help/get-started/authoring.md#component-styling).
-
-ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。 編集ダイアログでの選択は、コンポーネントツールバーから選択した選択と同じ効果を持ちます。
-
-スタイルは、内のこのコンポーネントに対して設定する必要があります [デザインダイアログ](#design-dialog) をクリックして、ドロップダウンメニューを使用できるようにします。
-
 ## デザインダイアログ {#design-dialog}
 
-### 「スタイル」タブ {#styles-tab}
-
-コンテンツフラグメントリストコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling).
+デザインダイアログでは、コンテンツフラグメントリストコンポーネントに適用するスタイルをテンプレート作成者が定義できます。

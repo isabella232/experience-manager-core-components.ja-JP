@@ -3,10 +3,10 @@ title: プログレスバーコンポーネント
 description: プログレスバーコンポーネントは、目標に向かう進行状況を視覚的に表します
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '338'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 | コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | 互換性あり | 互換性あり | 互換性あり |
+| v1 | 互換性あり<br>[リリース2.17.4](/help/versions.md) および以前 | 互換性あり | 互換性あり |
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 

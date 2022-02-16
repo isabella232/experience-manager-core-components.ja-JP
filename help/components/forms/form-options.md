@@ -3,10 +3,10 @@ title: フォームオプションコンポーネント
 description: コアコンポーネントのフォームオプションコンポーネントを使用すれば、様々な形式の事前定義済みオプションから選択できます。
 role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '545'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 | コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v2 | 互換性あり | 互換性あり | 互換性あり |
+| v2 | 互換性あり<br>[リリース2.17.4](/help/versions.md) および以前 | 互換性あり | 互換性あり |
 | [v1](/help/components/v1/form-options-v1.md) | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
