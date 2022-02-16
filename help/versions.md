@@ -3,7 +3,7 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 06fc67134b312d2fa0311dc9f2250c82b8eee3f6
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 92%
@@ -26,7 +26,7 @@ ht-degree: 92%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | コアコンポーネントのこのメジャーリリースでは、複数コンポーネントの新しいバージョンに新しいリンクハンドラーが導入されたほか、多くのアクセシビリティの改善とバグ修正がおこなわれました。 | - | 6.5.10.0+ * | 継続的 | 8、11 | 2022 年 2 月 24 日 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | コアコンポーネントのこのメジャーリリースでは、複数コンポーネントの新しいバージョンに新しいリンクハンドラーが導入されたほか、多くのアクセシビリティの改善とバグ修正がおこなわれました。 | - | 6.5.10.0+ * | 継続的 | 8、11 | 2022 年 2 月 17 日 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | これはパッチリリースです。 | 6.4.8.4+ * | 6.5.6.0+ * | 継続的 | 8、11 | 2021年12月13日（PT） |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | これは、以前のリリースで導入された回帰を修正したパッチリリースです。 | 6.4.8.4 以上* | 6.5.6.0 以上* | 継続的 | 8、11 | 2021年1月10日（PT） |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | このパッチは、[リスト](/help/components/list.md)および[ナビゲーション](/help/components/navigation.md)コンポーネントを強化し、リダイレクトターゲット用の外部 URL を表示し、今後の[ティーザー](/help/components/teaser.md)コンポーネント v2 のページ画像の継承を有効にし、追加のバグ修正を含みます。 | 6.4.8.4 以上* | 6.5.6.0 以上* | 継続的 | 8、11 | 2021年8月31日（PT） |

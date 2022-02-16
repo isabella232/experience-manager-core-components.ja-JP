@@ -4,9 +4,9 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
 feature-set: Experience Manager Sites
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [コアコンポーネントの概要 ](introduction.md)
 + [成功への道筋](developing/success.md)
 + [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)
-+ [コアコンポーネントのバージョン](versions.md)
++ [バージョン](versions.md)
 + はじめに {#get-started}
    + [コアコンポーネントを使用したオーサリング](get-started/authoring.md)
    + [コアコンポーネントの使用](get-started/using.md)
