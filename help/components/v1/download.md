@@ -1,16 +1,16 @@
 ---
-title: コンポーネントをダウンロード (v1)
+title: ダウンロードコンポーネント（v1）
 description: コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# ダウンロードコンポーネント  (v1) {#download-component}
+# ダウンロードコンポーネント （v1） {#download-component}
 
 コアコンポーネントのダウンロードコンポーネントを使用すると、ダウンロードオプションをページ上に作成できます。
 
@@ -23,13 +23,13 @@ ht-degree: 93%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、2019 年 6 月にコアコンポーネントのリリース 2.5.0 で導入されたダウンロードコンポーネント v1 について説明します。
+このドキュメントでは、2019年6月にコアコンポーネントのリリース 2.5.0 で導入されたダウンロードコンポーネント v1 について説明します。
 
 >[!CAUTION]
 >
 >このドキュメントでは、ダウンロードコンポーネント v1 について説明します。
 >
->ダウンロードコンポーネントの現在のバージョンについて詳しくは、 [コンポーネントをダウンロード](/help/components/download.md) 文書。
+>ダウンロードコンポーネントの現在のバージョンについて詳しくは、[ダウンロードコンポーネント](/help/components/download.md)のドキュメントを参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
