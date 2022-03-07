@@ -1,16 +1,16 @@
 ---
-title: 埋め込みコンポーネント (v1)
+title: 埋め込みコンポーネント（v1）
 description: 埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# 埋め込みコンポーネント  (v1) {#embed-component}
+# 埋め込みコンポーネント （v1） {#embed-component}
 
 コアコンポーネントの埋め込みコンポーネントを使用すると、AEM コンテンツページに外部コンテンツを埋め込むことができます。
 
@@ -23,13 +23,13 @@ ht-degree: 96%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、2019 年 9 月にコアコンポーネントのリリース 2.7.0 で導入された埋め込みコンポーネント v1 について説明します。
+このドキュメントでは、2019年9月にコアコンポーネントのリリース 2.7.0 で導入された埋め込みコンポーネント v1 について説明します。
 
 >[!CAUTION]
 >
 >このドキュメントでは、埋め込みコンポーネント v1 について説明します。
 >
->埋め込みコンポーネントの現在のバージョンについて詳しくは、 [埋め込みコンポーネント](/help/components/embed.md) 文書。
+>埋め込みコンポーネントの現在のバージョンについて詳しくは、[埋め込みコンポーネント](/help/components/embed.md)のドキュメントを参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
