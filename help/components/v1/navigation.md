@@ -1,16 +1,16 @@
 ---
-title: ナビゲーションコンポーネント (v1)
+title: ナビゲーションコンポーネント（v1）
 description: ナビゲーションコンポーネントを使用すれば、グローバル化されたサイト構造を容易にナビゲートできます。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# ナビゲーションコンポーネント  (v1) {#navigation-component}
+# ナビゲーションコンポーネント （v1） {#navigation-component}
 
 ナビゲーションコンポーネントを使用すれば、グローバル化されたサイト構造を容易にナビゲートできます。
 
@@ -24,13 +24,13 @@ ht-degree: 97%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入されたナビゲーションコンポーネント v1 について説明します。
+このドキュメントでは、2018年1月にコアコンポーネントのリリース 2.0.0 で導入されたナビゲーションコンポーネント v1 について説明します。
 
 >[!CAUTION]
 >
 >このドキュメントでは、ナビゲーションコンポーネント v1 について説明します。
 >
->ナビゲーションコンポーネントの現在のバージョンについて詳しくは、 [ナビゲーションコンポーネント](/help/components/navigation.md) 文書。
+>ナビゲーションコンポーネントの現在のバージョンについて詳しくは、[ナビゲーションコンポーネント](/help/components/navigation.md)のドキュメントを参照してください。
 
 ## ローカライズされたサイト構造のサポート {#localized-site-structure}
 
