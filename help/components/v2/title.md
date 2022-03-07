@@ -1,11 +1,11 @@
 ---
-title: タイトルコンポーネント (v2)
+title: 'タイトルコンポーネント（v2） '
 description: コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入されたタイトルコンポーネント v2 について説明します。
+このドキュメントでは、2018年1月にコアコンポーネントのリリース 2.0.0 で導入されたタイトルコンポーネント v2 について説明します。
 
 >[!CAUTION]
 >
