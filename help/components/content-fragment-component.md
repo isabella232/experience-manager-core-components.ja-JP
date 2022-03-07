@@ -4,9 +4,9 @@ description: コアコンポーネントのコンテンツフラグメントコ�
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 ## 使用方法 {#usage}
 
-コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)をページに組み込むことができます。
+コアコンポーネントのコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)をページに組み込むことができます。
 
 * フラグメントとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * 特定の画像やグリッドを処理するリソースタイプは、[デザインダイアログ](#design-dialog)で定義できます。
@@ -28,13 +28,13 @@ ht-degree: 99%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、コンテンツフラグメントコンポーネントの現在のバージョン（2017 年 10 月にコアコンポーネントのリリース 1.1.0 で導入された v1）について説明します。
+このドキュメントでは、コンテンツフラグメントコンポーネントの現在のバージョン（2017年10月にコアコンポーネントのリリース 1.1.0 で導入された v1）について説明します。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
 | コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | 互換性あり<br>[リリース2.17.4](/help/versions.md) および以前 | 互換性あり | 互換性あり |
+| v1 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | 互換性あり |
 
 >[!NOTE]
 >
