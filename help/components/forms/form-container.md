@@ -4,9 +4,9 @@ description: コアコンポーネントのフォームコンテナコンポー�
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 99%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、フォームコンテナコンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
+このドキュメントでは、フォームコンテナコンポーネントの現在のバージョン（2018年1月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
 | コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v2 | 互換性あり<br>[リリース2.17.4](/help/versions.md) および以前 | 互換性あり | 互換性あり |
+| v2 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | 互換性あり |
 | [v1](/help/components/v1/form-container-v1.md) | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
@@ -71,7 +71,7 @@ ht-degree: 99%
 >[!TIP]
 >転送されたフォームデータを処理するためにシステム管理者が調整できる追加のタイムアウトオプションが用意されています。[詳しくは、GitHub の技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
-### メール {#mail}
+### Mail {#mail}
 
 アクションタイプが「Mail」の場合、フォームが送信されると、指定した受信者に電子メールが送信されます。
 
@@ -119,7 +119,7 @@ ht-degree: 99%
 
 ## デザインダイアログ {#design-dialog}
 
-テンプレート作成者は、デザインダイアログを使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
+テンプレート作成者は、デザインダイアログを使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
