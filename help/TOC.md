@@ -2,12 +2,12 @@
 sub-product: AEM Core Components
 user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
-user-guide-description: 作成者がコンテンツを容易に作成できる、拡張可能なコアコンポーネントを使用します。
+user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
 source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,17 +55,17 @@ ht-degree: 100%
       + [フォームテキスト](components/forms/form-text.md)
    + v1 コンポーネント {#v1-components}
       + [パンくず（v1）](components/v1/breadcrumb-v1.md)
-      + [ボタン (v1)](components/v1/button.md)
-      + [コンテンツフラグメントリスト (v1)](components/v1/content-fragment-list.md)
-      + [ダウンロード (v1)](components/v1/download.md)
-      + [埋め込み (v1)](components/v1/embed.md)
-      + [エクスペリエンスフラグメント (v1)](components/v1/experience-fragment.md)
+      + [ボタン（v1）](components/v1/button.md)
+      + [コンテンツフラグメントリスト（v1）](components/v1/content-fragment-list.md)
+      + [ダウンロード（v1）](components/v1/download.md)
+      + [埋め込み（v1）](components/v1/embed.md)
+      + [エクスペリエンスフラグメント（v1）](components/v1/experience-fragment.md)
       + [画像（v1）](components/v1/image-v1.md)
-      + [言語ナビゲーション (v1)](components/v1/language-navigation.md)
+      + [言語ナビゲーション（v1）](components/v1/language-navigation.md)
       + [リスト（v1）](components/v1/list-v1.md)
-      + [ナビゲーション (v1)](components/v1/navigation.md)
+      + [ナビゲーション（v1）](components/v1/navigation.md)
       + [ページ（v1）](components/v1/page-v1.md)
-      + [ティーザー (v1)](components/v1/teaser.md)
+      + [ティーザー（v1）](components/v1/teaser.md)
       + [テキスト（v1）](components/v1/text-v1.md)
       + [タイトル（v1）](components/v1/title-v1.md)
       + v1 フォームコンポーネント {#v1-forms}
