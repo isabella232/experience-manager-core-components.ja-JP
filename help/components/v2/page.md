@@ -3,14 +3,14 @@ title: ページコンポーネント（v2）
 description: ページコンポーネントは、テンプレートエディターと連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# ページコンポーネント  (v2) {#page-component}
+# ページコンポーネント （v2） {#page-component}
 
 ページコンポーネントは、[テンプレートエディター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)と連動するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、テンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入されたページコンポーネント v2 について説明します。
+このドキュメントでは、2018年1月にコアコンポーネントのリリース 2.0.0 で導入されたページコンポーネント v2 について説明します。
 
 >[!CAUTION]
 >
