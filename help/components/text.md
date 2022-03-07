@@ -4,9 +4,9 @@ description: テキストコンポーネントは、インプレース編集機�
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2209'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 99%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、テキストコンポーネントの現在のバージョン（2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
+このドキュメントでは、テキストコンポーネントの現在のバージョン（2018年1月にコアコンポーネントのリリース 2.0.0 で導入された v2）について説明します。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
 | コンポーネントのバージョン | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v2 | 互換性あり<br>[リリース2.17.4](/help/versions.md) および以前 | 互換性あり | 互換性あり |
+| v2 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり | 互換性あり |
 | [v1](v1/text-v1.md) | 互換性あり | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
@@ -51,7 +51,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->テキストコンポーネントでは、[RTE の UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
+>テキストコンポーネントでは、[RTE の UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ja)で有効になっているオプションのみ使用できます。
 
 ## 編集ダイアログ {#edit-dialog}
 
@@ -257,7 +257,7 @@ ht-degree: 99%
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
+スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ja)を参照してください。
 
 ### 特殊文字 {#special-characters}
 
