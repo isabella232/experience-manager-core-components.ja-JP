@@ -4,9 +4,9 @@ description: コアコンポーネントのコンテンツフラグメントリ�
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 86%
 
 ## 使用方法 {#usage}
 
-コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントモデルに基づいて[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)のリストをページに組み込むことができます。これは、他のアプリケーションで容易に使用できる[ヘッドレスコンテンツ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)を作成する場合に特に便利です。
+コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントモデルに基づいて[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)のリストをページに組み込むことができます。これは、他のアプリケーションで容易に使用できる[ヘッドレスコンテンツ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)を作成する場合に特に便利です。
 
 * リストとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * スタイルは、[デザインダイアログ](#design-dialog)でコンポーネントに適用できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、コンテンツフラグメントコンポーネントの現在のバージョン (2022 年 2 月にコアコンポーネントのリリース2.18.0で導入された v2) について説明します。
+このドキュメントでは、コンテンツフラグメントコンポーネントの現在のバージョン（2022年2月にコアコンポーネントのリリース 2.18.0 で導入された v2）について説明します。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
@@ -91,14 +91,14 @@ ht-degree: 86%
 
 ![コンテンツフラグメントリストコンポーネントの編集ダイアログの「スタイル」タブ](/help/assets/content-fragment-list-styles.png)
 
-コンテンツフラグメントリストコンポーネントは、AEM [スタイルシステム。](/help/get-started/authoring.md#component-styling).
+コンテンツフラグメントリストコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。 編集ダイアログでの選択は、コンポーネントツールバーから選択した選択と同じ効果を持ちます。
+ドロップダウンを使用して、コンポーネントに適用するスタイルを選択します。編集ダイアログでの選択項目は、コンポーネントツールバーから選択した項目と同じ効果があります。
 
-スタイルは、内のこのコンポーネントに対して設定する必要があります [デザインダイアログ](#design-dialog) をクリックして、ドロップダウンメニューを使用できるようにします。
+ドロップダウンメニューを使用するには、[デザインダイアログ](#design-dialog)でこのコンポーネントのスタイルを設定する必要があります。
 
 ## デザインダイアログ {#design-dialog}
 
 ### 「スタイル」タブ {#styles-tab}
 
-コンテンツフラグメントリストコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling).
+コンテンツフラグメントリストコンポーネントでは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
