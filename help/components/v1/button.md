@@ -1,16 +1,16 @@
 ---
-title: ボタンコンポーネント (v1)
+title: ボタンコンポーネント（v1）
 description: コアコンポーネントのボタンコンポーネントを使用すると、ボタンを作成および表示することができます。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# ボタンコンポーネント  (v1) {#button-component}
+# ボタンコンポーネント （v1） {#button-component}
 
 コアコンポーネントのボタンコンポーネントを使用すると、ページ上にボタンアイテムを設定および表示することができます。
 
@@ -23,13 +23,13 @@ ht-degree: 89%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、2019 年 6 月にコアコンポーネントのリリース 2.5.0 で導入されたボタンコンポーネント v1 について説明します。
+このドキュメントでは、2019年6月にコアコンポーネントのリリース 2.5.0 で導入されたボタンコンポーネント v1 について説明します。
 
 >[!CAUTION]
 >
 >このドキュメントでは、ボタンコンポーネント v1 について説明します。
 >
->ボタンコンポーネントの現在のバージョンについて詳しくは、 [ボタンコンポーネント](/help/components/button.md) 文書。
+>ボタンコンポーネントの現在のバージョンについて詳しくは、[ボタンコンポーネント](/help/components/button.md)のドキュメントを参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
