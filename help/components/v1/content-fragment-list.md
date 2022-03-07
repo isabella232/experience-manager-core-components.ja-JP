@@ -1,35 +1,35 @@
 ---
-title: コンテンツフラグメントリストコンポーネント (v1)
+title: コンテンツフラグメントリストコンポーネント（v1）
 description: コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントのリストを表示できます。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '725'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# コンテンツフラグメントリストコンポーネント  (v1) {#content-fragment-list-component}
+# コンテンツフラグメントリストコンポーネント （v1） {#content-fragment-list-component}
 
 コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)のリストを表示できます。
 
 ## 使用方法 {#usage}
 
-コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントモデルに基づいて[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)のリストをページに組み込むことができます。これは、他のアプリケーションで容易に使用できる[ヘッドレスコンテンツ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)を作成する場合に特に便利です。
+コアコンポーネントのコンテンツフラグメントリストコンポーネントを使用すれば、コンテンツフラグメントモデルに基づいて[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)のリストをページに組み込むことができます。これは、他のアプリケーションで容易に使用できる[ヘッドレスコンテンツ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)を作成する場合に特に便利です。
 
 * リストとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択できます。
 * スタイルは、[デザインダイアログ](#design-dialog)でコンポーネントに適用できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、2019 年 5 月にコアコンポーネントのリリース 2.4.0 で導入されたコンテンツフラグメントコンポーネント v1 について説明します。
+このドキュメントでは、2019年5月にコアコンポーネントのリリース 2.4.0 で導入されたコンテンツフラグメントコンポーネント v1 について説明します。
 
 >[!CAUTION]
 >
 >このドキュメントでは、コンテンツフラグメントリストコンポーネント v1 について説明します。
 >
->コンテンツフラグメントリストコンポーネントの現在のバージョンについて詳しくは、 [コンテンツフラグメントリストコンポーネント](/help/components/content-fragment-list.md) 文書。
+>コンテンツフラグメントリストコンポーネントの現在のバージョンについて詳しくは、[コンテンツフラグメントリストコンポーネント](/help/components/content-fragment-list.md)のドキュメントを参照してください。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
