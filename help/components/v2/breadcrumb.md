@@ -1,11 +1,11 @@
 ---
-title: パンくずコンポーネント (v2)
+title: パンくずコンポーネント（v2）
 description: コアコンポーネントのパンくずコンポーネントはナビゲーションコンポーネントです。コンテンツ階層におけるページの場所に基づいてリンクのパンくずリストを作成します。
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、2018 年 1 月にコアコンポーネントのリリース 2.0.0 で導入されたパンくずコンポーネント v2 について説明します。
+このドキュメントでは、2018年1月にコアコンポーネントのリリース 2.0.0 で導入されたパンくずコンポーネント v2 について説明します。
 
 >[!CAUTION]
 >
