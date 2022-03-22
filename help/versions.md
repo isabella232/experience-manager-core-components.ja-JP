@@ -3,10 +3,10 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
+source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 100%
+source-wordcount: '2425'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 100%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | コアコンポーネントのこのメジャーリリースでは、複数コンポーネントの新しいバージョンに新しいリンクハンドラーが導入されたほか、アクセシビリティに関する多くの改善とバグ修正が行われました。 | - | 6.5.10.0+ * | 継続的 | 8、11 | 2022年2月16日（PT） |
+| [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | このリリースでは AEMaaCS の問題が修正されました。 | - | 6.5.10.0+ * | 継続的 | 8、11 | 2022 年 3 月 18 日 |
+| [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | これはパッチリリースです。 | - | 6.5.10.0以降* | 継続的 | 8、11 | 2022 年 3 月 3 日 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | コアコンポーネントのこのメジャーリリースでは、複数コンポーネントの新しいバージョンに新しいリンクハンドラーが導入されたほか、アクセシビリティに関する多くの改善とバグ修正が行われました。 | - | 6.5.10.0以降* | 継続的 | 8、11 | 2022年2月16日（PT） |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | これはパッチリリースです。 | 6.4.8.4+ * | 6.5.6.0+ * | 継続的 | 8、11 | 2021年12月13日（PT） |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | これは、以前のリリースに起因するリグレッションを修正するパッチリリースです。 | 6.4.8.4 以上* | 6.5.6.0 以上* | 継続的 | 8、11 | 2021年1月10日（PT） |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | このパッチは、[リスト](/help/components/list.md)および[ナビゲーション](/help/components/navigation.md)コンポーネントを強化し、リダイレクトターゲット用の外部 URL を表示し、今後の[ティーザー](/help/components/teaser.md)コンポーネント v2 のページ画像の継承を有効にし、追加のバグ修正を含みます。 | 6.4.8.4 以上* | 6.5.6.0 以上* | 継続的 | 8、11 | 2021年8月31日（PT） |
