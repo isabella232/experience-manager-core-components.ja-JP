@@ -2,21 +2,21 @@
 title: 画像コンポーネント（v2）
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '2228'
-ht-degree: 100%
+exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
+source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
+workflow-type: tm+mt
+source-wordcount: '2231'
+ht-degree: 99%
 
 ---
 
-
-# 画像コンポーネント （v2） {#image-component}
+# 画像コンポーネント（v2） {#image-component}
 
 コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 
 ## 使用方法 {#usage}
 
-画像コンポーネントは、アダプティブ画像選択およびレスポンシブ動作を備えており、ページ訪問者に対する遅延読み込みや、コンテンツ作成者に対する簡単な画像の配置や切り抜きを提供します。
+画像コンポーネントは、アダプティブ画像選択やレスポンシブ動作の機能を備えているほか、ページ訪問者にとっては遅延読み込み、コンテンツ作成者にとっては画像の簡単な配置や切り抜きが可能になります。
 
 [デザインダイアログ](#design-dialog)では、テンプレート作成者が、画像の幅や切り抜きの設定、追加の設定などを定義できます。コンテンツエディターは、[設定ダイアログ](#configure-dialog)でアセットをアップロードまたは選択し、[編集ダイアログ](#edit-dialog)で画像の切り抜きを行うことができます。画像を単純にインプレースで変更することもでき、非常に便利です。
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->SVG のサポートには、AEM 内の新しい[画像エディター機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html?lang=ja)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降が必要です。
+>SVG のサポートには、AEM 内の新しい[画像エディター機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降が必要です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 

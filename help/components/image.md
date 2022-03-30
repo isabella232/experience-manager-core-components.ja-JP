@@ -3,10 +3,10 @@ title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '1796'
-ht-degree: 100%
+source-git-commit: 1a02aea6cda2bb1f70ab97d7a439e2c8e64add52
+workflow-type: tm+mt
+source-wordcount: '1799'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->SVG のサポートには、AEM 内の新しい[画像エディター機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html?lang=ja)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降が必要です。
+>SVG のサポートには、AEM 内の新しい[画像エディター機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降が必要です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
