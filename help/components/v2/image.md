@@ -4,9 +4,9 @@ description: コアコンポーネントの画像コンポーネントは、イ�
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2231'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->SVG のサポートには、AEM 内の新しい[画像エディター機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降が必要です。
+>SVG のサポートには、AEM 内の新しい[画像エディター機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html?lang=ja)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降が必要です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -255,7 +255,7 @@ ht-degree: 99%
 
 ### レンディション選択の最適化 {#optimizing-rendition-selection}
 
-アダプティブ画像サーブレットは、要求された画像サイズおよびタイプに最適なレンディションを選択しようとします。 アダプティブ画像サーブレットで処理をできるだけ少なくするために、DAM レンディションと画像コンポーネントで許可される幅を同期して定義することをお勧めします。
+アダプティブ画像サーブレットは、要求された画像サイズおよびタイプに最適なレンディションを選択しようとします。アダプティブ画像サーブレットで処理をできるだけ少なくするために、DAM レンディションと画像コンポーネントで許可される幅を同期して定義することをお勧めします。
 
 これにより、パフォーマンスが向上し、ベースとなる画像処理ライブラリで一部の画像が正しく処理されない問題を回避できます。
 
