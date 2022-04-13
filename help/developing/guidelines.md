@@ -4,9 +4,9 @@ description: コアコンポーネントは、基盤コンポーネントとは�
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,11 +85,11 @@ HTL は、AEM 向けに調整された、セキュアでシンプルなテンプ
 
 ## まとめ {#putting-it-all-together}
 
-以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
+以下に、リソースタイプバインディング構造の全体の概要を示します（タイトルコアコンポーネントの例）。ここでは、コンテンツリソースにバージョン番号が一切含まれないようにするため、サイト固有のプロキシコンポーネントを使用してコンポーネントのバージョン管理が解決されている様子が示されています。次に、コンポーネントの `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ja) ファイルがモデルインターフェイスを指す一方、実装が [Sling モデル](https://sling.apache.org/documentation/bundles/models.html)の注釈を介してコンポーネントの特定のバージョンにバインドされている様子が示されています。
 
 ![リソースバインディングの概要](/help/assets/chlimage_1-32.png)
 
-以下に別の概要を示します。ここでは、実装 POJO の詳細は示されていませんが、関連する[テンプレートとポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html)の参照方法がわかります。
+以下に別の概要を示します。ここでは、実装 POJO の詳細は示されていませんが、関連する[テンプレートとポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ja)の参照方法がわかります。
 
 `cq:allowedTemplates` プロパティは、サイトで使用可能なテンプレートを示し、`cq:template` はページごとに、どのテンプレートが関連付けられているかを示します。すべてのテンプレートは以下の 3 つの部分から構成されています。
 
