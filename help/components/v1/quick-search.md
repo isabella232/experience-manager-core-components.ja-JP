@@ -4,9 +4,9 @@ description: クイック検索コンポーネントは、Web サイトに検索
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 >[!CAUTION]
 >
 >このドキュメントでは、クイック検索コンポーネント v1 について説明します。
->クイック検索コンポーネントの現在のバージョンについて詳しくは、 [クイック検索コンポーネント](/help/components/quick-search.md) 文書。
+>クイック検索コンポーネントの現在のバージョンについて詳しくは、[クイック検索コンポーネント](/help/components/quick-search.md)のドキュメントを参照してください。
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
