@@ -4,7 +4,7 @@ description: 'コアコンポーネントは、最新のテクノロジーとベ
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
 ht-degree: 100%
 
