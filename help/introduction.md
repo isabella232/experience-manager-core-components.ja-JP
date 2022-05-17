@@ -1,12 +1,12 @@
 ---
-title: コアコンポーネントの概要
-description: 'コアコンポーネントは、最新のテクノロジーとベストプラクティスに基づいて構築され、堅牢で拡張可能な基本コンポーネントを提供します。 '
+title: 'コアコンポーネントの概要 '
+description: 'コアコンポーネントの問題に関する解決策を入手し、AEM内の他のユーザーが要素を作成できるようにします。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
+workflow-type: tm+mt
+source-wordcount: '924'
+ht-degree: 98%
 
 ---
 
