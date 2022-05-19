@@ -4,9 +4,9 @@ description: ティーザーコンポーネントでは、画像、タイトル�
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 
 ## 編集ダイアログ {#edit-dialog}
 
-ティーザーコンポーネントは画像レンダリングを[画像コンポーネント](image-v1.md)に委任します。したがって [編集ダイアログ](image-v1.md#edit-dialog) 画像コンポーネントのをコンテンツ作成者が使用して、ティーザー画像を操作できます。
+ティーザーコンポーネントは画像レンダリングを[画像コンポーネント](image-v1.md)に委任します。そのため、コンテンツ作成者は画像コンポーネントの[編集ダイアログ](image-v1.md#edit-dialog)を使用してティーザー画像を操作できます。
 
 ## デザインダイアログ {#design-dialog}
 
