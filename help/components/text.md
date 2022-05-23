@@ -3,8 +3,8 @@ title: テキストコンポーネント
 description: テキストコンポーネントは、インプレース編集機能を備えたリッチテキスト編集および作成用コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
+source-git-commit: c041439e31a7da62739b6d5130c52dea36662a0c
+workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->テキストコンポーネントでは、[RTE の UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ja)で有効になっているオプションのみ使用できます。
+>テキストコンポーネントでは、[RTE の UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
 
 ## 編集ダイアログ {#edit-dialog}
 
@@ -225,7 +225,7 @@ ht-degree: 100%
 
 ### インデント
 
-![インデントアイコン](/help/assets/text-outdent.png)
+![インデントアイコン](/help/assets/text-indent.png)
 
 選択したテキストまたはカーソルの後に入力するテキストのインデントレベルを増やすために使用します。
 
@@ -257,7 +257,7 @@ ht-degree: 100%
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ja)を参照してください。
+スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 ### 特殊文字 {#special-characters}
 
