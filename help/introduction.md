@@ -1,12 +1,12 @@
 ---
 title: 'コアコンポーネントの概要 '
-description: 'コアコンポーネントの問題に関する解決策を入手し、AEM内の他のユーザーが要素を作成できるようにします。 '
+description: 'コアコンポーネントの問題の解決策を入手し、他の人が AEM 内の要素を作成できるようにします。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '924'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
    * **[コアコンポーネントを利用したプロジェクトの成功への道筋：](/help/developing/success.md)**&#x200B;コアコンポーネントを使用するプロジェクトを開始する前に十分考慮すべきガイドラインです。
    * **[WKND チュートリアル：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)**&#x200B;新しいサイトの構築に関する 2 日間のチュートリアルです。
    * **[Adobe Summit のチュートリアル：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;新しいサイトの構築に関する 2 時間のチュートリアルです（US Summit 2019 のラボの内容）。
-   * **[Gems Web セミナー：](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;コアコンポーネントのガイドツアー（2018年12月に録画）
+   * **[Gems Web セミナー：](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;コアコンポーネントのガイドツアー（2018年12月に録画）。
 
 ## 機能 {#features}
 
