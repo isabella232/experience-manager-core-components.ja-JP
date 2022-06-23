@@ -4,7 +4,7 @@ description: コアコンポーネントは、豊富な機能、継続的配信�
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ AEM as a Cloud Service プロジェクトについて詳しくは、[AEM プロ�
 | 配信 | [公開 GitHub 経由](https://github.com/adobe/aem-core-wcm-components) | クイックスタートを通じて |
 | ライセンス | [Apache ライセンス](https://www.apache.org/licenses/LICENSE-2.0) | アドビ固有 |
 | 貢献度 | プル要求を通じて | 不可能 |
-| アクセシビリティ | [WCAG 2.0 AA 標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=ja)に完全に準拠 | [WCAG 2.0 AA 標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=ja)に部分的に準拠 |
+| アクセシビリティ | [WCAG 2.0 AA 標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=ja)に完全に準拠 | [WCAG 2.0 AA 標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)に部分的に準拠 |
 
 ## コンポーネントリスト {#component-list}
 
