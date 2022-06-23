@@ -3,9 +3,9 @@ title: 'コアコンポーネントの概要 '
 description: 'コアコンポーネントの問題の解決策を入手し、他の人が AEM 内の要素を作成できるようにします。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
-workflow-type: ht
-source-wordcount: '924'
+source-git-commit: c572a2f5ab4e975e0ef467ab071fd25b373be18b
+workflow-type: tm+mt
+source-wordcount: '927'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 |  |  |
 |---|---|
-| 本番で使用可能 | コアコンポーネントは 28 個の堅牢なコンポーネントで、十分にテストされ、広く使用されており、パフォーマンスが優れています。 |
+| 本番で使用可能 | コアコンポーネントは 30 個の堅牢なコンポーネントで、十分にテストされ、広く使用されており、パフォーマンスが優れています。 |
 | クラウド対応 | [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)、オンプレミスのどれでも動作します。 |
 | 用途が広い | コンポーネントは、ほぼあらゆるレイアウトの作成に作成者が使用できる汎用的な概念を表します。 |
 | 設定可能 | ページ作成者が使用できる機能と使用できない機能をテンプレートレベルの[コンテンツポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ja#content-policies)で定義します。 |
@@ -58,6 +58,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * [言語ナビゲーション](components/language-navigation.md)
 * [パンくず](components/breadcrumb.md)
 * [クイック検索](components/quick-search.md)
+* [目次](components/tableofcontents.md)
 
 ### ページオーサリングコンポーネント {#page-authoring-components}
 
@@ -106,7 +107,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 | コアコンポーネントリリース | AEM as a Cloud Service | AEM 6.5 パッチレベル | Java SE バージョン | Maven バージョン |
 |---------|---------|---------|---------|---------|
-| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 継続的 | 6.5.10.0+ * | 8、11 | 3.3.9 以上 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 継続的 | 6.5.10.0+ * | 8、11 | 3.3.9 以上 |
 
 >[!NOTE]
 >
