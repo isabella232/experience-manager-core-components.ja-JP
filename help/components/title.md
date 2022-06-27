@@ -3,9 +3,9 @@ title: タイトルコンポーネント
 description: コアコンポーネントのタイトルコンポーネントは、インプレース編集機能を備えたセクション見出しコンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '626'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '627'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 |---|---|---|---|
 | v3 | - | 互換性あり | 互換性あり |
 | [v2](v2/title.md) | 互換性あり | 互換性あり | 互換性あり |
-| [v1](v1/title-v1.md) | 互換性あり | 互換性あり | - |
+| [v1](v1/title-v1.md) | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 

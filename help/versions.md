@@ -3,10 +3,10 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
 workflow-type: tm+mt
-source-wordcount: '2599'
-ht-degree: 98%
+source-wordcount: '2636'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,8 @@ ht-degree: 98%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | このリリースでは、新しい [目次コンポーネント](/help/components/tableofcontents.md) およびにはバグ修正が含まれています。 | - | 6.5.10.0+ * | 継続的 | 8、11 | 2022年5月 |
+| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | これは、新しい AEMaaCS の問題を修正したパッチリリースです [web に最適化されたアセット配信サービス。](/help/developing/web-optimized-image-delivery.md) | - | 6.5.10.0+ * | 継続的 | 8、11 | 2022 年 6 月 21 日 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | このリリースでは、新しい [目次コンポーネント](/help/components/tableofcontents.md)、AEMaaCS のサポートを追加 [web に最適化されたアセット配信サービス](/help/developing/web-optimized-image-delivery.md) およびにはバグ修正が含まれています。 | - | 6.5.10.0以降* | 継続的 | 8、11 | 2022 年 6 月 9 日 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | このリリースでは、[検索コンポーネント](/help/components/quick-search.md) の新しいバージョンや[ボタンコンポーネント](/help/components/button.md)の機能を追加し、多くのアクセシビリティの改善とバグの修正も行いました。 | - | 6.5.10.0以降* | 継続的 | 8、11 | 2022 年 4 月 8 日 |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | このリリースでは AEMaaCS の問題が修正されました。 | - | 6.5.10.0以降* | 継続的 | 8、11 | 2022年3月17日（PT） |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | これはパッチリリースです。 | - | 6.5.10.0以降* | 継続的 | 8、11 | 2022年3月3日（PT） |

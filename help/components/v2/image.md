@@ -3,10 +3,10 @@ title: 画像コンポーネント（v2）
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
-workflow-type: ht
-source-wordcount: '2231'
-ht-degree: 100%
+source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+workflow-type: tm+mt
+source-wordcount: '2092'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,6 @@ ht-degree: 100%
 
 さらに、画像コンポーネントは、遅延読み込みをサポートし、ブラウザーで表示できるようになるまで、実際の画像アセットの読み込みを遅らせて、ページの応答性を高めます。
 
->[!TIP]
->
->これらの機能の技術的詳細と、レンディション選択を最適化するためのヒントについては、[アダプティブ画像サーブレット](#adaptive-image-servlet)の節を参照してください。
-
 ## Dynamic Media サポート {#dynamic-media}
 
 画像コンポーネント（[リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。これらの機能を[有効](#design-dialog)にすると、簡単なドラッグ＆ドロップで、または他の画像と同様にアセットブラウザーを使用して、Dynamic Media 画像アセットを追加する機能が提供されます。また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
@@ -51,7 +47,7 @@ ht-degree: 100%
 画像コンポーネントでは Scalable Vector Graphics（SVG）がサポートされています。
 
 * DAM からの SVG アセットのドラッグ＆ドロップと、ローカルファイルシステムからの SVG ファイルのアップロード、はどちらもサポートされます。
-* アダプティブ画像サーブレットでは元の SVG ファイルがストリーミングされます（変換はスキップされます）。
+* 元のSVGファイルがストリーミングされます（変換はスキップされます）。
 * SVG 画像の場合、画像モデルで「スマート画像」と「スマートサイズ」が空の配列に設定されます。
 
 ### セキュリティ {#security}
@@ -186,9 +182,12 @@ ht-degree: 100%
 
 さらに、作成者がページにコンポーネントを追加した際に自動的に無効化される一般的なコンポーネントオプションを定義できます。
 
-![画像コンポーネントのデザインダイアログのメインタブ](/help/assets/image-design-main.png)
+![画像コンポーネントのデザインダイアログのメインタブ](/help/assets/image-design-main-v2.png)
 
 * **DM 機能を有効化** - オンにすると、[Dynamic Media](#dynamic-media) 機能を有効にできます。
+* **Web に最適化された画像を有効にする**  — オンにすると、 [web に最適化された画像配信サービス](/help/developing/web-optimized-image-delivery.md) は WebP 形式で画像を配信し、画像のサイズを平均で 25%削減します。
+   * このオプションは、AEMaaCS でのみ使用できます。
+   * オフにした場合、または Web に最適化された画像配信サービスを使用できない場合、 [アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md) が使用されます。
 * **遅延読み込みを有効にする** - ページへの画像コンポーネントの追加時に遅延読み込みオプションが自動的に有効化されるかどうかを定義します。
 * **画像は装飾画像** - ページへの画像コンポーネントの追加時に装飾画像オプションが自動的に有効化されるかどうかを定義します。
 * **DAM から代替テキストを取得** - ページへの画像コンポーネントの追加時に 、DAM から代替テキストを取得するオプションが自動的に有効化されるかどうかを定義します。
@@ -205,7 +204,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->機能の技術的詳細と、幅を慎重に定義してレンディション選択を最適化するためのヒントについては、[アダプティブ画像サーブレット](#adaptive-image-servlet)の節を参照してください。
+>ドキュメントを参照 [アダプティブ画像サーブレット](#adaptive-image-servlet) レンディションの幅を慎重に定義して、レンディション選択を最適化するためのヒントを示します。
 
 ### 「機能」タブ {#features-tab}
 
@@ -248,22 +247,6 @@ ht-degree: 100%
 ### 「スタイル」タブ {#styles-tab-1}
 
 画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
-
-## アダプティブ画像サーブレット {#adaptive-image-servlet}
-
-画像コンポーネントは、コアコンポーネントのアダプティブ画像サーブレットを使用します。[アダプティブ画像サーブレット](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet)は、画像処理とストリーミングを担当し、開発者は[コアコンポーネントのカスタマイズ](/help/developing/customizing.md)に活用できます。
-
-### レンディション選択の最適化 {#optimizing-rendition-selection}
-
-アダプティブ画像サーブレットは、要求された画像サイズおよびタイプに最適なレンディションを選択しようとします。アダプティブ画像サーブレットで処理をできるだけ少なくするために、DAM レンディションと画像コンポーネントで許可される幅を同期して定義することをお勧めします。
-
-これにより、パフォーマンスが向上し、ベースとなる画像処理ライブラリで一部の画像が正しく処理されない問題を回避できます。
-
->[!NOTE]
->
->`Last-Modified` ヘッダーを介した条件付き要求は、アダプティブ画像サーブレットでサポートされますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja#caching-http-response-headers)。
->
->[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)のサンプル Dispatcher 設定には、既にこの設定が含まれています。
 
 ## Adobe Client Data Layer {#data-layer}
 

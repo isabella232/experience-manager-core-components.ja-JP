@@ -1,18 +1,18 @@
 ---
 title: リストコンポーネント
-description: コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
+description: コアコンポーネントのリストコンポーネントを使用すれば、動的リストや静的リストを簡単に作成できます。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '1151'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
 
 # リストコンポーネント {#list-component}
 
-コアコンポーネントのリストコンポーネントを使用すれば、静的リストや静的リストを簡単に作成できます。
+コアコンポーネントのリストコンポーネントを使用すれば、動的リストや静的リストを簡単に作成できます。
 
 ## 使用方法 {#usage}
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 |--- |--- |--- |---|
 | v3 | - | 互換性あり | 互換性あり |
 | [v2](v2/list.md) | 互換性あり | 互換性あり | 互換性あり |
-| [v1](v1/list-v1.md) | 互換性あり | 互換性あり | - |
+| [v1](v1/list-v1.md) | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 

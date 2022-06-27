@@ -3,10 +3,10 @@ title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、インプレース編集機能を備えたアダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 1a02aea6cda2bb1f70ab97d7a439e2c8e64add52
-workflow-type: ht
-source-wordcount: '1799'
-ht-degree: 100%
+source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
+workflow-type: tm+mt
+source-wordcount: '1662'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 |--- |--- |--- |---|
 | v3 | - | 互換性あり | 互換性あり |
 | [v2](v2/image.md) | 互換性あり | 互換性あり | 互換性あり |
-| [v1](v1/image-v1.md) | 互換性あり | 互換性あり | - |
+| [v1](v1/image-v1.md) | 互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
 
@@ -40,23 +40,19 @@ ht-degree: 100%
 
 さらに、画像コンポーネントは、遅延読み込みをサポートし、ブラウザーで表示できるようになるまで、実際の画像アセットの読み込みを遅らせて、ページの応答性を高めます。
 
->[!TIP]
->
->これらの機能の技術的詳細と、レンディション選択を最適化するためのヒントについては、[アダプティブ画像サーブレット](#adaptive-image-servlet)の節を参照してください。
-
 ## Dynamic Media サポート {#dynamic-media}
 
 画像コンポーネント（[リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。これらの機能を[有効](#design-dialog)にすると、簡単なドラッグ＆ドロップで、または他の画像と同様にアセットブラウザーを使用して、Dynamic Media 画像アセットを追加する機能が提供されます。また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
-コアコンポーネントで構築された Web エクスペリエンスは、豊富で強力で高パフォーマンスなクロスプラットフォームの Dynamic Media 画像機能を特徴とします。
+コアコンポーネントで構築された Web エクスペリエンスには、豊富でSenseiを利用した、堅牢で高パフォーマンスの、クロスプラットフォームのDynamic Media画像機能が備わっています。
 
 ## SVG のサポート {#svg-support}
 
 画像コンポーネントでは Scalable Vector Graphics（SVG）がサポートされています。
 
 * DAM からの SVG アセットのドラッグ＆ドロップと、ローカルファイルシステムからの SVG ファイルのアップロード、はどちらもサポートされます。
-* アダプティブ画像サーブレットでは元の SVG ファイルがストリーミングされます（変換はスキップされます）。
-* SVG 画像の場合、画像モデルで「スマート画像」と「スマートサイズ」が空の配列に設定されます。
+* 元のSVGファイルがストリーミングされます（変換はスキップされます）。
+* SVG画像の場合、「スマート画像」と「スマートサイズ」は、画像モデル内の空の配列に設定されます。
 
 ### セキュリティ {#security}
 
@@ -135,10 +131,15 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
+### 「メイン」タブ {#main-tab}
+
 ![画像コンポーネントのデザインダイアログの「メイン」タブ](/help/assets/image-design-main.png)
 
 * **DM 機能を有効にする** - オンにすると、[Dynamic Media 機能](#dynamic-media)を使用できます。
    * このオプションは、環境で Dynamic Media が有効になっている場合にのみ表示されます。
+* **Web に最適化された画像を有効にする**  — オンにすると、 [web に最適化された画像配信サービス](/help/developing/web-optimized-image-delivery.md) は WebP 形式で画像を配信し、画像のサイズを平均で 25%削減します。
+   * このオプションは、AEMaaCS でのみ使用できます。
+   * オフにした場合、または Web に最適化された画像配信サービスを使用できない場合、 [アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md) が使用されます。
 * **遅延読み込みを無効化** - オンにすると、コンポーネントは遅延読み込みなしですべての画像をプリロードします。
 * **画像は装飾画像** - ページへの画像コンポーネントの追加時に装飾画像オプションが自動的に有効化されるかどうかを定義します。
 * **DAM から代替テキストを取得** - ページへの画像コンポーネントの追加時に 、DAM から代替テキストを取得するオプションが自動的に有効化されるかどうかを定義します。
@@ -161,27 +162,11 @@ ht-degree: 100%
 
 >[!TIP]
 >
->機能の技術的詳細と、幅を慎重に定義してレンディション選択を最適化するためのヒントについては、[アダプティブ画像サーブレット](#adaptive-image-servlet)の節を参照してください。
+>ドキュメントを参照 [アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md) レンディションの幅を慎重に定義して、レンディション選択を最適化するためのヒントを示します。
 
 ### 「スタイル」タブ {#styles-tab}
 
 画像コンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
-
-## アダプティブ画像サーブレット {#adaptive-image-servlet}
-
-画像コンポーネントは、コアコンポーネントのアダプティブ画像サーブレットを使用します。[アダプティブ画像サーブレット](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet)は、画像処理とストリーミングを担当し、開発者は[コアコンポーネントのカスタマイズ](/help/developing/customizing.md)に活用できます。
-
-### レンディション選択の最適化 {#optimizing-rendition-selection}
-
-アダプティブ画像サーブレットは、要求された画像サイズおよびタイプに最適なレンディションを選択しようとします。アダプティブ画像サーブレットで処理をできるだけ少なくするために、DAM レンディションと画像コンポーネントで許可される幅を同期して定義することをお勧めします。
-
-これにより、パフォーマンスが向上し、ベースとなる画像処理ライブラリで一部の画像が正しく処理されない問題を回避できます。
-
->[!NOTE]
->
->`Last-Modified` ヘッダーを介した条件付き要求は、アダプティブ画像サーブレットでサポートされますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja#caching-http-response-headers)。
->
->[AEM プロジェクトアーキタイプ](/help/developing/archetype/overview.md)のサンプル Dispatcher 設定には、既にこの設定が含まれています。
 
 ## Adobe Client Data Layer {#data-layer}
 

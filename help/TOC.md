@@ -4,10 +4,10 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 97%
 
 ---
 
@@ -91,6 +91,8 @@ ht-degree: 100%
    + [AMP のサポート](developing/amp.md)
    + [コンテキスト対応の設定](developing/context-aware-configs.md)
    + [クライアントライブラリを含める](developing/including-clientlibs.md)
+   + [アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md)
+   + [Web に最適化された画像配信](/help/developing/web-optimized-image-delivery.md)
    + Adobe Client Data Layer {#data-layer}
       + [データレイヤーの概要](developing/data-layer/overview.md)
       + [データレイヤーとの統合](developing/data-layer/integrations.md)
