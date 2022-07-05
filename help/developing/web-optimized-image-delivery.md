@@ -2,13 +2,13 @@
 title: Web に最適化された画像配信
 description: コアコンポーネントでAEMas a Cloud Serviceの Web に最適化された画像配信機能を活用して、画像をより効率的に配信する方法を説明します。
 role: Architect, Developer, Admin, User
-source-git-commit: 20436ffb5d6a6346738be1e6f5e6e2e8a68e76c9
+exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
+source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
-
 
 # Web に最適化された画像配信 {#web-optimized-image-delivery}
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Web に最適化された画像配信サービスは、2022 年 6 月リリースのAEMas a Cloud Serviceのプレリリース機能で、7 月に予定されている GA を使用して提供されます。
+>Web に最適化された画像配信サービスは、2022 年 6 月リリースのAEMas a Cloud Serviceのプレリリース機能で、7 月に予定されている GA を使用しています。
 >
 >AEMaaCS のプレリリース機能について詳しくは、ドキュメントを参照してください。 [Adobe Experience Manager as a Cloud Service Prerelease チャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja)
 
@@ -122,6 +122,6 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 いいえ、これは絶対に起こりません。
 
-* HTMLでは、Web に最適化された画像を有効にする際にマークアップは変更されず、画像要素の SCR 属性の値のみが変更されます。
+* HTMLでは、Web に最適化された画像を有効にしてもマークアップは変更されず、画像要素の SRC 属性の値のみが変更されます。
 * 新しい画像サービスが使用できない場合や、目的の画像を処理できない場合は常に、生成された URL が使用されます [アダプティブ画像サーブレットへのフォールバック](#fallback)
 * Dispatcher ルールによって、Web に最適化された画像サービスがブロックされ、 [機能をアクティブ化する際にチェックする必要があります。](#activating)
