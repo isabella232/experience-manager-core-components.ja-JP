@@ -4,7 +4,7 @@ description: コアコンポーネントのフォームコンテナコンポー�
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 >[!TIP]
 >転送されたフォームデータを処理するためにシステム管理者が調整できる追加のタイムアウトオプションが用意されています。[詳しくは、GitHub の技術ドキュメントを参照してください。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
-### メール {#mail}
+### Mail {#mail}
 
 アクションタイプが「Mail」の場合、フォームが送信されると、指定した受信者に電子メールが送信されます。
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 ## デザインダイアログ {#design-dialog}
 
-テンプレート作成者は、デザインダイアログを使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
+テンプレート作成者は、デザインダイアログを使用して、[テンプレートエディターにおける標準レイアウトコンテナ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)のデザインダイアログと同様に、許可されるコンポーネントとそのコンテナマッピングを定義できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
