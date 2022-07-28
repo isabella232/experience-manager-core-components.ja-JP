@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
 workflow-type: tm+mt
 source-wordcount: '2686'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -28,10 +28,10 @@ ht-degree: 97%
 |---|---|---|---|---|---|---|
 | [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | このパッチリリースでは、新しい [目次コンポーネント](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 継続的 | 8、11 | 2022 年 7 月 8 日 |
 | --- | — | — | — | — | — | — |
-| [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | このパッチリリースでは、新しい [目次コンポーネント](/help/components/tableofcontents.md) | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022 年 6 月 30 日 |
+| [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | このパッチリリースでは、新しい [目次コンポーネント](/help/components/tableofcontents.md) | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022年6月29日（PT） |
 | — | — | — | — | — | — | — |
-| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | これは、新しい AEMaaCS の問題を修正したパッチリリースです [web に最適化されたアセット配信サービス。](/help/developing/web-optimized-image-delivery.md) | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022 年 6 月 21 日 |
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | このリリースでは、新しい [目次コンポーネント](/help/components/tableofcontents.md)、AEMaaCS のサポートを追加 [web に最適化されたアセット配信サービス](/help/developing/web-optimized-image-delivery.md) およびにはバグ修正が含まれています。 | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022 年 6 月 9 日 |
+| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | これは、AEMaaCS の新しい [web に最適化されたアセット配信サービス](/help/developing/web-optimized-image-delivery.md)の問題を修正するパッチリリースです。 | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022年6月20日（PT） |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | このリリースでは、新しい[目次コンポーネント](/help/components/tableofcontents.md)が追加され、AEMaaCS の [web に最適化されたアセット配信サービス](/help/developing/web-optimized-image-delivery.md)がサポートされるようになり、バグ修正が含まれています。 | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022年6月9日（PT） |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | このリリースでは、[検索コンポーネント](/help/components/quick-search.md) の新しいバージョンや[ボタンコンポーネント](/help/components/button.md)の機能を追加し、多くのアクセシビリティの改善とバグの修正も行いました。 | - | 6.5.10.0+ * | 継続的 | 8、11 | 2022年4月7日（PT） |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | このリリースでは AEMaaCS の問題が修正されました。 | - | 6.5.10.0以降* | 継続的 | 8、11 | 2022年3月17日（PT） |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | これはパッチリリースです。 | - | 6.5.10.0以降* | 継続的 | 8、11 | 2022年3月3日（PT） |
