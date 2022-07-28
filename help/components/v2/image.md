@@ -4,9 +4,9 @@ description: コアコンポーネントの画像コンポーネントは、イ�
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2092'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,14 +40,14 @@ ht-degree: 96%
 
 画像コンポーネント（[リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。これらの機能を[有効](#design-dialog)にすると、簡単なドラッグ＆ドロップで、または他の画像と同様にアセットブラウザーを使用して、Dynamic Media 画像アセットを追加する機能が提供されます。また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
-コアコンポーネントで構築された Web エクスペリエンスは、豊富で強力で高パフォーマンスなクロスプラットフォームの Dynamic Media 画像機能を特徴とします。
+コアコンポーネントで構築された web エクスペリエンスは、Adobe Sensei を利用した、堅牢でパフォーマンスの高いクロスプラットフォームの豊富な Dynamic Media 画像機能を提供できます。
 
 ## SVG のサポート {#svg-support}
 
 画像コンポーネントでは Scalable Vector Graphics（SVG）がサポートされています。
 
 * DAM からの SVG アセットのドラッグ＆ドロップと、ローカルファイルシステムからの SVG ファイルのアップロード、はどちらもサポートされます。
-* 元のSVGファイルがストリーミングされます（変換はスキップされます）。
+* 元の SVG ファイルがストリーミングされます（変換はスキップされます）。
 * SVG 画像の場合、画像モデルで「スマート画像」と「スマートサイズ」が空の配列に設定されます。
 
 ### セキュリティ {#security}
@@ -185,9 +185,9 @@ ht-degree: 96%
 ![画像コンポーネントのデザインダイアログのメインタブ](/help/assets/image-design-main-v2.png)
 
 * **DM 機能を有効化** - オンにすると、[Dynamic Media](#dynamic-media) 機能を有効にできます。
-* **Web に最適化された画像を有効にする**  — オンにすると、 [web に最適化された画像配信サービス](/help/developing/web-optimized-image-delivery.md) は WebP 形式で画像を配信し、画像のサイズを平均で 25%削減します。
+* **Web 最適化画像を有効にする** - オンにすると、[web に最適化された画像配信サービス](/help/developing/web-optimized-image-delivery.md)は WebP 形式で画像を配信し、画像のサイズを平均で 25%削減します。
    * このオプションは、AEMaaCS でのみ使用できます。
-   * オフにした場合、または Web に最適化された画像配信サービスを使用できない場合、 [アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md) が使用されます。
+   * オフにした場合や web に最適化された画像配信サービスを使用できない場合は、[アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md)が使用されます。
 * **遅延読み込みを有効にする** - ページへの画像コンポーネントの追加時に遅延読み込みオプションが自動的に有効化されるかどうかを定義します。
 * **画像は装飾画像** - ページへの画像コンポーネントの追加時に装飾画像オプションが自動的に有効化されるかどうかを定義します。
 * **DAM から代替テキストを取得** - ページへの画像コンポーネントの追加時に 、DAM から代替テキストを取得するオプションが自動的に有効化されるかどうかを定義します。
@@ -204,7 +204,7 @@ ht-degree: 96%
 
 >[!TIP]
 >
->ドキュメントを参照 [アダプティブ画像サーブレット](#adaptive-image-servlet) レンディションの幅を慎重に定義して、レンディション選択を最適化するためのヒントを示します。
+>幅を慎重に定義してレンディションの選択を最適化するためのヒントについては、[アダプティブ画像サーブレット](#adaptive-image-servlet)のドキュメントを参照してください。
 
 ### 「機能」タブ {#features-tab}
 
