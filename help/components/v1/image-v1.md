@@ -5,9 +5,9 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1323'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -194,17 +194,17 @@ ht-degree: 92%
 
 デフォルトでは、画像の読み込みは、画像が表示される時点まで遅延されます。ページ読み込み時に画像を読み込むには、オプション「**遅延読み込みを無効化**」を選択します。
 
-* **Web に最適化された画像を有効にする**  — オンにすると、 [web に最適化された画像配信サービス](/help/developing/web-optimized-image-delivery.md) は WebP 形式で画像を配信し、画像のサイズを平均で 25%削減します。
+* **Web 最適化画像を有効にする** - オンにすると、[web に最適化された画像配信サービス](/help/developing/web-optimized-image-delivery.md)は WebP 形式で画像を配信し、画像のサイズを平均で 25%削減します。
    * このオプションは、AEMaaCS でのみ使用できます。
-   * オフにした場合、または Web に最適化された画像配信サービスを使用できない場合、 [アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md) が使用されます。
+   * オフにした場合や web に最適化された画像配信サービスを使用できない場合は、[アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md)が使用されます。
 
 ### 機能 {#features}
 
 「**機能**」タブでは、コンテンツ作成者がコンポーネントの使用時に利用できるオプション（アップロードオプション、向きのオプション、切り抜きオプションなど）を定義できます。
 
-* **Web に最適化された画像を有効にする**  — オンにすると、web 最適化された画像配信サービスは画像を WebP 形式で配信し、画像のサイズを平均で 25%削減します。
+* **Web 最適化画像を有効にする** - オンにすると、web に最適化された画像配信サービスは WebP 形式で画像を配信し、画像のサイズを平均で 25%削減します。
    * このオプションは、AEMaaCS でのみ使用できます。
-   * オフにした場合、または Web に最適化された画像配信サービスを使用できない場合、 [アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md) が使用されます。
+   * オフにした場合や web に最適化された画像配信サービスを使用できない場合は、[アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md)が使用されます。
 
 * ソース
 
