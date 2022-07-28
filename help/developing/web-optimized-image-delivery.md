@@ -3,7 +3,7 @@ title: Web に最適化された画像配信
 description: コアコンポーネントでAEMas a Cloud Serviceの Web に最適化された画像配信機能を活用して、画像をより効率的に配信する方法を説明します。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
+source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >AEMaaCS のプレリリース機能について詳しくは、ドキュメントを参照してください。 [Adobe Experience Manager as a Cloud Service Prerelease チャネル](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja)
 
-##  概要 {#overview}
+## 概要 {#overview}
 
 AEM as a Cloud Service の Web に最適化された画像配信機能は、DAM から画像アセットを配信します ( [WebP 形式。](https://developers.google.com/speed/webp) WebP は、画像のダウンロードサイズを平均で約 25%削減できるので、ページの読み込みが高速になります。
 
