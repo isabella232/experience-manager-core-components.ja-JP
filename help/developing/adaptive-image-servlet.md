@@ -3,10 +3,10 @@ title: アダプティブ画像サーブレット
 description: コアコンポーネントで画像配信にアダプティブ画像サーブレットを使用する方法と、その使用を最適化する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: dd07fa714a23759d43ca491232674d88bc7bf88e
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 61%
 
 ---
 
@@ -27,13 +27,26 @@ ht-degree: 100%
 
 デフォルトでは、画像コンポーネントは、コアコンポーネントのアダプティブ画像サーブレットを使用して画像を配信します。[アダプティブ画像サーブレット](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet)は、画像処理とストリーミングを担当し、開発者が[コアコンポーネントのカスタマイズ](/help/developing/customizing.md)に活用できます。
 
+## レンディションの選択 {#rendition-selection}
+
+アダプティブ画像サーブレットは、表示されるコンテナのサイズに基づいて、表示する最も適切なレンディションを自動的に選択します。 レンディションの選択プロセスは次のとおりです。
+
+1. アダプティブ画像サーブレットは、画像アセットの使用可能なすべてのレンディションをレビューします。
+1. 元の参照元のアセットの MIME/タイプが同じもののみが選択されます。
+   * 例えば、元のアセットが PNG の場合、PNG レンディションのみ考慮されます。
+1. これらのレンディションのうち、サイズを考慮し、画像を表示するコンテナのサイズと比較します。
+   1. レンディションがコンテナサイズより大きい場合、候補レンディションのリストに追加されます。
+   1. レンディションがコンテナサイズより小さい場合は無視されます。
+   1. これらの条件により、レンディションが拡大/縮小されなくなり、画質に影響を与えます。
+1. 次に、アダプティブ画像サーブレットは、候補リストから最も小さいファイルサイズのレンディションを選択します。
+
 ## レンディション選択の最適化 {#optimizing-rendition-selection}
 
 アダプティブ画像サーブレットは、要求された画像サイズおよびタイプに最適なレンディションを選択しようとします。アダプティブ画像サーブレットで処理をできるだけ少なくするために、DAM レンディションと画像コンポーネントで許可される幅を同期して定義することをお勧めします。
 
 これにより、パフォーマンスが向上し、ベースとなる画像処理ライブラリで一部の画像が正しく処理されない問題を回避できます。
 
-## Last-Modified ヘッダーの使用 {#last-modified}
+## 最終変更ヘッダーの使用 {#last-modified}
 
 `Last-Modified` ヘッダーを介した条件付き要求は、アダプティブ画像サーブレットでサポートされますが、`Last-Modified` ヘッダーのキャッシュを[ Dispatcher で有効にする必要があります](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja#caching-http-response-headers)。
 
