@@ -4,9 +4,9 @@ description: コアコンポーネントで AEM as a Cloud Service の web に�
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1118'
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## 概要 {#overview}
 
-AEM as a Cloud Service の web に最適化された画像配信機能は、DAM から [WebP 形式。](https://developers.google.com/speed/webp)で画像アセットを配信します。WebP は、画像のダウンロードサイズを平均で約 25%削減できるので、ページの読み込みが高速になります。
+AEM as a Cloud Service の web に最適化された画像配信機能は、DAM から [WebP 形式](https://developers.google.com/speed/webp)で画像アセットを配信します。WebP は、画像のダウンロードサイズを平均で約 25%削減できるので、ページの読み込みが高速になります。
 
-web に最適化された画像配信をコアコンポーネントでアクティブ化するのは簡単です。一般的なブラウザーはすべて WebP をサポートしているので、エンドユーザーに対して透過的なエクスペリエンスになります。 顕著な違いは、コンテンツの読み込みが早くなる点だけです。
+Web に最適化された画像配信をコアコンポーネントでアクティブ化するのは簡単です。一般的なブラウザーはすべて WebP をサポートしているので、エンドユーザーに対して透過的なエクスペリエンスになります。 顕著な違いは、コンテンツの読み込みが早くなる点だけです。
 
 ## コアコンポーネントでの web に最適化された画像配信のアクティブ化 {#activating}
 
-Web に最適化された画像配信を有効にするには、画像コンポーネントのデザインダイアログ内でページテンプレートを編集し「**Web 最適化画像を有効にする**」オプションを有効にするだけです（画像コンポーネントについては[こちら。](/help/components/image.md#design-dialog)を参照）。このオプションは、画像コンポーネントの v1、v2 および v3 で使用できます。
+Web に最適化された画像配信を有効にするには、画像コンポーネントのデザインダイアログ内でページテンプレートを編集し「**Web 最適化画像を有効にする**」オプションを有効にするだけです（画像コンポーネントについては[こちら](/help/components/image.md#design-dialog)を参照）。このオプションは、画像コンポーネントの v1、v2 および v3 で使用できます。
 
 デザインダイアログと AEM ページテンプレートについて詳しくは、[このドキュメント](/help/get-started/authoring.md#pre-configuring-core-components)を参照してください。
 
@@ -60,7 +60,7 @@ Web に最適化された画像配信を有効にしてもマークアップに�
 
 ## よくある質問 {#faq}
 
-### 自社の環境で Web に最適化された画像を有効にするオプションがないのはなぜですか？ {#missing-option}
+### Web に最適化された画像を有効にするそのようなオプションが自分の環境にないのはなぜですか？ {#missing-option}
 
 この機能は、AEM as a Cloud Service でのみ使用できます。AEM をローカルまたはオンプレミスで実行すると、画像コンポーネントは[フォールバック](#fallback)して、アダプティブ画像サーブレットが使用されるようになります。
 
