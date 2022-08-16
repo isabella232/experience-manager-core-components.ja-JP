@@ -4,7 +4,7 @@ description: コアコンポーネントで AEM as a Cloud Service の web に�
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Web に最適化された画像配信を有効にしてもマークアップに�
 
 ## よくある質問 {#faq}
 
-### Web に最適化された画像を有効にするそのようなオプションが自分の環境にないのはなぜですか？ {#missing-option}
+### Web に最適化された画像を有効にするオプションが自分の環境にないのはなぜですか？ {#missing-option}
 
 この機能は、AEM as a Cloud Service でのみ使用できます。AEM をローカルまたはオンプレミスで実行すると、画像コンポーネントは[フォールバック](#fallback)して、アダプティブ画像サーブレットが使用されるようになります。
 
