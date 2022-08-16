@@ -4,9 +4,9 @@ description: コアコンポーネントの画像コンポーネントは、イ�
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
 >[!TIP]
 >
->デフォルトでは、画像コンポーネントは、アダプティブ画像サーブレットによって動作します。 ドキュメントを参照してください [アダプティブ画像サーブレット](#adaptive-image-servlet) の詳細を参照してください。
+>デフォルトでは、画像コンポーネントはアダプティブ画像サーブレットを利用します。アダプティブ画像サーブレットの仕組みについて詳しくは、[ドキュメント](#adaptive-image-servlet)を参照してください。
 
 ## Dynamic Media サポート {#dynamic-media}
 
