@@ -3,9 +3,9 @@ title: 目次コンポーネント
 description: 目次コンポーネントは、ページコンテンツ内のタイトルに基づいて目次（ToC）を作成するので、読者がページを素早く移動できるようになります。
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: ht
-source-wordcount: '759'
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -35,10 +35,6 @@ ht-degree: 100%
 | v1 | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
-
-## コンポーネント出力のサンプル {#sample-component-output}
-
-目次コンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_tableofcontents)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 

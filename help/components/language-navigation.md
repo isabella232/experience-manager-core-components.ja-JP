@@ -1,10 +1,10 @@
 ---
 title: 言語ナビゲーションコンポーネント
-description: 言語ナビゲーションコンポーネントは、言語と国を指定したサイトナビゲーション機能を提供し、訪問者が同じページを異なるロケールでナビゲートできるようにします。
+description: 言語ナビゲーションコンポーネントは、言語や国を指定したサイトナビゲーション機能を提供し、訪問者が同じページを異なるロケールでナビゲートできるようにします。
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Web サイトは、多くの場合、様々な地域向けに複数の言語で�
 
 ## 技術的詳細 {#technical-details}
 
-言語ナビゲーションコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1_jp) を参照してください。
+言語ナビゲーションコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v2_jp) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 

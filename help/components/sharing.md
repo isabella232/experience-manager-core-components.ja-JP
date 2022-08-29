@@ -3,10 +3,10 @@ title: 'ソーシャル共有コンポーネント '
 description: コアコンポーネントのソーシャル共有コンポーネントは、Facebook および Pinterest の共有ウィジェットです。
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 97%
+source-wordcount: '400'
+ht-degree: 96%
 
 ---
 
@@ -35,10 +35,6 @@ ht-degree: 97%
 | v1 | <br>[リリース 2.17.4](/help/versions.md) 以前と互換性あり | 互換性あり, 廃止 | 互換性、廃止 |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
-
-## コンポーネント出力のサンプル {#sample-component-output}
-
-ソーシャル共有コンポーネントを体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_sharing_jp)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
