@@ -3,10 +3,10 @@ title: 'コアコンポーネントの概要 '
 description: 'コアコンポーネントの問題の解決策を入手し、他の人が AEM 内の要素を作成できるようにします。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+workflow-type: tm+mt
+source-wordcount: '928'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 * [コンテンツフラグメント](components/content-fragment-component.md)
 * [コンテンツフラグメントリスト](components/content-fragment-list.md)
 * [埋め込み](components/embed.md)
-* [ソーシャルメディア共有](components/sharing.md)
+* [ソーシャルメディア共有](components/sharing.md) （非推奨）
 * [区切り文字](components/separator.md)
 * [プログレスバー](components/progress-bar.md)
 * [PDF ビューア](components/pdf-viewer.md)

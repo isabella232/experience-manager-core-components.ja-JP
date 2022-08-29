@@ -3,8 +3,8 @@ title: クイック検索コンポーネント
 description: クイック検索コンポーネントは、Web サイトに検索機能を提供し、訪問者がサイト内を検索して結果を絞り込めるように検索結果を表示します。
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、クイック検索コンポーネントの現在のバージョン（2018年1月にコアコンポーネントのリリース 2.0.0 で導入された v1）について説明します。
+このドキュメントでは、クイック検索コンポーネントの現在のバージョン（2018年2月にコアコンポーネントのリリース 2.18.0 で導入された v1）について説明します。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 

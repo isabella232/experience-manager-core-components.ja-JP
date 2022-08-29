@@ -2,15 +2,15 @@
 title: リストコンポーネント（v2）
 description: コアコンポーネントのリストコンポーネントを使用すれば、動的リストや静的リストを簡単に作成できます。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
+exl-id: fa34be64-b345-45cd-baf3-571973414852
+source-git-commit: 241c86240377858a73f4a022368d428da9c11100
+workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 100%
 
 ---
 
-
-# リストコンポーネント （v2） {#list-component}
+# リストコンポーネント（v2）  {#list-component}
 
 コアコンポーネントのリストコンポーネントを使用すれば、動的リストや静的リストを簡単に作成できます。
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 リストの作成方法に関係なく、常に設定できる[並べ替えおよび ID オプション](#sort-options)があります。
 
-![リストコンポーネントの編集ダイアログ](/help/assets/list-edit.png)
+![リストコンポーネントの編集ダイアログ](/help/assets/v2/list-edit.png)
 
 コンテンツ作成者が選択したリストの作成方法に応じて、追加の設定オプションが変わります。
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 リストは、現在のページまたは別のページの子ページから作成できます。
 
-![子ページのオプション](/help/assets/list-edit-child-pages.png)
+![子ページのオプション](/help/assets/v2/list-edit-child-pages.png)
 
 * **親ページ**
    * リストを作成する子ページの親ページ
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 リストは、項目の固定リストを使用して作成できます。
 
-![固定リストオプション](/help/assets/list-edit-fixed.png)
+![固定リストオプション](/help/assets/v2/list-edit-fixed-list.png)
 
 「**追加**」ボタンをタップまたはクリックして、新しい項目をリストに挿入します。
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 リストは、AEM コンテンツの検索結果を使用して作成できます。
 
-![検索リストのオプション](/help/assets/list-edit-search.png)
+![検索リストのオプション](/help/assets/v2/list-edit-search.png)
 
 * **検索クエリ**
 フルテキスト検索を実行してリスト要素を生成する際の対象となる文字列
@@ -110,7 +110,7 @@ ht-degree: 100%
 
 リストは、特定の場所の下で特定のタグに一致するページを使用して作成できます。
 
-![タグリストのオプション](/help/assets/list-edit-tags.png)
+![タグリストのオプション](/help/assets/v2/list-edit-tags.png)
 
 * **親ページ**
 タグマッチングの開始場所
@@ -128,7 +128,7 @@ ht-degree: 100%
 
 リストの作成方法にかかわらず、いつでも定義できる並べ替えオプションがあります。
 
-![並べ替えオプション](/help/assets/list-edit-sort-options.png)
+![並べ替えオプション](/help/assets/v2/list-edit-sort-options.png)
 
 * **並べ替え順**
 要素の並べ替え方法
@@ -150,7 +150,7 @@ ht-degree: 100%
 
 「項目設定」タブを使用すれば、リスト要素の書式設定を設定できます。
 
-![項目設定](/help/assets/list-edit-items.png)
+![項目設定](/help/assets/v2/list-edit-item-settings.png)
 
 * **項目をリンク**
 項目を対応するページにリンクします
@@ -167,7 +167,7 @@ ht-degree: 100%
 
 「**リスト設定**」タブでは、日付の形式を定義したり、コンポーネントでコンテンツ作成者が使用できるリストの種類を定義したりできます。
 
-![リストコンポーネントのデザインダイアログリストの設定](/help/assets/list-design-list-settings.png)
+![リストコンポーネントのデザインダイアログリストの設定](/help/assets/v2/list-design-list-settings.png)
 
 * **日付の形式**
 最終変更日の表示に使用する形式
@@ -184,7 +184,7 @@ ht-degree: 100%
 
 「**項目設定**」タブでは、コンテンツ作成者がコンポーネント内で使用できる個々のリスト要素の書式設定オプションを定義することができます。
 
-![リストコンポーネントのデザインダイアログの項目設定](/help/assets/list-design-item-settings.png)
+![リストコンポーネントのデザインダイアログの項目設定](/help/assets/v2/list-design-item-settings.png)
 
 * **項目をリンク**
 [編集ダイアログ](#edit-dialog)で「項目をリンク」オプションを有効にします
