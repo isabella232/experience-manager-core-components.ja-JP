@@ -4,7 +4,7 @@ description: コアコンポーネントのリストコンポーネントを使�
 role: Architect, Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
 source-git-commit: 241c86240377858a73f4a022368d428da9c11100
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
 ht-degree: 100%
 
