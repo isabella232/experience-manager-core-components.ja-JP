@@ -4,7 +4,7 @@ description: コアコンポーネントのソーシャル共有コンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -51,8 +51,8 @@ ht-degree: 100%
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
-共有には特別なページヘッダーが必要なので、共有はすべてページレベルで有効にする必要があります。そのため、コンテンツ作成者の場合、共有コンポーネントの編集オプションは、「共有」タブの[ページのプロパティ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)で使用できます。
+共有には特別なページヘッダーが必要なので、共有はすべてページレベルで有効にする必要があります。そのため、コンテンツ作成者の場合、共有コンポーネントの編集オプションは、「共有」タブの[ページのプロパティ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=ja)で使用できます。
 
 ## デザインダイアログ {#design-dialog}
 
-共有には特別なページヘッダーが必要なので、共有はすべてページレベルで有効にする必要があります。そのため、テンプレート作成者の場合、共有コンポーネントのデザインオプションは、[最初のページのプロパティ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)で使用できます。
+共有には特別なページヘッダーが必要なので、共有はすべてページレベルで有効にする必要があります。そのため、テンプレート作成者の場合、共有コンポーネントのデザインオプションは、[最初のページのプロパティ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)で使用できます。
