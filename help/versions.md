@@ -3,7 +3,7 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
+source-git-commit: 6fd0fd045846da0d8e6f9c4753d172a9af101ba2
 workflow-type: tm+mt
 source-wordcount: '2780'
 ht-degree: 98%
@@ -30,9 +30,7 @@ ht-degree: 98%
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | このリリースには、LinkHandler API の公開、 [画像コンポーネント](/help/components/image.md) および [データレイヤー](/help/developing/data-layer/overview.md) と、マルチパネルコンポーネントの改善を追加しました。 | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022年9月12日（PT） |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | このリリースでは、AdaptiveImageServlet を使用した SVG 画像の配信に関する問題が修正されています。 | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022年8月4日（PT） |
 | [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | このパッチリリースでは、新しい[目次コンポーネント](/help/components/tableofcontents.md)の問題が修正されています。 | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022年7月7日（PT） |
-| --- | — | — | — | — | — | — |
 | [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | このパッチリリースでは、新しい[目次コンポーネント](/help/components/tableofcontents.md)の問題が修正されています。 | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022年6月29日（PT） |
-| — | — | — | — | — | — | — |
 | [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | これは、AEMaaCS の新しい [web に最適化されたアセット配信サービス](/help/developing/web-optimized-image-delivery.md)の問題を修正するパッチリリースです。 | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022年6月20日（PT） |
 | [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | このリリースでは、新しい[目次コンポーネント](/help/components/tableofcontents.md)が追加され、AEMaaCS の [web に最適化されたアセット配信サービス](/help/developing/web-optimized-image-delivery.md)がサポートされるようになり、バグ修正が含まれています。 | - | 6.5.13.0以降* | 継続的 | 8、11 | 2022年6月9日（PT） |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | このリリースでは、[検索コンポーネント](/help/components/quick-search.md) の新しいバージョンや[ボタンコンポーネント](/help/components/button.md)の機能を追加し、多くのアクセシビリティの改善とバグの修正も行いました。 | - | 6.5.10.0+ * | 継続的 | 8、11 | 2022年4月7日（PT） |
