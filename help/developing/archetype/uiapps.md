@@ -1,12 +1,12 @@
 ---
 title: AEM プロジェクトアーキタイプの ui.apps モジュール
 description: AEM プロジェクトアーキタイプの ui.apps モジュール
-feature: コアコンポーネント、AEM プロジェクトアーキタイプ
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '340'
+source-git-commit: 19bceb1d8ba07c70798f2e7203db957d3e8b3d03
+workflow-type: tm+mt
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,6 @@ Apache Jackrabbit FileVault Package プラグインは、ui.apps モジュール
 さらに、Jackrabbit FileVault Package プラグインには Content Package プラグインの定義があり、これはその後、パッケージを AEM にプッシュする際に使用されます。同じ親 POM で定義されたグローバルなプロパティに対応する `aem.host`、`aem.port`、`vault.user`、および `vault.password` の変数が使用されます。
 
 ## ui.apps/pom.xml {#uiapps-pom}
-
-ui.apps pom（`<src>/<project>/ui.apps/pom.xml`）は、`filevault-package-maven-plugin` に `embedded` タグを提供します。`embedded` タグには、ui.apps パッケージの一部としてコンパイルされた core バンドル、およびそのインストール先が含まれています。
 
 core.wcm.components.all および core.wcm.components.examples パッケージがサブパッケージとして含まれています。これにより、WKND コードと共に毎回コアコンポーネントのパッケージがデプロイされます。
 
