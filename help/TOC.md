@@ -4,10 +4,10 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 95%
 
 ---
 
@@ -110,3 +110,19 @@ ht-degree: 100%
       + [ui.tests モジュール](developing/archetype/uitests.md)
       + [it.tests モジュール](developing/archetype/ittests.md)
       + [Build Analyzer Maven プラグイン](developing/archetype/build-analyzer-maven-plugin.md)
++ 電子メールコンポーネント {#email}
+   + [はじめに](/help/email/introduction.md)
+   + [電子メールコアコンポーネントの使用](/help/email/using.md)
+   + [キャンペーン変数](/help/email/campaign-variables.md)
+   + [バージョン](/help/email/versions.md)
+   + 電子メールコンポーネント {#components}
+      + [ページ](/help/email/components/page.md)
+      + [コンテナ](/help/email/components/container.md)
+      + [タイトル](/help/email/components/title.md)
+      + [テキスト](/help/email/components/text.md)
+      + [画像](/help/email/components/image.md)
+      + [ボタン](/help/email/components/button.md)
+      + [ティーザー](/help/email/components/teaser.md)
+      + [エクスペリエンスフラグメント](/help/email/components/experience-fragment.md)
+      + [コンテンツフラグメント](/help/email/components/content-fragment.md)
+      + [セグメント化](/help/email/components/segmentation.md)

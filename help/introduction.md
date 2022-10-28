@@ -3,10 +3,10 @@ title: コアコンポーネントの概要
 description: コアコンポーネントの問題の解決策を入手し、他の人が AEM 内の要素を作成できるようにします。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
+source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '929'
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 コアコンポーネントでは、[編集可能なテンプレート](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=ja)を使用する必要があり、クラシック UI や静的テンプレートはサポートされていません。必要に応じて、[AEM 最新化ツール](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)を使用して、これらの最新の AEM 機能をプロジェクトに反映します。
 
-ローカルの開発環境をセットアップするには、[AEM as a Cloud Service SDK の場合はこの概要](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=ja)を、[旧バージョンの AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ja) の場合は本ドキュメントを、それぞれを参照してください。
+ローカル開発環境を設定するには、 [AEMas a Cloud ServiceSDK のこの概要](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=ja) またはこのドキュメント [古いバージョンのAEMの場合](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ja).
 
 >[!TIP]
 >
