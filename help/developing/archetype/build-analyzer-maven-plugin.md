@@ -4,10 +4,10 @@ description: ローカルの Maven Build Analyzer プラグインに関するド
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 98d8fac2a626a1f89ef1b109aa8cba27abf8203a
-workflow-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+source-git-commit: be66739084334120158eda96b830a7b6216ef5cd
+workflow-type: tm+mt
+source-wordcount: '668'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ AEM Maven プロジェクトに含める方法については、[Maven プラグ
 | `configuration-api` | 重要な OSGi 設定を検証します。 <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | はい | はい |
 | `region-deprecated-api` | [非推奨の api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=ja) が使用されているかどうかを確認します <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | はい | はい |
 | `artifact-rules` | バンドルやコンテンツパッケージなどの依存関係を検証して、アーティファクトの既知の問題を防ぎます。<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | はい | はい |
+| `aem-env-var` | 次の条件に従って環境変数の使用状況をチェックします。 [変数命名ガイド](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#variable-naming)<p> </p>`[ERROR] Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Value for property 'port' must not use env vars prefixed with INTERNAL_ or ADOBE_ (com.mysite1:my-site-1.all:1.0.0-SNAPSHOT\|com.mysite1:my-site-1.ui.config:1.0.0-SNAPSHOT)` | はい | はい |
 | `content-package-validation` | filevault のバリデータを実行します。デフォルトでは、jackrabbit-docviewparser が有効になっており、デプロイ時にインストールされるパッケージ内にある xml の整形式のコンテンツ構文をチェックします。<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>修正するには、アナライザーで指定されたファイルで xml の問題を確認します。 | はい | はい |
 
 {style=&quot;table-layout:auto&quot;}
