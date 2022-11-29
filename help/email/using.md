@@ -2,11 +2,10 @@
 title: 電子メールコアコンポーネントの使用
 description: 電子メールコアコンポーネントの基本的なインストール、設定、使用方法について説明します。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '653'
 ht-degree: 7%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 7%
 
 ### コアコンポーネントのインストール {#core-components}
 
-電子メールコアコンポーネントは、AEMコアコンポーネント上に構築されています。 コアコンポーネントはAEMに付属していないので、電子メールコアコンポーネントをインストールする前に、まずAEMコアコンポーネントをインストールする必要があります。
+電子メールコアコンポーネントは、AEMコアコンポーネント上に構築されています。 コアコンポーネントはAEM 6.5 には付属していないので、電子メールコアコンポーネントをインストールする前に、まずAEMコアコンポーネントをインストールする必要があります。
 
 の節を参照してください。 [ダウンロードとインストール](/help/get-started/using.md#download-and-install) コアコンポーネントのインストール方法について詳しくは、コアコンポーネントの使用を参照してください。
 
@@ -80,6 +79,4 @@ Adobe Campaignが E メールコアコンポーネントに基づく E メール
 
 AEMでの E メールコンテンツの作成とAdobe Campaignでの配信の例については、次のリソースを参照してください。
 
-* AEMas a Cloud Service: [AEMでの Campaign ニュースレターの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5: [Adobe Campaign ClassicとAdobe Campaign Standardの使用](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
-
