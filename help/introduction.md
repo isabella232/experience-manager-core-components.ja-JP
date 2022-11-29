@@ -3,10 +3,10 @@ title: コアコンポーネントの概要
 description: コアコンポーネントの問題の解決策を入手し、他の人が AEM 内の要素を作成できるようにします。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 97%
+source-wordcount: '967'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 |  |  |
 |---|---|
-| 本番で使用可能 | コアコンポーネントは 30 個の堅牢なコンポーネントで、十分にテストされ、広く使用されており、パフォーマンスが優れています。 |
+| 本番で使用可能 | コアコンポーネントは 30 個の堅牢な WCM コンポーネントで、十分にテストされ、広く使用されており、パフォーマンスが優れています。 |
 | クラウド対応 | [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)、オンプレミスのどれでも動作します。 |
 | 用途が広い | コンポーネントは、ほぼあらゆるレイアウトの作成に作成者が使用できる汎用的な概念を表します。 |
 | 設定可能 | ページ作成者が使用できる機能と使用できない機能をテンプレートレベルの[コンテンツポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ja#content-policies)で定義します。 |
@@ -47,7 +47,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 | ローカライズ可能 | スマートリファレンス解決機能により、特定のコンポーネントが対応する[ローカライズされたコンテンツを自動的に検索してレンダリング](get-started/localization.md)できます。 |
 | オープンソース | 何か問題がある場合は、[改善案を寄稿できます。](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
-## コンポーネント {#the-components}
+## WCM コンポーネント {#the-wcm-components}
 
 コアコンポーネントの現在のバージョンには、次のコンポーネントが含まれています。
 
@@ -124,3 +124,9 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 >コアコンポーネントは自動的に AEM as a Cloud Service に含まれ、常にコアコンポーネントの最新リリースが使用可能になっています。
 >
 >AEM as a Cloud Service と AEM オンプレミスの両方でコアコンポーネントの使用を開始する方法について詳しくは、[コアコンポーネントの使用](/help/get-started/using.md)を参照してください。
+
+## その他のコンポーネント {#other-components}
+
+AEM作成者が使用できる追加のコンポーネントがあり、コアコンポーネント上に構築されています。
+
+* [電子メールコアコンポーネント](/help/email/introduction.md)  — コアコンポーネントの上に構築され、特にAdobe Campaignで使用するためのコンポーネントを検出します。

@@ -4,10 +4,10 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 95%
+source-wordcount: '282'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
    + [コアコンポーネントを使用したオーサリング](get-started/authoring.md)
    + [コアコンポーネントの使用](get-started/using.md)
    + [ローカライゼーション機能](get-started/localization.md)
-+ コンポーネント {#components}
++ WCM コンポーネント {#wcm-components}
    + [アコーディオン](components/accordion.md)
    + [パンくず](components/breadcrumb.md)
    + [ボタン](components/button.md)
@@ -82,6 +82,22 @@ ht-degree: 95%
       + [リスト（v2）](components/v2/list.md)
       + [ページ（v2）](components/v2/page.md)
       + [タイトル（v2）](components/v2/title.md)
++ 電子メールコンポーネント {#email}
+   + [はじめに](/help/email/introduction.md)
+   + [電子メールコアコンポーネントの使用](/help/email/using.md)
+   + [キャンペーン変数](/help/email/campaign-variables.md)
+   + [バージョン](/help/email/versions.md)
+   + 電子メールコンポーネント {#components}
+      + [ページ](/help/email/components/page.md)
+      + [コンテナ](/help/email/components/container.md)
+      + [タイトル](/help/email/components/title.md)
+      + [テキスト](/help/email/components/text.md)
+      + [画像](/help/email/components/image.md)
+      + [ボタン](/help/email/components/button.md)
+      + [ティーザー](/help/email/components/teaser.md)
+      + [エクスペリエンスフラグメント](/help/email/components/experience-fragment.md)
+      + [コンテンツフラグメント](/help/email/components/content-fragment.md)
+      + [セグメント化](/help/email/components/segmentation.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing/overview.md)
    + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ja)
@@ -110,19 +126,3 @@ ht-degree: 95%
       + [ui.tests モジュール](developing/archetype/uitests.md)
       + [it.tests モジュール](developing/archetype/ittests.md)
       + [Build Analyzer Maven プラグイン](developing/archetype/build-analyzer-maven-plugin.md)
-+ 電子メールコンポーネント {#email}
-   + [はじめに](/help/email/introduction.md)
-   + [電子メールコアコンポーネントの使用](/help/email/using.md)
-   + [キャンペーン変数](/help/email/campaign-variables.md)
-   + [バージョン](/help/email/versions.md)
-   + 電子メールコンポーネント {#components}
-      + [ページ](/help/email/components/page.md)
-      + [コンテナ](/help/email/components/container.md)
-      + [タイトル](/help/email/components/title.md)
-      + [テキスト](/help/email/components/text.md)
-      + [画像](/help/email/components/image.md)
-      + [ボタン](/help/email/components/button.md)
-      + [ティーザー](/help/email/components/teaser.md)
-      + [エクスペリエンスフラグメント](/help/email/components/experience-fragment.md)
-      + [コンテンツフラグメント](/help/email/components/content-fragment.md)
-      + [セグメント化](/help/email/components/segmentation.md)
