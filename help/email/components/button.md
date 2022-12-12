@@ -4,8 +4,8 @@ description: メールボタンコンポーネントを使用すると、コン�
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '563'
 ht-degree: 100%
 
 ---
