@@ -1,45 +1,45 @@
 ---
-title: キャンペーン変数
-description: キャンペーン変数をプレースホルダーとして使用して、パーソナライズされた電子メールコンテンツを作成します。
+title: Campaign 変数
+description: キャンペーン変数をプレースホルダーとして使用して、パーソナライズされたメールコンテンツを作成します。
 role: Architect, Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# キャンペーン変数 {#campaign-variables}
+# Campaign 変数 {#campaign-variables}
 
-キャンペーン変数を使用してパーソナライズされた E メールコンテンツを作成します。 キャンペーン変数は、Adobe Campaign値のプレースホルダーとして機能し、E メールコンテンツに挿入できます。 コンテンツがAdobe Campaign経由で送信されると、Campaign は、これらの変数を受信者のパーソナライズされたコンテンツで置き換えます。
+キャンペーン変数を使用してパーソナライズされたメールコンテンツを作成します。 キャンペーン変数は、Adobe Campaign の値のプレースホルダーとして機能し、メールコンテンツに挿入することができます。 コンテンツが Adobe Campaign 経由で送信されると、Campaign は、これらの変数を受信者のパーソナライズされたコンテンツで置き換えます。
 
 ## 使用方法 {#usage}
 
-電子メールコアコンポーネントを使用すると、共通のテキストフィールドの横にあるパーソナライゼーションボタンを使用して、キャンペーン変数に簡単にアクセスできます。 押すと、パーソナライゼーションフィールドを選択できるダイアログが表示されます。
+メールコアコンポーネントを使用すると、共通のテキストフィールドの横にあるパーソナライズ機能ボタンを使用して、キャンペーン変数に簡単にアクセスできます。 ボタンを押すと、パーソナライズ機能フィールドを選択できるダイアログが表示されます。
 
-使用可能なパーソナライゼーションフィールドのリストがAdobe Campaignインスタンスと同期されます。 フィールドは、スキーマ内のAdobe Campaignで管理されます `nms:seedMember`. のすべてのフィールド `nms:seedMember` また、受信者テーブルにも存在する必要があります。
+使用可能なパーソナライズ機能フィールドのリストが Adobe Campaign インスタンスと同期されます。 このフィールドは、スキーマ `nms:seedMember` 内の Adobe Campaign で管理されます。`nms:seedMember` のすべてのフィールドはまた、受信者テーブルにも存在する必要があります。
 
-## Adobe Campaign Variable ダイアログを選択 {#dialog}
+## Adobe Campaign の変数ダイアログを選択 {#dialog}
 
-Adobe Campaign変数を選択ダイアログは、電子メールコアコンポーネントの多くの編集ダイアログで使用できます。 これを使用するには、 **Adobe Campaign変数を選択** 該当するフィールドの横にあるアイコン。 このアイコンは 2 つの形式を取ることができます。
+「Adobe Campaign の変数を選択」ダイアログは、メールコアコンポーネントの多くの編集ダイアログで使用できます。 該当するフィールドの横にある「**Adobe Campaign の変数を選択**」アイコンをクリックするだけで、これを使用することができます。 このアイコンは 2 つの形式で表示されます。
 
-![Adobe Campaignボタン](/help/email/assets/campaign-button.png)
-![「Adobe Campaign変数」アイコンを選択します。](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![Adobe Campaign ボタン](/help/email/assets/campaign-button.png)
+![Adobe Campaign の変数を選択アイコン](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
-両方のアイコンをクリックすると、 **Adobe Campaign変数を選択** ダイアログ。
+両方のアイコンをクリックすると、**Adobe Campaign の変数を選択** ダイアログが開きます。
 
-![Adobe Campaign Variable ダイアログを選択](assets/select-campaign-variable-dialog.png)
+![Adobe Campaign の変数を選択](assets/select-campaign-variable-dialog.png)
 
-列表示を使用して、挿入する変数を見つけます。 列内のノードをクリックすると、その子が右側の新しい列に表示されます。 これにより、変数コンテンツ構造をナビゲートできます。
+列表示を使用して、挿入する変数を見つけます。 列内のノードをクリックすると、その子が右側の新しい列に表示されます。 これにより、変数コンテンツ構造をナビゲートすることができます。
 
 挿入する変数を選択し、ダイアログの右上にあるチェックマークをクリックします。
 
-![Adobe Campaign変数が選択されました](assets/select-campaign-variable-dialog-selected.png)
+![Adobe Campaign の変数を選択](assets/select-campaign-variable-dialog-selected.png)
 
-次に、変数が電子メールコアコンポーネントの編集ダイアログのフィールドに挿入されます。
+次に、変数がメールコアコンポーネントの編集ダイアログのフィールドに挿入されます。
 
-![編集ダイアログに挿入されるキャンペーン変数](assets/campaign-variable.png)
+![編集ダイアログに挿入されるCampaign の変数](assets/campaign-variable.png)
 
-ダイアログの左上にある X をいつでもクリックして、ダイアログをキャンセルして閉じます。
+ダイアログの左上にある X をクリックすると、いつでもキャンセルしてダイアログを閉じることができます。
