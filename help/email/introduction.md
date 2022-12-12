@@ -1,44 +1,44 @@
 ---
-title: 電子メールコアコンポーネントの概要
-description: E メールコアコンポーネントの柔軟性を利用して、説得力のある E メールコンテンツを作成し、Adobe Campaignの機能を活用して提供します。
+title: メールコアコンポーネントの概要
+description: メールコアコンポーネントの柔軟性を利用して、説得力のあるメールコンテンツを作成し、Adobe Campaign の機能を活用して提供します。
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 10%
+ht-degree: 88%
 
 ---
 
 
-# 電子メールコアコンポーネントの概要 {#email-core-components-introduction}
+# メールコアコンポーネントの概要 {#email-core-components-introduction}
 
-E メールコアコンポーネントの柔軟性を利用して、説得力のある E メールコンテンツを作成し、Adobe Campaignの機能を活用して提供します。
+メールコアコンポーネントの柔軟性を利用して、説得力のあるメールコンテンツを作成し、Adobe Campaign の機能を活用して提供します。
 
 ## 概要 {#overview}
 
-電子メールコアコンポーネントは、コアコンポーネントと同じ強力な基盤上に構築されています。 E メールコンテンツをシンプルで柔軟なドラッグ&amp;ドロップでオーサリングでき、Adobe Campaignの機能を使用してオーディエンスに配信できます。
+メールコアコンポーネントは、コアコンポーネントと同一の強力な基盤上に構築されています。 メールコンテンツをシンプルで柔軟なドラッグ＆ドロップでオーサリングでき、Adobe Campaign の機能を使用してオーディエンスに配信できます。
 
 ## メリット {#benefits}
 
-E メールは、ブランドエクスペリエンスとカスタマージャーニーの一部です。 電子メールコアコンポーネントを使用すると、作成者はAEM内から電子メールコンテンツを作成でき、一貫したブランドのエクスペリエンスを提供し、コンテンツの速度を向上できます。
+メールは、ブランドエクスペリエンスとカスタマージャーニーの一部です。 メールコアコンポーネントを使用すると、作成者は AEM 内からメールコンテンツを作成でき、一貫したブランドのエクスペリエンスを提供し、コンテンツベロシティが向上します。
 
-* コアコンポーネントを使用したページのオーサリングと同様に、電子メールコアコンポーネントを使用すると、作成者は、ブランディングガイドラインに従いながら、技術的な知識を持たずに電子メールを組み立てることができます。
-* アセットやコンテンツを再利用する機能は、作成者がブランディングガイドラインに従ってコンテンツ作成プロセスを最適化することを推奨します。
+* コアコンポーネントを使用したページのオーサリングと同様に、メールコアコンポーネントを使用すると、作成者は、技術的な知識がなくても、ブランディングガイドラインに従いながらメールを組み立てることができます。
+* アセットやコンテンツを再利用する機能により、作成者はブランディングガイドラインに従い、コンテンツ作成プロセスを最適化することもできます。
 
 ## 機能 {#features}
 
-* コア電子メールコンポーネントは、 [コアコンポーネント、](/help/introduction.md) そのため、 [編集可能なテンプレート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja) そして [スタイルシステム。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ja)
-* 次のものがあります。 [電子メールに最適化された 10 個の実稼動用コンポーネント](#components) 電子メールコンテンツを作成する場合。
+* コアメールコンポーネントは、[コアコンポーネント](/help/introduction.md)に基づいているため、[編集可能なテンプレート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)および[スタイルシステム](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ja)もサポートしています。
+* メールコンテンツを作成するための、[メール用に最適化された、すぐに使用できる 10 個のコンポーネント](#components)があります。
 * コア電子メールコンポーネントは、 [Adobe Campaign変数](campaign-variables.md) ほとんどのダイアログフィールドで使用できます。
 * 柔軟性 [セグメント化コンポーネント](/help/email/components/segmentation.md) では、コンテンツを高度なセグメント化することができます。
-* コア電子メールコンポーネントは、 [CSS スタイルインライナー、](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [HTML属性 inliner](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) および [HTMLを殺す人。](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
-* E メールコンテンツは以下の任意の場所で作成できます。 `/content`.
-* 電子メールコアコンポーネントは、 [オープンソース。](https://github.com/adobe/aem-core-email-components)
+* コアメールコンポーネントは、[CSS スタイルインライナー](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation)、[HTML フィールド名インライナー](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner)および[HTML サニタイザー](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)によって、メール作成に最適な HTML 出力を提供します。
+* メールコンテンツは、`/content` 下の任意の場所で作成できます。
+* メールコアコンポーネントは、[オープンソース](https://github.com/adobe/aem-core-email-components)です。
 
 ## 要件 {#requirements}
 
-電子メールコアコンポーネントには、次の要件があります。
+電子メールコアコンポーネントには、以下の要件があります。
 
 | AEM | Adobe Campaign | コアコンポーネント |
 |---|---|---|
@@ -46,11 +46,11 @@ E メールは、ブランドエクスペリエンスとカスタマージャー
 
 >[!NOTE]
 >
->Adobe Campaignの統合はAEM as a Cloud Serviceではサポートされていないので、電子メールコアコンポーネントも同様にAEM as a Cloud Serviceではサポートされません。
+>Adobe Campaign の統合は AEM as a Cloud Service ではサポートされていないので、電子メールコアコンポーネントも同様に AEM as a Cloud Service ではサポートされません。
 
-## 電子メールコンポーネント {#components}
+## メールコンポーネント {#components}
 
-電子メールコアコンポーネントの現在のバージョンには、次のコンポーネントが含まれています。
+電子メールコアコンポーネントの現在のバージョンには、以下のコンポーネントが含まれています。
 
 * [ページ](components/page.md)
 * [コンテナ](components/container.md)
@@ -63,6 +63,6 @@ E メールは、ブランドエクスペリエンスとカスタマージャー
 * [コンテンツフラグメント](components/content-fragment.md)
 * [セグメント化](components/segmentation.md)
 
-## インストールと使用方法 {#installation-usage}
+## インストールと使用 {#installation-usage}
 
-詳しくは、 [電子メールコアコンポーネントの使用](using.md) 電子メールコアコンポーネントのインストールについて詳しくは、こちらのドキュメントを参照してください。
+電子メールコアコンポーネントのインストールについて詳しくは、[電子メールコアコンポーネントの使用](using.md)ドキュメントを参照してください。

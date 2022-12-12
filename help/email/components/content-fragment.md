@@ -4,7 +4,7 @@ description: メールコンテンツフラグメントコンポーネントを�
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 使用方法 {#usage}
 
-メールコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)をメールコンテンツに含めることができます。 コンテンツフラグメントは、一元的に作成して容易に再利用できるマルチチャネル構造コンテンツです。
+メールコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)をメールコンテンツに含めることができます。 コンテンツフラグメントは、一元的に作成して容易に再利用できるマルチチャネル構造コンテンツです。
 
 * フラグメントとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択することができます。
 * 特定の画像やグリッドを処理するリソースタイプは、[デザインダイアログ](#design-dialog)で定義することができます。

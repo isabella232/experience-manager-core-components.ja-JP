@@ -4,7 +4,7 @@ description: メールテキストコンポーネントは、インプレース�
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->メールテキストコンポーネントでは、[RTE の UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ja)で有効になっているオプションのみ使用できます。
+>メールテキストコンポーネントでは、[RTE の UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)で有効になっているオプションのみ使用できます。
 
 ## 編集ダイアログ {#edit-dialog}
 
@@ -283,7 +283,7 @@ ht-degree: 100%
 
 テキストコンテンツのスペルをチェックするために使用します。スペルミスの可能性がある場合は、赤い破線が該当箇所の下に引かれます。
 
-スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=ja)を参照してください。
+スペルチェックとスペルチェック辞書のカスタマイズについて詳しくは、[リッチテキストエディタープラグインの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)を参照してください。
 
 #### 特殊文字 {#special-characters}
 

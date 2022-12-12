@@ -4,7 +4,7 @@ description: メールセグメント化コンポーネント
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 100%
 
@@ -138,7 +138,7 @@ ht-degree: 100%
 
 * **セグメント条件名** - 条件の説明
 * **セグメント条件** - Adobe Campaign のパーソナライゼーション変数に基づいて、満たす必要がある実際の条件
-   * [Adobe Campaign Standard のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=ja)
+   * [Adobe Campaign Standard のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
    * [Adobe Campaign Classic のパーソナライゼーションリソースについては、こちらを参照してください。](https://experienceleague.adobe.com/docs/
 * **削除** - タップしてクリックすると、条件を削除できます
 * **並べ替え** - タップまたはクリックしてドラッグすると、順序を並べ替えることができます

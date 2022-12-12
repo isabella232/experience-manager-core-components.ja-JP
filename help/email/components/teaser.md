@@ -4,7 +4,7 @@ description: メールティーザーコンポーネントでは、画像、タ�
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 100%
 

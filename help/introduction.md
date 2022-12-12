@@ -6,7 +6,7 @@ exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -117,7 +117,7 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 コアコンポーネントでは、[編集可能なテンプレート](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=ja)を使用する必要があり、クラシック UI や静的テンプレートはサポートされていません。必要に応じて、[AEM 最新化ツール](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)を使用して、これらの最新の AEM 機能をプロジェクトに反映します。
 
-ローカル開発環境を設定するには、 [AEMas a Cloud ServiceSDK のこの概要](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=ja) またはこのドキュメント [古いバージョンのAEMの場合](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ja).
+ローカルの開発環境を設定するには、[AEM as a Cloud Service SDK の場合はこの概要](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=ja)を、[旧バージョンの AEM の場合](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ja)は本ドキュメントを、それぞれ参照してください。
 
 >[!TIP]
 >

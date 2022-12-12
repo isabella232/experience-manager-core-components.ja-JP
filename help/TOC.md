@@ -7,7 +7,7 @@ feature-set: Experience Manager Sites
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -82,12 +82,12 @@ ht-degree: 94%
       + [リスト（v2）](components/v2/list.md)
       + [ページ（v2）](components/v2/page.md)
       + [タイトル（v2）](components/v2/title.md)
-+ 電子メールコンポーネント {#email}
++ メールコンポーネント {#email}
    + [はじめに](/help/email/introduction.md)
-   + [電子メールコアコンポーネントの使用](/help/email/using.md)
-   + [キャンペーン変数](/help/email/campaign-variables.md)
+   + [メールコアコンポーネントの使用](/help/email/using.md)
+   + [Campaign 変数](/help/email/campaign-variables.md)
    + [バージョン](/help/email/versions.md)
-   + 電子メールコンポーネント {#components}
+   + メールコンポーネント {#components}
       + [ページ](/help/email/components/page.md)
       + [コンテナ](/help/email/components/container.md)
       + [タイトル](/help/email/components/title.md)
