@@ -1,30 +1,30 @@
 ---
-title: 電子メールページコンポーネント
-description: 電子メールページコンポーネント
+title: メールページコンポーネント
+description: メールページコンポーネント
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 
-# 電子メールページコンポーネント {#email-page-component}
+# メールページコンポーネント {#email-page-component}
 
-電子メールページコンポーネントは、 [テンプレートエディター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja) およびを使用すると、Adobe Campaignコンテンツを作成するためにカスタマイズされたテンプレートエディターを使用して、ページヘッダー/フッターおよび構造コンポーネントを組み立てることができます。
+メールページコンポーネントは、[テンプレートエディター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)と連携するように設計された拡張可能なページコンポーネントです。このコンポーネントを使用すれば、Adobe Campaign コンテンツの作成用にカスタマイズされたテンプレートエディターでページのヘッダー／フッターおよび構造要素を組み立てることができます。
 
 ## 使用方法 {#usage}
 
-電子メールページコンポーネントは、電子メールコアコンポーネントと編集可能テンプレートを使用して設計されるすべてのページの基礎となります。 電子メールページコンポーネントを使用すれば、他の電子メールコアコンポーネントを使用して、ページのヘッダー、フッターおよび構造をテンプレートとして定義できます。
+メールページコンポーネントは、メールコアコンポーネントと編集可能なテンプレートを使用して設計されるあらゆるページの基礎となるものです。メールページコンポーネントを使用すれば、ページのヘッダー、フッター、構造を、他のメールコアコンポーネントを使用する際のテンプレートとして定義できます。
 
-* の使用 [デザインダイアログ](#design-dialog) カスタムのクライアント側ライブラリは、ページ用に定義できます。
-* 電子メールページコンポーネントはページ自体なので、コンポーネントから直接アクセスできる編集ダイアログを持つ他のコンポーネントとは異なり、 [編集ダイアログ](#edit-dialog) 電子メールページコンポーネントのは、ページのプロパティウィンドウです。
+* [デザインダイアログ](#design-dialog)を使用すれば、ページ用にカスタムのクライアントサイドライブラリを定義できます。
+* コンポーネントから編集ダイアログに直接アクセスできる他のコンポーネントとは異なり、メールページコンポーネントはページそのものなので、メールページコンポーネントの[編集ダイアログ](#edit-dialog)が、ページプロパティウィンドウになります。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-このドキュメントでは、電子メールページコンポーネントの現在のバージョン（2022 年 10 月に電子メールコアコンポーネントのリリース X で導入された v1）について説明します。
+このドキュメントでは、メールページコンポーネントの現在のバージョン（2022年10月にメールコアコンポーネントのリリース X で導入された v1）について説明します。
 
 コンポーネントのすべてのサポート対象バージョン、コンポーネントの各バージョンと互換性のある AEM バージョン、以前のバージョンのドキュメントへのリンクを次の表に示します。
 
@@ -32,11 +32,11 @@ ht-degree: 39%
 |---|---|---|
 | v1 | 互換性あり | 互換性あり |
 
-電子メールコアコンポーネントのバージョンとリリースについて詳しくは、ドキュメントを参照してください。 [電子メールコアコンポーネントのバージョン](/help/email/versions.md)
+メールコアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
-ページコンポーネントに関する最新の技術ドキュメント [は GitHub にあります。](https://adobe.com/go/aem_cmp_tech_email_page_v1)
+ページコンポーネントに関する最新の技術ドキュメントについては、[GitHub](https://adobe.com/go/aem_cmp_tech_email_page_v1) を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
@@ -44,30 +44,30 @@ ht-degree: 39%
 
 ページコンポーネントはページ全体を表しているので、通常は編集ダイアログで設定する内容が、[ページのプロパティ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=ja)ウィンドウにあります。
 
-### 「Cloud Services」タブ {#cloud-services}
+### 「クラウドサービス」タブ {#cloud-services}
 
-電子メールコアコンポーネントがキャンペーンの変数とデータを取得するには、ページがAdobe Campaign設定にリンクされている必要があります。
+電子メールコアコンポーネントがキャンペーンの変数とデータを取得するには、ページが Adobe Campaign 設定にリンクされている必要があります。
 
-![電子メールページのプロパティ](/help/email/assets/email-page-properties.png)
+![メールページのプロパティ](/help/email/assets/email-page-properties.png)
 
-の下 **Cloud Service設定** 見出し、ドロップダウンで「 」を選択します。 **設定を追加**.
+「**クラウドサービス設定**」見出しの下のドロップダウンで、「**設定を追加**」を選択します。
 
-の下 **Adobe Campaign** 」で、Adobe Campaignとの統合の設定を選択します。
+「**Adobe Campaign**」見出しの下で、Adobe Campaign との統合の設定を選択します。
 
-ドキュメントを参照 [電子メールコアコンポーネントの使用](/help/email/using.md) 電子メールコアコンポーネントの設定について詳しくは、
+電子メールコアコンポーネントの設定について詳しくは、[電子メールコアコンポーネントの使用](/help/email/using.md)ドキュメントを参照してください。
 
-### 「E メール」タブ {#email-tab}
+### 「メール」タブ {#email-tab}
 
-「 E メール」タブでは、E メールの件名やプレーンテキストコンテンツなど、Adobe Campaign経由で送信される E メールのプロパティを、このページのコンテンツに基づいて定義します。
+「メール」タブでは、メールの件名やプレーンテキストコンテンツなど、Adobe Campaign 経由で送信されるメールのプロパティを、このページのコンテンツに基づいて定義します。
 
-![電子メールページのプロパティ](/help/email/assets/email-page-properties-email.png)
+![メールページのプロパティ](/help/email/assets/email-page-properties-email.png)
 
-* **件名**  — このページに基づいてAdobe Campaignから送信される E メールの件名
-   * 次をクリック： **Adobe Campaign変数を選択** アイコンをクリックして開きます。 [Adobe Campaign変数を選択](/help/email/campaign-variables.md) ダイアログを開き、Adobe Campaignから動的コンテンツを挿入するためのダイアログを開きます。
+* **件名** - このページに基づいて Adobe Campaign から送信される電子メールの件名
+   * 「**Adobe Campaign 変数を選択**」アイコンをクリックして [Adobe Campaign 変数を選択](/help/email/campaign-variables.md)ダイアログを開き、Adobe Campaign から動的コンテンツを挿入します。
 * **プリヘッダー**
-   * 次をクリック： **Adobe Campaign変数を選択** アイコンをクリックして開きます。 [Adobe Campaign変数を選択](/help/email/campaign-variables.md) ダイアログを開き、Adobe Campaignから動的コンテンツを挿入するためのダイアログを開きます。
-* **プレーンテキスト** - Adobe Campaignから送信される E メールのプレーンテキストバージョン
-   * 次をクリック： **Adobe Campaign変数を選択** アイコンをクリックして開きます。 [Adobe Campaign変数を選択](/help/email/campaign-variables.md) ダイアログを開き、Adobe Campaignから動的コンテンツを挿入するためのダイアログを開きます。
+   * 「**Adobe Campaign 変数を選択**」アイコンをクリックして [Adobe Campaign 変数を選択](/help/email/campaign-variables.md)ダイアログを開き、Adobe Campaign から動的コンテンツを挿入します。
+* **テキスト** - Adobe Campaign から送信される電子メールのプレーンテキストバージョン
+   * 「**Adobe Campaign 変数を選択**」アイコンをクリックして [Adobe Campaign 変数を選択](/help/email/campaign-variables.md)ダイアログを開き、Adobe Campaign から動的コンテンツを挿入します。
 * **参照 URL**
 
 ## デザインダイアログ {#design-dialog}
@@ -80,23 +80,23 @@ ht-degree: 39%
 
 ページデザインウィンドウを使用すれば、読み込むクライアントライブラリとページの Web リソースライブラリを定義できます。
 
-![電子メールページコンポーネントデザインダイアログ](/help/email/assets/email-page-design.png)
+![メールページコンポーネントデザインのダイアログ](/help/email/assets/email-page-design.png)
 
 * **クライアントライブラリ** - 読み込むクライアントライブラリカテゴリを定義します。JavaScript が本文の末尾に追加され、CSS がページの先頭に追加されます。
-* **クライアントライブラリ JavaScript ページ先頭**  — ページの先頭に読み込む JavaScript クライアントライブラリカテゴリを定義します。
+* **クライアントライブラリ JavaScript ページ先頭** - ページの先頭に読み込む JavaScript クライアントライブラリカテゴリを定義します。
    * ここで定義したカテゴリが「**クライアントライブラリ**」フィールドにも存在する場合は、JavaScript が本文の末尾ではなくページの先頭に読み込まれます。
    * カテゴリが「**クライアントライブラリ**」フィールドにも存在する場合を除き、CSS は読み込まれません。
-* **JavaScript ライブラリを非同期で読み込む**  — 有効にすると、カスタム JavaScript ライブラリは非同期で読み込まれます。
+* **JavaScript ライブラリを非同期で読み込む** - 有効にすると、カスタムJavaScriptライブラリが非同期で読み込まれます。
 * **Web リソースクライアントライブラリ** - favicon などの Web リソースを提供するために使用されるクライアントライブラリカテゴリです。
 * **メインコンテンツ要素セレクターにスキップ** - ページのメインコンテンツに直接スキップするアクセシビリティ機能として使用されます。
 
 「**クライアントライブラリ**」と「**クライアントライブラリ JavaScript ページ先頭**」の両方のフィールドにライブラリを次のように設定できます。
 
-* 新しいフィールドを追加するには、 **追加** ボタンをクリックします。
-* フィールドを削除するには、削除するフィールドの横にあるごみ箱アイコンをクリックまたはタップします。
+* 新しいフィールドを追加するには、フィールドの下にある「**追加**」ボタンをクリックまたはタップします。
+* フィールドを削除するには、削除するフィードの横にあるごみ箱アイコンをクリックまたはタップします。
 * 読み込み順序を変更するには、移動するフィールドの横にあるハンドルをクリックまたはタップしてドラッグします。
 
-クライアント側ライブラリの使用について詳しくは、 [クライアント側ライブラリの使用。](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html)
+クライアントサイドライブラリの使用について詳しくは、[クライアントサイドライブラリの使用](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html)を参照してください。
 
 ### 「スタイル」タブ {#styles-tab}
 
