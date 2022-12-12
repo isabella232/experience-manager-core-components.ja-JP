@@ -4,9 +4,9 @@ description: コアコンポーネントの画像コンポーネントは、ア�
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 ## 使用方法 {#usage}
 
-画像コンポーネントは、アダプティブ画像選択とレスポンシブ動作を備えており、ページ訪問者に対する遅延読み込みと、コンテンツ作成者に対する簡単な画像配置を提供します。
+画像コンポーネントは、アダプティブ画像選択やレスポンシブ動作の機能を備えているほか、ページ訪問者にとっては遅延読み込み、コンテンツ作成者にとっては画像の簡単な配置が可能になります。
 
 [デザインダイアログ](#design-dialog)では、画像の幅や追加の設定をテンプレート作成者が定義できます。コンテンツ編集者は、[設定ダイアログ](#configure-dialog)でアセットをアップロードまたは選択できます。
 
@@ -139,7 +139,7 @@ ht-degree: 97%
 
 ![画像コンポーネントのデザインダイアログの「メイン」タブ](/help/assets/image-design-main.png)
 
-* **DM 機能を有効にする** - オンにすると、[Dynamic Media 機能](#dynamic-media)を使用できます。
+* **DM 機能を有効化** - オンにすると、[Dynamic Media 機能](#dynamic-media)を使用できます。
    * このオプションは、環境で Dynamic Media が有効になっている場合にのみ表示されます。
 * **Web 最適化画像を有効にする** - オンにすると、[web に最適化された画像配信サービス](/help/developing/web-optimized-image-delivery.md)は WebP 形式で画像を配信し、画像のサイズを平均で 25%削減します。
    * このオプションは、AEMaaCS でのみ使用できます。
