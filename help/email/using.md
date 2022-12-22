@@ -4,9 +4,9 @@ description: メールコアコンポーネントの基本的なインストー�
 role: Architect, Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 ### コアコンポーネントのインストール {#core-components}
 
-メールコアコンポーネントは、AEM コアコンポーネントに基づいて構築されています。 コアコンポーネントはAEM 6.5 には付属していないので、電子メールコアコンポーネントをインストールする前に、まずAEMコアコンポーネントをインストールする必要があります。
+メールコアコンポーネントは、AEM コアコンポーネントに基づいて構築されています。 コアコンポーネントは AEM 6.5 に付属していないので、まず AEM コアコンポーネントをインストールしてからメールコアコンポーネントをインストールする必要があります。
 
 コアコンポーネントのインストール方法について詳しくは、「コアコンポーネントの使用」ドキュメントの[ダウンロードとインストール](/help/get-started/using.md#download-and-install)の節を参照してください。
 
