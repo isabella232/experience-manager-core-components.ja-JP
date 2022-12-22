@@ -4,9 +4,9 @@ description: メールコアコンポーネントの柔軟性を利用して、�
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 88%
 
 * コアメールコンポーネントは、[コアコンポーネント](/help/introduction.md)に基づいているため、[編集可能なテンプレート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)および[スタイルシステム](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ja)もサポートしています。
 * メールコンテンツを作成するための、[メール用に最適化された、すぐに使用できる 10 個のコンポーネント](#components)があります。
-* コア電子メールコンポーネントは、 [Adobe Campaign変数](campaign-variables.md) ほとんどのダイアログフィールドで使用できます。
-* 柔軟性 [セグメント化コンポーネント](/help/email/components/segmentation.md) では、コンテンツを高度なセグメント化することができます。
+* ほとんどのダイアログフィールドに [Adobe Campaign の変数](campaign-variables.md)が挿入されているので、コアメールコンポーネントは、高度なパーソナライズ機能を提供します。
+* 柔軟な[セグメント化コンポーネント](/help/email/components/segmentation.md)を使用すると、コンテンツを詳細にセグメント化することができます。
 * コアメールコンポーネントは、[CSS スタイルインライナー](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation)、[HTML フィールド名インライナー](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner)および[HTML サニタイザー](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)によって、メール作成に最適な HTML 出力を提供します。
 * メールコンテンツは、`/content` 下の任意の場所で作成できます。
 * メールコアコンポーネントは、[オープンソース](https://github.com/adobe/aem-core-email-components)です。
@@ -42,7 +42,7 @@ ht-degree: 88%
 
 | AEM | Adobe Campaign | コアコンポーネント |
 |---|---|---|
-| AEM 6.5.14.0以降<br>オンプレミスまたは AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [リリース2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+<br>オンプレミスまたは AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [リリース 2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >
