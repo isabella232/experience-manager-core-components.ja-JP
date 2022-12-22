@@ -4,9 +4,9 @@ description: コアコンポーネントの問題の解決策を入手し、他�
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -127,6 +127,6 @@ Adobe Experience Manager では、コンポーネントは、オーサリング�
 
 ## その他のコンポーネント {#other-components}
 
-AEM作成者が使用できる追加のコンポーネントがあり、コアコンポーネント上に構築されています。
+AEM 作成者が使用できる追加のコンポーネントがあり、コアコンポーネント上に構築されています。
 
-* [電子メールコアコンポーネント](/help/email/introduction.md)  — コアコンポーネントの上に構築され、特にAdobe Campaignで使用するためのコンポーネントを検出します。
+* [メールコアコンポーネント](/help/email/introduction.md) - コアコンポーネントの上に構築され、特に Adobe Campaign で使用するためのコンポーネントを検出します。
