@@ -3,10 +3,10 @@ title: コアコンポーネントの使用
 description: 「独自のプロジェクトにコアコンポーネントを導入するには、4 つの手順（ダウンロードとインストール、プロキシコンポーネントの作成、コアスタイルの読み込み、テンプレートでのコンポーネントの有効化）に従います。」
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+workflow-type: tm+mt
+source-wordcount: '1008'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +45,8 @@ AEM as a Cloud Service でコアコンポーネントを使用する際には、
    * 今後のリリースでは、コアコンポーネントを再度組み込むと、パイプラインのビルドが失敗します。
 * 既にプロジェクトが `/apps` にコアコンポーネントを含んでいる場合は、[プロジェクトの調整が必要になる可能性があります。](/help/developing/overview.md#via-aemaacs)
 * 今はコアコンポーネントが `/libs` に含まれるようになっていますが、同じパスのオーバーレイを `/apps` に作成することはお勧めしません。コンポーネントの一部をカスタマイズする必要がある場合は、代わりに[プロキシコンポーネントパターン](/help/developing/guidelines.md#proxy-component-pattern)を使用してください。
+* を [目次コンポーネント](/help/components/tableofcontents.md) コンテンツをレンダリングするには、OSGi でフィルターを設定する必要があります。
+   * [コンポーネントの GitHub ドキュメントを参照してください](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) を参照してください。
 
 ### AEM 6.5 以前 {#aem-65}
 

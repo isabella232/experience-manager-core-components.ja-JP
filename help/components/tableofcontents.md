@@ -3,10 +3,10 @@ title: 目次コンポーネント
 description: 目次コンポーネントは、ページコンテンツ内のタイトルに基づいて目次（ToC）を作成するので、読者がページを素早く移動できるようになります。
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 95%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 100%
 | v1 | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)を参照してください。
+
+>[!NOTE]
+>
+>AEM as a Cloud Serviceでは、管理者がコンポーネントのフィルターを有効にして、コンポーネントのコンテンツをレンダリングする必要があります。
+>
+>[コンポーネントの GitHub ドキュメントを参照してください](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
