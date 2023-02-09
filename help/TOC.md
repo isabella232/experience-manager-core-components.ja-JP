@@ -4,10 +4,10 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+source-git-commit: 534b4f0f8a298772de0f2f899dd4cfbaa3db4e74
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 79%
 
 ---
 
@@ -98,6 +98,30 @@ ht-degree: 100%
       + [エクスペリエンスフラグメント](/help/email/components/experience-fragment.md)
       + [コンテンツフラグメント](/help/email/components/content-fragment.md)
       + [セグメント化](/help/email/components/segmentation.md)
++ アダプティブフォーム {#adaptive-forms}
+   + [はじめに](/help/adaptive-forms/introduction.md)
+   + アダプティブFormsコンポーネント {#adaptive-forms-components}
+      + [アダプティブFormsアコーディオン](/help/adaptive-forms/components/accordion.md)
+      + [アダプティブFormsボタン](/help/adaptive-forms/components/button.md)
+      + [アダプティブFormsチェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
+      + [アダプティブForms日付選択](/help/adaptive-forms/components/date-picker.md)
+      + [アダプティブFormsドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
+      + [アダプティブForms電子メール入力](/help/adaptive-forms/components/email-input.md)
+      + [アダプティブForms添付ファイル](/help/adaptive-forms/components/file-attachment.md)
+      + [アダプティブForms水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [アダプティブForms画像](/help/adaptive-forms/components/image.md)
+      + [アダプティブForms番号入力](/help/adaptive-forms/components/number-input.md)
+      + [アダプティブFormsパネル](/help/adaptive-forms/components/panel-container.md)
+      + [アダプティブFormsラジオボタン](/help/adaptive-forms/components/radio-button.md)
+      + [アダプティブFormsのリセットボタン](/help/adaptive-forms/components/reset-button.md)
+      + [アダプティブForms送信ボタン](/help/adaptive-forms/components/submit-button.md)
+      + [アダプティブForms電話入力](/help/adaptive-forms/components/telephone-input.md)
+      + [アダプティブFormsテキスト](/help/adaptive-forms/components/text.md)
+      + [アダプティブFormsテキストボックス](/help/adaptive-forms/components/text-input.md)
+      + [アダプティブFormsタイトル](/help/adaptive-forms/components/title.md)
+      + [アダプティブFormsウィザードレイアウト](/help/adaptive-forms/components/wizard.md)
+      + [ヘッダー](/help/adaptive-forms/components/header.md)
+      + [フッター](/help/adaptive-forms/components/footer.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](developing/overview.md)
    + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ja)
