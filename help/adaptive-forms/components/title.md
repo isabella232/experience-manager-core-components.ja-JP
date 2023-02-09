@@ -2,7 +2,7 @@
 title: アダプティブFormsコアコンポーネント — タイトル
 description: アダプティブFormsタイトルコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 15%
@@ -40,8 +40,10 @@ ht-degree: 15%
 
 アダプティブFormsタイトルコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、対応するドキュメントへのリンクを示します。
 
+|  |  |
+|---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 互換性あり<br>[リリース 2.0.4](/help/versions.md) 以降 | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/versions.md) 文書。

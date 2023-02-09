@@ -3,8 +3,8 @@ title: コアコンポーネントを使用したオーサリング
 description: AEM では、コンポーネントとは、オーサリングの対象となるページのコンテンツを構成する構造要素のことです。コアコンポーネントは、柔軟で機能豊富なオーサリング機能を提供します。
 role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 

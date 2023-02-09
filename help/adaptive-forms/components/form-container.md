@@ -2,9 +2,9 @@
 title: アダプティブFormsコアコンポーネント — フォームコンテナ
 description: アダプティブフォームを Web ページに追加します。
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 3%
 
 ---
@@ -41,8 +41,10 @@ Formsを使用すると、Web サイトの訪問者は、価値のある情報�
 
 アダプティブForms Container コアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、対応するドキュメントへのリンクを示します。
 
+|  |  |
+|---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 互換性あり<br>[リリース 2.0.4](/help/versions.md) 以降 | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/versions.md) 文書。
@@ -72,6 +74,7 @@ To experience the Accordion Component as well as see examples of its configurati
 ![「送信」タブ](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 ユーザーは、アダプティブフォームの送信に対して様々なアクションを設定できます。
+
 * **リダイレクト URL/パス**  — このオプションを使用すると、ユーザーはアダプティブフォームの送信後にフォームユーザーがリダイレクトされるページを各フォームに設定できます。 詳しくはここをクリック [リダイレクトページの設定方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
 ![「メッセージ」タブを表示](/help/adaptive-forms/assets/formconatiner_showmessage.png)
@@ -80,7 +83,6 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **送信アクション**  — ユーザーがアダプティブフォームの「送信」ボタンをクリックすると、送信アクションがトリガーされます。 ユーザーは、ドロップダウンリストから「送信アクション」を選択して、すぐに使用できる状態でサポートされます。 方法を学ぶ [「送信」タブでの送信アクションの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
-## デザインダイアログ {#design-dialog}
 
 
 

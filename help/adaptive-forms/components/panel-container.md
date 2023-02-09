@@ -2,9 +2,9 @@
 title: アダプティブFormsコアコンポーネント — パネルコンテナ
 description: アダプティブFormsパネルのコンテナコアコンポーネントを使用するか、カスタマイズします。
 role: Architect, Developer, Admin, User
-source-git-commit: 77ff7425be1e591b8f5b973a344d7def8191c033
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1216'
 ht-degree: 2%
 
 ---
@@ -38,8 +38,10 @@ ht-degree: 2%
 
 アダプティブFormsパネルコンテナコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、対応するドキュメントへのリンクを示します。
 
+|  |  |
+|---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 互換性あり<br>[リリース 2.0.4](/help/versions.md) 以降 | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/versions.md) 文書。
@@ -92,7 +94,6 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **HTMLの役割（スクリーンリーダーが読み上げを通知するための役割）** -HTMLの役割は、スクリーンリーダーなどの支援テクノロジーに対するHTML要素の目的を指定するために使用される属性です。 role 属性は、要素に追加のコンテキストと意味的意味を提供するために使用され、スクリーンリーダーがコンテンツを解釈し、ユーザーに通知しやすくなります。 例えば、AEM Formsでは、フォームフィールドのラベルは「label」という役割を持ち、入力フィールドは「textbox」という役割を持つ場合があります。 これにより、スクリーンリーダーはラベルと入力フィールドの関係を理解し、ユーザーに正しく通知することができます。
 
-## デザインダイアログ {#design-dialog}
 
 
 

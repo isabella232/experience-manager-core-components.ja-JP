@@ -2,7 +2,7 @@
 title: アダプティブFormsコアコンポーネント — 送信ボタン
 description: アダプティブForms送信ボタンのコアコンポーネントを使用するか、カスタマイズします。
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 2%
@@ -31,8 +31,10 @@ ht-degree: 2%
 
 アダプティブForms送信ボタンのコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、対応するドキュメントへのリンクを示します。
 
+|  |  |
+|---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 互換性あり<br>[リリース 2.0.4](/help/versions.md) 以降 | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/versions.md) 文書。

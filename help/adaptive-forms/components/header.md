@@ -2,9 +2,9 @@
 title: アダプティブFormsコアコンポーネント — ヘッダー
 description: アダプティブFormsヘッダーコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 7%
 
 ---
@@ -34,10 +34,11 @@ ht-degree: 7%
 
 アダプティブFormsヘッダーコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、対応するドキュメントへのリンクを示します。
 
+|  |  |
+|---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 互換性あり<br>[リリース 2.0.4](/help/versions.md) 以降 | 互換性あり | 互換性あり |
-
 コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/versions.md) 文書。
 
 
@@ -80,6 +81,5 @@ To experience the Accordion Component as well as see examples of its configurati
 
 このセクションでは、ヘッダーに含めるテキストを入力できます。
 
-## デザインダイアログ {#design-dialog}
 
 
