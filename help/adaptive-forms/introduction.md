@@ -2,9 +2,9 @@
 title: AEM Adaptive Formsコアコンポーネントの概要
 description: アダプティブFormsコアコンポーネントの柔軟性を利用して、魅力的な登録エクスペリエンス（フォーム）を作成し、Adobe Experience Managerの機能を活用して提供します。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1231'
 ht-degree: 12%
 
 ---
@@ -16,9 +16,7 @@ Adobe Experience ManagerのアダプティブFormsコアコンポーネントを
 
 ## コアコンポーネント  {#overview}
 
-Adobe Experience Manager(AEM) では、コンポーネントは、ページやフォームの作成に使用される構築ブロックです。 作成者がコンテンツを作成および管理するためのシンプルで強力な方法を提供すると同時に、開発者には、カスタムコンポーネントの作成に必要な柔軟性と拡張性も提供します。
-
-は、Web サイトやフォームの開発時間を短縮し、メンテナンスコストを削減するように設計されており、柔軟性が高く、Web サイトやフォームの特定のニーズに合わせて容易にカスタマイズできます。
+Adobe Experience Manager(AEM) では、コンポーネントは、ページやフォームの作成に使用される構築ブロックです。 作成者がコンテンツを作成および管理するためのシンプルで強力な方法を提供すると同時に、開発者には、カスタムコンポーネントの作成に必要な柔軟性と拡張性も提供します。 これらは、Web サイトやフォームの開発時間を短縮し、メンテナンスコストを削減するように設計されており、柔軟性が高く、Web サイトやフォームの特定のニーズに合わせて容易にカスタマイズできます。
 
 また、コアコンポーネントは、レスポンシブに設計され、デスクトップ、タブレット、スマートフォンなど様々なデバイスをサポートします。 また、最新の Web 標準とベストプラクティスに準拠し、Web コンテンツを作成するための堅牢で信頼性の高いソリューションです。
 
@@ -43,16 +41,16 @@ Adobe Experience Manager(AEM) では、コンポーネントは、ページや�
 | 用途が広い | コンポーネントは、Forms作成者がほとんどあらゆるレイアウトを組み立てることができる汎用概念を表します。 |
 | 設定可能 | テンプレートレベル [コンテンツポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ja#content-policies) 使用できるフィーチャと使用できないフィーチャを定義します。 |
 | 高いアクセシビリティ | 彼らは次の条件に従います。 [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/), ARIA ラベルの提供，キーボードナビゲーションのサポート ([既知の問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))、および支援テクノロジー用のテキスト（スクリーンリーダーなど）。 |
-| テーマ適用可能 | コンポーネントは[スタイルシステム](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ja)を実装し、マークアップは [BEM CSS の命名規則](http://getbem.com/)に従っています。 |
+| テーマテーブル | コンポーネントは[スタイルシステム](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ja)を実装し、マークアップは [BEM CSS の命名規則](https://getbem.com/)に従っています。 |
 | カスタマイズ可能 | いくつかのパターンが用意されているので、HTML の調整から高度な機能の再利用まで、カスタマイズが容易になっています。 |
 | バージョン管理 | [バージョン管理ポリシー](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)が設定されているので、影響を受ける可能性のある改善の際にも、コアコンポーネントが原因でサイトが機能しなくなることはありません。 |
 | オープンソース | 何か問題がある場合は、改善案を寄稿します。 |
 
 ## メリット {#benefits}
 
-データキャプチャのエクスペリエンスは、リードの生成と登録にとって重要です。アダプティブFormsコアコンポーネントは、データキャプチャ用に最適化されたフォームを作成するための強力なソリューションです。 コアコンポーネントを使用して、基盤コンポーネントを介してこれらのエクスペリエンスを作成する理由のいくつかを次に示します。
+データキャプチャのエクスペリエンスは、リードの生成と登録にとって重要です。アダプティブFormsコアコンポーネントは、データキャプチャ用に最適化されたフォームを作成するための強力なソリューションです。 コアコンポーネントを使用して、基盤コンポーネントを介してこれらのエクスペリエンスを作成する理由には、次のようなものがあります。
 
-* **GitHub での入手可否と包括的なドキュメント**:AEMアダプティブFormsコアコンポーネントはオープンソースで、GitHub で利用できます。詳細なドキュメントも用意されています。 これにより、開発者はコンポーネントとその動作を理解し、開発に貢献することが容易になります。 aemcomponents.dev Web サイトも貴重なリソースです。開発者は、コンポーネントの動作を確認し、詳細なドキュメントにアクセスできます。
+* **GitHub での入手可否と包括的なドキュメント**:AEMアダプティブFormsコアコンポーネントはオープンソースで、GitHub で利用できます。詳細なドキュメントも用意されています。 これにより、開発者はコンポーネントとその動作を理解し、開発に貢献することが容易になります。 この [aemcomponents.dev](https://www.aemcomponents.dev/) web サイトはまた、開発者がコンポーネントの動作を確認し、詳細なドキュメントにアクセスできる、貴重なリソースです。
 
 * **スタイル設定の BEM モデル**:コアコンポーネントは、スタイル設定に BEM（ブロック要素修飾子）モデルに従います。BEM は、CSS を整理するための、広く使用されている確立された手法です。 これにより、開発者はスタイルの編成方法と、特定のニーズに合わせてスタイルを変更する方法を理解しやすくなります。
 
@@ -89,7 +87,7 @@ Adobe Experience Manager(AEM) では、コンポーネントは、ページや�
 
 ## アダプティブFormsコアコンポーネント {#components}
 
-アダプティブFormsコアコンポーネントの現在のバージョンには、次のコンポーネントが含まれています。
+以下を使用できます。 [アダプティブFormsエディター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) コアコンポーネントを作成するために、アダプティブFormsをベースにします。 アダプティブFormsコアコンポーネントの現在のバージョンでは、次のコンポーネントを使用できます。
 
 * アコーディオン
 * ボタン
