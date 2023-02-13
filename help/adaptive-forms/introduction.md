@@ -2,10 +2,10 @@
 title: AEM Adaptive Formsコアコンポーネントの概要
 description: アダプティブFormsコアコンポーネントの柔軟性を利用して、魅力的な登録エクスペリエンス（フォーム）を作成し、Adobe Experience Managerの機能を活用して提供します。
 role: Architect, Developer, Admin, User
-source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
+source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
 workflow-type: tm+mt
-source-wordcount: '1231'
-ht-degree: 12%
+source-wordcount: '1028'
+ht-degree: 13%
 
 ---
 
@@ -40,11 +40,14 @@ Adobe Experience Manager(AEM) では、コンポーネントは、ページや�
 | クラウド対応 | 使用可能  [AEM Formsas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
 | 用途が広い | コンポーネントは、Forms作成者がほとんどあらゆるレイアウトを組み立てることができる汎用概念を表します。 |
 | 設定可能 | テンプレートレベル [コンテンツポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ja#content-policies) 使用できるフィーチャと使用できないフィーチャを定義します。 |
-| 高いアクセシビリティ | 彼らは次の条件に従います。 [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/), ARIA ラベルの提供，キーボードナビゲーションのサポート ([既知の問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))、および支援テクノロジー用のテキスト（スクリーンリーダーなど）。 |
+| 高いアクセシビリティ | ARIA ラベルを提供し、キーボードナビゲーション ([既知の問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))、および支援テクノロジー用のテキスト（スクリーンリーダーなど）。 |
 | テーマテーブル | コンポーネントは[スタイルシステム](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ja)を実装し、マークアップは [BEM CSS の命名規則](https://getbem.com/)に従っています。 |
 | カスタマイズ可能 | いくつかのパターンが用意されているので、HTML の調整から高度な機能の再利用まで、カスタマイズが容易になっています。 |
 | バージョン管理 | [バージョン管理ポリシー](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)が設定されているので、影響を受ける可能性のある改善の際にも、コアコンポーネントが原因でサイトが機能しなくなることはありません。 |
 | オープンソース | 何か問題がある場合は、改善案を寄稿します。 |
+
+<!-- comply with [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), -->
+
 
 ## メリット {#benefits}
 
@@ -62,17 +65,22 @@ Adobe Experience Manager(AEM) では、コンポーネントは、ページや�
 
 * **スタイル設定が容易**:コアコンポーネントは、基盤コンポーネントとは異なり、スタイル設定が容易です。 テーマの作成プロセスは Sites に似ていますが、同じテーマ/CSS を親の Sites ページから継承できます。 さらに、スタイル設定の BEM モデルを使用すると、スタイルを理解および変更しやすくなります。
 
-* **アクセシビリティ**:アダプティブFormsコアコンポーネントは、次のようなアクセシビリティ標準およびガイドラインをサポートしています。  [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)障害を持つユーザー（スクリーンリーダーなどの支援テクノロジーを使用しているユーザーを含む）がフォームを確実に使用できるようにするため。
+* **アクセシビリティ**:アダプティブFormsコアコンポーネントは、障碍のあるユーザー（スクリーンリーダーなどの支援テクノロジーを使用しているユーザーを含む）がフォームを確実に使用できるように、アクセシビリティ標準およびガイドラインをサポートしています
 
-* **AEM Sitesとの連携**:コアコンポーネントは、AEM Sitesとより整合的に設計されており、Sites ユーザーは、新しい知識を習得することなく、コアコンポーネントを簡単に採用および使用できます。 コンポーネントは、Sites と同じフロントエンドパイプラインを使用するので、外観のスタイル設定と変更が容易になります。 さらに、次の点でこの位置揃えをさらに示します。
 
-   * **ページエディターを使用したインラインオーサリングエクスペリエンス**:コアコンポーネントは、 Sites エディターとインラインでオーサリングできるオーサリングエクスペリエンスを備えており、ダイアログやその他のエクスペリエンスはページエディターと同様です。 これにより、Sites ユーザーは、Sites エディターの使い慣れたコンテキスト内で、フォームを簡単に作成および管理できます。
+<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
 
-   * **サイトエディターでのインラインフォーム編集**:コアコンポーネントを使用すると、Sites エディター内でインラインフォーム編集を実行できるので、エディター間を切り替える必要がなくなります。 これにより、オーサリングエクスペリエンスが合理化され、フォームの作成と管理が容易になります。
+*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
 
-   * **Formsの Sites 機能の継承**:Sites ページ内で作成したFormsは、Sites と同じ機能を継承します。 これにより、AEM Sitesのコンテキスト内でフォームを作成および管理するためのシームレスで統合されたエクスペリエンスが提供されます
+<!-- Additionally, the following points further illustrate this alignment:
 
-   <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+
+    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+
+    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+    
+    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
 
 
 
