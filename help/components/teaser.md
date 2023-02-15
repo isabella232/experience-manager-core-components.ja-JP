@@ -3,9 +3,9 @@ title: ティーザーコンポーネント
 description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '999'
+source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
+workflow-type: tm+mt
+source-wordcount: '988'
 ht-degree: 100%
 
 ---
@@ -81,10 +81,6 @@ ht-degree: 100%
 * **アクセシビリティ用代替テキスト** - 視覚に障害のあるユーザー向けの画像説明を定義できます。
    * **ページから代替テキストを継承** - このオプションでは、DAM における `dc:description` メタデータのリンク先アセット値の代替説明を使用します。アセットがリンクされていない場合は現在のページの代替説明を使用します。
 * **代替テキストを提供しない** - このオプションは、画像が単なる装飾画像である場合や、ページへの追加情報を伝えない場合に、スクリーンリーダーなどの支援テクノロジーで画像を無視するように指定します。
-
->[!NOTE]
->
->[Dynamic Media 機能](image.md#dynamic-media)は、現在、ティーザーコンポーネントでは使用できません。
 
 ### 「スタイル」タブ {#styles-tab-edit}
 
