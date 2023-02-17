@@ -4,7 +4,7 @@ description: ティーザーコンポーネントでは、画像、タイトル�
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
 ht-degree: 100%
 
