@@ -4,9 +4,9 @@ description: 目次コンポーネントは、ページコンテンツ内のタ�
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->AEM as a Cloud Serviceでは、管理者がコンポーネントのフィルターを有効にして、コンポーネントのコンテンツをレンダリングする必要があります。
+>AEM as a Cloud Service では、コンポーネントのコンテンツをレンダリングするために、管理者がコンポーネントのフィルターを有効にする必要があります。
 >
->[コンポーネントの GitHub ドキュメントを参照してください](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) を参照してください。
+>詳しくは、[コンポーネントの GitHub ドキュメント](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)を参照してください。
 
 ### 技術的詳細 {#technical-details}
 
