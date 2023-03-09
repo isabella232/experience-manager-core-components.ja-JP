@@ -1,12 +1,12 @@
 ---
-title: 'アコーディオンコンポーネント '
+title: アコーディオンコンポーネント
 description: コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1067'
-ht-degree: 100%
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+workflow-type: tm+mt
+source-wordcount: '1068'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ## パネルへのディープリンク {#deep-linking}
 
-アコーディオンと[タブコンポーネント](tabs.md)は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
+アコーディオン [カルーセル、](carousel.md) および [タブコンポーネント](tabs.md) は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
 
 次の手順を実行します。
 

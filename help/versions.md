@@ -3,9 +3,9 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
+source-git-commit: 94c7783b861d6e793092d79da67a78120aa80fdc
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2873'
 ht-degree: 99%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | このリリースでは、新しいバージョンの [リストコンポーネント](/help/components/list.md) 改善と共に [ティーザー](/help/components/teaser.md) およびの更新 [PDFビューア](/help/components/pdf-viewer.md) | - | 6.5.14.0+ * | 継続的 | 8、11 | 2023 年 2 月 9 日 |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | このリリースでは、新しいバージョンの [リストコンポーネント](/help/components/list.md) 改善と共に [ティーザー](/help/components/teaser.md) およびの更新 [PDFビューア](/help/components/pdf-viewer.md) および [カルーセル](/help/components/carousel.md) | - | 6.5.14.0+ * | 継続的 | 8、11 | 2023 年 2 月 9 日 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | v1 および v2 [ティーザーコンポーネント](/help/components/teaser.md)の問題を修正するパッチリリースです。 | - | 6.5.13.0+ * | 継続的 | 8、11 | 2022年9月12日（PT） |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | このリリースには、LinkHandler API の公開、[画像コンポーネント](/help/components/image.md)と[データレイヤー](/help/developing/data-layer/overview.md)、マルチパネルコンポーネントの改善など、多数の機能強化が含まれています。 | - | 6.5.13.0+ * | 継続的 | 8、11 | 2022年9月12日（PT） |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | このリリースでは、AdaptiveImageServlet を使用した SVG 画像の配信に関する問題が修正されています。 | - | 6.5.13.0+ * | 継続的 | 8、11 | 2022年8月4日（PT） |

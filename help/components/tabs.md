@@ -3,10 +3,10 @@ title: タブコンポーネント
 description: タブコンポーネントを使用すれば、複数のタブを作成してページ上のコンテンツを整理できます。
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ## パネルへのディープリンク {#deep-linking}
 
-タブと[アコーディオンコンポーネント](accordion.md)は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
+タブ [カルーセル、](carousel.md) および [アコーディオンコンポーネント](accordion.md) は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
 
 次の手順を実行します。
 
