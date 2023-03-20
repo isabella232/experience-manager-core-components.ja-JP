@@ -4,9 +4,9 @@ user-guide-title: AEM コアコンポーネント
 breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: 199cd9e1e49a1f7b939aa9cc3a62dcb3e0db96cd
+source-git-commit: 279b96734bc8621b98b828fa80ebe693dc7904e0
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '366'
 ht-degree: 79%
 
 ---
@@ -102,6 +102,7 @@ ht-degree: 79%
       + [セグメント化](/help/email/components/segmentation.md)
 + アダプティブフォーム {#adaptive-forms}
    + [はじめに](/help/adaptive-forms/introduction.md)
+   + [バージョン履歴](/help/adaptive-forms/version.md)
    + アダプティブFormsコンポーネント {#adaptive-forms-components}
       + [アダプティブFormsアコーディオン](/help/adaptive-forms/components/accordion.md)
       + [アダプティブFormsボタン](/help/adaptive-forms/components/button.md)

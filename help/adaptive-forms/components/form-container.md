@@ -2,10 +2,10 @@
 title: アダプティブFormsコアコンポーネント — フォームコンテナ
 description: アダプティブフォームを Web ページに追加します。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 3%
+source-wordcount: '719'
+ht-degree: 2%
 
 ---
 
@@ -39,16 +39,13 @@ Formsを使用すると、Web サイトの訪問者は、価値のある情報�
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブForms Container コアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsアコーディオンコアコンポーネントは、Cloud Service用コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされ、AEM 6.5.16.0 Forms以降用コアコンポーネント 1.1.12 にリリースされました。 次の表に、サポートされているすべてのバージョン、AEMの互換性、および対応するドキュメントへのリンクを示します。
 
-|  |  |
-|---|---|
-| コンポーネントのバージョン | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 互換性あり<br>[リリース 2.0.4](/help/versions.md) 以降 | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms以降 |
+|---|---|---|
+| v1 | 互換性あり<br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降 | 互換性あり<br>[リリース 1.1.12](/help/adaptive-forms/version.md) 2.0.0 未満です。 |
 
-コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/versions.md) 文書。
-
+コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/adaptive-forms/version.md) 文書。
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
@@ -82,7 +79,3 @@ To experience the Accordion Component as well as see examples of its configurati
 * **メッセージを表示**  — このオプションを使用すると、アダプティブフォームが正常に送信されたときに表示されるメッセージを追加できます。 定義済みのテキストはダイアログボックスに含まれ、ユーザーが変更できます。 メッセージを表示ダイアログでは、追加したテキストを書式設定できるリッチテキスト書式設定ツールがサポートされています。
 
 * **送信アクション**  — ユーザーがアダプティブフォームの「送信」ボタンをクリックすると、送信アクションがトリガーされます。 ユーザーは、ドロップダウンリストから「送信アクション」を選択して、すぐに使用できる状態でサポートされます。 方法を学ぶ [「送信」タブでの送信アクションの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
-
-
-
-

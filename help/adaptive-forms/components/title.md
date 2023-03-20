@@ -2,13 +2,13 @@
 title: アダプティブFormsコアコンポーネント — タイトル
 description: アダプティブFormsタイトルコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 15%
+source-wordcount: '862'
+ht-degree: 14%
 
 ---
-
 
 # タイトル {#title-input-adaptive-forms-core-component}
 
@@ -38,15 +38,13 @@ ht-degree: 15%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブFormsタイトルコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsアコーディオンコアコンポーネントは、Cloud Service用コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされ、AEM 6.5.16.0 Forms以降用コアコンポーネント 1.1.12 にリリースされました。 次の表に、サポートされているすべてのバージョン、AEMの互換性、および対応するドキュメントへのリンクを示します。
 
-|  |  |
-|---|---|
-| コンポーネントのバージョン | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 互換性あり<br>[リリース 2.0.4](/help/versions.md) 以降 | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms以降 |
+|---|---|---|
+| v1 | 互換性あり<br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降 | 互換性あり<br>[リリース 1.1.12](/help/adaptive-forms/version.md) 2.0.0 未満です。 |
 
-コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/versions.md) 文書。
+コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/adaptive-forms/version.md) 文書。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -74,28 +72,32 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログは、日付選択コンポーネントの CSS スタイルを定義および管理するために使用されます。
+「デザイン」タブは、日付選択コンポーネントの CSS スタイルを定義および管理するために使用します。
 
 ### タイトル
 
 「タイトル」タブを使用すると、テンプレート作成者は、フォーム作成者にデフォルトの許可されるHTML見出し要素と許可される見出し要素を設定できます。
 
-![デザインダイアログの「タイトル」タブ](/help/assets/accordion-design-properties.png)
+![デザインダイアログの「タイトル」タブ](/help/adaptive-forms/assets/title_heading.png)
 
 * **許可されている見出し要素**:作成者がタイトルに使用できる見出し要素をテンプレート作成者が選択できる、複数のオプションを含むリストです。
 
 * **デフォルトの見出し要素**:タイトルコンポーネントのデフォルトの見出し要素を設定するドロップダウンリストです。
 
-
 ### 「スタイル」タブ {#styles-tab}
 
-デザインダイアログは、コンポーネントの CSS スタイルを定義および管理するために使用します。 アダプティブFormsの日付選択コアコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling).
+「 」タブは、コンポーネントの CSS スタイルを定義および管理するために使用します。 アダプティブFormsの日付選択コアコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling).
 
-**デフォルトの CSS クラス**:アダプティブForms日付選択コアコンポーネントのデフォルト CSS クラスを指定できます。
+![デザインダイアログの「タイトル」タブ](/help/adaptive-forms/assets/title_styles.png)
 
-**許可されたスタイル**:スタイルを定義するには、スタイルを表す名前と CSS クラスを指定します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight」を指定できます。太字」 アダプティブフォームに対して、アダプティブFormsエディターでこれらのスタイルを使用または適用できます。 スタイルを適用するには、アダプティブFormsエディターで、スタイルを適用するコンポーネントを選択し、プロパティダイアログに移動して、 **スタイル** 」ドロップダウンリストから選択できます。 スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新し、変更を保存します。
+* **デフォルトの CSS クラス**:アダプティブForms日付選択コアコンポーネントのデフォルト CSS クラスを指定できます。
+
+* **許可されたスタイル**:スタイルを定義するには、スタイルを表す名前と CSS クラスを指定します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight」を指定できます。太字」 アダプティブフォームに対して、アダプティブFormsエディターでこれらのスタイルを使用または適用できます。 スタイルを適用するには、アダプティブFormsエディターで、スタイルを適用するコンポーネントを選択し、プロパティダイアログに移動して、 **スタイル** 」ドロップダウンリストから選択できます。 スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新し、変更を保存します。
 
 ### 「形式」タブ {#format-tab}
 
 「形式」タブでは、デフォルトおよびカスタムの日付形式を指定できます。
+
+![「形式」タブ](/help/adaptive-forms/assets/title_styles.png)
+
 

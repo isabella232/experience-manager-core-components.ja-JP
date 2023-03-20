@@ -2,13 +2,13 @@
 title: アダプティブFormsコアコンポーネント — テキスト
 description: アダプティブFormsテキストコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 3%
+source-wordcount: '812'
+ht-degree: 2%
 
 ---
-
 
 # テキスト {#text-adaptive-forms-core-component}
 
@@ -34,15 +34,13 @@ ht-degree: 3%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブFormsテキストコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsアコーディオンコアコンポーネントは、Cloud Service用コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされ、AEM 6.5.16.0 Forms以降用コアコンポーネント 1.1.12 にリリースされました。 次の表に、サポートされているすべてのバージョン、AEMの互換性、および対応するドキュメントへのリンクを示します。
 
-|  |  |
-|---|---|
-| コンポーネントのバージョン | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 互換性あり<br>[リリース 2.0.4](/help/versions.md) 以降 | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms以降 |
+|---|---|---|
+| v1 | 互換性あり<br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降 | 互換性あり<br>[リリース 1.1.12](/help/adaptive-forms/version.md) 2.0.0 未満です。 |
 
-コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/versions.md) 文書。
+コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/adaptive-forms/version.md) 文書。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -69,11 +67,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 デザインダイアログは、テキストコンポーネントの CSS スタイルを定義および管理するために使用されます。
 
-
 ### 「スタイル」タブ {#styles-tab}
 
-デザインダイアログは、コンポーネントの CSS スタイルを定義および管理するために使用します。 アダプティブFormsテキストコアコンポーネントは、AEMをサポートしています [スタイルシステム](/help/get-started/authoring.md#component-styling).
+「 」タブは、コンポーネントの CSS スタイルを定義および管理するために使用します。 アダプティブFormsテキストコアコンポーネントは、AEMをサポートしています [スタイルシステム](/help/get-started/authoring.md#component-styling).
 
-**デフォルトの CSS クラス**:アダプティブFormsテキストコアコンポーネントのデフォルト CSS クラスを指定できます。
+![デザインダイアログ](/help/adaptive-forms/assets/reset_designdialog.png)
 
-**許可されたスタイル**:スタイルを定義するには、スタイルを表す名前と CSS クラスを指定します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight」を指定できます。太字」 アダプティブフォームに対して、アダプティブFormsエディターでこれらのスタイルを使用または適用できます。 スタイルを適用するには、アダプティブFormsエディターで、スタイルを適用するコンポーネントを選択し、プロパティダイアログに移動して、 **スタイル** 」ドロップダウンリストから選択できます。 スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新し、変更を保存します。
+* **デフォルトの CSS クラス**:アダプティブFormsテキストコアコンポーネントのデフォルト CSS クラスを指定できます。
+
+* **許可されたスタイル**:スタイルを定義するには、スタイルを表す名前と CSS クラスを指定します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight」を指定できます。太字」 アダプティブフォームに対して、アダプティブFormsエディターでこれらのスタイルを使用または適用できます。 スタイルを適用するには、アダプティブFormsエディターで、スタイルを適用するコンポーネントを選択し、プロパティダイアログに移動して、 **スタイル** 」ドロップダウンリストから選択できます。 スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新し、変更を保存します。

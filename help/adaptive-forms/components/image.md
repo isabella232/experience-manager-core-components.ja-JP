@@ -2,13 +2,13 @@
 title: アダプティブFormsコアコンポーネント — 画像
 description: アダプティブForms画像コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '978'
 ht-degree: 2%
 
 ---
-
 
 # 画像 {#image-adaptive-forms-core-component}
 
@@ -36,15 +36,13 @@ ht-degree: 2%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブForms画像コアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、対応するドキュメントへのリンクを示します。
+アダプティブFormsアコーディオンコアコンポーネントは、Cloud Service用コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされ、AEM 6.5.16.0 Forms以降用コアコンポーネント 1.1.12 にリリースされました。 次の表に、サポートされているすべてのバージョン、AEMの互換性、および対応するドキュメントへのリンクを示します。
 
-|  |  |
-|---|---|
-| コンポーネントのバージョン | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 互換性あり<br>[リリース 2.0.4](/help/versions.md) 以降 | 互換性あり | 互換性あり |
+| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms以降 |
+|---|---|---|
+| v1 | 互換性あり<br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降 | 互換性あり<br>[リリース 1.1.12](/help/adaptive-forms/version.md) 2.0.0 未満です。 |
 
-コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/versions.md) 文書。
+コアコンポーネントのバージョンとリリースについて詳しくは、 [コアコンポーネントのバージョン](/help/adaptive-forms/version.md) 文書。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -87,7 +85,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「スタイル」タブ {#styles-tab}
 
-デザインダイアログは、コンポーネントの CSS スタイルを定義および管理するために使用します。 アダプティブForms画像コアコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling).
+「 」タブは、コンポーネントの CSS スタイルを定義および管理するために使用します。 アダプティブForms画像コアコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling).
+
+![デザインダイアログ](/help/adaptive-forms/assets/image_designdialog.png)
 
 **デフォルトの CSS クラス**:アダプティブForms画像コアコンポーネントのデフォルト CSS クラスを指定できます。
 
