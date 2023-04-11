@@ -5,7 +5,7 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1192'
 ht-degree: 100%
 
@@ -97,7 +97,7 @@ AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用
 | `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMP](/help/developing/amp.md) のサポートを有効にします。 |
 | `enableDynamicMedia` | `n` | プロジェクトポリシー設定で基盤 Dynamic Media コンポーネントを有効にし、コア画像コンポーネントのポリシーで Dynamic Media 機能をアクティブ化します。 |
 | `enableSSR` | `n` | フロントエンドプロジェクトに対して SSR を有効にするオプション |
-| `precompiledScripts` | `n` | `ui.apps` のサーバー側スクリプトを[事前にコンパイル](/help/developing/archetype/precompiled-bundled-scripts.md)して、`ui.apps` プロジェクトのセカンダリバンドルアーティファクトとしてビルドにアタッチするオプション。`aemVersion` を `cloud` に設定する必要があります。 |
+| `precompiledScripts` | `n` | `ui.apps` のサーバーサイドスクリプトを[事前にコンパイル](/help/developing/archetype/precompiled-bundled-scripts.md)して、`ui.apps` プロジェクトのセカンダリバンドルアーティファクトとしてビルドにアタッチするオプション。`aemVersion` を `cloud` に設定する必要があります。 |
 | `includeFormsheadless` | `n` |  [Forms コアコンポーネント](https://github.com/adobe/aem-core-forms-components)の依存関係、 `ui.frontend.react.forms.af` およびヘッドレスアーティファクトを組み込みます。 |
 
 ## システム要件 {#requirements}
