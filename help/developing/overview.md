@@ -4,7 +4,7 @@ description: コアコンポーネントは、豊富な機能、継続的配信�
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1559'
 ht-degree: 100%
 
