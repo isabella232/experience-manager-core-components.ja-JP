@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | このリリースでは、新しいバージョンの [リストコンポーネント](/help/components/list.md) 改善と共に [ティーザー](/help/components/teaser.md) およびの更新 [PDFビューア](/help/components/pdf-viewer.md) および [カルーセル](/help/components/carousel.md) | - | 6.5.14.0+ * | 継続的 | 8、11 | 2023 年 2 月 9 日 |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | このリリースでは、新しいバージョンの [リストコンポーネント](/help/components/list.md) 改善と共に [ティーザー](/help/components/teaser.md) およびの更新 [PDFビューア](/help/components/pdf-viewer.md) および [カルーセル](/help/components/carousel.md) | - | 6.5.14.0+ * | 継続的 | 8、11 | 2023年2月9日（PT） |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | v1 および v2 [ティーザーコンポーネント](/help/components/teaser.md)の問題を修正するパッチリリースです。 | - | 6.5.13.0+ * | 継続的 | 8、11 | 2022年9月12日（PT） |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | このリリースには、LinkHandler API の公開、[画像コンポーネント](/help/components/image.md)と[データレイヤー](/help/developing/data-layer/overview.md)、マルチパネルコンポーネントの改善など、多数の機能強化が含まれています。 | - | 6.5.13.0+ * | 継続的 | 8、11 | 2022年9月12日（PT） |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | このリリースでは、AdaptiveImageServlet を使用した SVG 画像の配信に関する問題が修正されています。 | - | 6.5.13.0+ * | 継続的 | 8、11 | 2022年8月4日（PT） |
@@ -91,7 +91,7 @@ ht-degree: 99%
 
 コアコンポーネントの各リリースと、そこに含まれている各コンポーネントのバージョンを次の表に示します。
 
-|  | リリース 1.0.0 ～ 1.0.6 | リリース 1.1.0 | リリース 2.0.0 ～ 2.0.8 | リリース 2.1.0 | リリース 2.2.0 ～ 2.2.0 | リリース 2.3.0 ～ 2.3.2 | リリース 2.4.0 | リリース 2.5.0 | リリース 2.6.0 | リリース 2.7.0 ～ 2.8.0 | リリース 2.9.0～2.17.14 | リリース 2.18.0 | リリース 2.19.0 | リリース2.20.0-2.21.2 | リリース 2.22.0+ |
+|  | リリース 1.0.0 ～ 1.0.6 | リリース 1.1.0 | リリース 2.0.0 ～ 2.0.8 | リリース 2.1.0 | リリース 2.2.0 ～ 2.2.0 | リリース 2.3.0 ～ 2.3.2 | リリース 2.4.0 | リリース 2.5.0 | リリース 2.6.0 | リリース 2.7.0 ～ 2.8.0 | リリース 2.9.0～2.17.14 | リリース 2.18.0 | リリース 2.19.0 | リリース 2.20.0 ～2.21.2 | リリース 2.22.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **[ページ](components/page.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
 | **[タイトル](components/title.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
