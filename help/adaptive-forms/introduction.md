@@ -3,10 +3,10 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
+workflow-type: tm+mt
+source-wordcount: '1168'
+ht-degree: 90%
 
 ---
 
@@ -90,32 +90,41 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 
 | AEM | AEM Forms のアドオン | コアコンポーネント |
 |---|---|---|
-| AEM as a Cloud Service | Forms - デジタル登録 | [リリース 2.20.8](/help/versions.md)+ |
+| AEM as a Cloud Service | Forms - デジタル登録 | [リリース 2.20.8](version.md)+ |
+| AEM 6.5 | Formsアドオン | [リリース 1.1.12](version.md)+ |
+
+## コアコンポーネントベースのアダプティブフォームをセットアップして作成する
+
+**AEM Formsas a Cloud Service**:新しいAEM Formsas a Cloud Serviceプログラムを作成すると、お使いの環境で既にアダプティブFormsコアコンポーネントが有効になっています。 アーキタイプ 39 以前の Forms as a Cloud Service 環境をご利用の場合は、[ご利用の環境でアダプティブフォームコアコンポーネントを有効にします](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project)。
+
+ご利用の環境でコアコンポーネントを有効にすると、**アダプティブフォーム（コアコンポーネント）**&#x200B;のテンプレートとキャンバステーマが環境に追加されます。AEM SDK のバージョンが2023.02.0より前の場合、 [次のことを確認します。 `prerelease` お使いの環境で有効にしたフラグ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) アダプティブFormsコアコンポーネントは、2023.02.0リリース前のプリリースに含まれていたので、
+
+アダプティブフォームの作成にアダプティブFormsウィザードとアダプティブフォームエディターを使用するには、「アダプティブフォームの作成」([コアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja?)) をクリックします。
 
 
 ## アダプティブフォームのコアコンポーネント {#components}
 
- [アダプティブフォームエディター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)を使用して、コアコンポーネントをベースとするアダプティブフォームを作成できます。 アダプティブフォームのコアコンポーネントの現在のバージョンでは、次のコンポーネントを使用できます。
+アダプティブフォームのコアコンポーネントの現在のバージョンでは、次のコンポーネントを使用できます。
 
-* アコーディオン
-* ボタン
-* チェックボックスグループ
-* 日付選択
-* ドロップダウンリスト
-* メール入力
-* フォームコンテナ
-* ファイル添付
-* フッター
-* ヘッダー
-* 水平タブ
-* 画像
-* 数値入力
-* パネルコンテナ
-* ラジオボタン
-* リセットボタン
-* 送信ボタン
-* 電話入力
-* テキスト入力
-* テキスト
-* タイトル
-* ウィザード
+* [アコーディオン](/help/adaptive-forms/components/accordion.md)
+* [ボタン](/help/adaptive-forms/components/button.md)
+* [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
+* [日付選択](/help/adaptive-forms/components/date-picker.md)
+* [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
+* [メール入力](/help/adaptive-forms/components/email-input.md)
+* [フォームコンテナ](/help/adaptive-forms/components/form-container.md)
+* [ファイル添付](/help/adaptive-forms/components/file-attachment.md)
+* [フッター](/help/adaptive-forms/components/footer.md)
+* [ヘッダー](/help/adaptive-forms/components/header.md)
+* [水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
+* [画像](/help/adaptive-forms/components/image.md)
+* [数値入力](/help/adaptive-forms/components/number-input.md)
+* [パネルコンテナ](/help/adaptive-forms/components/panel-container.md)
+* [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
+* [リセットボタン](/help/adaptive-forms/components/reset-button.md)
+* [送信ボタン](/help/adaptive-forms/components/submit-button.md)
+* [電話入力](/help/adaptive-forms/components/telephone-input.md)
+* [テキスト入力](/help/adaptive-forms/components/text-input.md)
+* [テキスト](/help/adaptive-forms/components/text.md)
+* [タイトル](/help/adaptive-forms/components/title.md)
+* [ウィザード](/help/adaptive-forms/components/wizard.md)
