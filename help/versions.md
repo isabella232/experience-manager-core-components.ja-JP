@@ -3,20 +3,20 @@ title: コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 94c7783b861d6e793092d79da67a78120aa80fdc
+source-git-commit: 468078da4d31d7eedf9bd73cbcf2d71107bfe3f4
 workflow-type: tm+mt
-source-wordcount: '2873'
-ht-degree: 99%
+source-wordcount: '2924'
+ht-degree: 97%
 
 ---
 
 # コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネントの現在のリリースは 2.22.0 で、[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja) および[オンプレミス AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ja) のインストールと互換性があります。
+コアコンポーネントの現在のリリースは 2.22.4 で、[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja) および[オンプレミス AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ja) のインストールと互換性があります。
 
 ## リリース履歴と互換性 {#release-history-and-compatibility}
 
-コアコンポーネントは、柔軟性を備え、サポートされるすべての AEM バージョンと互換性があるように設計されています。このため、コンポーネントの 1 つのリリースに同じコンポーネントの複数のバージョンを含めることができます。
+コアコンポーネントは、柔軟性を備え、サポートされるすべての AEM バージョンと互換性があるように設計されています。このため、コンポーネントの 1 つのリリースに同じコンポーネントの複数のバージョンを含めることが©きます。
 
 コアコンポーネントの各リリースの互換性、およびリリースとそこに含まれているコンポーネントバージョンの対応関係を以下の表に示します。
 
@@ -26,6 +26,8 @@ ht-degree: 99%
 
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | リリース日 |
 |---|---|---|---|---|---|---|
+| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | これは、 [コンテンツフラグメントリストコンポーネント。](/help/components/content-fragment-list.md) | - | 6.5.14.0+ * | 継続的 | 8、11 | 2023 年 4 月 6 日 |
+| [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | これは、2.22.0で発生した 2 つの問題に対処するためのメンテナンスリリースです。 | - | 6.5.14.0+ * | 継続的 | 8、11 | 2023 年 3 月 31 日 |
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | このリリースでは、新しいバージョンの [リストコンポーネント](/help/components/list.md) 改善と共に [ティーザー](/help/components/teaser.md) およびの更新 [PDFビューア](/help/components/pdf-viewer.md) および [カルーセル](/help/components/carousel.md) | - | 6.5.14.0+ * | 継続的 | 8、11 | 2023年2月9日（PT） |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | v1 および v2 [ティーザーコンポーネント](/help/components/teaser.md)の問題を修正するパッチリリースです。 | - | 6.5.13.0+ * | 継続的 | 8、11 | 2022年9月12日（PT） |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | このリリースには、LinkHandler API の公開、[画像コンポーネント](/help/components/image.md)と[データレイヤー](/help/developing/data-layer/overview.md)、マルチパネルコンポーネントの改善など、多数の機能強化が含まれています。 | - | 6.5.13.0+ * | 継続的 | 8、11 | 2022年9月12日（PT） |
