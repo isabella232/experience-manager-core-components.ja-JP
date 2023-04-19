@@ -3,9 +3,9 @@ title: メールページコンポーネント
 description: メールページコンポーネント
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: c16dd8696e89f89c7b178ece11f57a565d73588b
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 | コンポーネントのバージョン | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 互換性あり | 互換性あり |
+| v1 | 互換性あり | - |
 
 メールコアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)を参照してください。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ### 「クラウドサービス」タブ {#cloud-services}
 
-電子メールコアコンポーネントがキャンペーンの変数とデータを取得するには、ページが Adobe Campaign 設定にリンクされている必要があります。
+メールコアコンポーネントがキャンペーンの変数とデータを取得するには、ページが Adobe Campaign 設定にリンクされている必要があります。
 
 ![メールページのプロパティ](/help/email/assets/email-page-properties.png)
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 「**Adobe Campaign**」見出しの下で、Adobe Campaign との統合の設定を選択します。
 
-電子メールコアコンポーネントの設定について詳しくは、[電子メールコアコンポーネントの使用](/help/email/using.md)ドキュメントを参照してください。
+メールコアコンポーネントの設定について詳しくは、[メールコアコンポーネントの使用](/help/email/using.md)ドキュメントを参照してください。
 
 ### 「メール」タブ {#email-tab}
 
@@ -62,11 +62,11 @@ ht-degree: 100%
 
 ![メールページのプロパティ](/help/email/assets/email-page-properties-email.png)
 
-* **件名** - このページに基づいて Adobe Campaign から送信される電子メールの件名
+* **件名** - このページに基づいて Adobe Campaign から送信されるメールの件名
    * 「**Adobe Campaign 変数を選択**」アイコンをクリックして [Adobe Campaign 変数を選択](/help/email/campaign-variables.md)ダイアログを開き、Adobe Campaign から動的コンテンツを挿入します。
 * **プリヘッダー**
    * 「**Adobe Campaign 変数を選択**」アイコンをクリックして [Adobe Campaign 変数を選択](/help/email/campaign-variables.md)ダイアログを開き、Adobe Campaign から動的コンテンツを挿入します。
-* **テキスト** - Adobe Campaign から送信される電子メールのプレーンテキストバージョン
+* **テキスト** - Adobe Campaign から送信されるメールのプレーンテキストバージョン
    * 「**Adobe Campaign 変数を選択**」アイコンをクリックして [Adobe Campaign 変数を選択](/help/email/campaign-variables.md)ダイアログを開き、Adobe Campaign から動的コンテンツを挿入します。
 * **参照 URL**
 

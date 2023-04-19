@@ -3,9 +3,9 @@ title: メールコンテナコンポーネント
 description: メールコンテナコンポーネントを使用すると、メールコンテンツに複数の追加コンポーネントのコンテナを作成できます。
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,9 @@ ht-degree: 100%
 
 | コンポーネントのバージョン | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 互換性あり | 互換性あり |
+| v1 | 互換性あり | - |
 
 メールコアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)を参照してください。
-
-## コンポーネント出力のサンプル {#sample-component-output}
-
-メールコンテナコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_email_container)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 
@@ -85,7 +81,7 @@ ht-degree: 100%
 
 ### 「デフォルトコンポーネント」タブ {#default-components-tab}
 
-「**デフォルトコンポーネント**」タブは、[ページテンプレートでのデフォルトコンポーネントの定義方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)と同様に、特定のアセットタイプがコンテナにドロップされたときにコンテナに追加されるコンポーネントを定義するために使用されます。
+「**デフォルトコンポーネント**」タブは、[ページテンプレートでのデフォルトコンポーネントの定義方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)と同様に、特定のアセットタイプがコンテナにドロップされたときにコンテナに追加されるコンポーネントを定義するために使用されます。
 
 ### 「コンテナ設定」タブ {#container-settings-tab}
 

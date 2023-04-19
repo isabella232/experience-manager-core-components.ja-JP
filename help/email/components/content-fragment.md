@@ -3,9 +3,9 @@ title: メールコンテンツフラグメントコンポーネント
 description: メールコンテンツフラグメントコンポーネントを使用すると、コンテンツ内のコンテンツフラグメントを表示できます。
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 使用方法 {#usage}
 
-メールコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)をメールコンテンツに含めることができます。 コンテンツフラグメントは、一元的に作成して容易に再利用できるマルチチャネル構造コンテンツです。
+メールコンテンツフラグメントコンポーネントを使用すれば、[コンテンツフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=ja)をメールコンテンツに含めることができます。 コンテンツフラグメントは、一元的に作成して容易に再利用できるマルチチャネル構造コンテンツです。
 
 * フラグメントとそのプロパティは、[設定ダイアログ](#configure-dialog)で選択することができます。
 * 特定の画像やグリッドを処理するリソースタイプは、[デザインダイアログ](#design-dialog)で定義することができます。
@@ -31,13 +31,9 @@ ht-degree: 100%
 
 | コンポーネントのバージョン | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 互換性あり | 互換性あり |
+| v1 | 互換性あり | - |
 
 メールコアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)を参照してください。
-
-## コンポーネント出力のサンプル {#sample-component-output}
-
-メールコンテンツフラグメントコンポーネントを実際に体験し、その設定オプションや HTML および JSON 出力の例を確認するには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_email_cf)を参照してください。
 
 ## 技術的詳細 {#technical-details}
 

@@ -3,9 +3,9 @@ title: メール画像コンポーネント
 description: メール画像コンポーネントは、インプレース編集機能を備えたアダプティブ画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1645'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 | コンポーネントのバージョン | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 互換性あり | 互換性あり |
+| v1 | 互換性あり | - |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[メールコアコンポーネントのバージョン](/help/email/versions.md)を参照してください。
 
@@ -61,10 +61,6 @@ ht-degree: 100%
 ### セキュリティ {#security}
 
 セキュリティ上の理由から、元の SVG が画像エディターで直接呼び出されることは決してありません。`<img src=“path-to-component”>` 経由で呼び出されます。これにより、ブラウザーが SVG ファイルに埋め込まれた任意のスクリプトを実行するのを防ぎます。
-
-## コンポーネント出力のサンプル {#sample-component-output}
-
-メール画像コンポーネントを体験したり、その設定オプションの例や、HTML 出力や JSON 出力の例を確認したりするには、[コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_email_image)にアクセスしてください。
 
 ### 技術的詳細 {#technical-details}
 
