@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2198'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ mvn -B archetype:generate \
 >
 >ベストプラクティスとしては、repo.adobe.com を自動で maven のビルドプロセスに追加するために、`adobe-public` プロファイルを Maven の `settings.xml` ファイルに追加することが推奨されます。
 >
->POM の例は[こちらにあります](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=en)。
+>POM の例は[こちらにあります](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=ja)。
 
 ### プロパティ {#properties}
 
@@ -115,7 +115,7 @@ mvn -B archetype:generate \
 | `amp` | `n` | 生成されたプロジェクトテンプレートに対して [AMP](/help/developing/amp.md) のサポートを有効にします。 |
 | `enableDynamicMedia` | `n` | プロジェクトポリシー設定で基盤 Dynamic Media コンポーネントを有効にし、コア画像コンポーネントのポリシーで Dynamic Media 機能をアクティブ化します。 |
 | `enableSSR` | `n` | フロントエンドプロジェクトに対して SSR を有効にするオプション |
-| `precompiledScripts` | `n` | `ui.apps` のサーバー側スクリプトを[事前にコンパイル](/help/developing/archetype/precompiled-bundled-scripts.md)して、`ui.apps` プロジェクトのセカンダリバンドルアーティファクトとしてビルドにアタッチするオプション。`aemVersion` を `cloud` に設定する必要があります。 |
+| `precompiledScripts` | `n` | `ui.apps` のサーバーサイドスクリプトを[事前にコンパイル](/help/developing/archetype/precompiled-bundled-scripts.md)して、`ui.apps` プロジェクトのセカンダリバンドルアーティファクトとしてビルドにアタッチするオプション。`aemVersion` を `cloud` に設定する必要があります。 |
 
 >[!NOTE]
 >
