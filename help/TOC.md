@@ -6,8 +6,8 @@ user-guide-description: 拡張可能なコアコンポーネントを使用す�
 feature-set: Experience Manager Sites
 source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
