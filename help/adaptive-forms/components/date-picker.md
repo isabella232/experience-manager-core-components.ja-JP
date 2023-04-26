@@ -4,9 +4,9 @@ description: アダプティブフォームの日付選択コアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1666'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 95%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブFormsアコーディオンコアコンポーネントは、Cloud Service用コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされ、AEM 6.5.16.0 Forms以降用コアコンポーネント 1.1.12 にリリースされました。 次の表に、サポートされているすべてのバージョン、AEMの互換性、および対応するドキュメントへのリンクを示します。
+アダプティブフォームのアコーディオンコアコンポーネントは、Cloud Service のコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降のコアコンポーネント 1.1.12 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
-| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms以降 |
+| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
-| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | 互換性あり<br>[リリース 1.1.12](/help/adaptive-forms/version.md) 2.0.0 未満です。 |
+| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | <br>[リリース 1.1.12](/help/adaptive-forms/version.md) 以降、2.0.0 未満と互換性があります。 |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
@@ -129,7 +129,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「スタイル」タブ {#styles-tab}
 
-「 」タブは、コンポーネントの CSS スタイルを定義および管理するために使用します。 アダプティブフォームの日付選択コアコンポーネントは、AEM の [スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。アダプティブフォームの日付選択コアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ![「スタイル」タブ](/help/adaptive-forms/assets/datepicker_styletab.png)
 
