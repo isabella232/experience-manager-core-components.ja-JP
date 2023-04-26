@@ -4,9 +4,9 @@ description: タブコンポーネントを使用すれば、複数のタブを�
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1033'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 98%
 
 ## パネルへのディープリンク {#deep-linking}
 
-タブ [カルーセル、](carousel.md) および [アコーディオンコンポーネント](accordion.md) は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
+タブ、[カルーセル](carousel.md)および[アコーディオンコンポーネント](accordion.md)は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
 
 次の手順を実行します。
 
