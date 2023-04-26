@@ -4,9 +4,9 @@ description: アダプティブフォームのウィザードコアコンポー�
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1847'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 90%
 
 アダプティブフォームのウィザードレイアウトコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
-| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms以降 |
+| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
-| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | 互換性あり<br>[リリース 1.1.12](/help/adaptive-forms/version.md) 2.0.0 未満です。 |
+| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | <br>[リリース 1.1.12](/help/adaptive-forms/version.md) 以降、2.0.0 未満と互換性があります。 |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
@@ -122,34 +122,34 @@ To experience the Accordion Component as well as see examples of its configurati
 
 「**許可されたコンポーネント**」タブでは、アダプティブフォームエディターのウィザードコンポーネント内のパネルに、項目として追加できるコンポーネントをテンプレートエディターで設定できます。
 
-![「許可されるコンポーネント」タブ](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+![「許可されたコンポーネント」タブ](/help/adaptive-forms/assets/panel_allowedcomponent.png)
 
 ### 「デフォルトコンポーネント」タブ {#default-component-tab}
 
-このタブを使用すると、テンプレートエディターで、アダプティブFormsエディターのウィザードコンポーネント内のパネルに、項目として追加できるコンポーネントをマッピングできます。
+このタブでは、アダプティブフォームエディターのウィザードコンポーネント内のパネルに、項目として追加できるコンポーネントをテンプレートエディターでマッピングできます。
 
 ![パネルのデフォルトコンポーネント](/help/adaptive-forms/assets/panel_defaultcomponent.png)
 
 ### レスポンシブ設定 {#responsive-settings}
 
-このタブを使用すると、テンプレートエディターで、レスポンシブグリッドに表示する列数を設定できます。
+このタブでは、レスポンシブグリッドに表示する列数をテンプレートエディターで設定できます。
 
 ![レスポンシブグリッド](/help/adaptive-forms/assets/panel_responsivesettings.png)
 
 ### 「コンテナ設定」タブ {#container-setting-tab}
 
-「コンテナ設定」タブを使用すると、アダプティブFormsエディターでのコンポーネントの位置を設定できます。
+「コンテナ設定」タブでは、コンポーネントの位置をアダプティブフォームエディターで設定できます。
 
 ![コンテナ設定](/help/adaptive-forms/assets/panel_settings.png)
 
-* **レイアウト**:シンプルなレイアウトでは、すべてを固定した状態に保ち、レスポンシブグリッドでは、必要に応じてコンポーネントの位置を変更できます。
-* **レイアウトを無効にする**:編集ダイアログで、 **レイアウトを無効にする** チェックボックス。
-* **背景画像を有効にする**:このタブでは、テンプレートエディターで背景画像と色を設定できます。
-* **背景色を有効にする**:このタブでは、テンプレートエディターで背景色を設定できます。
+* **レイアウト**：シンプルなレイアウトでは、すべてをその場に固定したままにしますが、レスポンシブグリッドでは、必要に応じてコンポーネントの位置を変更できます。
+* **レイアウトを無効にする**：「**レイアウトを無効にする**」チェックボックスをオンにして、編集ダイアログでレイアウトの選択を無効にすることもできます。
+* **背景画像を有効にする**：このタブでは、背景画像とカラーをテンプレートエディターで設定できます。
+* **背景色を有効にする**：このタブでは、背景色をテンプレートエディターで設定できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
-「 」タブは、コンポーネントの CSS スタイルを定義および管理するために使用します。 アダプティブフォームのウィザードコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。アダプティブフォームのウィザードコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ![「スタイル」タブ](/help/adaptive-forms/assets/panel_style.png)
 
