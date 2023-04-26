@@ -4,9 +4,9 @@ description: コアコンポーネントのアコーディオンコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
 
 ## パネルへのディープリンク {#deep-linking}
 
-アコーディオン [カルーセル、](carousel.md) および [タブコンポーネント](tabs.md) は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
+アコーディオン、[カルーセル](carousel.md)および[タブコンポーネント](tabs.md)は、コンポーネント内のパネルに直接リンクする機能をサポートしています。
 
 次の手順を実行します。
 
