@@ -3,9 +3,9 @@ title: 画像コンポーネント
 description: コアコンポーネントの画像コンポーネントは、アダプティブな画像コンポーネントです。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
-workflow-type: ht
-source-wordcount: '1678'
+source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
+workflow-type: tm+mt
+source-wordcount: '1636'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 100%
 >
 >デフォルトでは、画像コンポーネントはアダプティブ画像サーブレットを利用します。アダプティブ画像サーブレットの仕組みについて詳しくは、[ドキュメント](#adaptive-image-servlet)を参照してください。
 
-## Dynamic Media サポート {#dynamic-media}
+## Dynamic Media のサポート {#dynamic-media}
 
 画像コンポーネント（[リリース 2.13.0](/help/versions.md) 現在）は、[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=ja#dynamicmedia) アセットをサポートします。これらの機能を[有効](#design-dialog)にすると、簡単なドラッグ＆ドロップで、または他の画像と同様にアセットブラウザーを使用して、Dynamic Media 画像アセットを追加する機能が提供されます。また、画像修飾子、画像プリセット、スマート切り抜きもサポートされます。
 
@@ -61,10 +61,6 @@ ht-degree: 100%
 ### セキュリティ {#security}
 
 セキュリティ上の理由から、元の SVG が画像エディターで直接呼び出されることは決してありません。`<img src=“path-to-component”>` 経由で呼び出されます。これにより、ブラウザーが SVG ファイルに埋め込まれた任意のスクリプトを実行するのを防ぎます。
-
->[!NOTE]
->
->SVG のサポートには、AEM 内の新しい[画像エディター機能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html?lang=ja)をサポートするために、コアコンポーネントのリリース 2.1.0 以上と、AEM 6.4 の [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降が必要です。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
