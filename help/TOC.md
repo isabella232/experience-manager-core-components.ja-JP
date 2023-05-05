@@ -5,9 +5,9 @@ breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
 source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '369'
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 0%
       + [アダプティブフォームのアコーディオン](/help/adaptive-forms/components/accordion.md)
       + [アダプティブフォームのボタン](/help/adaptive-forms/components/button.md)
       + [アダプティブフォームのチェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
-      + [アダプティブFormsコンテナ](/help/adaptive-forms/components/form-container.md)
+      + [アダプティブフォームコンテナ](/help/adaptive-forms/components/form-container.md)
       + [アダプティブフォームの日付選択](/help/adaptive-forms/components/date-picker.md)
       + [アダプティブフォームのドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
       + [アダプティブフォームのメール入力](/help/adaptive-forms/components/email-input.md)
