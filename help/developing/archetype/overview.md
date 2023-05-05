@@ -5,7 +5,7 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: fac7c40919d2c31a8004bd1f47500ac44f99fb61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1192'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ AEM プロジェクトアーキタイプは、Web サイトの出発点として
 * **スタイルシステム：**&#x200B;作成者が[様々なスタイルを適用](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html?lang=ja)できるようにすることで、カスタムコンポーネントを作成しないようにすることができます。
 * **フロントエンドビルド：**&#x200B;フロントエンド開発者は、[AEM ページのモックを作成](uifrontend.md#webpack-dev-server)し、Webpack、TypeScript、SASS を使用して[クライアントライブラリをビルド](uifrontend.md)することができます。
 * **Web アプリ対応：** [React](uifrontend-react.md) または [Angular](uifrontend-angular.md) を使用するサイトの場合は、[SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html?lang=ja) を使用して、[アプリのコンテキスト内オーサリング](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=ja)を維持できます。
-* **コマースに対応：** [AEM コマース](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html?lang=ja)を [Magento](https://magento.com/jp) などのコマースソリューションと統合するプロジェクトの場合は、[コマースコアコンポーネント](https://github.com/adobe/aem-core-cif-components)を使用します。
+* **コマースに対応：**[AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html?lang=ja)を [Magento](https://magento.com/jp) などのコマースソリューションと統合するプロジェクトの場合は、[Commerce コアコンポーネント](https://github.com/adobe/aem-core-cif-components)を使用します。
 * **コード例：** HelloWorld コンポーネントのほか、サンプルのモデル、サーブレット、フィルター、スケジューラーをチェックアウトできます。
 * **オープンソース：**&#x200B;何か問題がある場合は、改善案を[寄稿](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)できます。
 
