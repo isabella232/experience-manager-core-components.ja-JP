@@ -4,7 +4,7 @@ description: メールテキストコンポーネントは、インプレース�
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2291'
 ht-degree: 100%
 
