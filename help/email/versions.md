@@ -3,17 +3,17 @@ title: コアメールコンポーネントのバージョン
 description: コアメールコンポーネントはリリースとして公開されています。
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+source-git-commit: 7ab19cb73493121282e90e752b38c445fd0962f0
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 96%
 
 ---
 
 
 # コアメールコンポーネントのバージョン {#core-components-versions}
 
-メールコアコンポーネントの現在のリリースは 1.0.0 で、AEM 6.5 と互換性があります。
+メールコアコンポーネントの現在のリリースは 1.2.0 で、AEM 6.5 と互換性があります。
 
 要件とインストールについて詳しくは、メールコアコンポーネントの概要ドキュメントの[要件セクション](/help/email/introduction.md#requirements)ならびにメールコアコンポーネントのユーザーガイドドキュメントの[インストールセクション](/help/email/using.md#installing-the-email-core-components)を参照してください。
 
@@ -23,7 +23,8 @@ ht-degree: 100%
 
 | リリース | 説明 | AEM 6.5 | コアコンポーネント | Java | リリース日 |
 |---|---|---|---|---|---|
-| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | 初めての公開リリースについては、リリースノートを参照してください | 6.5.14.0+ | [2.21.2](/help/versions.md) | 8、11 | 2022年11月29日（PT） |
+| [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | このリリースでは Selenium e2e テストが導入され、いくつかのバグ修正が含まれていました。 | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8、11 | 2022年11月29日（PT） |
+| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | 初めての公開リリースについては、リリースノートを参照してください | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8、11 | 2022年11月29日（PT） |
 | [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | 修正 | 6.5.13.0+ |  | 8、11 | 2022年9月30日（PT） |
 | [0.17.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.17.0) | 修正 | 6.5.13.0+ |  | 8、11 | 2022年9月27日（PT） |
 | [0.16.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.16.0) | 修正 | 6.5.13.0+ |  | 8、11 | 2022年9月14日（PT） |
