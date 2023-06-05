@@ -5,7 +5,7 @@ breadcrumb-title: コアコンポーネントガイド
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
 source-git-commit: 945ca958481f86d166c4d78d63ecd5011bc15f97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
 ht-degree: 100%
 
