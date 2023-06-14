@@ -4,9 +4,9 @@ description: コアコンポーネントはリリースとして公開されま�
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | このリリースでは、数値入力コアコンポーネントの複数の形式が導入されました。 | 継続的 | 8、11 | 2023年2月8日（PT） |
 | [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | このリリースでは、AEM as a Cloud Service のコアコンポーネントのサポートが導入されました。 | 継続的 | 8、11 | 2023年1月30日（PT） |
 
-## AEM 6.5 Formsバージョン履歴 {#aem-as-form-version-history}
+## AEM 6.5 Forms のバージョン履歴 {#aem-as-form-version-history}
 
 次の表は、オンプレミスおよび AMS の AEM 6.5 Form と互換性のあるコアコンポーネントリリースをリストアップしたものです。これらは、[GitHub とそのリリースの包括的な詳細](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12)で利用できます。
 
