@@ -4,8 +4,8 @@ description: AEM ベースのアプリケーション用のプロジェクトテ
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: fac7c40919d2c31a8004bd1f47500ac44f99fb61
-workflow-type: ht
+source-git-commit: d25e659828becc0d9285297d00c53530bb33785a
+workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 * `XX` を最新の[アーキタイプバージョン番号](#requirements)に置き換えます。
 * [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja) の場合は、`aemVersion=cloud` と設定します。\
-   [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`aemVersion=6.5.0` と設定します。
+  [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`aemVersion=6.5.0` と設定します。
 AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用できる形で提供されているので、コアコンポーネントの依存関係は、非クラウドバージョンの AEM の場合にのみ追加します。
 * `appTitle="My Site"` を調整して、Web サイトのタイトルやコンポーネントグループを定義します。
 * `appId="mysite"` を調整して、Maven アーティファクト ID、コンポーネントフォルダー名、設定フォルダー名、コンテンツフォルダー名、およびクライアントライブラリ名を定義します。
@@ -73,10 +73,10 @@ AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用
 
 | 名前 | デフォルト値は | 説明 |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | アプリケーションのタイトル。Web サイトのタイトルやコンポーネントグループに使用されます（例：`"My Site"`）。 |
-| `appId` |  | 技術的な名前。コンポーネント、設定、コンテンツのフォルダー名やクライアントライブラリ名に使用されます（例：`"mysite"`）。 |
+| `appTitle` |                | アプリケーションのタイトル。Web サイトのタイトルやコンポーネントグループに使用されます（例：`"My Site"`）。 |
+| `appId` |                | 技術的な名前。コンポーネント、設定、コンテンツのフォルダー名やクライアントライブラリ名に使用されます（例：`"mysite"`）。 |
 | `artifactId` | *`${appId}`* | 基本 Maven アーティファクト ID です（例：`"mysite"`）。 |
-| `groupId` |  | ベース Maven グループ ID です（例：`"com.mysite"`）。この値は、[有効な Java パッケージ名](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7)である必要があります。 |
+| `groupId` |                | ベース Maven グループ ID です（例：`"com.mysite"`）。この値は、[有効な Java パッケージ名](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7)である必要があります。 |
 | `package` | *`${groupId}`* | Java ソースパッケージです（例：`"com.mysite"`）。 |
 | `version` | `1.0-SNAPSHOT` | プロジェクトのバージョンです（例：`1.0-SNAPSHOT`）。 |
 | `aemVersion` | `cloud` | ターゲット AEM バージョンです（[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja) の場合は `cloud`。[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) またはオンプレミスの場合は、`6.5.0`、`6.4.4` のいずれか）。 |
@@ -89,7 +89,7 @@ AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用
 | `includeExamples` | `n` | [コンポーネントライブラリ](https://www.aemcomponents.dev/)のサンプルサイトを組み込みます（`y` または `n`）。 |
 | `includeErrorHandler` | `n` | インスタンス全体でグローバルに使用されるカスタムの 404 応答ページを組み込みます（`y` または `n`）。 |
 | `includeCommerce` | `n` | [CIF コアコンポーネント](https://github.com/adobe/aem-core-cif-components)の依存関係を含み、対応するアーティファクトを生成します。 |
-| `commerceEndpoint` |  | CIF でのみ必須です。使用するコマースシステム GraphQL サービスのオプションのエンドポイント（例：`https://hostname.com/grapql`）をクリックします。 |
+| `commerceEndpoint` |                | CIF でのみ必須です。使用するコマースシステム GraphQL サービスのオプションのエンドポイント（例：`https://hostname.com/grapql`）をクリックします。 |
 | `includeFormscommunications` | `n` | [Forms コアコンポーネント](https://github.com/adobe/aem-core-forms-components)の依存関係、テンプレート、フォームデータモデル、テーマを組み込み、Forms Communications プログラムに対応するアーティファクトを生成します。 |
 | `includeFormsenrollment` | `n` | [Forms コアコンポーネント](https://github.com/adobe/aem-core-forms-components)の依存関係、テンプレート、フォームデータモデル、テーマを組み込み、Forms 登録プログラムに対応するアーティファクトを生成します。 |
 | `sdkFormsVersion` | `latest` | `aemVersion=cloud` および `includeFormsenrollment=y` または `includeFormscommunications=y` のいずれかの場合、Forms SDK のバージョンを指定できます（例： `2020.12.17.02`）。 |
@@ -104,7 +104,7 @@ AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用
 
 | アーキタイプ | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [41](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-41) | 継続的 | 6.5.7.0+ | 8、11 | 3.3.9 以上 |
+| [42](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-42) | 継続的 | 6.5.7.0+ | 8、11 | 3.3.9 以上 |
 
 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=ja) または[旧バージョンの AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ja) のローカル開発環境をセットアップします。
 
