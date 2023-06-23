@@ -4,14 +4,14 @@ description: メールエクスペリエンスフラグメントコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# メールエクスペリエンスフラグメントコンポーネント  {#email-experience-fragment-component}
+# メールエクスペリエンスフラグメントコンポーネント {#email-experience-fragment-component}
 
 メールエクスペリエンスフラグメントコンポーネントを使用すると、コンテンツ作成者は、ローカライズされたコンテンツ構造をサポートしながら、エクスペリエンスフラグメントのバリエーションをコンテンツに配置できます。
 
@@ -107,7 +107,7 @@ ht-degree: 98%
 
 ## 技術的詳細 {#technical-details}
 
-最新の [エクスペリエンスフラグメントコンポーネントに関する技術ドキュメント](https://www.adobe.com/go/aem_cmp_xf_v1).
+最新の[エクスペリエンスフラグメントコンポーネントに関する技術ドキュメント](https://www.adobe.com/go/aem_cmp_xf_v1_jp)を参照してください。
 
 コアコンポーネントの開発について詳しくは、[コアコンポーネント開発者向けドキュメント](/help/developing/overview.md)を参照してください。
 
