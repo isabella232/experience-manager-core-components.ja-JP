@@ -4,9 +4,9 @@ description: アダプティブフォームのコアコンポーネントの柔�
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1147'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -37,10 +37,10 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 |  |  |
 |---|---|
 | 本番で使用可能 | アダプティブフォームのコアコンポーネントは、24 個の堅牢な WCM コンポーネントです。 |
-| クラウド対応 |  [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html?lang=ja) で使用可能です。 |
+| クラウド対応 | [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html?lang=ja) で使用可能です。 |
 | 用途が広い | コンポーネントは、ほぼすべてのレイアウトの作成にフォーム作成者が使用できる汎用的な概念を表します。 |
 | 設定可能 | テンプレートレベルの[コンテンツポリシー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=ja#content-policies)で、許可される機能と許可されない機能を定義します。 |
-| 高いアクセシビリティ | ARIA ラベル、キーボードナビゲーションをサポートし、スクリーンリーダーなどの支援テクノロジー用のテキストを提供します。 |
+| 高いアクセシビリティ | ARIA ラベル、キーボードナビゲーションおよび支援テクノロジー（スクリーンリーダーなど）用のテキストを提供します。 |
 | テーマ設定可能 | コンポーネントは[スタイルシステム](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=ja)を実装し、マークアップは [BEM CSS の命名規則](https://getbem.com/)に従っています。 |
 | カスタマイズ可能 | いくつかのパターンが用意されているので、HTML の調整から高度な機能の再利用まで、カスタマイズが容易になっています。 |
 | バージョン管理 | [バージョン管理ポリシー](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)が設定されているので、影響を受ける可能性のある改善の際にも、コアコンポーネントが原因でサイトが機能しなくなることはありません。 |
@@ -65,7 +65,7 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 
 * **スタイル設定が容易**：コアコンポーネントは、基盤コンポーネントとは異なり、スタイル設定が容易です。 テーマの作成プロセスは Sites に似ていますが、同じテーマと CSS を親 Sites ページから継承できます。 さらに、スタイル設定に BEM モデルが採用されているため、容易にスタイルを理解して変更できます。
 
-* **アクセシビリティ**：アダプティブフォームのコアコンポーネントは、障害のあるユーザー（スクリーンリーダーなどの支援テクノロジーを使用しているユーザーを含む）がフォームを確実に使用できるように、アクセシビリティに関する標準規格およびガイドラインをサポートしています。
+* **アクセシビリティ**：アダプティブフォームのコアコンポーネントは、障害のあるユーザー（スクリーンリーダーなどの支援テクノロジーを使用しているユーザーを含む）がフォームを確実に使用できるように、アクセシビリティに関する標準規格およびガイドラインをサポートしています
 
 ## アダプティブフォームのコアコンポーネント {#components}
 
@@ -73,7 +73,7 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 
 * [アコーディオン](/help/adaptive-forms/components/accordion.md)
 * [ボタン](/help/adaptive-forms/components/button.md)
-* [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
+* [チェックボックス グループ](/help/adaptive-forms/components/checkbox-group.md)
 * [日付選択](/help/adaptive-forms/components/date-picker.md)
 * [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
 * [メール入力](/help/adaptive-forms/components/email-input.md)
@@ -94,9 +94,9 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 * [タイトル](/help/adaptive-forms/components/title.md)
 * [ウィザード](/help/adaptive-forms/components/wizard.md)
 
-## アダプティブFormsコアコンポーネントの設定
+## アダプティブフォームのコアコンポーネントの設定
 
-AEM Formsas a Cloud ServiceのアダプティブFormsコアコンポーネントを有効にすると、AEM FormsCloud Serviceインスタンスを使用して、コアコンポーネントベースのアダプティブFormsおよびヘッドレスFormsの作成、公開、配信を開始できます。 アダプティブフォームのコアコンポーネントを有効にする方法について詳しくは、 [AEM Formsas a Cloud Serviceおよびローカル開発環境でのアダプティブFormsコアコンポーネントの有効化](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
+AEM Forms as a Cloud Service のアダプティブフォームのコアコンポーネントを有効にすると、AEM Forms Cloud Service インスタンスを使用して、複数のチャネルへのコアコンポーネントベースのアダプティブフォームとヘッドレスフォームの作成、公開、配信を開始できます。 アダプティブフォームのコアコンポーネントを有効にする手順について詳しくは、[AEM Forms as a Cloud Service およびローカル開発環境でアダプティブフォームのコアコンポーネントを有効にする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja)を参照してください。
 
 アダプティブフォームのコアコンポーネントには、以下の要件があります。
 
@@ -105,12 +105,12 @@ AEM Formsas a Cloud ServiceのアダプティブFormsコアコンポーネント
 | AEM as a Cloud Service | Forms - デジタル登録 | [リリース 2.0.10](version.md)+ |
 | AEM 6.5 | Forms のアドオン | [リリース 1.1.12](version.md)+ |
 
-AEM Cloud Service SDK のバージョンが2023.02.0より前の場合、 [次のことを確認します。 `prerelease` お使いの環境で有効にしたフラグ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features) アダプティブFormsコアコンポーネントは、2023.02.0リリース前のプリリースに含まれていたので、
+AEM Cloud Service SDK バージョンが 2023.02.0 より前の場合は、2023.02.0 リリースより前にアダプティブフォームのコアコンポーネントがプレリリースの一部であったので、[お使いの環境で `prerelease` フラグが有効になっていることを確認してください](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)。
 
 
 ### コアコンポーネントに基づくアダプティブフォームの作成
 
-AEM Formsでアダプティブフォームをas a Cloud Serviceするには、 [アダプティブフォームの作成（コアコンポーネント）](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja?).
+AEM Forms as a Cloud Service でアダプティブフォームを作成するには、[アダプティブフォーム（コアコンポーネント）の作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja?)を参照してください。
 
 
 
