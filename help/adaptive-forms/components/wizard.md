@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - ウィザ�
 description: アダプティブフォームのウィザードコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1847'
-ht-degree: 100%
+source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+workflow-type: tm+mt
+source-wordcount: '1829'
+ht-degree: 91%
 
 ---
 
@@ -51,11 +51,13 @@ ht-degree: 100%
 
 アダプティブフォームのウィザードレイアウトコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
-| コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
-|---|---|---|
-| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | <br>[リリース 1.1.12](/help/adaptive-forms/version.md) 以降、2.0.0 未満と互換性があります。 |
+|  |  |
+|---|---|
+| コンポーネントのバージョン | AEM as a Cloud Service |
+| --- | --- |
+| v1 | <br>[リリース 2.0.4](/help/versions.md) 以降と互換性あり | 互換性あり | 互換性あり |
 
-コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)ドキュメントをご覧ください。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -71,7 +73,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「基本」タブ {#basic-tab}
 
-![「基本」タブ](/help/adaptive-forms/assets/wizard_basictab.png)
+![「基本」タブ](/help/adaptive-forms/assets/wizard-basic.png)
 
 * **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方の一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
@@ -89,9 +91,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 
+### 繰り返しウィザードタブ {#repeat-wizard-tab}
+
+![繰り返しウィザード](/help/adaptive-forms/assets/wizard-repeat.png)
+
+繰り返しオプションを使用すると、ウィザードとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を容易におこなうことができます。 ウィザードコンポーネントを操作してその設定にアクセスする際には、次のオプションが表示されます。
+
+* **ウィザードを繰り返し可能にする**:ユーザーが繰り返し機能を有効または無効にできる切り替え機能。
+* **最小繰り返し**:ウィザードパネルを繰り返し可能な最小回数を指定します。 値 0 は、ウィザードパネルが繰り返されないことを示します。デフォルト値は 0 です。
+* **最大繰り返し**:ウィザードパネルを繰り返し可能な最大回数を設定します。 デフォルトでは、この値は無制限です。
+
+ウィザード内の繰り返し可能なセクションを効果的に管理するには、 [繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 記事。
+
 ### 「ヘルプ」タブ {#help-tab}
 
-![「ヘルプ」タブ](/help/adaptive-forms/assets/wizard_helptab.png)
+![「ヘルプ」タブ](/help/adaptive-forms/assets/wizard-helpcontent.png)
 
 * **短い説明** - 短い説明は、特定のフォームフィールドの目的に関する追加の情報や説明を提供する簡単な説明文です。 これにより、ユーザーは、フィールドに入力するデータの種類を理解しやすくなります。また、入力された情報が有効で目的の条件を満たしていることを確認できるように、ガイドラインや例を提供できます。デフォルトでは、短い説明は非表示になっています。 「**短い説明を常に表示**」オプションを有効にすると、コンポーネントの下に説明が表示されます。
 
@@ -102,7 +116,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 「アクセシビリティ」タブ {#accessibility}
 
-![「基本」タブ](/help/adaptive-forms/assets/wizard_accessibiltytab.png)
+![「アクセシビリティ」タブ](/help/adaptive-forms/assets/wizard-accessibility.png)
 
 * **スクリーンリーダー用テキスト** - スクリーンリーダー用テキストとは、視覚に障害のあるユーザーが使用する支援テクノロジー（スクリーンリーダーなど）によって読み上げられる追加のテキストを指します。 このテキストでは、フォームフィールドの目的に関するオーディオの説明が提供され、フィールドのタイトル、説明、名前および関連するメッセージ（カスタムテキスト）に関する情報を含めることができます。スクリーンリーダー用のテキストを使用すると、視覚に障害のあるユーザーを含むすべてのユーザーがフォームに確実にアクセスして、フォームフィールドとその要件を完全に理解できるようになります。
 
@@ -122,38 +136,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 「**許可されたコンポーネント**」タブでは、アダプティブフォームエディターのウィザードコンポーネント内のパネルに、項目として追加できるコンポーネントをテンプレートエディターで設定できます。
 
-![「許可されたコンポーネント」タブ](/help/adaptive-forms/assets/panel_allowedcomponent.png)
-
-### 「デフォルトコンポーネント」タブ {#default-component-tab}
-
-このタブでは、アダプティブフォームエディターのウィザードコンポーネント内のパネルに、項目として追加できるコンポーネントをテンプレートエディターでマッピングできます。
-
-![パネルのデフォルトコンポーネント](/help/adaptive-forms/assets/panel_defaultcomponent.png)
-
-### レスポンシブ設定 {#responsive-settings}
-
-このタブでは、レスポンシブグリッドに表示する列数をテンプレートエディターで設定できます。
-
-![レスポンシブグリッド](/help/adaptive-forms/assets/panel_responsivesettings.png)
-
-### 「コンテナ設定」タブ {#container-setting-tab}
-
-「コンテナ設定」タブでは、コンポーネントの位置をアダプティブフォームエディターで設定できます。
-
-![コンテナ設定](/help/adaptive-forms/assets/panel_settings.png)
-
-* **レイアウト**：シンプルなレイアウトでは、すべてをその場に固定したままにしますが、レスポンシブグリッドでは、必要に応じてコンポーネントの位置を変更できます。
-* **レイアウトを無効にする**：「**レイアウトを無効にする**」チェックボックスをオンにして、編集ダイアログでレイアウトの選択を無効にすることもできます。
-* **背景画像を有効にする**：このタブでは、背景画像とカラーをテンプレートエディターで設定できます。
-* **背景色を有効にする**：このタブでは、背景色をテンプレートエディターで設定できます。
-
 ### 「スタイル」タブ {#styles-tab}
 
-タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。アダプティブフォームのウィザードコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+デザインダイアログは、コンポーネントの CSS スタイルを定義および管理するために使用します。 アダプティブフォームのウィザードコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-![「スタイル」タブ](/help/adaptive-forms/assets/panel_style.png)
+**デフォルトの CSS クラス**：ウィザードコンポーネントのデフォルトの CSS クラスを指定できます。
 
-* **デフォルトの CSS クラス**：ウィザードコンポーネントのデフォルトの CSS クラスを指定できます。
-
-* **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
+**許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
