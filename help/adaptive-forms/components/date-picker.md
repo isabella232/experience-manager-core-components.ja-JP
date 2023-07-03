@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - 日付選�
 description: アダプティブフォームの日付選択コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1666'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '1702'
+ht-degree: 98%
 
 ---
 
@@ -143,3 +143,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![「形式」タブ](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
+## 関連記事 {#related-article}
+
+* [AEM Sitesページまたはエクスペリエンスフラグメントでアダプティブフォームを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [スタンドアロンのアダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)

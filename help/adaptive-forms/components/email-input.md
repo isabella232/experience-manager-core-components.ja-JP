@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - メール�
 description: アダプティブフォームのメール入力コアコンポーネントを使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1683'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '1719'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,6 @@ To experience the Accordion Component as well as see examples of its configurati
 * **最小文字数** - このオプションを使用すると、フィールドで許可する最小文字数を指定できます。「**最小文字数**」に指定した値を下回る文字を入力すると、エラーメッセージが画面に表示されます。**最小文字数エラーメッセージ**&#x200B;ダイアログボックスでは、カスタムエラーメッセージを追加できます。
 
 * **最小文字数のエラーメッセージ** - **最小文字数のエラーメッセージ**&#x200B;ダイアログボックスでは、「**最小文字数**」オプションで指定された値を下回る文字数を入力した場合に表示されるカスタムのエラーメッセージを追加できます。
-
 <br>
 
     「**検証パターン**」オプションでは、入力したメール ID を検証するパターンを指定できます。「**パターン**」オプションに入力された値でメール ID を検証できない場合は、エラーメッセージが画面に表示されます。
@@ -132,3 +131,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![「デザイン」タブ](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
+## 関連記事 {#related-article}
+
+* [AEM Sitesページまたはエクスペリエンスフラグメントでアダプティブフォームを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [スタンドアロンのアダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)

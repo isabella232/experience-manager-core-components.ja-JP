@@ -2,10 +2,10 @@
 title: アダプティブフォームのコアコンポーネント - 上部のタブ
 description: 上部のコアコンポーネントで、アダプティブフォームのタブを使用するか、カスタマイズします。
 role: Architect, Developer, Admin, User
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 94%
 
 ---
 
@@ -54,4 +54,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 設定ダイアログを使用すると、訪問者向けの上位エクスペリエンスのタブを簡単にカスタマイズできます。また、シームレスなユーザーエクスペリエンスを実現するために、上部オプションのタブを簡単に定義できます。
 
-## デザインダイアログ {#design-dialog}
+## 関連記事 {#related-article}
+
+* [AEM Sitesページまたはエクスペリエンスフラグメントでアダプティブフォームを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [スタンドアロンのアダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)

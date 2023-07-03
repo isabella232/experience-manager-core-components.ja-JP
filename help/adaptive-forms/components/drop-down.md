@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - ドロッ�
 description: アダプティブフォームのドロップダウンコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1695'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '1731'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **値に名前を付けて保存** - このオプションでは、いずれかのオプションが選択された場合に送信される値のデータタイプを指定します。「**値に名前を付けて保存**」が「`Number`」に設定されていて、「**オプション**」タブの「**データ値**」に文字列データを追加すると、画面に `Value type mismatch` エラーメッセージが表示されます。
 
-   「**オプション**」タブでは、データ値を追加し、「**追加**」ボタンからデータ値と表示テキストのペアを追加できます。新しいオプションを追加すると、次のアクションが実行されます。
+  「**オプション**」タブでは、データ値を追加し、「**追加**」ボタンからデータ値と表示テキストのペアを追加できます。新しいオプションを追加すると、次のアクションが実行されます。
 
    * **データ値** - このオプションを使用すると、オプションが選択された場合に送信するコンテンツを指定できます。
    * **テキストを表示** - このオプションを使用すると、アダプティブフォームに表示するコンテンツを入力できます。
@@ -135,5 +135,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定して、スタイルを定義できます。例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
+## 関連記事 {#related-article}
+
+* [AEM Sitesページまたはエクスペリエンスフラグメントでアダプティブフォームを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [スタンドアロンのアダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
 
 

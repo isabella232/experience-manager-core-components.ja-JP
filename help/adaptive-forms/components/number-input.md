@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - 数値入�
 description: アダプティブフォームの数値入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1798'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '1834'
+ht-degree: 98%
 
 ---
 
@@ -136,10 +136,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 **デフォルトの CSS クラス**：アダプティブフォームの数値入力コアコンポーネントのデフォルト CSS クラスを指定できます。
 
-**許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義できます。例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターで、アダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターで、スタイルを適用するコンポーネントを選択して「プロパティ」ダイアログに移動し、「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
+**許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義できます。例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターで、アダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターで、スタイルを適用するコンポーネントを選択してプロパティダイアログに移動し、「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻って「スタイル」タブでスタイルを更新し、変更を保存します。
 
 ### 「形式」タブ {#format-tab}
 
 「形式」タブでは、デフォルトとカスタムの形式を指定できます。
 ![「デザイン」タブ](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
+## 関連記事 {#related-article}
+
+* [AEM Sitesページまたはエクスペリエンスフラグメントでアダプティブフォームを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [スタンドアロンのアダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)

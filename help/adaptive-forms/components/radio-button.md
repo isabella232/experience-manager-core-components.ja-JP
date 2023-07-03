@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - ラジオ�
 description: アダプティブフォームのラジオボタンコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1667'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '1703'
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **タイトルを非表示** - コンポーネントのタイトルを非表示にするには、このオプションを選択します。
 
-   「**オプション** 」タブでは、データ値を追加し、「**追加** 」ボタンからテキストのペアを表示できます。新しいオプションを追加したら、次の操作を実行できます。
+  「**オプション** 」タブでは、データ値を追加し、「**追加** 」ボタンからテキストのペアを表示できます。新しいオプションを追加したら、次の操作を実行できます。
 
    * **データ値** — このオプションでは、オプションが選択された際に送信するコンテンツを指定できます。
    * **テキストを表示** - このオプションでは、アダプティブフォームに表示する内容を入力できます。
@@ -131,3 +131,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
+## 関連記事 {#related-article}
+
+* [AEM Sitesページまたはエクスペリエンスフラグメントでアダプティブフォームを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [スタンドアロンのアダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)

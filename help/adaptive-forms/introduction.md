@@ -3,10 +3,10 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
-workflow-type: ht
-source-wordcount: '1147'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '1262'
+ht-degree: 89%
 
 ---
 
@@ -100,7 +100,7 @@ AEM Forms as a Cloud Service のアダプティブフォームのコアコンポ
 
 アダプティブフォームのコアコンポーネントには、以下の要件があります。
 
-| AEM | AEM Forms のアドオン | アダプティブフォームのコアコンポーネント |
+| AEM バージョン | AEM Forms のアドオン | アダプティブフォームのコアコンポーネント |
 |---|---|---|
 | AEM as a Cloud Service | Forms - デジタル登録 | [リリース 2.0.10](version.md)+ |
 | AEM 6.5 | Forms のアドオン | [リリース 1.1.12](version.md)+ |
@@ -108,9 +108,16 @@ AEM Forms as a Cloud Service のアダプティブフォームのコアコンポ
 AEM Cloud Service SDK バージョンが 2023.02.0 より前の場合は、2023.02.0 リリースより前にアダプティブフォームのコアコンポーネントがプレリリースの一部であったので、[お使いの環境で `prerelease` フラグが有効になっていることを確認してください](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=ja#new-features)。
 
 
-### コアコンポーネントに基づくアダプティブフォームの作成
+## コアコンポーネントベースのアダプティブフォームを作成する
 
-AEM Forms as a Cloud Service でアダプティブフォームを作成するには、[アダプティブフォーム（コアコンポーネント）の作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja?)を参照してください。
+AEM Forms as a Cloud Service環境とAEM 6.5 Forms環境の両方で、次の操作を実行できます。
+
+| アクション | AEM Forms版 |
+|--------|------------------|
+| スタンドアロンのアダプティブフォームの作成 | [AEM Forms as Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja) |
+| AEM Sitesページでのアダプティブフォームの作成 | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#create-an-adaptive-form-in-sites-editor-or-experience-fragment), [AEM Forms as aCloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#create-an-adaptive-form-in-sites-editor-or-experience-fragment) |
+| AEM Experience Fragment でのアダプティブフォームの作成 | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#create-an-adaptive-form-in-experience-fragment), [AEM Forms as aCloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#create-an-adaptive-form-in-experience-fragment) |
+| アダプティブフォームをエクスペリエンスフラグメントに変換する | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#convert-an-adaptive-form-in-sites-page-to-an-experience-fragment), [AEM Forms as aCloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#convert-an-adaptive-form-in-sites-page-to-an-experience-fragment) |
 
 
 

@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - フッタ�
 description: アダプティブフォームのフッターコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '770'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '806'
+ht-degree: 96%
 
 ---
 
@@ -85,6 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
       1. 選択を開くダイアログを使用して、AEM 内のパスを選択します。
       1. リンクが AEM 内ではない場合は、絶対 URL を入力します。
       1. 絶対パス以外は、AEM を基準とした相対パスとして解釈されます.
+
    * **代替テキスト** - リンクの説明用代替テキストを入力します。
 
    * **ターゲット** - リンクの動作を選択します。
@@ -93,11 +94,10 @@ To experience the Accordion Component as well as see examples of its configurati
       * 新しいタブ
       * 親フレーム
       * トップフレーム
+
    * **リンク解除アイコン** - このオプションを選択すると、選択したテキストに適用されているリンクが削除されます。このオプションは、リンクが既に選択されている場合にのみ有効です。
 
    * **段落形式アイコン** - このオプションを使用すると、選択したテキストに段落形式を適用できます。また、カーソルの後に挿入するテキストの書式を設定することもできます。タイトルの見出しレベルを定義します。
-
-
 
 * **ID**：このオプションでは、HTML 内およびデータレイヤー内のコンポーネントの一意の ID を制御できます。
 
@@ -105,3 +105,8 @@ To experience the Accordion Component as well as see examples of its configurati
    * ID を指定した場合、作者はその ID が一意であることを確認する必要があります。
    * ID を変更すると、CSS、JS、およびデータレイヤーのトラッキングに影響を与える可能性があります。
 
+## 関連記事 {#related-article}
+
+* [AEM Sitesページまたはエクスペリエンスフラグメントでアダプティブフォームを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [スタンドアロンのアダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
