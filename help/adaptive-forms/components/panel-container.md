@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
 source-wordcount: '1402'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -75,17 +75,17 @@ To experience the Accordion Component as well as see examples of its configurati
 * **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
 * **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 
-### 繰り返しパネルタブ {#repeat-panel}
+### 「繰り返しパネル」タブ {#repeat-panel}
 
 ![繰り返しタブ](/help/adaptive-forms/assets/repeat-panel.png)
 
-繰り返しオプションを使用すると、パネルコンテナとその子コンポーネントを複製し、繰り返しの最小数と最大数を定義し、フォーム内の類似セクションの複製を容易におこなうことができます。 パネルコンテナコンポーネントを操作してその設定にアクセスする際には、次のオプションが表示されます。
+繰り返しオプションを使用すると、パネルコンテナとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。パネルコンテナコンポーネントを操作してその設定にアクセスする際には、次のオプションが表示されます。
 
-* **ウィザードを繰り返し可能にする**:ユーザーが繰り返し機能を有効または無効にできる切り替え機能。
-* **最小繰り返し**:パネルコンテナを繰り返し可能な最小回数を設定します。 値 0 は、ウィザードパネルが繰り返されないことを示します。デフォルト値は 0 です。
-* **最大繰り返し**:パネルコンテナを繰り返し可能な最大回数を設定します。 デフォルトでは、この値は無制限です。
+* **ウィザードを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチ機能。
+* **最小繰り返し回数**：パネルコンテナを繰り返し可能な最小回数を設定します。値 0 は、ウィザードパネルが繰り返されないことを示します。デフォルト値は 0 です。
+* **最大繰り返し回数**：パネルコンテナを繰り返し可能な最大回数を設定します。デフォルトでは、この値は無制限です。
 
-パネルコンテナ内の繰り返し可能なセクションを効果的に管理するには、 [繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 記事。
+パネルコンテナ内で繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事に記載されている手順に従います。
 
 ### 「ヘルプコンテンツ」タブ {#help-content}
 
