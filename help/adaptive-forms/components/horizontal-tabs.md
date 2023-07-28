@@ -4,9 +4,9 @@ description: アダプティブフォームの水平タブコアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1769'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -76,13 +76,13 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ![「アクセシビリティ」タブ](/help/adaptive-forms/assets/repeat-tabsontop.png)
 
-繰り返しオプションを使用すると、水平タブコンポーネントとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の同様のセクションの複製を容易におこなうことができます。 水平タブコンポーネントを操作してその設定にアクセスする場合、次のオプションが表示されます。
+繰り返しオプションを使用すると、水平タブコンポーネントとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。水平タブコンポーネントを操作してその設定にアクセスすると、次のオプションが表示されます。
 
-* **水平タブを繰り返し可能にする**:ユーザーが繰り返し機能を有効または無効にできる切り替え機能。
-* **最小繰り返し**:水平タブコンポーネントを繰り返し可能な最小回数を指定します。 値をゼロに設定した場合、水平タブコンポーネントは繰り返されません。デフォルト値は 0 です。
-* **最大繰り返し**:水平タブコンポーネントを繰り返し可能な最大回数を設定します。 デフォルトでは、この値は無制限です。
+* **水平タブを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチ機能。
+* **最小繰り返し回数**：水平タブコンポーネントを繰り返し可能な最小回数を設定します。値 0 は、水平タブコンポーネントが繰り返されないことを示します。デフォルト値は 0 です。
+* **最大繰り返し回数**：水平タブコンポーネントを繰り返し可能な最大回数を設定します。デフォルトでは、この値は無制限です。
 
-水平タブ内の繰り返し可能なセクションを効果的に管理するには、 [繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 記事。
+水平タブ内で繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事に記載されている手順に従います。
 
 ### 「項目」タブ {#items-tab}
 
@@ -91,8 +91,8 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 「**追加**」ボタンを使用すると、「コンポーネント選択」ウィンドウからパネルとして追加するコンポーネントを選択できます。 コンポーネントを追加すると、次のオプションが表示されます。
 
 * **アイコン** - アイコンは、リスト内のパネルのコンポーネントを識別します。アイコンの上にマウスポインターを置くと、完全なコンポーネント名がツールチップとして表示されます。
-* **説明** - パネルのテキストとして使用される説明。デフォルトでは、パネル用に選択されたコンポーネントの名前です。
-* **削除**  — タップまたはクリックすると、横向きタブコンポーネントからパネルが削除されます。
+* **説明** - パネルのテキストとして使用される説明。デフォルトでは、パネル用に選択されたコンポーネントの名前になります。
+* **削除** - タップまたはクリックすると、水平タブコンポーネントからパネルを削除できます。
 * **並べ替え** - タップまたはクリックしてドラッグすると、パネルを並べ替えることができます。
 
 ### 「ヘルプコンテンツ」タブ {#help-content}
@@ -115,10 +115,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログでは、テンプレート作成者がデフォルトでの表示方法を制御できます。アダプティブFormsの水平タブコンポーネントでは、次の設定が可能です。
+デザインダイアログでは、テンプレート作成者がデフォルトでの表示方法を制御できます。アダプティブフォームの水平タブコンポーネントでは、次の設定を行うことができます。
 
-* フォーム作成者がアダプティブFormsエディターの水平タブに追加できるコアコンポーネント
-* スタイル（CSS クラス）のシンプルな名前。アダプティブFormsエディターの水平タブコンポーネントのプロパティダイアログで適用できます。
+* フォーム作成者がアダプティブフォームエディターで水平タブに追加できるコアコンポーネント
+* スタイル（CSS クラス）のシンプルな名前。アダプティブフォームエディターの水平タブコンポーネントの「プロパティ」ダイアログで適用できます。
 
 この名前を使用することで、フォームの作成やカスタマイズのプロセスが、分かりやすく効率的になります。
 
@@ -136,6 +136,6 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 関連記事 {#related-article}
 
-* [AEM Sitesページまたはエクスペリエンスフラグメントでアダプティブフォームを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+* [AEM Sites ページまたはエクスペリエンスフラグメントでアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
 
-* [スタンドアロンのアダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [スタンドアロンのアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
