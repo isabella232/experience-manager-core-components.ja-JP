@@ -4,9 +4,9 @@ description: アダプティブフォームのウィザードコアコンポー�
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1865'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -91,17 +91,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 
-### 繰り返しウィザードタブ {#repeat-wizard-tab}
+### 「繰り返しウィザード」タブ {#repeat-wizard-tab}
 
 ![繰り返しウィザード](/help/adaptive-forms/assets/wizard-repeat.png)
 
-繰り返しオプションを使用すると、ウィザードとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を容易におこなうことができます。 ウィザードコンポーネントを操作してその設定にアクセスする際には、次のオプションが表示されます。
+繰り返しオプションを使用すると、ウィザードとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。ウィザードコンポーネントを操作してその設定にアクセスする際には、次のオプションが表示されます。
 
-* **ウィザードを繰り返し可能にする**:ユーザーが繰り返し機能を有効または無効にできる切り替え機能。
-* **最小繰り返し**:ウィザードパネルを繰り返し可能な最小回数を指定します。 値 0 は、ウィザードパネルが繰り返されないことを示します。デフォルト値は 0 です。
-* **最大繰り返し**:ウィザードパネルを繰り返し可能な最大回数を設定します。 デフォルトでは、この値は無制限です。
+* **ウィザードを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチ機能。
+* **最小繰り返し回数**：ウィザードパネルを繰り返し可能な最小回数を設定します。値 0 は、ウィザードパネルが繰り返されないことを示します。デフォルト値は 0 です。
+* **最大繰り返し回数**：ウィザードパネルを繰り返し可能な最大回数を設定します。デフォルトでは、この値は無制限です。
 
-ウィザード内の繰り返し可能なセクションを効果的に管理するには、 [繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 記事。
+ウィザード内で繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事に記載されている手順に従います。
 
 ### 「ヘルプ」タブ {#help-tab}
 
@@ -146,8 +146,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 関連記事 {#related-article}
 
-* [AEM Sitesページまたはエクスペリエンスフラグメントでアダプティブフォームを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+* [AEM Sites ページまたはエクスペリエンスフラグメントでアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
 
-* [スタンドアロンのアダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [スタンドアロンのアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
 
 
