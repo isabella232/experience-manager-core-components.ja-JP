@@ -4,9 +4,9 @@ description: アコーディオンを使用すると、長いフォームや複�
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1950'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -83,13 +83,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![繰り返しアコーディオン](/help/adaptive-forms/assets/repeat-accordion.png)
 
-繰り返しオプションを使用すると、アコーディオンパネルとその子コンポーネントを複製し、繰り返しの最小数と最大数を定義し、フォーム内の類似セクションのレプリケーションを容易におこなうことができます。 アコーディオンコンポーネントを操作してその設定にアクセスする場合、次のオプションが表示されます。
+繰り返しオプションを使用すると、アコーディオンパネルとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。アコーディオンコンポーネントを操作してその設定にアクセスする際には、次のオプションが表示されます。
 
-* **アコーディオンを繰り返し可能にする**:ユーザーが繰り返し機能を有効または無効にできる切り替え機能。
-* **最小繰り返し**:アコーディオンパネルを繰り返し可能な最小回数を設定します。 値 0 は、アコーディオンパネルが繰り返されないことを示します。デフォルト値は 0 です。
-* **最大繰り返し**:アコーディオンパネルを繰り返し可能な最大回数を設定します。 デフォルトでは、この値は無制限です。
+* **アコーディオンを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチ機能。
+* **最小繰り返し回数**：アコーディオンパネルを繰り返し可能な最小回数を設定します。値 0 は、アコーディオンパネルが繰り返されないことを示します。デフォルト値は 0 です。
+* **最大繰り返し回数**：アコーディオンパネルを繰り返し可能な最大回数を設定します。デフォルトでは、この値は無制限です。
 
-アコーディオン内の繰り返し可能なセクションを効果的に管理するには、 [繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 記事。
+アコーディオン内で繰り返し可能なセクションを効果的に管理するには、[繰り返し可能なセクションを含むフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)の記事に記載されている手順に従います。
 
 ### 「項目」タブ {#items-tab}
 
@@ -218,7 +218,7 @@ The Accordion Component supports the [Adobe Client Data Layer.](/help/developing
 
 ## 関連記事 {#related-article}
 
-* [AEM Sitesページまたはエクスペリエンスフラグメントでアダプティブフォームを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+* [AEM Sites ページまたはエクスペリエンスフラグメントでアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
 
-* [スタンドアロンのアダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [スタンドアロンのアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
 
