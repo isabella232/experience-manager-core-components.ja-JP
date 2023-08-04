@@ -5,10 +5,10 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: b39cd395d17f6aab7376e01fc01a7c0e98b2460f
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: 5c07caecae60e3df4a4ce56ddd2d9c174ac7f195
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 97%
 
 ---
 
@@ -103,6 +103,7 @@ ht-degree: 100%
       + [セグメント化](/help/email/components/segmentation.md)
 + アダプティブフォーム {#adaptive-forms}
    + [はじめに](/help/adaptive-forms/introduction.md)
+   + [コアコンポーネントのサンプルのテーマ、テンプレート、フォームデータモデル](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
    + [バージョン履歴](/help/adaptive-forms/version.md)
    + アダプティブフォームのコンポーネント {#adaptive-forms-components}
       + [アダプティブフォームのアコーディオン](/help/adaptive-forms/components/accordion.md)
