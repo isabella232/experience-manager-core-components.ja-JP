@@ -5,10 +5,10 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
+source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 98%
 
 ---
 
@@ -127,6 +127,7 @@ ht-degree: 100%
       + [アダプティブフォームのウィザードレイアウト](/help/adaptive-forms/components/wizard.md)
       + [ヘッダー](/help/adaptive-forms/components/header.md)
       + [フッター](/help/adaptive-forms/components/footer.md)
+   + [サンプルのテーマとテンプレート](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](/help/developing/overview.md)
    + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ja)
