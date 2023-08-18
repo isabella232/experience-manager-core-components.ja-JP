@@ -5,10 +5,10 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
+source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 98%
+source-wordcount: '381'
+ht-degree: 96%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 98%
       + [アダプティブフォームの画像](/help/adaptive-forms/components/image.md)
       + [アダプティブフォームの数値入力](/help/adaptive-forms/components/number-input.md)
       + [アダプティブフォームのパネル](/help/adaptive-forms/components/panel-container.md)
+      + [アダプティブForms CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [アダプティブフォームのラジオボタン](/help/adaptive-forms/components/radio-button.md)
       + [アダプティブフォームのリセットボタン](/help/adaptive-forms/components/reset-button.md)
       + [アダプティブフォームの送信ボタン](/help/adaptive-forms/components/submit-button.md)
@@ -127,6 +128,7 @@ ht-degree: 98%
       + [アダプティブフォームのウィザードレイアウト](/help/adaptive-forms/components/wizard.md)
       + [ヘッダー](/help/adaptive-forms/components/header.md)
       + [フッター](/help/adaptive-forms/components/footer.md)
+   + [アダプティブFormsコアコンポーネントのカスタマイズ](/help/developing/customize-adaptive-forms-core-components.md)
    + [サンプルのテーマとテンプレート](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](/help/developing/overview.md)
