@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites
 source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 96%
       + [ヘッダー](/help/adaptive-forms/components/header.md)
       + [フッター](/help/adaptive-forms/components/footer.md)
    + [アダプティブFormsコアコンポーネントのカスタマイズ](/help/developing/customize-adaptive-forms-core-components.md)
-   + [サンプルのテーマとテンプレート](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [サンプルテーマおよびテンプレート](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 開発 {#developing}
    + [コアコンポーネントの開発](/help/developing/overview.md)
    + [成功への道筋](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=ja)
