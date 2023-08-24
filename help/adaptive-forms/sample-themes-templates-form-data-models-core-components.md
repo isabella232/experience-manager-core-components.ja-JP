@@ -1,6 +1,6 @@
 ---
-title: AEM Formsのサンプルのテーマとテンプレートを取得するには？
-description: AEM Formsコアコンポーネントには、サンプルのアダプティブフォームテーマ、テンプレート、フォームデータモデルが用意されています
+title: AEM Forms のサンプルのテーマおよびテンプレートを取得する方法。
+description: AEM Forms コアコンポーネントには、サンプルのアダプティブフォームテーマ、テンプレートおよびフォームデータモデルが用意されています
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
@@ -8,171 +8,171 @@ hide: true
 hidefromtoc: true
 level: Intermediate
 source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
 
-# サンプルのテーマ、テンプレート、フォームデータモデル {#sample-themes-templates-and-data-models}
+# サンプルのテーマ、テンプレートおよびフォームデータモデル {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] コアコンポーネントは、すぐに使用できるサンプルテーマ、テンプレート、フォームデータモデルを提供し、汎用性の高いアダプティブフォームをすばやく作成します。 これらは、フォーム作成者が、 [AEM Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja) データベースとの接続をシームレスに行いつつ、簡単なフォームを短時間で、複雑なフォームを簡単に作成する。
+[!DNL AEM Forms] コアコンポーネントには、すぐに使用できるサンプルのテーマ、テンプレートおよびフォームデータモデルが用意されているので、用途の広いアダプティブフォームをすばやく作成することができます。これらは、データベースとシームレスに接続しつつ、簡単なフォームをすぐに作成し複雑なフォームを簡単に作成できる [AEM Forms コアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja)の拡張性、適応性および応答性をフォーム作成者が学ぶうえでも役に立ちます。
 
-参照コンテンツパッケージに含まれるサンプルのテーマ、テンプレート、フォームデータモデルは次のとおりです。
+参照コンテンツパッケージに含まれているサンプルのテーマ、テンプレートおよびフォームデータモデルは次のとおりです。
 
 | テンプレート | テーマ | フォームデータモデル |
 ---------|----------|---------
-| [基本](#Basic) | [カンバス](#Canvas) | Microsoft® Dynamics 365 |
+| [基本](#Basic) | [キャンバス](#Canvas) | Microsoft® Dynamics 365 |
 | [空白](#Blank) | [WKND](#WKND) | Salesforce |
 | [お問い合わせ](#Contact-Us) | [イーゼル](#Easel) |  |
 | [連絡先詳細の更新](#Contact-Details-Update) |   |   |
 | [同意フォーム](#Consent-Form) | |  |
 | [ログサービスリクエスト](#Log-Service-Request) |  |  |
-| [フィードバックを与える](#Give-Feedback) |  |  |
-| [福利厚生登録](#Benefits-Enrollment) |  |   |
-| [従業員福利厚生の要約](#Employee-Benefits-Summary) |   |   |
-| [取引明細書のリクエスト](#Request-for-Account-Statement) |   |   |
-| [安全検査用紙](#Safety-Inspection) |   |   |
+| [フィードバックの送信](#Give-Feedback) |  |  |
+| [福利厚生の登録](#Benefits-Enrollment) |  |   |
+| [従業員福利厚生の概要](#Employee-Benefits-Summary) |   |   |
+| [取引明細書の請求](#Request-for-Account-Statement) |   |   |
+| [安全点検フォーム](#Safety-Inspection) |   |   |
 | [品質管理検査](#Quality-Control-Inspection) |   |   |
 | [購入リクエスト](#Purchase-Request) |  |  |
 
 ## サンプルテーマ {#Sample-Themes}
 
-リファレンスサンプルテーマは、作成者がフォームのスタイル設定を定義し、カスタマイズするのに役立ちます。CSS の基本知識を持つ作成者は、必要に応じてテーマをカスタマイズできます。
+参照用サンプルテーマは、作成者がフォームのスタイル設定を定義およびカスタマイズするのに役立ちます。作成者に CSS の基本知識さえあれば、テーマを必要に応じてカスタマイズできます。
 
-**これらのテーマの取得方法は？**
-* これらのテーマを取得するには **Formsas a Cloud Service** 環境 [アダプティブFormsコアコンポーネントの有効化](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja) また、 [フロントエンドパイプライン](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) をクリックして、これらのテーマをデプロイします。
-* これらのテーマを **AEM 6.5 Forms** 環境 [アダプティブFormsコアコンポーネントの有効化](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) また、 [パッケージマネージャー](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components) をクリックして、これらのテーマをデプロイします。
+**これらのテーマの取得方法**
+* **Forms as a Cloud Service** 環境でこれらのテーマを取得するには、[アダプティブフォームコアコンポーネントを有効にし](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja)、[フロントエンドパイプライン](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ja)を使用して、これらのテーマをデプロイします。
+* **AEM 6.5 Forms** 環境でこれらのテーマを取得するには、[アダプティブフォームコアコンポーネントを有効にし](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=ja)、[パッケージマネージャー](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components?lang=ja)を使用して、これらのテーマをデプロイします。
 
-The **すぐに** [アダプティブフォームのコアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja) テーマは次のとおりです。
+[アダプティブフォームコアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja)の&#x200B;**標準提供の**&#x200B;テーマは次のとおりです。
 
 ![OOTB テーマ](/help/adaptive-forms/assets/OOTB-themes.png)
 
-### Canvas {#Canvas}
+### キャンバス {#Canvas}
 
-キャンバステーマはフォームのデフォルトのテーマで、基本色、透明度、およびフラットアイコンの使用を強調します。 以下のスクリーンショットでは、Canvas のテーマがどのように表示されるのかを確認できます。
+キャンバステーマはフォームのデフォルトのテーマで、基本色、透明およびフラットアイコンの使用を強調します。以下のスクリーンショットでは、キャンバステーマの外観を確認できます。
 
 ![キャンバステーマ](/help/adaptive-forms/assets/Safety-Inspection-Theme-Canvas.png)
 
 ### WKND {#WKND}
 
-WKND テーマは、活発で想像力に富んだデザインを体現し、スタイリッシュな外観をフォームに表現します。 テーマは、の外観とスタイル設定に基づいています。 [WKND サイト](https://wknd.site/us/en.html) これは、旅行と冒険のウェブサイトです。 [Adobe Experience Manager Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja).
+WKND テーマは、生き生きとした想像力に富む魅力的なデザインを具現化して、スタイリッシュなアピアランスをフォームに表示します。このテーマは、[Adobe Experience Manager コアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja)で構築されたトラベル＆アドベンチャー web サイトである [WKND サイト](https://wknd.site/us/en.html)のアピアランスとスタイル設定に基づいています。
 
 ![WKND テーマ](/help/adaptive-forms/assets/Safety-Inspection-Form-Theme.png)
 
 
 ### イーゼル {#Easel}
 
-簡単なテーマは、魅力的でセットアップが容易なフォームの外観を作成するのに役立ちます。このテーマは、シンプルで使いやすいようにカスタマイズされています。 イーゼルのテーマは、アーティストが絵画を描きながらキャンバスを支えるために使う携帯スタンドをコンセプトにしています。
+イーゼルテーマは、魅力的でセットアップしやすいフォームアピアランスを作成するのに役立ち、シンプルで使いやすいようにカスタマイズされています。イーゼルテーマは、アーティストが絵画制作中にキャンバスを支えるために使用する持ち運び可能なスタンドというコンセプトに基づいています。
 
-![イーゼルのテーマ](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
+![イーゼルテーマ](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
 
 ## サンプルテンプレート {#Sample-templates}
 
-テンプレートは、フォーム内で複製する初期フォーム構造、コンテンツ、およびアクションを定義します。また、同様のテンプレート構造をフォームに使用する場合は、同意フォーム、特典登録フォームなどを使用します。
+テンプレートは、初期のフォーム構造、コンテンツおよびアクションを定義したもので、対象フォームで複製したり、同様のテンプレート構造を対象フォームに使用したりします。例えば、同意フォーム、福利厚生登録フォームなどがあります。
 
-**これらのテンプレートの取得方法は？**
-テンプレートは、 [AEM Archetype 43 以降ベースのプロジェクト](https://github.com/adobe/aem-project-archetype) を **AEM Formsas a Cloud Service** または **AEM 6.5** Forms環境。
+**これらのテンプレートの取得方法。**
+テンプレートを取得するには、[AEM Archetype 43 以降に基づいたプロジェクト](https://github.com/adobe/aem-project-archetype)を **AEM Forms as a Cloud Service** または **AEM 6.5** Forms 環境にデプロイします。
 
-The **すぐに** [アダプティブフォームのコアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja) テンプレートは次のとおりです。
+[アダプティブフォームコアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja)の&#x200B;**標準提供の**&#x200B;テンプレートは次のとおりです。
 
 ![参照テンプレート](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
 ### 基本 {#Basic}
 
-基本テンプレートを使用すると、登録エクスペリエンスフォームをすばやく作成できます。 また、を使用して、の機能をプレビューすることもできます。 [アダプティブFormsコアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja). データをセクションごとに表示するウィザードレイアウトが提供されます。
+基本テンプレートを使用すると、登録エクスペリエンスフォームをすばやく作成できます。また、[アダプティブフォームのコアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja)の機能をプレビューする場合にも使用できます。データをセクションごとに表示するウィザードレイアウトが提供されます。
 
 ![基本テンプレート](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
 ### 空白 {#Blank}
 
-空のキャンバステンプレートを使用して、アダプティブフォームの構造、コンテンツ、ルールを一から作成します。 空のテンプレートには、フォームコンポーネントがあらかじめ組み込まれていません。
+空白キャンバステンプレートを使用すると、アダプティブフォームの構造、コンテンツおよびルールをゼロから作成できます。空白テンプレートには、フォームコンポーネントがあらかじめ組み込まれていません。
 
-![空白のテンプレート](/help/adaptive-forms/assets/Blank-temp-desktop-view.png)
+![空白テンプレート](/help/adaptive-forms/assets/Blank-temp-desktop-view.png)
 
 ### お問い合わせ {#Contact-Us}
 
-Web サイトの訪問者とフォーム管理者の間のコミュニケーションを容易にするフォームを作成するには、「Contact Us」フォームテンプレートを使用します。 ユーザーは、フォームを通じて、クエリ、フィードバック、またはサポートリクエストを送信できます。
+お問い合わせフォームテンプレートを使用すると、Web サイト訪問者とフォーム管理者の間のコミュニケーションを円滑に進めるためのフォームを作成できます。ユーザーは、このフォームを通じて、問い合わせ、フィードバックまたはサポートリクエストを送信できます。
 
 ![お問い合わせテンプレート](/help/adaptive-forms/assets/Contact-us-desktop-view.png)
 
 ### 連絡先詳細の更新 {#Contact-Details-Update}
 
-連絡先詳細更新テンプレートの作成者が、顧客の住所と連絡先詳細の更新用のフォームを作成する際に役立ちます。 また、このフォームは、サブスクリプションや特典に関する個人情報を更新し、シームレスなコミュニケーションを実現し、サービスや特典への中断のないアクセスを確実にするお客様を支援します。
+「連絡先詳細の更新」テンプレートは、作成者が顧客の住所と連絡先詳細の更新用のフォームを作成する際に役に立ちます。このフォームは、シームレスなコミュニケーションを確保し、サービスや福利厚生に中断なしにアクセスできるようにするために、顧客がサブスクリプションや福利厚生に関連する個人情報を更新する際にも役に立ちます。
 
-![連絡先 — 詳細 — 更新](/help/adaptive-forms/assets/Contact-details-update.png)
+![連絡先詳細の更新](/help/adaptive-forms/assets/Contact-details-update.png)
 
 ### 同意フォーム {#Consent-Form}
 
-同意フォームテンプレートを使用して、特定の活動、研究、医療処置、または個人情報や権利が関与する状況に参加する参加者から法的文書を取得するためのフォームを作成します。 このフォームは、透明性を確保し、参加者の権利を保護し、個人が何に同意するかを明確に理解するためのものです。
+同意フォームテンプレートを使用すると、特定の活動、研究、医療処置または個人情報や権利が関係する可能性のあるあらゆる状況に関与する参加者から法的文書を入手するためのフォームを作成できます。このフォームは、透明性の確保、参加者の権利の保護、個人の同意内容の明確な理解に役立ちます。
 
 ![同意フォーム](/help/adaptive-forms/assets/Consent-form-desktop-view.png)
 
 ### ログサービスリクエスト {#Log-Service-Request}
 
-ログサービス要求テンプレートは、サービスプロバイダーからログ固有のログサービスを要求するフォームを作成する場合に役立ちます。 このフォームは、ステータスの監視や追跡のためにログに記録されたイベント、アクティビティ、またはデータのチケットを作成する正式なリクエストとして機能します。
+ログサービスリクエストテンプレートは、サービスプロバイダーにログ固有のログサービスを要求するフォームを作成する際に役立ちます。このフォームは、監視や追跡のステータスのログに記録されたイベント、アクティビティまたはデータのチケットを作成する正式なリクエストとして機能します。
 
 ![ログサービスリクエストテンプレート](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
 
 
-### フィードバックを与える {#Give-Feedback}
+### フィードバック送信 {#Give-Feedback}
 
-フィードバックフォームテンプレートを提供すると、別の人やチームに建設的なフィードバックを提供するためのフォームを作成できます。 このフォームは、フィードバックが明確で具体的で実用的なものであることを確認し、オープンなコミュニケーションと改善を促進するのに役立ちます。
+フィードバック送信フォームのテンプレートは、別のユーザーやチームに建設的なフィードバックを提供するためのフォームを作成する際に役立ちます。このフォームは、明確かつ具体的で施策につながるフィードバックを保証するのに役立ち、オープンなコミュニケーションと改善を促進します。
 
-![フィードバックテンプレートを与える](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
-
-
-### 福利厚生登録 {#Benefits-Enrollment}
-
-福利厚生登録フォームテンプレートは、従業員が希望する福利厚生や補償範囲のオプションに関する重要な情報を収集するためのフォームを作成するために使用します。 通常は、年間の福利厚生登録期間に付随します。
-
-![福利厚生登録テンプレート](/help/adaptive-forms/assets/Benefits-enrollment-form-template.png)
+![フィードバック送信テンプレート](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
 
-### 従業員福利厚生要約 {#Employee-Benefits-Summary}
+### 福利厚生加入 {#Benefits-Enrollment}
 
-従業員福利厚生サマリフォームテンプレートは、個人の福利厚生に関する重要な詳細を収集するフォームを作成するために使用します。 これにより、対象範囲を迅速かつ正確に評価し、包括的な概要を提供して、効率的な支援とサポートを実現します。
-![従業員福利厚生要約](/help/adaptive-forms/assets/Employee-benefits-summary.png)
+福利厚生加入フォームのテンプレートを使用すると、希望する福利厚生や補償範囲のオプションに関する必須の情報を従業員から収集するためのフォームを作成できます。通常は、年間の福利厚生加入期間に付随します。
+
+![福利厚生加入テンプレート](/help/adaptive-forms/assets/Benefits-enrollment-form-template.png)
 
 
-### 口座明細書の請求 {#Request-for-Account-Statement}
+### 従業員福利厚生概要 {#Employee-Benefits-Summary}
 
-取引明細書のリクエストテンプレートを使用すると、正確で最新の顧客明細書を取得するプロセスを開始するフォームを作成できます。 この明細書は、このフォームを使用する顧客に関する金融取引、活動、その他の関連情報の詳細な記録を提供します。
+従業員福利厚生概要フォームのテンプレートを使用すると、個人の福利厚生に関する必須の詳細情報を収集するためのフォームを作成できます。このフォームは、効率的な支援とサポートのための包括的な概要を提供して、補償内容の迅速かつ正確な評価に役立ちます。
+![従業員福利厚生概要](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
-![Request-for-account-statment](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
-### 安全検査 {#Safety-Inspection}
+### 取引明細書の請求 {#Request-for-Account-Statement}
 
-安全性検査フォームテンプレートを使用すると、安全な作業環境の詳細を入力するフォームを作成できます。 この形態を用いて定期検査を行うことで、潜在的な危険性を特定することができる。 このフォームは、緊急出口、火災安全、電気安全、危険物、個人保護機器、ワークステーションの人間工学など、従業員、訪問者、顧客の安全と福祉に関する様々な側面をカバーしています。
+「取引明細書の請求」テンプレートは、顧客の正確な最新の明細書を取得するプロセスを開始するフォームの作成に役立ちます。明細書は、このフォームを使用する顧客に関する金融取引、活動またはその他の関連情報の詳細な記録を提供します。
 
-![安全検査用紙](/help/adaptive-forms/assets/Safety-inspection-form.png)
+![取引明細書の請求](/help/adaptive-forms/assets/Request-for-account-statment.png)
+
+### 安全点検 {#Safety-Inspection}
+
+安全点検フォームのテンプレートは、安全な作業環境の詳細を入力するフォームの作成に役立ちます。このフォームを使用して定期検査を実施することで、潜在的な危険性を特定することができます。このフォームは、非常口、火災安全、電気安全、危険物、個人用保護具、ワークステーションの人間工学など、従業員、訪問者および顧客の安全と福祉に関する様々な側面をカバーしています。
+
+![安全点検フォーム](/help/adaptive-forms/assets/Safety-inspection-form.png)
 
 ### 品質管理検査 {#Quality-Control-Inspection}
 
-品質管理検査フォームテンプレートを使用して、製品や品目の外観、寸法、機能、ドキュメント、テスト結果、全体的な品質を評価および文書化するフォームを作成します。 品質基準の遵守に必要な欠陥、不適合、および是正措置を特定するのに役立ちます。
+品質管理検査フォームのテンプレートを使用すると、製品やアイテムの外観、寸法、機能、ドキュメント、テスト結果および全体的な品質を評価および文書化するためのフォームを作成できます。欠陥、不適合および品質基準の確実な遵守に必要な是正措置を特定するのに役立ちます。
 
 ![品質管理検査](/help/adaptive-forms/assets/Quality-Control-Inspection.png)
 
 
 ### 購入リクエスト {#Purchase-Request}
 
-購入リクエストフォームテンプレートを使用すると、調達プロセスを開始するフォームを作成し、従業員が自分の作業に必要な商品やサービスの正式な購入リクエストを行うことができます。 フォームは、品目の説明、数量、希望仕入先（該当する場合）、予算配分、購入のジャスティフィケーション、配信情報、必要な承認など、重要な詳細をキャプチャします。
+購入リクエストフォームのテンプレートは、調達プロセスを開始し、作業に必要な商品やサービスの購入を従業員が正式にリクエストできるフォームの作成に役立ちます。このフォームでは、アイテムの説明、数量、希望するサプライヤー（該当する場合）、予算配分、購入理由、配送情報、必要な承認など、必須の詳細情報が取得されます。
 
-![purchase-request-form](/help/adaptive-forms/assets/Purchase-request-form.png)
+![購入リクエストフォーム](/help/adaptive-forms/assets/Purchase-request-form.png)
 
 ## 参照フォームデータモデル {#reference-models}
 
-アダプティブフォームを作成した後、 [コアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja)を使用すると、フォームをデータベースMicrosoft® Dynamics 365 および Salesforce サーバーに接続して、ビジネスワークフローを有効にすることができます。 例：
+[コアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja)に基づいてアダプティブフォームを作成したら、フォームをデータベースの Microsoft® Dynamics 365 サーバーや Salesforce サーバーに接続して、ビジネスワークフローを有効にすることができます。例：
 
-* アダプティブフォーム送信時にMicrosoft® Dynamics 365 と Salesforce にデータを書き込みます。
-* フォームデータモデルで定義されたカスタムエンティティを使用してMicrosoft® Dynamics 365 および Salesforce にデータを書き込みます。また、その逆も同様です。
-* Microsoft® Dynamics 365 と Salesforce サーバーにデータを問い合わせ、Adaptive Formsを事前設定します。
-* Microsoft® Dynamics 365 および Salesforce サーバーからデータを読み取ります。
+* アダプティブフォームの送信時に、データを Microsoft® Dynamics 365 や Salesforce に書き込みます。
+* フォームデータモデル内で定義されているカスタムエンティティを使用して、データを Microsoft® Dynamics 365 や Salesforce に書き込みます（またはその逆の動作を行います）。
+* Microsoft® Dynamics 365 サーバーや Salesforce サーバーに対してデータのクエリを行い、アダプティブフォームに事前に入力します。
+* Microsoft® Dynamics 365 サーバーや Salesforce サーバーからデータを読み取ります。
 
 [参照コンテンツパッケージ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-forms-reference-content.ui.content-2.1.0.zip)をインストールすると、次のフォームデータモデルを取得できます。
 
 * Microsoft® Dynamics 365
 * Salesforce
 
-これらのモデルの使用方法については、 [Microsoft® Dynamics 365 および Salesforce クラウドサービスの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/configure-msdynamics-salesforce.html#configure-dynamics-cloud-service)
+これらのモデルの使用については、[Microsoft® Dynamics 365 および Salesforce クラウドサービスの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/configure-msdynamics-salesforce.html?lang=ja#configure-dynamics-cloud-service)を参照してください。
