@@ -2,10 +2,10 @@
 title: アダプティブフォームのコアコンポーネント - パネルコンテナ
 description: アダプティブフォームのパネルコンテナコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
+source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 90%
+source-wordcount: '1539'
+ht-degree: 91%
 
 ---
 
@@ -133,3 +133,28 @@ To experience the Accordion Component as well as see examples of its configurati
 - [AEM Sites ページまたはエクスペリエンスフラグメントでアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
 
 - [スタンドアロンのアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+
+
+## 関連トピック {#see-also}
+
+- [アコーディオン](/help/adaptive-forms/components/accordion.md)
+- [ボタン](/help/adaptive-forms/components/button.md)
+- [チェックボックス グループ](/help/adaptive-forms/components/checkbox-group.md)
+- [日付選択](/help/adaptive-forms/components/date-picker.md)
+- [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
+- [メール入力](/help/adaptive-forms/components/email-input.md)
+- [フォームコンテナ](/help/adaptive-forms/components/form-container.md)
+- [ファイル添付](/help/adaptive-forms/components/file-attachment.md)
+- [フッター](/help/adaptive-forms/components/footer.md)
+- [ヘッダー](/help/adaptive-forms/components/header.md)
+- [水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
+- [画像](/help/adaptive-forms/components/image.md)
+- [数値入力](/help/adaptive-forms/components/number-input.md)
+- [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
+- [リセットボタン](/help/adaptive-forms/components/reset-button.md)
+- [送信ボタン](/help/adaptive-forms/components/submit-button.md)
+- [電話入力](/help/adaptive-forms/components/telephone-input.md)
+- [テキスト入力](/help/adaptive-forms/components/text-input.md)
+- [テキスト](/help/adaptive-forms/components/text.md)
+- [タイトル](/help/adaptive-forms/components/title.md)
+- [ウィザード](/help/adaptive-forms/components/wizard.md)
