@@ -3,12 +3,13 @@ title: コアコンポーネントを利用したプロジェクトの成功へ�
 description: コアコンポーネントを利用したプロジェクトの実装を成功させる方法
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 92%
 
 ---
+
 
 # コアコンポーネントを利用したプロジェクトの成功への道筋 {#paths-to-success}
 
@@ -40,7 +41,7 @@ ht-degree: 100%
 
 ### Adobe XD 用 UI キットの使用 {#ui-kit}
 
-カスタムコンポーネントの必要性が明らかになった時点で、[Adobe XD 用の UI キット](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)を活用して、設計者がコアコンポーネントを構成要素として使用してワイヤーフレームや設計の構築を開始できるようにします。
+カスタムコンポーネントのニーズが明らかになったら、すぐにAdobe XDの UI キットを活用し、 [ここからダウンロードできます。](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) これにより、デザイナーは、コアコンポーネントを構築ブロックとして使用して、ワイヤーフレームやデザインの構築を開始できます。
 
 ## 強力な機能を見落とさない {#powerful-features}
 
