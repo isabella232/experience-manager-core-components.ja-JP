@@ -1,60 +1,60 @@
 ---
-title: アダプティブFormsコアコンポーネントのカスタマイズ
-description: 組織に合わせてカスタマイズされた機能を実装するための、アダプティブFormsコアコンポーネントの拡張または作成について説明します。
+title: アダプティブフォームのコアコンポーネントのカスタマイズ
+description: 組織に合わせて調整された機能を実装するための、アダプティブフォームのコアコンポーネントの拡張または作成について説明します。
 role: Architect, Developer, Admin
 source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# アダプティブFormsコアコンポーネントのカスタマイズ
+# アダプティブフォームのコアコンポーネントのカスタマイズ
 
-アダプティブFormsコアコンポーネントのカスタマイズを使用すると、既製の機能を特定のニーズに合わせてカスタマイズできます。 このガイドでは、これらのコンポーネントをカスタマイズして、よりパーソナライズされたエクスペリエンスを作成するプロセスについて説明します。
+アダプティブフォームのコアコンポーネントをカスタマイズすると、標準機能を特定のニーズに合わせてカスタマイズできます。このガイドでは、これらのコンポーネントをカスタマイズして、よりパーソナライズされたエクスペリエンスを作成するプロセスについて説明します。
 
 ## 前提条件
 
-アダプティブFormsコアコンポーネントのカスタマイズを開始する前に、
+アダプティブフォームのコアコンポーネントのカスタマイズを開始する前に、
 
-* 詳しくは、 [コアコンポーネントのアーキテクチャ](customizing.md#customizing-the-markup-customizing-the-markup) そして [公式のAdobe Experience Managerコアコンポーネントドキュメント](customizing.md). これらの包括的なリソースは、カスタマイズプロセス全体を通じてガイドとして機能します。
-* 開発環境の設定コアコンポーネントをスムーズに変更できるワークフローを実現します。 開発環境を設定する際に、最新のAEMアーキタイププロジェクトに基づくAEMアーキタイププロジェクトを使用します。 環境に応じて、次の操作を実行できます。
+* [コアコンポーネントのアーキテクチャ](customizing.md#customizing-the-markup-customizing-the-markup)について学びます。詳しくは、[Adobe Experience Manager コアコンポーネントの公式ドキュメント](customizing.md)を参照してください。これらの包括的なリソースは、カスタマイズプロセス全体を通じてガイドとして機能します。
+* 開発環境を設定します。これにより、コアコンポーネントを変更する際のワークフローがスムーズになります。開発環境を設定する際は、最新の AEM アーキタイププロジェクトに基づく AEM アーキタイププロジェクトを使用します。環境に応じて、次の操作を実行できます。
 
-   * [Forms as a Cloud Serviceのローカル開発環境の設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html).
-   * [AEM 6.5 Formsのローカル開発環境の設定](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ja)
+   * [Forms as a Cloud Service 用のローカル開発環境の設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=ja)
+   * [AEM 6.5 Forms 用のローカル開発環境を設定](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ja)
 
-## アダプティブFormsコアコンポーネントのカスタマイズ
+## アダプティブフォームのコアコンポーネントをカスタマイズ
 
-アダプティブFormsコアコンポーネントの外観、動作、機能を変更するには、以下の手順に従います。
+アダプティブフォームのコアコンポーネントの外観、動作、機能を変更するには、次の手順に従います。
 
-1. **コアコンポーネントの識別と複製**
+1. **コアコンポーネントを識別して複製**
 
-   開発環境を設定する際に、アーキタイプベースのプロジェクトを作成しました。 AEMアーキタイププロジェクトで、カスタマイズする特定のコアコンポーネントを特定します。 特定されたら、AEMアーキタイプベースのプロジェクト内でコンポーネントの複製を作成します。 他のアダプティブFormsコアコンポーネントと並行して使用します。 この手順により、カスタマイズ作業が元のコンポーネントに影響を与えないようにし、自由に試すことができます。
+   開発環境を設定する際に、アーキタイプベースのプロジェクトを作成しました。AEMアーキタイププロジェクトで、カスタマイズする特定のコアコンポーネントを識別します。識別したら、AEM アーキタイプベースのプロジェクト内にコンポーネントの複製を作成します。 他のアダプティブフォームのコアコンポーネントと並行して保持します。この手順により、カスタマイズ作業が元のコンポーネントに影響を与えず、自由に実験できるようになります。
 
-1. **コピーしたコンポーネントをカスタマイズする**
+1. **コピーしたコンポーネントをカスタマイズ**
 
-   複製したコンポーネントを開き、必要に応じて必要な変更を加えます。
+   複製したコンポーネントを開き、要件に従って必要な変更を開始します。
 
-   * **構造をカスタマイズHTML**：デザインニーズに合わせてHTML構造を調整し、 [BEM（ブロック要素修飾子）](https://github.com/adobe/aem-core-wcm-components/wiki/css-coding-conventions) メンテナンス可能でスケーラブルなコードのスタイル設定方法。
-   * **ラベルを更新**：カスタマイズされたバージョンのわかりやすい名前を指定するために、コンポーネントのラベルを更新します。 提供されたを参照します。 [OOTB（標準）ラベルテンプレート](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/af-commons/v1/fieldTemplates/label.html) 一貫性を保つために。
-   * **ウィジェットをカスタマイズ**：コンポーネント内で使用されるウィジェット（ドロップダウン、チェックボックス）を、特定のユースケースに合わせて調整します。 詳しくは、 [サンプルウィジェット実装](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput/textinput.html) 参照用。
-   * **ヘルプテキストとツールチップ**：コンポーネントに関連付けられたヘルプテキストやツールチップをパーソナライズして、コンテキストやガイダンスをユーザーに提供します。 以下を使用します。 [OOTB ヘルプテキストテンプレート](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/af-commons/v1/fieldTemplates/questionMark.html) を出発点として使用します。
-   * **データ属性**：必要なすべてのデータ属性をコンポーネントのHTML要素に組み込みます。 これらの属性は、実行時にコンポーネントを適切に機能させるために非常に重要です。 詳しくは、 [ドキュメント](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput) を参照して、アダプティブFormsコアコンポーネントでのデータ属性の役割を理解してください。
+   * **HTML 構造をカスタマイズ**：保守可能でスケーラブルなコードを実現するための [BEM（ブロック要素修飾子）](https://github.com/adobe/aem-core-wcm-components/wiki/css-coding-conventions)スタイルのプラクティスを遵守しながら、デザインのニーズに合わせて HTML 構造を調整します。
+   * **ラベルを更新**：コンポーネントのラベルを更新して、カスタマイズしたバージョンに明確でわかりやすい名前を付けます。一貫性を保つために、提供されている [OOTB（標準）ラベルテンプレート](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/af-commons/v1/fieldTemplates/label.html)を参照してください。
+   * **ウィジェットをカスタマイズ**：コンポーネント内で使用するウィジェット（ドロップダウン、チェックボックス）を調整して、特定のユースケースに合わせます。詳しくは、[サンプルウィジェット実装](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput/textinput.html)を参照してください。
+   * **ヘルプテキストとツールチップ**：コンポーネントに関連付けられたヘルプテキストやツールチップをパーソナライズして、コンテキストやガイダンスをユーザーに提供します。開始点として [OOTB ヘルプテキストテンプレート](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/af-commons/v1/fieldTemplates/questionMark.html)を使用します。
+   * **データ属性**：必要なすべてのデータ属性をコンポーネントの HTML 要素内に組み込みます。これらの属性は、実行時にコンポーネントを適切に機能させるために重要です。アダプティブフォームのコアコンポーネントのデータ属性の役割を理解するには、[ドキュメント](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput)を参照してください。
 
-1. **バックエンドロジックの実装**
+1. **バックエンドロジックを実装**
 
-   カスタマイズにバックエンドのロジックが必要な場合は、既存の Sling モデルを拡張できます。 提供されたを参照します。 [例](https://github.com/adobe/aem-core-forms-components/blob/master/bundles/af-core/src/main/java/com/adobe/cq/forms/core/components/internal/models/v1/form/TextInputImpl.java) 必要な機能をカスタマイズされたコンポーネントにシームレスに統合できます。
+   カスタマイズにバックエンドロジックが必要な場合は、既存の Sling モデルを拡張できます。提供されている[例](https://github.com/adobe/aem-core-forms-components/blob/master/bundles/af-core/src/main/java/com/adobe/cq/forms/core/components/internal/models/v1/form/TextInputImpl.java)を参照して、必要な機能をカスタマイズされたコンポーネントにシームレスに統合します。
 
-1. **コンポーネントのダイアログの設定**
+1. **コンポーネントのダイアログを設定**
 
-   カスタマイズしたコンポーネントに関連付けられたダイアログを設定します。 例を使用 [コンポーネントダイアログ](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput/_cq_dialog/.content.xml) ユーザーの操作と設定を適切に管理するために、ドキュメントに記載されています。
+   カスタマイズしたコンポーネントに関連付けられたダイアログを設定します。ドキュメントで提供されているサンプル[コンポーネントダイアログ](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput/_cq_dialog/.content.xml)を使用して、ユーザーの操作と設定が適切に管理されていることを確認します。
 
-1. **コンポーネントをローカル開発環境にデプロイおよびテストする**
+1. **ローカル開発環境でコンポーネントをデプロイしてテスト**
 
-   用途 [maven でコンポーネントをビルドおよびデプロイします。](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html#building-and-installing) をローカル開発環境で使用します。 コンポーネントをデプロイした後、アダプティブフォームを作成してカスタムコンポーネントをテストします。
+   ローカル開発環境で [Maven を使用してコンポーネントをビルドおよびデプロイ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=ja#building-and-installing)します。コンポーネントをデプロイしたら、アダプティブフォームを作成してカスタムコンポーネントをテストします。
 
-1. **実稼動環境にカスタムコンポーネントをデプロイする**
+1. **実稼動環境でカスタムコンポーネントをデプロイ**
 
-   ローカル開発環境でコンポーネントをテストした後、実稼動環境にコンポーネントをデプロイします。
+   ローカル開発環境でコンポーネントをテストしたら、実稼動環境にコンポーネントをデプロイします。
 
