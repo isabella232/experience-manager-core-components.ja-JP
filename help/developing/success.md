@@ -4,9 +4,9 @@ description: コアコンポーネントを利用したプロジェクトの実�
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 92%
 
 ### Adobe XD 用 UI キットの使用 {#ui-kit}
 
-カスタムコンポーネントのニーズが明らかになったら、すぐにAdobe XDの UI キットを活用し、 [ここからダウンロードできます。](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) これにより、デザイナーは、コアコンポーネントを構築ブロックとして使用して、ワイヤーフレームやデザインの構築を開始できます。
+カスタムコンポーネントの必要性が明らかになった時点で、[こちらからダウンロードできる](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) Adobe XD 用 UI キットを活用して、設計者がコアコンポーネントを構成要素として使用してワイヤフレームや設計の作成を開始できるようにします。
 
 ## 強力な機能を見落とさない {#powerful-features}
 
