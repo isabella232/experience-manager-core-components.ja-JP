@@ -4,9 +4,9 @@ description: アダプティブフォームの送信ボタンコアコンポー�
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1224'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
