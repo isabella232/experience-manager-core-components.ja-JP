@@ -4,9 +4,9 @@ description: アダプティブフォームの電話入力コアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1793'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
