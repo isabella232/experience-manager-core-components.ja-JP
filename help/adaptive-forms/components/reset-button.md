@@ -4,9 +4,9 @@ description: アダプティブフォームのリセットボタンのコアコ�
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
