@@ -4,9 +4,9 @@ description: アダプティブフォームのテキストコアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
