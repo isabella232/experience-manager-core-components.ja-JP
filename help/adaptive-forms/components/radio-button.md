@@ -4,9 +4,9 @@ description: アダプティブフォームのラジオボタンコアコンポ�
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1739'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
