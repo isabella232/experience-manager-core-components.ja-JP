@@ -3,10 +3,10 @@ title: ティーザーコンポーネント
 description: ティーザーコンポーネントでは、画像、タイトル、リッチテキストのほか、オプションで追加コンテンツへのリンクを表示できます。
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
-workflow-type: ht
-source-wordcount: '988'
-ht-degree: 100%
+source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
+workflow-type: tm+mt
+source-wordcount: '1081'
+ht-degree: 92%
 
 ---
 
@@ -30,6 +30,12 @@ ht-degree: 100%
 |---|---|---|---|
 | v2 | - | 互換性あり | 互換性あり |
 | [v1](v1/teaser.md) | 互換性あり | 互換性あり | 互換性あり |
+
+## 次世代のDynamic Mediaサポート {#next-gen-dm}
+
+ティーザーコンポーネント ( [リリース2.23.2](/help/versions.md)) は、次世代のDynamic Mediaリモートアセットをサポートします。
+
+[設定が完了すると、](/help/developing/next-gen-dm.md) リモートの次世代Dynamic Mediaサービスから、ティーザーコンポーネント用のアセットを選択できます。
 
 ## コンポーネント出力のサンプル {#sample-component-output}
 
@@ -77,6 +83,10 @@ ht-degree: 100%
 * **ページからアイキャッチ画像を継承** - リンクされたページ（見つからない場合は現在のページ）のページプロパティで定義された画像を使用します。
 * **画像アセット** - [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ja)からアセットをドロップするか、「**参照**」オプションをタップしてローカルファイルシステムからアップロードします。
    * 現在選択されている画像を選択解除するには、「**クリア**」をタップまたはクリックします。
+   * タップまたはクリック **選択** 開く [アセットブラウザー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=ja) をクリックして画像を選択します。
+      * 次の場合 [次世代Dynamic Mediaの機能](#next-gen-dm) が有効になっている場合は、アセットを選択する複数のオプションがあります。
+         * **ローカル** ローカルのAEMアセットライブラリから選択します。
+         * **リモート** AEMインスタンス外のDynamic Mediaライブラリから選択します。
    * アセットエディターで&#x200B;**アセットのレンディションを管理**&#x200B;するには、「[編集](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ja)」をタップまたはクリックします。
 * **アクセシビリティ用代替テキスト** - 視覚に障害のあるユーザー向けの画像説明を定義できます。
    * **ページから代替テキストを継承** - このオプションでは、DAM における `dc:description` メタデータのリンク先アセット値の代替説明を使用します。アセットがリンクされていない場合は現在のページの代替説明を使用します。
