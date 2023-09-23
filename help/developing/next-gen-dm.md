@@ -2,7 +2,7 @@
 title: 次世代のDynamic Mediaサポート
 description: リモートの次世代Dynamic Media Assets をサポートするようにコアコンポーネントの画像およびティーザーコンポーネントを設定する方法について説明します。
 role: Architect, Developer, Admin, User
-source-git-commit: 57307b75bd33fd538a1eb704cc37822847c896de
+source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 5%
@@ -70,7 +70,7 @@ OSGi の設定方法の詳細については、次のドキュメントを参照
 
 1. 認証が完了すると、リモートサービスのアセットブラウザーが開きます。 目的のアセットを選択し、をタップまたはクリックします。 **選択**.
 
-   ![リモートアセットの選択](/help/assets/remote-asset-selection.png)
+   ![リモートアセットの選択](/help/assets/remote-asset-picker.png)
 
 リモートアセットがローカルのAEMページに追加され、機能が正しく設定されていることを確認しました。
 
