@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ ht-degree: 98%
    + [クライアントライブラリを含める](/help/developing/including-clientlibs.md)
    + [アダプティブ画像サーブレット](/help/developing/adaptive-image-servlet.md)
    + [Web に最適化された画像配信](/help/developing/web-optimized-image-delivery.md)
-   + [次世代のDynamic Mediaサポート](/help/developing/next-gen-dm.md)
+   + [次世代の Dynamic Media サポート](/help/developing/next-gen-dm.md)
    + Adobe Client Data Layer {#data-layer}
       + [データレイヤーの概要](/help/developing/data-layer/overview.md)
       + [データレイヤーとの統合](/help/developing/data-layer/integrations.md)
