@@ -3,8 +3,8 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: ht
+source-git-commit: 13e802c510e165d3ef3da431e1e8b0fe7b35d801
+workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 
 * [アコーディオン](/help/adaptive-forms/components/accordion.md)
 * [ボタン](/help/adaptive-forms/components/button.md)
-* [チェックボックス グループ](/help/adaptive-forms/components/checkbox-group.md)
+* [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
 * [日付選択](/help/adaptive-forms/components/date-picker.md)
 * [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
 * [メール入力](/help/adaptive-forms/components/email-input.md)
@@ -136,3 +136,5 @@ AEM Forms as a Cloud Service 環境と AEM 6.5 Forms 環境の両方で次のア
     *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
     
     <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+
+{{see-also}}
