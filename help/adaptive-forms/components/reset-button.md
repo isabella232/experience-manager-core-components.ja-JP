@@ -3,9 +3,9 @@ title: アダプティブフォームのコアコンポーネント - リセッ�
 description: アダプティブフォームのリセットボタンのコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1230'
 ht-degree: 100%
 
 ---
@@ -97,11 +97,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
-## 関連記事 {#related-article}
+<!--
 
-* [AEM Sites ページまたはエクスペリエンスフラグメントでアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
+## Related article {#related-article}
 
-* [スタンドアロンのアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -127,6 +129,7 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [テキスト](/help/adaptive-forms/components/text.md)
 >* [タイトル](/help/adaptive-forms/components/title.md)
 >* [ウィザード](/help/adaptive-forms/components/wizard.md)
+
 
 ## 関連トピック {#see-also}
 
