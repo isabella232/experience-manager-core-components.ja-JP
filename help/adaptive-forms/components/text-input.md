@@ -3,8 +3,8 @@ title: アダプティブフォームのコアコンポーネント - テキス�
 description: アダプティブフォームのテキスト入力コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: ht
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 100%
 
@@ -146,26 +146,30 @@ To experience the Accordion Component as well as see examples of its configurati
 * [スタンドアロンのアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
 
 
+>[!MORELIKETHIS]
+>
+>* [アコーディオン](/help/adaptive-forms/components/accordion.md)
+>* [ボタン](/help/adaptive-forms/components/button.md)
+>* [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
+>* [日付選択](/help/adaptive-forms/components/date-picker.md)
+>* [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
+>* [メール入力](/help/adaptive-forms/components/email-input.md)
+>* [フォームコンテナ](/help/adaptive-forms/components/form-container.md)
+>* [ファイル添付](/help/adaptive-forms/components/file-attachment.md)
+>* [フッター](/help/adaptive-forms/components/footer.md)
+>* [ヘッダー](/help/adaptive-forms/components/header.md)
+>* [水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [画像](/help/adaptive-forms/components/image.md)
+>* [数値入力](/help/adaptive-forms/components/number-input.md)
+>* [パネルコンテナ](/help/adaptive-forms/components/panel-container.md)
+>* [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
+>* [リセットボタン](/help/adaptive-forms/components/reset-button.md)
+>* [送信ボタン](/help/adaptive-forms/components/submit-button.md)
+>* [電話入力](/help/adaptive-forms/components/telephone-input.md)
+>* [テキスト](/help/adaptive-forms/components/text.md)
+>* [タイトル](/help/adaptive-forms/components/title.md)
+>* [ウィザード](/help/adaptive-forms/components/wizard.md)
+
 ## 関連トピック {#see-also}
 
-* [アコーディオン](/help/adaptive-forms/components/accordion.md)
-* [ボタン](/help/adaptive-forms/components/button.md)
-* [チェックボックス グループ](/help/adaptive-forms/components/checkbox-group.md)
-* [日付選択](/help/adaptive-forms/components/date-picker.md)
-* [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
-* [メール入力](/help/adaptive-forms/components/email-input.md)
-* [フォームコンテナ](/help/adaptive-forms/components/form-container.md)
-* [ファイル添付](/help/adaptive-forms/components/file-attachment.md)
-* [フッター](/help/adaptive-forms/components/footer.md)
-* [ヘッダー](/help/adaptive-forms/components/header.md)
-* [水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
-* [画像](/help/adaptive-forms/components/image.md)
-* [数値入力](/help/adaptive-forms/components/number-input.md)
-* [パネルコンテナ](/help/adaptive-forms/components/panel-container.md)
-* [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
-* [リセットボタン](/help/adaptive-forms/components/reset-button.md)
-* [送信ボタン](/help/adaptive-forms/components/submit-button.md)
-* [電話入力](/help/adaptive-forms/components/telephone-input.md)
-* [テキスト](/help/adaptive-forms/components/text.md)
-* [タイトル](/help/adaptive-forms/components/title.md)
-* [ウィザード](/help/adaptive-forms/components/wizard.md)
+{{see-also}}

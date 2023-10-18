@@ -2,10 +2,11 @@
 title: アダプティブフォームのコアコンポーネント - パネルコンテナ
 description: アダプティブフォームのパネルコンテナコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
-source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
-workflow-type: ht
-source-wordcount: '1539'
-ht-degree: 100%
+exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+workflow-type: tm+mt
+source-wordcount: '1725'
+ht-degree: 90%
 
 ---
 
@@ -128,18 +129,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **スクリーンリーダーが通知を行うための HTMLの役割** - HTMLの役割は、スクリーンリーダーなどの支援テクノロジーに対する HTML 要素の目的を指定するための属性です。役割の属性は、要素に追加のコンテキストと意味論的意味を提供するために使用されます。これにより、スクリーンリーダーがコンテンツを解釈して読み上げやすくなります。 例えば AEM Formsでは、フォームフィールドのラベルが「label」という役割を持ち、入力フィールドが「textbox」という役割を持つ場合があります。 これにより、スクリーンリーダーはラベルと入力フィールドの関係を理解し、ユーザーに対して正しく通知できるようになります。
 
-## 関連記事 {#related-article}
-
-- [AEM Sites ページまたはエクスペリエンスフラグメントでアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
-
-- [スタンドアロンのアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
-
-
-## 関連トピック {#see-also}
+## 関連記事 {#related-articles}
 
 - [アコーディオン](/help/adaptive-forms/components/accordion.md)
 - [ボタン](/help/adaptive-forms/components/button.md)
-- [チェックボックス グループ](/help/adaptive-forms/components/checkbox-group.md)
+- [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
 - [日付選択](/help/adaptive-forms/components/date-picker.md)
 - [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
 - [メール入力](/help/adaptive-forms/components/email-input.md)
@@ -158,3 +152,16 @@ To experience the Accordion Component as well as see examples of its configurati
 - [テキスト](/help/adaptive-forms/components/text.md)
 - [タイトル](/help/adaptive-forms/components/title.md)
 - [ウィザード](/help/adaptive-forms/components/wizard.md)
+
+## 関連トピック {#see-also}
+
+- [アダプティブフォームの作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+- [AEM Sites ページまたはエクスペリエンスフラグメントでアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
+- [アダプティブフォームの翻訳](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
+- [アダプティブフォームのPDFバージョン (DoR) を生成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html)
+- [アダプティブフォームに新しいロケールを追加する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html)
+- [アダプティブフォームをMicrosoft® SharePointに接続する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#create-sharepoint-configuration) [Microsoft® Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#microsoft-power-automate) [Microsoft® OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-onedrive) [または Azure Blob ストレージ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-azure-blob-storage)
+- [アダプティブフォームのデータをAEM Workflow またはビジネスプロセスマネージャーに送信する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
+- [アダプティブフォームのデータをデータベースまたは REST エンドポイントに送信する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint)
+- [Adobe Analyticsからアダプティブフォームへのフォームの使用状況の追跡を有効にする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html)
+- [アダプティブフォームでのAdobe Signの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html?lang=ja)

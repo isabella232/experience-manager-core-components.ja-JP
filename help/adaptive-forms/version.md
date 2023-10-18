@@ -3,9 +3,9 @@ title: AEM Forms コアコンポーネントのバージョン
 description: コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 13e802c510e165d3ef3da431e1e8b0fe7b35d801
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '316'
 ht-degree: 100%
 
 ---
@@ -32,5 +32,7 @@ ht-degree: 100%
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | Java | リリース日 |
 |---|---|---|---|---|---|
 | [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | このリリースでは、オンプレミスおよび AMS の AEM Forms のコアコンポーネントのサポートが導入されました。 | - | 6.5.16.0+ | 8、11 | 2023年2月8日（PT） |
+
+## 関連トピック {#see-also}
 
 {{see-also}}

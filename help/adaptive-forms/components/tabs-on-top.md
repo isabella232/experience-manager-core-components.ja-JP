@@ -2,9 +2,9 @@
 title: アダプティブフォームのコアコンポーネント - 上部のタブ
 description: 上部のコアコンポーネントで、アダプティブフォームのタブを使用するか、カスタマイズします。
 role: Architect, Developer, Admin, User
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: ht
-source-wordcount: '471'
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -59,3 +59,32 @@ To experience the Accordion Component as well as see examples of its configurati
 * [AEM Sites ページまたはエクスペリエンスフラグメントでアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
 
 * [スタンドアロンのアダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
+
+>[!MORELIKETHIS]
+>
+>* [アコーディオン](/help/adaptive-forms/components/accordion.md)
+>* [ボタン](/help/adaptive-forms/components/button.md)
+>* [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
+>* [日付選択](/help/adaptive-forms/components/date-picker.md)
+>* [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
+>* [メール入力](/help/adaptive-forms/components/email-input.md)
+>* [フォームコンテナ](/help/adaptive-forms/components/form-container.md)
+>* [ファイル添付](/help/adaptive-forms/components/file-attachment.md)
+>* [フッター](/help/adaptive-forms/components/footer.md)
+>* [ヘッダー](/help/adaptive-forms/components/header.md)
+>* [水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [画像](/help/adaptive-forms/components/image.md)
+>* [数値入力](/help/adaptive-forms/components/number-input.md)
+>* [パネルコンテナ](/help/adaptive-forms/components/panel-container.md)
+>* [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
+>* [リセットボタン](/help/adaptive-forms/components/reset-button.md)
+>* [送信ボタン](/help/adaptive-forms/components/submit-button.md)
+>* [電話入力](/help/adaptive-forms/components/telephone-input.md)
+>* [テキスト入力](/help/adaptive-forms/components/text-input.md)
+>* [テキスト](/help/adaptive-forms/components/text.md)
+>* [タイトル](/help/adaptive-forms/components/title.md)
+>* [ウィザード](/help/adaptive-forms/components/wizard.md)
+
+## 関連トピック {#see-also}
+
+{{see-also}}
