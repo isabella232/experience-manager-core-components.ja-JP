@@ -3,10 +3,10 @@ title: アダプティブ画像サーブレット
 description: コアコンポーネントで画像配信にアダプティブ画像サーブレットを使用する方法と、その使用を最適化する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: ht
+source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 コアコンポーネントで画像配信にアダプティブ画像サーブレットを使用する方法と、その使用を最適化する方法について説明します。
 
-## アダプティブ画像サーブレットか web に最適化された画像配信か {#options}
+## アダプティブ画像サーブレット または Web に最適化された画像配信 {#options}
 
-画像コアコンポーネントでは、2 とおりの方法で画像を配信できます。
+画像コアコンポーネントでは、2 つの方法で画像を配信できます。
 
 * アダプティブ画像サーブレットがデフォルトです。
 * [Web に最適化された画像配信](/help/developing/web-optimized-image-delivery.md)は AEMaaCS で使用でき、ダウンロードサイズを平均で 25%削減します。
