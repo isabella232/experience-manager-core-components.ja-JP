@@ -4,7 +4,7 @@ description: アコーディオンを使用すると、長いフォームや複�
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2052'
 ht-degree: 100%
 
