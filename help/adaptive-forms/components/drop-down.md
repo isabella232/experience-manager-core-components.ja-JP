@@ -4,7 +4,7 @@ description: アダプティブフォームのドロップダウンコアコン�
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
 ht-degree: 100%
 
