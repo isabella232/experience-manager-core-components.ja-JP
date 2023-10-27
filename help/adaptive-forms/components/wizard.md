@@ -4,7 +4,7 @@ description: アダプティブフォームのウィザードコアコンポー�
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1866'
 ht-degree: 100%
 
