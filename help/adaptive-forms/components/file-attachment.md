@@ -4,7 +4,7 @@ description: アダプティブフォームのファイル添付コアコンポ�
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
 ht-degree: 100%
 
