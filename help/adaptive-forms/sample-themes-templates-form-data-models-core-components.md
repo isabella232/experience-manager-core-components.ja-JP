@@ -6,10 +6,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 5e08235a0da5c44e60a1b488a832a8346b5f4cfa
+source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 68%
+source-wordcount: '1304'
+ht-degree: 69%
 
 ---
 
@@ -140,11 +140,15 @@ FSI のテーマは、フォームに清潔で実用的な外観を与えるこ�
 
 ![参照テンプレート](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
-### 基本 {#Basic}
+<!--
 
-基本テンプレートを使用すると、登録エクスペリエンスフォームをすばやく作成できます。 また、これを使用して、 [アダプティブFormsコアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja). データをセクションごとに表示するウィザードレイアウトが提供されます。
+### Basic {#Basic}
 
-![基本テンプレート](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
+A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
+
+![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
+
+-->
 
 ### 空白 {#Blank}
 
