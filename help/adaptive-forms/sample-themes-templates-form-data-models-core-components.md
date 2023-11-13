@@ -1,21 +1,21 @@
 ---
-title: AEM Formsコアコンポーネントのサンプルのテーマとテンプレートを入手するには？
-description: AEM Formsコアコンポーネントには、サンプルのアダプティブフォームテーマ、テンプレート、フォームデータモデルが用意されています。
+title: AEM Forms コアコンポーネントのサンプルのテーマおよびテンプレートを取得する方法。
+description: AEM Forms コアコンポーネントには、サンプルのアダプティブフォームテーマ、テンプレートおよびフォームデータモデルが用意されています。
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1304'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # サンプルのテーマ、テンプレートおよびフォームデータモデル {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] コアコンポーネントには、すぐに使用できるサンプルのテーマ、テンプレートおよびフォームデータモデルが用意されているので、用途の広いアダプティブフォームをすばやく作成することができます。これらは、フォーム作成者が、 [アダプティブFormsコアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja) データベースとの接続をシームレスに行いながら、簡単なフォームを短時間で、複雑なフォームを簡単に作成する。
+[!DNL AEM Forms] コアコンポーネントには、すぐに使用できるサンプルのテーマ、テンプレートおよびフォームデータモデルが用意されているので、用途の広いアダプティブフォームをすばやく作成することができます。これらは、データベースとシームレスに接続しながら、シンプルなフォームは直ちに、複雑なフォームは容易に作成できる[アダプティブフォームコアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=ja)の拡張性、適応性および応答性をフォーム作成者が学ぶうえでも役に立ちます。
 
 参照コンテンツパッケージに含まれているサンプルのテーマ、テンプレートおよびフォームデータモデルは次のとおりです。
 
@@ -36,20 +36,20 @@ ht-degree: 69%
 
 ## サンプルテーマ {#Sample-Themes}
 
-リファレンスサンプルテーマは、フォームのスタイル設定の使用、定義、カスタマイズに役立ちます。CSS の基本知識を持つ作成者は、必要に応じてテーマをカスタマイズできます。
+参照用サンプルテーマは、作成者がフォームのスタイル設定を使用、定義およびカスタマイズするのに役立ちます。作成者に CSS の基本知識さえあれば、テーマを必要に応じてカスタマイズできます。
 
 **これらのテーマの取得方法**
-これらのテーマは、次の手順でに対して取得します。 **AEMas a Cloud Service** 環境：
+これらのテーマは、**AEM as a Cloud Service** 環境で以下に示す手順を使用して取得します。
 
-1. [アダプティブフォームのコアコンポーネントの有効化](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja)
-1. [環境へのAEM Archetype 45 プロジェクトのデプロイ](https://github.com/adobe/aem-project-archetype)
+1. [アダプティブフォームコアコンポーネントを有効にします](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja)
+1. [AEM Archetype 45 プロジェクトを環境にデプロイ](https://github.com/adobe/aem-project-archetype)
 
 
-AEMアーキタイプをデプロイする場合、フォームで使用できるのは OOTB テーマのみです。必要に応じてテーマをカスタマイズするには、 [フロントエンドパイプラインの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ja) をクリックしてテーマをデプロイします。
+AEM アーキタイプをデプロイする場合、フォームで使用できるのは OOTB テーマのみです。必要に応じてテーマをカスタマイズするには、[フロントエンドパイプラインを使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ja)してテーマをデプロイします。
 
 >[!NOTE]
 >
-> * テーマは使用できません **AEM 6.5** 環境。
+> * テーマは **AEM 6.5** 環境では使用できません。
 
 <!--
 
@@ -88,7 +88,7 @@ You can get these themes by deploying an [AEM Archetype 45](https://github.com/a
 
 ### キャンバス {#Canvas}
 
-キャンバステーマはフォームのデフォルトのテーマで、基本色、透明度、フラットなアイコンの使用に重点を置いています。 以下のスクリーンショットでは、キャンバステーマの外観を確認できます。
+キャンバステーマはフォームのデフォルトのテーマで、基本色、透明およびフラットアイコンの使用を強調します。以下のスクリーンショットでは、キャンバステーマの外観を確認できます。
 
 ![キャンバステーマ](/help/adaptive-forms/assets/Safety-Inspection-Theme-Canvas.png)
 
@@ -101,22 +101,22 @@ WKND テーマは、生き生きとした想像力に富む魅力的なデザイ
 
 ### イーゼル {#Easel}
 
-イーゼルテーマは、魅力的でセットアップしやすいフォームアピアランスを作成するのに役立ち、シンプルで使いやすいようにカスタマイズされています。イーゼルのテーマは、絵画を描きながらキャンバスを支えるために携帯用のスタンドを使うコンセプトに基づいています。
+イーゼルテーマは、魅力的でセットアップしやすいフォームアピアランスを作成するのに役立ち、シンプルで使いやすいようにカスタマイズされています。イーゼルテーマは、アーティストが絵画制作中にキャンバスを支えるために使用する持ち運び可能なスタンドというコンセプトに基づいています。
 
 ![イーゼルテーマ](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
 
-### FSI（金融サービス&amp;保険） {#FSI}
+### FSI（金融サービス＆保険） {#FSI}
 
-FSI のテーマは、フォームに清潔で実用的な外観を与えることに重点を置いています。 FSI テーマを適用すると、画像に表示されるように、青のマイルドな色合いがフォームに適用されます。
+FSI テーマは、フォームにすっきりとした実用的な外観を与えることに重点を置いています。画像に表示されるように、FSI テーマを適用すると、青のマイルドな色相がフォームに適用されます。
 
 ![FSI テーマ](/help/adaptive-forms/assets/fsi-theme-new1.png)
 
 
 ### ヘルスケア {#Healthcare}
 
-ヘルスケアテーマでは、豊富で緑豊かなトーンを使用して、フォーム内のタブ、パネル、テキストボックス、ボタンなどの要素を強調します。
+ヘルスケアテーマは、豊富で緑豊かなトーンを採用し、フォーム内のタブ、パネル、テキストボックス、ボタンなどの要素を強調します。
 
-![ヘルスケアのテーマ](/help/adaptive-forms/assets/healthcare-new-theme.png)
+![ヘルスケアテーマ](/help/adaptive-forms/assets/healthcare-new-theme.png)
 
 
 ## サンプルテンプレート {#Sample-templates}
@@ -124,7 +124,7 @@ FSI のテーマは、フォームに清潔で実用的な外観を与えるこ�
 テンプレートは、初期のフォーム構造、コンテンツおよびアクションを定義したもので、対象フォームで複製したり、同様のテンプレート構造を対象フォームに使用したりします。例えば、同意フォーム、福利厚生登録フォームなどがあります。
 
 **これらのテンプレートの取得方法。**
-これらのテンプレートは、 [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) を **AEM Formsas a Cloud Service** 環境または **AEM 6.5 Forms** 環境。
+テンプレートを取得するには、[AEM Archetype 45](https://github.com/adobe/aem-project-archetype) を **AEM Forms as a Cloud Service** 環境または **AEM 6.5 Forms** 環境にデプロイします。
 
 <!--
 
@@ -170,20 +170,20 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 ### 同意フォーム {#Consent-Form}
 
-同意フォームテンプレートを使用して、特定の活動に参加する参加者、調査研究、医療処置、または個人情報や権利が関与する状況から法的文書を調達するためのフォームを作成します。 このフォームは、透明性の確保、参加者の権利の保護、個人の同意内容の明確な理解に役立ちます。
+同意フォームテンプレートを使用すると、特定の活動、研究、医療処置または個人情報や権利が関係する可能性のあるあらゆる状況に関与する参加者から法的文書を入手するためのフォームを作成できます。このフォームは、透明性の確保、参加者の権利の保護、個人の同意内容の明確な理解に役立ちます。
 
 ![同意フォーム](/help/adaptive-forms/assets/Consent-form-desktop-view.png)
 
 ### ログサービスリクエスト {#Log-Service-Request}
 
-ログサービスリクエストテンプレートは、サービスプロバイダーにログ固有のログサービスを要求するフォームを作成する際に役立ちます。このフォームは、ステータスの監視や追跡をおこなうための、イベント、アクティビティまたはデータログのチケットを作成する正式なリクエストとして機能します。
+ログサービスリクエストテンプレートは、サービスプロバイダーにログ固有のログサービスを要求するフォームを作成する際に役立ちます。このフォームは、監視や追跡のステータスのイベント、アクティビティまたはデータのログのチケットを作成する正式なリクエストとして機能します。
 
 ![ログサービスリクエストテンプレート](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
 
 
 ### フィードバック送信 {#Give-Feedback}
 
-フィードバック送信フォームのテンプレートは、別のユーザーやチームに建設的なフィードバックを提供するためのフォームを作成する際に役立ちます。フォームは、フィードバックが明確で具体的で実用的なものであることを確認し、オープンなコミュニケーションと改善を促進するのに役立ちます。
+フィードバック送信フォームのテンプレートは、別のユーザーやチームに建設的なフィードバックを提供するためのフォームを作成する際に役立ちます。このフォームは、明確かつ具体的で施策につながるフィードバックを保証するのに役立ち、オープンなコミュニケーションと改善を促進します。
 
 ![フィードバック送信テンプレート](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
@@ -203,7 +203,7 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 ### 取引明細書の請求 {#Request-for-Account-Statement}
 
-取引明細書のリクエストテンプレートを使用すると、正確で最新の顧客明細書を取得するプロセスを開始するフォームを作成できます。 明細書は、このフォームを使用する顧客に関する金融取引、活動またはその他の関連情報の詳細な記録を提供します。
+「取引明細書の請求」テンプレートは、顧客の正確な最新の明細書を取得するプロセスを開始するフォームの作成に役立ちます。明細書は、このフォームを使用する顧客に関する金融取引、活動またはその他の関連情報の詳細な記録を提供します。
 
 ![取引明細書の請求](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
