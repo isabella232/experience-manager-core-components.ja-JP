@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - フォー�
 description: Web ページへのアダプティブフォームの追加。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '755'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1243'
+ht-degree: 76%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 100%
 
 フォームを web サイトに追加したほうが良い理由はいくつかあります。
 
-* **データ収集**：フォームを使用して、市場調査やユーザー行動分析など、様々な目的で web サイトの訪問者からデータを収集できます。
+- **データ収集**：フォームを使用して、市場調査やユーザー行動分析など、様々な目的で web サイトの訪問者からデータを収集できます。
 
-* **リードジェネレーション**：フォームを使用して、見込み客から名前やメールアドレスなどの情報を収集し、販売やマーケティング活動のリードを生成できます。
+- **リードジェネレーション**：フォームを使用して、見込み客から名前やメールアドレスなどの情報を収集し、販売やマーケティング活動のリードを生成できます。
 
-* **e コマース**：フォームをオンラインショッピングに使用すると、顧客は web サイトを通じて注文や支払いを行えるようになります。
+- **e コマース**：フォームをオンラインショッピングに使用すると、顧客は web サイトを通じて注文や支払いを行えるようになります。
 
-* **問い合わせ**：問い合わせフォームを使用すると、web サイトの訪問者は web サイトの所有者や組織に簡単に連絡できます。
+- **問い合わせ**：問い合わせフォームを使用すると、web サイトの訪問者は web サイトの所有者や組織に簡単に連絡できます。
 
-* **調査および投票**：フォームは、調査や調査を通じて web サイトの訪問者からフィードバックや意見を収集するのに使用できます。
+- **調査および投票**：フォームは、調査や調査を通じて web サイトの訪問者からフィードバックや意見を収集するのに使用できます。
 
-* **イベント登録**：フォームをイベント登録に使用すると、web サイトの訪問者はイベントや web セミナーに登録できます。
+- **イベント登録**：フォームをイベント登録に使用すると、web サイトの訪問者はイベントや web セミナーに登録できます。
 
-* **購読**：フォームを web サイトの購読に使用すると、訪問者がニュースレターやその他の標準のコミュニケーションに新規登録できます。
+- **購読**：フォームを web サイトの購読に使用すると、訪問者がニュースレターやその他の標準のコミュニケーションに新規登録できます。
 
-* **ユーザー認証**：フォームをユーザー認証に使用すると、web サイトの訪問者がアカウントを作成し、ログインして制限されたコンテンツや機能にアクセスできるようになります。
+- **ユーザー認証**：フォームをユーザー認証に使用すると、web サイトの訪問者がアカウントを作成し、ログインして制限されたコンテンツや機能にアクセスできるようになります。
 
-* **コンバージョン率の向上**：適切に設計されたフォームがあると、製品の購入やサービスへの新規登録など、ユーザーが簡単に目的のアクションを完了できるようにすることで、コンバージョン率を高めることができます。
+- **コンバージョン率の向上**：適切に設計されたフォームがあると、製品の購入やサービスへの新規登録など、ユーザーが簡単に目的のアクションを完了できるようにすることで、コンバージョン率を高めることができます。
 
 
 ## バージョンと互換性 {#version-and-compatibility}
@@ -62,9 +62,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![「基本」タブ](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **事前入力サービス** - このオプションを使用すると、ユーザーはアダプティブフォームのレンダリング時にデータを取得するための事前入力サービスを選択できます。詳しくは、[事前入力サービスの作成および設定方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ja#aem-forms-custom-prefill-service)を参照してください
+- **事前入力サービス** - このオプションを使用すると、ユーザーはアダプティブフォームのレンダリング時にデータを取得するための事前入力サービスを選択できます。詳しくは、[事前入力サービスの作成および設定方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ja#aem-forms-custom-prefill-service)を参照してください
 
-* **クライアントライブラリカテゴリ** - ユーザーはアダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。 jquery および underscore.js サードパーティライブラリに依存する再利用可能な関数のみを、ライブラリに保持することをお勧めします。
+- **クライアントライブラリカテゴリ** - ユーザーはアダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。 jquery および underscore.js サードパーティライブラリに依存する再利用可能な関数のみを、ライブラリに保持することをお勧めします。
+
+### 「データモデル」タブ {#data-model-tab}
+
+![「送信」タブ](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+
+フォームデータモデルを使用してフォームをデータソースに接続し、ユーザーのアクションに基づいてデータを送受信することができます。また、フォームを JSON スキーマに接続して、送信されたデータを事前定義済みの形式で受信することもできます。要件に基づいて、次のようにフォームを JSON スキーマまたはフォームデータモデルに接続します。
+- JSON スキーマの作成と環境へのアップロード
+- フォームデータモデルを作成
 
 ### 「送信」タブ {#submission-tab}
 
@@ -72,13 +80,59 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ユーザーは、アダプティブフォームの送信に対して様々なアクションを設定できます。
 
-* **リダイレクト URL／パス** - このオプションを使用すると、ユーザーはアダプティブフォームの送信後にユーザーがリダイレクトされる各フォームのページを設定できます。詳しくは、[リダイレクトページの設定方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=ja)を参照してください。
+- **リダイレクト URL／パス** - このオプションを使用すると、ユーザーはアダプティブフォームの送信後にユーザーがリダイレクトされる各フォームのページを設定できます。詳しくは、[リダイレクトページの設定方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=ja)を参照してください。
 
 ![「メッセージを表示」タブ](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-* **メッセージを表示** - このオプションを使用すると、ユーザーはアダプティブフォームが正常に送信されたときに表示されるメッセージを追加できます。定義済みのテキストはダイアログボックスに含まれ、ユーザーが変更できます。「メッセージを表示」ダイアログでは、追加したテキストを書式設定できるリッチテキスト形式のツールがサポートされています。
+- **メッセージを表示** - このオプションを使用すると、ユーザーはアダプティブフォームが正常に送信されたときに表示されるメッセージを追加できます。定義済みのテキストはダイアログボックスに含まれ、ユーザーが変更できます。「メッセージを表示」ダイアログでは、追加したテキストを書式設定できるリッチテキスト形式のツールがサポートされています。
 
-* **送信アクション** - 送信アクションは、ユーザーがアダプティブフォームの「送信」ボタンをクリックしたときにトリガーされます。ユーザーは、すぐに使用できるよう用意されているドロップダウンリストから「送信アクション」を選択することができます。詳しくは、[「送信」タブでの送信アクションの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#supporting-custom-functions-in-validation-expressions-br)を参照してください。
+- **送信アクション** - 送信アクションは、ユーザーがアダプティブフォームの「送信」ボタンをクリックしたときにトリガーされます。ユーザーは、すぐに使用できるよう用意されているドロップダウンリストから「送信アクション」を選択することができます。詳しくは、[「送信」タブでの送信アクションの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#supporting-custom-functions-in-validation-expressions-br)を参照してください。
+
+## デザインダイアログ {#design-dialog}
+
+デザインダイアログは、フォームコンテナコンポーネントの CSS スタイルを定義および管理するために使用されます。
+
+### 「許可されたコンポーネント」タブ {#allowed-components-tab}
+
+![デザインダイアログの「許可されるコンポーネント」タブ](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
+
+The **許可されたコンポーネント** 「 」タブを使用すると、テンプレートエディターで、アダプティブFormsエディター内のコンポーネントのパネルに、項目として追加できるコンポーネントを設定できます。
+
+### 「デフォルトコンポーネント」タブ {#default-components-tab}
+
+![デザインダイアログの「デフォルトコンポーネント」タブ](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
+
+The **デフォルトのコンポーネント** 「 」タブを使用すると、テンプレートエディターで、デフォルトで表示されるコンポーネントを、アダプティブFormsエディター内のフォームコンテナコンポーネント内の項目として指定できます。
+
+### 「レスポンシブ設定」タブ {#responsive-tab}
+
+![デザインダイアログの「レスポンシブ設定」タブ](/help/adaptive-forms/assets/formcontainer-responsivestyle.png)
+
+The **レスポンシブ設定** 「 」タブを使用すると、テンプレートエディターで、アダプティブFormsエディター内のフォームコンテナコンポーネント内のグリッド内の列数を指定できます。
+
+### 「スタイル」タブ {#styles-tab}
+
+アダプティブフォームのファイル添付コアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+
+![デザインダイアログ](/help/adaptive-forms/assets/formcontainer-styletab.png)
+
+- **デフォルトの CSS クラス**：アダプティブフォームのチェックボックスグループコアコンポーネントのデフォルト CSS クラスを指定できます。
+
+- **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
+
+### 「カスタムプロパティ」タブ
+
+![カスタムプロパティダイアログ](/help/adaptive-forms/assets/formcontainer-custompropertiestab.png)
+
+カスタムプロパティを使用すると、カスタム属性（キーと値のペア）を、フォームテンプレートを使用してアダプティブフォームのコアコンポーネントに関連付けることができます。 カスタムプロパティは、コンポーネントのヘッドレスレンディションの「プロパティ」セクションに反映されます。 これにより、カスタム属性の値に基づいて適応する動的なフォーム動作を作成できます。 例えば、開発者は、モバイル、デスクトップ、Web プラットフォーム用のヘッドレスFormsコンポーネントの様々なレンディションをデザインし、様々なデバイスでのユーザーエクスペリエンスを大幅に強化できます。
+
+- **グループ名**：カスタムプロパティグループを識別する名前を指定できます。 複数のカスタムプロパティグループを追加、削除、または並べ替えることができます。 カスタムプロパティグループを追加すると、次のオプションが表示されます。
+
+   - **キーと値のペア**: **追加** ボタンをクリックします。
+
+   - **削除**：カスタムプロパティ名とカスタムプロパティ値を削除するには、をタップまたはクリックします。
+
+   - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値の順序を並べ替えることができます。
 
 <!--
 
@@ -88,31 +142,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 -->
 
+## 関連記事 {#related-articles}
 
->[!MORELIKETHIS]
->
->* [アコーディオン](/help/adaptive-forms/components/accordion.md)
->* [ボタン](/help/adaptive-forms/components/button.md)
->* [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
->* [日付選択](/help/adaptive-forms/components/date-picker.md)
->* [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
->* [メール入力](/help/adaptive-forms/components/email-input.md)
->* [ファイル添付](/help/adaptive-forms/components/file-attachment.md)
->* [フッター](/help/adaptive-forms/components/footer.md)
->* [ヘッダー](/help/adaptive-forms/components/header.md)
->* [水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
->* [画像](/help/adaptive-forms/components/image.md)
->* [数値入力](/help/adaptive-forms/components/number-input.md)
->* [パネルコンテナ](/help/adaptive-forms/components/panel-container.md)
->* [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
->* [リセットボタン](/help/adaptive-forms/components/reset-button.md)
->* [送信ボタン](/help/adaptive-forms/components/submit-button.md)
->* [電話入力](/help/adaptive-forms/components/telephone-input.md)
->* [テキスト入力](/help/adaptive-forms/components/text-input.md)
->* [テキスト](/help/adaptive-forms/components/text.md)
->* [タイトル](/help/adaptive-forms/components/title.md)
->* [ウィザード](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## 関連トピック {#see-also}
 

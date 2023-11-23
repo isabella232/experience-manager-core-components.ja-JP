@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - テキス�
 description: アダプティブフォームのテキストコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '849'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 78%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 100%
 
 **例**
 
-![](/help/adaptive-forms/assets/text.png)
+![例](/help/adaptive-forms/assets/text.png)
 
 ## 使用方法 {#reasons-to-use-text-label}
 
 フォーム内でテキストを使用する理由はいくつかあります。
 
-* **説明の提供**：テキストを使用して、フォームの入力方法や必要な情報に関する説明を提供できます。
+- **説明の提供**：テキストを使用して、フォームの入力方法や必要な情報に関する説明を提供できます。
 
-* **コンテキストの提供**：テキストを使用して、フォームの目的や情報を収集している組織など、フォームのコンテキストを提供できます。
+- **コンテキストの提供**：テキストを使用して、フォームの目的や情報を収集している組織など、フォームのコンテキストを提供できます。
 
-* **フォームを論理セクションに分割**：テキストを使用してフォームを論理セクションに分割することで、フォームを理解して完了しやすくすることができます。
+- **フォームを論理セクションに分割**：テキストを使用してフォームを論理セクションに分割することで、フォームを理解して完了しやすくすることができます。
 
-* **ブランディングとアイデンティティ**：組織の名前をフォームに含めるなど、ブランディングやアイデンティティを示す目的でテキストを使用できます。
+- **ブランディングとアイデンティティ**：組織の名前をフォームに含めるなど、ブランディングやアイデンティティを示す目的でテキストを使用できます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
@@ -56,11 +56,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![「基本」タブ](/help/adaptive-forms/assets/text_properties.png)
 
-* **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
+- **名前** - フォームコンポーネントは、フォーム内とルールエディター内の両方で一意の名前で簡単に識別できますが、名前にスペースや特殊文字を含めることはできません。
 
-* **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。
-* **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
-* **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
+- **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。
+- **非連結フォーム要素としてマーク**：どのスキーマにもリンクされていないフォームフィールドを設定する場合は、このオプションを選択します。 このオプションを使用すると、データソースを更新せずにデータを保存できます。 また、標準のデータベース統合とは別に、カスタム方法でデータを処理できます。
+- **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
+- **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 
 
 ## デザインダイアログ {#design-dialog}
@@ -71,44 +72,29 @@ To experience the Accordion Component as well as see examples of its configurati
 
 タブを使用して、コンポーネントの CSS スタイルの定義と管理を行います。アダプティブフォームのテキストコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
-![デザインダイアログ](/help/adaptive-forms/assets/reset_designdialog.png)
+![デザインダイアログ](/help/adaptive-forms/assets/checkbox-style.png)
 
-* **デフォルトの CSS クラス**：アダプティブフォームのテキストコアコンポーネントのデフォルト CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブフォームのチェックボックスグループコアコンポーネントのデフォルト CSS クラスを指定できます。
 
-* **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義できます。例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
+- **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
-<!--
+### カスタムプロパティ
 
-## Related article {#related-article}
+![カスタムプロパティダイアログ](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+カスタムプロパティを使用すると、カスタム属性（キーと値のペア）を、フォームテンプレートを使用してアダプティブフォームのコアコンポーネントに関連付けることができます。 カスタムプロパティは、コンポーネントのヘッドレスレンディションの「プロパティ」セクションに反映されます。 これにより、カスタム属性の値に基づいて適応する動的なフォーム動作を作成できます。 例えば、開発者は、モバイル、デスクトップ、Web プラットフォーム用のヘッドレスFormsコンポーネントの様々なレンディションをデザインし、様々なデバイスでのユーザーエクスペリエンスを大幅に強化できます。
 
--->
+- **グループ名**：カスタムプロパティグループを識別する名前を指定できます。 複数のカスタムプロパティグループを追加、削除、または並べ替えることができます。 カスタムプロパティグループを追加すると、次のオプションが表示されます。
 
+   - **キーと値のペア**: **追加** ボタンをクリックします。
 
->[!MORELIKETHIS]
->
->* [アコーディオン](/help/adaptive-forms/components/accordion.md)
->* [ボタン](/help/adaptive-forms/components/button.md)
->* [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
->* [日付選択](/help/adaptive-forms/components/date-picker.md)
->* [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
->* [メール入力](/help/adaptive-forms/components/email-input.md)
->* [フォームコンテナ](/help/adaptive-forms/components/form-container.md)
->* [ファイル添付](/help/adaptive-forms/components/file-attachment.md)
->* [フッター](/help/adaptive-forms/components/footer.md)
->* [ヘッダー](/help/adaptive-forms/components/header.md)
->* [水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
->* [画像](/help/adaptive-forms/components/image.md)
->* [数値入力](/help/adaptive-forms/components/number-input.md)
->* [パネルコンテナ](/help/adaptive-forms/components/panel-container.md)
->* [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
->* [リセットボタン](/help/adaptive-forms/components/reset-button.md)
->* [送信ボタン](/help/adaptive-forms/components/submit-button.md)
->* [電話入力](/help/adaptive-forms/components/telephone-input.md)
->* [テキスト入力](/help/adaptive-forms/components/text-input.md)
->* [タイトル](/help/adaptive-forms/components/title.md)
->* [ウィザード](/help/adaptive-forms/components/wizard.md)
+   - **削除**：カスタムプロパティ名とカスタムプロパティ値を削除するには、をタップまたはクリックします。
+
+   - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値の順序を並べ替えることができます。
+
+## 関連記事 {#related-articles}
+
+{{more-like-this}}
 
 ## 関連トピック {#see-also}
 

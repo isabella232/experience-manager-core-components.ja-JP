@@ -3,10 +3,10 @@ title: AEM アダプティブフォームのコアコンポーネントの概要
 description: アダプティブフォームのコアコンポーネントの柔軟性を利用して魅力的な登録フォームを作成し、Adobe Experience Manager を使って提供します。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
-workflow-type: ht
-source-wordcount: '1264'
-ht-degree: 100%
+source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
+workflow-type: tm+mt
+source-wordcount: '1267'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Manager（AEM）のコンポーネントとは、ページや�
 
 さらに、これらのコンポーネントはオープンソースなので、開発者は組織の特定のニーズに合わせて簡単にカスタマイズおよび拡張できます。 また、これらのコンポーネントは、拡張性と保守性が確保される BEM 手法に基づいて構築されています。
 
-![](assets/sample-adaptive-form.png)
+![アダプティブフォームの画像](assets/sample-adaptive-form.png)
 
 ## 機能 {#features}
 

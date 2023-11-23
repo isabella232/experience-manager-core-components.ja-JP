@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - パネル�
 description: アダプティブフォームのパネルコンテナコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
-workflow-type: ht
-source-wordcount: '1828'
-ht-degree: 100%
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '2036'
+ht-degree: 79%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 **例**
 
-![](/help/adaptive-forms/assets/panel-container.png)
+![例](/help/adaptive-forms/assets/panel-container.png)
 
 ## 使用方法 {#reasons-to-use-panel-container}
 
@@ -91,9 +91,7 @@ To experience the Accordion Component as well as see examples of its configurati
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **レイアウト** - ウィザードには固定レイアウト（シンプル）または柔軟なレイアウト（レスポンシブグリッド）を使用できます。 シンプルなレイアウトでは、すべてを固定した状態に保ち、レスポンシブグリッドでは、必要に応じてコンポーネントの位置を調整できます。例えば、レスポンシブグリッドを使用して、「名」、「ミドルネーム」、「姓」を 1 行にフォーム内で整列できます。
-
-- **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。
+- **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このようにして、AEM Forms で外部データソースとやり取りするフォームを作成し、データの収集と管理においてシームレスなユーザーエクスペリエンスを提供できます。
 - **コンポーネントを非表示** - フォームでコンポーネントを非表示にするには、このオプションを選択します。このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。 これは、ユーザーが表示する必要のない情報や直接変更した情報を保存する必要がある場合に役立ちます。
 - **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 
@@ -129,50 +127,76 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **スクリーンリーダーが通知を行うための HTMLの役割** - HTMLの役割は、スクリーンリーダーなどの支援テクノロジーに対する HTML 要素の目的を指定するための属性です。役割の属性は、要素に追加のコンテキストと意味論的意味を提供するために使用されます。これにより、スクリーンリーダーがコンテンツを解釈して読み上げやすくなります。 例えば AEM Formsでは、フォームフィールドのラベルが「label」という役割を持ち、入力フィールドが「textbox」という役割を持つ場合があります。 これにより、スクリーンリーダーはラベルと入力フィールドの関係を理解し、ユーザーに対して正しく通知できるようになります。
 
+## デザインダイアログ {#design-dialog}
+
+デザインダイアログは、フォームコンテナコンポーネントの CSS スタイルを定義および管理するために使用されます。
+
+### 「許可されたコンポーネント」タブ {#allowed-components-tab}
+
+![デザインダイアログの「許可されるコンポーネント」タブ](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+
+The **許可されたコンポーネント** 「 」タブを使用すると、テンプレートエディターで、アダプティブFormsエディター内のコンポーネントのパネルに、項目として追加できるコンポーネントを設定できます。
+
+### 「デフォルトコンポーネント」タブ {#default-components-tab}
+
+![デザインダイアログの「デフォルトコンポーネント」タブ](/help/adaptive-forms/assets/panel-container-default-component.png)
+
+The **デフォルトのコンポーネント** 「 」タブを使用すると、テンプレートエディターで、デフォルトで表示されるコンポーネントを、アダプティブFormsエディター内のフォームコンテナコンポーネント内の項目として指定できます。
+
+### 「レスポンシブ設定」タブ {#responsive-tab}
+
+![デザインダイアログの「レスポンシブ設定」タブ](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+
+The **レスポンシブ設定** 「 」タブを使用すると、テンプレートエディターで、アダプティブFormsエディター内のフォームコンテナコンポーネント内のグリッド内の列数を指定できます。
+
+### 「コンテナ設定」タブ
+
+![「コンテナ設定」タブ](/help/adaptive-forms/assets/panel-container-container-settings.png)
+
+- **レイアウト** - ウィザードには固定レイアウト（シンプル）または柔軟なレイアウト（レスポンシブグリッド）を使用できます。 シンプルなレイアウトでは、すべてを固定した状態に保ち、レスポンシブグリッドでは、必要に応じてコンポーネントの位置を調整できます。例えば、レスポンシブグリッドを使用して、「名」、「ミドルネーム」、「姓」を 1 行にフォーム内で整列できます。
+
+- **レイアウトを無効にする**：コンポーネントの編集ダイアログでレイアウトの選択を無効にするには、このオプションを選択します。
+
+- **背景画像を有効にする**：ユーザーは、視覚的なアピール度を高めるための視覚的な背景を含むようにパネルの設定を設定できます。
+
+- **背景色を有効にする**：このオプションを使用すると、パネルの背景色を設定または変更できます。 この機能は、一般にユーザーインターフェイスのデザインで使用され、大きなインターフェイス内のパネルの外観をカスタマイズします。 次の項目を選択した場合： **背景色を有効にする** オプション、 **スウォッチのみ** オプションが表示されます。 The **スウォッチのみ** オプションを使用すると、パネル内の背景、テキスト、その他の視覚要素の色を、 **追加** ボタン
+
+### 「スタイル」タブ {#styles-tab}
+
+アダプティブフォームのファイル添付コアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
+
+![デザインダイアログ](/help/adaptive-forms/assets/panel-container-styles-tab.png)
+
+- **デフォルトの CSS クラス**：アダプティブフォームのチェックボックスグループコアコンポーネントのデフォルト CSS クラスを指定できます。
+
+- **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
+
+### 「カスタムプロパティ」タブ
+
+![カスタムプロパティダイアログ](/help/adaptive-forms/assets/panel-container-custom-properties.png)
+
+カスタムプロパティを使用すると、カスタム属性（キーと値のペア）を、フォームテンプレートを使用してアダプティブフォームのコアコンポーネントに関連付けることができます。 カスタムプロパティは、コンポーネントのヘッドレスレンディションの「プロパティ」セクションに反映されます。 これにより、カスタム属性の値に基づいて適応する動的なフォーム動作を作成できます。 例えば、開発者は、モバイル、デスクトップ、Web プラットフォーム用のヘッドレスFormsコンポーネントの様々なレンディションをデザインし、様々なデバイスでのユーザーエクスペリエンスを大幅に強化できます。
+
+- **グループ名**：カスタムプロパティグループを識別する名前を指定できます。 複数のカスタムプロパティグループを追加、削除、または並べ替えることができます。 カスタムプロパティグループを追加すると、次のオプションが表示されます。
+
+   - **キーと値のペア**: **追加** ボタンをクリックします。
+
+   - **削除**：カスタムプロパティ名とカスタムプロパティ値を削除するには、をタップまたはクリックします。
+
+   - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値の順序を並べ替えることができます。
+
+<!--
+
+## Related article {#related-article}
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
 ## 関連記事 {#related-articles}
 
-- [アコーディオン](/help/adaptive-forms/components/accordion.md)
-- [ボタン](/help/adaptive-forms/components/button.md)
-- [チェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
-- [日付選択](/help/adaptive-forms/components/date-picker.md)
-- [ドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
-- [メール入力](/help/adaptive-forms/components/email-input.md)
-- [フォームコンテナ](/help/adaptive-forms/components/form-container.md)
-- [ファイル添付](/help/adaptive-forms/components/file-attachment.md)
-- [フッター](/help/adaptive-forms/components/footer.md)
-- [ヘッダー](/help/adaptive-forms/components/header.md)
-- [水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
-- [画像](/help/adaptive-forms/components/image.md)
-- [数値入力](/help/adaptive-forms/components/number-input.md)
-- [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
-- [リセットボタン](/help/adaptive-forms/components/reset-button.md)
-- [送信ボタン](/help/adaptive-forms/components/submit-button.md)
-- [電話入力](/help/adaptive-forms/components/telephone-input.md)
-- [テキスト入力](/help/adaptive-forms/components/text-input.md)
-- [テキスト](/help/adaptive-forms/components/text.md)
-- [タイトル](/help/adaptive-forms/components/title.md)
-- [ウィザード](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## 関連トピック {#see-also}
 
-- [AEM アダプティブフォームを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=ja)
-- [AEM Sites ページへの AEM アダプティブフォームを追加](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=ja)
-- [AEM アダプティブフォームへテーマを適用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ja)
-- [AEM アダプティブフォームへコンポーネントを追加](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
-- [AEM アダプティブフォームで reCAPTCHA を使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html?lang=ja)
-- [AEM アダプティブフォームの PDF バージョン（DoR）を生成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html?lang=ja)
-- [AEM アダプティブフォームを翻訳](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html?lang=ja)
-- [フォームの使用状況を追跡するアダプティブフォームの Adobe Analytics を有効にする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html?lang=ja)
-- [Microsoft SharePoint へアダプティブフォームを接続](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ja#create-sharepoint-configuration)
-- [Microsoft Power Automate へアダプティブフォームを接続](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ja#microsoft-power-automate)
-- [Microsoft OneDrive へアダプティブフォームを接続](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ja#submit-to-onedrive)
-- [Microsoft Azure Blob Storage へアダプティブフォームを接続](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ja#submit-to-azure-blob-storage)
-- [Salesforce へアダプティブフォームを接続](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html?lang=ja)
-- [AEM アダプティブフォームで Adobe Sign を使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html?lang=ja)
-- [アダプティブフォームの新しいロケールを追加](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html?lang=ja)
-- [データベースへアダプティブフォームデータを送信](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html?lang=ja)
-- [REST エンドポイントへアダプティブフォームデータを送信](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ja#submit-to-rest-endpoint)
-- [AEM ワークフローへアダプティブフォームデータを送信](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=ja#invoke-an-aem-workflow)
-- [AEM web サイト上の AEM アダプティブフォームをリストするフォームポータルの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=ja)
-
+{{see-also}}
