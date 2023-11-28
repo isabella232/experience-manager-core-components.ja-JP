@@ -3,10 +3,10 @@ title: Web に最適化された画像配信
 description: コアコンポーネントで AEM as a Cloud Service の web に最適化された画像配信機能を活用して画像をより効率的に配信する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1023'
+ht-degree: 97%
 
 ---
 
@@ -96,17 +96,7 @@ WebP 形式を配信するために、web に最適化された画像配信サ�
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-このサービスは、アセットリソースを必須の最初のパラメーターとして受け取り、適用する必要のある画像変換のオプションのマップを取得します。このマップには、次のパラメーターを含めることができます。
-
-* `path` – 配信するアセット ID。パターン `([^:\[\]\|\*\/]+)` である必要があります（例： `unicorn–1234`）
-* `seoname` – 画像 URL に追加するユーザー定義の SEO 中心の名前。ハイフンを含めることができます。パターン `([\w-]+)` である必要があります（例： `my-friend-the-unicorn`）
-* `format` – 目的の画像形式。`gif`、`png`、`png8`、`jpg`、`pjpg`、`bjpg`、`webp`、`webpll`、`webply` にすることができます（例：`webp`）
-* `preferwebp` – 可能な場合は、`format` パラメーター（[コンテンツネゴシエーションに関する FAQ を参照](#content-negotiation)）、ブール値（例：`true`）を無視して、WebP 出力を配信します
-* `width` – 目的の画像解像度（ピクセル単位）。1 より大きい値にする必要があります（例： `400`）
-* `quality` – `1` と `100` の間の目的の圧縮（例： `75`）
-* `c` – 目的の画像切り抜き座標。コンマ区切りのピクセル値（例：`100,100,400,200`）
-* `r` – 目的の画像の回転。`90`、`180`、`270` にすることができます（例：`90`）
-* `flip` – 目的の画像反転。`h`、`v`、`hv` のいずれかにすることができます（例：`h`）
+**AEM Sites CS 上で動作するコアコンポーネントを通じて構築されていないエクスペリエンスに直接 URL が埋め込まれた場合、Media Libraryのライセンス条件に違反することに注意してください。**
 
 ### 新しい画像サービスで配信される画像の URL はどのようなものですか？ {#url}
 
