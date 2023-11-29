@@ -3,7 +3,7 @@ title: アダプティブFormsコアコンポーネント — 利用条件
 description: アダプティブForms利用条件コアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
 source-wordcount: '2639'
 ht-degree: 66%
@@ -36,11 +36,11 @@ The **利用条件** コンポーネントは、テキスト、チェックボ�
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブフォームのアコーディオンコアコンポーネントは、Cloud Service のコアコンポーネント 2.0.4 および AEM 6.5.16.0 Forms 以降のコアコンポーネント 1.1.12 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブフォームのアコーディオンコアコンポーネントは、Cloud Service のコアコンポーネント 2.0.62 および AEM 6.5.16.0 Forms 以降のコアコンポーネント 1.1.28 の一部として 2023年2月にリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
-| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | <br>[リリース 1.1.12](/help/adaptive-forms/version.md) 以降、2.0.0 未満と互換性があります。 |
+| v1 | <br>[リリース 2.0.62](/help/adaptive-forms/version.md) 以降と互換性あり | <br>[リリース 1.1.28](/help/adaptive-forms/version.md) 以降、2.0.0 未満と互換性があります。 |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 

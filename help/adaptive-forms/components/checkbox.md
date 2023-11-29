@@ -3,9 +3,9 @@ title: アダプティブFormsコアコンポーネント — チェックボッ
 description: アダプティブFormsチェックボックスコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1706'
 ht-degree: 53%
 
 ---
@@ -34,13 +34,13 @@ ht-degree: 53%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブFormsチェックボックスコアコンポーネントは、コアコンポーネント 2.0.4 の一部として 2023 年 2 月にリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、および対応するドキュメントへのリンクを示します。
+アダプティブFormsチェックボックスコアコンポーネントが、コアコンポーネント 2.0.52 の一部としてリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、および対応するドキュメントへのリンクを示します。
 
 |  |  |
 |---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
 | --- | --- |
-| v1 | <br>[リリース 2.0.4](/help/versions.md) 以降と互換性あり | 互換性あり | 互換性あり |
+| v1 | <br>[リリース 2.0.52](/help/versions.md) 以降と互換性あり | 互換性あり | 互換性あり |
 
 コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)ドキュメントをご覧ください。
 

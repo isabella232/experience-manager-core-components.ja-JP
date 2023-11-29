@@ -3,10 +3,10 @@ title: AEM Forms コアコンポーネントのバージョン
 description: AEMコアコンポーネントはリリースとして公開されます。同じコアコンポーネントの複数のバージョンが含まれている場合があります。 このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: f53be69df3dff9f3873a3bda6ba331f76de75487
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 58%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34) | 繰り返し可能なコンポーネントの追加/削除ボタンと共に、デフォルトのエラーメッセージのローカリゼーションサポートを追加しました。 | 継続的 | 8、11 | 2023年28月6日（PT） |
 | [2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32) | このリリースでは、アダプティブForms用に Captcha のサポートが追加されています。 | 継続的 | 8、11 | 2023年15月6日（PT） |
 | [2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26) | AEM Sitesでのアダプティブフォームの追加のサポート。 | 継続的 | 8、11 | 2023年7月6日（PT） |
-| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | このリリースでは、アコーディオンコンポーネントの再現性がサポートされます。 | 継続的 | 8、11 | 2023年5月6日（PT） |
+| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | このリリースでは、アコーディオンコンポーネントの再現性がサポートされます。 また、新しいコンポーネントを縦向きタブとして追加しました。 | 継続的 | 8、11 | 2023年5月6日（PT） |
 | [2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10) | このリリースでは、Sites のエディターでアダプティブフォームのコンテナコンポーネントのサポートが導入されました。 | 継続的 | 8、11 | 2023年3月17日（PT） |
 | [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | このリリースでは、ウィザードコンポーネントの再現性機能が導入されました。 | 継続的 | 8、11 | 2023年3月3日（PT） |
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | このリリースでは、数値入力コアコンポーネントの複数の形式が導入されました。 | 継続的 | 8、11 | 2023年2月8日（PT） |
