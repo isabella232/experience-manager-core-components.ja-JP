@@ -3,14 +3,14 @@ title: アダプティブFormsコアコンポーネント — 「垂直」タブ
 description: アダプティブFormsの垂直タブのコアコンポーネントを使用またはカスタマイズする。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1904'
 ht-degree: 65%
 
 ---
 
-# 垂直タブ {#vertical-tabs-adaptive-forms-core-component}
+# 垂直タブコンポーネント{#vertical-tabs-adaptive-forms-core-component}
 
 アダプティブフォーム内の垂直タブとは、デザインパターンのことです。フォームの複数のセクションがグループ化され、別々のタブとして表示され、垂直方向に整列されます。 ユーザーはタブを切り替えて、フォームの異なるセクションにアクセスできます。 各タブは、関連するフォームコンテンツの表示と非表示を切り替えるトリガーとして機能します。 縦並びのタブを使用すると、長いフォームを管理しやすいセクションに整理し、ユーザーエクスペリエンスを向上させることができます。 タブは、キーボードナビゲーションを使用してセクションを切り替えることができるので、障がいのあるユーザーがフォームにアクセスしやすくなります。
 
