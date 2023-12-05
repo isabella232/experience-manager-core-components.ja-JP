@@ -6,10 +6,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
+source-git-commit: ef86dfa62df0ac7f34ec1c4c4175e8a8132c8aed
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 100%
+source-wordcount: '1239'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 これらのテーマは、**AEM as a Cloud Service** 環境で以下に示す手順を使用して取得します。
 
 1. [アダプティブフォームコアコンポーネントを有効にします](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja)
-1. [AEM Archetype 45 プロジェクトを環境にデプロイ](https://github.com/adobe/aem-project-archetype)
+1. [AEM Archetype 47 以降のプロジェクトを環境にデプロイする](https://github.com/adobe/aem-project-archetype)
 
 
 AEM アーキタイプをデプロイする場合、フォームで使用できるのは OOTB テーマのみです。必要に応じてテーマをカスタマイズするには、[フロントエンドパイプラインを使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ja)してテーマをデプロイします。
@@ -56,7 +56,7 @@ AEM アーキタイプをデプロイする場合、フォームで使用でき�
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -66,9 +66,9 @@ AEM アーキタイプをデプロイする場合、フォームで使用でき�
 
 <!--
 
-### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -124,7 +124,7 @@ FSI テーマは、フォームにすっきりとした実用的な外観を与�
 テンプレートは、初期のフォーム構造、コンテンツおよびアクションを定義したもので、対象フォームで複製したり、同様のテンプレート構造を対象フォームに使用したりします。例えば、同意フォーム、福利厚生登録フォームなどがあります。
 
 **これらのテンプレートの取得方法。**
-テンプレートを取得するには、[AEM Archetype 45](https://github.com/adobe/aem-project-archetype) を **AEM Forms as a Cloud Service** 環境または **AEM 6.5 Forms** 環境にデプロイします。
+これらのテンプレートは、 [AEMアーキタイプ 45 以降](https://github.com/adobe/aem-project-archetype) を **AEM Formsas a Cloud Service** 環境または **AEM 6.5 Forms** 環境。
 
 <!--
 
