@@ -4,10 +4,10 @@ description: AEM ベースのアプリケーション用のプロジェクトテ
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 4d93ba2e1aac91521496ecfef127157c9bc8776c
-workflow-type: ht
-source-wordcount: '1192'
-ht-degree: 100%
+source-git-commit: b753764125b84c5256b80a949e1188b0afbbf88f
+workflow-type: tm+mt
+source-wordcount: '1024'
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ AEM as a Cloud Service の場合はコアコンポーネントがすぐに使用
 
 | アーキタイプ | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [43](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-43) | 継続的 | 6.5.7.0+ | 8、11 | 3.3.9 以上 |
+| [47](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-47) | 継続的 | 6.5.7.0+ | 8、11 | 3.3.9 以上 |
 
 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=ja) または[旧バージョンの AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=ja) のローカル開発環境をセットアップします。
 
