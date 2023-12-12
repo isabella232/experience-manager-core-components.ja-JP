@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
 source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -107,14 +107,14 @@ ht-degree: 96%
    + アダプティブフォームのコンポーネント {#adaptive-forms-components}
       + [アダプティブフォームのアコーディオン](/help/adaptive-forms/components/accordion.md)
       + [アダプティブフォームのボタン](/help/adaptive-forms/components/button.md)
-      + [アダプティブFormsチェックボックス](/help/adaptive-forms/components/checkbox.md)
+      + [アダプティブフォームのチェックボックス](/help/adaptive-forms/components/checkbox.md)
       + [アダプティブフォームのチェックボックスグループ](/help/adaptive-forms/components/checkbox-group.md)
       + [アダプティブフォームコンテナ](/help/adaptive-forms/components/form-container.md)
       + [アダプティブフォームの日付選択](/help/adaptive-forms/components/date-picker.md)
       + [アダプティブフォームのドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
       + [アダプティブフォームのメール入力](/help/adaptive-forms/components/email-input.md)
       + [アダプティブフォームの添付ファイル](/help/adaptive-forms/components/file-attachment.md)
-      + [アダプティブFormsの垂直タブ](/help/adaptive-forms/components/vertical-tabs.md)
+      + [アダプティブフォームの垂直タブ](/help/adaptive-forms/components/vertical-tabs.md)
       + [アダプティブフォームの水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
       + [アダプティブフォームの画像](/help/adaptive-forms/components/image.md)
       + [アダプティブフォームの数値入力](/help/adaptive-forms/components/number-input.md)
@@ -128,7 +128,7 @@ ht-degree: 96%
       + [アダプティブフォームのテキストボックス](/help/adaptive-forms/components/text-input.md)
       + [アダプティブフォームのタイトル](/help/adaptive-forms/components/title.md)
       + [アダプティブフォームのウィザードレイアウト](/help/adaptive-forms/components/wizard.md)
-      + [アダプティブForms利用条件](/help/adaptive-forms/components/terms-and-conditions.md)
+      + [アダプティブフォームの利用条件](/help/adaptive-forms/components/terms-and-conditions.md)
       + [ヘッダー](/help/adaptive-forms/components/header.md)
       + [フッター](/help/adaptive-forms/components/footer.md)
    + [アダプティブフォームのコアコンポーネントのカスタマイズ](/help/developing/customize-adaptive-forms-core-components.md)
