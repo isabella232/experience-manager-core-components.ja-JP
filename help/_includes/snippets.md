@@ -1,8 +1,8 @@
 ---
 source-git-commit: 2b1e62dc57126316a79f22d7d9f203f7ef044dc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # スニペット {#snippets}
