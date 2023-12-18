@@ -4,7 +4,7 @@ description: アダプティブフォームの利用条件コアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2633'
 ht-degree: 100%
 
