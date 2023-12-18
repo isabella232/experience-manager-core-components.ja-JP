@@ -1,12 +1,12 @@
 ---
 title: AEM Forms コアコンポーネントのバージョン
-description: AEMコアコンポーネントはリリースとして公開されます。同じコアコンポーネントの複数のバージョンが含まれている場合があります。 このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
+description: AEM コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,25 +20,25 @@ ht-degree: 85%
 
 | リリース | 説明 | AEM as a Cloud Service | Java™ | リリース日 |
 |---|---|---|---|---|
-| [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | このリリースでは、AEM Formsの送信アクションで送信エラーが更新されました。 | 継続的 | 8、11 | 2023年11月15日（PT） |
+| [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | このリリース送信エラーでは、AEM Forms の送信アクションが更新されます。 | 継続的 | 8、11 | 2023年11月15日（PT） |
 | [2.0.70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70) | このリリースでは、フォームコンテナのサイトページ言語を処理するサポートが追加されました。 | 継続的 | 8、11 | 2023年11月10日（PT） |
 | [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | ラジオ／チェックボックスコンポーネントのラベルルのリッチテキストをサポートします。このリリースには、利用条件コンポーネントの修正も含まれています。 | 継続的 | 8、11 | 2023年11月6日（PT） |
-| [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | このリリースでは、利用条件コンポーネントのサポートが追加されました。 また、コアコンポーネントの修飾名のサポートも追加されました。 | 継続的 | 8、11 | 2023年10月16日（PT） |
-| [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | このリリースには、カスタムプロパティ機能、ウィザード、日付選択の各コンポーネントに関する修正が含まれています。 | 継続的 | 8、11 | 2023年9月12日（PT） |
-| [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | このリリースでは、すべてのコアコンポーネントのカスタムプロパティがサポートされるようになりました。 | 継続的 | 8、11 | 2023年9月12日（PT） |
+| [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | このリリースでは、利用条件コンポーネントのサポートが追加されています。また、コアコンポーネントの修飾名のサポートも追加されました。 | 継続的 | 8、11 | 2023年10月16日（PT） |
+| [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | このリリースには、カスタムプロパティ機能、ウィザードおよび日付選択コンポーネントに関する修正が含まれています。 | 継続的 | 8、11 | 2023年9月12日（PT） |
+| [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | このリリースでは、すべてのコアコンポーネントのカスタムプロパティのサポートが追加されています。 | 継続的 | 8、11 | 2023年9月12日（PT） |
 | [2.0.54](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.54) | このリリースでは、日付選択コンポーネントを使用したローカライゼーションに関連する問題が修正されました。 | 継続的 | 8、11 | 2023年8月30日（PT） |
 | [2.0.52](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.52) | アダプティブフォーム内でのチェックボックスコンポーネントの使用のサポート。 | 継続的 | 8、11 | 2023年8月25日（PT） |
 | [2.0.50](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.50) | このリリースでは、アダプティブフォーム内のフォームフラグメントのサポートが追加されました。 | 継続的 | 8、11 | 2023年8月4日（PT） |
-| [2.0.48](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.48) | このリリースでの主な改善点は、Lighthouse のパフォーマンスに関連しています。 | 継続的 | 8、11 | 2023年7月25日（PT） |
+| [2.0.48](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.48) | このリリースでの主な改善点は、Lighthouse のパフォーマンスに関するものです。 | 継続的 | 8、11 | 2023年7月25日（PT） |
 | [2.0.42](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.42) | このリリースには、プログラミング終了時に改善点が組み込まれています。 | 継続的 | 8、11 | 2023年7月18日（PT） |
-| [2.0.38](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.38) | このリリースではアクセシビリティ機能が改善されました。 | 継続的 | 8、11 | 2023年7月17日（PT） |
+| [2.0.38](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.38) | このリリースではアクセシビリティ機能が向上しました。 | 継続的 | 8、11 | 2023年7月17日（PT） |
 | [2.0.36](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.36) | このリリースでは、ルールエディターのサービスの呼び出しを使用すると、カスタムエラーハンドラーを使用できます。 | 継続的 | 8、11 | 2023年7月3日（PT） |
 | [2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34) | 繰り返し可能なコンポーネントの追加／削除ボタンと共に、デフォルトのエラーメッセージのローカライゼーションサポートを追加しました。 | 継続的 | 8、11 | 2023年6月28日（PT） |
 | [2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32) | このリリースでは、アダプティブフォームに Captcha のサポートが追加されています。 | 継続的 | 8、11 | 2023年6月15日（PT） |
 | [2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26) | AEM Sites でのアダプティブフォームの追加のサポート。 | 継続的 | 8、11 | 2023年6月7日（PT） |
-| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | このリリースでは、アコーディオンコンポーネントの再現性がサポートされます。 また、新しいコンポーネントを縦向きタブとして追加しました。 | 継続的 | 8、11 | 2023年6月5日（PT） |
+| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | このリリースでは、アコーディオンコンポーネントの繰り返しがサポートされます。また、垂直タブとして新しいコンポーネントも追加されています。 | 継続的 | 8、11 | 2023年6月5日（PT） |
 | [2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10) | このリリースでは、Sites のエディターでアダプティブフォームのコンテナコンポーネントのサポートが導入されました。 | 継続的 | 8、11 | 2023年3月17日（PT） |
-| [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | このリリースでは、ウィザードコンポーネントの再現性機能が導入されました。 | 継続的 | 8、11 | 2023年3月3日（PT） |
+| [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | このリリースでは、ウィザードコンポーネントの繰り返し機能が導入されました。 | 継続的 | 8、11 | 2023年3月3日（PT） |
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | このリリースでは、数値入力コアコンポーネントの複数の形式が導入されました。 | 継続的 | 8、11 | 2023年2月8日（PT） |
 | [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | このリリースでは、AEM as a Cloud Service のコアコンポーネントのサポートが導入されました。 | 継続的 | 8、11 | 2023年1月30日（PT） |
 
