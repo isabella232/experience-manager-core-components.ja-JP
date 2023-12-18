@@ -4,9 +4,9 @@ description: コアコンポーネントで AEM as a Cloud Service の web に�
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
-workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1022'
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ WebP 形式を配信するために、web に最適化された画像配信サ�
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-**AEM Sites CS 上で動作するコアコンポーネントを通じて構築されていないエクスペリエンスに直接 URL が埋め込まれた場合、Media Libraryのライセンス条件に違反することに注意してください。**
+**AEM Sites CS で動作するコアコンポーネントを通じて作成されていないエクスペリエンスに直接 URL を埋め込むと、Media Library のライセンス条項に違反することになります。**
 
 ### 新しい画像サービスで配信される画像の URL はどのようなものですか？ {#url}
 
