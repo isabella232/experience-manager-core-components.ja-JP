@@ -4,9 +4,9 @@ description: アダプティブフォームの垂直タブコアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1904'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブFormsの垂直方向のタブのコアコンポーネントは、コアコンポーネント 2.0.18 の一部としてリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、および対応するドキュメントへのリンクを示します。
+アダプティブフォームの垂直タブコアコンポーネントは、コアコンポーネント 2.0.18 の一部としてリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 |  |  |
 |---|---|
