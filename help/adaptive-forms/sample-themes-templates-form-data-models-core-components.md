@@ -7,9 +7,9 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 0f0c20c9fba6f062021721d6f48a42cc830b5a7c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1239'
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 参照用サンプルテーマは、作成者がフォームのスタイル設定を使用、定義およびカスタマイズするのに役立ちます。作成者に CSS の基本知識さえあれば、テーマを必要に応じてカスタマイズできます。
 
-**これらのテーマの取得方法**
+**これらのテーマの取得方法？**
 これらのテーマは、**AEM as a Cloud Service** 環境で以下に示す手順を使用して取得します。
 
 1. [アダプティブフォームコアコンポーネントを有効にします](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=ja)
-1. [AEM Archetype 47 以降のプロジェクトを環境にデプロイする](https://github.com/adobe/aem-project-archetype)
+1. [AEM Archetype 47 プロジェクト以降を環境にデプロイ](https://github.com/adobe/aem-project-archetype)
 
 
 AEM アーキタイプをデプロイする場合、フォームで使用できるのは OOTB テーマのみです。必要に応じてテーマをカスタマイズするには、[フロントエンドパイプラインを使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=ja)してテーマをデプロイします。
@@ -123,9 +123,9 @@ FSI テーマは、フォームにすっきりとした実用的な外観を与�
 
 テンプレートは、初期のフォーム構造、コンテンツおよびアクションを定義したもので、対象フォームで複製したり、同様のテンプレート構造を対象フォームに使用したりします。例えば、同意フォーム、福利厚生登録フォームなどがあります。
 
-**これらのテンプレートの取得方法は？**
+**これらのテンプレートの取得方法？**
 
-これらのテンプレートは、 [AEMアーキタイプ 47 以降](https://github.com/adobe/aem-project-archetype) を **AEM Formsas a Cloud Service** 環境または **AEM 6.5 Forms** 環境。
+テンプレートを取得するには、[AEM Archetype 47 以降](https://github.com/adobe/aem-project-archetype)を **AEM Forms as a Cloud Service** 環境または **AEM 6.5 Forms** 環境にデプロイします。
 
 <!--
 
