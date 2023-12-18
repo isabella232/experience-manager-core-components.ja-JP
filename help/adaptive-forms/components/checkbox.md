@@ -4,9 +4,9 @@ description: アダプティブフォームのチェックボックスコアコ�
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブFormsチェックボックスコアコンポーネントが、コアコンポーネント 2.0.52 の一部としてリリースされました。次の表に、サポートされているすべてのバージョン、AEMの互換性、および対応するドキュメントへのリンクを示します。
+アダプティブフォームのチェックボックスコアコンポーネントは、コアコンポーネント 2.0.52 の一部としてリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 |  |  |
 |---|---|
