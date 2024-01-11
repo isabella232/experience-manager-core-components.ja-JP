@@ -3,10 +3,10 @@ title: Web に最適化された画像配信
 description: コアコンポーネントで AEM as a Cloud Service の web に最適化された画像配信機能を活用して画像をより効率的に配信する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
-workflow-type: ht
-source-wordcount: '1022'
-ht-degree: 100%
+source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
+workflow-type: tm+mt
+source-wordcount: '1020'
+ht-degree: 95%
 
 ---
 
@@ -88,7 +88,7 @@ WebP 形式を配信するために、web に最適化された画像配信サ�
 
 ### Web 最適化画像の配信を独自のコンポーネントで使用できますか？
 
-はい、web 最適化画像の配信サービスは、カスタムコンポーネントで使用できます。この場合、[画像コンポーネントを拡張](/help/developing/customizing.md)することをお勧めします。
+はい、Web に最適化された画像配信サービスは、カスタムコンポーネントで使用できます。カスタムコンポーネントは、 [画像コンポーネントの拡張](/help/developing/customizing.md)
 
 次に、アセット URL の生成に役立つサービスインターフェイスを示します。
 
@@ -96,7 +96,9 @@ WebP 形式を配信するために、web に最適化された画像配信サ�
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-**AEM Sites CS で動作するコアコンポーネントを通じて作成されていないエクスペリエンスに直接 URL を埋め込むと、Media Library のライセンス条項に違反することになります。**
+>[!WARNING]
+>
+>AEM Sites CS 上で動作するコアコンポーネントを通じて構築されないエクスペリエンスに直接 URL 埋め込まれた場合、Media Libraryのライセンス条件に違反します。
 
 ### 新しい画像サービスで配信される画像の URL はどのようなものですか？ {#url}
 
