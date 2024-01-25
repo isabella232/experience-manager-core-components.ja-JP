@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - タイト�
 description: アダプティブフォームのタイトルコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: ht
-source-wordcount: '867'
-ht-degree: 100%
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
+source-wordcount: '861'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## デザインダイアログ {#design-dialog}
 
-「デザイン」タブでは、日付選択コンポーネントの CSS スタイルを定義および管理できます。
+「デザイン」タブは、タイトルコンポーネントの CSS スタイルを定義および管理するために使用します。
 
 ### タイトル
 
@@ -90,9 +90,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![デザインダイアログの「タイトル」タブ](/help/adaptive-forms/assets/title_styles.png)
 
-- **デフォルトの CSS クラス**：アダプティブフォームの日付選択コアコンポーネントのデフォルト CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブFormsタイトルコアコンポーネントのデフォルト CSS クラスを指定できます。
 
-- **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定することで、スタイルを定義できます。例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
+- **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
 ### 「形式」タブ {#format-tab}
 

@@ -3,10 +3,10 @@ title: AEM Forms コアコンポーネントのバージョン
 description: AEM コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+source-git-commit: 5ba402a0f781f73fe7eb5afc9b4beb47ba28851e
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 91%
 
 ---
 
@@ -20,9 +20,10 @@ ht-degree: 100%
 
 | リリース | 説明 | AEM as a Cloud Service | Java™ | リリース日 |
 |---|---|---|---|---|
+| [2.0.76](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.76) | このリリースでは、利用条件コンポーネントの「スタイル」タブと「カスタムプロパティ」タブが固定されました。 このリリースでは、ラジオボタンコンポーネントが修正され、最初のクリック時にブール値が保存されるようになりました。 | 継続的 | 8、11 | 2023年11月15日（PT） |
 | [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | このリリース送信エラーでは、AEM Forms の送信アクションが更新されます。 | 継続的 | 8、11 | 2023年11月15日（PT） |
 | [2.0.70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70) | このリリースでは、フォームコンテナのサイトページ言語を処理するサポートが追加されました。 | 継続的 | 8、11 | 2023年11月10日（PT） |
-| [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | ラジオ／チェックボックスコンポーネントのラベルルのリッチテキストをサポートします。このリリースには、利用条件コンポーネントの修正も含まれています。 | 継続的 | 8、11 | 2023年11月6日（PT） |
+| [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | ラジオ／チェックボックスコンポーネントのラベルルのリッチテキストをサポートします。このリリースでは、スイッチコンポーネントのサポートも追加されています。 このリリースには、利用条件コンポーネントの修正も含まれています。 | 継続的 | 8、11 | 2023年11月6日（PT） |
 | [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | このリリースでは、利用条件コンポーネントのサポートが追加されています。また、コアコンポーネントの修飾名のサポートも追加されました。 | 継続的 | 8、11 | 2023年10月16日（PT） |
 | [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | このリリースには、カスタムプロパティ機能、ウィザードおよび日付選択コンポーネントに関する修正が含まれています。 | 継続的 | 8、11 | 2023年9月12日（PT） |
 | [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | このリリースでは、すべてのコアコンポーネントのカスタムプロパティのサポートが追加されています。 | 継続的 | 8、11 | 2023年9月12日（PT） |
@@ -49,8 +50,8 @@ ht-degree: 100%
 | リリース | 説明 | AEM 6.4 | AEM 6.5 | Java™ | リリース日 |
 |---|---|---|---|---|---|
 | [1.1.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.32) | このリリースでは、AEM Service Pack 6.5.18.0 のパッケージ情報を更新しました。 | - | 6.5.16.0+ | 8、11 | 2023年10月15日（PT） |
-| [1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28) | ラジオ／チェックボックスコンポーネントのラベルルのリッチテキストをサポートします。また、このリリースには、利用条件コンポーネントのサポートも含まれます。 | - | 6.5.16.0+ | 8、11 | 2023年10月15日（PT） |
-| [1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26) | このリリースでは、アダプティブフォームのチェックボックスコンポーネントのサポートを追加しました。また、Lighthouse のパフォーマンスの改善も含まれます。このリリースには、ルールエディターのサービスの呼び出しを使用するカスタムエラーハンドラーも含まれます。 | - | 6.5.16.0+ | 8、11 | 2023年10月15日（PT） |
+| [1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28) | ラジオ／チェックボックスコンポーネントのラベルルのリッチテキストをサポートします。このリリースには、利用条件コンポーネントと切り替えコンポーネントのサポートも含まれています。 | - | 6.5.16.0+ | 8、11 | 2023年10月15日（PT） |
+| [1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26) | このリリースでは、アダプティブフォームおよびフォームフラグメントのチェックボックスコンポーネントのサポートが追加されました。 また、Lighthouse のパフォーマンスの改善も含まれます。このリリースには、ルールエディターのサービスの呼び出しを使用するカスタムエラーハンドラーも含まれます。 | - | 6.5.16.0+ | 8、11 | 2023年10月15日（PT） |
 | [1.1.24](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.24) | 繰り返し可能なコンポーネントの追加／削除ボタンと共に、デフォルトのエラーメッセージのローカライゼーションサポートを追加しました。また、アダプティブフォームでの reCAPTCHA のサポートも追加しました。 | - | 6.5.16.0+ | 8、11 | 2023年6月29日（PT） |
 | [1.1.22](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.22) | AEM Sites でのアダプティブフォームの追加のサポート。ウィザードと垂直タブコンポーネントの編集ダイアログに「項目」タブを追加しました。 | - | 6.5.16.0+ | 8、11 | 2023年6月7日（PT） |
 | [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | このリリースでは、オンプレミスおよび AMS の AEM Forms のコアコンポーネントのサポートが導入されました。 | - | 6.5.16.0+ | 8、11 | 2023年2月8日（PT） |

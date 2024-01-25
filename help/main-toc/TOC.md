@@ -5,10 +5,10 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -113,6 +113,7 @@ ht-degree: 100%
       + [アダプティブフォームの日付選択](/help/adaptive-forms/components/date-picker.md)
       + [アダプティブフォームのドロップダウンリスト](/help/adaptive-forms/components/drop-down.md)
       + [アダプティブフォームのメール入力](/help/adaptive-forms/components/email-input.md)
+      + [アダプティブFormsフォームフラグメント](/help/adaptive-forms/components/form-fragment.md)
       + [アダプティブフォームの添付ファイル](/help/adaptive-forms/components/file-attachment.md)
       + [アダプティブフォームの垂直タブ](/help/adaptive-forms/components/vertical-tabs.md)
       + [アダプティブフォームの水平タブ](/help/adaptive-forms/components/horizontal-tabs.md)
@@ -123,6 +124,7 @@ ht-degree: 100%
       + [アダプティブフォームのラジオボタン](/help/adaptive-forms/components/radio-button.md)
       + [アダプティブフォームのリセットボタン](/help/adaptive-forms/components/reset-button.md)
       + [アダプティブフォームの送信ボタン](/help/adaptive-forms/components/submit-button.md)
+      + [アダプティブFormsスイッチ](/help/adaptive-forms/components/switch.md)
       + [アダプティブフォームの電話入力](/help/adaptive-forms/components/telephone-input.md)
       + [アダプティブフォームのテキスト](/help/adaptive-forms/components/text.md)
       + [アダプティブフォームのテキストボックス](/help/adaptive-forms/components/text-input.md)
