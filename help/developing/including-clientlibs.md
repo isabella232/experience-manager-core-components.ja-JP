@@ -3,16 +3,16 @@ title: クライアントライブラリを含める
 description: 使用事例に応じてクライアントライブラリを含める方法は多数あります。
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: ht
-source-wordcount: '392'
+source-git-commit: 39a5dee1666fa2645e0579fdfac0400f7fcbdc27
+workflow-type: tm+mt
+source-wordcount: '369'
 ht-degree: 100%
 
 ---
 
 # クライアントライブラリを含める {#including-client-libraries}
 
-使用事例に応じて[クライアントライブラリ](/help/developing/archetype/uifrontend.md#clientlibs)を含める方法は多数あります。このドキュメントでは、それぞれの例とサンプル [HTL スニペット](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ja)を紹介します。
+使用事例に応じて[クライアントライブラリ](/help/developing/archetype/front-end.md#clientlibs)を含める方法は多数あります。このドキュメントでは、それぞれの例とサンプル [HTL スニペット](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ja)を紹介します。
 
 ## 推奨されるデフォルトの使用方法 {#recommended-default-usage}
 
@@ -92,7 +92,7 @@ CSS ではなく JS のみを含めるには、`body` を閉じる前に `jsIncl
 
 ## インライン {#inlining}
 
-場合によっては、最適化用、または電子メールまたは [AMP](amp.md) 用として、CSS または JS を HTML の出力にインライン化する必要が出ることがあります。
+場合によっては、最適化用、またはメールまたは [AMP](amp.md) 用として、CSS または JS を HTML の出力にインライン化する必要が出ることがあります。
 
 CSS をインライン化するには、`cssInline` を使用できますが、その場合は前後に `style` 要素を記述する必要があります。
 

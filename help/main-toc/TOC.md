@@ -5,10 +5,10 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+source-git-commit: 5aed197937ca527d699569df09ea3305bae98fae
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 98%
+source-wordcount: '376'
+ht-degree: 97%
 
 ---
 
@@ -154,13 +154,6 @@ ht-degree: 98%
    + AEM プロジェクトアーキタイプ {#archetype}
       + [アーキタイプの概要](/help/developing/archetype/overview.md)
       + [アーキタイプの使用](/help/developing/archetype/using.md)
-      + [Core モジュール](/help/developing/archetype/core.md)
-      + [ui.apps モジュール](/help/developing/archetype/uiapps.md)
+      + [フロントエンド開発](/help/developing/archetype/front-end.md)
       + [事前コンパイル済みバンドルスクリプト](/help/developing/archetype/precompiled-bundled-scripts.md)
-      + [ui.content モジュール](/help/developing/archetype/uicontent.md)
-      + [ui.frontend.general モジュール](/help/developing/archetype/uifrontend.md)
-      + [ui.frontend.react モジュール](/help/developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular モジュール](/help/developing/archetype/uifrontend-angular.md)
-      + [ui.tests モジュール](/help/developing/archetype/uitests.md)
-      + [it.tests モジュール](/help/developing/archetype/ittests.md)
       + [Build Analyzer Maven プラグイン](/help/developing/archetype/build-analyzer-maven-plugin.md)
