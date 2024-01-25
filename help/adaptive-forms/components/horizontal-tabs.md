@@ -3,9 +3,9 @@ title: アダプティブフォームのコアコンポーネント - 水平タ�
 description: アダプティブフォームの水平タブコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
-source-wordcount: '2020'
+source-wordcount: '1999'
 ht-degree: 100%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 100%
 |---|---|
 | コンポーネントのバージョン | AEM as a Cloud Service |
 | --- | --- |
-| v1 | <br>[リリース 2.0.4](/help/versions.md) 以降と互換性あり | 互換性あり | 互換性あり |
+| v1 | <br>[リリース 2.0.4](/help/adaptive-forms/version.md) 以降と互換性あり | 互換性あり | 互換性あり |
 
-コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/versions.md)ドキュメントをご覧ください。
+コアコンポーネントのバージョンとリリースについて詳しくは、[コアコンポーネントのバージョン](/help/adaptive-forms/version.md)ドキュメントをご覧ください。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
