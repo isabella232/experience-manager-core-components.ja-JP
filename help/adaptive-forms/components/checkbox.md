@@ -3,10 +3,10 @@ title: アダプティブフォームのコアコンポーネント - チェッ�
 description: アダプティブフォームのチェックボックスコアコンポーネントの使用またはカスタマイズ。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 98%
+source-wordcount: '1746'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 98%
 チェックボックスは、ソフトウェアアプリケーションやフォームで一般的に使用されるグラフィカルユーザーインターフェイス要素で、オン（選択）とオフ（選択解除）の 2 つのオプションをバイナリ選択できます。
 
 チェックボックスは通常、小さな四角形で表され、クリックまたはタップするとオン/オフを切り替えることができます。チェックボックスをオンにすると、関連するオプションまたは機能がアクティブまたは有効であることを示すチェックマークが表示されます。
+
+>[!NOTE]
+>
+> AEM 6.5 Formsの場合、このコンポーネントはAEM 6.5 Forms Service Pack 19(6.5.19.0) で導入されました。 このコンポーネントを有効にするには、Formsコアコンポーネントと WCM コアコンポーネントの両方に必要なバージョンがインストールされていることを確認します。 アダプティブFormsコアコンポーネントのリリースについて詳しくは、 [アダプティブForms Core コンポーネントリリース](/help/adaptive-forms/version.md)
 
 **例**
 

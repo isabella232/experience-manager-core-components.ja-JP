@@ -1,60 +1,143 @@
 ---
-title: AEM Forms コアコンポーネントのバージョン
+title: AEM Adaptive Formsコアコンポーネントのバージョン
 description: AEM コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 5ba402a0f781f73fe7eb5afc9b4beb47ba28851e
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 91%
+source-wordcount: '773'
+ht-degree: 55%
 
 ---
 
-# コアコンポーネントのバージョン {#core-components-versions}
 
-コアコンポーネント 2.0.10 の現在のリリースは [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja) と互換性があり、コアコンポーネントリリース 1.1.12 は[オンプレミスおよび AMS の AEM 6.5 Form](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=ja) のインストールと互換性があります。
+# アダプティブForms Core コンポーネントリリース {#core-components-versions}
 
-## AEM as a Cloud Service のバージョン履歴 {#aem-as-cs-version-history}
+環境内の最新のアダプティブFormsコアコンポーネントをアクティブ化するために必要な、Formsコアコンポーネントと WCM コアコンポーネントの依存関係の両方の正確なバージョンを特定します。 さらに、アダプティブFormsコアコンポーネントの各リリースで有効になるコンポーネントと機能についても理解しておいてください。
+
+## AEM Forms (Cloud Serviceのバージョン履歴 ) {#aem-as-cs-version-history}
 
 次の表は、AEM as a Cloud Service と互換性のあるコアコンポーネントリリースをリストアップしたものです。これらは、[GitHub とそのリリースの包括的な詳細](https://github.com/adobe/aem-core-forms-components/releases)で利用できます。
 
-| リリース | 説明 | AEM as a Cloud Service | Java™ | リリース日 |
+
+
+
+| Forms Core Components | WCM コアコンポーネント | AEM Forms as a cloud service | Java | Maven |
+|-----------------------|---------------------| ---------------------------- | ----- | ------ |
+| 2.0.86 | 2.23.4 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.76 | 2.23.4 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.74 | 2.23.4 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.72 | 2.23.4 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.70 | 2.23.4 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.68 | 2.23.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.66 | 2.23.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.64 | 2.23.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.62 | 2.23.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.60 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.56 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.54 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.52 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.50 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.48 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.46 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.44 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.42 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.40 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.36 | 2.23.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.26 | 2.22.12 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.18 | 2.22.10 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.14 | 2.21.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.6 | 2.21.2 | 継続的 | 8、11 | 3.3.9 以上 |                      |                     |                              |       |        |
+| 2.0.4 | 2.21.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 2.0.2 | 2.21.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.1.8 | 2.21.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.1.6 | 2.21.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.56 | 2.21.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.54 | 2.21.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.52 | 2.21.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.50 | 2.21.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.48 | 2.21.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.46 | 2.21.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.44 | 2.21.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.42 | 2.20.8 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.40 | 2.20.8 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.38 | 2.20.8 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.36 | 2.20.8 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.34 | 2.20.8 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.30 | 2.20.8 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.28 | 2.20.8 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.26 | 2.20.8 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.24 | 2.20.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.22 | 2.20.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.20 | 2.20.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.18 | 2.20.2 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.16 | 2.19.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.14 | 2.19.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.12 | 2.19.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.10 | 2.19.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.8 | 2.18.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.4 | 2.18.0 | 継続的 | 8、11 | 3.3.9 以上 |
+| 1.0.2 | 2.10.0 | 継続的 | 8、11 | 3.3.9 以上 |
+
+<!--
+
+|Release|Description|AEM as a Cloud Service|Java&trade;|Release Date|
 |---|---|---|---|---|
-| [2.0.76](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.76) | このリリースでは、利用条件コンポーネントの「スタイル」タブと「カスタムプロパティ」タブが固定されました。 このリリースでは、ラジオボタンコンポーネントが修正され、最初のクリック時にブール値が保存されるようになりました。 | 継続的 | 8、11 | 2023年11月15日（PT） |
-| [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | このリリース送信エラーでは、AEM Forms の送信アクションが更新されます。 | 継続的 | 8、11 | 2023年11月15日（PT） |
-| [2.0.70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70) | このリリースでは、フォームコンテナのサイトページ言語を処理するサポートが追加されました。 | 継続的 | 8、11 | 2023年11月10日（PT） |
-| [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | ラジオ／チェックボックスコンポーネントのラベルルのリッチテキストをサポートします。このリリースでは、スイッチコンポーネントのサポートも追加されています。 このリリースには、利用条件コンポーネントの修正も含まれています。 | 継続的 | 8、11 | 2023年11月6日（PT） |
-| [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | このリリースでは、利用条件コンポーネントのサポートが追加されています。また、コアコンポーネントの修飾名のサポートも追加されました。 | 継続的 | 8、11 | 2023年10月16日（PT） |
-| [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | このリリースには、カスタムプロパティ機能、ウィザードおよび日付選択コンポーネントに関する修正が含まれています。 | 継続的 | 8、11 | 2023年9月12日（PT） |
-| [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | このリリースでは、すべてのコアコンポーネントのカスタムプロパティのサポートが追加されています。 | 継続的 | 8、11 | 2023年9月12日（PT） |
-| [2.0.54](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.54) | このリリースでは、日付選択コンポーネントを使用したローカライゼーションに関連する問題が修正されました。 | 継続的 | 8、11 | 2023年8月30日（PT） |
-| [2.0.52](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.52) | アダプティブフォーム内でのチェックボックスコンポーネントの使用のサポート。 | 継続的 | 8、11 | 2023年8月25日（PT） |
-| [2.0.50](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.50) | このリリースでは、アダプティブフォーム内のフォームフラグメントのサポートが追加されました。 | 継続的 | 8、11 | 2023年8月4日（PT） |
-| [2.0.48](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.48) | このリリースでの主な改善点は、Lighthouse のパフォーマンスに関するものです。 | 継続的 | 8、11 | 2023年7月25日（PT） |
-| [2.0.42](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.42) | このリリースには、プログラミング終了時に改善点が組み込まれています。 | 継続的 | 8、11 | 2023年7月18日（PT） |
-| [2.0.38](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.38) | このリリースではアクセシビリティ機能が向上しました。 | 継続的 | 8、11 | 2023年7月17日（PT） |
-| [2.0.36](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.36) | このリリースでは、ルールエディターのサービスの呼び出しを使用すると、カスタムエラーハンドラーを使用できます。 | 継続的 | 8、11 | 2023年7月3日（PT） |
-| [2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34) | 繰り返し可能なコンポーネントの追加／削除ボタンと共に、デフォルトのエラーメッセージのローカライゼーションサポートを追加しました。 | 継続的 | 8、11 | 2023年6月28日（PT） |
-| [2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32) | このリリースでは、アダプティブフォームに Captcha のサポートが追加されています。 | 継続的 | 8、11 | 2023年6月15日（PT） |
-| [2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26) | AEM Sites でのアダプティブフォームの追加のサポート。 | 継続的 | 8、11 | 2023年6月7日（PT） |
-| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | このリリースでは、アコーディオンコンポーネントの繰り返しがサポートされます。また、垂直タブとして新しいコンポーネントも追加されています。 | 継続的 | 8、11 | 2023年6月5日（PT） |
-| [2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10) | このリリースでは、Sites のエディターでアダプティブフォームのコンテナコンポーネントのサポートが導入されました。 | 継続的 | 8、11 | 2023年3月17日（PT） |
-| [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | このリリースでは、ウィザードコンポーネントの繰り返し機能が導入されました。 | 継続的 | 8、11 | 2023年3月3日（PT） |
-| [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | このリリースでは、数値入力コアコンポーネントの複数の形式が導入されました。 | 継続的 | 8、11 | 2023年2月8日（PT） |
-| [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | このリリースでは、AEM as a Cloud Service のコアコンポーネントのサポートが導入されました。 | 継続的 | 8、11 | 2023年1月30日（PT） |
+|[2.0.76](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.76)| With this release, the style tab and custom properties tab are fixed for Terms and Conditions component. This release also fixed Radio button component to save boolean value for the first click.|Continual|8, 11|15 November 2023|
+|[2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74)| With this release, submission error is updated for Submit action in AEM Forms.|Continual|8, 11|15 November 2023|
+|[2.0.70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70)| This release added support to handle sites page language in form container.|Continual|8, 11|10 November 2023|
+|[2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64)| Support rich text for labels for Radio/checkbox  components. With this release, support for the Switch component is also added. This release also includes fixes for Terms and Condition component.|Continual|8, 11|6 November 2023|
+|[2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62)|With this release, support for Terms and Conditions component is added. Also added support for Qualified name in core components. |Continual|8, 11|16 October 2023|
+|[2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60)|This release includes fixes related to custom properties feature, Wizard, and Date Picker component.|Continual|8, 11|12 September 2023|
+|[2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56)| With this release support for custom properties for all the core components are added.|Continual|8, 11|12 September 2023|
+|[2.0.54](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.54)| This release fixed the issue related to localization with Date Picker component.|Continual|8, 11|30 August 2023|
+|[2.0.52](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.52)| Support for using checkbox component in an Adaptive Form.|Continual|8, 11|25 August 2023|
+|[2.0.50](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.50)| Added support for form fragments in an Adaptive Form with this release.|Continual|8, 11|4 August 2023|
+|[2.0.48](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.48)| The major improvements in this release are related to Lighthouse performance.|Continual|8, 11|25 July 2023|
+|[2.0.42](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.42)| The release incorporates improvements at programming end.|Continual|8, 11|18 July 2023|
+|[2.0.38](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.38)| The accessibility feature is improved with this release.|Continual|8, 11|17 July 2023|
+|[2.0.36](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.36)| With this release, you can use the custom error handler using the Rule Editor's Invoke Service.|Continual|8, 11|3 July 2023|
+|[2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34)| Added localization support for default error messages along with Add/Remove button for Repeatable component.|Continual|8, 11|28 June 2023|
+|[2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32)|With this release support for Captcha is added for Adaptive Forms.|Continual|8, 11|15 June 2023|
+|[2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26)|Support for adding Adaptive forms on AEM Sites.|Continual|8, 11|7 June 2023|
+|[2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18)|With this release, support for a repeatability for Accordion component. Also added a new component as vertical tabs.|Continual|8, 11|5 June 2023|
+|[2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10)|With this release, support for an Adaptive Form Container component is introduced in the editor of Sites.|Continual|8, 11|17 March 2023|
+|[2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8)|Repeatability feature for the wizard component is introduced in this release.|Continual|8, 11|03 March 2023|
+|[2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6)|Multiple formats for the numeric input core component are introduced in this release.|Continual|8, 11|08 February 2023|
+|[2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6)|Core component support for AEM as a Cloud Service is introduced in this release.|Continual|8, 11|30 January 2023|
+
+-->
 
 ## AEM 6.5 Forms のバージョン履歴 {#aem-as-form-version-history}
 
 次の表は、オンプレミスおよび AMS の AEM 6.5 Form と互換性のあるコアコンポーネントリリースをリストアップしたものです。これらは、[GitHub とそのリリースの包括的な詳細](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12)で利用できます。
 
-| リリース | 説明 | AEM 6.4 | AEM 6.5 | Java™ | リリース日 |
+
+| Forms Core Components | WCM コアコンポーネント | AEM 6.5 | Java | Maven |
+|-----------------------|---------------------|---------| ----- | ------ |
+| 1.1.32 | 2.23.2 | 6.5.18 以上 | 8、11 | 3.3.9 以上 |
+| 1.1.28 | 2.23.2 | 6.5.19 以上 | 8、11 | 3.3.9 以上 |
+| 1.1.26 | 2.23.2 | 6.5.17 以上 | 8、11 | 3.3.9 以上 |
+| 1.1.24 | 2.22.12 | 6.5.17 以上 | 8、11 | 3.3.9 以上 |
+| 1.1.22 | 2.22.12 | 6.5.17 以上 | 8、11 | 3.3.9 以上 |
+| 1.1.20 | 2.22.10 | 6.5.17 以上 | 8、11 | 3.3.9 以上 |
+| 1.1.18 | 2.21.2 | 6.5.17 以上 | 8、11 | 3.3.9 以上 |
+| 1.1.16 | 2.21.2 | 6.5.17 以上 | 8、11 | 3.3.9 以上 |
+| 1.1.12 | 2.21.2 | 6.5.16 以上 | 8、11 | 3.3.9 以上 |
+
+
+<!-- 
+|Release|Description|WCM Version|AEM 6.5|Java&trade;|Release Date|
 |---|---|---|---|---|---|
-| [1.1.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.32) | このリリースでは、AEM Service Pack 6.5.18.0 のパッケージ情報を更新しました。 | - | 6.5.16.0+ | 8、11 | 2023年10月15日（PT） |
-| [1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28) | ラジオ／チェックボックスコンポーネントのラベルルのリッチテキストをサポートします。このリリースには、利用条件コンポーネントと切り替えコンポーネントのサポートも含まれています。 | - | 6.5.16.0+ | 8、11 | 2023年10月15日（PT） |
-| [1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26) | このリリースでは、アダプティブフォームおよびフォームフラグメントのチェックボックスコンポーネントのサポートが追加されました。 また、Lighthouse のパフォーマンスの改善も含まれます。このリリースには、ルールエディターのサービスの呼び出しを使用するカスタムエラーハンドラーも含まれます。 | - | 6.5.16.0+ | 8、11 | 2023年10月15日（PT） |
-| [1.1.24](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.24) | 繰り返し可能なコンポーネントの追加／削除ボタンと共に、デフォルトのエラーメッセージのローカライゼーションサポートを追加しました。また、アダプティブフォームでの reCAPTCHA のサポートも追加しました。 | - | 6.5.16.0+ | 8、11 | 2023年6月29日（PT） |
-| [1.1.22](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.22) | AEM Sites でのアダプティブフォームの追加のサポート。ウィザードと垂直タブコンポーネントの編集ダイアログに「項目」タブを追加しました。 | - | 6.5.16.0+ | 8、11 | 2023年6月7日（PT） |
-| [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | このリリースでは、オンプレミスおよび AMS の AEM Forms のコアコンポーネントのサポートが導入されました。 | - | 6.5.16.0+ | 8、11 | 2023年2月8日（PT） |
+|[1.1.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.32)|This release updated the information for package information of AEM Service Pack 6.5.18.0.| - |6.5.16.0+ |8, 11|15 October 2023|
+|[1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28)|Support rich text for labels for Radio/checkbox  components. This release also includes support for Terms and Condition component and Switch components.| - |6.5.16.0+ |8, 11|15 October 2023|
+|[1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26)|With this release added support for checkbox component for Adaptive Form and form fragments. It also includes improvements in  Lighthouse performance. The custom error handler using Rule Editor's Invoke Service is also included in this release.| - |6.5.16.0+ |8, 11|15 October 2023|
+|[1.1.24](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.24)|Added localization support for default error messages along with Add/Remove button for Repeatable component. Also added support for recaptcha in Adaptive Forms.| - |6.5.16.0+ |8, 11|29 June 2023|
+|[1.1.22](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.22)|Support for adding Adaptive forms on AEM Sites. Added Items tab in edit dialog of Wizard and Vertical Tabs component.| - |6.5.16.0+ |8, 11|07 June 2023|
+|[1.1.16](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.16)|| - |6.5.17.0+ |8, 11|07 June 2023|
+|[1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12)|Core component support for AEM Forms on premise and AMS, is introduced in this release.| 2.21.2 |6.5.16.0+ |8, 11|08 February 2023|
+
+-->
 
 ## 関連トピック {#see-also}
 
