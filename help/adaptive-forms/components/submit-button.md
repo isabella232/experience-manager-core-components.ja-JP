@@ -4,9 +4,9 @@ description: アダプティブフォームの送信ボタンコアコンポー�
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![デザインダイアログ](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **デフォルトの CSS クラス**：アダプティブForms送信ボタンのコアコンポーネントのデフォルト CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブフォームの送信ボタンコアコンポーネントにデフォルトの CSS クラスを指定できます。
 
 - **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
