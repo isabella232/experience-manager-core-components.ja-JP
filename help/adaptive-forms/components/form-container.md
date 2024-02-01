@@ -4,9 +4,9 @@ description: Web ページへのアダプティブフォームの追加。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1297'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -64,10 +64,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **事前入力サービス** - このオプションを使用すると、ユーザーはアダプティブフォームのレンダリング時にデータを取得するための事前入力サービスを選択できます。詳しくは、[事前入力サービスの作成および設定方法](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=ja#aem-forms-custom-prefill-service)を参照してください
 
-- **クライアントライブラリカテゴリ** - ユーザーはアダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。 jquery および underscore.js サードパーティライブラリに依存する再利用可能な関数のみをライブラリに保持することをお勧めします。
-場合によっては、 **複雑な検証ルール**&#x200B;に設定されている場合、正確な検証スクリプトはカスタム関数に存在し、ユーザーはこれらのカスタム関数をフィールド検証式から呼び出します。 サーバー側の検証を実行する際に、このカスタム関数ライブラリを既知で使用可能にするには、フォームユーザーが、 **[!UICONTROL 基本]** タブを使用して、アダプティブフォームコンテナのプロパティを次に示します。
+- **クライアントライブラリカテゴリ** - ユーザーはアダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。 jQuery および underscore.js サードパーティライブラリに依存する再利用可能な関数のみを、ライブラリに保持することをお勧めします。
+**複雑な検証ルール**&#x200B;がある場合、正確な検証スクリプトがカスタム関数の中に存在し、ユーザーがこれらのカスタム関数をフィールド検証式から呼び出すことがあります。このカスタム関数ライブラリをサーバーサイド検証中に認識させ、利用可能にするために、フォームユーザーは、「アダプティブフォームコンテナ」プロパティの「**[!UICONTROL 基本]**」タブで、AEM クライアントライブラリの名前を設定できます（下記画像を参照）。
 
-ユーザーは、アダプティブフォームごとに customJavaScript ライブラリを設定できます。 ライブラリには、jQuery および underscore.js サードパーティライブラリに依存する、再利用可能な関数のみを保持します。
+ユーザーは、アダプティブフォームごとにカスタム JavaScript ライブラリを設定できます。ライブラリには、jQuery および underscore.js サードパーティライブラリに依存する、再利用可能な関数のみを保持します。
 
 ### 「データモデル」タブ {#data-model-tab}
 
@@ -119,7 +119,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![デザインダイアログ](/help/adaptive-forms/assets/formcontainer-styletab.png)
 
-- **デフォルトの CSS クラス**：アダプティブFormsフォームコンテナのコアコンポーネントのデフォルト CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブフォームのフォームコンテナコアコンポーネントにデフォルトの CSS クラスを指定できます。
 
 - **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
