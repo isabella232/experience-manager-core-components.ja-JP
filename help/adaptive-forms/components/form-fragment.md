@@ -1,43 +1,43 @@
 ---
 title: アダプティブフォームフラグメント
-description: フォームフラグメントを使用して、フォームセグメントやフィールドのグループを作成し、Adaptive Forms全体で再利用することで、効率と再利用性を高めます。
+description: フォームフラグメントを使用して、フォームセグメントやフィールドのグループを作成し、アダプティブフォーム全体で再利用することで、効率性と再利用性を向上できます。
 role: Architect, Developer, Admin, User
 source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1675'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 
 # フォームフラグメントコンポーネント {#form-fragment-component-adaptive-forms-core-component}
 
-アダプティブFormsでは、パネルやフィールドのグループなどのフォームセグメントを作成して、別のアダプティブFormsで再利用することができます。 これらの再利用可能でスタンドアロンのセグメントは、 [アダプティブフォームフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
+アダプティブフォームには、パネルやフィールドのグループなどのフォームセグメントを作成して、別のアダプティブフォームで再利用するための便利な機能が用意されています。この再利用可能なスタンドアロンのセグメントは、[アダプティブフォームフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ja)と呼ばれます。
 
-以下が可能です。 [ドキュメントにフラグメントを複数回追加する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form) コンポーネントのデータ連結プロパティを使用して、異なるデータソースやスキーマに結び付けます。 例えば、同じアドレスフラグメントを永続アドレス、通信アドレス、請求先アドレスに使用し、それをデータソースやスキーマの様々なフィールドに接続することができます。
+[フラグメントを 1 つのドキュメントに複数回追加し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ja#insert-a-fragment-in-an-adaptive-form)、そのコンポーネントのデータ連結プロパティを使用すると、フラグメントを別のデータソースやスキーマに結び付けることができます。例えば、同じアドレスフラグメントを永続アドレス、通信アドレス、請求先アドレスに使用し、それをデータソースやスキーマの様々なフィールドに接続することができます。
 
 ![例](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-また、 [再現性オプション](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja) フォームフラグメントコンポーネントとその子コンポーネントを複製するには、繰り返し回数の最小値と最大値を定義し、フォーム内の類似セクションの複製を容易にします。
+[繰り返しオプション](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=ja)を使用すると、フォームフラグメントコンポーネントとその子コンポーネントの複製、最小繰り返し回数と最大繰り返し回数の定義、フォーム内の類似セクションの複製を簡単に行うことができます。
 
 >[!NOTE]
 >
-> 以下が可能です。 [アダプティブフォームフラグメントを作成する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment) パネルを最初から作成するか、パネルをフラグメントとして既存のアダプティブフォームに保存します。
+> 最初から[アダプティブフォームフラグメントを作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=ja#create-a-fragment)することも、既存のアダプティブフォーム内のパネルをフラグメントとして保存することもできます。
 
 ## 使用方法 {#usage}
 
-- **再利用性**：複数のアダプティブフォームでフォームフラグメントを再利用する機能は、フォームフラグメントを使用する主なメリットです。Forms フラグメントに加えた変更が、フラグメントを使用するすべてのインスタンスに反映されるので、デザインと機能の一貫性を維持するのに役立ちます。
+- **再利用性**：フォームフラグメントを使用する主な利点は、複数のアダプティブフォームでフォームフラグメントを再利用できることです。フラグメントに対する変更は、そのフラグメントが使用されるすべてのインスタンスに反映されるので、デザインと機能の一貫性を維持するのに役立ちます。
 
-- **一貫性のあるユーザーエクスペリエンス**：ヘッダーやフッターなど、共通の要素にフォームフラグメントを使用すると、一貫性のある統合的なユーザーエクスペリエンスを実現できます。
+- **一貫性のあるユーザーエクスペリエンス**：ヘッダーやフッターなどの共通の要素にフォームフラグメントを使用すると、一貫性のあるユーザーエクスペリエンスを実現できます。
 
-- **メンテナンスが容易**：フォームフラグメントに対する変更や変更は、そのフラグメントが使用されるすべてのインスタンスに反映されます。 メンテナンスが簡単になり、エラーの発生確率が低下します。
+- **容易なメンテナンス**：フォームフラグメントに対する変更や修正は、そのフラグメントが使用されているすべてのインスタンスに反映されます。これによりメンテナンスが容易化され、エラーが発生するリスクを低減できます。
 
-- **効率性**：デザイナーや開発者は、フォームフラグメントを構築してテストするのは 1 回だけなので、時間を節約できます。 その後、冗長な作業を必要とせずに、フォームフラグメントを簡単に複数のアダプティブFormsに組み込むことができます。
+- **効率性**：デザイナーや開発者は、フォームフラグメントの構築とテストを 1 回だけ行うことで、時間を節約できます。その後、冗長な作業を必要とせずに、複数のアダプティブフォームにフォームフラグメントを簡単に組み込むことができます。
 
 ## バージョンと互換性 {#version-and-compatibility}
 
-アダプティブFormsフラグメントコアコンポーネントは、Cloud Service用コアコンポーネント 2.0.50 の一部としてリリースされ、AEM 6.5.16.0 Forms以降用コアコンポーネント 1.1.26 でリリースされました。 次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
+アダプティブフォームフラグメントのコアコンポーネントは、Cloud Service のコアコンポーネント 2.0.50 および AEM 6.5.16.0 Forms 以降のコアコンポーネント 1.1.26 の一部としてリリースされました。次の表に、サポートされているすべてのバージョン、AEM の互換性、対応するドキュメントへのリンクを示します。
 
 | コンポーネントのバージョン | AEM as a Cloud Service | AEM 6.5.16.0 Forms 以降 |
 |---|---|---|
@@ -47,11 +47,11 @@ ht-degree: 68%
 
 ## 技術的詳細 {#technical-details}
 
-アダプティブFormsフラグメントコアコンポーネントの最新情報については、 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
+アダプティブフォームフラグメントのコアコンポーネントの最新情報については、[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment) のテクニカルドキュメントをご覧ください。コアコンポーネントの開発について詳しくは、 [コアコンポーネント開発者向けのドキュメント](/help/developing/overview.md)をご覧ください。
 
 ## 設定ダイアログ {#configure-dialog}
 
-設定ダイアログを使用すると、訪問者に対してフラグメントエクスペリエンスを簡単にカスタマイズできます。 また、簡単にフラグメントプロパティを定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
+設定ダイアログを使用すると、フラグメントエクスペリエンスを訪問者に合わせて簡単にカスタマイズできます。また、フラグメントのプロパティを簡単に定義して、シームレスなユーザーエクスペリエンスを実現することもできます。
 
 ### 「基本」タブ {#basic-tab}
 
@@ -86,7 +86,7 @@ ht-degree: 68%
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **フラグメント参照**  — フラグメント参照は、外部データソースに保存され、フォーム内で使用されるフォームフラグメントへの参照です。 フラグメント参照を使用すると、フォームフラグメントをフォームに動的に連結できます。
+- **フラグメント参照** - フラグメント参照は、外部データソースに保存され、フォーム内で使用されるフォームフラグメントへの参照です。フラグメント参照を使用すると、フォームフラグメントをフォームに動的に連結できます。
 
 - **バインド参照** - バインド参照は、外部データソースに保存され、フォーム内で使用されるデータ要素への参照です。 バインド参照を使用すると、データをフォームフィールドに動的にバインドして、フォームにデータソースの最新のデータを表示できます。 例えば、フォームに入力された顧客 ID に基づいて、顧客の名前と住所をフォームに表示できます。 さらに、フォームに入力されたデータでデータソースを更新することもできます。 このように AEM Formsで外部データソースとやり取りするフォームを作成して、データの収集と管理のためのシームレスなユーザーエクスペリエンスを提供できます。
 
@@ -94,13 +94,13 @@ ht-degree: 68%
 - **コンポーネントの無効化** - コンポーネントを無効にする場合は、このオプションを選択します。 エンドユーザーは、無効になっているコンポーネントをアクティブにしたり、編集したりすることはできません。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 - **読み取り専用** - コンポーネントを編集不可にするには、このオプションを選択します。 ユーザーはフィールドの値を表示できますが、変更することはできません。 このコンポーネントは、他の目的（ルールエディターでの計算に使用するなど）にも利用できます。
 
-### 「フラグメントを繰り返し」タブ {#repeat-tab}
+### 「フラグメントを繰り返す」タブ {#repeat-tab}
 
-![「フラグメントを繰り返し」タブ](/help/adaptive-forms/assets/fragment-repeattab.png)
+![「フラグメントを繰り返す」タブ](/help/adaptive-forms/assets/fragment-repeattab.png)
 
-- **フラグメントを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切り替え機能。
-- **繰り返しの最小値**：フラグメントコンポーネントを繰り返し可能な最小回数を設定します。 値が 0 の場合、フラグメントコンポーネントは繰り返されません。デフォルト値は 0 です。
-- **最大繰り返し**：フラグメントコンポーネントを繰り返し可能な最大回数を設定します。 デフォルトでは、この値は無制限です。
+- **フラグメントを繰り返し可能にする**：ユーザーが繰り返し機能を有効または無効にできる切替スイッチの機能です。
+- **最小繰り返し回数**：フラグメントコンポーネントを繰り返すことができる最小回数を設定します。値 0 は、フラグメントコンポーネントが繰り返されないことを示します。デフォルト値は 0 です。
+- **最大繰り返し回数**：フラグメントコンポーネントを繰り返すことができる最大回数を設定します。デフォルトでは、この値は無制限です。
 
 ### 「ヘルプコンテンツ」タブ {#help-content}
 
@@ -120,15 +120,15 @@ ht-degree: 68%
 
 ## デザインダイアログ {#design-dialog}
 
-デザインダイアログは、フォームフラグメントコンポーネントの CSS スタイルを定義および管理するために使用されます。
+デザインダイアログでは、フォームフラグメントコンポーネントの CSS スタイルを定義および管理できます。
 
 ### 「スタイル」タブ {#styles-tab}
 
-アダプティブフォームフラグメントコアコンポーネントは、AEM [スタイルシステム](/help/get-started/authoring.md#component-styling).
+アダプティブフォームのフォームフラグメントコアコンポーネントは、AEM の[スタイルシステム](/help/get-started/authoring.md#component-styling)をサポートしています。
 
 ![デザインダイアログ](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **デフォルトの CSS クラス**：アダプティブフォームフラグメントコアコンポーネントのデフォルトの CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブフォームのフォームフラグメントコアコンポーネントにデフォルトの CSS クラスを指定できます。
 
 - **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
@@ -136,7 +136,7 @@ ht-degree: 68%
 
 ![カスタムプロパティダイアログ](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-カスタムプロパティを使用すると、フォームテンプレートを使用して、カスタム属性（キーと値のペア）をアダプティブフォームのコアコンポーネントに関連付けることができます。 カスタムプロパティは、コンポーネントのヘッドレスレンディションのプロパティセクションに反映されます。これにより、カスタム属性値に基づいて適応する動的なフォーム動作を作成できます。例えば、開発者は、モバイル、デスクトップ、web プラットフォーム上にヘッドレスフォームコンポーネントの様々なレンディションをデザインできるので、幅広いデバイスでのユーザーエクスペリエンスが大幅に向上します。
+カスタムプロパティを使用すると、フォームテンプレートを使用してカスタム属性（キーと値のペア）をアダプティブフォームのコアコンポーネントに関連付けることができます。カスタムプロパティは、コンポーネントのヘッドレスレンディションのプロパティセクションに反映されます。これにより、カスタム属性値に基づいて適応する動的なフォーム動作を作成できます。例えば、開発者は、モバイル、デスクトップ、web プラットフォーム上にヘッドレスフォームコンポーネントの様々なレンディションをデザインできるので、幅広いデバイスでのユーザーエクスペリエンスが大幅に向上します。
 
 - **グループ名**：カスタムプロパティグループを識別する名前を指定できます。複数のカスタムプロパティグループを追加、削除または並べ替えることができます。カスタムプロパティグループを追加すると、次のオプションが表示されます。
 
@@ -144,7 +144,7 @@ ht-degree: 68%
 
    - **削除**：タップまたはクリックすると、カスタムプロパティ名とカスタムプロパティ値を削除できます。
 
-   - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値を並べ替えることができます。
+   - **並べ替え**：タップまたはクリックしてドラッグすると、カスタムプロパティ名とカスタムプロパティ値の順序を並べ替えることができます。
 
 ## 関連記事 {#related-articles}
 
