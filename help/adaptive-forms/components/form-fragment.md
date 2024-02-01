@@ -3,7 +3,7 @@ title: アダプティブフォームフラグメント
 description: フォームフラグメントを使用して、フォームセグメントやフィールドのグループを作成し、アダプティブフォーム全体で再利用することで、効率性と再利用性を向上できます。
 role: Architect, Developer, Admin, User
 source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1675'
 ht-degree: 100%
 
