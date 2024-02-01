@@ -3,12 +3,13 @@ title: カルーセルコンポーネント
 description: カルーセルコンポーネントを使用すれば、コンテンツ作成者は、回転式のカルーセルにコンテンツを表示することができます。
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 95%
 
 ---
+
 
 # カルーセルコンポーネント {#carousel-component}
 
@@ -55,6 +56,12 @@ ht-degree: 100%
    * 例：`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
 パネル ID をアンカーとして使用して指定した URL に移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。デフォルトでパネルが表示されないように設定されている場合は、自動的にスクロールされます。
+
+## カルーセルとレスポンシブデザイン {#responsive-design}
+
+すべてのコアコンポーネントは、完全にレスポンシブに設計されており、デバイス間のシームレスなエクスペリエンスを確保します。
+
+カルーセルコンポーネントなど、一部の高度なコンポーネントでは、すべての状況での応答性を維持するために、実装プロジェクトのコンテキスト内で特定の検討が必要になる場合があります。 ドキュメントを参照してください [コアコンポーネントのレスポンシブデザイン](/help/responsive.md) を参照してください。
 
 ## 編集ダイアログ {#edit-dialog}
 
@@ -143,7 +150,7 @@ ht-degree: 100%
 
 「**許可されるコンポーネント**」タブでは、コンテンツ作成者がカルーセルコンポーネントにスライドとして追加できるコンポーネントを定義できます。
 
-「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する際の同じ名前のタブと同じように機能します。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)
+「許可されるコンポーネント」タブは、[テンプレートエディターでレイアウトコンテナのポリシーやプロパティを定義する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=ja)際の同じ名前のタブと同じように機能します。
 
 ### 「スタイル」タブ {#styles-tab}
 

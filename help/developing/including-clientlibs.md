@@ -1,20 +1,36 @@
 ---
-title: クライアントライブラリを含める
-description: 使用事例に応じてクライアントライブラリを含める方法は多数あります。
+title: クライアントライブラリとコアコンポーネント
+description: コアコンポーネントには多数のクライアントライブラリが付属しており、独自のを組み込むことができます。
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 39a5dee1666fa2645e0579fdfac0400f7fcbdc27
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 65%
 
 ---
 
-# クライアントライブラリを含める {#including-client-libraries}
 
-使用事例に応じて[クライアントライブラリ](/help/developing/archetype/front-end.md#clientlibs)を含める方法は多数あります。このドキュメントでは、それぞれの例とサンプル [HTL スニペット](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ja)を紹介します。
+# クライアントライブラリとコアコンポーネント {#client-libraries}
 
-## 推奨されるデフォルトの使用方法 {#recommended-default-usage}
+コアコンポーネントには多数のクライアントライブラリが付属しており、独自のを組み込むことができます。
+
+## 提供されたクライアントライブラリ {#provided}
+
+コアコンポーネントは、次のクライアントライブラリを標準で提供します。
+
+* The **サイト** clientlibs は、サイトに適用されるコンポーネントの最小限の機能動作を提供します。
+   * これらは、プロジェクトを高速化するための出発点となり、実装の拡張と拡張を推奨します。 [カスタマイズする](/help/developing/customizing.md) 目的の外観と機能を実現する。
+* The **編集者** clientlibs は、オーサリングダイアログに適用され、期待される機能と外観を確保します。
+* The **editorhook** clientlibs は、編集モードで読み込まれると、サイトに適用されます。
+   * エディターでトリガーされるイベントで実行される JavaScript コードが含まれ、動的機能を初期化しやすくなります。
+* 一部のコンポーネントでは、特定の状況で使用するように設計された特定の追加のクライアントライブラリが含まれている場合があります（例えば、と併用する場合など）。 [Dynamic Media](/help/components/image.md#dynamic-media) 例：
+
+## クライアントライブラリを含める {#including}
+
+使用事例に応じて[クライアントライブラリ](/help/developing/archetype/front-end.md#clientlibs)を含める方法は多数あります。次に、サンプルを含む例を示します [HTL スニペット](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ja) を設定します。
+
+### 推奨されるデフォルトの使用方法 {#recommended-default-usage}
 
 状況に何が最適かを調べる時間がない場合は、次の HTL 行をページ `head` 要素内に配置して、クライアントライブラリを含めます。
 
@@ -27,7 +43,7 @@ ht-degree: 100%
 
 これにより、ページ `head` に CSS と JS の両方が含まれますが、JS `script` インクルードに `defer` 属性が追加されるので、ブラウザーは DOM は準備が完了するのを待ってスクリプトを実行し、ページの読み込み速度を最適化します。
 
-## 基本的な使用方法 {#basic-usage}
+### 基本的な使用方法 {#basic-usage}
 
 クライアントライブラリカテゴリの JS と CSS の両方を含める基本構文は、次のとおりです。この構文は、対応するすべての CSS `link` 要素または JS `script` 要素を生成します。
 
@@ -46,7 +62,7 @@ ht-degree: 100%
 </sly>
 ```
 
-## CSS または JS のみ {#css-js-only}
+### CSS または JS のみ {#css-js-only}
 
 HTML `head` 要素に CSS インクルードを配置し、`body` 要素を閉じる直前に JS インクルードを配置することがよくあります。
 
@@ -66,7 +82,7 @@ CSS ではなく JS のみを含めるには、`body` を閉じる前に `jsIncl
 </sly>
 ```
 
-## 属性 {#attributes}
+### 属性 {#attributes}
 
 生成される CSS `link` 要素や JS `script` 要素に属性を適用するには、次のように多数のパラメーターを使用できます。
 
@@ -90,7 +106,7 @@ CSS ではなく JS のみを含めるには、`body` を閉じる前に `jsIncl
 * `onload`：文字列
 * `crossorigin`：文字列
 
-## インライン {#inlining}
+### インライン {#inlining}
 
 場合によっては、最適化用、またはメールまたは [AMP](amp.md) 用として、CSS または JS を HTML の出力にインライン化する必要が出ることがあります。
 
@@ -112,7 +128,7 @@ CSS をインライン化するには、`cssInline` を使用できますが、�
 </script>
 ```
 
-## コンテキスト対応 CSS と JavaScript の読み込み {#context-aware-loading}
+### コンテキスト対応 CSS と JavaScript の読み込み {#context-aware-loading}
 
 [ページコンポーネント](/help/components/page.md)では、開発者定義のコンテキスト対応 CSS、JavaScript、メタタグの読み込みもサポートしています。
 

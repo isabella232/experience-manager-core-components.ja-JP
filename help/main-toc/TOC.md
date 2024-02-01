@@ -5,9 +5,9 @@ breadcrumb-title: コアコンポーネントガイド
 feature: Core Components
 user-guide-description: 拡張可能なコアコンポーネントを使用すると、作成者がコンテンツを容易に作成できます。
 feature-set: Experience Manager Sites
-source-git-commit: 5aed197937ca527d699569df09ea3305bae98fae
+source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 97%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 97%
 # AEM コアコンポーネントヘルプ {#using}
 
 + [コアコンポーネントの概要](/help/introduction.md)
++ [レスポンシブデザイン](/help/responsive.md)
 + [成功への道筋](/help/developing/success.md)
 + [コンポーネントライブラリ](https://adobe.com/go/aem_cmp_library_jp)
 + [バージョン](/help/versions.md)

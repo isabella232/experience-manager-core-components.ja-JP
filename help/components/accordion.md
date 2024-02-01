@@ -3,12 +3,13 @@ title: アコーディオンコンポーネント
 description: コアコンポーネントのアコーディオンコンポーネントを使用すると、アコーディオン形式で配置された一連のパネルをページ上に作成できます。
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: ht
-source-wordcount: '1068'
-ht-degree: 100%
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+workflow-type: tm+mt
+source-wordcount: '1098'
+ht-degree: 94%
 
 ---
+
 
 # アコーディオンコンポーネント {#accordion-component}
 
@@ -57,6 +58,12 @@ ht-degree: 100%
    * 例：`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 パネル ID をアンカーとして使用して指定した URL に移動すると、ブラウザーは特定のコンポーネントまで直接スクロールし、指定したパネルを表示します。デフォルトでパネルが展開されないように設定されている場合は、自動的に展開されます。
+
+## アコーディオンとレスポンシブデザイン {#responsive-design}
+
+すべてのコアコンポーネントは、完全にレスポンシブに設計されており、デバイス間のシームレスなエクスペリエンスを確保します。
+
+アコーディオンコンポーネントなど、一部の高度なコンポーネントでは、すべての状況での応答性を維持するために、実装プロジェクトのコンテキスト内で特定の検討が必要になる場合があります。 ドキュメントを参照してください [コアコンポーネントのレスポンシブデザイン](/help/responsive.md) を参照してください。
 
 ## 設定ダイアログ {#configure-dialog}
 
