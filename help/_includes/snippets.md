@@ -1,8 +1,8 @@
 ---
 source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # スニペット {#snippets}
@@ -76,7 +76,7 @@ ht-degree: 99%
 - [ラジオボタン](/help/adaptive-forms/components/radio-button.md)
 - [リセットボタン](/help/adaptive-forms/components/reset-button.md)
 - [送信ボタン](/help/adaptive-forms/components/submit-button.md)
-- [切り替え](/help/adaptive-forms/components/switch.md)
+- [スイッチ](/help/adaptive-forms/components/switch.md)
 - [電話入力](/help/adaptive-forms/components/telephone-input.md)
 - [テキスト入力](/help/adaptive-forms/components/text-input.md)
 - [テキスト](/help/adaptive-forms/components/text.md)
