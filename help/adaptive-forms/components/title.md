@@ -4,9 +4,9 @@ description: アダプティブフォームのタイトルコアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## デザインダイアログ {#design-dialog}
 
-「デザイン」タブは、タイトルコンポーネントの CSS スタイルを定義および管理するために使用します。
+「デザイン」タブでは、タイトルコンポーネントの CSS スタイルを定義および管理できます。
 
 ### タイトル
 
@@ -90,7 +90,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![デザインダイアログの「タイトル」タブ](/help/adaptive-forms/assets/title_styles.png)
 
-- **デフォルトの CSS クラス**：アダプティブFormsタイトルコアコンポーネントのデフォルト CSS クラスを指定できます。
+- **デフォルトの CSS クラス**：アダプティブフォームのタイトルコアコンポーネントにデフォルトの CSS クラスを指定できます。
 
 - **許可されたスタイル**：スタイルを表す名前と CSS クラスを指定してスタイルを定義します。 例えば、「bold text」という名前のスタイルを作成し、CSS クラス「font-weight: bold」を指定できます。アダプティブフォームエディターでアダプティブフォームにこれらのスタイルを使用または適用できます。スタイルを適用するには、アダプティブフォームエディターでスタイルを適用するコンポーネントを選択し、「プロパティ」ダイアログに移動して「**スタイル**」ドロップダウンリストから希望のスタイルを選択します。スタイルを更新または変更する必要がある場合は、デザインダイアログに戻り、「スタイル」タブでスタイルを更新して変更を保存します。
 
