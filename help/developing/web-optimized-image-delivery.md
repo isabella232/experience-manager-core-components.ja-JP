@@ -3,9 +3,9 @@ title: Web に最適化された画像配信
 description: コアコンポーネントで AEM as a Cloud Service の web に最適化された画像配信機能を活用して画像をより効率的に配信する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 7325751541d463eb9744b1e4a72fd64611f74d55
+source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 54%
 
 ---
@@ -95,4 +95,5 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 * HTMLでは、Web に最適化された画像を有効にする際にマークアップは変更されず、 `src` 属性が変更されたときに、その属性が有効になります。
 * 新しい画像サービスが使用できない場合や、目的の画像を処理できない場合は、生成された URL が[アダプティブ画像サーブレットにフォールバック](#fallback)します。
-* Dispatcher ルールによって、Web に最適化された画像配信サービスがブロックされる場合があります。 画像配信サービスの URL が次の値で始まる `/adobe`そして、調べて [dispatcher は、拒否された要求をログに記録します。](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) は、ブラウザーへの画像の配信で発生したエラーのトラブルシューティングに役立ちます。
+
+ただし、Dispatcher ルールによって Web に最適化された画像配信サービスがブロックされる場合があります。 画像配信サービスの URL が次の値で始まる `/adobe`を参照し、拒否されたリクエストのログを次のように調べます。 [ここで説明](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) は、ブラウザーへの画像の配信で発生したエラーのトラブルシューティングに役立ちます。
