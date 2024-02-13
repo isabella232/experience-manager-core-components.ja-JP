@@ -4,9 +4,9 @@ description: アダプティブフォームのチェックボックスコアコ�
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1746'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
-> AEM 6.5 Formsの場合、このコンポーネントはAEM 6.5 Forms Service Pack 19(6.5.19.0) で導入されました。 このコンポーネントを有効にするには、Formsコアコンポーネントと WCM コアコンポーネントの両方に必要なバージョンがインストールされていることを確認します。 アダプティブFormsコアコンポーネントのリリースについて詳しくは、 [アダプティブForms Core コンポーネントリリース](/help/adaptive-forms/version.md)
+> AEM 6.5 Forms の場合、このコンポーネントは AEM 6.5 Forms Service Pack 19（6.5.19.0）で導入されました。このコンポーネントを有効にするには、Forms コアコンポーネントと WCM コアコンポーネントの両方に、必要なバージョンがインストールされていることを確認します。アダプティブフォームのコアコンポーネントのリリースについて詳しくは、[アダプティブフォームのコンポーネントリリース](/help/adaptive-forms/version.md)を参照してください。
 
 **例**
 
