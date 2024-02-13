@@ -1,28 +1,28 @@
 ---
-title: AEM Adaptive Formsコアコンポーネントのバージョン
+title: AEM アダプティブフォームのコアコンポーネントのバージョン
 description: AEM コアコンポーネントはリリースとして公開されます。これらのリリースには、同じコアコンポーネントの複数のバージョンが含まれている場合があります。このドキュメントでは、リリースとバージョンの概要、およびコアコンポーネントと AEM の互換性を理解する方法について説明します。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 
-# アダプティブForms Core コンポーネントリリース {#core-components-versions}
+# アダプティブフォームのコアコンポーネントのリリース {#core-components-versions}
 
-環境内の最新のアダプティブFormsコアコンポーネントをアクティブ化するために必要な、Formsコアコンポーネントと WCM コアコンポーネントの依存関係の両方の正確なバージョンを特定します。 さらに、アダプティブFormsコアコンポーネントの各リリースで有効になるコンポーネントと機能についても理解しておいてください。
+使用する環境において最新のアダプティブフォームのコアコンポーネントをアクティブ化するのに必要な、フォームコアコンポーネントと WCM コアコンポーネントの両方で、依存関係の正確なバージョンを特定します。さらに、アダプティブフォームのコアコンポーネントの各リリースで有効化されているコンポーネントと機能を確認します。
 
-## AEM Forms (Cloud Serviceのバージョン履歴 ) {#aem-as-cs-version-history}
+## AEM as a Cloud Service のバージョン履歴 {#aem-as-cs-version-history}
 
 次の表は、AEM as a Cloud Service と互換性のあるコアコンポーネントリリースをリストアップしたものです。これらは、[GitHub とそのリリースの包括的な詳細](https://github.com/adobe/aem-core-forms-components/releases)で利用できます。
 
 
 
 
-| Forms Core Components | WCM コアコンポーネント | AEM Forms as a cloud service | Java | Maven |
+| フォームコアコンポーネント | WCM コアコンポーネント | AEM Forms as a Cloud Service | Java | Maven |
 |-----------------------|---------------------| ---------------------------- | ----- | ------ |
 | 2.0.86 | 2.23.4 | 継続的 | 8、11 | 3.3.9 以上 |
 | 2.0.76 | 2.23.4 | 継続的 | 8、11 | 3.3.9 以上 |
@@ -113,7 +113,7 @@ ht-degree: 55%
 次の表は、オンプレミスおよび AMS の AEM 6.5 Form と互換性のあるコアコンポーネントリリースをリストアップしたものです。これらは、[GitHub とそのリリースの包括的な詳細](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12)で利用できます。
 
 
-| Forms Core Components | WCM コアコンポーネント | AEM 6.5 | Java | Maven |
+| フォームコアコンポーネント | WCM コアコンポーネント | AEM 6.5 | Java | Maven |
 |-----------------------|---------------------|---------| ----- | ------ |
 | 1.1.32 | 2.23.2 | 6.5.18 以上 | 8、11 | 3.3.9 以上 |
 | 1.1.28 | 2.23.2 | 6.5.19 以上 | 8、11 | 3.3.9 以上 |
