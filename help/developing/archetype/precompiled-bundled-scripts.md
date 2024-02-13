@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 source-git-commit: 554be9539428cd75462a38fc45f1bece04baf066
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 53%
 
 AEM as a Cloud Service では、[`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#code-packages-%2F-osgi-bundles) コンポーネントスクリプトを事前コンパイル済みバンドルスクリプトとしてデプロイすることができます。これにより、開発者は、ビルド時にスクリプトを事前にコンパイルして、OSGi バンドルとしてパッケージ化することができます。
 
-## OSGi バンドルを介してプリコンパイル済みスクリプトをデプロイするメリット {#advantages}
+## OSGi バンドルを使用して事前コンパイル済みスクリプトをデプロイするメリット {#advantages}
 
 スクリプトを事前コンパイル済みバンドルスクリプトとしてデプロイすると、次の利点があります。
 
-+ ビルド時にスクリプトをコンパイルすると、開発プロセスの初期段階でエラーを検出できます。
-+ Java API スクリプトの依存関係は、 `Import-Package` および `Export-Package` バンドルヘッダー。
-+ 継承 ( `sling:resourceSuperType`) や他のリソースタイプへのデリゲーション (HTL の `data-sly-resource` ブロック要素または経由 `sling:include` JSP タグなど ) は、バンドルのメタデータを介してマッピングできます。
-+ リソースタイプのバージョン管理は、Java API と同様の方法で適用できます。
++ ビルド時にスクリプトをコンパイルすると、開発者が開発プロセスの早期にエラーを検出できます。
++ Java API スクリプトの依存関係は、`Import-Package` および `Export-Package` バンドルヘッダーを使用して明示的に定義されます。
++ （`sling:resourceSuperType` を使用した）継承および（例えば HTL の `data-sly-resource` ブロック要素や `sling:include` JSP タグなどを使用した）他のリソースタイプへの委任は、バンドルのメタデータを使用してマッピングできます。
++ リソースタイプのバージョン管理を、Java API と同様の方法で適用できます。
 
-## プリコンパイルとパッケージの読み込み {#precompilation}
+## 事前コンパイルとパッケージの読み込み {#precompilation}
 
 [`htl-maven-plugin`](https://sling.apache.org/components/htl-maven-plugin/index.html) は HTL スクリプトの構文を検証できますが、HTL スクリプトを Java クラスにトランスパイルする場合にも使用できます。これらは Maven プロジェクトの `generated-sources` フォルダーに追加され、`maven-compiler-plugin` によって選択されます。
 
@@ -33,12 +33,12 @@ AEM as a Cloud Service では、[`ui.apps`](https://experienceleague.adobe.com/d
 
 ## 継承と委任 {#inheritance-delegation}
 
-OSGi フレームワークは、 [要件と機能](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies) 様々な部品間の契約を表す。 これらはメタデータを使用して記述され、実行時に適用されます。バンドルスクリプトでは、このメカニズムを使用して、継承関係（`sling:resourceSuperType`）と委任（レンダリングプロセスにおける他のリソースタイプを含む）の両方を表現します。
+OSGi フレームワークは、様々なコンポーネント間のコントラクト表現する[要件と機能](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies)を定義する強力な方法を提供します。これらはメタデータを使用して記述され、実行時に適用されます。バンドルスクリプトでは、このメカニズムを使用して、継承関係（`sling:resourceSuperType`）と委任（レンダリングプロセスにおける他のリソースタイプを含む）の両方を表現します。
 
-The `bnd` プラグイン [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) プロジェクトを使用して、 [`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#code-packages-%2F-osgi-bundles) コンテンツパッケージ
+[`ui.apps` によって提供されるスクリプトに対応する要件と機能を抽出するには、[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) プロジェクトの `bnd` プラグインを使用できます。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#code-packages-%2F-osgi-bundles) コンテンツパッケージ
 
-## AEMプロジェクトのアーキタイプのサポート {#support}
+## AEM プロジェクトアーキタイプのサポート {#support}
 
-バージョン 31 以降、 [AEM Project Archetype](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=ja) を使用して、事前にコンパイルされたバンドルされたスクリプトを使用するAEMas a Cloud Serviceプロジェクトを正しく設定できます。
+バージョン 31 からは、[AEM プロジェクトアーキタイプ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=ja)では、事前コンパイル済みバンドルスクリプトを使用するように AEM as a Cloud Service プロジェクトを正しく設定できます。
 
 さらに、AEM プロジェクトアーキタイプでは、Java パッケージレベルとスクリプトレベルでの依存関係を検証するように [AEM as a Cloud Service SDK の Build Analyzer Maven プラグイン](/help/developing/archetype/build-analyzer-maven-plugin.md)を設定します。
