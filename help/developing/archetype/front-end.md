@@ -1,28 +1,28 @@
 ---
-title: AEMプロジェクトアーキタイプを使用したフロントエンド開発
-description: AEM Project Archetype の、Webpack に基づく専用のフロントエンドビルドメカニズム（オプション）について説明します。
+title: AEM プロジェクトアーキタイプを使用したフロントエンド開発
+description: AEM プロジェクトアーキタイプの Webpack に基づく専用のフロントエンドビルドメカニズム（オプション）について説明します。
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: bd92a5d1884056ca7b44ea28e5817d8bde10a4d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
-# AEMプロジェクトアーキタイプを使用したフロントエンド開発 {#front-end}
+# AEM プロジェクトアーキタイプを使用したフロントエンド開発 {#front-end}
 
 AEM プロジェクトのアーキタイプには、Webpack ベースの専用フロントエンドビルドメカニズム（オプション）が含まれています。このように、ui.frontend モジュールは、JavaScript や CSS ファイルを含む、プロジェクトのすべてのフロントエンドリソースの中心となります。この便利で柔軟な機能を最大限に活用するには、AEM プロジェクトにフロントエンド開発がどのように適合するかを理解することが重要です。
 
-このドキュメントでは、フロントエンドビルドモジュールの一般的な使用パターンと、それがお客様に与える影響について説明します。 ビルドオプションと技術的な手順について詳しくは、アーキタイプの GitHub リポジトリにあるドキュメントを参照してください。
+このドキュメントでは、フロントエンドビルドモジュールの一般的な使用パターンおよびユーザーに与える影響について説明します。ビルドオプションと技術的な手順について詳しくは、アーキタイプの GitHub リポジトリにあるドキュメントを参照してください。
 
 >[!TIP]
 >
->最新のAEMプロジェクトアーキタイプと関連する技術ドキュメント [は GitHub にあります。](https://github.com/adobe/aem-project-archetype)
+>最新の AEM プロジェクトのアーキタイプおよび技術的なドキュメントは、[GitHub を参照してください。](https://github.com/adobe/aem-project-archetype)
 
-## AEMフロントエンドおよびバックエンド開発 {#front-end-back-end}
+## AEM フロントエンドおよびバックエンド開発 {#front-end-back-end}
 
 簡単に言えば、AEM プロジェクトは、2 つの異なる関連部分から成ると考えることができます。
 
@@ -66,11 +66,11 @@ Webpack を使用すると、ui.frontend モジュール内の AEM Web ページ
 >
 >[Storybook](https://storybook.js.org) は AEM プロジェクトのアーキタイプには含まれていません。使用する場合は、個別にインストールする必要があります。
 
-## Clientlibs の概要 {#clientlibs}
+## ClientLibs の概要 {#clientlibs}
 
-フロントエンドモジュールは、 [AEM clientlib.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja)。NPM ビルドスクリプトを実行すると、アプリがビルドされ、 `aem-clientlib-generator` パッケージは、結果のビルド出力を取得し、そのような clientlib に変換します。
+フロントエンドモジュールは、[AEM ClientLib を使用して利用可能になります。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja)。NPM ビルドスクリプトを実行する場合、アプリケーションがビルドされ、`aem-clientlib-generator` パッケージがビルド出力結果を取得して、そのような ClientLib に変換します。
 
-clientlib は、次のファイルとディレクトリで構成されます。
+ClientLib は、次のファイルとディレクトリで構成されます。
 
 * `css/`：HTML で要求できる CSS ファイル
 * `css.txt`：ファイルを結合できるように、`css/` 内のファイルの順序と名前を AEM に指示します。
@@ -80,4 +80,4 @@ clientlib は、次のファイルとディレクトリで構成されます。
 
 >[!TIP]
 >
->AEMでの clientlib の処理方法について詳しくは、 [AEM開発ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja) それらを [コアコンポーネントのドキュメント。](/help/developing/including-clientlibs.md)
+>AEM での ClientLib の処理方法について詳しくは、[AEM 開発ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja)を、それらをどのように含めるかについて詳しくは、[コアコンポーネントのドキュメント](/help/developing/including-clientlibs.md)を参照してください。
