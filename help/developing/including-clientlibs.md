@@ -1,34 +1,34 @@
 ---
 title: クライアントライブラリとコアコンポーネント
-description: コアコンポーネントには多数のクライアントライブラリが付属しており、独自のを組み込むことができます。
+description: コアコンポーネントには多数のクライアントライブラリが付属しているほか、独自のクライアントライブラリを組み込むこともできます。
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
 # クライアントライブラリとコアコンポーネント {#client-libraries}
 
-コアコンポーネントには多数のクライアントライブラリが付属しており、独自のを組み込むことができます。
+コアコンポーネントには多数のクライアントライブラリが付属しているほか、独自のクライアントライブラリを組み込むこともできます。
 
-## 提供されたクライアントライブラリ {#provided}
+## 用意されているクライアントライブラリ {#provided}
 
-コアコンポーネントは、次のクライアントライブラリを標準で提供します。
+コアコンポーネントには、次のクライアントライブラリが標準で用意されています。
 
-* The **サイト** clientlibs は、サイトに適用されるコンポーネントの最小限の機能動作を提供します。
-   * これらは、プロジェクトを高速化するための出発点となり、実装の拡張と拡張を推奨します。 [カスタマイズする](/help/developing/customizing.md) 目的の外観と機能を実現する。
-* The **編集者** clientlibs は、オーサリングダイアログに適用され、期待される機能と外観を確保します。
-* The **editorhook** clientlibs は、編集モードで読み込まれると、サイトに適用されます。
-   * エディターでトリガーされるイベントで実行される JavaScript コードが含まれ、動的機能を初期化しやすくなります。
-* 一部のコンポーネントでは、特定の状況で使用するように設計された特定の追加のクライアントライブラリが含まれている場合があります（例えば、と併用する場合など）。 [Dynamic Media](/help/components/image.md#dynamic-media) 例：
+* **site** clientlibs は、サイトに適用されるコンポーネントの最小限の機能的動作を提供します。
+   * これらは、プロジェクトを高速化するための出発点となり、目的の外観と機能を実現するために実装の拡張と[カスタマイズ](/help/developing/customizing.md)が推奨されます。
+* **editor** clientlibs は、オーサリングダイアログに適用されて、期待される機能と外観を実現します。
+* **editorhook** clientlibs は、編集モードで読み込まれたときにサイトに適用されます。
+   * エディターでトリガーされたイベントで実行される JavaScript コードが含まれているので、動的機能を初期化しやすくなります。
+* コンポーネントによっては、特定の状況（例えば、[Dynamic Media](/help/components/image.md#dynamic-media) と併用する場合など）で使用されるように設計された特定の追加クライアントライブラリが含まれている場合があります。
 
 ## クライアントライブラリを含める {#including}
 
-使用事例に応じて[クライアントライブラリ](/help/developing/archetype/front-end.md#clientlibs)を含める方法は多数あります。次に、サンプルを含む例を示します [HTL スニペット](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ja) を設定します。
+ユースケースに応じて[クライアントライブラリ](/help/developing/archetype/front-end.md#clientlibs)を含める方法は多数あります。それぞれのサンプル [HTL スニペット](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=ja)を含んだ例を以下に示します。
 
 ### 推奨されるデフォルトの使用方法 {#recommended-default-usage}
 
