@@ -4,9 +4,9 @@ description: アダプティブフォームの垂直タブコアコンポーネ�
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1959'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
-> AEM 6.5 Formsの場合、このコンポーネントはAEM 6.5 Forms Service Pack 19(6.5.19.0) で導入されました。 このコンポーネントを有効にするには、Formsコアコンポーネントと WCM コアコンポーネントの両方に必要なバージョンがインストールされていることを確認します。 アダプティブFormsコアコンポーネントのリリースについて詳しくは、 [アダプティブForms Core コンポーネントリリース](/help/adaptive-forms/version.md)
+> AEM 6.5 Forms の場合、このコンポーネントは AEM 6.5 Forms Service Pack 19（6.5.19.0）で導入されました。このコンポーネントを有効にするには、Forms コアコンポーネントと WCM コアコンポーネントの両方に、必要なバージョンがインストールされていることを確認します。アダプティブフォームのコアコンポーネントのリリースについて詳しくは、[アダプティブフォームのコンポーネントリリース](/help/adaptive-forms/version.md)を参照してください。
 
 ![例](/help/adaptive-forms/assets/horizontal-example.png)
 
