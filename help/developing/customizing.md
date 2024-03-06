@@ -1,11 +1,11 @@
 ---
-title: 'コアコンポーネントのカスタマイズ '
+title: コアコンポーネントのカスタマイズ
 description: コアコンポーネントには、シンプルなスタイル設定から高度な機能の再利用に至るまで、カスタマイズを容易に実行できるパターンがいくつか実装されています。
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
 workflow-type: ht
-source-wordcount: '1100'
+source-wordcount: '1041'
 ht-degree: 100%
 
 ---
@@ -59,15 +59,16 @@ ht-degree: 100%
                         <originalTab
                                 jcr:primaryType="nt:unstructured"
                                 sling:hideResource="true"/>
-                        </originalTab>
                         <myTab
                                jcr:primaryType="nt:unstructured"
                                jcr:title="My Tab"
-                               sling:resourceType="granite/ui/components/coral/foundation/container"/>
+                               sling:resourceType="granite/ui/components/coral/foundation/container">
+                                  
                                <!-- myTab content -->
+                                  
                         </myTab>
                 </items>
-            </basic>
+            </tabs>
         </items>
     </content>
 </jcr:root>
@@ -86,12 +87,16 @@ ht-degree: 100%
        adapters = Title.class,
        resourceType = "myproject/components/pageHeadline")
 public class PageHeadline implements Title {
+    
     @ScriptVariable private Page currentPage;
+    
     @Self @Via(type = ResourceSuperType.class)
+
     private Title title;
     @Override public String getText() {
         return currentPage.getTitle();
     }
+    
     @Override public String getType() {
         return title.getType();
     }
